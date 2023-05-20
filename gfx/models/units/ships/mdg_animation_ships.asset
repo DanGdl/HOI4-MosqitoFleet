@@ -1,0 +1,45 @@
+####
+# BOAT
+####
+animation = {
+	name = "generic_mdg_boat_death_animation"
+	file = "generic_mdg_boat_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_boat_attack_animation"
+	file = "generic_mdg_boat_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_boat_defend_animation"
+	file = "generic_mdg_boat_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_boat_idle_animation"
+	file = "generic_mdg_boat_idle.anim"
+}
+
+####
+# CORVETE
+####
+animation = {
+	name = "generic_mdg_corvete_death_animation"
+	file = "generic_mdg_corvete_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_corvete_attack_animation"
+	file = "generic_mdg_corvete_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_corvete_defend_animation"
+	file = "generic_mdg_corvete_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_corvete_idle_animation"
+	file = "generic_mdg_corvete_idle.anim"
+}

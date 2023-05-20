@@ -1,0 +1,5 @@
+technology_categories = {
+	mdg_boat_tech
+	mdg_corvete_tech
+}
+ 
