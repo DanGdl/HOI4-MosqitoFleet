@@ -7,6 +7,7 @@
  mdg_corvete_2_desc:0 "Corvete II description"
  mdg_corvete_3_desc:0 "Corvete III description"
  mdg_corvete_4_desc:0 "Corvete IV description"
+
  mdg_boat_1:0 "Boat I"
  mdg_boat_2:0 "Boat II"
  mdg_boat_3:0 "Boat III"
@@ -15,3 +16,18 @@
  mdg_boat_2_desc:0 "Boat II description"
  mdg_boat_3_desc:0 "Boat III description"
  mdg_boat_4_desc:0 "Boat IV description"
+
+ mdg_frigate_1:0 "Frigate I"
+ mdg_frigate_2:0 "Frigate II"
+ mdg_frigate_3:0 "Frigate III"
+ mdg_frigate_4:0 "Frigate IV"
+ mdg_frigate_1_desc:0 "Frigate I description"
+ mdg_frigate_2_desc:0 "Frigate II description"
+ mdg_frigate_3_desc:0 "Frigate III description"
+ mdg_frigate_4_desc:0 "Frigate IV description"
+
+ mdg_mini_submarine:0 "Mini submarine"
+ mdg_mini_submarine_desc:0 "Mini submarine description"
+
+ mdg_radio_boat:0 "Radio boat"
+ mdg_adio_boat_desc:0 "Radio boat description"

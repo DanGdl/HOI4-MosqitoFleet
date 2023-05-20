@@ -25,4 +25,30 @@ objectTypes = {
 		animation = { id = "damaged_defend"	type = "generic_mdg_corvete_defend_animation" }
 		animation = { id = "death"			type = "generic_mdg_corvete_death_animation" }
 	}
+
+	# FRIGATE
+	pdxmesh = {
+		name = "generic_mdg_frigate_mesh"
+		file = "gfx/models/units/ships/generic_mdg_frigate.mesh"
+		
+		animation = { id = "idle"			type = "generic_mdg_frigate_idle_animation" }
+		animation = { id = "attack"			type = "generic_mdg_frigate_attack_animation" }
+		animation = { id = "defend"			type = "generic_mdg_frigate_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_mdg_frigate_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_mdg_frigate_defend_animation" }
+		animation = { id = "death"			type = "generic_mdg_frigate_death_animation" }
+	}
+
+	# MINISUBMARINE
+	pdxmesh = {
+		name = "generic_mdg_mini_submarine_mesh"
+		file = "gfx/models/units/ships/generic_mdg_mini_submarine.mesh"
+		
+		animation = { id = "idle"			type = "generic_mdg_mini_submarine_idle_animation" }
+		animation = { id = "attack"			type = "generic_mdg_mini_submarine_attack_animation" }
+		animation = { id = "defend"			type = "generic_mdg_mini_submarine_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_mdg_mini_submarine_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_mdg_mini_submarine_defend_animation" }
+		animation = { id = "death"			type = "generic_mdg_mini_submarine_death_animation" }
+	}
 }

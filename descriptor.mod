@@ -1,9 +1,6 @@
-version="0.1"
+version="0"
 tags={
 	"Technologies"
-	"Historical"
-	"Military"
 }
 name="MosqitoFleet"
-picture="thumbnail.png"
 supported_version="1.12.13"

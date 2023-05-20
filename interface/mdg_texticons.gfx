@@ -10,6 +10,7 @@ spriteTypes = {
 		texturefile = "gfx/texticons/ship_mdg_boat_icon_small.dds"
 		legacy_lazy_load = no
 	}
+
 	spriteType = {
 		name = "GFX_ship_mdg_corvete_icon_small"
 		texturefile = "gfx/texticons/ship_mdg_corvete_icon_small.dds"
@@ -18,6 +19,28 @@ spriteTypes = {
 	spriteType = {
 		name = "unit_mdg_corvete_icon_small"
 		texturefile = "gfx/texticons/ship_mdg_corvete_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_mdg_frigate_icon_small"
+		texturefile = "gfx/texticons/ship_mdg_frigate_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_mdg_frigate_icon_small"
+		texturefile = "gfx/texticons/ship_mdg_frigate_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ship_mdg_mini_submarine_icon_small"
+		texturefile = "gfx/texticons/ship_mdg_mini_submarine_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_mdg_mini_submarine_icon_small"
+		texturefile = "gfx/texticons/ship_mdg_mini_submarine_icon_small.dds"
 		legacy_lazy_load = no
 	}
 }

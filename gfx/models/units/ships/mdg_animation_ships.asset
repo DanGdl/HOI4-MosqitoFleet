@@ -1,6 +1,4 @@
-####
 # BOAT
-####
 animation = {
 	name = "generic_mdg_boat_death_animation"
 	file = "generic_mdg_boat_death.anim"
@@ -21,9 +19,7 @@ animation = {
 	file = "generic_mdg_boat_idle.anim"
 }
 
-####
 # CORVETE
-####
 animation = {
 	name = "generic_mdg_corvete_death_animation"
 	file = "generic_mdg_corvete_death.anim"
@@ -42,4 +38,46 @@ animation = {
 animation = {
 	name = "generic_mdg_corvete_idle_animation"
 	file = "generic_mdg_corvete_idle.anim"
+}
+
+# FRIGATE
+animation = {
+	name = "generic_mdg_frigate_death_animation"
+	file = "generic_mdg_frigate_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_frigate_attack_animation"
+	file = "generic_mdg_frigate_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_frigate_defend_animation"
+	file = "generic_mdg_frigate_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_frigate_idle_animation"
+	file = "generic_mdg_frigate_idle.anim"
+}
+
+# SUBMARINE
+animation = {
+	name = "generic_mdg_mini_submarine_death_animation"
+	file = "generic_mdg_mini_submarine_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_mini_submarine_attack_animation"
+	file = "generic_mdg_mini_submarine_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_mini_submarine_defend_animation"
+	file = "generic_mdg_mini_submarine_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_mini_submarine_idle_animation"
+	file = "generic_mdg_mini_submarine_idle.anim"
 }

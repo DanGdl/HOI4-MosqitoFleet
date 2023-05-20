@@ -7,6 +7,7 @@
  mdg_corvete_2_desc:0 "Корвет II описание"
  mdg_corvete_3_desc:0 "Корвет III описание"
  mdg_corvete_4_desc:0 "Корвет IV описание"
+
  mdg_boat_1:0 "Катер I"
  mdg_boat_2:0 "Катер II"
  mdg_boat_3:0 "Катер III"
@@ -15,3 +16,18 @@
  mdg_boat_2_desc:0 "Катер II описание"
  mdg_boat_3_desc:0 "Катер III описание"
  mdg_boat_4_desc:0 "Катер IV описание"
+
+ mdg_frigate_1:0 "Фрегат I"
+ mdg_frigate_2:0 "Фрегат II"
+ mdg_frigate_3:0 "Фрегат III"
+ mdg_frigate_4:0 "Фрегат IV"
+ mdg_frigate_1_desc:0 "Фрегат I описание"
+ mdg_frigate_2_desc:0 "Фрегат II описание"
+ mdg_frigate_3_desc:0 "Фрегат III описание"
+ mdg_frigate_4_desc:0 "Фрегат IV описание"
+
+ mdg_mini_submarine:0 "Мини субмарина"
+ mdg_mini_submarine_desc:0 "Мини субмарина описание"
+
+ mdg_radio_boat:0 "Радиоуправляемый катер"
+ mdg_radio_boat_desc:0 "Радиоуправляемый катер описание"

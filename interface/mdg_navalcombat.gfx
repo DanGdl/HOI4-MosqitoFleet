@@ -11,4 +11,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/navalcombat/ships/mdg_boat.dds"
 		noOfFrames = 2
 	}
+
+	spriteType = { # "frigates"
+		name = "GFX_navalcombat_ship_icon_mdg_frigate"
+		texturefile = "gfx/interface/navalcombat/ships/mdg_frigate.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = { # "mini submarine"
+		name = "GFX_navalcombat_ship_icon_mdg_mini_submarine"
+		texturefile = "gfx/interface/navalcombat/ships/mdg_mini_submarine.dds"
+		noOfFrames = 2
+	}
 }
