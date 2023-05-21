@@ -502,7 +502,7 @@ equipments = {
 		manpower = 500
 	}
 
-	mdg_corvete_1 = {
+	mdg_corvette_1 = {
 		year = 1922
 
 		archetype = ship_hull_light
@@ -548,12 +548,12 @@ equipments = {
 		manpower = 250
 	}
 
-	mdg_corvete_2 = {
+	mdg_corvette_2 = {
 		year = 1936
 
 		archetype = ship_hull_light
 		priority = 2000
-		parent = mdg_corvete_1
+		parent = mdg_corvette_1
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -595,12 +595,12 @@ equipments = {
 		manpower = 325
 	}
 	
-	mdg_corvete_3 = {
+	mdg_corvette_3 = {
 		year = 1940
 
 		archetype = ship_hull_light
 		priority = 2000
-		parent = mdg_corvete_2
+		parent = mdg_corvette_2
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_battery_3
@@ -641,12 +641,12 @@ equipments = {
 		manpower = 400
 	}
 	
-	mdg_corvete_4 = {
+	mdg_corvette_4 = {
 		year = 1944
 
 		archetype = ship_hull_light
 		priority = 2000
-		parent = mdg_corvete_3
+		parent = mdg_corvette_3
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_battery_4

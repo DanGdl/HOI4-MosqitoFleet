@@ -148,10 +148,10 @@ entity = {
 	scale = 1.7
 }
 
-# CORVETE
+# CORVETTE
 entity = { 
-	name = "mdg_corvete_entity"
-	pdxmesh = "generic_mdg_corvete_mesh"
+	name = "mdg_corvette_entity"
+	pdxmesh = "generic_mdg_corvette_mesh"
 	
 	state = { 
 		name = "idle"

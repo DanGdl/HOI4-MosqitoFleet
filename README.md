@@ -4,8 +4,8 @@ Mod for HOI4. Adds small ships to vanila game
 ERRORS:
 [15:54:56][subunitdefinition.cpp:535]: No localisation for modifier_experience_gain_mdg_boat_training_factor
 [15:54:56][subunitdefinition.cpp:543]: No localisation for modifier_experience_gain_mdg_boat_combat_factor
-[15:54:56][subunitdefinition.cpp:535]: No localisation for modifier_experience_gain_mdg_corvete_training_factor
-[15:54:56][subunitdefinition.cpp:543]: No localisation for modifier_experience_gain_mdg_corvete_combat_factor
+[15:54:56][subunitdefinition.cpp:535]: No localisation for modifier_experience_gain_mdg_corvette_training_factor
+[15:54:56][subunitdefinition.cpp:543]: No localisation for modifier_experience_gain_mdg_corvette_combat_factor
 [15:54:56][subunitdefinition.cpp:535]: No localisation for modifier_experience_gain_mdg_frigate_training_factor
 [15:54:56][subunitdefinition.cpp:543]: No localisation for modifier_experience_gain_mdg_frigate_combat_factor
 [15:54:56][subunitdefinition.cpp:535]: No localisation for modifier_experience_gain_mdg_mini_submarine_training_factor
@@ -16,6 +16,8 @@ TODOS:
 - customize equipment and modules for MTG
 
 - customize stats for mode noMTG
+
+- terrains
 
 - fix subtechnolory icons  and inner screen
 - customize generic technology icons

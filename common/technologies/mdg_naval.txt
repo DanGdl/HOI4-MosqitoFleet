@@ -80,10 +80,10 @@ technologies = {
 		}
 	}
 
-	mdg_early_corvete = {
+	mdg_early_corvette = {
 
 		enable_equipments = {
-			mdg_corvete_1
+			mdg_corvette_1
 		}
 		
 		sub_technologies = {
@@ -92,7 +92,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mdg_basic_corvete
+			leads_to_tech = mdg_basic_corvette
 			research_cost_coeff = 1
 		}
 
@@ -111,14 +111,14 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			mdg_corvete_tech
+			mdg_corvette_tech
 		}
 	}
 	
-	mdg_basic_corvete = {
+	mdg_basic_corvette = {
 
 		enable_equipments = { 
-			mdg_corvete_2
+			mdg_corvette_2
 		}
 		
 		sub_technologies = {
@@ -127,7 +127,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mdg_improved_corvete
+			leads_to_tech = mdg_improved_corvette
 			research_cost_coeff = 1
 		}
 
@@ -146,14 +146,14 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			mdg_corvete_tech
+			mdg_corvette_tech
 		}
 	}
 	
-	mdg_improved_corvete = {
+	mdg_improved_corvette = {
 
 		enable_equipments = { 
-			mdg_corvete_3
+			mdg_corvette_3
 		}
 		
 		sub_technologies = {
@@ -162,7 +162,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mdg_advanced_corvete
+			leads_to_tech = mdg_advanced_corvette
 			research_cost_coeff = 1
 		}
 
@@ -181,14 +181,14 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			mdg_corvete_tech
+			mdg_corvette_tech
 		}
 	}
 	
-	mdg_advanced_corvete = {
+	mdg_advanced_corvette = {
 
 		enable_equipments = { 
-			mdg_corvete_4
+			mdg_corvette_4
 		}
 
 		sub_technologies = {
@@ -211,7 +211,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			mdg_corvete_tech
+			mdg_corvette_tech
 		}
 	}
 
@@ -232,7 +232,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			mdg_corvete_tech
+			mdg_corvette_tech
 		}
 	}
 	

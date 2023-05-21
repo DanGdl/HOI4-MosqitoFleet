@@ -1,10 +1,10 @@
 ﻿l_english:
  mdg_boats_tech:0 "Модели катеров"
- mdg_corvete_tech:0 "Модели корветов"
+ mdg_corvette_tech:0 "Модели корветов"
  mdg_frigate_tech:0 "Модели фрегатов"
  mdg_mini_submarine_tech:0 "Модели мини субмарин"
  mdg_radio_boat_tech:0 "Модели радиоуправляемых катеров"
 
  NAVAL_TITLE_BOATS:0 "КАТЕРА"
- NAVAL_TITLE_CORVETES:0 "КОРВЕТЫ"
+ NAVAL_TITLE_CORVETTES:0 "КОРВЕТЫ"
  NAVAL_TITLE_FRIGATES:0 "ФРЕГАТЫ"

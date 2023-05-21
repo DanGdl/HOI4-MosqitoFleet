@@ -13,17 +13,17 @@ objectTypes = {
 		animation = { id = "death"			type = "generic_mdg_boat_death_animation" }
 	}
 
-	# CORVETE
+	# CORVETTE
 	pdxmesh = {
-		name = "generic_mdg_corvete_mesh"
-		file = "gfx/models/units/ships/generic_mdg_corvete.mesh"
+		name = "generic_mdg_corvette_mesh"
+		file = "gfx/models/units/ships/generic_mdg_corvette.mesh"
 		
-		animation = { id = "idle"			type = "generic_mdg_corvete_idle_animation" }
-		animation = { id = "attack"			type = "generic_mdg_corvete_attack_animation" }
-		animation = { id = "defend"			type = "generic_mdg_corvete_defend_animation" }
-		animation = { id = "damaged_attack"	type = "generic_mdg_corvete_attack_animation" }
-		animation = { id = "damaged_defend"	type = "generic_mdg_corvete_defend_animation" }
-		animation = { id = "death"			type = "generic_mdg_corvete_death_animation" }
+		animation = { id = "idle"			type = "generic_mdg_corvette_idle_animation" }
+		animation = { id = "attack"			type = "generic_mdg_corvette_attack_animation" }
+		animation = { id = "defend"			type = "generic_mdg_corvette_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_mdg_corvette_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_mdg_corvette_defend_animation" }
+		animation = { id = "death"			type = "generic_mdg_corvette_death_animation" }
 	}
 
 	# FRIGATE

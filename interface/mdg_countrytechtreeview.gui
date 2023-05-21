@@ -1672,12 +1672,12 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "naval_subtitle_corvete"
+				name = "naval_subtitle_corvette"
 				position = { x = 30 y = 1317 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = { x = 0 y = 4 }
-				text = "NAVAL_TITLE_CORVETES"
+				text = "NAVAL_TITLE_CORVETTES"
 				maxWidth = 600
 				maxHeight = 62
 				format = left
@@ -1772,7 +1772,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "mdg_early_corvete_tree"
+				name = "mdg_early_corvette_tree"
 				position = { x = 150 y = 1320 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }

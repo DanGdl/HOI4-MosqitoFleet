@@ -1,6 +1,6 @@
 sub_units = {
-	mdg_corvete = {
-		sprite = mdg_corvete
+	mdg_corvette = {
+		sprite = mdg_corvette
 		map_icon_category = ship
 		priority = 3
 		active = yes

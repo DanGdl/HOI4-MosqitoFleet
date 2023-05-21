@@ -1,8 +1,8 @@
 spriteTypes = {	
 
-	spriteType = { # "corvetes"
-		name = "GFX_navalcombat_ship_icon_mdg_corvete"
-		texturefile = "gfx/interface/navalcombat/ships/mdg_corvete.dds"
+	spriteType = { # "corvettes"
+		name = "GFX_navalcombat_ship_icon_mdg_corvette"
+		texturefile = "gfx/interface/navalcombat/ships/mdg_corvette.dds"
 		noOfFrames = 2
 	}
 

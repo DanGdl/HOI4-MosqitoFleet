@@ -1,6 +1,6 @@
 technology_categories = {
 	mdg_boat_tech
-	mdg_corvete_tech
+	mdg_corvette_tech
 	mdg_frigate_tech
 	mdg_mini_submarine_tech
 	mdg_radio_boat_tech

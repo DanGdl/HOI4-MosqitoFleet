@@ -13,28 +13,28 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_mdg_modern_corvete_medium"
-		texturefile = "gfx/interface/technologies/mdg_modern_corvete.dds"
+		name = "GFX_mdg_modern_corvette_medium"
+		texturefile = "gfx/interface/technologies/mdg_modern_corvette.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_semi_modern_corvete_medium"
-		texturefile = "gfx/interface/technologies/mdg_semi_modern_corvete.dds"
+		name = "GFX_mdg_semi_modern_corvette_medium"
+		texturefile = "gfx/interface/technologies/mdg_semi_modern_corvette.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_advanced_corvete_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_corvete.dds"
+		name = "GFX_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/mdg_advanced_corvette.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_improved_corvete_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_corvete.dds"
+		name = "GFX_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/mdg_improved_corvette.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_basic_corvete_medium"
-		texturefile = "gfx/interface/technologies/mdg_basic_corvete.dds"
+		name = "GFX_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/mdg_basic_corvette.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_early_corvete_medium"
-		texturefile = "gfx/interface/technologies/mdg_early_corvete.dds"
+		name = "GFX_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/mdg_early_corvette.dds"
 	}
 
 	SpriteType = {
@@ -69,18 +69,18 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_advanced_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_corvete.dds"
+		texturefile = "gfx/interface/technologies/mdg_advanced_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_improved_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_corvete.dds"
+		texturefile = "gfx/interface/technologies/mdg_improved_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_basic_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/mdg_basic_corvete.dds"
+		texturefile = "gfx/interface/technologies/mdg_basic_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_early_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/mdg_early_corvete.dds"
+		texturefile = "gfx/interface/technologies/mdg_early_corvette.dds"
 	}
 }
