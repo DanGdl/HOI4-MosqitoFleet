@@ -8,6 +8,7 @@ equipments = {
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		priority = 2000
+		alias = mtg_corvette
 
 		upgrades = {
 			ship_torpedo_upgrade
