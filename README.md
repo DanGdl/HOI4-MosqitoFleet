@@ -10,11 +10,8 @@ ERRORS:
 
 
 TODOS:
+- customize equipment for noMTG
 - customize equipment and modules for MTG
-
-- customize stats for mode noMTG
-
-- terrains
 
 - fix subtechnolory icons  and inner screen
 - customize generic technology icons

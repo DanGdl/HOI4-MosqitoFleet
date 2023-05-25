@@ -1,37 +1,77 @@
 categories =  {
 
-	# ocean = {}
-	# water_fjords = {}
-	# water_shallow_sea = {}
-	# water_deep_ocean = {}
-	# water_littoral = {} not exist in origin
-
-	water_littoral = {
+	water_fjords = {
 		mdg_boat = {
 			units = {
-				attack = 1
-				movement = 1
-				defence = 1
+				attack = 0.2
+				movement = 0.2
+				defence = 0.2
 			}
 		}
 		mdg_corvette = {
 			units = {
-				attack = 1
-				movement = 1
-				defence = 1
+				attack = 0.1
+				movement = 0.1
+				defence = 0.1
+			}
+		}
+		mdg_mini_submarine = {
+			units = {
+				attack = 0.2
+				movement = 0.2
+				movement = 0.2
+			}
+		}
+	}
+
+	water_shallow_sea = {
+		mdg_boat = {
+			units = {
+				attack = 0.1
+				movement = 0.1
+				defence = 0.1
+			}
+		}
+		mdg_corvette = {
+			units = {
+				attack = 0.05
+				movement = 0.05
+				defence = 0.05
+			}
+		}
+		mdg_mini_submarine = {
+			navy_visibility = 0.5
+		}
+	}
+
+	water_deep_ocean = {
+		mdg_boat = {
+			units = {
+				attack = -0.4
+				movement = -0.4
+				defence = -0.4
+			}
+		}
+		mdg_corvette = {
+			units = {
+				attack = -0.3
+				movement = -0.3
+				defence = -0.3
 			}
 		}
 		mdg_frigate = {
 			units = {
-				attack = -0.5
-				movement = -0.5
-				defence = -0.5
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
 			}
 		}
 		mdg_mini_submarine = {
-			navy_visibility = -0.5
+			navy_visibility = -0.15
 			units = {
-				movement = 1
+				attack = -0.3
+				movement = -0.3
+				movement = -0.3
 			}
 		}
 	}
