@@ -1,6 +1,6 @@
 equipments = {
 
-	ship_hull_submarine = {
+	ship_hull_mini_submarine = {
 		year = 1922
 
 		is_archetype = yes
@@ -59,7 +59,6 @@ equipments = {
 		anti_air_attack = 0
 		
 		armor_value = 0
-
 		
 		surface_detection = 20
 		sub_detection = 0
@@ -72,12 +71,10 @@ equipments = {
 		
 		max_strength = 10
 		
-
 		fuel_consumption = 1
 		
 		build_cost_ic = 220
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		
@@ -89,7 +86,7 @@ equipments = {
 	mdg_mini_submarine = {
 		year = 1940
 
-		archetype = ship_hull_submarine
+		archetype = ship_hull_mini_submarine
 		priority = 2500
 		
 		module_slots = inherit
@@ -108,7 +105,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 1

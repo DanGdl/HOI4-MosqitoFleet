@@ -3,4 +3,4 @@ tags={
 	"Technologies"
 }
 name="MosqitoFleet"
-supported_version="1.12.13"
+supported_version="1.12.14"
