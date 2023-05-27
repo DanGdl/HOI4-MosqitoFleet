@@ -1,4 +1,4 @@
-﻿l_english:
+l_russian:
  mdg_corvette_1:0 "Корвет I"
  mdg_corvette_2:0 "Корвет II"
  mdg_corvette_3:0 "Корвет III"
@@ -26,8 +26,11 @@
  mdg_frigate_3_desc:0 "Фрегат III описание"
  mdg_frigate_4_desc:0 "Фрегат IV описание"
 
- mdg_mini_submarine:0 "Мини субмарина"
- mdg_mini_submarine_desc:0 "Мини субмарина описание"
+ mdg_mini_submarine_1:0 "Мини субмарина I"
+ mdg_mini_submarine_1_desc:0 "Мини субмарина I описание"
+
+ mdg_mini_submarine_2:0 "Мини субмарина II"
+ mdg_mini_submarine_2_desc:0 "Мини субмарина II описание"
 
  mdg_radio_boat:0 "Радиоуправляемый катер"
  mdg_radio_boat_desc:0 "Радиоуправляемый катер описание"

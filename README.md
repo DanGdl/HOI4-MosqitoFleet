@@ -6,6 +6,9 @@ Sources:
 https://hoi4.paradoxwikis.com/Naval_doctrine
 https://hoi4.paradoxwikis.com/Ship
 
+LANG SCRIPT:
+cat equip_naval_l_braz_por.yml | grep "destroyer" >> mdg_equip_naval_l_braz_por.yml; cat equip_naval_l_braz_por.yml | grep "submarine" >> mdg_equip_naval_l_braz_por.yml; cat equip_naval_l_braz_por.yml | grep "ship_hull_light" >> mdg_equip_naval_l_braz_por.yml 
+
 ERRORS:
 
 

@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  mdg_corvette_1:0 "Corvette I"
  mdg_corvette_2:0 "Corvette II"
  mdg_corvette_3:0 "Corvette III"
@@ -26,8 +26,12 @@
  mdg_frigate_3_desc:0 "Frigate III description"
  mdg_frigate_4_desc:0 "Frigate IV description"
 
- mdg_mini_submarine:0 "Mini submarine"
- mdg_mini_submarine_desc:0 "Mini submarine description"
+ mdg_mini_submarine_1:0 "Mini submarine I"
+ mdg_mini_submarine_1_desc:0 "Mini submarine I description"
+
+ mdg_mini_submarine_2:0 "Mini submarine II"
+ mdg_mini_submarine_2_desc:0 "Mini submarine II description"
 
  mdg_radio_boat:0 "Radio boat"
  mdg_adio_boat_desc:0 "Radio boat description"
+ 
