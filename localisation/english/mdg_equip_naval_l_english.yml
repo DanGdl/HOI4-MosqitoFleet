@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  mdg_corvette_1:0 "Corvette I"
  mdg_corvette_2:0 "Corvette II"
  mdg_corvette_3:0 "Corvette III"
@@ -34,4 +34,3 @@ l_english:
 
  mdg_radio_boat:0 "Radio boat"
  mdg_adio_boat_desc:0 "Radio boat description"
- 
