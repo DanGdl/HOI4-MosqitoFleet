@@ -1,0 +1,13 @@
+sub_unit_modifiers = {
+	modifier_experience_gain_mdg_boat_training_factor
+	modifier_experience_gain_mdg_boat_combat_factor
+
+	modifier_experience_gain_mdg_corvette_training_factor
+	modifier_experience_gain_mdg_corvette_combat_factor
+
+	modifier_experience_gain_mdg_frigate_training_factor
+	modifier_experience_gain_mdg_frigate_combat_factor
+	
+	modifier_experience_gain_mdg_mini_submarine_training_factor
+	modifier_experience_gain_mdg_mini_submarine_combat_factor
+}
