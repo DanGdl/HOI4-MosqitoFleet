@@ -11,9 +11,11 @@ ERRORS:
 
 
 TODOS:
-- customize equipment for noMTG
-- customize equipment and modules for MTG
+- customize equipment and modules for MTG:
+	- weapons
+	- slots settings
 
+- customize equipment for noMTG (stats done, need MTG)
 
 - customize generic technology icons
 - customize generic descriptions

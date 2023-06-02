@@ -5,7 +5,7 @@ sub_units = {
 		priority = 3
 		active = yes
 		type = { screen_ship }
-		need = { ship_hull_corvete = 1 }
+		need = { mdg_ship_hull_corvete = 1 }
 		
 		max_organisation = 35
 

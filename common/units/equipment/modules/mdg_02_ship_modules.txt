@@ -1,0 +1,59 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns" 
+	}
+
+### #  #  ##  ### #  # ### 
+#   ## # #     #  ## # #   
+##  # ## # ##  #  # ## ##  
+#   #  # #  #  #  #  # #   
+### #  #  ##  ### #  # ### 
+
+	mdg_mini_sub_ship_engine_1 = {
+		abbreviation = "mss_1"
+		category = mdg_mini_sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 7
+			build_cost_ic = 90
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.05
+		}
+		
+		can_convert_from = {
+			module_category = mdg_mini_sub_ship_engine
+			convert_cost_ic = 80
+		}
+	}
+
+	mdg_mini_sub_ship_engine_2 = {
+		abbreviation = "mss_2"
+		category = mdg_mini_sub_ship_engine
+		parent = mdg_mini_sub_ship_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 8
+			build_cost_ic = 80
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.1
+			
+			sub_visibility = -0.05
+		}
+		
+		can_convert_from = {
+			module_category = mdg_mini_sub_ship_engine
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module = mdg_mini_sub_ship_engine_1
+			convert_cost_ic = 70
+		}
+	}
+}

@@ -1,0 +1,110 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns" 
+	}
+
+### #  #  ##  ### #  # ### 
+#   ## # #     #  ## # #   
+##  # ## # ##  #  # ## ##  
+#   #  # #  #  #  #  # #   
+### #  #  ##  ### #  # ### 
+
+	mdg_corvette_engine_1 = {
+		abbreviation = "ce_1"
+		category = mdg_corvette_engine
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 7
+			build_cost_ic = 90
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.20
+		}
+		
+		can_convert_from = {
+			module_category = mdg_corvette_engine
+			convert_cost_ic = 250
+		}
+	}
+
+	mdg_corvette_engine_2 = {
+		abbreviation = "ce_2"
+		category = mdg_corvette_engine
+		parent = light_ship_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 8
+			build_cost_ic = 120
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.25
+		}
+		
+		can_convert_from = {
+			module_category = mdg_corvette_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = mdg_corvette_engine_1
+			convert_cost_ic = 230
+		}
+	}
+
+	mdg_corvette_engine_3 = {
+		abbreviation = "ce_3"
+		category = mdg_corvette_engine
+		parent = mdg_corvette_engine_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 10
+			build_cost_ic = 150
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.30
+		}
+		
+		can_convert_from = {
+			module_category = mdg_corvette_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = mdg_corvette_engine_2
+			convert_cost_ic = 230
+		}
+	}
+
+	mdg_corvette_engine_4 = {
+		abbreviation = "ce_4"
+		category = mdg_corvette_engine
+		parent = mdg_corvette_engine_3
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 10
+			build_cost_ic = 170
+		}
+
+		multiply_stats = {
+			naval_speed = 0.35
+			
+		}
+		
+		can_convert_from = {
+			module_category = mdg_corvette_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = mdg_corvette_engine_3
+			convert_cost_ic = 230
+		}
+	}
+}

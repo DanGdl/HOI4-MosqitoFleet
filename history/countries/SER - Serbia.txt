@@ -49,8 +49,10 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+		early_destroyer = 1
 		mdg_early_destroyer = 1
 		early_light_cruiser = 1
+		early_submarine = 1
 		mdg_early_submarine = 1
 		transport = 1
 	}
@@ -119,6 +121,7 @@ recruit_character = SER_mt
 		interwar_antiair = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
+		basic_destroyer = 1
 		mdg_basic_destroyer = 1
 
 		#doctrines

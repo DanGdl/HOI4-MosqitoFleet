@@ -33,4 +33,38 @@
  mdg_mini_submarine_2_desc:0 "Mini submarine II description"
 
  mdg_radio_boat:0 "Radio boat"
- mdg_adio_boat_desc:0 "Radio boat description"
+ mdg_radio_boat_desc:0 "Radio boat description"
+
+
+ mdg_ship_hull_boat_1:2 "Early Destroyer Hull"
+ mdg_ship_hull_boat_1_desc:0 "To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
+ mdg_ship_hull_boat_2:2 "1936 Destroyer Hull"
+ mdg_ship_hull_boat_2_desc:0 "Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile."
+ mdg_ship_hull_boat_3:2 "1940 Destroyer Hull"
+ mdg_ship_hull_boat_3_desc:0 "To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry."
+ mdg_ship_hull_boat_4:2 "1944 Destroyer Hull"
+ mdg_ship_hull_boat_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
+
+
+ mdg_ship_hull_corvette_1:2 "Early Destroyer Hull"
+ mdg_ship_hull_corvette_1_desc:0 "To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
+ mdg_ship_hull_corvette_2:2 "1936 Destroyer Hull"
+ mdg_ship_hull_corvette_2_desc:0 "Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile."
+ mdg_ship_hull_corvette_3:2 "1940 Destroyer Hull"
+ mdg_ship_hull_corvette_3_desc:0 "To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry."
+ mdg_ship_hull_corvette_4:2 "1944 Destroyer Hull"
+ mdg_ship_hull_corvette_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
+
+ mdg_ship_hull_frigate_1:2 "Early Destroyer Hull"
+ mdg_ship_hull_frigate_1_desc:0 "To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
+ mdg_ship_hull_frigate_2:2 "1936 Destroyer Hull"
+ mdg_ship_hull_frigate_2_desc:0 "Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile."
+ mdg_ship_hull_frigate_3:2 "1940 Destroyer Hull"
+ mdg_ship_hull_frigate_3_desc:0 "To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry."
+ mdg_ship_hull_frigate_4:2 "1944 Destroyer Hull"
+ mdg_ship_hull_frigate_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
+
+ mdg_ship_hull_mini_submarine_1:1 "1940 Submarine Hull"
+ mdg_ship_hull_mini_submarine_1_desc:0 "The role of the submarine in the fleet outside of convoy attacks is still under debate. Achieving a balance between combination of speed, range and weaponry will be key to the necessary model."
+ mdg_ship_hull_mini_submarine_2:1 "1944 Submarine Hull"
+ mdg_ship_hull_mini_submarine_2_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."

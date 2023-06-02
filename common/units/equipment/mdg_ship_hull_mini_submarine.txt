@@ -1,6 +1,6 @@
 equipments = {
 
-	ship_hull_mini_submarine = {
+	mdg_ship_hull_mini_submarine = {
 		year = 1922
 
 		is_archetype = yes
@@ -84,23 +84,23 @@ equipments = {
 	}
 
 
-	ship_hull_mini_submarine_1 = {
+	mdg_ship_hull_mini_submarine_1 = {
 		abbreviation = "ms_1"
 		year = 1940
 
-		archetype = ship_hull_mini_submarine
+		archetype = mdg_ship_hull_mini_submarine
 		priority = 2500
 		
 		module_slots = inherit
 	}
 
-	ship_hull_mini_submarine_2 = {
+	mdg_ship_hull_mini_submarine_2 = {
 		abbreviation = "ms_2"
 		year = 1944
 
-		archetype = ship_hull_mini_submarine
+		archetype = mdg_ship_hull_mini_submarine
 		priority = 2500
-		parent = ship_hull_mini_submarine_1
+		parent = mdg_ship_hull_mini_submarine_1
 
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
@@ -139,7 +139,7 @@ equipments = {
 	mdg_mini_submarine_1 = {
 		year = 1940
 
-		archetype = ship_hull_mini_submarine
+		archetype = mdg_ship_hull_mini_submarine
 		priority = 2500
 		
 		module_slots = inherit
@@ -183,7 +183,7 @@ equipments = {
 	mdg_mini_submarine_2 = {
 		year = 1944
 
-		archetype = ship_hull_mini_submarine
+		archetype = mdg_ship_hull_mini_submarine
 		priority = 2500
 		parent = mdg_mini_submarine_1
 		module_slots = inherit

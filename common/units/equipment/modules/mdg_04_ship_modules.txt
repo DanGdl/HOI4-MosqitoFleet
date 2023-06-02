@@ -1,0 +1,110 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns" 
+	}
+
+### #  #  ##  ### #  # ### 
+#   ## # #     #  ## # #   
+##  # ## # ##  #  # ## ##  
+#   #  # #  #  #  #  # #   
+### #  #  ##  ### #  # ### 
+
+	mdg_frigate_engine_1 = {
+		abbreviation = "fe_1"
+		category = mdg_frigate_engine
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 7
+			build_cost_ic = 90
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.20
+		}
+		
+		can_convert_from = {
+			module_category = mdg_frigate_engine
+			convert_cost_ic = 250
+		}
+	}
+
+	mdg_frigate_engine_2 = {
+		abbreviation = "fe_2"
+		category = mdg_frigate_engine
+		parent = light_ship_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			fuel_consumption = 8
+			build_cost_ic = 120
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.25
+		}
+		
+		can_convert_from = {
+			module_category = mdg_frigate_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = mdg_frigate_engine_1
+			convert_cost_ic = 230
+		}
+	}
+
+	mdg_frigate_engine_3 = {
+		abbreviation = "fe_3"
+		category = mdg_frigate_engine
+		parent = mdg_frigate_engine_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 10
+			build_cost_ic = 150
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.30
+		}
+		
+		can_convert_from = {
+			module_category = mdg_frigate_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = mdg_frigate_engine_2
+			convert_cost_ic = 230
+		}
+	}
+
+	mdg_frigate_engine_4 = {
+		abbreviation = "fe_4"
+		category = mdg_frigate_engine
+		parent = mdg_frigate_engine_3
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+			fuel_consumption = 10
+			build_cost_ic = 170
+		}
+
+		multiply_stats = {
+			naval_speed = 0.35
+			
+		}
+		
+		can_convert_from = {
+			module_category = mdg_frigate_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = mdg_frigate_engine_3
+			convert_cost_ic = 230
+		}
+	}
+}

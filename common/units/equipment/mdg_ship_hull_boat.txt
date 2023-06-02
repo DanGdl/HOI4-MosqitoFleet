@@ -1,13 +1,13 @@
 equipments = {
 
-	ship_hull_boat = {
+	mdg_ship_hull_boat = {
 		year = 1922
 
 		is_archetype = yes
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
-		alias = mtg_boat
+		alias = mdg_boat
 		priority = 2000
 
 		upgrades = {
@@ -110,23 +110,23 @@ equipments = {
 		manpower = 250
 	}
 
-	ship_hull_boat_1 = {
+	mdg_ship_hull_boat_1 = {
 		abbreviation = "hb_1"
 		year = 1922
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
 		
 		module_slots = inherit
 	}
 
-	ship_hull_boat_2 = {
+	mdg_ship_hull_boat_2 = {
 		abbreviation = "hb_2"
 		year = 1936
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
-		parent = ship_hull_boat_1
+		parent = mdg_ship_hull_boat_1
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -167,13 +167,13 @@ equipments = {
 		manpower = 325
 	}
 
-	ship_hull_boat_3 = {
+	mdg_ship_hull_boat_3 = {
 		abbreviation = "hb_3"
 		year = 1940
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
-		parent = ship_hull_boat_2
+		parent = mdg_ship_hull_boat_2
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -237,13 +237,13 @@ equipments = {
 		}
 	}
 
-	ship_hull_boat_4 = {
+	mdg_ship_hull_boat_4 = {
 		abbreviation = "hb_4"
 		year = 1944
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
-		parent = ship_hull_boat_3
+		parent = mdg_ship_hull_boat_3
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -304,7 +304,7 @@ equipments = {
 	mdg_boat_1 = {
 		year = 1922
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
@@ -350,7 +350,7 @@ equipments = {
 	mdg_boat_2 = {
 		year = 1936
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
 		parent = mdg_boat_1
 		module_slots = inherit
@@ -397,7 +397,7 @@ equipments = {
 	mdg_boat_3 = {
 		year = 1940
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
 		parent = mdg_boat_2
 		module_slots = inherit
@@ -443,7 +443,7 @@ equipments = {
 	mdg_boat_4 = {
 		year = 1944
 
-		archetype = ship_hull_boat
+		archetype = mdg_ship_hull_boat
 		priority = 2000
 		parent = mdg_boat_3
 		module_slots = inherit

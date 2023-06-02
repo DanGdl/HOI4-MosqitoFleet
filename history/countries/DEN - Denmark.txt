@@ -58,7 +58,9 @@ set_technology = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
+		early_submarine = 1
 		mdg_early_submarine = 1
+		early_destroyer = 1
 		mdg_early_destroyer = 1
 		early_heavy_cruiser = 1
 		transport = 1
@@ -157,6 +159,7 @@ if = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
+			basic_submarine = 1
 			mdg_basic_submarine = 1
 		}
 	}

@@ -52,8 +52,10 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+		early_destroyer = 1
 		mdg_early_destroyer = 1
 		early_light_cruiser = 1
+		early_submarine = 1
 		mdg_early_submarine = 1
 		transport = 1
 	}

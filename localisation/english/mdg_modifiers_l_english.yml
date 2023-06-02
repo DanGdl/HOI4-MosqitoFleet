@@ -10,3 +10,31 @@
  
  modifier_experience_gain_mdg_mini_submarine_training_factor:0 "Mini Submarine experence gain from training"
  modifier_experience_gain_mdg_mini_submarine_combat_factor:0 "Mini Submarine Combat Experience Gain"
+
+ modifier_module_mdg_ship_light_guns_1_design_cost_factor:0 "Light Guns I Design Cost"
+ modifier_module_mdg_ship_light_guns_2_design_cost_factor:0 "Light Guns II Design Cost"
+ modifier_module_mdg_ship_light_guns_3_design_cost_factor:0 "Light Guns III Design Cost"
+ modifier_module_mdg_ship_light_guns_4_design_cost_factor:0 "Light Guns IV Design Cost"
+
+ modifier_module_mdg_boat_engine_1_design_cost_factor:0 "Boat Engine I Design Cost"
+ modifier_module_mdg_boat_engine_2_design_cost_factor:0 "Boat Engine II Design Cost"
+ modifier_module_mdg_boat_engine_3_design_cost_factor:0 "Boat Engine III Design Cost"
+ modifier_module_mdg_boat_engine_4_design_cost_factor:0 "Boat Engine IV Design Cost"
+
+ modifier_module_mdg_corvette_engine_1_design_cost_factor:0 "Boat Engine I Design Cost"
+ modifier_module_mdg_corvette_engine_2_design_cost_factor:0 "Boat Engine II Design Cost"
+ modifier_module_mdg_corvette_engine_3_design_cost_factor:0 "Boat Engine III Design Cost"
+ modifier_module_mdg_corvette_engine_4_design_cost_factor:0 "Boat Engine IV Design Cost"
+
+ modifier_module_mdg_frigate_engine_1_design_cost_factor:0 "Boat Engine I Design Cost"
+ modifier_module_mdg_frigate_engine_2_design_cost_factor:0 "Boat Engine II Design Cost"
+ modifier_module_mdg_frigate_engine_3_design_cost_factor:0 "Boat Engine III Design Cost"
+ modifier_module_mdg_frigate_engine_4_design_cost_factor:0 "Boat Engine IV Design Cost"
+
+ modifier_module_mdg_mini_sub_ship_engine_1_design_cost_factor:0 "Mini submarine Engine I Design Cost"
+ modifier_module_mdg_mini_sub_ship_engine_2_design_cost_factor:0 "Mini submarine Engine II Design Cost"
+
+ mdg_ship_hull_boat_design_cost_factor:0 "Boat Design Cost"
+ mdg_ship_hull_corvette_design_cost_factor:0 "Corvette Design Cost"
+ mdg_ship_hull_frigate_design_cost_factor:0 "Frigate Design Cost"
+ mdg_ship_hull_mini_submarine_design_cost_factor:0 "Mini Submarine Design Cost"

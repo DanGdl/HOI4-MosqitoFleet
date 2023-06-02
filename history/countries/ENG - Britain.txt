@@ -113,8 +113,11 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+		early_submarine = 1
 		mdg_early_submarine = 1
+		early_destroyer = 1
 		mdg_early_destroyer = 1
+		basic_destroyer = 1
 		mdg_basic_destroyer = 1
 		early_light_cruiser = 1
 		early_heavy_cruiser = 1
@@ -400,8 +403,11 @@ if = {
 			not = { has_dlc = "Man the Guns"}
 		}
 		set_technology = {
+			basic_submarine = 1
 			mdg_basic_submarine = 1
+			improved_submarine = 1
 			mdg_improved_submarine = 1
+			improved_destroyer = 1
 			mdg_improved_destroyer = 1
 			basic_light_cruiser = 1
 			improved_light_cruiser = 1
