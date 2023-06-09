@@ -2,83 +2,129 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_SMI_mdg_frigate_engine"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_frigate_engine_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_1.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_frigate_engine_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_2.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_frigate_engine_3"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_3.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_frigate_engine_4"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_4.dds"
 	}
 
 
 
 	spriteType = {
 		name = "GFX_SMI_mdg_corvette_engine"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_corvette_engine_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_1.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_corvette_engine_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_2.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_corvette_engine_3"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_3.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_corvette_engine_4"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_4.dds"
 	}
 
 
 
 	spriteType = {
 		name = "GFX_SMI_mdg_boat_engine"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_boat_engine_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_1.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_boat_engine_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_2.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_2.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_boat_engine_3"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_3.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_3.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_boat_engine_4"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_4.dds"
 	}
 
 
 
 	spriteType = {
 		name = "GFX_SMI_mdg_mini_sub_ship_engine"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_mini_sub_ship_engine_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_1.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_1.dds"
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_mini_sub_ship_engine_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_2.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_2.dds"
+	}
+
+
+
+	#spriteType = {
+	#	name = "GFX_EMSI_fixed_ship_secondaries_slot"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mdg_secondaries.dds"
+	#}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
+	}
+
+
+
+	#spriteType = {
+	#	name = "GFX_EMSI_fixed_ship_secondaries_slot"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mdg_secondaries.dds"
+	#}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
 	}
 }

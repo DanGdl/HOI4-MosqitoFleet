@@ -12,7 +12,6 @@ ERRORS:
 
 TODOS:
 - customize equipment and modules for MTG:
-	- weapons
 	- slots settings
 
 - customize equipment for noMTG (stats done, need MTG)
@@ -43,3 +42,7 @@ TODOS:
 - doctrine
 
 - 3D models?
+
+
+Frigate has FF prefix
+Corvette LCS

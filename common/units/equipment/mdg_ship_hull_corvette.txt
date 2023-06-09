@@ -1,6 +1,6 @@
 equipments = {
 
-	mdg_ship_hull_corvete = {
+	mdg_ship_hull_corvette = {
 		year = 1922
 
 		is_archetype = yes
@@ -111,23 +111,23 @@ equipments = {
 		manpower = 250
 	}
 
-	mdg_ship_hull_corvete_1 = {
+	mdg_ship_hull_corvette_1 = {
 		abbreviation = "hc_1"
 		year = 1922
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
 		
 		module_slots = inherit
 	}
 
-	mdg_ship_hull_corvete_2 = {
+	mdg_ship_hull_corvette_2 = {
 		abbreviation = "hc_2"
 		year = 1936
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
-		parent = mdg_ship_hull_corvete_1
+		parent = mdg_ship_hull_corvette_1
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -168,13 +168,13 @@ equipments = {
 		manpower = 325
 	}
 
-	mdg_ship_hull_corvete_3 = {
+	mdg_ship_hull_corvette_3 = {
 		abbreviation = "hc_3"
 		year = 1940
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
-		parent = mdg_ship_hull_corvete_2
+		parent = mdg_ship_hull_corvette_2
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -238,13 +238,13 @@ equipments = {
 		}
 	}
 
-	mdg_ship_hull_corvete_4 = {
+	mdg_ship_hull_corvette_4 = {
 		abbreviation = "hc_4"
 		year = 1944
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
-		parent = mdg_ship_hull_corvete_3
+		parent = mdg_ship_hull_corvette_3
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -304,7 +304,7 @@ equipments = {
 	mdg_corvette_1 = {
 		year = 1922
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
@@ -350,7 +350,7 @@ equipments = {
 	mdg_corvette_2 = {
 		year = 1936
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
 		parent = mdg_corvette_1
 		module_slots = inherit
@@ -397,7 +397,7 @@ equipments = {
 	mdg_corvette_3 = {
 		year = 1940
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
 		parent = mdg_corvette_2
 		module_slots = inherit
@@ -443,7 +443,7 @@ equipments = {
 	mdg_corvette_4 = {
 		year = 1944
 
-		archetype = mdg_ship_hull_corvete
+		archetype = mdg_ship_hull_corvette
 		priority = 2000
 		parent = mdg_corvette_3
 		module_slots = inherit

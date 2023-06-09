@@ -2013,133 +2013,133 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 			}
 
-				instantTextBoxType = {
-					name = "naval_year1"
-					position = { x = 224 y = 20 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 4 }
-					text = "1922"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_year1"
+				position = { x = 224 y = 20 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = { x = 0 y = 4 }
+				text = "1922"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_year2"
-					position = { x = 644 y = 20 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 4 }
-					text = "1936"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_year2"
+				position = { x = 644 y = 20 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = { x = 0 y = 4 }
+				text = "1936"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_year3"
-					position = { x = 1064 y = 20 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 4}
-					text = "1940"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_year3"
+				position = { x = 1064 y = 20 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = { x = 0 y = 4}
+				text = "1940"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_year4"
-					position = { x = 1484 y = 20 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 4}
-					text = "1944"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_year4"
+				position = { x = 1484 y = 20 }
+				textureFile = ""
+				font = "hoi_36header"
+				borderSize = { x = 0 y = 4}
+				text = "1944"
+				maxWidth = 170
+				maxHeight = 32
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_subtitle_armaments"
-					position = { x = 30 y = 55 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 4 }
-					text = "NAVAL_TITLE_ARMAMENT"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_subtitle_armaments"
+				position = { x = 30 y = 55 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 4 }
+				text = "NAVAL_TITLE_ARMAMENT"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_subtitle_torpedoes"
-					position = { x = 30 y = 585 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 4 }
-					text = "NAVAL_TITLE_TORPEDOES"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_subtitle_torpedoes"
+				position = { x = 30 y = 585 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 4 }
+				text = "NAVAL_TITLE_TORPEDOES"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_subtitle_damage_control"
-					position = { x = 30 y = 875 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 4 }
-					text = "NAVAL_TITLE_DAMAGE_CONTROL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "naval_subtitle_fire_control"
-					position = { x = 30 y = 1025 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 4 }
-					text = "NAVAL_TITLE_FIRE_CONTROL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "naval_subtitle_transport"
-					position = { x = 30 y = 1165 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 4 }
-					text = "NAVAL_TITLE_TRANSPORTS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_subtitle_damage_control"
+				position = { x = 30 y = 875 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 4 }
+				text = "NAVAL_TITLE_DAMAGE_CONTROL"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_fire_control"
+				position = { x = 30 y = 1025 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 4 }
+				text = "NAVAL_TITLE_FIRE_CONTROL"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+				name = "naval_subtitle_transport"
+				position = { x = 30 y = 1165 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 4 }
+				text = "NAVAL_TITLE_TRANSPORTS"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
-				instantTextBoxType = {
-					name = "naval_subtitle_mines"
-					position = { x = 30 y = 1305 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 4 }
-					text = "NAVAL_TITLE_MINES"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+			instantTextBoxType = {
+				name = "naval_subtitle_mines"
+				position = { x = 30 y = 1305 }
+				textureFile = ""
+				font = "hoi_33"
+				borderSize = { x = 0 y = 4 }
+				text = "NAVAL_TITLE_MINES"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
 
 			containerWindowType = {
 				name = "tiled_window_transparent_transparent"
