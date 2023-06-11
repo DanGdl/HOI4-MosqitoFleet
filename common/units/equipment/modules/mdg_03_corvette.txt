@@ -3,11 +3,11 @@ equipment_modules = {
 		has_dlc = "Man the Guns" 
 	}
 
-### #  #  ##  ### #  # ### 
-#   ## # #     #  ## # #   
-##  # ## # ##  #  # ## ##  
-#   #  # #  #  #  #  # #   
-### #  #  ##  ### #  # ### 
+	### #  #  ##  ### #  # ### 
+	#   ## # #     #  ## # #   
+	##  # ## # ##  #  # ## ##  
+	#   #  # #  #  #  #  # #   
+	### #  #  ##  ### #  # ### 
 
 	mdg_corvette_engine_1 = {
 		abbreviation = "ce_1"
@@ -15,17 +15,17 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 7
-			build_cost_ic = 90
+			fuel_consumption = 8
+			build_cost_ic = 70
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.20
+			naval_speed = 0.15
 		}
 		
 		can_convert_from = {
 			module_category = mdg_corvette_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 190
 		}
 	}
 
@@ -35,6 +35,32 @@ equipment_modules = {
 		parent = light_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
+		add_stats = {
+			fuel_consumption = 7
+			build_cost_ic = 90
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.2
+		}
+		
+		can_convert_from = {
+			module_category = mdg_corvette_engine
+			convert_cost_ic = 200
+		}
+		
+		can_convert_from = {
+			module = mdg_corvette_engine_1
+			convert_cost_ic = 210
+		}
+	}
+
+	mdg_corvette_engine_3 = {
+		abbreviation = "ce_3"
+		category = mdg_corvette_engine
+		parent = mdg_corvette_engine_2
+		sfx = sfx_ui_sd_module_engine
+		
 		add_stats = {
 			fuel_consumption = 8
 			build_cost_ic = 120
@@ -46,33 +72,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = mdg_corvette_engine
-			convert_cost_ic = 250
-		}
-		
-		can_convert_from = {
-			module = mdg_corvette_engine_1
-			convert_cost_ic = 230
-		}
-	}
-
-	mdg_corvette_engine_3 = {
-		abbreviation = "ce_3"
-		category = mdg_corvette_engine
-		parent = mdg_corvette_engine_2
-		sfx = sfx_ui_sd_module_engine
-		
-		add_stats = {
-			fuel_consumption = 10
-			build_cost_ic = 150
-		}
-		
-		multiply_stats = {
-			naval_speed = 0.30
-		}
-		
-		can_convert_from = {
-			module_category = mdg_corvette_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 220
 		}
 		
 		can_convert_from = {
@@ -88,13 +88,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 10
-			build_cost_ic = 170
+			fuel_consumption = 8
+			build_cost_ic = 150
 		}
 
 		multiply_stats = {
-			naval_speed = 0.35
-			
+			naval_speed = 0.3
 		}
 		
 		can_convert_from = {
