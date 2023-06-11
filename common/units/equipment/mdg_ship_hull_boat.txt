@@ -298,7 +298,7 @@ equipments = {
 		year = 1922
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = mdg_ship_light_guns_1
@@ -343,7 +343,7 @@ equipments = {
 		year = 1936
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		parent = mdg_boat_1
 		module_slots = inherit
 		default_modules = {
@@ -389,7 +389,7 @@ equipments = {
 		year = 1940
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		parent = mdg_boat_2
 		module_slots = inherit
 		default_modules = {
@@ -434,7 +434,7 @@ equipments = {
 		year = 1944
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		parent = mdg_boat_3
 		module_slots = inherit
 		default_modules = {
