@@ -1,7 +1,7 @@
 equipments = {
 
 	mdg_ship_hull_mini_submarine = {
-		year = 1922
+		year = 1940
 
 		is_archetype = yes
 		is_buildable = no
@@ -25,13 +25,12 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { sub_ship_engine }
+				allowed_module_categories = { mdg_mini_sub_ship_engine }
 			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_mine_layer_sub
+					ship_sub_snorkel
 				}
 			}
 		}
@@ -43,7 +42,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
-			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_engine_slot = mdg_mini_sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
 		
@@ -63,17 +62,17 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 25
-		naval_speed = 13
-		reliability = 0.60
+		sub_visibility = 13
+		naval_speed = 10
+		reliability = 0.70
 		
-		naval_range = 2500
+		naval_range = 800
 		
 		max_strength = 10
 		
-		fuel_consumption = 1
+		fuel_consumption = 6
 		
-		build_cost_ic = 220
+		build_cost_ic = 350
 		resources = {
 			steel = 1
 		}
@@ -99,42 +98,34 @@ equipments = {
 		year = 1944
 
 		archetype = mdg_ship_hull_mini_submarine
-		priority = 2500
 		parent = mdg_ship_hull_mini_submarine_1
+		priority = 2500
 
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo_sub
-					ship_mine_layer_sub
-					ship_radar
-				}
-			}
+			rear_1_custom_slot = inherit
 		}
 
 		default_modules = {
 			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_engine_slot = mdg_mini_sub_ship_engine_2
 		}
-		sub_visibility = 22
-		naval_speed = 17
-		reliability = 0.70
+		sub_visibility = 11
+		naval_speed = 13
+		reliability = 0.80
 
-		naval_range = 4000
-		reliability = 0.70
-		max_strength = 20
+		naval_range = 800
+		max_strength = 15
 		
-
-		
-		build_cost_ic = 250
+		build_cost_ic = 360
 		resources = {
-			#oil = 1
-			steel = 2
+			steel = 1
 		}
 	}
+
+
+
 
 	mdg_mini_submarine_1 = {
 		year = 1940
@@ -145,39 +136,38 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_3
+			fixed_ship_engine_slot = mdg_mini_sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
 
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 2
+		torpedo_attack = 50
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
-		surface_detection = 30
+		surface_detection = 50
 		sub_detection = 0
-		surface_visibility = 1
-		sub_visibility = 30
+		surface_visibility = 10
+		sub_visibility = 10
 		naval_speed = 13
-		reliability = 0.60
+		reliability = 0.70
 		
-		naval_range = 2500
+		naval_range = 500
 		
-		max_strength = 10
-		
+		max_strength = 20
 
-		fuel_consumption = 1
+		fuel_consumption = 5
 		
-		build_cost_ic = 250
+		build_cost_ic = 400
 		resources = {
 			steel = 1
 		}
 		
-		manpower = 200
+		manpower = 100
 	}
 
 	mdg_mini_submarine_2 = {
@@ -189,38 +179,37 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_4
+			fixed_ship_engine_slot = sub_ship_engine_4
 			rear_1_custom_slot = empty
 		}
 
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 2
+		torpedo_attack = 55
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
-		surface_detection = 30
+		surface_detection = 55
 		sub_detection = 0
-		surface_visibility = 1
-		sub_visibility = 30
+		surface_visibility = 10
+		sub_visibility = 10
 		naval_speed = 13
-		reliability = 0.60
+		reliability = 0.80
 		
-		naval_range = 2500
+		naval_range = 500
 		
-		max_strength = 10
-		
+		max_strength = 22
 
-		fuel_consumption = 1
+		fuel_consumption = 5
 		
-		build_cost_ic = 250
+		build_cost_ic = 450
 		resources = {
 			steel = 1
 		}
 		
-		manpower = 200
+		manpower = 100
 	}
 }
