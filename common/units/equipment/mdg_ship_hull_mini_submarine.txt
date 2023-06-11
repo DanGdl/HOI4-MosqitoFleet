@@ -70,7 +70,7 @@ equipments = {
 		
 		max_strength = 10
 		
-		fuel_consumption = 6
+		# fuel_consumption = 6
 		
 		build_cost_ic = 350
 		resources = {
@@ -131,7 +131,7 @@ equipments = {
 		year = 1940
 
 		archetype = mdg_ship_hull_mini_submarine
-		priority = 2500
+		priority = 1800
 		
 		module_slots = inherit
 		
@@ -143,7 +143,7 @@ equipments = {
 
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 50
+		torpedo_attack = 28
 		
 		anti_air_attack = 0
 		
@@ -159,8 +159,6 @@ equipments = {
 		naval_range = 500
 		
 		max_strength = 20
-
-		fuel_consumption = 5
 		
 		build_cost_ic = 400
 		resources = {
@@ -174,7 +172,7 @@ equipments = {
 		year = 1944
 
 		archetype = mdg_ship_hull_mini_submarine
-		priority = 2500
+		priority = 1800
 		parent = mdg_mini_submarine_1
 		module_slots = inherit
 		
@@ -186,13 +184,13 @@ equipments = {
 
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 55
+		torpedo_attack = 27
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
-		surface_detection = 55
+		surface_detection = 52
 		sub_detection = 0
 		surface_visibility = 10
 		sub_visibility = 10
@@ -201,9 +199,7 @@ equipments = {
 		
 		naval_range = 500
 		
-		max_strength = 22
-
-		fuel_consumption = 5
+		max_strength = 24
 		
 		build_cost_ic = 450
 		resources = {
