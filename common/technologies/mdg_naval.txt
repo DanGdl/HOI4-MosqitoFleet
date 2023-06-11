@@ -80,8 +80,8 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_3
-			mdg_corvette_3
 			mdg_frigate_3
+			mdg_corvette_3
 			mdg_boat_3
 		}
 
@@ -118,8 +118,8 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_4
-			mdg_corvette_4
 			mdg_frigate_4
+			mdg_corvette_4
 			mdg_boat_4
 		}
 
