@@ -11,13 +11,13 @@ equipment_modules = {
 
 	mdg_ship_light_guns_1 = {
 		abbreviation = "lsg_1"
-		category = ship_light_guns
+		category = mdg_ship_light_guns
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
 			lg_attack = 0.5
-			anti_air_attack = 2
-			build_cost_ic = 30	
+			anti_air_attack = 0.5
+			build_cost_ic = 20	
 		}
 
 		multiply_stats = {
@@ -25,7 +25,7 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 0.25
+			lg_armor_piercing = 0.2
 		}
 		
 		can_convert_from = {
@@ -43,9 +43,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 0.75
-			anti_air_attack = 2.0
-			build_cost_ic = 40
+			lg_attack = 0.6
+			anti_air_attack = 0.6
+			build_cost_ic = 30
 		}
 
 		multiply_stats = {
@@ -53,7 +53,7 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 0.5
+			lg_armor_piercing = 0.25
 		}
 		
 		can_convert_from = {
@@ -63,7 +63,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = mdg_ship_light_guns_1
-			convert_cost_ic = 45 # conversion cost from that specific module
+			convert_cost_ic = 20 # conversion cost from that specific module
 		}
 
 		critical_parts = { damaged_light_guns }
@@ -76,13 +76,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 1
-			anti_air_attack = 2.5
-			build_cost_ic = 50			
+			lg_attack = 0.7
+			anti_air_attack = 0.7
+			build_cost_ic = 40			
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 0.75
+			lg_armor_piercing = 0.3
 		}
 
 		multiply_stats = {
@@ -96,7 +96,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = mdg_ship_light_guns_2
-			convert_cost_ic = 45
+			convert_cost_ic = 25
 		}
 
 		critical_parts = { damaged_light_guns }
@@ -109,9 +109,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 1.25
-			anti_air_attack = 3
-			build_cost_ic = 60	
+			lg_attack = 0.8
+			anti_air_attack = 0.8
+			build_cost_ic = 50	
 		}
 
 		build_cost_resources = {
@@ -123,7 +123,7 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 1
+			lg_armor_piercing = 0.4
 		}
 		
 		can_convert_from = {
@@ -133,7 +133,7 @@ equipment_modules = {
 			
 		can_convert_from = {
 			module = mdg_ship_light_guns_3
-			convert_cost_ic = 75
+			convert_cost_ic = 30
 		}
 
 		critical_parts = { damaged_light_guns }
@@ -151,8 +151,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 7
-			build_cost_ic = 90
+			fuel_consumption = 6
+			build_cost_ic = 60
 		}
 		
 		multiply_stats = {
@@ -161,7 +161,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = mdg_boat_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 	}
 
@@ -172,8 +172,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			fuel_consumption = 8
-			build_cost_ic = 120
+			fuel_consumption = 7
+			build_cost_ic = 80
 		}
 		
 		multiply_stats = {
@@ -182,12 +182,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = mdg_boat_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
 			module = mdg_boat_engine_1
-			convert_cost_ic = 230
+			convert_cost_ic = 200
 		}
 	}
 
@@ -198,8 +198,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 10
-			build_cost_ic = 150
+			fuel_consumption = 7
+			build_cost_ic = 100
 		}
 		
 		multiply_stats = {
@@ -208,12 +208,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = mdg_boat_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
 			module = mdg_boat_engine_2
-			convert_cost_ic = 230
+			convert_cost_ic = 200
 		}
 	}
 
@@ -224,8 +224,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 10
-			build_cost_ic = 170
+			fuel_consumption = 7
+			build_cost_ic = 130
 		}
 
 		multiply_stats = {
@@ -235,12 +235,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = mdg_boat_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
 			module = mdg_boat_engine_3
-			convert_cost_ic = 230
+			convert_cost_ic = 200
 		}
 	}
 

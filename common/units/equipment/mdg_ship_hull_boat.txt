@@ -20,11 +20,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery dp_light_battery}
-			}
-			fixed_ship_anti_air_slot = {
-				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { mdg_ship_light_guns }
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
@@ -36,20 +32,19 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo mdg_ship_light_guns }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { light_ship_engine }
+				allowed_module_categories = { mdg_boat_engine }
 			}
 
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
-					ship_mine_warfare
 					ship_mine_layer
-					ship_anti_air
+					mdg_ship_light_guns
 					ship_depth_charge
 				}
 			}
@@ -102,7 +97,7 @@ equipments = {
 
 		fuel_consumption = 0
 		
-		build_cost_ic = 400
+		build_cost_ic = 200
 		resources = {
 			steel = 2
 		}
@@ -130,7 +125,6 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -160,7 +154,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1800
 		max_strength = 40
-		build_cost_ic = 500
+		build_cost_ic = 200
 		resources = {
 			steel = 2
 		}
@@ -177,7 +171,6 @@ equipments = {
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -247,7 +240,6 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -301,6 +293,7 @@ equipments = {
 	}
 
 
+
 	mdg_boat_1 = {
 		year = 1922
 
@@ -308,43 +301,42 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = mdg_boat_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
+		lg_armor_piercing = 0.3
+		lg_attack = 0.5
 		
-		torpedo_attack = 0
-		sub_attack = 1
+		torpedo_attack = 2
+		sub_attack = 5
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
-		surface_detection = 20
+		surface_detection = 30
 		sub_detection = 5
-		surface_visibility = 10
+		surface_visibility = 7
 		naval_speed = 30
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 400
 		
-		max_strength = 25
+		max_strength = 15
 		
-		fuel_consumption = 7
+		fuel_consumption = 5
 		
-		build_cost_ic = 400
+		build_cost_ic = 210
 		resources = {
-			steel = 2
+			steel = 1
 		}
 		
-		manpower = 250
+		manpower = 100
 	}
 
 	mdg_boat_2 = {
@@ -355,43 +347,42 @@ equipments = {
 		parent = mdg_boat_1
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_battery_slot = mdg_ship_light_guns_2
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_engine_slot = mdg_boat_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_depth_charge_2
+			rear_1_custom_slot = empty
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
+		torpedo_attack = 11
+		sub_attack = 4
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
-		surface_detection = 25
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 30
+		surface_detection = 35
+		sub_detection = 9
+		surface_visibility = 7
+		naval_speed = 31.5
 		reliability = 0.85
 
-		naval_range = 1800
+		naval_range = 500
 		
-		max_strength = 40
+		max_strength = 20
 		
 		type = { 
 			screen_ship
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 190
 		resources = {
-			steel = 3
+			steel = 1
 		}		
-		manpower = 325
+		manpower = 150
 	}
 	
 	mdg_boat_3 = {
@@ -402,42 +393,41 @@ equipments = {
 		parent = mdg_boat_2
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_3
-			fixed_ship_anti_air_slot = ship_anti_air_3
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_battery_slot = mdg_ship_light_guns_3
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_engine_slot = mdg_boat_engine_3
 			fixed_ship_torpedo_slot = ship_torpedo_3
 			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_depth_charge_3
+			rear_1_custom_slot = empty
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
+		torpedo_attack = 5
+		sub_attack = 4
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
 		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 30
+		sub_detection = 9
+		surface_visibility = 7
+		naval_speed = 32
 		reliability = 0.90
 
-		naval_range = 2000
+		naval_range = 550
 		
-		max_strength = 50
-		
+		max_strength = 25
+		fuel_consumption = 6
 		type = { 
 			screen_ship
 		}
-		build_cost_ic = 500
+		build_cost_ic = 180
 		resources = {
-			steel = 3
+			steel = 1
 		}
-		manpower = 400
+		manpower = 200
 	}
 	
 	mdg_boat_4 = {
@@ -448,42 +438,41 @@ equipments = {
 		parent = mdg_boat_3
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_4
-			fixed_ship_anti_air_slot = ship_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_battery_slot = mdg_ship_light_guns_4
+			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_engine_slot = mdg_boat_engine_4
 			fixed_ship_torpedo_slot = ship_torpedo_4
 			mid_1_custom_slot = empty
-			rear_1_custom_slot = ship_depth_charge_4
+			rear_1_custom_slot = empty
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
+		torpedo_attack = 4
+		sub_attack = 4
 		
-		anti_air_attack = 5
+		anti_air_attack = 0
 		
 		armor_value = 0
 		
 		surface_detection = 40
-		sub_detection = 10
+		sub_detection = 9
 		surface_visibility = 10
-		naval_speed = 30
+		naval_speed = 34
 		reliability = 0.92
 
-		naval_range = 2500
+		naval_range = 600
 		
-		max_strength = 60
+		max_strength = 30
 		
 		type = { 
 			screen_ship
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 160
 		resources = {
-			steel = 4
+			steel = 2
 		}		
-		manpower = 500
+		manpower = 200
 	}
 }
