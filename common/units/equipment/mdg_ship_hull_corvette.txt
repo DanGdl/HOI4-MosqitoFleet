@@ -20,7 +20,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery dp_light_battery}
+				allowed_module_categories = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -40,17 +40,17 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { light_ship_engine }
+				allowed_module_categories = { mdg_corvette_engine }
 			}
 
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
 					ship_mine_warfare
 					ship_mine_layer
-					ship_anti_air
 					ship_depth_charge
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 			rear_1_custom_slot = mid_1_custom_slot
@@ -301,6 +301,9 @@ equipments = {
 		manpower = 500
 	}
 
+
+
+
 	mdg_corvette_1 = {
 		year = 1922
 
@@ -308,43 +311,43 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = mdg_corvette_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_1
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
+		lg_armor_piercing = -0.5
+		lg_attack = -0.2
 		
-		torpedo_attack = 0
-		sub_attack = 1
+		torpedo_attack = -8
+		sub_attack = 4
 		
-		anti_air_attack = 0
+		anti_air_attack = -1.5
 		
 		armor_value = 0
 
-		surface_detection = 20
-		sub_detection = 5
-		surface_visibility = 10
-		naval_speed = 30
+		surface_detection = 25
+		sub_detection = 10
+		surface_visibility = 9
+		naval_speed = 23
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 1100
 		
-		max_strength = 25
+		max_strength = 20
 		
-		fuel_consumption = 7
+		fuel_consumption = 0
 		
-		build_cost_ic = 400
+		build_cost_ic = 50
 		resources = {
-			steel = 2
+			steel = 1
 		}
 		
-		manpower = 250
+		manpower = 150
 	}
 
 	mdg_corvette_2 = {
@@ -355,43 +358,43 @@ equipments = {
 		parent = mdg_corvette_1
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_battery_slot = mdg_ship_light_cannon_2
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_engine_slot = mdg_corvette_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_2
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
+		lg_armor_piercing = -1
+		lg_attack = -0.3
+		torpedo_attack = -9
+		sub_attack = 3
 		
-		anti_air_attack = 0
+		anti_air_attack = -1.5
 		
 		armor_value = 0
 
-		surface_detection = 25
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 30
+		surface_detection = 30
+		sub_detection = 13
+		surface_visibility = 9
+		naval_speed = 24.5
 		reliability = 0.85
 
-		naval_range = 1800
+		naval_range = 1200
 		
-		max_strength = 40
+		max_strength = 27
 		
 		type = { 
 			screen_ship
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 30
 		resources = {
-			steel = 3
+			steel = 2
 		}		
-		manpower = 325
+		manpower = 200
 	}
 	
 	mdg_corvette_3 = {
@@ -402,42 +405,42 @@ equipments = {
 		parent = mdg_corvette_2
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_3
+			fixed_ship_battery_slot = mdg_ship_light_cannon_3
 			fixed_ship_anti_air_slot = ship_anti_air_3
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_engine_slot = mdg_corvette_engine_3
 			fixed_ship_torpedo_slot = ship_torpedo_3
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_3
 		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
+		lg_armor_piercing = -1
+		lg_attack = -0.2
+		torpedo_attack = -10
+		sub_attack = 4
 		
-		anti_air_attack = 0
+		anti_air_attack = -2
 		
 		armor_value = 0
 
-		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 30
+		surface_detection = 35
+		sub_detection = 13
+		surface_visibility = 9
+		naval_speed = 26
 		reliability = 0.90
 
-		naval_range = 2000
+		naval_range = 1300
 		
-		max_strength = 50
+		max_strength = 35
 		
 		type = { 
 			screen_ship
 		}
-		build_cost_ic = 500
+		build_cost_ic = 0
 		resources = {
-			steel = 3
+			steel = 2
 		}
-		manpower = 400
+		manpower = 250
 	}
 	
 	mdg_corvette_4 = {
@@ -448,43 +451,43 @@ equipments = {
 		parent = mdg_corvette_3
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_4
+			fixed_ship_battery_slot = mdg_ship_light_cannon_4
 			fixed_ship_anti_air_slot = ship_anti_air_4
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_engine_slot = mdg_corvette_engine_4
 			fixed_ship_torpedo_slot = ship_torpedo_4
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_4
 		}
-		lg_armor_piercing = 0
+		lg_armor_piercing = -0.5
 		lg_attack = 0
-		torpedo_attack = 0
-		sub_attack = 1
+		torpedo_attack = -11
+		sub_attack = 3
 		
-		anti_air_attack = 5
+		anti_air_attack = -3.5
 		
 		armor_value = 0
 		
 		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 10
-		naval_speed = 30
+		sub_detection = 13
+		surface_visibility = 9
+		naval_speed = 28
 		reliability = 0.92
 
-		naval_range = 2500
+		naval_range = 1400
 		
-		max_strength = 60
+		max_strength = 40
 		
 		type = { 
 			screen_ship
 		}
 
-		build_cost_ic = 500
+		build_cost_ic = 0
 		resources = {
-			steel = 4
+			steel = 2
 			chromium = 1
 		}		
-		manpower = 500
+		manpower = 300
 	}
 }
