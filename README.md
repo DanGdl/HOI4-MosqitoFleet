@@ -42,7 +42,7 @@ TODOS:
 - doctrine
 
 - 3D models?
-
+- torpedo launchers?
 
 Frigate has FF prefix
 Corvette LCS

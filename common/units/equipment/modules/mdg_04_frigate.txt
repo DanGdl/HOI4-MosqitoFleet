@@ -3,11 +3,11 @@ equipment_modules = {
 		has_dlc = "Man the Guns" 
 	}
 
-### #  #  ##  ### #  # ### 
-#   ## # #     #  ## # #   
-##  # ## # ##  #  # ## ##  
-#   #  # #  #  #  #  # #   
-### #  #  ##  ### #  # ### 
+	### #  #  ##  ### #  # ### 
+	#   ## # #     #  ## # #   
+	##  # ## # ##  #  # ## ##  
+	#   #  # #  #  #  #  # #   
+	### #  #  ##  ### #  # ### 
 
 	mdg_frigate_engine_1 = {
 		abbreviation = "fe_1"
@@ -15,17 +15,17 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 7
-			build_cost_ic = 90
+			fuel_consumption = 10
+			build_cost_ic = 80
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.20
+			naval_speed = 0.15
 		}
 		
 		can_convert_from = {
 			module_category = mdg_frigate_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 	}
 
@@ -36,22 +36,22 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			fuel_consumption = 8
-			build_cost_ic = 120
+			fuel_consumption = 9
+			build_cost_ic = 100
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.25
+			naval_speed = 0.2
 		}
 		
 		can_convert_from = {
 			module_category = mdg_frigate_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
 			module = mdg_frigate_engine_1
-			convert_cost_ic = 230
+			convert_cost_ic = 200
 		}
 	}
 
@@ -62,8 +62,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 10
-			build_cost_ic = 150
+			fuel_consumption = 9
+			build_cost_ic = 120
 		}
 		
 		multiply_stats = {
@@ -72,12 +72,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = mdg_frigate_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
 			module = mdg_frigate_engine_2
-			convert_cost_ic = 230
+			convert_cost_ic = 200
 		}
 	}
 
@@ -88,23 +88,23 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 10
-			build_cost_ic = 170
+			fuel_consumption = 9
+			build_cost_ic = 150
 		}
 
 		multiply_stats = {
-			naval_speed = 0.35
+			naval_speed = 0.3
 			
 		}
 		
 		can_convert_from = {
 			module_category = mdg_frigate_engine
-			convert_cost_ic = 250
+			convert_cost_ic = 200
 		}
 		
 		can_convert_from = {
 			module = mdg_frigate_engine_3
-			convert_cost_ic = 230
+			convert_cost_ic = 200
 		}
 	}
 }
