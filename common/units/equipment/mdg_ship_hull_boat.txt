@@ -8,7 +8,7 @@ equipments = {
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		alias = mdg_boat
-		priority = 2000
+		priority = 2300
 
 		upgrades = {
 			ship_torpedo_upgrade
@@ -66,7 +66,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = mdg_boat_engine_1
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
@@ -79,30 +79,30 @@ equipments = {
 		hg_attack = 0
 		
 		torpedo_attack = 0
-		sub_attack = 1
+		sub_attack = 0
 		
 		anti_air_attack = 0
 		
 		armor_value = 0
 
-		surface_detection = 20
+		surface_detection = 25
 		sub_detection = 1
-		surface_visibility = 10
-		naval_speed = 30
+		surface_visibility = 7
+		naval_speed = 31
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 500
 		
-		max_strength = 25
+		max_strength = 15
 
 		fuel_consumption = 0
 		
-		build_cost_ic = 200
+		build_cost_ic = 250
 		resources = {
-			steel = 2
+			steel = 1
 		}
 		
-		manpower = 250
+		manpower = 100
 	}
 
 	mdg_ship_hull_boat_1 = {
@@ -110,7 +110,7 @@ equipments = {
 		year = 1922
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		
 		module_slots = inherit
 	}
@@ -120,7 +120,7 @@ equipments = {
 		year = 1936
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		parent = mdg_ship_hull_boat_1
 		
 		module_slots = {
@@ -148,17 +148,17 @@ equipments = {
 		default_modules = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_engine_slot = mdg_boat_engine_2
 		}
 
 		reliability = 0.85
-		naval_range = 1800
-		max_strength = 40
-		build_cost_ic = 200
+		naval_range = 600
+		max_strength = 20
+		build_cost_ic = 300
 		resources = {
-			steel = 2
+			steel = 1
 		}
-		manpower = 325
+		manpower = 150
 	}
 
 	mdg_ship_hull_boat_3 = {
@@ -166,7 +166,7 @@ equipments = {
 		year = 1940
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		parent = mdg_ship_hull_boat_2
 
 		module_slots = {
@@ -211,22 +211,20 @@ equipments = {
 			}
 		}
 
-		resources = {
-			steel = 3
-		}
-
-		surface_detection = 20
-		surface_visibility = 10
-		reliability = 0.90
-		naval_range = 2000
-		max_strength = 50
-		build_cost_ic = 550
-		manpower = 400
-
 		default_modules = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_engine_slot = mdg_boat_engine_3
+		}
+
+		reliability = 0.90
+		naval_range = 700
+		max_strength = 25
+		build_cost_ic = 350
+		manpower = 200
+
+		resources = {
+			steel = 1
 		}
 	}
 
@@ -235,7 +233,7 @@ equipments = {
 		year = 1944
 
 		archetype = mdg_ship_hull_boat
-		priority = 2000
+		priority = 2300
 		parent = mdg_ship_hull_boat_3
 		
 		module_slots = {
@@ -280,16 +278,14 @@ equipments = {
 			}
 		}
 
-		surface_detection = 20
 		reliability = 0.92
-		naval_range = 2500
-		max_strength = 60
-		build_cost_ic = 600
+		naval_range = 800
+		max_strength = 30
+		build_cost_ic = 400
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 2
 		}
-		manpower = 500
+		manpower = 200
 	}
 
 
