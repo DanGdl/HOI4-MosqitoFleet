@@ -15,7 +15,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 10
+			fuel_consumption = 6
 			build_cost_ic = 80
 		}
 		
@@ -36,7 +36,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			fuel_consumption = 9
+			fuel_consumption = 7
 			build_cost_ic = 100
 		}
 		
@@ -67,7 +67,7 @@ equipment_modules = {
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.30
+			naval_speed = 0.25
 		}
 		
 		can_convert_from = {
@@ -94,7 +94,6 @@ equipment_modules = {
 
 		multiply_stats = {
 			naval_speed = 0.3
-			
 		}
 		
 		can_convert_from = {

@@ -7,7 +7,7 @@ equipments = {
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
-		priority = 2000
+		priority = 2100
 
 		upgrades = {
 			ship_torpedo_upgrade
@@ -39,7 +39,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { light_ship_engine }
+				allowed_module_categories = { mdg_frigate_engine }
 			}
 
 			mid_1_custom_slot = {
@@ -70,7 +70,7 @@ equipments = {
 			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = mdg_frigate_engine_1
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
@@ -90,25 +90,24 @@ equipments = {
 		armor_value = 0
 
 		
-		surface_detection = 20
+		surface_detection = 23
 		sub_detection = 1
 		surface_visibility = 10
-		naval_speed = 30
+		naval_speed = 28
 		reliability = 0.80
 		
-		naval_range = 1500
+		naval_range = 1300
 		
 		max_strength = 25
 		
-
 		fuel_consumption = 0
 		
-		build_cost_ic = 400
+		build_cost_ic = 350
 		resources = {
-			steel = 2
+			steel = 1
 		}
 		
-		manpower = 250
+		manpower = 200
 	}
 
 	mdg_ship_hull_frigate_1 = {
@@ -116,7 +115,7 @@ equipments = {
 		year = 1922
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		
 		module_slots = inherit
 	}
@@ -126,7 +125,7 @@ equipments = {
 		year = 1936
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_1
 		
 		module_slots = {
@@ -155,17 +154,17 @@ equipments = {
 		default_modules = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_engine_slot = mdg_frigate_engine_2
 		}
 
 		reliability = 0.85
-		naval_range = 1800
-		max_strength = 40
-		build_cost_ic = 500
+		naval_range = 1500
+		max_strength = 35
+		build_cost_ic = 450
 		resources = {
 			steel = 2
 		}
-		manpower = 325
+		manpower = 300
 	}
 
 	mdg_ship_hull_frigate_3 = {
@@ -173,7 +172,7 @@ equipments = {
 		year = 1940
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_2
 
 		module_slots = {
@@ -219,22 +218,21 @@ equipments = {
 			}
 		}
 		
-		resources = {
-			steel = 3
-		}
-
-		surface_detection = 20
-		surface_visibility = 10
-		reliability = 0.90
-		naval_range = 2000
-		max_strength = 50
-		build_cost_ic = 550
-		manpower = 400
-
 		default_modules = {
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_engine_slot = mdg_frigate_engine_3
+		}
+
+		surface_visibility = 10
+		reliability = 0.90
+		naval_range = 1700
+		max_strength = 45
+		build_cost_ic = 550
+		manpower = 350
+
+		resources = {
+			steel = 2
 		}
 	}
 
@@ -289,16 +287,15 @@ equipments = {
 			}
 		}
 
-		surface_detection = 20
 		reliability = 0.92
-		naval_range = 2500
-		max_strength = 60
-		build_cost_ic = 600
+		naval_range = 2000
+		max_strength = 50
+		build_cost_ic = 550
 		resources = {
-			steel = 4
+			steel = 3
 			chromium = 1
 		}
-		manpower = 500
+		manpower = 400
 	}
 
 
@@ -315,7 +312,7 @@ equipments = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = mdg_frigate_engine_1
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_1
@@ -362,7 +359,7 @@ equipments = {
 			fixed_ship_anti_air_slot = ship_anti_air_2
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_engine_slot = mdg_frigate_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_2
@@ -409,7 +406,7 @@ equipments = {
 			fixed_ship_anti_air_slot = ship_anti_air_3
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_3
+			fixed_ship_engine_slot = mdg_frigate_engine_3
 			fixed_ship_torpedo_slot = ship_torpedo_3
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_3
@@ -455,7 +452,7 @@ equipments = {
 			fixed_ship_anti_air_slot = ship_anti_air_4
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_engine_slot = mdg_frigate_engine_4
 			fixed_ship_torpedo_slot = ship_torpedo_4
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = ship_depth_charge_4
