@@ -16,7 +16,7 @@ equipment_modules = {
 		
 		add_stats = {
 			fuel_consumption = 6
-			build_cost_ic = 130
+			build_cost_ic = 100
 		}
 		
 		multiply_stats = {
@@ -38,7 +38,7 @@ equipment_modules = {
 
 		add_stats = {
 			fuel_consumption = 6
-			build_cost_ic = 150
+			build_cost_ic = 130
 		}
 		
 		multiply_stats = {
