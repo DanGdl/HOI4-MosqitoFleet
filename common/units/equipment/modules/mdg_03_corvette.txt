@@ -15,7 +15,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			fuel_consumption = 8
+			fuel_consumption = 5.5
 			build_cost_ic = 70
 		}
 		
@@ -36,7 +36,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
-			fuel_consumption = 7
+			fuel_consumption = 6.5
 			build_cost_ic = 90
 		}
 		
