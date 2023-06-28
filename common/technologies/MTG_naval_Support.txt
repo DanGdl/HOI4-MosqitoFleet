@@ -989,6 +989,9 @@ technologies = {
 		submarine = {
 			torpedo_attack = 0.2
 		}
+		mdg_mini_submarine = {
+			torpedo_attack = 0.2
+		}
 		light_cruiser = {
 			torpedo_attack = 0.2
 		}

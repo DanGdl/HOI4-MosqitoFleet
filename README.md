@@ -8,6 +8,8 @@ https://hoi4.paradoxwikis.com/Ship
 
 
 ERRORS:
+[13:52:21][gamegui.cpp:782]: Failed to find GFX_EMI_mdg_ship_light_cannon
+[13:52:46][gamegui.cpp:782]: Failed to find GFX_EMI_mdg_ship_light_cannon
 
 
 TODOS:
