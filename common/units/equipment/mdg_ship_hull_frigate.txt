@@ -19,7 +19,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery dp_light_battery}
+				allowed_module_categories = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -143,9 +143,8 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 			rear_1_custom_slot = mid_1_custom_slot
@@ -199,9 +198,8 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 			rear_1_custom_slot = {
@@ -211,9 +209,8 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 		}
@@ -267,9 +264,8 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -280,9 +276,8 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 		}
@@ -300,6 +295,7 @@ equipments = {
 
 
 
+	# VANILA
 
 	mdg_frigate_1 = {
 		year = 1922
