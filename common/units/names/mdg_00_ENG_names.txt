@@ -1,0 +1,25 @@
+﻿ENG = {
+	mdg_ship_hull_mini_submarine = {
+		prefix = "HMS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HMS"
+		generic = { "MTB"	}
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HMS"
+		generic = { "LCS" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_frigate = {
+        prefix = "HMS"
+        generic = { "Frigate" }
+        unique = {}
+    }
+}

@@ -1,0 +1,27 @@
+﻿GER = {
+	fleet_names_template = FLEET_NAME_GER
+
+	mdg_ship_hull_mini_submarine = {
+		prefix = ""
+		generic = { "U" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = ""
+		generic = { "S"	}
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = ""
+		generic = { "PA" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_frigate = {
+        prefix = ""
+        generic = { "MZ" }
+        unique = {}
+    }
+}

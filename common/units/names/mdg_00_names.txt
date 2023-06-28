@@ -1,0 +1,25 @@
+﻿generic = {
+	mdg_ship_hull_mini_submarine = {
+		prefix = ""
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = ""
+		generic = { "MTB"	}
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = ""
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_frigate = {
+        prefix = ""
+        generic = { "Frigate" }
+        unique = {}
+    }
+}
