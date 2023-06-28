@@ -748,8 +748,8 @@ technologies = {
 			dp_light_battery_1
 			dp_ship_secondaries_1
 
-			mdg_ship_light_guns_3
-			mdg_ship_light_cannon_3
+			mdg_ship_light_cannon_dp_2
+			mdg_ship_light_cannon_dp_1
 		}
 
 		path = {
@@ -793,6 +793,7 @@ technologies = {
 		enable_equipment_modules = {
 			dp_light_battery_3
 			dp_ship_secondaries_3
+			mdg_ship_light_cannon_dp_3
 		}
 
 		on_research_complete = {
@@ -837,8 +838,7 @@ technologies = {
 			dp_light_battery_4
 			dp_ship_secondaries_4
 
-			mdg_ship_light_guns_4
-			mdg_ship_light_cannon_4
+			mdg_ship_light_cannon_dp_4
 		}
 
 		on_research_complete = {
