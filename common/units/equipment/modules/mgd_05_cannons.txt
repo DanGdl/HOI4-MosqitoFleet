@@ -11,7 +11,7 @@ equipment_modules = {
 
 	mdg_ship_light_cannon_1 = {
 		abbreviation = "lsc_1"
-		category = ship_light_cannon
+		category = mdg_ship_light_cannon
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -25,6 +25,11 @@ equipment_modules = {
 
 		add_average_stats = {
 			lg_armor_piercing = 1
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 30
 		}
 		
 		can_convert_from = {
@@ -60,6 +65,11 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 30
+		}
+
+		can_convert_from = {
 			module = mdg_ship_light_cannon_1
 			convert_cost_ic = 30 # conversion cost from that specific module
 		}
@@ -91,6 +101,11 @@ equipment_modules = {
 			convert_cost_ic = 30
 		}
 		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 30
+		}
+
 		can_convert_from = {
 			module = mdg_ship_light_cannon_2
 			convert_cost_ic = 30
@@ -126,7 +141,12 @@ equipment_modules = {
 			module_category = mdg_ship_light_cannon
 			convert_cost_ic = 30
 		}
-			
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 30
+		}
+
 		can_convert_from = {
 			module = mdg_ship_light_cannon_3
 			convert_cost_ic = 30
@@ -139,7 +159,7 @@ equipment_modules = {
 
 	mdg_ship_light_cannon_dp_1 = {
 		abbreviation = "lscd_1"
-		category = ship_light_cannon
+		category = mdg_ship_light_cannon_dp
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
