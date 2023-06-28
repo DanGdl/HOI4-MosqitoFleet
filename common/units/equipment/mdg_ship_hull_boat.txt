@@ -196,8 +196,8 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			mid_1_custom_slot = inherit
 			rear_1_custom_slot = inherit
+			rear_2_custom_slot = inherit
 		}
 
 		reliability = 0.92

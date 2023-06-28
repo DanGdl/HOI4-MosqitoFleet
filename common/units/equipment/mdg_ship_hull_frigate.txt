@@ -253,8 +253,8 @@ equipments = {
 				allowed_module_categories = {
 					ship_depth_charge
 					ship_anti_air
-					ship_light_battery
-					dp_light_battery
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
 				}
 			}
 			mid_1_custom_slot = {
