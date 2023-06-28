@@ -1,4 +1,5 @@
 ﻿l_english:
+ mdg_corvette:0 "Corvette" 
  mdg_corvette_1:0 "Corvette I"
  mdg_corvette_2:0 "Corvette II"
  mdg_corvette_3:0 "Corvette III"
@@ -8,6 +9,7 @@
  mdg_corvette_3_desc:0 "Corvette III description"
  mdg_corvette_4_desc:0 "Corvette IV description"
 
+ mdg_boat:0 "Boat"
  mdg_boat_1:0 "Boat I"
  mdg_boat_2:0 "Boat II"
  mdg_boat_3:0 "Boat III"
@@ -17,6 +19,7 @@
  mdg_boat_3_desc:0 "Boat III description"
  mdg_boat_4_desc:0 "Boat IV description"
 
+ mdg_frigate:0 "Frigate"
  mdg_frigate_1:0 "Frigate I"
  mdg_frigate_2:0 "Frigate II"
  mdg_frigate_3:0 "Frigate III"
@@ -26,6 +29,7 @@
  mdg_frigate_3_desc:0 "Frigate III description"
  mdg_frigate_4_desc:0 "Frigate IV description"
 
+ mdg_mini_submarine:0 "Mini submarine"
  mdg_mini_submarine_1:0 "Mini submarine I"
  mdg_mini_submarine_1_desc:0 "Mini submarine I description"
 
@@ -63,7 +67,15 @@
  mdg_ship_hull_frigate_4:2 "1944 Destroyer Hull"
  mdg_ship_hull_frigate_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
 
- mdg_ship_hull_mini_submarine_1:1 "1940 Submarine Hull"
+ mdg_ship_hull_mini_submarine_1:2 "1940 MiniSubmarine Hull"
  mdg_ship_hull_mini_submarine_1_desc:0 "The role of the submarine in the fleet outside of convoy attacks is still under debate. Achieving a balance between combination of speed, range and weaponry will be key to the necessary model."
- mdg_ship_hull_mini_submarine_2:1 "1944 Submarine Hull"
+ mdg_ship_hull_mini_submarine_2:2 "1944 MiniSubmarine Hull"
  mdg_ship_hull_mini_submarine_2_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+
+ EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Automatic Cannons"
+ EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Light Cannons"
+ EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Light Pouble Pourpose Cannons"
+ EQ_MOD_CAT_mdg_boat_engine_TITLE:0 "Boat Engine"
+ EQ_MOD_CAT_mdg_mini_sub_ship_engine_TITLE:0 "Mini Submarine Engine"
+ EQ_MOD_CAT_mdg_corvette_engine_TITLE:0 "Corvette Engine"
+ EQ_MOD_CAT_mdg_frigate_engine_TITLE:0 "Frigate Engine"
