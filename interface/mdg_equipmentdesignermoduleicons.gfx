@@ -84,10 +84,10 @@ spriteTypes = {
 
 
 
-	#spriteType = {
-	#	name = "GFX_EMSI_fixed_ship_secondaries_slot"
-	#	textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mdg_secondaries.dds"
-	#}
+	spriteType = {
+		name = "GFX_EMI_mdg_ship_light_cannon"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn.dds"
+	}
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_cannon_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_1.dds"
@@ -105,6 +105,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
 	}
 
+
+	spriteType = {
+		name = "GFX_EMI_mdg_ship_light_cannon_dp"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn.dds"
+	}
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_cannon_dp_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_1.dds"
@@ -123,10 +128,10 @@ spriteTypes = {
 	}
 
 
-	#spriteType = {
-	#	name = "GFX_EMSI_fixed_ship_secondaries_slot"
-	#	textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/mdg_secondaries.dds"
-	#}
+	spriteType = {
+		name = "GFX_EMI_mdg_ship_light_guns"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun.dds"
+	}
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_guns_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_1.dds"
