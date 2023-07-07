@@ -19,7 +19,7 @@
 	
 	mdg_ship_hull_frigate = {
         prefix = "HMS"
-        generic = { "Frigate" }
+        generic = { "FF" }
         unique = {}
     }
 }

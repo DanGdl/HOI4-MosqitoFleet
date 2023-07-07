@@ -7,8 +7,11 @@ https://hoi4.paradoxwikis.com/Naval_doctrine
 https://hoi4.paradoxwikis.com/Ship
 
 
-ERRORS:
+https://www.beastsofwar.com/project/1348209/
 
+
+ERRORS:
+- fix vanila technologies
 
 TODOS:
 - names
