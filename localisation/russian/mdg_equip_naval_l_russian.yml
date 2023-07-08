@@ -9,6 +9,37 @@
  mdg_corvette_3_desc:0 "Корвет III описание"
  mdg_corvette_4_desc:0 "Корвет IV описание"
 
+ ENG_mdg_corvette_1:0 "Тип «П»"
+ ENG_mdg_corvette_2:0 "Тип «Кингфишер»"
+ ENG_mdg_corvette_3:0 "Тип «Флауер»"
+ ENG_mdg_corvette_4:0 "Тип «Кастл»"
+
+ GER_mdg_corvette_2:0 "Тип «K»"
+ GER_mdg_corvette_3:0 "Тип «KUj»"
+ GER_mdg_corvette_4:0 "Тип «MZ»"
+
+ ITA_mdg_corvette_1:0 "Тип «Bafile»"
+ ITA_mdg_corvette_2:0 "Тип «Bigfieri»"
+
+ SOV_mdg_corvette_1:0 "Тип «MO»"
+ SOV_mdg_corvette_2:0 "Тип «БMO»"
+ SOV_mdg_corvette_3:0 "Проект 122"
+ SOV_mdg_corvette_4:0 "Проект 122-б"
+
+ USA_mdg_corvette_1:0 "Тип «Игл»"
+ USA_mdg_corvette_2:0 "Тип «Эйри»"
+ USA_mdg_corvette_3:0 "Тип «Флауер»"
+ USA_mdg_corvette_4:0 "Тип «PC»"
+
+ FRA_mdg_corvette_1:0 "Тип «Conquerante»"
+ FRA_mdg_corvette_2:0 "Тип «Шамуа»"
+
+ JAP_mdg_corvette_1:0 "Тип «П»"
+ JAP_mdg_corvette_2:0 "Тип «Ш-1»"
+ JAP_mdg_corvette_3:0 "Тип «Ш-13»"
+ JAP_mdg_corvette_4:0 "Тип «Ш-51»"
+
+
  mdg_boat:0 "Катер"
  mdg_boat_1:0 "Катер I"
  mdg_boat_2:0 "Катер II"
@@ -18,6 +49,38 @@
  mdg_boat_2_desc:0 "Катер II описание"
  mdg_boat_3_desc:0 "Катер III описание"
  mdg_boat_4_desc:0 "Катер IV описание"
+
+ ENG_mdg_boat_2:0 "Тип 60"
+ ENG_mdg_boat_3:0 "Тип 70"
+ ENG_mdg_boat_4:0 "Тип 117"
+
+ GER_mdg_boat_1:0 "Тип 23 «Раубфогель»"
+ GER_mdg_boat_2:0 "Тип 1935"
+ GER_mdg_boat_3:0 "Тип 1940"
+ GER_mdg_boat_4:0 "Тип 1944"
+
+ ITA_mdg_boat_1:0 "Тип «Baglietto 6»"
+ ITA_mdg_boat_2:0 "Тип «Baglietto 1934»"
+ ITA_mdg_boat_3:0 "Тип «Baglietto 500»"
+ ITA_mdg_boat_4:0 "Тип II"
+
+ SOV_mdg_boat_1:0 "«Ш-4»"
+ SOV_mdg_boat_2:0 "«Г-5»"
+ SOV_mdg_boat_3:0 "«Д-3»"
+ SOV_mdg_boat_4:0 "Проект 123 «Комсомолец»"
+
+ USA_mdg_boat_1:0 "Тип 110"
+ USA_mdg_boat_2:0 "Тип 77"
+ USA_mdg_boat_3:0 "Тип 78"
+ USA_mdg_boat_4:0 "Тип 80"
+
+ FRA_mdg_boat_1:0 "«Ш-25»"
+ FRA_mdg_boat_2:0 "«Ш-1»"
+ FRA_mdg_boat_3:0 "«ВТБ-8»"
+
+ JAP_mdg_boat_3:0 "Тип A «Ko-Gata»"
+ JAP_mdg_boat_4:0 "Тип B «Otsu-Gata»"
+
 
  mdg_frigate:0 "Фрегат"
  mdg_frigate_1:0 "Фрегат I"
@@ -29,48 +92,83 @@
  mdg_frigate_3_desc:0 "Фрегат III описание"
  mdg_frigate_4_desc:0 "Фрегат IV описание"
 
+ ENG_mdg_frigate_2:0 "Тип «Ривер»"
+ ENG_mdg_frigate_3:0 "Тип «Loch»"
+ ENG_mdg_frigate_4:0 "Тип «Бэй»"
+
+ GER_mdg_frigate_3:0 "Тип «F»"
+
+ ITA_mdg_frigate_3:0 "Тип «Аре»"
+
+ SOV_mdg_frigate_1:0 "Тип «Ураган»"
+ SOV_mdg_frigate_2:0 "Тип «Рубин»"
+ SOV_mdg_frigate_3:0 "Тип «Ястреб»"
+
+ USA_mdg_frigate_3:0 "Тип «Эшвил»"
+ USA_mdg_frigate_4:0 "Тип «Такома»"
+
+ FRA_mdg_frigate_1:0 "Тип «Марна»"
+ FRA_mdg_frigate_2:0 "Тип «Бугенвиль»"
+
+ JAP_mdg_frigate_2:0 "Тип A «Shimushu»"
+ JAP_mdg_frigate_3:0 "Тип B «Микура»"
+ JAP_mdg_frigate_4:0 "Тип «C»"
+
+
  mdg_mini_submarine:0 "Мини субмарина"
  mdg_mini_submarine_1:0 "Мини субмарина I"
- mdg_mini_submarine_1_desc:0 "Мини субмарина I описание"
-
  mdg_mini_submarine_2:0 "Мини субмарина II"
+ mdg_mini_submarine_1_desc:0 "Мини субмарина I описание" 
  mdg_mini_submarine_2_desc:0 "Мини субмарина II описание"
+
+ ENG_mdg_mini_submarine_1:0 "Тип «X»"
+ ENG_mdg_mini_submarine_2:0 "Тип «XE»"
+
+ GER_mdg_mini_submarine_1:0 "Тип «Бибер»"
+ GER_mdg_mini_submarine_2:0 "Тип «Зеехунд»"
+
+ ITA_mdg_mini_submarine_1:0 "Тип «CA»"
+ ITA_mdg_mini_submarine_2:0 "Тип «CB»"
+
+ JAP_mdg_mini_submarine_1:0 "Тип «A»"
+ JAP_mdg_mini_submarine_2:0 "Тип «C»"
+
 
  mdg_radio_boat:0 "Радиоуправляемый катер"
  mdg_radio_boat_desc:0 "Радиоуправляемый катер описание" 
 
 
  mdg_ship_hull_boat_1:2 "Ранний корпус катера"
- mdg_ship_hull_boat_1_desc:0 "Для эффективной защиты торговых конвоев необходимо доработать эсминцы Великой войны. Боевую мощь заметно улучшат дополнительные торпеды."
+ mdg_ship_hull_boat_1_desc:0 "Ранний корпус катера описание"
  mdg_ship_hull_boat_2:2 "Корпус катера обр. 1936 г."
- mdg_ship_hull_boat_2_desc:0 "Увеличенная дистанция хода торпед, быстрое заряжание и усиленные орудия ПВО обеспечивают эффективность и универсальность эсминцев."
+ mdg_ship_hull_boat_2_desc:0 "Корпус катера обр. 1936 г. описание"
  mdg_ship_hull_boat_3:2 "Корпус катера обр. 1940 г."
- mdg_ship_hull_boat_3_desc:0 "Для защиты от угроз сверху и снизу эсминцы получают радары и современное протоволодочное и противовоздушное вооружение."
+ mdg_ship_hull_boat_3_desc:0 "Корпус катера обр. 1940 г. описание"
  mdg_ship_hull_boat_4:2 "Корпус катера обр. 1944 г."
- mdg_ship_hull_boat_4_desc:0 "Современный эсминец характеризуется наличием различных технологий обнаружения, новой системой сброса глубинных бомб, а также увеличенными по сравнению с предшественниками размерами."
+ mdg_ship_hull_boat_4_desc:0 "Корпус катера обр. 1944 г. описание"
 
  mdg_ship_hull_corvette_1:2 "Ранний корпус корвета"
- mdg_ship_hull_corvette_1_desc:0 "Для эффективной защиты торговых конвоев необходимо доработать эсминцы Великой войны. Боевую мощь заметно улучшат дополнительные торпеды."
+ mdg_ship_hull_corvette_1_desc:0 "Ранний корпус корвета описание"
  mdg_ship_hull_corvette_2:2 "Корпус корвета обр. 1936 г."
- mdg_ship_hull_corvette_2_desc:0 "Увеличенная дистанция хода торпед, быстрое заряжание и усиленные орудия ПВО обеспечивают эффективность и универсальность эсминцев."
+ mdg_ship_hull_corvette_2_desc:0 "Корпус корвета обр. 1936 г. описание"
  mdg_ship_hull_corvette_3:2 "Корпус корвета обр. 1940 г."
- mdg_ship_hull_corvette_3_desc:0 "Для защиты от угроз сверху и снизу эсминцы получают радары и современное протоволодочное и противовоздушное вооружение."
+ mdg_ship_hull_corvette_3_desc:0 "Корпус корвета обр. 1940 г. описание"
  mdg_ship_hull_corvette_4:2 "Корпус корвета обр. 1944 г."
- mdg_ship_hull_corvette_4_desc:0 "Современный эсминец характеризуется наличием различных технологий обнаружения, новой системой сброса глубинных бомб, а также увеличенными по сравнению с предшественниками размерами."
+ mdg_ship_hull_corvette_4_desc:0 "Корпус корвета обр. 1944 г. описание"
 
  mdg_ship_hull_frigate_1:2 "Ранний корпус фрегата"
- mdg_ship_hull_frigate_1_desc:0 "Для эффективной защиты торговых конвоев необходимо доработать эсминцы Великой войны. Боевую мощь заметно улучшат дополнительные торпеды."
+ mdg_ship_hull_frigate_1_desc:0 "Ранний корпус фрегата описание"
  mdg_ship_hull_frigate_2:2 "Корпус фрегата обр. 1936 г."
- mdg_ship_hull_frigate_2_desc:0 "Увеличенная дистанция хода торпед, быстрое заряжание и усиленные орудия ПВО обеспечивают эффективность и универсальность эсминцев."
+ mdg_ship_hull_frigate_2_desc:0 "Корпус фрегата обр. 1936 г. описание"
  mdg_ship_hull_frigate_3:2 "Корпус фрегата обр. 1940 г."
- mdg_ship_hull_frigate_3_desc:0 "Для защиты от угроз сверху и снизу эсминцы получают радары и современное протоволодочное и противовоздушное вооружение."
+ mdg_ship_hull_frigate_3_desc:0 "Корпус фрегата обр. 1940 г. описание"
  mdg_ship_hull_frigate_4:2 "Корпус фрегата обр. 1944 г."
- mdg_ship_hull_frigate_4_desc:0 "Современный эсминец характеризуется наличием различных технологий обнаружения, новой системой сброса глубинных бомб, а также увеличенными по сравнению с предшественниками размерами."
+ mdg_ship_hull_frigate_4_desc:0 "Корпус фрегата обр. 1944 г. описание"
 
  mdg_ship_hull_mini_submarine_1:2 "Корпус мини подводной лодки обр. 1940 г."
- mdg_ship_hull_mini_submarine_1_desc:0 "До сих пор нет ясности относительно роли подлодок в составе флота, за исключением атак на конвои. Новый проект пытается найти баланс между скоростью, дальностью и вооружением."
+ mdg_ship_hull_mini_submarine_1_desc:0 "Корпус мини подводной лодки обр. 1940 г. описание"
  mdg_ship_hull_mini_submarine_2:2 "Корпус мини подводной лодки обр. 1944 г."
- mdg_ship_hull_mini_submarine_2_desc:0 "Современные субмарины используют новейшие разработки в области двигателей и вооружения, обладают оптимальными обводами и способны погружаться на большую глубину."
+ mdg_ship_hull_mini_submarine_2_desc:0 "Корпус мини подводной лодки обр. 1944 г. описание"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Автоматические пушки"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Легкие орудия"

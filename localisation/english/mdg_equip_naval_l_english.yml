@@ -9,6 +9,37 @@
  mdg_corvette_3_desc:0 "Corvette III description"
  mdg_corvette_4_desc:0 "Corvette IV description"
 
+ GER_mdg_corvette_2:0 "Type K"
+ GER_mdg_corvette_3:0 "Type KUj"
+ GER_mdg_corvette_4:0 "Type MZ"
+
+ SOV_mdg_corvette_1:0 "Type MO"
+ SOV_mdg_corvette_2:0 "Type BMO"
+ SOV_mdg_corvette_3:0 "Project 122"
+ SOV_mdg_corvette_4:0 "Project 122-b"
+
+ ENG_mdg_corvette_1:0 "Type P"
+ ENG_mdg_corvette_2:0 "Type Kingfisher"
+ ENG_mdg_corvette_3:0 "Type Flower"
+ ENG_mdg_corvette_4:0 "Type Castle"
+
+ ITA_mdg_corvette_1:0 "Type Bafile"
+ ITA_mdg_corvette_2:0 "Type Bigfieri"
+
+ USA_mdg_corvette_1:0 "Type Eagle"
+ USA_mdg_corvette_2:0 "Type Erie"
+ USA_mdg_corvette_3:0 "Type Flower"
+ USA_mdg_corvette_3:0 "Type PC"
+
+ FRA_mdg_corvette_1:0 "Type Conquerante"
+ FRA_mdg_corvette_2:0 "Type Chamois"
+
+ JAP_mdg_corvette_1:0 "Type P"
+ JAP_mdg_corvette_2:0 "Type Ch-1"
+ JAP_mdg_corvette_3:0 "Type Ch-13"
+ JAP_mdg_corvette_3:0 "Type Ch-51"
+
+
  mdg_boat:0 "Boat"
  mdg_boat_1:0 "Boat I"
  mdg_boat_2:0 "Boat II"
@@ -18,6 +49,38 @@
  mdg_boat_2_desc:0 "Boat II description"
  mdg_boat_3_desc:0 "Boat III description"
  mdg_boat_4_desc:0 "Boat IV description"
+
+ GER_mdg_boat_1:0 "Type 23 Raubvogel"
+ GER_mdg_boat_2:0 "Type 1935"
+ GER_mdg_boat_3:0 "Type 1940"
+ GER_mdg_boat_4:0 "Type 1944"
+
+ SOV_mdg_boat_1:0 "SH-4"
+ SOV_mdg_boat_2:0 "G-5"
+ SOV_mdg_boat_3:0 "D-3"
+ SOV_mdg_boat_4:0 "Project 123 Komsomolets"
+
+ ENG_mdg_boat_2:0 "Type 60"
+ ENG_mdg_boat_3:0 "Type 70"
+ ENG_mdg_boat_4:0 "Type 117"
+
+ ITA_mdg_boat_1:0 "Type Baglietto 6"
+ ITA_mdg_boat_2:0 "Type Baglietto 1934"
+ ITA_mdg_boat_3:0 "Type Baglietto 500"
+ ITA_mdg_boat_4:0 "Type II"
+
+ USA_mdg_boat_1:0 "Type 110"
+ USA_mdg_boat_2:0 "Type 77"
+ USA_mdg_boat_3:0 "Type 78"
+ USA_mdg_boat_4:0 "Type 80"
+
+ FRA_mdg_boat_1:0 "Ch-25"
+ FRA_mdg_boat_2:0 "Ch-1"
+ FRA_mdg_boat_3:0 "VTB-8"
+
+ JAP_mdg_boat_3:0 "Type A Ko-Gata"
+ JAP_mdg_boat_4:0 "Type B Otsu-Gata"
+
 
  mdg_frigate:0 "Frigate"
  mdg_frigate_1:0 "Frigate I"
@@ -29,48 +92,84 @@
  mdg_frigate_3_desc:0 "Frigate III description"
  mdg_frigate_4_desc:0 "Frigate IV description"
 
+ SOV_mdg_frigate_1:0 "Type Uragan"
+ SOV_mdg_frigate_2:0 "Type Rubin"
+ SOV_mdg_frigate_3:0 "Type Yastreb"
+
+ GER_mdg_frigate_2:0 "Type F"
+ GER_mdg_frigate_3:0 "Type SG"
+
+ JAP_mdg_frigate_2:0 "Type A Shimushu"
+ JAP_mdg_frigate_3:0 "Type B Mikura"
+ JAP_mdg_frigate_4:0 "Type C"
+
+ ENG_mdg_frigate_2:0 "Type River"
+ ENG_mdg_frigate_3:0 "Type Loch"
+ ENG_mdg_frigate_4:0 "Type Bay"
+
+ ITA_mdg_frigate_3:0 "Type Аре"
+
+ USA_mdg_frigate_3:0 "Type Asheville"
+ USA_mdg_frigate_4:0 "Type Tacoma"
+
+ FRA_mdg_frigate_1:0 "Type Marne"
+ FRA_mdg_frigate_2:0 "Type Bougainville"
+
+
  mdg_mini_submarine:0 "Mini submarine"
  mdg_mini_submarine_1:0 "Mini submarine I"
- mdg_mini_submarine_1_desc:0 "Mini submarine I description"
-
  mdg_mini_submarine_2:0 "Mini submarine II"
+ mdg_mini_submarine_1_desc:0 "Mini submarine I description"
  mdg_mini_submarine_2_desc:0 "Mini submarine II description"
+
+ JAP_mdg_mini_submarine_1:0 "Type A"
+ JAP_mdg_mini_submarine_2:0 "Type C"
+
+ GER_mdg_mini_submarine_1:0 "Type Biber"
+ GER_mdg_mini_submarine_2:0 "Type Seehund"
+
+ ENG_mdg_mini_submarine_1:0 "Type X"
+ ENG_mdg_mini_submarine_2:0 "Type XE"
+
+ ITA_mdg_mini_submarine_1:0 "Type CA"
+ ITA_mdg_mini_submarine_2:0 "Type CB"
+
 
  mdg_radio_boat:0 "Radio boat"
  mdg_radio_boat_desc:0 "Radio boat description"
 
 
- mdg_ship_hull_boat_1:2 "Early Destroyer Hull"
- mdg_ship_hull_boat_1_desc:0 "To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
- mdg_ship_hull_boat_2:2 "1936 Destroyer Hull"
- mdg_ship_hull_boat_2_desc:0 "Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile."
- mdg_ship_hull_boat_3:2 "1940 Destroyer Hull"
- mdg_ship_hull_boat_3_desc:0 "To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry."
- mdg_ship_hull_boat_4:2 "1944 Destroyer Hull"
- mdg_ship_hull_boat_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
+ mdg_ship_hull_boat_1:2 "Early Boat Hull"
+ mdg_ship_hull_boat_1_desc:0 "Early Boat Hull description"
+ mdg_ship_hull_boat_2:2 "1936 Boat Hull"
+ mdg_ship_hull_boat_2_desc:0 "1936 Boat Hull description"
+ mdg_ship_hull_boat_3:2 "1940 Boat Hull"
+ mdg_ship_hull_boat_3_desc:0 "1940 Boat Hull description"
+ mdg_ship_hull_boat_4:2 "1944 Boat Hull"
+ mdg_ship_hull_boat_4_desc:0 "1944 Boat Hull description"
 
- mdg_ship_hull_corvette_1:2 "Early Destroyer Hull"
- mdg_ship_hull_corvette_1_desc:0 "To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
- mdg_ship_hull_corvette_2:2 "1936 Destroyer Hull"
- mdg_ship_hull_corvette_2_desc:0 "Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile."
- mdg_ship_hull_corvette_3:2 "1940 Destroyer Hull"
- mdg_ship_hull_corvette_3_desc:0 "To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry."
- mdg_ship_hull_corvette_4:2 "1944 Destroyer Hull"
- mdg_ship_hull_corvette_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
+ mdg_ship_hull_corvette_1:2 "Early Corvette Hull"
+ mdg_ship_hull_corvette_1_desc:0 "Early Corvette Hull description"
+ mdg_ship_hull_corvette_2:2 "1936 Corvette Hull"
+ mdg_ship_hull_corvette_2_desc:0 "1936 Corvette Hull description"
+ mdg_ship_hull_corvette_3:2 "1940 Corvette Hull"
+ mdg_ship_hull_corvette_3_desc:0 "1940 Corvette Hull description"
+ mdg_ship_hull_corvette_4:2 "1944 Corvette Hull"
+ mdg_ship_hull_corvette_4_desc:0 "1944 Corvette Hull description"
 
- mdg_ship_hull_frigate_1:2 "Early Destroyer Hull"
- mdg_ship_hull_frigate_1_desc:0 "To ensure the safety of convoys, the destroyers of the Great War must be repurposed and developed. Arming vessels with more torpedoes will allow more opportunities to engage."
- mdg_ship_hull_frigate_2:2 "1936 Destroyer Hull"
- mdg_ship_hull_frigate_2_desc:0 "Longer torpedo range and faster reload speeds, along with new types of armaments such as anti-air turrets, will allow our destroyers to remain efficient and versatile."
- mdg_ship_hull_frigate_3:2 "1940 Destroyer Hull"
- mdg_ship_hull_frigate_3_desc:0 "To better face threats from above and below, new destroyers must be outfitted with radar and modern anti-air and anti-submarine weaponry."
- mdg_ship_hull_frigate_4:2 "1944 Destroyer Hull"
- mdg_ship_hull_frigate_4_desc:0 "The modern destroyer must be fitted with a variety of different detection technologies, new depth charge deployment systems and be built at a larger scale than their predecessors."
+ mdg_ship_hull_frigate_1:2 "Early Frigate Hull"
+ mdg_ship_hull_frigate_1_desc:0 "Early Frigate Hull description"
+ mdg_ship_hull_frigate_2:2 "1936 Frigate Hull"
+ mdg_ship_hull_frigate_2_desc:0 "1936 Frigate Hull description"
+ mdg_ship_hull_frigate_3:2 "1940 Frigate Hull"
+ mdg_ship_hull_frigate_3_desc:0 "1940 Frigate Hull description"
+ mdg_ship_hull_frigate_4:2 "1944 Frigate Hull"
+ mdg_ship_hull_frigate_4_desc:0 "1944 Frigate Hull description"
 
- mdg_ship_hull_mini_submarine_1:2 "1940 MiniSubmarine Hull"
- mdg_ship_hull_mini_submarine_1_desc:0 "The role of the submarine in the fleet outside of convoy attacks is still under debate. Achieving a balance between combination of speed, range and weaponry will be key to the necessary model."
- mdg_ship_hull_mini_submarine_2:2 "1944 MiniSubmarine Hull"
- mdg_ship_hull_mini_submarine_2_desc:0 "Increased test depth and efficient layouts will be features of the modern submarines, taking advantage of field experience to select appropriate armaments and engines."
+ mdg_ship_hull_mini_submarine_1:2 "1940 Midget Submarine Hull"
+ mdg_ship_hull_mini_submarine_1_desc:0 "1940 Midget Submarine Hull description"
+ mdg_ship_hull_mini_submarine_2:2 "1944 Midget Submarine Hull"
+ mdg_ship_hull_mini_submarine_2_desc:0 "1944 Midget Submarine Hull description"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Automatic Cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Light Cannons"
