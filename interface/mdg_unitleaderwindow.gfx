@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_mdg_trait_mosquito"
+		texturefile = "gfx/interface/traits/trait_admiral_destroyer_leader_mdg.dds"
+	}
+}
