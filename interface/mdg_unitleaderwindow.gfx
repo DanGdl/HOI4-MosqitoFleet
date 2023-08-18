@@ -1,7 +1,7 @@
 spriteTypes = {	
 
 	spriteType = {
-		name = "GFX_mdg_trait_mosquito"
-		texturefile = "gfx/interface/traits/trait_admiral_destroyer_leader_mdg.dds"
+		name = "GFX_trait_mdg_trait_mosquito"
+		texturefile = "gfx/interface/traits/mdg_trait_admiral_mosquito.dds"
 	}
 }
