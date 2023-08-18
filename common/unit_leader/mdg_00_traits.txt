@@ -59,7 +59,12 @@ leader_traits = {
 	mdg_trait_mosquito = { 
 		type = navy
 		gain_xp = {
-			mdg_ship_hull_boat > 0.8 # at least 80% boats
+			AND = {
+				screen_ship > 0.8
+				opponent = {
+					submarine < 0.1
+				}
+			}
 		}
 		cost = 500
 		sub_unit_modifiers = {
@@ -71,12 +76,11 @@ leader_traits = {
 		}
 		custom_gain_xp_trigger_tooltip = MOSQUITO_TRIGGER_TT
 		
-		slot = high_command
-		# TODO: fix
-		specialist_advisor_trait = navy_chief_maneuver_1
-		expert_advisor_trait = navy_chief_maneuver_2
-		genius_advisor_trait = navy_chief_maneuver_3
-		
+		#slot = navy_chief
+		#specialist_advisor_trait = navy_chief_maneuver_1
+		#expert_advisor_trait = navy_chief_maneuver_2
+		#genius_advisor_trait = navy_chief_maneuver_3
+
 		ai_will_do = {
 			factor = 1
 		}
