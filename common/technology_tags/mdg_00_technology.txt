@@ -1,0 +1,5 @@
+technology_categories = {
+	small_fleet_tree
+	small_fleet_doctrine
+	cat_small_fleet
+}

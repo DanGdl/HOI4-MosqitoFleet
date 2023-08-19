@@ -37,7 +37,7 @@ technologies = {
 		#####
 
 
-		xor = { trade_interdiction base_strike } 
+		xor = { trade_interdiction base_strike small_fleet } 
 		
 		path = {
 			leads_to_tech = battlefleet_concentration 
@@ -967,9 +967,7 @@ technologies = {
 		}
 		#######
 		
-
-
-		xor = { fleet_in_being base_strike } 
+		xor = { fleet_in_being base_strike small_fleet } 
 		
 		path = {
 			leads_to_tech = convoy_interdiction_ti 
@@ -1839,7 +1837,7 @@ technologies = {
 		port_strike = 0.5
 		#####
 		
-		xor = { fleet_in_being trade_interdiction } 
+		xor = { fleet_in_being trade_interdiction small_fleet } 
 		
 		path = {
 			leads_to_tech = carrier_primacy 
@@ -2852,4 +2850,80 @@ technologies = {
 		}
 	}
 	
+
+
+
+
+
+
+	small_fleet = {
+		doctrine_name = "TITLE_SMALL_FLEET"
+	
+		xp_research_type = navy
+		
+		submarine = {
+			max_organisation = 10
+			surface_detection = 0.05
+		}
+		mdg_mini_submarine = {
+			max_organisation = 10
+			surface_detection = 0.05
+		}
+		light_cruiser = {
+			max_organisation = 10
+			surface_detection = 0.05		
+		}
+		heavy_cruiser = {
+			max_organisation = 10
+			surface_detection = 0.05
+		}
+		
+		xor = { fleet_in_being trade_interdiction base_strike } 
+		
+		path = {
+			leads_to_tech = convoy_interdiction_ti 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = raider_patrols
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = carrier_operations 
+			research_cost_coeff = 1
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		research_cost = 3
+		
+		categories = {
+			naval_doctrine
+			small_fleet_tree
+			small_fleet_doctrine
+			cat_small_fleet
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				num_of_naval_factories < 10
+				factor = 3
+			}
+		}
+		
+		ai_research_weights = {
+			naval_doctrine = -1.0
+			submarine = 1.0
+			cruiser = 1.0
+		}
+	}
 }
