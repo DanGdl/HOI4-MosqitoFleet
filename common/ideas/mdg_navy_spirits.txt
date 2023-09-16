@@ -1,0 +1,46 @@
+ideas = {
+	naval_academy_spirit = {
+		small_fleet_academy_spirit = {
+			ledger = navy
+			available = { has_naval_academy = yes }
+			visible = { has_tech = small_fleet }
+			modifier = {
+				custom_modifier_tooltip = small_fleet_academy_spirit_tt
+				trait_superior_tactician_xp_gain_factor = 0.2
+				trait_mdgtr_mosquito_xp_gain_factor = 0.2
+			}
+			ai_will_do = {
+				factor = 1.5
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+	}
+
+	naval_command_spirit = {
+		mosquitos_navy_spirit = {
+			ledger = navy
+			visible = { has_tech = small_fleet }
+			modifier = {
+				naval_retreat_speed = 0.1
+				navy_screen_attack_factor = 0.05
+				naval_torpedo_screen_penetration_factor = 0.05
+				naval_torpedo_hit_chance_factor = 0.1
+
+				# night_spotting_chance = 0.1
+				# naval_night_attack = 0.1
+				# navy_visibility = -0.05
+				# positioning = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					NOT = { has_dlc = "No Step Back" }
+				}
+			}
+		}
+	}
+}

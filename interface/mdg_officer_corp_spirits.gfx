@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_small_fleet_academy_spirit"
+		texturefile = "gfx/interface/officer_corp/spirits/spirit_idea_jeune_ecole.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mosquitos_navy_spirit"
+		texturefile = "gfx/interface/officer_corp/spirits/spirit_idea_jeune_ecole.dds"
+	}
+}

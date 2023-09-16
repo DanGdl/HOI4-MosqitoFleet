@@ -9,6 +9,7 @@ https://hoi4.paradoxwikis.com/Commander_trait#Personality_traits
 https://hoi4.paradoxwikis.com/Naval_doctrine
 https://hoi4.paradoxwikis.com/Ship
 https://www.beastsofwar.com/project/1348209/
+https://forum.paradoxplaza.com/forum/threads/naval-modding-ideas.896602/
 
 
 https://www.pinterest.ca/pin/45036065011629058/
