@@ -7,7 +7,7 @@ ideas = {
 			modifier = {
 				custom_modifier_tooltip = small_fleet_academy_spirit_tt
 				trait_superior_tactician_xp_gain_factor = 0.2
-				trait_mdgtr_mosquito_xp_gain_factor = 0.2
+				trait_mdg_trait_mosquito_xp_gain_factor = 0.2
 			}
 			ai_will_do = {
 				factor = 1.5

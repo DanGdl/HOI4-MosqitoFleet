@@ -56,7 +56,7 @@ leader_traits = {
 	# Naval traits.
 	##################################
 	
-	mdgtr_mosquito = { 
+	mdg_trait_mosquito = { 
 		type = navy
 		gain_xp = {
 			AND = {
@@ -93,11 +93,11 @@ leader_traits = {
 	##################################
 	
 	torpedo_expert = {
-		parent = mdgtr_mosquito
+		parent = mdg_trait_mosquito
 	}
 
 	lancer = {
-		parent = mdgtr_mosquito
+		parent = mdg_trait_mosquito
 	}
 
 	destroyer_leader = {
@@ -113,6 +113,6 @@ leader_traits = {
 				navy_visibility = -0.1
 			}
 		}
-		parent = mdgtr_mosquito
+		parent = mdg_trait_mosquito
 	}
 }

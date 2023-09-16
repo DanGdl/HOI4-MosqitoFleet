@@ -1,5 +1,4 @@
 ﻿l_english:
- mdgtr_mosquito:0 "Mosquito"
- mdgtr_mosquito_desc:0 "§LThis officer masterfully manages the swarm§!"
- mdgtr_mosquito_desc:0 "§LThis office exently manages a few groups of small ships§!"
+ mdg_trait_mosquito:0 "Mosquito"
+ mdg_trait_mosquito_desc:0 "§LThis office exently manages a few groups of small ships§!"
  MOSQUITO_TRIGGER_TT:0 "Fights using light ships (more than 80%)"

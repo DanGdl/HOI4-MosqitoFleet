@@ -38,3 +38,4 @@
  mdg_ship_hull_corvette_design_cost_factor:0 "Corvette Design Cost"
  mdg_ship_hull_frigate_design_cost_factor:0 "Frigate Design Cost"
  mdg_ship_hull_mini_submarine_design_cost_factor:0 "Mini Submarine Design Cost"
+ modifier_trait_mdg_trait_mosquito_xp_gain_factor:0 "Mosquito Trait XP Gain"

@@ -10,3 +10,4 @@
  
  modifier_experience_gain_mdg_mini_submarine_training_factor:0 "Получаемый опыт за подготовку мини субмарины"
  modifier_experience_gain_mdg_mini_submarine_combat_factor:0 "Получаемый боевой опыт мини субмарины"
+ modifier_trait_mdg_trait_mosquito_xp_gain_factor:0 "Прирост опыта от черты «Москит»"

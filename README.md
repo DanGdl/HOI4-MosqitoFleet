@@ -46,7 +46,7 @@ ERRORS:
 
 TODOS:
 - doctrine
-- spirits
+- icons for spirits
 - task for design
 
 - 3D models?
