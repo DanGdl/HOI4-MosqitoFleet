@@ -1,7 +1,7 @@
 ﻿l_english:
- small_fleet_academy_spirit:0 "Mosquitos"
- small_fleet_academy_spirit_desc:0 "No rest for enemy in our waters"
+ small_fleet_academy_spirit:0 "Small Fleet"
+ small_fleet_academy_spirit_desc:0 "Using a lot of small ships to protect our coast"
  small_fleet_academy_spirit_tt:0 "New Admirals: §G50% chance§! to begin with §Y""Mosquito"§! trait."
 
- mosquitos_navy_spirit:0 "Swarm"
- mosquitos_navy_spirit_desc:0 "Attack all together.\n\n§GThis spirit is available due to our doctrines.§!"
+ mosquitos_navy_spirit:0 "Mosquitos"
+ mosquitos_navy_spirit_desc:0 "No rest for enemy in our waters.\n\n§GThis spirit is available due to our doctrines.§!"

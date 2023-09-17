@@ -20,20 +20,6 @@ https://www.pinterest.ca/pin/373376625371564165/
 E-Boot: https://www.pinterest.ca/pin/724446290071255140/
 
 
-Doctrines: fill new doctrine
-Spirits
-
-
-mdg_boat
-mdg_corvette
-mdg_frigate
-mdg_mini_submarine
-
-mdg_ship_hull_boat
-mdg_ship_hull_corvette
-mdg_ship_hull_frigate
-mdg_ship_hull_mini_submarine
-
 Find:
  - corvettes GER, ITA, ENG, USA, JAP, FRA
  - frigates ENG, USA, FRA
@@ -45,7 +31,7 @@ ERRORS:
 
 
 TODOS:
-- doctrine
+- doctrine (fill new doctrine), icons
 - icons for spirits
 - task for design
 

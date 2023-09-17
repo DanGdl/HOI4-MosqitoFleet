@@ -830,7 +830,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "air_doctrine_title"
 				text = "air_doctrine"
-				position = { x=310 y=18}
+				position = { x = 310 y = 18 }
 				font = "hoi_20bs"
 				maxWidth = 160
 				maxHeight = 20

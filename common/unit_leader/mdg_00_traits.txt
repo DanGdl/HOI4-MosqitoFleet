@@ -72,6 +72,7 @@ leader_traits = {
 				naval_damage_factor = 0.1
 				naval_torpedo_hit_chance_factor = 0.15
 				naval_torpedo_screen_penetration_factor = 0.1
+				navy_visibility = -0.1
 			}
 		}
 		custom_gain_xp_trigger_tooltip = MOSQUITO_TRIGGER_TT
