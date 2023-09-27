@@ -1,13 +1,18 @@
 ideas = {
 	naval_academy_spirit = {
+		#50% to start with fleet protector, fly swatter or spotter traits (littoral_combat_spirit)
 		small_fleet_academy_spirit = {
 			ledger = navy
 			available = { has_naval_academy = yes }
 			visible = { has_tech = small_fleet }
 			modifier = {
 				custom_modifier_tooltip = small_fleet_academy_spirit_tt
-				trait_blockade_runner_xp_gain_factor = 0.2
+				
 				trait_mdg_trait_mosquito_xp_gain_factor = 0.2
+				trait_fleet_protector_xp_gain_factor = 0.2
+				trait_blockade_runner_xp_gain_factor = 0.2
+				trait_fly_swatter_xp_gain_factor = 0.2
+				trait_spotter_xp_gain_factor = 0.2
 			}
 			ai_will_do = {
 				factor = 1.5
