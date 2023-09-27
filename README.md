@@ -31,18 +31,18 @@ ERRORS:
 
 
 TODOS:
-- doctrine (fill new doctrine), icons
-- icons for spirits
-- task for design
-
-- 3D models?
-
+- task for design:
+-- icons for doctrine (modify icon of 'convoy_sailing', 'raider patrols', 'carrier primacy')
+-- icons for spirits (icon with mosquito)
+-- icons for equipment
 - customize generic technology icons
 - customize ENG technology icons
 - customize GER technology icons
 - customize ITA technology icons
 - customize JAP technology icons
 - customize USA technology icons
+
+- 3D models?
 
 - radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
 
