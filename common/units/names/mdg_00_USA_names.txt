@@ -2,7 +2,7 @@
 	fleet_names_template = FLEET_NAME_USA
 	mdg_ship_hull_mini_submarine = {
 		prefix = ""
-		generic = { "SS" }
+		generic = { "SSM" }
 		unique = {}
 	}
 	mdg_ship_hull_boat = {
@@ -19,7 +19,7 @@
 	
 	mdg_ship_hull_frigate = {
         prefix = ""
-        generic = { "PF" }
+        generic = { "FF" }
         unique = {}
     }
 }

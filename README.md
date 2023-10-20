@@ -24,8 +24,10 @@ Find:
  - corvettes GER, ITA, ENG, USA, JAP, FRA
  - frigates ENG, USA, FRA
 
-
 minisub SSM
+boats PT
+corvete LCS
+frigate FF
 
 ERRORS:
 
@@ -33,17 +35,16 @@ ERRORS:
 TODOS:
 - task for design:
 -- icons for doctrine (modify icon of 'convoy_sailing', 'raider patrols', 'carrier primacy')
--- icons for spirits (icon with mosquito)
--- icons for equipment
-- customize generic technology icons
+-- icons for technologies
+-- icons for naval groups
+
 - customize ENG technology icons
 - customize GER technology icons
 - customize ITA technology icons
 - customize JAP technology icons
 - customize USA technology icons
 
+- ship designer
 - 3D models?
 
 - radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
-
-- ship designer
