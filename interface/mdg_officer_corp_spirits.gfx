@@ -6,6 +6,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_mosquitos_navy_spirit"
-		texturefile = "gfx/interface/officer_corp/spirits/spirit_idea_jeune_ecole.dds"
+		texturefile = "gfx/interface/officer_corp/spirits/mdg_spirit_idea_mosquitos.dds"
 	}
 }
