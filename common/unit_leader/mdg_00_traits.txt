@@ -94,11 +94,11 @@ leader_traits = {
 	##################################
 	
 	torpedo_expert = {
-		parent = mdg_trait_mosquito
+		any_parent = { silent_hunter mdg_trait_mosquito }
 	}
 
 	lancer = {
-		parent = mdg_trait_mosquito
+		any_parent = { seawolf fleet_protector mdg_trait_mosquito }
 	}
 
 	destroyer_leader = {
@@ -114,6 +114,6 @@ leader_traits = {
 				navy_visibility = -0.1
 			}
 		}
-		parent = mdg_trait_mosquito
+		any_parent = { fleet_protector mdg_trait_mosquito }
 	}
 }
