@@ -8,7 +8,8 @@ equipments = {
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		priority = 2100
-
+		alias = mdg_frigate
+		
 		upgrades = {
 			ship_torpedo_upgrade
 			destroyer_engine_upgrade

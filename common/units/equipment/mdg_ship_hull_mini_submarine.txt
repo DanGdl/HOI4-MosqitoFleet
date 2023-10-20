@@ -8,6 +8,7 @@ equipments = {
 		type = submarine
 		group_by = archetype
 		priority = 1800
+		alias = mdg_mini_submarine
 		
 		upgrades = {
 			ship_reliability_upgrade
