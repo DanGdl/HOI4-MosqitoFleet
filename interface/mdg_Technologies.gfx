@@ -138,6 +138,28 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_mdg_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_mini_submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mdg_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/mdg_mini_submarine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_mini_submarine_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/mdg_mini_submarine_2.dds"
+	}
+
+
+	# FUTURE VERSIONS
+	SpriteType = {
 		name = "GFX_mdg_radio_boat_medium"
 		texturefile = "gfx/interface/technologies/mdg_radio_boat.dds"
 	}
@@ -145,38 +167,8 @@ spriteTypes = {
 
 
 
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_boat.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_boat.dds"
-	}
-#	SpriteType = {
-#		name = "GFX_basic_ship_hull_light_medium"
-#		texturefile = "gfx/interface/technologies/mdg_basic_boat.dds"
-#	}
-#	SpriteType = {	
-#		name = "GFX_early_ship_hull_light_medium"
-#		texturefile = "gfx/interface/technologies/mdg_early_boat.dds"
-#	}
-#	SpriteType = {
-#		name = "GFX_advanced_ship_hull_light_medium"
-#		texturefile = "gfx/interface/technologies/mdg_advanced_corvette.dds"
-#	}
-#	SpriteType = {
-#		name = "GFX_improved_ship_hull_light_medium"
-#		texturefile = "gfx/interface/technologies/mdg_improved_corvette.dds"
-#	}
-#	SpriteType = {
-#		name = "GFX_basic_ship_hull_light_medium"
-#		texturefile = "gfx/interface/technologies/mdg_basic_corvette.dds"
-#	}
-#	SpriteType = {
-#		name = "GFX_early_ship_hull_light_medium"
-#		texturefile = "gfx/interface/technologies/mdg_early_corvette.dds"
-#	}
+
+
 
 
 
@@ -230,14 +222,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_raider_patrols_sm.dds"
 	}
 	SpriteType = {
-		name = "GFX_patrol_and_ambush_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_convoy_interdiction_sm.dds"
-	}
-	SpriteType = {
 		name = "GFX_mosquitos_sm_medium"
 		texturefile = "gfx/interface/technologies/mdg_submarine_offensive_sm.dds"
 	}
 	# EOF: TODO: FIX
+	SpriteType = {
+		name = "GFX_patrol_and_ambush_sm_medium"
+		texturefile = "gfx/interface/technologies/mdg_convoy_interdiction_sm.dds"
+	}
 	SpriteType = {
 		name = "GFX_combined_operations_sm_medium"
 		texturefile = "gfx/interface/technologies/mdg_combined_operations_sm.dds"
@@ -246,5 +238,4 @@ spriteTypes = {
 		name = "GFX_battlefleet_concentration_sm_medium"
 		texturefile = "gfx/interface/technologies/mdg_battlefleet_concentration_sm.dds"
 	}
-
 }
