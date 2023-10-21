@@ -62,16 +62,16 @@ equipments = {
 		
 		surface_detection = 20
 		sub_detection = 0
-		surface_visibility = 0.5
-		sub_visibility = 13
-		naval_speed = 10
-		reliability = 0.7
+		surface_visibility = 1
+		sub_visibility = 15
+		naval_speed = 8.3
+		reliability = 0.65
 		
-		naval_range = 800
+		naval_range = 500
 		
-		max_strength = 10
+		max_strength = 5
 		
-		build_cost_ic = 350
+		build_cost_ic = 150
 		resources = {
 			steel = 1
 		}

@@ -6,8 +6,9 @@ technologies = {
 	#    #  #  # #  #  #        # #  #  #  #      #
 	### ###  ##  #  #  #      ##  #  # ### #    ##
 
-
 	early_ship_hull_light = {
+
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_light_1
@@ -74,6 +75,8 @@ technologies = {
 
 	basic_ship_hull_light = {
 
+		show_equipment_icon = yes
+
 		enable_equipments = {
 			ship_hull_light_2
 
@@ -126,6 +129,8 @@ technologies = {
 
 	improved_ship_hull_light = {
 
+		show_equipment_icon = yes
+
 		enable_equipments = {
 			ship_hull_light_3
 
@@ -175,6 +180,8 @@ technologies = {
 	}
 
 	advanced_ship_hull_light = {
+
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_light_4
@@ -509,11 +516,11 @@ technologies = {
 		}
 	}
 
- ##  ###  #  # ###  ## ### ###   ##
-#  # #  # #  #  #  #   #   #  # #
-#    ###  #  #  #   #  ##  ###   #
-#  # #  # #  #  #    # #   #  #   #
- ##  #  #  ##  ### ##  ### #  # ##
+	 ##  ###  #  # ###  ## ### ###   ##
+	#  # #  # #  #  #  #   #   #  # #
+	#    ###  #  #  #   #  ##  ###   #
+	#  # #  # #  #  #    # #   #  #   #
+	 ##  #  #  ##  ### ##  ### #  # ##
 	
 
 	early_ship_hull_cruiser = {
@@ -781,12 +788,11 @@ technologies = {
 		}
 	}
 
-
-#  # ###  ##  #   # #   #      ## #  # ### ###   ##
-#  # #   #  # #   #  # #      #   #  #  #  #  # #
-#### ##  ####  # #    #        #  ####  #  ###   #
-#  # #   #  #  # #    #         # #  #  #  #      #
-#  # ### #  #   #     #       ##  #  # ### #    ##
+	#  # ###  ##  #   # #   #      ## #  # ### ###   ##
+	#  # #   #  # #   #  # #      #   #  #  #  #  # #
+	#### ##  ####  # #    #        #  ####  #  ###   #
+	#  # #   #  #  # #    #         # #  #  #  #      #
+	#  # ### #  #   #     #       ##  #  # ### #    ##
 
 
 	early_ship_hull_heavy = {
@@ -1110,13 +1116,13 @@ technologies = {
 		}
 	}
 
- ##   ##  ###  ###  ### ### ###   ##
-#  # #  # #  # #  #  #  #   #  # #
-#    #### ###  ###   #  ##  ###   #
-#  # #  # #  # #  #  #  #   #  #   #
- ##  #  # #  # #  # ### ### #  # ##
+	 ##   ##  ###  ###  ### ### ###   ##
+	#  # #  # #  # #  #  #  #   #  # #
+	#    #### ###  ###   #  ##  ###   #
+	#  # #  # #  # #  #  #  #   #  #   #
+	 ##  #  # #  # #  # ### ### #  # ##
 
-early_ship_hull_carrier = {
+	early_ship_hull_carrier = {
 
 		enable_equipments = {
 			ship_hull_carrier_conversion_bb
@@ -1373,6 +1379,8 @@ early_ship_hull_carrier = {
 
 	improved_ship_hull_submarine = {
 
+		show_equipment_icon = yes
+
 		enable_equipments = {
 			ship_hull_submarine_3
 			mdg_ship_hull_mini_submarine_1
@@ -1421,6 +1429,8 @@ early_ship_hull_carrier = {
 	}
 
 	advanced_ship_hull_submarine = {
+
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_submarine_4
