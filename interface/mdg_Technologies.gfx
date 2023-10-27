@@ -1,6 +1,7 @@
 spriteTypes = {
 
 	### NAVAL TECH ###
+	# OVERRIDE
 	# DESTROYERS
 	SpriteType = {
 		name = "GFX_mdg_modern_destroyer_medium"
@@ -27,6 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/early_destroyer.dds"
 	}
 
+	# OVERRIDE
 	# SUBMARINES
 	SpriteType = {
 		name = "GFX_mdg_modern_submarine_medium"
@@ -54,7 +56,8 @@ spriteTypes = {
 	}
 
 
-
+	# TORPEDO BOATS
+	# GENERIC
 	SpriteType = {
 		name = "GFX_mdg_modern_boat_medium"
 		texturefile = "gfx/interface/technologies/mdg_modern_boat.dds"
@@ -80,6 +83,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_early_boat.dds"
 	}
 
+	# CORVETTES
+	# GENERIC
 	SpriteType = {
 		name = "GFX_mdg_modern_corvette_medium"
 		texturefile = "gfx/interface/technologies/mdg_modern_corvette.dds"
@@ -105,7 +110,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_early_corvette.dds"
 	}
 
-
+	# FRIGATES
+	# GENERIC
 	SpriteType = {
 		name = "GFX_mdg_modern_frigate_medium"
 		texturefile = "gfx/interface/technologies/mdg_modern_frigate.dds"
@@ -132,33 +138,142 @@ spriteTypes = {
 	}
 
 
+	# MIDGET SUBMARINES
+	# GENERIC
 	SpriteType = {
 		name = "GFX_mdg_mini_submarine_medium"
 		texturefile = "gfx/interface/technologies/mdg_mini_submarine.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_mdg_mini_submarine_1_medium"
-		texturefile = "gfx/interface/technologies/mdg_mini_submarine.dds"
+		texturefile = "gfx/interface/technologies/mdg_mini_submarine_1.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_mdg_mini_submarine_2_medium"
-		texturefile = "gfx/interface/technologies/mdg_mini_submarine.dds"
+		texturefile = "gfx/interface/technologies/mdg_mini_submarine_2.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_mini_submarine_1_medium"
 		texturefile = "gfx/interface/technologies/mdg_mini_submarine_1.dds"
 	}
-
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_mini_submarine_2_medium"
 		texturefile = "gfx/interface/technologies/mdg_mini_submarine_2.dds"
 	}
 
+	# ENG
+	SpriteType = {
+		name = "GFX_ENG_mdg_mini_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_mini_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_mini_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_mini_submarine_2.dds"
+	}
+
+	# GER
+	SpriteType = {
+		name = "GFX_GER_mdg_mini_submarine_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_mini_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_mini_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_mini_submarine_2.dds"
+	}
+
+	# ITA
+	SpriteType = {
+		name = "GFX_ITA_mdg_mini_submarine_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_mini_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_mini_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_mini_submarine_2.dds"
+	}
+
+	# JAP
+	SpriteType = {
+		name = "GFX_JAP_mdg_mini_submarine_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_mini_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_mini_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_mini_submarine_2.dds"
+	}
+
+	# SOV
+	SpriteType = {
+		name = "GFX_SOV_mdg_mini_submarine_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_mini_submarine.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_mini_submarine_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_mini_submarine_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_mini_submarine_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_mini_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_mini_submarine_2.dds"
+	}
+
 
 	# FUTURE VERSIONS
+	# BRANDERS
 	SpriteType = {
 		name = "GFX_mdg_radio_boat_medium"
 		texturefile = "gfx/interface/technologies/mdg_radio_boat.dds"
