@@ -116,11 +116,11 @@
  FRA_mdg_frigate_2:0 "Type Bougainville"
 
 
- mdg_mini_submarine:0 "Mini submarine"
- mdg_mini_submarine_1:0 "Mini submarine I"
- mdg_mini_submarine_2:0 "Mini submarine II"
- mdg_mini_submarine_1_desc:0 "Mini submarine I description"
- mdg_mini_submarine_2_desc:0 "Mini submarine II description"
+ mdg_mini_submarine:0 "Midget submarine"
+ mdg_mini_submarine_1:0 "Midget submarine I"
+ mdg_mini_submarine_2:0 "Midget submarine II"
+ mdg_mini_submarine_1_desc:0 "Midget submarine I description"
+ mdg_mini_submarine_2_desc:0 "Midget submarine II description"
 
  JAP_mdg_mini_submarine_1:0 "Type A"
  JAP_mdg_mini_submarine_2:0 "Type C"
@@ -175,6 +175,6 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Light Cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Double Purpose Light Cannons"
  EQ_MOD_CAT_mdg_boat_engine_TITLE:0 "Boat Engine"
- EQ_MOD_CAT_mdg_mini_sub_ship_engine_TITLE:0 "Mini Submarine Engine"
+ EQ_MOD_CAT_mdg_mini_sub_ship_engine_TITLE:0 "Midget Submarine Engine"
  EQ_MOD_CAT_mdg_corvette_engine_TITLE:0 "Corvette Engine"
  EQ_MOD_CAT_mdg_frigate_engine_TITLE:0 "Frigate Engine"
