@@ -19,11 +19,6 @@ https://www.pinterest.ca/pin/373376625371564165/
 
 E-Boot: https://www.pinterest.ca/pin/724446290071255140/
 
-
-Find:
- - corvettes GER, ITA, ENG, USA, JAP, FRA
- - frigates ENG, USA, FRA
-
 minisub SSM
 boats PT
 corvete LCS
@@ -44,7 +39,22 @@ TODOS:
 - customize JAP technology icons
 - customize USA technology icons
 
-- ship designer
+- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
+
+Next version:
+- ship designer for torpedo boats
 - 3D models?
 
-- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
+
+
+
+
+
+midget sub 1: 161*43 center 139*31
+midget sub 2: 206*45 center 126*29
+
+
+destroyer 1: 184*50 center 141*28
+destroyer 2: 215*50 center 141*28
+destroyer 3: 196*53 center 141*27
+destroyer 4: 234*49 center 141*29
