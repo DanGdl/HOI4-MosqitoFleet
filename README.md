@@ -30,16 +30,10 @@ ERRORS:
 TODOS:
 - task for design:
 -- icons for doctrine (modify icon of 'convoy_sailing', 'raider patrols', 'carrier primacy')
--- icons for technologies
--- icons for naval groups
+-- icons for naval battle
 
-- customize ENG technology icons
-- customize GER technology icons
-- customize ITA technology icons
-- customize JAP technology icons
-- customize USA technology icons
-
-- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
+- brander:
+-- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
 
 Next version:
 - ship designer for torpedo boats
