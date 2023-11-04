@@ -300,71 +300,479 @@ spriteTypes = {
 	# GENERIC
 	SpriteType = {
 		name = "GFX_mdg_advanced_corvette_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_improved_corvette_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_basic_corvette_medium"
-		texturefile = "gfx/interface/technologies/mdg_basic_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_early_corvette_medium"
-		texturefile = "gfx/interface/technologies/mdg_early_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_corvette_4_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_corvette_3_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_corvette_2_medium"
-		texturefile = "gfx/interface/technologies/mdg_basic_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_corvette.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_corvette_1_medium"
-		texturefile = "gfx/interface/technologies/mdg_early_corvette.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_corvette.dds"
 	}
 
-
+	# ENG
+	SpriteType = {
+		name = "GFX_ENG_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_corvette_4_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_corvette_3_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_corvette_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_corvette_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_corvette.dds"
+	}
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_early_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_corvette_4_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_corvette_3_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_corvette_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_corvette_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_early_corvette.dds"
+	}
+	
+	# ITA
+	SpriteType = {
+		name = "GFX_ITA_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_early_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_corvette_4_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_corvette_3_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_corvette_2_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_corvette_1_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_early_corvette.dds"
+	}
+	
+	# JAP
+	SpriteType = {
+		name = "GFX_JAP_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_early_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_corvette_4_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_corvette_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_corvette_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_corvette_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_early_corvette.dds"
+	}
+	
+	# SOV
+	SpriteType = {
+		name = "GFX_SOV_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_early_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_corvette_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_corvette_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_corvette_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_corvette_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_early_corvette.dds"
+	}
+	
+	# USA
+	SpriteType = {
+		name = "GFX_USA_mdg_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_early_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_corvette_4_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_advanced_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_corvette_3_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_improved_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_corvette_2_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_basic_corvette.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_corvette_1_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_early_corvette.dds"
+	}
+	
+	
 	# FRIGATES
 	# GENERIC
 	SpriteType = {
 		name = "GFX_mdg_advanced_frigate_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_improved_frigate_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_basic_frigate_medium"
-		texturefile = "gfx/interface/technologies/mdg_basic_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_early_frigate_medium"
-		texturefile = "gfx/interface/technologies/mdg_early_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_frigate_4_medium"
-		texturefile = "gfx/interface/technologies/mdg_advanced_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_frigate_3_medium"
-		texturefile = "gfx/interface/technologies/mdg_improved_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_frigate_2_medium"
-		texturefile = "gfx/interface/technologies/mdg_basic_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_frigate.dds"
 	}
 	SpriteType = {
 		name = "GFX_mdg_ship_hull_frigate_1_medium"
-		texturefile = "gfx/interface/technologies/mdg_early_frigate.dds"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_frigate.dds"
+	}
+	
+	# ENG
+	SpriteType = {
+		name = "GFX_ENG_mdg_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_early_frigate.dds"
+	}
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_mdg_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_early_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_early_frigate.dds"
+	}
+	
+	# ITA
+	SpriteType = {
+		name = "GFX_ITA_mdg_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_early_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_early_frigate.dds"
+	}
+	
+	# JAP
+	SpriteType = {
+		name = "GFX_JAP_mdg_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_early_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_early_frigate.dds"
+	}
+	
+	# SOV
+	SpriteType = {
+		name = "GFX_SOV_mdg_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_early_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_early_frigate.dds"
+	}
+	
+	# USA
+	SpriteType = {
+		name = "GFX_USA_mdg_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_early_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_frigate_4_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_advanced_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_frigate_3_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_improved_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_frigate_2_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_basic_frigate.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_frigate_1_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_early_frigate.dds"
 	}
 	
 
