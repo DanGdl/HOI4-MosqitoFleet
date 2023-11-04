@@ -1,8 +1,7 @@
 version="0"
 tags={
-	"Military"
-	"Graphics"
 	"Technologies"
+	"Graphics"
 }
-name="MosqitoFleet"
+name="MosquitoFleet"
 supported_version="1.13.5"
