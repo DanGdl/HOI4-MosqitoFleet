@@ -13,9 +13,11 @@ https://forum.paradoxplaza.com/forum/threads/naval-modding-ideas.896602/
 
 
 https://www.pinterest.ca/pin/45036065011629058/
+https://www.pinterest.ca/pin/771030398728516152/
 https://www.pinterest.ca/pin/485051822378228373/
 https://www.pinterest.ca/pin/869405903037774985/
 https://www.pinterest.ca/pin/373376625371564165/
+
 
 E-Boot: https://www.pinterest.ca/pin/724446290071255140/
 
@@ -28,20 +30,17 @@ ERRORS:
 
 
 TODOS:
-- task for design:
--- icons for doctrine (modify icon of 'convoy_sailing', 'raider patrols', 'carrier primacy')
--- icons for naval battle
-
-- brander:
--- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
+- mod's icons and screenshots
+- design:
+-- icons for technology icons (proper coloring)
 
 Next version:
 - ship designer for torpedo boats
 - 3D models?
 
 
-
-
+- brander: -> can't implement
+-- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
 
 
 midget sub 1: 161*43 center 139*31
@@ -52,3 +51,9 @@ destroyer 1: 184*50 center 141*28
 destroyer 2: 215*50 center 141*28
 destroyer 3: 196*53 center 141*27
 destroyer 4: 234*49 center 141*29
+
+scales:
+SSM 50%
+PT 50% -> 19
+LCS	66% -> 25
+FF 75% -> 28|29
