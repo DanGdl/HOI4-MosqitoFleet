@@ -10,18 +10,18 @@ equipment_modules = {
 	### #  #  ##  ### #  # ### 
 
 	mdg_mini_sub_ship_engine_1 = {
-		abbreviation = "mss_1"
+		abbreviation = "ssm_1"
 		category = mdg_mini_sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
 			fuel_consumption = 6
-			build_cost_ic = 100
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.1
-			sub_visibility = -0.1
+			build_cost_ic = 0.1
+			sub_visibility = -0.05
 		}
 		
 		can_convert_from = {
@@ -31,18 +31,18 @@ equipment_modules = {
 	}
 
 	mdg_mini_sub_ship_engine_2 = {
-		abbreviation = "mss_2"
+		abbreviation = "ssm_2"
 		category = mdg_mini_sub_ship_engine
 		parent = mdg_mini_sub_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		add_stats = {
 			fuel_consumption = 6
-			build_cost_ic = 130
 		}
 		
 		multiply_stats = {
-			naval_speed = 0.13
+			naval_speed = 0.15
+			build_cost_ic = 0.1
 			sub_visibility = -0.1
 		}
 		
