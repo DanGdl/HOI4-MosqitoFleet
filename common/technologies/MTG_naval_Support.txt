@@ -319,7 +319,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_module
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 	}
 
@@ -361,7 +361,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_module
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 	}
 
