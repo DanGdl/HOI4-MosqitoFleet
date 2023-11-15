@@ -20,19 +20,18 @@ technologies = {
 		light_cruiser = {
 			surface_detection = 0.10
 		}
-		mdg_boat = {
-			max_organisation = 5
-		}
 		destroyer = {
-			sub_detection = 0.15
-		}
-		mdg_corvette = {
-			sub_detection = 0.15
+			sub_detection = 0.10
 		}
 		mdg_frigate = {
-			sub_detection = 0.15
+			sub_detection = 0.10
 		}
-
+		mdg_corvette = {
+			sub_detection = 0.10
+		}
+		mdg_boat = {
+			sub_detection = 0.10
+		}
 		mines_planting_by_fleets_factor = 0.1
 		#####
 
@@ -206,15 +205,18 @@ technologies = {
 		#Groups of Destroyers (and CVEs should those ever be added) formed to hunt down enemy subs
 		
 		# EFFECT #############
-		destroyer = {
+		mdg_boat = {
 			max_organisation = 5
-			sub_detection = 0.1
 		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.15
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			sub_detection = 0.1
+		}
+		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.1
 		}
@@ -445,10 +447,6 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
@@ -457,7 +455,10 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
-
+		destroyer = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
 		convoy_escort_efficiency = 0.05
 		#####
 		
@@ -514,15 +515,15 @@ technologies = {
 		mdg_boat = {
 			max_organisation = 5
 		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
+		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
@@ -651,19 +652,15 @@ technologies = {
 		#The top convoy tech, basically now all the earlier concepts are working well with each other for maximum effect
 		
 		# EFFECT #############
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.1
-		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.1
-		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.1
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			sub_detection = 0.1
+		}
+		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.1
 		}
@@ -2647,15 +2644,15 @@ technologies = {
 		mdg_boat = {
 			max_organisation = 5
 		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
+		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
@@ -2726,15 +2723,15 @@ technologies = {
 		mdg_boat = {
 			max_organisation = 5
 		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
+		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
@@ -2800,15 +2797,15 @@ technologies = {
 		mdg_boat = {
 			max_organisation = 5
 		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.10
-		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.10
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			sub_detection = 0.10
+		}
+		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.10
 		}
