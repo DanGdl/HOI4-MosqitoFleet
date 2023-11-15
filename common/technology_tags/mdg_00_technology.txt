@@ -1,10 +1,12 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
 technology_categories = {
 	small_fleet_tree
 	small_fleet_doctrine
 	cat_small_fleet
 	surface_ships_sm
 
-	# not used in MIO
 	mdg_ff_tech
 	mdg_lcs_tech
 	mdg_pt_tech
@@ -13,5 +15,5 @@ technology_categories = {
 	mio_cat_tech_all_mdg_frigate_and_modules
 	mio_cat_tech_all_mdg_corvette_and_modules
 	mio_cat_tech_all_mdg_boat_and_modules
-	mio_cat_tech_all_mdg_ssm_and_modules
+	mio_cat_tech_all_mdg_ssm_and_modules # midget submarine included in mio_cat_tech_all_submarine_and_modules
 }
