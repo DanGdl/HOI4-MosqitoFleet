@@ -1070,7 +1070,15 @@ technologies = {
 			leads_to_tech = electric_torpedo
 			research_cost_coeff = 1
 		}
-
+		mdg_boat = {
+			torpedo_attack = 0.2
+		}
+		mdg_corvette = {
+			torpedo_attack = 0.2
+		}
+		mdg_frigate = {
+			torpedo_attack = 0.2
+		}
 		destroyer = {
 			torpedo_attack = 0.2
 		}
@@ -1135,11 +1143,23 @@ technologies = {
 		research_cost = 2.5
 
 		start_year = 1942
+		mdg_boat = {
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		mdg_corvette = {
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		mdg_frigate = {
+			naval_torpedo_hit_chance_factor = 0.1
+		}
 		destroyer = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		submarine = {
 			naval_torpedo_hit_chance_factor = 0.1
+		}
+		mdg_mini_submarine = {
+			torpedo_attack = 0.2
 		}
 		light_cruiser = {
 			naval_torpedo_hit_chance_factor = 0.1
@@ -1640,6 +1660,19 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
+		mdg_frigate = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		mdg_corvette = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		mdg_boat = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
