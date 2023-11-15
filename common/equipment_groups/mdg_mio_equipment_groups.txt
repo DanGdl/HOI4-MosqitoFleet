@@ -1,0 +1,37 @@
+
+ ######  ##     ## #### ########      ######   ########   #######  ##     ## ########   ######  
+##    ## ##     ##  ##  ##     ##    ##    ##  ##     ## ##     ## ##     ## ##     ## ##    ## 
+##       ##     ##  ##  ##     ##    ##        ##     ## ##     ## ##     ## ##     ## ##       
+ ######  #########  ##  ########     ##   #### ########  ##     ## ##     ## ########   ######  
+      ## ##     ##  ##  ##           ##    ##  ##   ##   ##     ## ##     ## ##              ## 
+##    ## ##     ##  ##  ##           ##    ##  ##    ##  ##     ## ##     ## ##        ##    ## 
+ ######  ##     ## #### ##            ######   ##     ##  #######   #######  ##         ######  
+
+mio_cat_eq_all_mdg_frigate = {
+	equipment_type = {
+		mdg_ship_hull_frigate
+	}
+}
+
+mio_cat_eq_all_mdg_corvette = {
+	equipment_type = {
+		mdg_ship_hull_corvette
+	}
+}
+
+mio_cat_eq_all_mdg_boat = {
+	equipment_type = {
+		mdg_ship_hull_boat
+	}
+}
+
+mio_cat_eq_all_destroyer = {
+	equipment_type = {
+		ship_hull_light
+
+		# easiest way to add support of MIO for new equipment
+		mdg_ship_hull_frigate
+		mdg_ship_hull_corvette
+		mdg_ship_hull_boat
+	}
+}

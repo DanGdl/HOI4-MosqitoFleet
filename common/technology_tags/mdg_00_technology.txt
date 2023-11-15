@@ -3,4 +3,15 @@ technology_categories = {
 	small_fleet_doctrine
 	cat_small_fleet
 	surface_ships_sm
+
+	# not used in MIO
+	mdg_ff_tech
+	mdg_lcs_tech
+	mdg_pt_tech
+	mdg_ssm_tech
+
+	mio_cat_tech_all_mdg_frigate_and_modules
+	mio_cat_tech_all_mdg_corvette_and_modules
+	mio_cat_tech_all_mdg_boat_and_modules
+	mio_cat_tech_all_mdg_ssm_and_modules
 }
