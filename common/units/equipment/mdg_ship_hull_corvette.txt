@@ -88,7 +88,7 @@ equipments = {
 		
 		armor_value = 0
 		
-		surface_detection = 24
+		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 9
 		naval_speed = 27
@@ -268,7 +268,7 @@ equipments = {
 		
 		armor_value = 0
 
-		surface_detection = 25
+		surface_detection = 20
 		sub_detection = 10
 		surface_visibility = 9
 		naval_speed = 23
