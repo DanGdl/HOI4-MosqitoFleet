@@ -16,7 +16,7 @@ patrol_and_ambush_sm
 patrol_and_ambush_sm_desc
 mosquitos_sm
 mosquitos_sm_desc
-combined_operations_smmdg_research_l_braz_por
+combined_operations_sm
 combined_operations_sm_desc
 mio_cat_tech_all_mdg_frigate_and_modules
 mio_cat_tech_all_mdg_corvette_and_modules
