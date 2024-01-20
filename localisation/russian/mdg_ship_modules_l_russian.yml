@@ -184,10 +184,6 @@
  mdg_ship_light_cannon_4_short:0 "Легкое орудие IV"
  mdg_ship_light_cannon_4_desc:0 "Малокалиберное орудие в бронированной поворотной башне."
 
- ENG_mdg_ship_light_cannon_1:0 "Орудие 76 мм"
- ENG_mdg_ship_light_cannon_2:0 "Орудие 102 мм"
- ENG_mdg_ship_light_cannon_3:0 "Орудие 120 мм"
-
  GER_mdg_ship_light_cannon_1:0 "Орудие 88 мм"
  GER_mdg_ship_light_cannon_2:0 "Орудие 105 мм"
  GER_mdg_ship_light_cannon_3:0 "Орудие 120 мм"
@@ -198,10 +194,6 @@
  SOV_mdg_ship_light_cannon_1:0 "Орудие 60 мм"
  SOV_mdg_ship_light_cannon_2:0 "Орудие 100 мм"
  SOV_mdg_ship_light_cannon_3:0 "Орудие 102 мм"
-
- USA_mdg_ship_light_cannon_1:0 "Орудие 76 мм"
- USA_mdg_ship_light_cannon_2:0 "Орудие 102 мм"
- USA_mdg_ship_light_cannon_3:0 "Орудие 120 мм"
 
  FRA_mdg_ship_light_cannon_2:0 "Орудие 100 мм"
  FRA_mdg_ship_light_cannon_3:0 "Орудие 130 мм"
