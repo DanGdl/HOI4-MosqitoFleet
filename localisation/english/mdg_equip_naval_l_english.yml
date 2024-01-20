@@ -116,27 +116,23 @@
  FRA_mdg_frigate_2:0 "Type Bougainville"
 
 
- mdg_mini_submarine:0 "Midget submarine"
- mdg_mini_submarine_1:0 "Midget submarine I"
- mdg_mini_submarine_2:0 "Midget submarine II"
- mdg_mini_submarine_1_desc:0 "Midget submarine I description"
- mdg_mini_submarine_2_desc:0 "Midget submarine II description"
+ mdg_midget_submarine:0 "Midget submarine"
+ mdg_midget_submarine_1:0 "Midget submarine I"
+ mdg_midget_submarine_2:0 "Midget submarine II"
+ mdg_midget_submarine_1_desc:0 "Midget submarine I description"
+ mdg_midget_submarine_2_desc:0 "Midget submarine II description"
 
- JAP_mdg_mini_submarine_1:0 "Type A"
- JAP_mdg_mini_submarine_2:0 "Type C"
+ JAP_mdg_midget_submarine_1:0 "Type A"
+ JAP_mdg_midget_submarine_2:0 "Type C"
 
- GER_mdg_mini_submarine_1:0 "Type Biber"
- GER_mdg_mini_submarine_2:0 "Type Seehund"
+ GER_mdg_midget_submarine_1:0 "Type Biber"
+ GER_mdg_midget_submarine_2:0 "Type Seehund"
 
- ENG_mdg_mini_submarine_1:0 "Type X"
- ENG_mdg_mini_submarine_2:0 "Type XE"
+ ENG_mdg_midget_submarine_1:0 "Type X"
+ ENG_mdg_midget_submarine_2:0 "Type XE"
 
- ITA_mdg_mini_submarine_1:0 "Type CA"
- ITA_mdg_mini_submarine_2:0 "Type CB"
-
-
- mdg_radio_boat:0 "Radio boat"
- mdg_radio_boat_desc:0 "Radio boat description"
+ ITA_mdg_midget_submarine_1:0 "Type CA"
+ ITA_mdg_midget_submarine_2:0 "Type CB"
 
 
  mdg_ship_hull_boat_1:2 "Early Boat Hull"
@@ -166,15 +162,15 @@
  mdg_ship_hull_frigate_4:2 "1944 Frigate Hull"
  mdg_ship_hull_frigate_4_desc:0 "1944 Frigate Hull description"
 
- mdg_ship_hull_mini_submarine_1:2 "1940 Midget Submarine Hull"
- mdg_ship_hull_mini_submarine_1_desc:0 "1940 Midget Submarine Hull description"
- mdg_ship_hull_mini_submarine_2:2 "1944 Midget Submarine Hull"
- mdg_ship_hull_mini_submarine_2_desc:0 "1944 Midget Submarine Hull description"
+ mdg_ship_hull_midget_submarine_1:2 "1940 Midget Submarine Hull"
+ mdg_ship_hull_midget_submarine_1_desc:0 "1940 Midget Submarine Hull description"
+ mdg_ship_hull_midget_submarine_2:2 "1944 Midget Submarine Hull"
+ mdg_ship_hull_midget_submarine_2_desc:0 "1944 Midget Submarine Hull description"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Automatic Cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Light Cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Double Purpose Light Cannons"
  EQ_MOD_CAT_mdg_boat_engine_TITLE:0 "Boat Engine"
- EQ_MOD_CAT_mdg_mini_sub_ship_engine_TITLE:0 "Midget Submarine Engine"
+ EQ_MOD_CAT_mdg_midget_submarine_engine_TITLE:0 "Midget Submarine Engine"
  EQ_MOD_CAT_mdg_corvette_engine_TITLE:0 "Corvette Engine"
  EQ_MOD_CAT_mdg_frigate_engine_TITLE:0 "Frigate Engine"

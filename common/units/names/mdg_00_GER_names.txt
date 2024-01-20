@@ -1,7 +1,7 @@
 ﻿GER = {
 	fleet_names_template = FLEET_NAME_GER
 
-	mdg_ship_hull_mini_submarine = {
+	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "U" }
 		unique = {}

@@ -736,7 +736,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
@@ -783,7 +783,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
@@ -838,7 +838,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
@@ -894,7 +894,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.1
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.1
@@ -948,7 +948,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
@@ -1030,7 +1030,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
@@ -1091,7 +1091,7 @@ technologies = {
 			surface_detection = 0.1
 			convoy_raiding_coordination = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			surface_detection = 0.1
 			convoy_raiding_coordination = 0.05
 		}
@@ -1160,7 +1160,7 @@ technologies = {
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
@@ -1231,7 +1231,7 @@ technologies = {
 			surface_detection = 0.1
 			max_strength = 0.2
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.2
 			surface_detection = 0.1
@@ -1298,7 +1298,7 @@ technologies = {
 			convoy_raiding_coordination = 0.05
 			surface_detection = 0.1
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.05
 			surface_detection = 0.1
@@ -2330,7 +2330,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
@@ -2387,7 +2387,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
@@ -2452,7 +2452,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
@@ -2518,7 +2518,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.10
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.10
@@ -2864,7 +2864,7 @@ technologies = {
 	
 		xp_research_type = navy
 		
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
@@ -2942,7 +2942,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 1.0
-			mdg_mini_submarine = 1.0
+			mdg_midget_submarine = 1.0
 			mdg_boat = 1.0
 			mdg_corvette = 1.0
 			mdg_frigate = 1.0
@@ -3233,7 +3233,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
@@ -3276,7 +3276,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 1.0
-			mdg_mini_submarine = 1.0
+			mdg_midget_submarine = 1.0
 		}
 	}
 
@@ -3288,7 +3288,7 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
@@ -3339,7 +3339,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 1.0
-			mdg_mini_submarine = 1.0
+			mdg_midget_submarine = 1.0
 		}
 	}
 
@@ -3351,7 +3351,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
@@ -3407,7 +3407,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.10
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.10
@@ -3459,7 +3459,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 1.0
-			mdg_mini_submarine = 1.0
+			mdg_midget_submarine = 1.0
 		}
 	}
 
@@ -3658,14 +3658,14 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			submarine = 1.0
-			mdg_mini_submarine = 1.0
+			mdg_midget_submarine = 1.0
 		}
 	}
 
 	# Tops. Middle branch
 	combined_operations_sm = {
 		#top raiding idea - subs and surface raiders act in harmony to destroy convoys
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.05
 			surface_detection = 0.1
@@ -3755,7 +3755,7 @@ technologies = {
 		
 		ai_research_weights = {
 			naval_doctrine = -1.0
-			mdg_mini_submarine = 1.0
+			mdg_midget_submarine = 1.0
 			submarine = 1.0
 			mdg_boat = 1.0
 			mdg_corvette = 1.0

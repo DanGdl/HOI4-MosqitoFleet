@@ -116,31 +116,31 @@
  JAP_mdg_frigate_engine_4:0 "1,900 Shp Engine"
 
 
- mdg_mini_sub_ship_engine_1:0 "25 Shp Engine"
- mdg_mini_sub_ship_engine_1_short:0 "Midget Submarine Engine I"
- mdg_mini_sub_ship_engine_1_desc:0 "A combination of diesel and electric engines allow a submarine to operate underwater at a reasonable speed."
- mdg_mini_sub_ship_engine_2:0 "35 Shp Engine"
- mdg_mini_sub_ship_engine_2_short:0 ""Midget Submarine Engine II"
- mdg_mini_sub_ship_engine_2_desc:1 "Advanced engines with turbochargers are able to run much faster for a brief period, either to chase targets or to recharge the batteries quicker."
+ mdg_midget_sub_ship_engine_1:0 "25 Shp Engine"
+ mdg_midget_sub_ship_engine_1_short:0 "Midget Submarine Engine I"
+ mdg_midget_sub_ship_engine_1_desc:0 "A combination of diesel and electric engines allow a submarine to operate underwater at a reasonable speed."
+ mdg_midget_sub_ship_engine_2:0 "35 Shp Engine"
+ mdg_midget_sub_ship_engine_2_short:0 ""Midget Submarine Engine II"
+ mdg_midget_sub_ship_engine_2_desc:1 "Advanced engines with turbochargers are able to run much faster for a brief period, either to chase targets or to recharge the batteries quicker."
 
- ENG_mdg_mini_sub_ship_engine_1:0 "25 Shp Engine"
- ENG_mdg_mini_sub_ship_engine_2:0 "30 Shp Engine"
+ ENG_mdg_midget_sub_ship_engine_1:0 "25 Shp Engine"
+ ENG_mdg_midget_sub_ship_engine_2:0 "30 Shp Engine"
 
- GER_mdg_mini_sub_ship_engine_1:0 "13 Shp Engine"
- GER_mdg_mini_sub_ship_engine_2:0 "25 Shp Engine"
+ GER_mdg_midget_sub_ship_engine_1:0 "13 Shp Engine"
+ GER_mdg_midget_sub_ship_engine_2:0 "25 Shp Engine"
 
- ITA_mdg_mini_sub_ship_engine_1:0 "25 Shp Engine"
- ITA_mdg_mini_sub_ship_engine_2:0 "100 Shp Engine"
+ ITA_mdg_midget_sub_ship_engine_1:0 "25 Shp Engine"
+ ITA_mdg_midget_sub_ship_engine_2:0 "100 Shp Engine"
 
- ITA_mdg_mini_sub_ship_engine_1:0 "500 Shp Engine"
- ITA_mdg_mini_sub_ship_engine_2:0 "600 Shp Engine"
+ JAP_mdg_midget_sub_ship_engine_1:0 "500 Shp Engine"
+ JAP_mdg_midget_sub_ship_engine_2:0 "600 Shp Engine"
 
 
  mdg_ship_light_guns_1:0 "7.62 mm Machine Gun"
  mdg_ship_light_guns_1_short:0 "Boat armament I"
  mdg_ship_light_guns_1_desc:0 "Regular machine gun"
  mdg_ship_light_guns_2:0 "7.62 mm Twin Machine Gun"
- mdg_ship_light_guns_2_short:0 Boat armament II"
+ mdg_ship_light_guns_2_short:0 "Boat armament II"
  mdg_ship_light_guns_2_desc:0 "Twin heavy machine gun"
  mdg_ship_light_guns_3:0 "20 mm Automatic canon"
  mdg_ship_light_guns_3_short:0 "Boat armament III"

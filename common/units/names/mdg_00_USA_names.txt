@@ -1,10 +1,11 @@
 ﻿USA = {
 	fleet_names_template = FLEET_NAME_USA
-	mdg_ship_hull_mini_submarine = {
+	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "SSM" }
 		unique = {}
 	}
+
 	mdg_ship_hull_boat = {
 		prefix = ""
 		generic = { "PT" }

@@ -15,7 +15,7 @@ categories =  {
 				defence = 0.1
 			}
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			units = {
 				attack = 0.2
 				movement = 0.2
@@ -39,7 +39,7 @@ categories =  {
 				defence = 0.05
 			}
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			navy_visibility = 0.5
 		}
 	}
@@ -66,7 +66,7 @@ categories =  {
 				defence = -0.2
 			}
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			navy_visibility = -0.15
 			units = {
 				attack = -0.3

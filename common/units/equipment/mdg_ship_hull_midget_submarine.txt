@@ -1,6 +1,6 @@
 equipments = {
 
-	mdg_ship_hull_mini_submarine = {
+	mdg_ship_hull_midget_submarine = {
 		year = 1940
 
 		is_archetype = yes
@@ -8,7 +8,7 @@ equipments = {
 		type = submarine
 		group_by = archetype
 		priority = 1500
-		alias = mdg_mini_submarine
+		alias = mdg_midget_submarine
 		
 		upgrades = {
 			ship_reliability_upgrade
@@ -26,7 +26,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { mdg_mini_sub_ship_engine }
+				allowed_module_categories = { mdg_midget_sub_ship_engine }
 			}
 			rear_1_custom_slot = {
 				required = no
@@ -43,7 +43,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
-			fixed_ship_engine_slot = mdg_mini_sub_ship_engine_1
+			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
 		
@@ -84,22 +84,22 @@ equipments = {
 	}
 
 
-	mdg_ship_hull_mini_submarine_1 = {
+	mdg_ship_hull_midget_submarine_1 = {
 		abbreviation = "ms_1"
 		year = 1940
 
-		archetype = mdg_ship_hull_mini_submarine
+		archetype = mdg_ship_hull_midget_submarine
 		priority = 1500
 		
 		module_slots = inherit
 	}
 
-	mdg_ship_hull_mini_submarine_2 = {
+	mdg_ship_hull_midget_submarine_2 = {
 		abbreviation = "ms_2"
 		year = 1944
 
-		archetype = mdg_ship_hull_mini_submarine
-		parent = mdg_ship_hull_mini_submarine_1
+		archetype = mdg_ship_hull_midget_submarine
+		parent = mdg_ship_hull_midget_submarine_1
 		priority = 1500
 
 		module_slots = {
@@ -109,7 +109,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_engine_slot = mdg_mini_sub_ship_engine_2
+			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_2
 		}
 		sub_visibility = 12
 		naval_speed = 10
@@ -128,17 +128,17 @@ equipments = {
 
 	# VANILA (NO DLC)
 
-	mdg_mini_submarine_1 = {
+	mdg_midget_submarine_1 = {
 		year = 1940
 
-		archetype = mdg_ship_hull_mini_submarine
+		archetype = mdg_ship_hull_midget_submarine
 		priority = 1500
 		
 		module_slots = inherit
 		
 		default_modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_3
-			fixed_ship_engine_slot = mdg_mini_sub_ship_engine_1
+			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
 
@@ -167,12 +167,12 @@ equipments = {
 		manpower = 100
 	}
 
-	mdg_mini_submarine_2 = {
+	mdg_midget_submarine_2 = {
 		year = 1944
 
-		archetype = mdg_ship_hull_mini_submarine
+		archetype = mdg_ship_hull_midget_submarine
 		priority = 1800
-		parent = mdg_mini_submarine_1
+		parent = mdg_midget_submarine_1
 		module_slots = inherit
 		
 		default_modules = {

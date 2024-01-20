@@ -1085,7 +1085,7 @@ technologies = {
 		submarine = {
 			torpedo_attack = 0.2
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			torpedo_attack = 0.2
 		}
 		light_cruiser = {
@@ -1158,7 +1158,7 @@ technologies = {
 		submarine = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
-		mdg_mini_submarine = {
+		mdg_midget_submarine = {
 			torpedo_attack = 0.2
 		}
 		light_cruiser = {

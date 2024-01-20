@@ -115,27 +115,23 @@
  JAP_mdg_frigate_4:0 "Тип «C»"
 
 
- mdg_mini_submarine:0 "Сверхмалая субмарина"
- mdg_mini_submarine_1:0 "Сверхмалая субмарина I"
- mdg_mini_submarine_2:0 "Сверхмалая субмарина II"
- mdg_mini_submarine_1_desc:0 "Сверхмалая субмарина I описание" 
- mdg_mini_submarine_2_desc:0 "Сверхмалая субмарина II описание"
+ mdg_midget_submarine:0 "Сверхмалая субмарина"
+ mdg_midget_submarine_1:0 "Сверхмалая субмарина I"
+ mdg_midget_submarine_2:0 "Сверхмалая субмарина II"
+ mdg_midget_submarine_1_desc:0 "Сверхмалая субмарина I описание"
+ mdg_midget_submarine_2_desc:0 "Сверхмалая субмарина II описание"
 
- ENG_mdg_mini_submarine_1:0 "Тип «X»"
- ENG_mdg_mini_submarine_2:0 "Тип «XE»"
+ ENG_mdg_midget_submarine_1:0 "Тип «X»"
+ ENG_mdg_midget_submarine_2:0 "Тип «XE»"
 
- GER_mdg_mini_submarine_1:0 "Тип «Бибер»"
- GER_mdg_mini_submarine_2:0 "Тип «Зеехунд»"
+ GER_mdg_midget_submarine_1:0 "Тип «Бибер»"
+ GER_mdg_midget_submarine_2:0 "Тип «Зеехунд»"
 
- ITA_mdg_mini_submarine_1:0 "Тип «CA»"
- ITA_mdg_mini_submarine_2:0 "Тип «CB»"
+ ITA_mdg_midget_submarine_1:0 "Тип «CA»"
+ ITA_mdg_midget_submarine_2:0 "Тип «CB»"
 
- JAP_mdg_mini_submarine_1:0 "Тип «A»"
- JAP_mdg_mini_submarine_2:0 "Тип «C»"
-
-
- mdg_radio_boat:0 "Радиоуправляемый катер"
- mdg_radio_boat_desc:0 "Радиоуправляемый катер описание" 
+ JAP_mdg_midget_submarine_1:0 "Тип «A»"
+ JAP_mdg_midget_submarine_2:0 "Тип «C»"
 
 
  mdg_ship_hull_boat_1:2 "Ранний корпус катера"
@@ -165,10 +161,10 @@
  mdg_ship_hull_frigate_4:2 "Корпус фрегата обр. 1944 г."
  mdg_ship_hull_frigate_4_desc:0 "Корпус фрегата обр. 1944 г. описание"
 
- mdg_ship_hull_mini_submarine_1:2 "Корпус сверхмалой подводной лодки обр. 1940 г."
- mdg_ship_hull_mini_submarine_1_desc:0 "Корпус сверхмалой подводной лодки обр. 1940 г. описание"
- mdg_ship_hull_mini_submarine_2:2 "Корпус сверхмалой подводной лодки обр. 1944 г."
- mdg_ship_hull_mini_submarine_2_desc:0 "Корпус сверхмалой подводной лодки обр. 1944 г. описание"
+ mdg_ship_hull_midget_submarine_1:2 "Корпус сверхмалой подводной лодки обр. 1940 г."
+ mdg_ship_hull_midget_submarine_1_desc:0 "Корпус сверхмалой подводной лодки обр. 1940 г. описание"
+ mdg_ship_hull_midget_submarine_2:2 "Корпус сверхмалой подводной лодки обр. 1944 г."
+ mdg_ship_hull_midget_submarine_2_desc:0 "Корпус сверхмалой подводной лодки обр. 1944 г. описание"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Автоматические пушки"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Легкие орудия"
@@ -177,4 +173,3 @@
  EQ_MOD_CAT_mdg_mini_sub_ship_engine_TITLE:0 "Двигатель сверхмалой субмарины"
  EQ_MOD_CAT_mdg_corvette_engine_TITLE:0 "Двигатель корвета"
  EQ_MOD_CAT_mdg_frigate_engine_TITLE:0 "Двигатель фрегата"
- 

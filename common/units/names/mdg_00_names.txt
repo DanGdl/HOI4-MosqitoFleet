@@ -1,5 +1,5 @@
 ﻿generic = {
-	mdg_ship_hull_mini_submarine = {
+	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "Midget submarine" }
 		unique = {}

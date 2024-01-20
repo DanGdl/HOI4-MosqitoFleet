@@ -1508,12 +1508,12 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_submarine_3
-			mdg_ship_hull_mini_submarine_1
+			mdg_ship_hull_midget_submarine_1
 		}
 		enable_equipment_modules = {
 			ship_torpedo_sub_3
 			sub_ship_engine_3
-			mdg_mini_sub_ship_engine_1
+			mdg_midget_sub_ship_engine_1
 		}
 
 		path = {
@@ -1562,12 +1562,12 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_submarine_4
-			mdg_ship_hull_mini_submarine_2
+			mdg_ship_hull_midget_submarine_2
 		}
 		enable_equipment_modules = {
 			ship_torpedo_sub_4
 			sub_ship_engine_4
-			mdg_mini_sub_ship_engine_2
+			mdg_midget_sub_ship_engine_2
 		}
 
 		research_cost = 2.0

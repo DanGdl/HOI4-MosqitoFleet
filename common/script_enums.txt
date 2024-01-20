@@ -610,10 +610,10 @@ script_enum_equipment_bonus_type = {
 	mdg_ship_hull_frigate_3
 	mdg_ship_hull_frigate_4
 
-	mdg_mini_submarine
-	mdg_mini_submarine_1
-	mdg_mini_submarine_2
-	mdg_ship_hull_mini_submarine
-	mdg_ship_hull_mini_submarine_1
-	mdg_ship_hull_mini_submarine_2
+	mdg_midget_submarine
+	mdg_midget_submarine_1
+	mdg_midget_submarine_2
+	mdg_ship_hull_midget_submarine
+	mdg_ship_hull_midget_submarine_1
+	mdg_ship_hull_midget_submarine_2
 }

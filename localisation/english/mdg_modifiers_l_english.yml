@@ -8,8 +8,8 @@
  modifier_experience_gain_mdg_frigate_training_factor:0 "Frigate Training Experience Gain"
  modifier_experience_gain_mdg_frigate_combat_factor:0 "Frigate Combat Experience Gain"
  
- modifier_experience_gain_mdg_mini_submarine_training_factor:0 "Mini Submarine experence gain from training"
- modifier_experience_gain_mdg_mini_submarine_combat_factor:0 "Mini Submarine Combat Experience Gain"
+ modifier_experience_gain_mdg_midget_submarine_training_factor:0 "Midget Submarine experence gain from training"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor:0 "Midget Submarine Combat Experience Gain"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor:0 "Light Guns I Design Cost"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor:0 "Light Guns II Design Cost"

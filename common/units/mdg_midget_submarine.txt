@@ -1,11 +1,11 @@
 sub_units = {
-	mdg_mini_submarine = {
-		sprite = mdg_mini_submarine
+	mdg_midget_submarine = {
+		sprite = mdg_midget_submarine
 		map_icon_category = ship
 		priority = 2
 		active = yes
 		type = { submarine }
-		need = { mdg_ship_hull_mini_submarine = 1 }
+		need = { mdg_ship_hull_midget_submarine = 1 }
 		
 		max_organisation = 30
 		

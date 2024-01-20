@@ -1,9 +1,10 @@
 ﻿JAP = {
-	mdg_ship_hull_mini_submarine = {
+	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "I" }
 		unique = {}
 	}
+
 	mdg_ship_hull_boat = {
 		prefix = ""
 		generic = { "T" }

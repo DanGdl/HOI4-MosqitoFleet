@@ -1,10 +1,11 @@
 ﻿ITA = {
 
-	mdg_ship_hull_mini_submarine = { 
+	mdg_ship_hull_midget_submarine = {
 		prefix = "RSmg" # Regio Sommergibile
 		generic = { "SLC" } 
 		unique = {} 
 	}
+
 	mdg_ship_hull_boat = {
 		prefix = ""
 		generic = { "MAS" }

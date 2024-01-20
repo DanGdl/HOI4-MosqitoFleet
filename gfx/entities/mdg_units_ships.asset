@@ -450,8 +450,8 @@ entity = {
 
 # MINISUBMARINE
 entity = { 
-	name = "mdg_mini_submarine_entity"
-	pdxmesh = "generic_mdg_mini_submarine_mesh"
+	name = "mdg_midget_submarine_entity"
+	pdxmesh = "generic_mdg_midget_submarine_mesh"
 	
 	default_state = idle
 	state = {
