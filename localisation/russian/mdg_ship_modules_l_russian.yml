@@ -116,24 +116,24 @@
  JAP_mdg_frigate_engine_4:0 "Двигатель 1 900 л.с."
 
 
- mdg_mini_sub_ship_engine_1:0 "Двигатель 25 л.с."
- mdg_mini_sub_ship_engine_1_short:0 "Двигатели сверхмалых подводных лодок I"
- mdg_mini_sub_ship_engine_1_desc:0 "Энергетическая установка, состоящая из дизельных и электрических моторов, позволяет лодке перемещаться как над, так и под водой на адекватной скорости."
- mdg_mini_sub_ship_engine_2:0 "Двигатель 35 л.с."
- mdg_mini_sub_ship_engine_2_short:0 "Двигатели сверхмалых подводных лодок II"
- mdg_mini_sub_ship_engine_2_desc:1 "Современные двигатели способны выдавать гораздо более высокую мощность в течение короткого времени, чтобы сократить дистанцию до цели или быстро перезарядить аккумуляторы."
+ mdg_midget_sub_ship_engine_1:0 "Двигатель 25 л.с."
+ mdg_midget_sub_ship_engine_1_short:0 "Двигатели сверхмалых подводных лодок I"
+ mdg_midget_sub_ship_engine_1_desc:0 "Энергетическая установка, состоящая из дизельных и электрических моторов, позволяет лодке перемещаться как над, так и под водой на адекватной скорости."
+ mdg_midget_sub_ship_engine_2:0 "Двигатель 35 л.с."
+ mdg_midget_sub_ship_engine_2_short:0 "Двигатели сверхмалых подводных лодок II"
+ mdg_midget_sub_ship_engine_2_desc:1 "Современные двигатели способны выдавать гораздо более высокую мощность в течение короткого времени, чтобы сократить дистанцию до цели или быстро перезарядить аккумуляторы."
 
- ENG_mdg_mini_sub_ship_engine_1:0 "Двигатель 25 л.с."
- ENG_mdg_mini_sub_ship_engine_2:0 "Двигатель 30 л.с."
+ ENG_mdg_midget_sub_ship_engine_1:0 "Двигатель 25 л.с."
+ ENG_mdg_midget_sub_ship_engine_2:0 "Двигатель 30 л.с."
 
- GER_mdg_mini_sub_ship_engine_1:0 "Двигатель 13 л.с."
- GER_mdg_mini_sub_ship_engine_2:0 "Двигатель 25 л.с."
+ GER_mdg_midget_sub_ship_engine_1:0 "Двигатель 13 л.с."
+ GER_mdg_midget_sub_ship_engine_2:0 "Двигатель 25 л.с."
 
- ITA_mdg_mini_sub_ship_engine_1:0 "Двигатель 25 л.с."
- ITA_mdg_mini_sub_ship_engine_2:0 "Двигатель 100 л.с."
+ ITA_mdg_midget_sub_ship_engine_1:0 "Двигатель 25 л.с."
+ ITA_mdg_midget_sub_ship_engine_2:0 "Двигатель 100 л.с."
 
- JAP_mdg_mini_sub_ship_engine_1:0 "Двигатель 500 л.с."
- JAP_mdg_mini_sub_ship_engine_2:0 "Двигатель 600 л.с."
+ JAP_mdg_midget_sub_ship_engine_1:0 "Двигатель 500 л.с."
+ JAP_mdg_midget_sub_ship_engine_2:0 "Двигатель 600 л.с."
 
 
  mdg_ship_light_guns_1:0 "Пулемет 7.62 мм"

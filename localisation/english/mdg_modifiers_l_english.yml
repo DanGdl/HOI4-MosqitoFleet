@@ -31,8 +31,8 @@
  modifier_module_mdg_frigate_engine_3_design_cost_factor:0 "Frigate Engine III Design Cost"
  modifier_module_mdg_frigate_engine_4_design_cost_factor:0 "Frigate Engine IV Design Cost"
 
- modifier_module_mdg_mini_sub_ship_engine_1_design_cost_factor:0 "Midget submarine Engine I Design Cost"
- modifier_module_mdg_mini_sub_ship_engine_2_design_cost_factor:0 "Midget submarine Engine II Design Cost"
+ modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor:0 "Midget submarine Engine I Design Cost"
+ modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor:0 "Midget submarine Engine II Design Cost"
 
  mdg_ship_hull_boat_design_cost_factor:0 "Boat Design Cost"
  mdg_ship_hull_corvette_design_cost_factor:0 "Corvette Design Cost"

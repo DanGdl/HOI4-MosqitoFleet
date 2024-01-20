@@ -33,8 +33,8 @@
  modifier_module_mdg_frigate_engine_3_design_cost_factor:0 "Стоимость проекта двигателя фрегата мощностью 6 000 л. с."
  modifier_module_mdg_frigate_engine_4_design_cost_factor:0 "Стоимость проекта двигателя фрегата мощностью 6 500 л. с."
 
- modifier_module_mdg_mini_sub_ship_engine_1_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 25 л. с."
- modifier_module_mdg_mini_sub_ship_engine_2_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 35 л. с."
+ modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 25 л. с."
+ modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 35 л. с."
 
  mdg_ship_hull_boat_design_cost_factor:0 "Стоимость проекта катера"
  mdg_ship_hull_corvette_design_cost_factor:0 "Стоимость проекта корвета"

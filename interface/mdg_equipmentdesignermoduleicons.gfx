@@ -70,15 +70,15 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_SMI_mdg_mini_sub_ship_engine"
+		name = "GFX_SMI_mdg_midget_sub_ship_engine"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_mdg_mini_sub_ship_engine_1"
+		name = "GFX_SMI_mdg_midget_sub_ship_engine_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_1.dds"
 	}
 	spriteType = {
-		name = "GFX_SMI_mdg_mini_sub_ship_engine_2"
+		name = "GFX_SMI_mdg_midget_sub_ship_engine_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_engine_icn_2.dds"
 	}
 
