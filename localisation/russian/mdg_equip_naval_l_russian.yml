@@ -96,7 +96,8 @@
  ENG_mdg_frigate_3:0 "Тип «Loch»"
  ENG_mdg_frigate_4:0 "Тип «Бэй»"
 
- GER_mdg_frigate_3:0 "Тип «F»"
+ GER_mdg_frigate_2:0 "Тип «F»"
+ GER_mdg_frigate_3:0 "Тип «SG»"
 
  ITA_mdg_frigate_3:0 "Тип «Аре»"
 

@@ -105,8 +105,8 @@
  SOV_mdg_frigate_engine_3:0 "6,500 Shp Engine"
  SOV_mdg_frigate_engine_4:0 "8,500 Shp Engine"
 
- SOV_mdg_frigate_engine_3:0 "1,400 Shp Engine"
- SOV_mdg_frigate_engine_4:0 "2,750 Shp Engine"
+ USA_mdg_frigate_engine_3:0 "1,400 Shp Engine"
+ USA_mdg_frigate_engine_4:0 "2,750 Shp Engine"
 
  FRA_mdg_frigate_engine_2:0 "1,200 Shp Engine"
  FRA_mdg_frigate_engine_3:0 "2,050 Shp Engine"
@@ -195,11 +195,11 @@
  SOV_mdg_ship_light_cannon_2:0 "100 mm Canon"
  SOV_mdg_ship_light_cannon_3:0 "102 mm Canon"
 
- ITA_mdg_ship_light_cannon_2:0 "100 mm Canon"
- ITA_mdg_ship_light_cannon_3:0 "130 mm Canon"
+ FRA_mdg_ship_light_cannon_2:0 "100 mm Canon"
+ FRA_mdg_ship_light_cannon_3:0 "130 mm Canon"
 
- ITA_mdg_ship_light_cannon_2:0 "100 mm Canon"
- ITA_mdg_ship_light_cannon_3:0 "120 mm Canon"
+ JAP_mdg_ship_light_cannon_2:0 "100 mm Canon"
+ JAP_mdg_ship_light_cannon_3:0 "120 mm Canon"
 
 
  mdg_ship_light_cannon_dp_1:0 "Double purpose 76 mm Canon"
@@ -226,8 +226,8 @@
  SOV_mdg_ship_light_cannon_dp_2:0 "Double purpose 100 mm Canon"
  SOV_mdg_ship_light_cannon_dp_3:0 "Double purpose 102 mm Canon"
 
- ITA_mdg_ship_light_cannon_dp_2:0 "Double purpose 100 mm Canon"
- ITA_mdg_ship_light_cannon_dp_3:0 "Double purpose 130 mm Canon"
+ FRA_mdg_ship_light_cannon_dp_2:0 "Double purpose 100 mm Canon"
+ FRA_mdg_ship_light_cannon_dp_3:0 "Double purpose 130 mm Canon"
 
- ITA_mdg_ship_light_cannon_dp_2:0 "Double purpose 100 mm Canon"
- ITA_mdg_ship_light_cannon_dp_3:0 "Double purpose 120 mm Canon"
+ JAP_mdg_ship_light_cannon_dp_2:0 "Double purpose 100 mm Canon"
+ JAP_mdg_ship_light_cannon_dp_3:0 "Double purpose 120 mm Canon"

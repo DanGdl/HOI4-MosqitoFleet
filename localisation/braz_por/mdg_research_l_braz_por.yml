@@ -419,6 +419,7 @@
 
  convoy_sailing_sm:0 "Navegação em comboio"
  convoy_sailing_desc_sm:0 "Introduzir uma navegação em comboio compulsória tornará mais fácil avistar incursões inimigas e responder a tempo. A segurança em números é o melhor caminho."
+ convoy_sailing_sm_desc:0 "Introduzir uma navegação em comboio compulsória tornará mais fácil avistar incursões inimigas e responder a tempo. A segurança em números é o melhor caminho."
  convoy_escorts_sm:0 "Escoltas de comboios"
  convoy_escorts_sm_desc:0 "Ter navios de superfície rápidos como parte de nossos comboios nos permitirá avistar submarinos inimigos e responder a tempo. Detecção é a chave para eliminar o estorvo dos submarinos."
  escort_patrols_sm:0 "Patrulhas de escolta"

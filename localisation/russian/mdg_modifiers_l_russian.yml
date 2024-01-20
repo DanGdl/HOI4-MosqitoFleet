@@ -8,6 +8,36 @@
  modifier_experience_gain_mdg_frigate_training_factor:0 "Получаемый опыт за подготовку фрегата"
  modifier_experience_gain_mdg_frigate_combat_factor:0 "Получаемый боевой опыт фрегата"
  
- modifier_experience_gain_mdg_mini_submarine_training_factor:0 "Получаемый опыт за подготовку мини субмарины"
- modifier_experience_gain_mdg_mini_submarine_combat_factor:0 "Получаемый боевой опыт мини субмарины"
+ modifier_experience_gain_mdg_midget_submarine_training_factor:0 "Получаемый опыт за подготовку мини субмарины"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor:0 "Получаемый боевой опыт мини субмарины"
+
+ modifier_trait_mdg_trait_mosquito_xp_gain_factor:0 "Прирост опыта от черты «Москит»"
+
+ modifier_module_mdg_ship_light_guns_1_design_cost_factor:0 "Light Guns I Design Cost"
+ modifier_module_mdg_ship_light_guns_2_design_cost_factor:0 "Light Guns II Design Cost"
+ modifier_module_mdg_ship_light_guns_3_design_cost_factor:0 "Light Guns III Design Cost"
+ modifier_module_mdg_ship_light_guns_4_design_cost_factor:0 "Light Guns IV Design Cost"
+
+ modifier_module_mdg_boat_engine_1_design_cost_factor:0 "Стоимость проекта двигателя катера мощностью 700 л. с."
+ modifier_module_mdg_boat_engine_2_design_cost_factor:0 "Стоимость проекта двигателя катера мощностью 800 л. с."
+ modifier_module_mdg_boat_engine_3_design_cost_factor:0 "Стоимость проекта двигателя катера мощностью 1 200 л. с."
+ modifier_module_mdg_boat_engine_4_design_cost_factor:0 "Стоимость проекта двигателя катера мощностью 1 300 л. с."
+
+ modifier_module_mdg_corvette_engine_1_design_cost_factor:0 "Стоимость проекта двигателя корвета мощностью 1 000 л. с."
+ modifier_module_mdg_corvette_engine_2_design_cost_factor:0 "Стоимость проекта двигателя корвета мощностью 1 100 л. с."
+ modifier_module_mdg_corvette_engine_3_design_cost_factor:0 "Стоимость проекта двигателя корвета мощностью 1 300 л. с."
+ modifier_module_mdg_corvette_engine_4_design_cost_factor:0 "Стоимость проекта двигателя корвета мощностью 1 500 л. с."
+
+ modifier_module_mdg_frigate_engine_1_design_cost_factor:0 "Стоимость проекта двигателя фрегата мощностью 5 000 л. с."
+ modifier_module_mdg_frigate_engine_2_design_cost_factor:0 "Стоимость проекта двигателя фрегата мощностью 5 500 л. с."
+ modifier_module_mdg_frigate_engine_3_design_cost_factor:0 "Стоимость проекта двигателя фрегата мощностью 6 000 л. с."
+ modifier_module_mdg_frigate_engine_4_design_cost_factor:0 "Стоимость проекта двигателя фрегата мощностью 6 500 л. с."
+
+ modifier_module_mdg_mini_sub_ship_engine_1_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 25 л. с."
+ modifier_module_mdg_mini_sub_ship_engine_2_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 35 л. с."
+
+ mdg_ship_hull_boat_design_cost_factor:0 "Стоимость проекта катера"
+ mdg_ship_hull_corvette_design_cost_factor:0 "Стоимость проекта корвета"
+ mdg_ship_hull_frigate_design_cost_factor:0 "Стоимость проекта фрегата"
+ mdg_ship_hull_midget_submarine_design_cost_factor:0 "Стоимость проекта сверхмалой субмарины"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor:0 "Прирост опыта от черты «Москит»"

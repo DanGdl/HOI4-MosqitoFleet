@@ -29,7 +29,7 @@
  USA_mdg_corvette_1:0 "Type Eagle"
  USA_mdg_corvette_2:0 "Type Erie"
  USA_mdg_corvette_3:0 "Type Flower"
- USA_mdg_corvette_3:0 "Type PC"
+ USA_mdg_corvette_4:0 "Type PC"
 
  FRA_mdg_corvette_1:0 "Type Conquerante"
  FRA_mdg_corvette_2:0 "Type Chamois"
@@ -37,7 +37,7 @@
  JAP_mdg_corvette_1:0 "Type P"
  JAP_mdg_corvette_2:0 "Type Ch-1"
  JAP_mdg_corvette_3:0 "Type Ch-13"
- JAP_mdg_corvette_3:0 "Type Ch-51"
+ JAP_mdg_corvette_4:0 "Type Ch-51"
 
 
  mdg_boat:0 "Boat"
