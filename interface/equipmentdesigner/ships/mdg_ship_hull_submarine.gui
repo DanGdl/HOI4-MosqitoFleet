@@ -1,5 +1,4 @@
 ################# Equipment Designer Window layouts: Mini submarine (new format examples) #################
-
 guiTypes = {
 
 	################# Equipment Archetype: ship_hull_submarine #################
@@ -276,7 +275,6 @@ guiTypes = {
 				}
 			}
 
-
 			################# MODULE SLOT: Custom, Rear #1 #################
 			containerWindowType = {
 				name = "rear_1_custom_slot"
@@ -332,6 +330,7 @@ guiTypes = {
 						position = { x = 140 y = 0 }
 					}
 				}
+
 				#### MODULE: Airplane Launcher ####
 				containerWindowType = {
 					name = "ship_airplane_launcher"
@@ -356,7 +355,6 @@ guiTypes = {
 						position = { x = 331 y = 0 }
 					}
 				}
-
 
 				#### MODULE: Radar ####
 				containerWindowType = {
@@ -432,7 +430,6 @@ guiTypes = {
 						position = { x = 0 y = 0 }
 					}
 				}
-
 			}
 		}
 	}

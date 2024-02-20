@@ -1,5 +1,4 @@
 ################# Equipment Designer Window layouts: Light Ship Hulls (new format examples) #################
-
 guiTypes = {
 
 	################# Equipment Archetype: mdg_ship_hull_boat #################
@@ -7,7 +6,7 @@ guiTypes = {
 		name = "equipment_designer_mdg_ship_hull_boat"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x = 0 y = 0 }
-		size = { width=512 height=260 }
+		size = { width = 512 height = 260 }
 
 		background = {
 			name = "Background"
@@ -78,7 +77,6 @@ guiTypes = {
 						position = { x = 360 y = 0 }
 					}
 				}
-
 			}
 
 			################# MODULE SLOT: Anti-Air #################
@@ -98,8 +96,6 @@ guiTypes = {
 						position = { x = 330 y = 0 }
 					}
 				}
-
-				
 
 				containerWindowType = {
 					name = "ship_anti_air@highlight"
@@ -332,6 +328,7 @@ guiTypes = {
 						position = { x = 400 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_anti_air@highlight"
 					position = { x = 0 y = 0 }
@@ -413,6 +410,7 @@ guiTypes = {
 						position = { x = 190 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_torpedo@highlight"
 					position = { x = 0 y = 0 }
@@ -438,6 +436,7 @@ guiTypes = {
 						position = { x = 100 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_mine_sweeper@highlight"
 					position = { x = 0 y = 0 }
@@ -449,7 +448,6 @@ guiTypes = {
 						position = { x = 100 y = 0 }
 					}
 				}
-
 
 				#### MODULE: Mine Layer ####
 				containerWindowType = {
@@ -463,6 +461,7 @@ guiTypes = {
 						position = { x = 200 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_mine_layer@highlight"
 					position = { x = 0 y = 0 }
@@ -474,7 +473,6 @@ guiTypes = {
 						position = { x = 200 y = 0 }
 					}
 				}
-
 
 				#### MODULE: Depth Charge ####
 				containerWindowType = {
@@ -488,6 +486,7 @@ guiTypes = {
 						position = { x = 150 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_depth_charge@highlight"
 					position = { x = 0 y = 0 }
@@ -512,6 +511,7 @@ guiTypes = {
 						position = { x = 245 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_anti_air@highlight"
 					position = { x = 0 y = 0 }
@@ -523,6 +523,7 @@ guiTypes = {
 						position = { x = 245 y = 0 }
 					}
 				}
+
 				#### MODULE: Light Battery ####
 				containerWindowType = {
 					name = "ship_light_battery"
@@ -571,7 +572,6 @@ guiTypes = {
 						position = { x = 170 y = 0 }
 					}
 				}
-
 			}
 
 			################# MODULE SLOT: Custom, Middle #2 #################
@@ -592,6 +592,7 @@ guiTypes = {
 						position = { x = 190 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_torpedo@highlight"
 					position = { x = 0 y = 0 }
@@ -616,6 +617,7 @@ guiTypes = {
 						position = { x = 175 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_mine_sweeper@highlight"
 					position = { x = 0 y = 0 }
@@ -640,6 +642,7 @@ guiTypes = {
 						position = { x = 200 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_mine_layer@highlight"
 					position = { x = 0 y = 0 }
@@ -664,6 +667,7 @@ guiTypes = {
 						position = { x = 180 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_depth_charge@highlight"
 					position = { x = 0 y = 0 }
@@ -688,6 +692,7 @@ guiTypes = {
 						position = { x = 202	y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_anti_air@highlight"
 					position = { x = 0 y = 0 }
@@ -699,6 +704,7 @@ guiTypes = {
 						position = { x = 202	y = 0 }
 					}
 				}
+
 				#### MODULE: Light Battery ####
 				containerWindowType = {
 					name = "ship_light_battery"
@@ -747,7 +753,6 @@ guiTypes = {
 						position = { x = 110 y = 0 }
 					}
 				}
-
 			}
 
 			################# MODULE SLOT: Custom, Rear #1 #################
@@ -768,6 +773,7 @@ guiTypes = {
 						position = { x = 70 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_torpedo@highlight"
 					position = { x = 0 y = 0 }
@@ -792,6 +798,7 @@ guiTypes = {
 						position = { x = 40 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_mine_sweeper@highlight"
 					position = { x = 0 y = 0 }
@@ -816,6 +823,7 @@ guiTypes = {
 						position = { x = 48 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_mine_layer@highlight"
 					position = { x = 0 y = 0 }
@@ -840,6 +848,7 @@ guiTypes = {
 						position = { x = 45 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_depth_charge@highlight"
 					position = { x = 0 y = 0 }
@@ -864,6 +873,7 @@ guiTypes = {
 						position = { x = 75 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_anti_air@highlight"
 					position = { x = 0 y = 0 }
@@ -888,6 +898,7 @@ guiTypes = {
 						position = { x = 91 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "ship_light_battery@highlight"
 					position = { x = 0 y = 0 }
@@ -911,6 +922,7 @@ guiTypes = {
 						position = { x = 91 y = 0 }
 					}
 				}
+
 				containerWindowType = {
 					name = "dp_light_battery@highlight"
 					position = { x = 0 y = 0 }
@@ -922,7 +934,6 @@ guiTypes = {
 						position = { x = 91 y = 0 }
 					}
 				}
-
 			}
 		}
 	}
