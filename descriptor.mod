@@ -1,7 +1,10 @@
 version="0"
+picture="thumbnail.png"
 tags={
 	"Technologies"
 	"Graphics"
+	"Military"
 }
 name="MosquitoFleet"
-supported_version="1.13.5"
+supported_version="1.13.*"
+remote_file_id="3167195673"

@@ -74,11 +74,15 @@ https://gamemodels3d.com/games/warthunder/vehicles/britain
 
 
 ERRORS:
-
+/home/max/HoiMod/MosquitoFleet/interface/equipmentdesigner/ships/
+/home/max/HoiMod/MosquitoFleet/gfx/interface/equipmentdesigner/naval/
+Example: /home/max/HoiMod/OtherMods/2896492648/interface/
 
 TODOS:
-- mod's icons and screenshots
-- icons for technology icons (proper coloring)
+- mod's icons and screenshots:
+- icons for technology icons (proper coloring):
+    - color minisubs
+    - fix italian torpedo boats
 
 Next version:
 - select models for ships
