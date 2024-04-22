@@ -40,4 +40,3 @@
  mdg_ship_hull_corvette_design_cost_factor:0 "Стоимость проекта корвета"
  mdg_ship_hull_frigate_design_cost_factor:0 "Стоимость проекта фрегата"
  mdg_ship_hull_midget_submarine_design_cost_factor:0 "Стоимость проекта сверхмалой субмарины"
- modifier_trait_mdg_trait_mosquito_xp_gain_factor:0 "Прирост опыта от черты «Москит»"
