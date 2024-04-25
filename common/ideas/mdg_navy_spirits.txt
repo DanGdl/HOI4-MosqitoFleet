@@ -1,28 +1,27 @@
 ideas = {
-	naval_academy_spirit = {
-		#50% to start with fleet protector, fly swatter or spotter traits (littoral_combat_spirit)
-		small_fleet_academy_spirit = {
-			ledger = navy
-			available = { has_naval_academy = yes }
-			visible = { has_tech = small_fleet }
-			modifier = {
-				custom_modifier_tooltip = small_fleet_academy_spirit_tt
-				
-				trait_mdg_trait_mosquito_xp_gain_factor = 0.2
-				trait_fleet_protector_xp_gain_factor = 0.2
-				trait_blockade_runner_xp_gain_factor = 0.2
-				trait_fly_swatter_xp_gain_factor = 0.2
-				trait_spotter_xp_gain_factor = 0.2
-			}
-			ai_will_do = {
-				factor = 1.5
-				modifier = {
-					factor = 0
-					NOT = { has_dlc = "No Step Back" }
-				}
-			}
-		}
-	}
+	# not sure it's needed
+	#naval_academy_spirit = {
+	#	# 50% to start with fleet protector, fly swatter or spotter traits (littoral_combat_spirit)
+	#	small_fleet_academy_spirit = {
+	#		ledger = navy
+	#		available = { has_naval_academy = yes }
+	#		visible = { has_tech = small_fleet }
+	#		modifier = {
+	#			custom_modifier_tooltip = small_fleet_academy_spirit_tt
+	#			
+	#			trait_fleet_protector_xp_gain_factor = 0.2
+	#			trait_blockade_runner_xp_gain_factor = 0.2
+	#			trait_spotter_xp_gain_factor = 0.2
+	#		}
+	#		ai_will_do = {
+	#			factor = 1.5
+	#			modifier = {
+	#				factor = 0
+	#				NOT = { has_dlc = "No Step Back" }
+	#			}
+	#		}
+	#	}
+	#}
 
 	naval_command_spirit = {
 		mosquitos_navy_spirit = {
