@@ -67,10 +67,6 @@ https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVR
 https://www.youtube.com/watch?v=z9lFpm9M0CY
 https://www.youtube.com/watch?v=Glu_ioN9n08
 
-https://gamemodels3d.com/games/warthunder/vehicles/germ-s-100-class
-https://gamemodels3d.com/games/warthunder/vehicles/britain
-
-
 
 
 ERRORS:
@@ -82,29 +78,11 @@ TODOS:
 - mod's icons and screenshots:
 - icons for technology icons (proper coloring):
     - color minisubs
-    - fix italian torpedo boats
 
 Next version:
-- select models for ships
-- 3D models?
 - ship designer for torpedo boats
+- 3D models?
 
 
 - brander: -> can't implement
 -- radio boat equipment and customization (https://hoi4.paradoxwikis.com/Aircraft#Kamikaze kamikaze is a same mission as naval strike)
-
-
-midget sub 1: 161*43 center 139*31
-midget sub 2: 206*45 center 126*29
-
-
-destroyer 1: 184*50 center 141*28
-destroyer 2: 215*50 center 141*28
-destroyer 3: 196*53 center 141*27
-destroyer 4: 234*49 center 141*29
-
-scales:
-SSM 50%
-PT 50% -> 19
-LCS 66% -> 25
-FF 75% -> 28|29
