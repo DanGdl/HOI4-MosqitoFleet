@@ -149,7 +149,7 @@ equipment_modules = {
 
 	mdg_ship_light_cannon_dp_1 = {
 		abbreviation = "lscd_1"
-		category = mdg_ship_light_cannon
+		category = mdg_ship_light_cannon_dp
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -181,7 +181,7 @@ equipment_modules = {
 
 	mdg_ship_light_cannon_dp_2 = {
 		abbreviation = "lscd_2"
-		category = mdg_ship_light_cannon
+		category = mdg_ship_light_cannon_dp
 		parent = mdg_ship_light_cannon_dp_1
 		sfx = sfx_ui_sd_module_turret
 		
@@ -219,7 +219,7 @@ equipment_modules = {
 
 	mdg_ship_light_cannon_dp_3 = {
 		abbreviation = "lscd_3"
-		category = mdg_ship_light_cannon
+		category = mdg_ship_light_cannon_dp
 		parent = mdg_ship_light_cannon_dp_2
 		sfx = sfx_ui_sd_module_turret
 		
@@ -257,7 +257,7 @@ equipment_modules = {
 
 	mdg_ship_light_cannon_dp_4 = {
 		abbreviation = "lsgd_4"
-		category = mdg_ship_light_cannon
+		category = mdg_ship_light_cannon_dp
 		parent = mdg_ship_light_cannon_dp_3
 		sfx = sfx_ui_sd_module_turret
 		
