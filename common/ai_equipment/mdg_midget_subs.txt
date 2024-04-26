@@ -20,7 +20,7 @@ mdg_midget_submarine = {
 	}
 	
 	priority = {
-		factor = 1
+		factor = 3
 		modifier = {
 			factor = 10
 			OR = {

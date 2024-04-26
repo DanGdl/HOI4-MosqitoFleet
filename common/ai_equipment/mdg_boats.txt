@@ -19,21 +19,25 @@ mdg_boats = {
 	}
 	
 	priority = {
-		factor = 1500
+		factor = 2000
 		modifier = {
 			factor = 2
 			is_major = no
 		}
 		modifier = {
-			factor = 2
+			factor = 3
 			num_of_naval_factories < 5
+		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories > 6
 		}
 	}
 	
 	mdg_boat_default = {
 	
 		priority = {
-			factor = 150
+			factor = 250
 			modifier = {
 				factor = 10
 				is_major = no
@@ -70,7 +74,7 @@ mdg_boats = {
 	mdg_boat_2 = {
 	
 		priority = {
-			factor = 150
+			factor = 250
 			modifier = {
 				factor = 10
 				is_major = no
@@ -110,7 +114,7 @@ mdg_boats = {
 	mdg_boat_3 = {
 	
 		priority = {
-			factor = 150
+			factor = 250
 			modifier = {
 				factor = 10
 				is_major = no

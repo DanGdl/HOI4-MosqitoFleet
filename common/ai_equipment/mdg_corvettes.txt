@@ -20,7 +20,7 @@ mdg_corvettes = {
 	}
 	
 	priority = {
-		factor = 1300
+		factor = 2200
 		modifier = {
 			factor = 2
 			is_major = no
@@ -28,6 +28,10 @@ mdg_corvettes = {
 		modifier = {
 			factor = 3
 			num_of_naval_factories < 8 #not a major naval power
+		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories > 7
 		}
 	}
 	
@@ -189,7 +193,7 @@ mdg_escort_corvette = {
 	}
 	
 	priority = {
-		factor = 500
+		factor = 800
 		modifier = {
 			factor = 5
 			anti_submarine_strategy_required_trigger = yes
@@ -199,7 +203,7 @@ mdg_escort_corvette = {
 	mdg_escort_corvette_default = {
 	
 		priority = {
-			factor = 50
+			factor = 70
 			modifier = {
 				factor = 20
 				anti_submarine_strategy_required_trigger = yes
@@ -223,14 +227,6 @@ mdg_escort_corvette = {
 					any_of = { ship_depth_charge }
 					upgrade > current
 				}
-				mid_1_custom_slot =  {
-					any_of = { ship_depth_charge }
-					upgrade > current
-				}
-				mid_2_custom_slot =  {
-					any_of = { ship_depth_charge }
-					upgrade > current
-				}
 			}
 		}
 		
@@ -249,7 +245,7 @@ mdg_escort_corvette = {
 	mdg_escort_corvette_upgrade = {
 	
 		priority = {
-			factor = 60
+			factor = 90
 			modifier = {
 				factor = 20
 				anti_submarine_strategy_required_trigger = yes
@@ -266,7 +262,7 @@ mdg_escort_corvette = {
 		target_variant = {
 			match_value = 2000.0
 			
-			type = ship_hull_light_1
+			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_1
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -274,9 +270,15 @@ mdg_escort_corvette = {
 				fixed_ship_radar_slot = ship_sonar
 				fixed_ship_engine_slot = mdg_corvette_engine_1
 				fixed_ship_torpedo_slot = empty
-				mid_1_custom_slot = ship_depth_charge
-				mid_2_custom_slot = ship_depth_charge
 				rear_1_custom_slot = ship_depth_charge
+				mid_1_custom_slot =  {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+				mid_2_custom_slot =  {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
 			}
 		}
 		
