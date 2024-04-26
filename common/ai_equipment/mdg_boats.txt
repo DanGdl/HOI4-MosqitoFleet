@@ -24,6 +24,10 @@ mdg_boats = {
 			factor = 2
 			is_major = no
 		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories < 5
+		}
 	}
 	
 	mdg_boat_default = {
@@ -149,120 +153,10 @@ mdg_boats = {
 	}
 }
 
-generic_escorts = {
+mdg_naval_mine_layer_boat = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
-	}
-	
-	available_for = {	
-	}
-	
-	roles = {
-		naval_escort
-	}
-	
-	priority = {
-		factor = 200
-		modifier = {
-			factor = 5
-			anti_submarine_strategy_required_trigger = yes
-		}
-	}
-	
-	escort_default = {
-	
-		priority = {
-			factor = 20
-			modifier = {
-				factor = 20
-				anti_submarine_strategy_required_trigger = yes
-			}
-		}
-
-		role_icon_index = 2
-		
-		target_variant = {
-			match_value = 1000.0
-			
-			type = mdg_ship_hull_boat_1
-			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_guns_1
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_engine_slot = mdg_boat_engine_1
-				fixed_ship_torpedo_slot = empty
-				rear_1_custom_slot = {
-					any_of = { ship_depth_charge }
-					upgrade > current
-				}
-			}
-		}
-		
-		allowed_modules = {
-			mdg_ship_light_guns
-			ship_depth_charge
-			mdg_boat_engine
-			ship_mine_layer
-			ship_torpedo
-			ship_radar
-		}
-	}
-
-	escort_upgrade = {
-	
-		priority = {
-			factor = 20
-			modifier = {
-				factor = 20
-				anti_submarine_strategy_required_trigger = yes
-			}
-		}
-		enable = {
-			AND = {
-				has_tech = improved_depth_charges
-				has_tech = decimetric_radar
-			}
-		}
-		role_icon_index = 2
-		
-		target_variant = {
-			match_value = 2000.0
-			
-			type = ship_hull_light_1
-			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_guns_1
-				fixed_ship_fire_control_system_slot = ship_radar
-				fixed_ship_radar_slot = ship_radar
-				fixed_ship_engine_slot = mdg_boat_engine_1
-				fixed_ship_torpedo_slot = empty
-				mid_1_custom_slot = ship_depth_charge
-				rear_1_custom_slot = ship_depth_charge
-			}
-		}
-		
-		allowed_modules = {
-			mdg_ship_light_guns
-			ship_depth_charge
-			mdg_boat_engine
-			ship_mine_layer
-			ship_torpedo
-			ship_radar
-		}
-	}
-}
-
-naval_mine_layer = {
-	category = naval
-	
-	blocked_for = {
-		#GER
-		#USA
 	}
 	
 	available_for = {
@@ -279,19 +173,19 @@ naval_mine_layer = {
 			has_war = yes
 		}
 		modifier = {
-			is_major = no
 			factor = 5
+			is_major = no
+		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories < 5
 		}
 	}
 	
-	mine_layer_light = {
+	mdg_mine_layer_boat = {
 	
 		priority = {
-			factor = 10
-			modifier = {
-				factor = 10
-				num_of_naval_factories < 10
-			}
+			factor = 3
 		}
 		
 		role_icon_index = 4

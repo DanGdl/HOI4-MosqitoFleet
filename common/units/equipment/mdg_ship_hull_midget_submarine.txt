@@ -35,12 +35,7 @@ equipments = {
 				}
 			}
 		}
-		
-		module_count_limit = {
-			category = ship_radar
-			count < 2
-		}
-		
+				
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_1
