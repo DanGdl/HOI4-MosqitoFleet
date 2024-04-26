@@ -113,11 +113,12 @@ leader_traits = {
             #}
         }
         sub_unit_modifiers = {
-            destroyer = {
-                naval_damage_factor = 0.1
-                naval_torpedo_hit_chance_factor = 0.1
-                navy_visibility = -0.1
-            }
+            # exist in original game
+            #destroyer = {
+            #    naval_damage_factor = 0.1
+            #    naval_torpedo_hit_chance_factor = 0.1
+            #    navy_visibility = -0.1
+            #}
             mdg_corvette = {
                 naval_damage_factor = 0.1
                 naval_torpedo_hit_chance_factor = 0.1
