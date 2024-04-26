@@ -20,14 +20,14 @@ mdg_frigates = {
 	}
 	
 	priority = {
-		factor = 2300
+		factor = 2500
 		modifier = {
 			factor = 2
 			is_major = no
 		}
 		modifier = {
 			factor = 3
-			num_of_naval_factories < 15 #not a major naval power
+			num_of_naval_factories < 15
 		}
 	}
 	
