@@ -4,19 +4,13 @@ mdg_midget_submarine = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_submarine
+		mdg_naval_midget_sub
 	}
 	
 	priority = {

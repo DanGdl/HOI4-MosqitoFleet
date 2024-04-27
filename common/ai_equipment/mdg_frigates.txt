@@ -4,19 +4,13 @@ mdg_frigates = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_screen
+		mdg_naval_frigate
 	}
 	
 	priority = {
@@ -173,19 +167,13 @@ mdg_escort_frigate = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_escort
+		mdg_naval_frigate_escort
 	}
 	
 	priority = {
@@ -295,19 +283,13 @@ mdg_naval_mine_sweeper_frigate = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_mine_sweeper
+		mdg_naval_frigate_mine_sweeper
 	}
 	
 	priority = {
@@ -417,15 +399,13 @@ mdg_naval_mine_layer_frigate = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_mine_layer
+		mdg_naval_frigate_mine_layer
 	}
 	
 	priority = {

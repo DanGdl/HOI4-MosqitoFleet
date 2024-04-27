@@ -4,19 +4,13 @@ mdg_corvettes = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_screen
+		mdg_naval_corvette
 	}
 	
 	priority = {
@@ -177,19 +171,13 @@ mdg_escort_corvette = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_escort
+		mdg_naval_corvette_escort
 	}
 	
 	priority = {
@@ -299,19 +287,13 @@ mdg_naval_mine_sweeper_corvette = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_mine_sweeper
+		mdg_naval_corvette_mine_sweeper
 	}
 	
 	priority = {
@@ -421,15 +403,13 @@ mdg_naval_mine_layer_corvette = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_mine_layer
+		mdg_naval_corvette_mine_layer
 	}
 	
 	priority = {

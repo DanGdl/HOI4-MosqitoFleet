@@ -3,19 +3,13 @@ mdg_boats = {
 	category = naval
 	
 	blocked_for = {
-		#GER
-		#USA
-		#JAP
-		#ENG
-		#FRA
-		#ITA
 	}
 	
 	available_for = {
 	}
 	
 	roles = {
-		naval_screen
+		mdg_naval_boat
 	}
 	
 	priority = {
@@ -167,7 +161,7 @@ mdg_naval_mine_layer_boat = {
 	}
 	
 	roles = {
-		naval_mine_layer
+		mdg_naval_boat_mine_layer
 	}
 	
 	priority = {
