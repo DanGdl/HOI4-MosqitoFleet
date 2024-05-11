@@ -2896,8 +2896,12 @@ technologies = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
-		
+		refit_speed = 0.1
+		navy_visibility = -0.03
+		naval_retreat_speed = 0.2
+		naval_mines_damage_factor = 1
 		mines_planting_by_fleets_factor = 0.2
+		naval_torpedo_hit_chance_factor = 0.05		
 
 		xor = { fleet_in_being trade_interdiction base_strike } 
 		
@@ -3283,7 +3287,6 @@ technologies = {
 	undersea_blockade_sm = {
 
 		# same as undersea_blockade
-		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
 			surface_detection = 0.1
@@ -3292,7 +3295,6 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.1
 		}
-		#######
 		
 		path = {
 			leads_to_tech = convoy_interdiction_sm
@@ -3345,7 +3347,6 @@ technologies = {
 
 	convoy_interdiction_sm = {
 		# Sub boost
-		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
@@ -3356,8 +3357,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		naval_torpedo_reveal_chance_factor = -0.10
-		#######				
+		naval_torpedo_reveal_chance_factor = -0.10			
 
 		path = {
 			leads_to_tech = submarine_offensive_sm
@@ -3401,7 +3401,6 @@ technologies = {
 
 	submarine_offensive_sm = {
 		# same as submarine_offensive
-		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
 			surface_detection = 0.05
@@ -3412,7 +3411,6 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.10
 		}
-		#######
 
 		xp_research_type = navy
 		xp_unlock_cost = 100
@@ -3710,7 +3708,7 @@ technologies = {
 			convoy_raiding_coordination = 0.35
 			surface_detection = 0.15
 		}
-		
+		naval_speed_factor = 0.1
 		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes	
