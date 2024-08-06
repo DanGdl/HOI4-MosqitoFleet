@@ -888,10 +888,10 @@ spriteTypes = {
 
 	# FUTURE VERSIONS
 	# BRANDERS
-	SpriteType = {
-		name = "GFX_mdg_radio_boat_medium"
-		texturefile = "gfx/interface/technologies/mdg_radio_boat.dds"
-	}
+	#SpriteType = {
+	#	name = "GFX_mdg_radio_boat_medium"
+	#	texturefile = "gfx/interface/technologies/mdg_radio_boat.dds"
+	#}
 
 
 
