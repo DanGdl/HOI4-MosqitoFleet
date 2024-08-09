@@ -75,10 +75,6 @@ ERRORS:
 Example: /home/max/HoiMod/OtherMods/2896492648/interface/
 
 TODOS:
-- mod's icons and screenshots:
-- icons for technology icons (proper coloring):
-    - color minisubs
-
 Next version:
 - ship designer for torpedo boats
 - 3D models?

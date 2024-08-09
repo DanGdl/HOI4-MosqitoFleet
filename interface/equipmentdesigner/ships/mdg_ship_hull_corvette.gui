@@ -31,7 +31,7 @@ guiTypes = {
 				size = { width = 100% height = 100% }
 
 				containerWindowType = {
-					name = "ship_light_battery"
+					name = "mdg_ship_light_cannon"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -43,7 +43,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "ship_light_battery@highlight"
+					name = "mdg_ship_light_cannon@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -55,7 +55,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "dp_light_battery"
+					name = "mdg_ship_light_cannon_dp"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -67,7 +67,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "dp_light_battery@highlight"
+					name = "mdg_ship_light_cannon_dp@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -261,7 +261,7 @@ guiTypes = {
 				size = { width = 100% height = 100% }
 
 				containerWindowType = {
-					name = "light_ship_engine"
+					name = "mdg_corvette_engine"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -273,7 +273,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "light_ship_engine@highlight"
+					name = "mdg_corvette_engine@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -343,7 +343,7 @@ guiTypes = {
 
 				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_light_battery"
+					name = "mdg_ship_light_cannon"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -355,7 +355,7 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
-					name = "ship_light_battery@highlight"
+					name = "mdg_ship_light_cannon@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -368,7 +368,7 @@ guiTypes = {
 
 				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "dp_light_battery"
+					name = "mdg_ship_light_cannon_dp"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -380,7 +380,7 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
-					name = "dp_light_battery@highlight"
+					name = "mdg_ship_light_cannon_dp@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -526,7 +526,7 @@ guiTypes = {
 
 				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_light_battery"
+					name = "mdg_ship_light_cannon"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -538,7 +538,7 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
-					name = "ship_light_battery@highlight"
+					name = "mdg_ship_light_cannon@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -550,7 +550,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "dp_light_battery"
+					name = "mdg_ship_light_cannon_dp"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -562,7 +562,7 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
-					name = "dp_light_battery@highlight"
+					name = "mdg_ship_light_cannon_dp@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -707,7 +707,7 @@ guiTypes = {
 
 				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_light_battery"
+					name = "mdg_ship_light_cannon"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -719,7 +719,7 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
-					name = "ship_light_battery@highlight"
+					name = "mdg_ship_light_cannon@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -731,7 +731,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "dp_light_battery"
+					name = "mdg_ship_light_cannon_dp"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -743,7 +743,7 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
-					name = "dp_light_battery@highlight"
+					name = "mdg_ship_light_cannon_dp@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -888,7 +888,7 @@ guiTypes = {
 
 				#### MODULE: Light Battery ####
 				containerWindowType = {
-					name = "ship_light_battery"
+					name = "mdg_ship_light_cannon"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -900,7 +900,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "ship_light_battery@highlight"
+					name = "mdg_ship_light_cannon@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -912,7 +912,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "dp_light_battery"
+					name = "mdg_ship_light_cannon_dp"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
@@ -924,7 +924,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "dp_light_battery@highlight"
+					name = "mdg_ship_light_cannon_dp@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 					
