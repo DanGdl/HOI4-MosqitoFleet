@@ -135,6 +135,7 @@
  ITA_mdg_midget_submarine_2:0 "Type CB"
 
 
+ mdg_ship_hull_boat:0 "Boat"
  mdg_ship_hull_boat_1:2 "Early Boat Hull"
  mdg_ship_hull_boat_1_desc:0 "Early Boat Hull description"
  mdg_ship_hull_boat_2:2 "1936 Boat Hull"
@@ -144,6 +145,7 @@
  mdg_ship_hull_boat_4:2 "1944 Boat Hull"
  mdg_ship_hull_boat_4_desc:0 "1944 Boat Hull description"
 
+ mdg_ship_hull_corvette:0 "Corvette"
  mdg_ship_hull_corvette_1:2 "Early Corvette Hull"
  mdg_ship_hull_corvette_1_desc:0 "Early Corvette Hull description"
  mdg_ship_hull_corvette_2:2 "1936 Corvette Hull"
@@ -153,6 +155,7 @@
  mdg_ship_hull_corvette_4:2 "1944 Corvette Hull"
  mdg_ship_hull_corvette_4_desc:0 "1944 Corvette Hull description"
 
+ mdg_ship_hull_frigate:0 "Frigate"
  mdg_ship_hull_frigate_1:2 "Early Frigate Hull"
  mdg_ship_hull_frigate_1_desc:0 "Early Frigate Hull description"
  mdg_ship_hull_frigate_2:2 "1936 Frigate Hull"
@@ -162,6 +165,7 @@
  mdg_ship_hull_frigate_4:2 "1944 Frigate Hull"
  mdg_ship_hull_frigate_4_desc:0 "1944 Frigate Hull description"
 
+ mdg_ship_hull_midget_submarine:0 "Midget Submarine"
  mdg_ship_hull_midget_submarine_1:2 "1940 Midget Submarine Hull"
  mdg_ship_hull_midget_submarine_1_desc:0 "1940 Midget Submarine Hull description"
  mdg_ship_hull_midget_submarine_2:2 "1944 Midget Submarine Hull"

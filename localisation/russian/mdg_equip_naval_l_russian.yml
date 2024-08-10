@@ -116,11 +116,11 @@
  JAP_mdg_frigate_4:0 "Тип «C»"
 
 
- mdg_midget_submarine:0 "Сверхмалая субмарина"
- mdg_midget_submarine_1:0 "Сверхмалая субмарина I"
- mdg_midget_submarine_2:0 "Сверхмалая субмарина II"
- mdg_midget_submarine_1_desc:0 "Сверхмалая субмарина I описание"
- mdg_midget_submarine_2_desc:0 "Сверхмалая субмарина II описание"
+ mdg_midget_submarine:0 "Сверхмалая подводная лодка"
+ mdg_midget_submarine_1:0 "Сверхмалая подводная лодка I"
+ mdg_midget_submarine_2:0 "Сверхмалая подводная лодка II"
+ mdg_midget_submarine_1_desc:0 "Сверхмалая подводная лодка I описание"
+ mdg_midget_submarine_2_desc:0 "Сверхмалая подводная лодка II описание"
 
  ENG_mdg_midget_submarine_1:0 "Тип «X»"
  ENG_mdg_midget_submarine_2:0 "Тип «XE»"
@@ -135,6 +135,7 @@
  JAP_mdg_midget_submarine_2:0 "Тип «Кайрю»"
 
 
+ mdg_ship_hull_boat:0 "Катер"
  mdg_ship_hull_boat_1:2 "Ранний корпус катера"
  mdg_ship_hull_boat_1_desc:0 "Ранний корпус катера описание"
  mdg_ship_hull_boat_2:2 "Корпус катера обр. 1936 г."
@@ -144,6 +145,7 @@
  mdg_ship_hull_boat_4:2 "Корпус катера обр. 1944 г."
  mdg_ship_hull_boat_4_desc:0 "Корпус катера обр. 1944 г. описание"
 
+ mdg_ship_hull_corvette:0 "Корвет"
  mdg_ship_hull_corvette_1:2 "Ранний корпус корвета"
  mdg_ship_hull_corvette_1_desc:0 "Ранний корпус корвета описание"
  mdg_ship_hull_corvette_2:2 "Корпус корвета обр. 1936 г."
@@ -153,6 +155,7 @@
  mdg_ship_hull_corvette_4:2 "Корпус корвета обр. 1944 г."
  mdg_ship_hull_corvette_4_desc:0 "Корпус корвета обр. 1944 г. описание"
 
+ mdg_ship_hull_frigate:0 "Фрегат"
  mdg_ship_hull_frigate_1:2 "Ранний корпус фрегата"
  mdg_ship_hull_frigate_1_desc:0 "Ранний корпус фрегата описание"
  mdg_ship_hull_frigate_2:2 "Корпус фрегата обр. 1936 г."
@@ -162,6 +165,7 @@
  mdg_ship_hull_frigate_4:2 "Корпус фрегата обр. 1944 г."
  mdg_ship_hull_frigate_4_desc:0 "Корпус фрегата обр. 1944 г. описание"
 
+ mdg_ship_hull_midget_submarine:0 "Сверхмалая подводная лодка"
  mdg_ship_hull_midget_submarine_1:2 "Корпус сверхмалой подводной лодки обр. 1940 г."
  mdg_ship_hull_midget_submarine_1_desc:0 "Корпус сверхмалой подводной лодки обр. 1940 г. описание"
  mdg_ship_hull_midget_submarine_2:2 "Корпус сверхмалой подводной лодки обр. 1944 г."

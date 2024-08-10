@@ -22,5 +22,9 @@ mio_cat_tech_all_mdg_frigate_and_modules
 mio_cat_tech_all_mdg_corvette_and_modules
 mio_cat_tech_all_mdg_boat_and_modules
 mio_cat_tech_all_mdg_ssm_and_modules
+mdg_ship_hull_midget_submarine
+mdg_ship_hull_frigate
+mdg_ship_hull_corvette
+mdg_ship_hull_boat
 
 Translate from files: `mdg_equip_naval_l_*.yml`, `mdg_modifiers_l_*.yml`, `mdg_nsb_ideas_l_*.yml`, `mdg_traits_l_*.yml`, `mdg_ship_modules_l_*.yml`. `*` is a language tag (russian or english)
