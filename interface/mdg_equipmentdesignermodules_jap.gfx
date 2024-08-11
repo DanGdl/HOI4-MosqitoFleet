@@ -1,0 +1,113 @@
+spriteTypes = {
+
+###################################################
+# Contains GFX for the ship modules shown on top of the blue print
+#
+# Names of the modules are normalized and *must* obey the following naming
+# convention.
+#
+# "GFX_SM_ ( SHIP_CLASS ) "_" ( MODULE_KEY ) "_" ( MODIFIER )
+#( MODIFIER ) is optional
+# Where:
+# * SHIP_CLASS looks like "ship_hull_carrier"
+# * MODULE_KEY looks like "ship_light_battery"
+# * COUNTRY MODIFIER looks like "ger" (for Germany for example).
+# Example:
+# Each sprite corresponds to one ship hull type and one module only.
+# * "GFX_SM_ship_hull_carrier_ship_light_battery_ger"
+
+###################################################
+
+	# Boat
+	spriteType = {
+		name = "GFX_SM_mdg_boat_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_fixed_guns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_fixed_guns@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_rear_1_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_rear_guns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_rear_1_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_rear_guns@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_mid_1_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_mid_guns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_mid_1_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_mid_guns@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_mid_1_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_mid_depth_charge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_mid_1_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_mid_depth_charge@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_mid_1_mine_layer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_mid_mine_rails.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_mid_1_mine_layer@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_mid_mine_rails@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_mdg_boat_rear_1_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_depth_charge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_rear_1_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_depth_charge@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_rear_1_mine_layer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_mine_rails.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_rear_1_mine_layer@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_mine_rails@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_torpedo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_boat_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/boat/mdg_boat_torpedo@highlight.dds"
+	}
+
+
+	# Midget
+	spriteType = {
+		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/midget/submarine_hull_front1_torpedos.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/jap/midget/submarine_hull_front1_torpedos@highlight.dds"
+	}
+}

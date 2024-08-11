@@ -69,11 +69,6 @@ https://www.youtube.com/watch?v=Glu_ioN9n08
 
 
 
-ERRORS:
-/home/max/HoiMod/MosquitoFleet/interface/equipmentdesigner/ships/
-/home/max/HoiMod/MosquitoFleet/gfx/interface/equipmentdesigner/naval/
-Example: /home/max/HoiMod/OtherMods/2896492648/interface/
-
 TODOS:
 Next version:
 - ship designer for torpedo boats
