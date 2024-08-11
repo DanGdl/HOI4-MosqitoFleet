@@ -132,7 +132,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_light_hull_engine1"
+						spriteType = "GFX_SM_light_hull_engine"
 						position = { x = 0 y = 0 }
 					}
 				}
@@ -144,7 +144,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_light_hull_engine1@highlight"
+						spriteType = "GFX_SM_light_hull_engine@highlight"
 						position = { x = 0 y = 0 }
 					}
 				}
