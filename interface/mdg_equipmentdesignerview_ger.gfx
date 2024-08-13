@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_SD_tv_midget_submarine_ger"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/ger/mdg_topview_midget.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SD_tv_boat_ger"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/ger/mdg_topview_boat.dds"
+	}
+}
