@@ -28,15 +28,15 @@ ideas = {
 			ledger = navy
 			visible = { has_tech = small_fleet }
 			modifier = {
-				naval_retreat_speed = 0.1
-				navy_screen_attack_factor = 0.05
 				naval_torpedo_screen_penetration_factor = 0.05
 				naval_torpedo_hit_chance_factor = 0.1
+				naval_retreat_speed = 0.1
 
-				# night_spotting_chance = 0.1
+				night_spotting_chance = 0.1
+				navy_weather_penalty = 0.1
+				navy_visibility = -0.05
+				positioning = 0.1
 				# naval_night_attack = 0.1
-				# navy_visibility = -0.05
-				# positioning = 0.15
 			}
 			ai_will_do = {
 				factor = 1
