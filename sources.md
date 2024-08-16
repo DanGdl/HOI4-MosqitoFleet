@@ -52,7 +52,7 @@ Extract from WarThunder:
 /homeDir/.local/share/Steam/steamapps/common/War Thunder/content/base/res/ships/
 https://old-forum.warthunder.com/index.php?/topic/348034-how-to-import-a-grp-file-to-blender/
 https://www.reddit.com/r/Warthunder/comments/pikzxa/is_it_possible_to_extract_vehicle_models_from_the/
-https://github.com/klensy/wt-tools
+
 
 
 Animations and 3D:

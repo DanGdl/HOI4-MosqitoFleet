@@ -86,6 +86,8 @@ leader_traits = {
 		}
 		custom_gain_xp_trigger_tooltip = MOSQUITO_TRIGGER_TT
 		
+		# navy_fleet_logistics_1
+		# navy_screen_1
 		slot = navy_chief
 		specialist_advisor_trait = navy_chief_maneuver_1
 		expert_advisor_trait = navy_chief_maneuver_2
@@ -97,7 +99,7 @@ leader_traits = {
 
 		trait_type = assignable_trait
         any_parent = { lancer search_pattern_expert }
-
+        # concealment_expert
 		gui_row = 4
 		gui_column = 2
 	}
