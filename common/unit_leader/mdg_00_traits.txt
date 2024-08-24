@@ -79,9 +79,13 @@ leader_traits = {
 		sub_unit_modifiers = {
 			mdg_boat = {
 				navy_visibility = -0.1
-				naval_speed_factor = 0.1
-				naval_torpedo_hit_chance_factor = 0.15
+				naval_night_attack = 0.1
+				naval_retreat_speed = 0.1
+				naval_torpedo_hit_chance_factor = 0.1
 				naval_torpedo_screen_penetration_factor = 0.1
+
+				# night_spotting_chance = 0.05
+				# positioning = 0.1
 			}
 		}
 		custom_gain_xp_trigger_tooltip = MOSQUITO_TRIGGER_TT
