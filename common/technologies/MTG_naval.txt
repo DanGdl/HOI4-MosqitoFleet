@@ -8,6 +8,7 @@ technologies = {
 
 
 	early_ship_hull_light = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_light_1
@@ -80,7 +81,8 @@ technologies = {
 	}
 
 	basic_ship_hull_light = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = {
 			ship_hull_light_2
 			mdg_ship_hull_frigate_2
@@ -140,7 +142,8 @@ technologies = {
 	}
 
 	improved_ship_hull_light = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = {
 			ship_hull_light_3
 			mdg_ship_hull_frigate_3
@@ -198,7 +201,8 @@ technologies = {
 	}
 
 	advanced_ship_hull_light = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = {
 			ship_hull_light_4
 			mdg_ship_hull_frigate_4
@@ -1621,7 +1625,8 @@ early_ship_hull_carrier = {
 	}
 
 	improved_ship_hull_submarine = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = {
 			ship_hull_submarine_3
 			mdg_ship_hull_midget_submarine_1
@@ -1675,7 +1680,8 @@ early_ship_hull_carrier = {
 	}
 
 	advanced_ship_hull_submarine = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = {
 			ship_hull_submarine_4
 			mdg_ship_hull_midget_submarine_2
