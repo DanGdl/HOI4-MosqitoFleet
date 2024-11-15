@@ -56,4 +56,87 @@ equipment_modules = {
 			convert_cost_ic = 70
 		}
 	}
+
+
+	mdg_ship_engine_sub_aip_1 = {
+		abbreviation = "sne"
+		category = mdg_midget_sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+		gfx = sub_ship_aip_engine_1
+		add_stats = {
+			fuel_consumption = 45
+		}
+
+		multiply_stats = {
+			naval_range= -0.66
+			build_cost_ic = 0.25
+			sub_visibility = -0.15
+			naval_speed = 0.15
+		}
+		can_convert_from = {
+			module_category = mdg_midget_sub_ship_engine
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = mdg_midget_sub_ship_engine_1
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = mdg_midget_sub_ship_engine_2
+			convert_cost_ic = 100
+		}
+	}
+
+	mdg_ship_engine_sub_aip_2 = {
+		abbreviation = "sne"
+		category = mdg_midget_sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+		gfx = sub_ship_aip_engine_2
+		add_stats = {
+			fuel_consumption = 30
+		}
+
+		multiply_stats = {
+			naval_range= -0.33
+			build_cost_ic = 0.3
+			sub_visibility = -0.17
+			naval_speed = 0.15
+		}
+		can_convert_from = {
+			module_category = mdg_midget_sub_ship_engine
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = mdg_ship_engine_sub_aip_1
+			convert_cost_ic = 100
+		}
+	}
+
+	mdg_ship_engine_sub_aip_3 = {
+		abbreviation = "sne"
+		category = mdg_midget_sub_ship_engine
+		sfx = sfx_ui_sd_module_engine
+		gfx = sub_ship_aip_engine_3
+		add_stats = {
+			fuel_consumption = 20
+		}
+
+		multiply_stats = {
+			#naval_range= -0.75
+			build_cost_ic = 0.35
+			sub_visibility = -0.2
+			naval_speed = 0.35
+		}
+		can_convert_from = {
+			module_category = mdg_midget_sub_ship_engine
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = mdg_ship_engine_sub_aip_2
+			convert_cost_ic = 100
+		}
+	}
 }
