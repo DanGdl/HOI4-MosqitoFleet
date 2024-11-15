@@ -27,7 +27,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { mdg_midget_sub_ship_engine }
+				allowed_module_categories = { sub_ship_engine }
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -45,7 +45,7 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
-			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_1
+			fixed_ship_engine_slot = sub_ship_engine_3
 			mid_1_custom_slot = empty
 		}
 		
@@ -121,7 +121,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_2
+			fixed_ship_engine_slot = sub_ship_engine_4
 		}
 		sub_visibility = 13
 		naval_speed = 9.5
@@ -150,7 +150,7 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_3
-			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_1
+			fixed_ship_engine_slot = sub_ship_engine_3
 			mid_1_custom_slot = empty
 		}
 
