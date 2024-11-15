@@ -33,10 +33,16 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_sub_snorkel
+					ship_anechoic_tile
 				}
 			}
 		}
-				
+
+		module_count_limit = {
+			category = ship_anechoic_tile
+			count < 2
+		}
+
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = mdg_midget_sub_ship_engine_1
@@ -105,6 +111,13 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
 			mid_1_custom_slot = inherit
+
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anechoic_tile
+				}
+			}
 		}
 
 		default_modules = {
