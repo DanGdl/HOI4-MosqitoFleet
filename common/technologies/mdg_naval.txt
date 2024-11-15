@@ -10,28 +10,28 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mdg_basic_destroyer 
+			leads_to_tech = mdg_basic_destroyer
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 1.5
 
 		start_year = 1922
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 1 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 2
 				tag = ENG
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			dd_tech
@@ -45,40 +45,42 @@ technologies = {
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_basic_destroyer = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			destroyer_2
 			mdg_frigate_2
 			mdg_corvette_2
 			mdg_boat_2
 		}
-		
+
+
 		path = {
-			leads_to_tech = mdg_improved_destroyer 
+			leads_to_tech = mdg_improved_destroyer
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
-		
+
 		start_year = 1936
 
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 2
 				tag = ENG
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			dd_tech
@@ -92,40 +94,41 @@ technologies = {
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_improved_destroyer = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			destroyer_3
 			mdg_frigate_3
 			mdg_corvette_3
 			mdg_boat_3
 		}
-		
+
 		path = {
-			leads_to_tech = mdg_advanced_destroyer 
+			leads_to_tech = mdg_advanced_destroyer
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
 
 		start_year = 1940
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 13 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 2
 				tag = ENG
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			dd_tech
@@ -139,35 +142,36 @@ technologies = {
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_advanced_destroyer = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			destroyer_4
 			mdg_frigate_4
 			mdg_corvette_4
 			mdg_boat_4
 		}
-		
+
 		research_cost = 2
 
 		start_year = 1944
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 2
 				tag = ENG
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			dd_tech
@@ -181,37 +185,49 @@ technologies = {
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_early_submarine = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			submarine_1
 		}
-		
+
 		path = {
-			leads_to_tech = mdg_basic_submarine 
+			leads_to_tech = mdg_basic_submarine
 			research_cost_coeff = 1
 		}
-		
+
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_cruiser_submarine
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_midget_submarine
+			}
+		}
+
 		research_cost = 1.5
 
 		start_year = 1922
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 1 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = GER
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ss_tech
@@ -219,19 +235,33 @@ technologies = {
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_basic_submarine = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			submarine_2
 		}
-		
+
 		path = {
-			leads_to_tech = mdg_improved_submarine 
+			leads_to_tech = mdg_improved_submarine
 			research_cost_coeff = 1
 		}
-		
+		on_research_complete = {
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_anechoic_tiles
+				}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_aip_engine
+				}
+			}
+		}
+
 		research_cost = 2
 		start_year = 1936
 
@@ -239,16 +269,16 @@ technologies = {
 			name = naval_folder
 			position = { x = 0 y = 7 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = GER
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ss_tech
@@ -256,38 +286,39 @@ technologies = {
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_improved_submarine = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			submarine_3
 			mdg_midget_submarine_1
 		}
-		
+
 		path = {
-			leads_to_tech = mdg_advanced_submarine 
+			leads_to_tech = mdg_advanced_submarine
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
 
 		start_year = 1940
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 13 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = GER
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ss_tech
@@ -295,33 +326,34 @@ technologies = {
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
-	
+
 	mdg_advanced_submarine = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			submarine_4
 			mdg_midget_submarine_2
 		}
-		
+
 		research_cost = 2
 
 		start_year = 1944
-		
+
 		folder = {
 			name = naval_folder
 			position = { x = 0 y = 19 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = GER
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ss_tech
@@ -329,5 +361,6 @@ technologies = {
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
+		special_project_specialization = { specialization_naval }
 	}
 }
