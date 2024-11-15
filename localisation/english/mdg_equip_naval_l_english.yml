@@ -122,17 +122,25 @@
  mdg_midget_submarine_1_desc:0 "Midget submarine I description"
  mdg_midget_submarine_2_desc:0 "Midget submarine II description"
 
- JAP_mdg_midget_submarine_1:0 "Type A"
- JAP_mdg_midget_submarine_2:0 "Type Kairyu"
-
- GER_mdg_midget_submarine_1:0 "Type Biber"
- GER_mdg_midget_submarine_2:0 "Type Seehund"
-
  ENG_mdg_midget_submarine_1:0 "Type X"
+ ENG_midget_submarine_1:0 "Type X"
+ ENG_ship_hull_midget_submarine:0  "Type X"
  ENG_mdg_midget_submarine_2:0 "Type XE"
 
+ GER_mdg_midget_submarine_1:0 "Type Biber"
+ GER_midget_submarine_1:0 "Type Biber"
+ GER_ship_hull_midget_submarine:0  "Type Biber"
+ GER_mdg_midget_submarine_2:0 "Type Seehund"
+
  ITA_mdg_midget_submarine_1:0 "Type CA"
+ ITA_midget_submarine_1:0 "Type CA"
+ ITA_ship_hull_midget_submarine:0  "Type CA"
  ITA_mdg_midget_submarine_2:0 "Type CB"
+
+ JAP_mdg_midget_submarine_1:0 "Type A"
+ JAP_midget_submarine_1:0 "Type A"
+ JAP_ship_hull_midget_submarine:0  "Type A"
+ JAP_mdg_midget_submarine_2:0 "Type Kairyu"
 
 
  mdg_ship_hull_boat:0 "Boat"

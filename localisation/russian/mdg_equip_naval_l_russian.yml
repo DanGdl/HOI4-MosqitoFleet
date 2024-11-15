@@ -123,15 +123,23 @@
  mdg_midget_submarine_2_desc:0 "Сверхмалая подводная лодка II описание"
 
  ENG_mdg_midget_submarine_1:0 "Тип «X»"
+ ENG_midget_submarine:0  "Тип «X»"
+ ENG_ship_hull_midget_submarine:0  "Тип «X»"
  ENG_mdg_midget_submarine_2:0 "Тип «XE»"
 
  GER_mdg_midget_submarine_1:0 "Тип «Бибер»"
+ GER_midget_submarine:0  "Тип «Бибер»"
+ GER_ship_hull_midget_submarine:0  "Тип «Бибер»"
  GER_mdg_midget_submarine_2:0 "Тип «Зеехунд»"
 
  ITA_mdg_midget_submarine_1:0 "Тип «CA»"
+ ITA_midget_submarine:0  "Тип «CA»"
+ ITA_ship_hull_midget_submarine:0  "Тип «CA»"
  ITA_mdg_midget_submarine_2:0 "Тип «CB»"
 
  JAP_mdg_midget_submarine_1:0 "Тип «A»"
+ JAP_midget_submarine:0  "Тип «A»"
+ JAP_ship_hull_midget_submarine:0  "Тип «A»"
  JAP_mdg_midget_submarine_2:0 "Тип «Кайрю»"
 
 
