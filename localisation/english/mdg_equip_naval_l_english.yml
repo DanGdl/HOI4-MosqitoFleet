@@ -174,10 +174,10 @@
  mdg_ship_hull_frigate_4_desc:0 "1944 Frigate Hull description"
 
  mdg_ship_hull_midget_submarine:0 "Midget Submarine"
- mdg_ship_hull_midget_submarine_1:2 "1940 Midget Submarine Hull"
+ mdg_ship_hull_midget_submarine_1:2 "1936 Midget Submarine Hull"
  mdg_ship_hull_midget_submarine_1_desc:0 "A small-sized submarine operated by a small crew. Its reduced range and weapon capacity is offset by a high production rate."
- mdg_ship_hull_midget_submarine_2:2 "1944 Midget Submarine Hull"
- #mdg_ship_hull_midget_submarine_2_desc:0 "1944 Midget Submarine Hull description"
+ mdg_ship_hull_midget_submarine_2:2 "1940 Midget Submarine Hull"
+ #mdg_ship_hull_midget_submarine_2_desc:0 "1940 Midget Submarine Hull description"
  mdg_ship_hull_midget_submarine_2_desc:0 "A small-sized submarine operated by a small crew, that could be used for anything from harbor sabotage to convoy raiding. Its reduced range and weapon capacity is offset by a high production rate."
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Automatic Cannons"

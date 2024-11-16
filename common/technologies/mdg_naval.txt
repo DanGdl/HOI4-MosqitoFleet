@@ -242,6 +242,7 @@ technologies = {
 
 		enable_equipments = {
 			submarine_2
+			mdg_midget_submarine_1
 		}
 
 		path = {
@@ -293,7 +294,7 @@ technologies = {
 
 		enable_equipments = {
 			submarine_3
-			mdg_midget_submarine_1
+			mdg_midget_submarine_2
 		}
 
 		path = {
@@ -333,7 +334,6 @@ technologies = {
 
 		enable_equipments = {
 			submarine_4
-			mdg_midget_submarine_2
 		}
 
 		research_cost = 2

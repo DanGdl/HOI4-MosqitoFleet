@@ -2,7 +2,7 @@ equipments = {
 	
 	mdg_ship_hull_midget_submarine = {
 		abbreviation = "mdg_ssm"
-		year = 1940
+		year = 1936
 
 		is_archetype = yes
 		is_buildable = no
@@ -91,7 +91,7 @@ equipments = {
 	# for Vanila and compatibility
 	mdg_ship_hull_midget_submarine_1 = {
 		abbreviation = "mdg_ssm_1"
-		year = 1940
+		year = 1936
 
 		archetype = mdg_ship_hull_midget_submarine
 		priority = 1500
@@ -101,7 +101,7 @@ equipments = {
 
 	mdg_ship_hull_midget_submarine_2 = {
 		abbreviation = "mdg_ssm_2"
-		year = 1944
+		year = 1940
 
 		archetype = mdg_ship_hull_midget_submarine
 		parent = mdg_ship_hull_midget_submarine_1
@@ -148,7 +148,7 @@ equipments = {
 
 	# VANILA (NO DLC)
 	mdg_midget_submarine_1 = {
-		year = 1940
+		year = 1936
 
 		archetype = mdg_ship_hull_midget_submarine
 		priority = 1500
@@ -187,7 +187,7 @@ equipments = {
 	}
 
 	mdg_midget_submarine_2 = {
-		year = 1944
+		year = 1940
 
 		archetype = mdg_ship_hull_midget_submarine
 		parent = mdg_ship_hull_midget_submarine_1
