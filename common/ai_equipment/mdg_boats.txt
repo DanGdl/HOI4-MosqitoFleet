@@ -46,7 +46,7 @@ mdg_boats = {
 			type = ship_hull_light
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_guns
-				fixed_ship_engine_slot = mdg_boat_engine
+				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_torpedo_slot = ship_torpedo
 				rear_1_custom_slot = {
 					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
@@ -58,7 +58,7 @@ mdg_boats = {
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
-			mdg_boat_engine
+			light_ship_engine
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
@@ -86,7 +86,7 @@ mdg_boats = {
 					module > mdg_ship_light_guns_1
 					upgrade > current
 				}
-				fixed_ship_engine_slot = mdg_boat_engine
+				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_torpedo_slot = ship_torpedo
 				rear_1_custom_slot = {
@@ -98,7 +98,7 @@ mdg_boats = {
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
-			mdg_boat_engine
+			light_ship_engine
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
@@ -126,7 +126,7 @@ mdg_boats = {
 					module = mdg_ship_light_guns
 					upgrade > current
 				}
-				fixed_ship_engine_slot > mdg_boat_engine_1
+				fixed_ship_engine_slot > light_ship_engine_1
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_torpedo_slot = ship_torpedo
 				rear_1_custom_slot = { 
@@ -143,7 +143,7 @@ mdg_boats = {
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
-			mdg_boat_engine
+			light_ship_engine
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
@@ -195,7 +195,7 @@ mdg_naval_mine_layer_boat = {
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1 
 				mid_1_custom_slot = ship_mine_layer_1
-				fixed_ship_engine_slot = mdg_boat_engine_1
+				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_battery_slot = mdg_ship_light_guns_1
 				fixed_ship_torpedo_slot = empty
 				fixed_ship_radar_slot = ship_radar
@@ -208,7 +208,7 @@ mdg_naval_mine_layer_boat = {
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
-			mdg_boat_engine
+			light_ship_engine
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
