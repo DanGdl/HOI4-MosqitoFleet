@@ -1684,6 +1684,11 @@ early_ship_hull_carrier = {
 			sub_ship_engine_4
 		}
 
+		path = {
+			leads_to_tech = mdg_improved_midget_submarine
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2.0
 
 		start_year = 1944
@@ -1904,6 +1909,41 @@ early_ship_hull_carrier = {
 	}
 
 ### SPECIAL PROJECTS TECHS ###
+
+	mdg_improved_midget_submarine = {
+
+		allow_branch = {
+			has_dlc = "Gotterdammerung"
+		}
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_midget_submarine
+			}
+		}
+
+		enable_equipments = {
+			mdg_ship_hull_midget_submarine_2
+		}
+
+		# is_special_project_tech = yes
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 22 }
+		}
+
+		categories = {
+			naval_equipment
+			ss_tech
+			ship_modules_tech
+			mio_cat_tech_all_submarine_and_modules
+			mdg_ssm_tech
+			mio_cat_tech_all_mdg_ssm_and_modules
+		}
+		special_project_specialization = { specialization_naval }
+	}
 
 	sp_aip_engine_improved_tech = {
 
