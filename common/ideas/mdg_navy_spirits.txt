@@ -29,9 +29,10 @@ ideas = {
 			visible = { has_tech = small_fleet }
 			modifier = {
 				positioning = 0.1
-				naval_night_attack = 0.1
-				night_spotting_chance = 0.1
+				naval_retreat_speed = 0.1
 				naval_retreat_chance = 0.1
+				# naval_retreat_speed_after_initial_combat = 0.1
+				# naval_retreat_chance_after_initial_combat = 0.1
 			}
 			ai_will_do = {
 				factor = 1
