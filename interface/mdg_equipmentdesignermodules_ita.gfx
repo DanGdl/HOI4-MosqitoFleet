@@ -101,13 +101,13 @@ spriteTypes = {
 
 
 	# Midget
-	spriteType = {
-		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ita"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/ita/midget/midget_hull_fixed_torpedos.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ita"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/topviews/ita/midget/midget_hull_fixed_torpedos.dds"
+	#}
 
-	spriteType = {
-		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ita@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/ita/midget/midget_hull_fixed_torpedos@highlight.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ita@highlight"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/topviews/ita/midget/midget_hull_fixed_torpedos@highlight.dds"
+	#}
 }
