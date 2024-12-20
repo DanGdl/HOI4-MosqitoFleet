@@ -239,7 +239,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_light_battery_sov"
+						spriteType = "GFX_SM_mdg_boat_mid_1_light_battery_sov"
 						position = { x = 245 y = 0 }
 					}
 				}
@@ -251,7 +251,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_light_battery_sov@highlight"
+						spriteType = "GFX_SM_mdg_boat_mid_1_light_battery_sov@highlight"
 						position = { x = 245 y = 0 }
 					}
 				}
