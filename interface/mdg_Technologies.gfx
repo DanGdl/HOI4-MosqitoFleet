@@ -28,7 +28,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/early_destroyer.dds"
 	}
 
-	# OVERRIDE
 	# SUBMARINES
 	SpriteType = {
 		name = "GFX_mdg_modern_submarine_medium"
@@ -54,6 +53,7 @@ spriteTypes = {
 		name = "GFX_mdg_early_submarine_medium"
 		texturefile = "gfx/interface/technologies/early_submarine.dds"
 	}
+	# EOF: OVERRIDE
 
 
 	# TORPEDO BOATS

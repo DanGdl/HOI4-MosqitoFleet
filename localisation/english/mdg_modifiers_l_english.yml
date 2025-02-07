@@ -16,6 +16,11 @@
  modifier_module_mdg_ship_light_guns_3_design_cost_factor:0 "Light Guns III Design Cost"
  modifier_module_mdg_ship_light_guns_4_design_cost_factor:0 "Light Guns IV Design Cost"
 
+ modifier_module_mdg_ship_light_cannon_1_design_cost_factor:0 "Light canon I Design Cost"
+ modifier_module_mdg_ship_light_cannon_2_design_cost_factor:0 "Light canon II Design Cost"
+ modifier_module_mdg_ship_light_cannon_3_design_cost_factor:0 "Light canon III Design Cost"
+ modifier_module_mdg_ship_light_cannon_4_design_cost_factor:0 "Light canon IV Design Cost"
+
  modifier_module_mdg_boat_engine_1_design_cost_factor:0 "Boat Engine I Design Cost"
  modifier_module_mdg_boat_engine_2_design_cost_factor:0 "Boat Engine II Design Cost"
  modifier_module_mdg_boat_engine_3_design_cost_factor:0 "Boat Engine III Design Cost"

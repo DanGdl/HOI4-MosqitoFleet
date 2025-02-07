@@ -8,8 +8,8 @@ objectTypes = {
 		animation = { id = "idle"			type = "generic_mdg_boat_idle_animation" }
 		animation = { id = "attack"			type = "generic_mdg_boat_attack_animation" }
 		animation = { id = "defend"			type = "generic_mdg_boat_defend_animation" }
-		animation = { id = "damaged_attack"	type = "generic_mdg_boat_attack_animation" }
-		animation = { id = "damaged_defend"	type = "generic_mdg_boat_defend_animation" }
+		animation = { id = "damaged_attack"		type = "generic_mdg_boat_attack_animation" }
+		animation = { id = "damaged_defend"		type = "generic_mdg_boat_defend_animation" }
 		animation = { id = "death"			type = "generic_mdg_boat_death_animation" }
 	}
 
@@ -21,8 +21,8 @@ objectTypes = {
 		animation = { id = "idle"			type = "generic_mdg_corvette_idle_animation" }
 		animation = { id = "attack"			type = "generic_mdg_corvette_attack_animation" }
 		animation = { id = "defend"			type = "generic_mdg_corvette_defend_animation" }
-		animation = { id = "damaged_attack"	type = "generic_mdg_corvette_attack_animation" }
-		animation = { id = "damaged_defend"	type = "generic_mdg_corvette_defend_animation" }
+		animation = { id = "damaged_attack"		type = "generic_mdg_corvette_attack_animation" }
+		animation = { id = "damaged_defend"		type = "generic_mdg_corvette_defend_animation" }
 		animation = { id = "death"			type = "generic_mdg_corvette_death_animation" }
 	}
 
@@ -34,8 +34,8 @@ objectTypes = {
 		animation = { id = "idle"			type = "generic_mdg_frigate_idle_animation" }
 		animation = { id = "attack"			type = "generic_mdg_frigate_attack_animation" }
 		animation = { id = "defend"			type = "generic_mdg_frigate_defend_animation" }
-		animation = { id = "damaged_attack"	type = "generic_mdg_frigate_attack_animation" }
-		animation = { id = "damaged_defend"	type = "generic_mdg_frigate_defend_animation" }
+		animation = { id = "damaged_attack"		type = "generic_mdg_frigate_attack_animation" }
+		animation = { id = "damaged_defend"		type = "generic_mdg_frigate_defend_animation" }
 		animation = { id = "death"			type = "generic_mdg_frigate_death_animation" }
 	}
 
@@ -47,8 +47,8 @@ objectTypes = {
 		animation = { id = "idle"			type = "generic_mdg_midget_submarine_idle_animation" }
 		animation = { id = "attack"			type = "generic_mdg_midget_submarine_attack_animation" }
 		animation = { id = "defend"			type = "generic_mdg_midget_submarine_defend_animation" }
-		animation = { id = "damaged_attack"	type = "generic_mdg_midget_submarine_attack_animation" }
-		animation = { id = "damaged_defend"	type = "generic_mdg_midget_submarine_defend_animation" }
+		animation = { id = "damaged_attack"		type = "generic_mdg_midget_submarine_attack_animation" }
+		animation = { id = "damaged_defend"		type = "generic_mdg_midget_submarine_defend_animation" }
 		animation = { id = "death"			type = "generic_mdg_midget_submarine_death_animation" }
 	}
 }
