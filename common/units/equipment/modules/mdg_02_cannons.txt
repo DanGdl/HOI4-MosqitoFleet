@@ -1,0 +1,299 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns" 
+	}
+
+	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   # 
+	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #  
+	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #   
+	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #   
+	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #   
+
+	mdg_ship_light_cannon_1 = {
+		abbreviation = "lsc_1"
+		category = mdg_ship_light_cannon
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 0.8
+			build_cost_ic = 60	
+		}
+
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 1
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 40
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 20
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_cannon_2 = {
+		abbreviation = "lsc_2"
+		category = mdg_ship_light_cannon
+		parent = mdg_ship_light_cannon_1
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.3
+			build_cost_ic = 90
+		}
+
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 2
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 50 # conversion cost from ANY ship_light_guns module
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 30
+		}
+
+		can_convert_from = {
+			module = mdg_ship_light_cannon_1
+			convert_cost_ic = 30 # conversion cost from that specific module
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_cannon_3 = {
+		abbreviation = "lsc_3"
+		category = mdg_ship_light_cannon
+		parent = mdg_ship_light_cannon_2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.7
+			build_cost_ic = 120			
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 2.5
+		}
+
+		multiply_stats = {
+			naval_speed = -0.03
+		}
+
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 30
+		}
+
+		can_convert_from = {
+			module = mdg_ship_light_cannon_2
+			convert_cost_ic = 30
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_cannon_4 = {
+		abbreviation = "lsg_4"
+		category = mdg_ship_light_cannon
+		parent = mdg_ship_light_cannon_3
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 2.5
+			build_cost_ic = 150	
+		}
+
+		build_cost_resources = {
+			steel = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.04
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 2.5
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 150
+		}
+
+		can_convert_from = {
+			module = mdg_ship_light_cannon_3
+			convert_cost_ic = 100
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+
+
+	mdg_ship_light_cannon_dp_1 = {
+		abbreviation = "lscd_1"
+		category = mdg_ship_light_cannon_dp
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 0.8
+			anti_air_attack = 0.8
+			build_cost_ic = 80	
+		}
+
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.4
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 80
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 60
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_cannon_dp_2 = {
+		abbreviation = "lscd_2"
+		category = mdg_ship_light_cannon_dp
+		parent = mdg_ship_light_cannon_dp_1
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.3
+			anti_air_attack = 1.8
+			build_cost_ic = 100
+		}
+
+		multiply_stats = {
+			naval_speed = -0.02
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.8
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 70
+		}
+
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 40 # conversion cost from ANY ship_light_guns module
+		}
+		
+		can_convert_from = {
+			module = mdg_ship_light_cannon_dp_1
+			convert_cost_ic = 40 # conversion cost from that specific module
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_cannon_dp_3 = {
+		abbreviation = "lscd_3"
+		category = mdg_ship_light_cannon_dp
+		parent = mdg_ship_light_cannon_dp_2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.9
+			anti_air_attack = 2.9
+			build_cost_ic = 130			
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 1.65
+		}
+
+		multiply_stats = {
+			naval_speed = -0.03
+		}
+
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 70
+		}
+
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 45
+		}
+		
+		can_convert_from = {
+			module = mdg_ship_light_cannon_dp_2
+			convert_cost_ic = 45
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_cannon_dp_4 = {
+		abbreviation = "lsgd_4"
+		category = mdg_ship_light_cannon_dp
+		parent = mdg_ship_light_cannon_dp_3
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 2.2
+			anti_air_attack = 3.5
+			build_cost_ic = 160	
+		}
+
+		build_cost_resources = {
+			steel = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.04
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 1.65
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon
+			convert_cost_ic = 170
+		}
+
+		can_convert_from = {
+			module_category = mdg_ship_light_cannon_dp
+			convert_cost_ic = 120
+		}
+			
+		can_convert_from = {
+			module = mdg_ship_light_cannon_dp_3
+			convert_cost_ic = 120
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+}
