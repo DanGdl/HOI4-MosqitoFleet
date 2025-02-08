@@ -389,4 +389,163 @@ equipments = {
 		}		
 		manpower = 200
 	}
+
+
+
+
+	mdg_ship_hull_brander_carrier_boat = {
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = carrier
+		sprite = carrier
+		group_by = archetype
+		priority = 1000
+
+		interface_category = interface_category_capital_ships
+
+
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		interface_category = interface_category_screen_ships
+		alias = mdg_boat
+		priority = 2300
+
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_ASW_upgrade
+			ship_anti_air_upgrade
+		}
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { mdg_ship_light_guns }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_torpedo_slot = {
+				required = no
+				allowed_module_categories = { ship_torpedo }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { light_ship_engine }
+			}
+
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_mine_layer
+					mdg_ship_light_guns
+					ship_depth_charge
+				}
+			}
+		}
+		
+		module_count_limit = {
+			category = mdg_brander_hosting
+			count < 2
+		}
+
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 7
+		naval_speed = 32
+		reliability = 0.80
+		
+		naval_range = 500
+		
+		max_strength = 15
+
+		fuel_consumption = -1
+		
+		build_cost_ic = 244
+		resources = {
+			steel = 1
+		}
+		
+		manpower = 100
+ 		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
+		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
+		# change this from 1 at your own risk
+		naval_weather_penalty_factor = 1.3
+		naval_supremacy_factor = 0.7
+	}
+
+	mdg_ship_hull_brander_carrier_boat_1 = {
+		abbreviation = "hb_3"
+		year = 1940
+
+		archetype = mdg_ship_hull_brander_carrier_boat
+		priority = 2300
+
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_layer
+					mdg_ship_light_guns
+					ship_depth_charge
+				}
+			}
+		}
+
+		default_modules = {
+			rear_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_3
+		}
+
+		reliability = 0.90
+		naval_range = 700
+		max_strength = 25
+		build_cost_ic = 338
+		manpower = 200
+
+		resources = {
+			steel = 1
+		}
+	}
 }

@@ -11,15 +11,15 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor:0 "Midget Submarine experence gain from training"
  modifier_experience_gain_mdg_midget_submarine_combat_factor:0 "Midget Submarine Combat Experience Gain"
 
- modifier_module_mdg_ship_light_guns_1_design_cost_factor:0 "Light Guns I Design Cost"
- modifier_module_mdg_ship_light_guns_2_design_cost_factor:0 "Light Guns II Design Cost"
- modifier_module_mdg_ship_light_guns_3_design_cost_factor:0 "Light Guns III Design Cost"
- modifier_module_mdg_ship_light_guns_4_design_cost_factor:0 "Light Guns IV Design Cost"
+ modifier_module_mdg_ship_light_guns_1_design_cost_factor:0 "Light guns I Design Cost"
+ modifier_module_mdg_ship_light_guns_2_design_cost_factor:0 "Light guns II Design Cost"
+ modifier_module_mdg_ship_light_guns_3_design_cost_factor:0 "Light guns III Design Cost"
+ modifier_module_mdg_ship_light_guns_4_design_cost_factor:0 "Light guns IV Design Cost"
 
- modifier_module_mdg_ship_light_cannon_1_design_cost_factor:0 "Light canon I Design Cost"
- modifier_module_mdg_ship_light_cannon_2_design_cost_factor:0 "Light canon II Design Cost"
- modifier_module_mdg_ship_light_cannon_3_design_cost_factor:0 "Light canon III Design Cost"
- modifier_module_mdg_ship_light_cannon_4_design_cost_factor:0 "Light canon IV Design Cost"
+ modifier_module_mdg_ship_light_cannon_1_design_cost_factor:0 "Light cannon I Design Cost"
+ modifier_module_mdg_ship_light_cannon_2_design_cost_factor:0 "Light cannon II Design Cost"
+ modifier_module_mdg_ship_light_cannon_3_design_cost_factor:0 "Light cannon III Design Cost"
+ modifier_module_mdg_ship_light_cannon_4_design_cost_factor:0 "Light cannon IV Design Cost"
 
  modifier_module_mdg_boat_engine_1_design_cost_factor:0 "Boat Engine I Design Cost"
  modifier_module_mdg_boat_engine_2_design_cost_factor:0 "Boat Engine II Design Cost"

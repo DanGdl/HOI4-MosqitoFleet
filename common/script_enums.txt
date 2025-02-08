@@ -143,8 +143,6 @@ script_enum_equipment_category = {
 	rocket
 	flame
 	land_cruiser
-
-	mdg_brander_equipment
 }
 
 script_enum_equipment_bonus_type = {
