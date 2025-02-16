@@ -1,13 +1,13 @@
 ﻿ENG = {
 	mdg_ship_hull_midget_submarine = {
 		prefix = "HMS"
-		generic = { "Midget submarine" }
+		generic = { "X" }
 		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "HMS"
-		generic = { "MBT"	}
+		generic = { "MBT" }
 		unique = {}
 	}
 
