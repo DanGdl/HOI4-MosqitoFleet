@@ -448,7 +448,7 @@ entity = {
 	scale = 1.7
 }
 
-# MINISUBMARINE
+# MIDGETSUBMARINE
 entity = { 
 	name = "mdg_midget_submarine_entity"
 	pdxmesh = "generic_mdg_midget_submarine_mesh"

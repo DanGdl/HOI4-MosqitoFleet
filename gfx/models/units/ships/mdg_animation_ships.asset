@@ -60,24 +60,3 @@ animation = {
 	name = "generic_mdg_frigate_idle_animation"
 	file = "generic_mdg_frigate_idle.anim"
 }
-
-# SUBMARINE
-animation = {
-	name = "generic_mdg_midget_submarine_death_animation"
-	file = "generic_mdg_midget_submarine_death.anim"
-}
-
-animation = {
-	name = "generic_mdg_midget_submarine_attack_animation"
-	file = "generic_mdg_midget_submarine_attack.anim"
-}
-
-animation = {
-	name = "generic_mdg_midget_submarine_defend_animation"
-	file = "generic_mdg_midget_submarine_defend.anim"
-}
-
-animation = {
-	name = "generic_mdg_midget_submarine_idle_animation"
-	file = "generic_mdg_midget_submarine_idle.anim"
-}
