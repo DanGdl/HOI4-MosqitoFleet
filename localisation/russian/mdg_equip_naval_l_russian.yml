@@ -145,7 +145,11 @@
  JAP_ship_hull_midget_submarine:0  "Тип «A»"
  JAP_mdg_midget_submarine_2:0 "Тип «Кайрю»"
 
-
+ SOV_mdg_midget_submarine_1:0 "АПСС"
+ SOV_midget_submarine_1:0 "АПСС"
+ SOV_ship_hull_midget_submarine:0 "АПСС"
+ SOV_mdg_midget_submarine_2:0 "Тип «Пигмей»"
+ 
  mdg_ship_hull_boat:0 "Катер"
  mdg_ship_hull_boat_1:2 "Ранний корпус катера"
  mdg_ship_hull_boat_1_desc:0 "Ранний корпус катера описание"

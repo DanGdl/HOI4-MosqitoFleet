@@ -127,7 +127,7 @@
 
  ENG_mdg_midget_submarine_1:0 "Type X"
  ENG_midget_submarine_1:0 "Type X"
- ENG_ship_hull_midget_submarine:0  "Type X"
+ ENG_ship_hull_midget_submarine:0 "Type X"
  ENG_mdg_midget_submarine_2:0 "Type XE"
 
  GER_mdg_midget_submarine_1:0 "Type Biber"
@@ -137,14 +137,18 @@
 
  ITA_mdg_midget_submarine_1:0 "Type CA"
  ITA_midget_submarine_1:0 "Type CA"
- ITA_ship_hull_midget_submarine:0  "Type CA"
+ ITA_ship_hull_midget_submarine:0 "Type CA"
  ITA_mdg_midget_submarine_2:0 "Type CB"
 
  JAP_mdg_midget_submarine_1:0 "Type A"
  JAP_midget_submarine_1:0 "Type A"
- JAP_ship_hull_midget_submarine:0  "Type A"
+ JAP_ship_hull_midget_submarine:0 "Type A"
  JAP_mdg_midget_submarine_2:0 "Type Kairyu"
 
+ SOV_mdg_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine_1:0 "APSS"
+ SOV_ship_hull_midget_submarine:0 "APSS"
+ SOV_mdg_midget_submarine_2:0 "Type Pigmey"
 
  mdg_ship_hull_boat:0 "Boat"
  mdg_ship_hull_boat_1:2 "Early Boat Hull"
