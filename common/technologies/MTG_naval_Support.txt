@@ -1974,8 +1974,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
-
 		naval_mines_damage_factor = 0.2 # more boom for the boom box
 		folder = {
 			name = mtgnavalsupportfolder
@@ -2025,13 +2023,13 @@ technologies = {
 
 		naval_mines_effect_reduction = 0.5
 
-		mdg_frigate = {
+		mdg_boat = {
 			sub_detection = 0.1
 		}
 		mdg_corvette = {
 			sub_detection = 0.1
 		}
-		mdg_boat = {
+		mdg_frigate = {
 			sub_detection = 0.1
 		}
 		destroyer = {
