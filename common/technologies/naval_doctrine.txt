@@ -32,6 +32,9 @@ technologies = {
 		mdg_boat = {
 			surface_detection = 0.10
 		}
+		mdg_hydrofoil = {
+			surface_detection = 0.10
+		}
 		mines_planting_by_fleets_factor = 0.1
 		#####
 		on_research_complete = {
@@ -214,6 +217,9 @@ technologies = {
 
 		# EFFECT #############
 		mdg_boat = {
+			max_organisation = 5
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 		}
 		mdg_corvette = {
@@ -455,6 +461,10 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
+		mdg_hydrofoil = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
@@ -521,6 +531,9 @@ technologies = {
 
 		# EFFECT #############
 		mdg_boat = {
+			max_organisation = 5
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 		}
 		mdg_corvette = {
@@ -1695,6 +1708,10 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
+		mdg_hydrofoil = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
@@ -2594,6 +2611,10 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
+		mdg_hydrofoil = {
+			max_organisation = 5
+			sub_detection = 0.05
+		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
@@ -2658,6 +2679,9 @@ technologies = {
 
 		# EFFECT ##############
 		mdg_boat = {
+			max_organisation = 5
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 		}
 		mdg_corvette = {
@@ -2739,6 +2763,9 @@ technologies = {
 		mdg_boat = {
 			max_organisation = 5
 		}
+		mdg_hydrofoil = {
+			max_organisation = 5
+		}
 		mdg_corvette = {
 			max_organisation = 5
 			sub_detection = 0.05
@@ -2811,6 +2838,9 @@ technologies = {
 		#same as integrated_convoy_defence
 		# EFFECT #############
 		mdg_boat = {
+			max_organisation = 5
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 		}
 		mdg_corvette = {
@@ -2889,6 +2919,10 @@ technologies = {
 			surface_detection = 0.05
 		}
 		mdg_boat = {
+			max_organisation = 5
+			surface_detection = 0.05
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
@@ -2972,6 +3006,7 @@ technologies = {
 			submarine = 1.0
 			mdg_midget_submarine = 1.0
 			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 			mdg_corvette = 1.0
 			mdg_frigate = 1.0
 			destroyer = 1.0
@@ -2986,6 +3021,10 @@ technologies = {
 		mdg_boat = {
 			max_organisation = 5
 			sub_detection = 0.05
+		}
+		mdg_hydrofoil = {
+			max_organisation = 5
+			surface_detection = 0.05
 		}
 		mdg_corvette = {
 			max_organisation = 5
@@ -3040,6 +3079,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 			mdg_corvette = 1.0
 			mdg_frigate = 1.0
 			destroyer = 1.0
@@ -3052,6 +3092,9 @@ technologies = {
 
 		# EFFECT #############
 		mdg_boat = {
+			max_organisation = 5
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 		}
 		mdg_corvette = {
@@ -3115,6 +3158,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 			mdg_corvette = 1.0
 			mdg_frigate = 1.0
 			destroyer = 1.0
@@ -3127,6 +3171,9 @@ technologies = {
 
 		# EFFECT ##############
 		mdg_boat = {
+			max_organisation = 5
+		}
+		mdg_hydrofoil = {
 			max_organisation = 5
 		}
 		mdg_corvette = {
@@ -3193,6 +3240,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 			mdg_corvette = 1.0
 			mdg_frigate = 1.0
 			destroyer = 1.0
@@ -3491,7 +3539,10 @@ technologies = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
-
+		mdg_hydrofoil = {
+			max_organisation = 5
+			surface_detection = 0.05
+		}
 		path = {
 			leads_to_tech = raider_patrols_sm
 			research_cost_coeff = 1
@@ -3529,6 +3580,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 		}
 	}
 
@@ -3583,7 +3635,7 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-		mdg_boat = {
+		mdg_hydrofoil = {
 			max_organisation = 10
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
@@ -3625,6 +3677,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			mdg_boat = 2.0
+			mdg_hydrofoil = 2.0
 		}
 	}
 
@@ -3634,7 +3687,11 @@ technologies = {
 			surface_detection = 0.05
 			convoy_raiding_coordination = 0.05
 		}
-
+		mdg_hydrofoil = {
+			max_organisation = 10
+			surface_detection = 0.05
+			convoy_raiding_coordination = 0.05
+		}
 		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes
@@ -3648,7 +3705,6 @@ technologies = {
 		categories = {
 			naval_doctrine
 			small_fleet_tree
-			submarine_doctrine
 			cat_small_fleet
 		}
 
@@ -3679,8 +3735,8 @@ technologies = {
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
-			submarine = 1.0
-			mdg_midget_submarine = 1.0
+			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 		}
 	}
 
@@ -3698,6 +3754,11 @@ technologies = {
 			surface_detection = 0.1
 		}
 		mdg_boat = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.05
+			surface_detection = 0.1
+		}
+		mdg_hydrofoil = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.05
 			surface_detection = 0.1
@@ -3780,6 +3841,7 @@ technologies = {
 			mdg_midget_submarine = 1.0
 			submarine = 1.0
 			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 			mdg_corvette = 1.0
 			mdg_frigate = 1.0
 			destroyer = 1.0

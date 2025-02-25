@@ -3,6 +3,7 @@ spriteTypes = {
 	#################################
 	### On-map-counters for SHIPS ###
 
+	spriteType = { name = "GFX_unit_mdg_hydrofoil_icon_medium_white"		texturefile = "gfx/interface/counters/ships_small/onmap_mdg_hydrofoil.dds" }
 	spriteType = { name = "GFX_unit_mdg_midget_submarine_icon_medium_white"	texturefile = "gfx/interface/counters/ships_small/onmap_mdg_midget_submarine.dds" }
 	spriteType = { name = "GFX_unit_mdg_frigate_icon_medium_white"			texturefile = "gfx/interface/counters/ships_small/onmap_mdg_frigate.dds" }
 	spriteType = { name = "GFX_unit_mdg_corvette_icon_medium_white"			texturefile = "gfx/interface/counters/ships_small/onmap_mdg_corvette.dds" }
@@ -11,6 +12,7 @@ spriteTypes = {
 	############################################
 	### On-map-counters for SHIPS - Inverted ###
 
+	spriteType = { name = "GFX_unit_mdg_hydrofoil_icon_medium_black"		texturefile = "gfx/interface/counters/ships_small/onmap_mdg_hydrofoil_inverted.dds" }
 	spriteType = { name = "GFX_unit_mdg_midget_submarine_icon_medium_black"	texturefile = "gfx/interface/counters/ships_small/onmap_mdg_midget_submarine_inverted.dds" }
 	spriteType = { name = "GFX_unit_mdg_frigate_icon_medium_black"			texturefile = "gfx/interface/counters/ships_small/onmap_mdg_frigate_inverted.dds" }
 	spriteType = { name = "GFX_unit_mdg_corvette_icon_medium_black"			texturefile = "gfx/interface/counters/ships_small/onmap_mdg_corvette_inverted.dds" }
@@ -19,11 +21,12 @@ spriteTypes = {
 	#############################################################################
 	### Large ships images used in NAVAL-COMBAT-VIEW and SELECTED-FLEETS-VIEW ###
 
-	spriteType = { name = "GFX_unit_mdg_midget_submarine_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine.dds"			noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mdg_midget_submarine_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_midget_submarine_1_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine_I.dds"	noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_midget_submarine_2_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine_II.dds"	noOfFrames = 2 }
-	#spriteType = { name = "GFX_unit_mdg_midget_submarine_3_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine_III.dds"	noOfFrames = 2 }
-	#spriteType = { name = "GFX_unit_mdg_midget_submarine_4_icon_medium"		texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine_IV.dds"	noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_mdg_hydrofoil_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/mdg_hydrofoil.dds"			noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mdg_hydrofoil_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/mdg_hydrofoil_I.dds"		noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_mdg_frigate_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/mdg_frigate.dds"			noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_frigate_1_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/mdg_frigate_I.dds"		noOfFrames = 2 }	

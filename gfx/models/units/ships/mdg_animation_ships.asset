@@ -19,6 +19,27 @@ animation = {
 	file = "generic_mdg_boat_idle.anim"
 }
 
+# HYDROFOIL
+animation = {
+	name = "generic_mdg_hydrofoil_death_animation"
+	file = "generic_mdg_hydrofoil_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_hydrofoil_attack_animation"
+	file = "generic_mdg_hydrofoil_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_hydrofoil_defend_animation"
+	file = "generic_mdg_hydrofoil_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_hydrofoil_idle_animation"
+	file = "generic_mdg_hydrofoil_idle.anim"
+}
+
 # CORVETTE
 animation = {
 	name = "generic_mdg_corvette_death_animation"

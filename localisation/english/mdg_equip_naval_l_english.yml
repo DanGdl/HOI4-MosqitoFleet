@@ -39,6 +39,9 @@
  JAP_mdg_corvette_3:0 "Type Ch-13"
  JAP_mdg_corvette_4:0 "Type Ch-51"
 
+ mdg_hydrofoil:0 "Hydrofoil boat"
+ mdg_hydrofoil_1:2 "Hydrofoil boat I"
+ mdg_hydrofoil_1:2 "Hydrofoil boat I description"
 
  mdg_boat:0 "Boat"
  mdg_boat_1:0 "Boat I"
@@ -152,6 +155,9 @@
  mdg_ship_hull_boat_3_desc:0 "1940 Boat Hull description"
  mdg_ship_hull_boat_4:2 "1944 Boat Hull"
  mdg_ship_hull_boat_4_desc:0 "1944 Boat Hull description"
+
+ mdg_ship_hull_hydrofoil:0 "Hydrofoil boat"
+ mdg_ship_hull_hydrofoil_1:2 "Hydrofoil Boat Hull"
 
  mdg_ship_hull_corvette:0 "Corvette"
  mdg_ship_hull_corvette_1:2 "Early Corvette Hull"

@@ -39,6 +39,9 @@
  JAP_mdg_corvette_3:0 "Тип «Ш-13»"
  JAP_mdg_corvette_4:0 "Тип «Ш-51»"
 
+ mdg_hydrofoil:0 "Катер на подводных крыльях"
+ mdg_hydrofoil_1:0 "Катер на подводных крыльях I"
+ mdg_hydrofoil_1_desc:0 "Катер на подводных крыльях I описание"
 
  mdg_boat:0 "Катер"
  mdg_boat_1:0 "Катер I"
@@ -152,6 +155,9 @@
  mdg_ship_hull_boat_3_desc:0 "Корпус катера обр. 1940 г. описание"
  mdg_ship_hull_boat_4:2 "Корпус катера обр. 1944 г."
  mdg_ship_hull_boat_4_desc:0 "Корпус катера обр. 1944 г. описание"
+ 
+ mdg_ship_hull_hydrofoil:0 "Катер на подводных крыльях"
+ mdg_ship_hull_hydrofoil_1:2 "Корпус катера на подводных крыльях"
 
  mdg_ship_hull_corvette:0 "Корвет"
  mdg_ship_hull_corvette_1:2 "Ранний корпус корвета"

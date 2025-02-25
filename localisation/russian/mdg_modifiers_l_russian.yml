@@ -1,6 +1,9 @@
 ﻿l_russian:
  modifier_experience_gain_mdg_boat_training_factor:0 "Получаемый опыт за подготовку катера"
  modifier_experience_gain_mdg_boat_combat_factor:0 "Получаемый опыт за подготовку катера"
+ 
+ modifier_experience_gain_mdg_hydrofoil_training_factor:0 "Получаемый опыт за подготовку катера на подводных крыльях"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor:0 "Получаемый опыт за подготовку катера на подводных крыльях"
 
  modifier_experience_gain_mdg_corvette_training_factor:0 "Получаемый опыт за подготовку корвета"
  modifier_experience_gain_mdg_corvette_combat_factor:0 "Получаемый опыт за подготовку корвета"
@@ -42,6 +45,7 @@
  modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor:0 "Стоимость проекта двигателя сверхмалой субмарины мощностью 35 л. с."
 
  mdg_ship_hull_boat_design_cost_factor:0 "Стоимость проекта катера"
+ mdg_ship_hull_hydrofoil_design_cost_factor:0 "Стоимость проекта катера на подводных крыльях"
  mdg_ship_hull_corvette_design_cost_factor:0 "Стоимость проекта корвета"
  mdg_ship_hull_frigate_design_cost_factor:0 "Стоимость проекта фрегата"
  mdg_ship_hull_midget_submarine_design_cost_factor:0 "Стоимость проекта сверхмалой субмарины"

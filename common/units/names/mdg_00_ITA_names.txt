@@ -12,6 +12,12 @@
 		unique = {}
 	}
 
+	mdg_ship_hull_hydrofoil = {
+		prefix = ""
+		generic = { "P" }
+		unique = {}
+	}
+	
 	mdg_ship_hull_corvette = {
 		prefix = ""
 		generic = { "LCS" }

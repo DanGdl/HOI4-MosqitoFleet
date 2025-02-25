@@ -1,0 +1,19 @@
+sub_units = {
+	mdg_hydrofoil = {
+		sprite = mdg_hydrofoil
+		map_icon_category = ship
+		priority = 3
+		active = yes
+		type = { screen_ship }
+		need = { mdg_ship_hull_hydrofoil = 1 }
+		
+		max_organisation = 35
+
+		supply_consumption = 0.015
+		
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed }
+		critical_part_damage_chance_mult = 1.1
+		
+		hit_profile_mult = 1.0
+	}
+}

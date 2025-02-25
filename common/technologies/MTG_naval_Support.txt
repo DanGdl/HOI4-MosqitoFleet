@@ -152,6 +152,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
+		mdg_hydrofoil = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 		mdg_corvette = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -280,6 +284,10 @@ technologies = {
 		}
 
 		mdg_boat = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		mdg_hydrofoil = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -1131,6 +1139,9 @@ technologies = {
 		mdg_boat = {
 			torpedo_attack = 0.2
 		}
+		mdg_hydrofoil = {
+			torpedo_attack = 0.2
+		}
 		mdg_corvette = {
 			torpedo_attack = 0.2
 		}
@@ -1205,6 +1216,9 @@ technologies = {
 
 		start_year = 1942
 		mdg_boat = {
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		mdg_hydrofoil = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		mdg_corvette = {
@@ -1752,6 +1766,10 @@ technologies = {
 			hg_attack = 0.05
 		}
 		mdg_corvette = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		mdg_hydrofoil = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}

@@ -1,0 +1,206 @@
+sp_naval_mdg_hydrofoil = {
+	specialization = specialization_naval 
+
+	project_tags = sp_tag_surface_ship
+	
+	complexity = sp_complexity.small
+	prototype_time = sp_time.prototype.short 
+	allowed = {
+		# FREE PROJECT
+	}
+
+	special_project_parent = {
+		
+	}
+
+	available = { 
+		FROM = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}  
+				has_tech = basic_ship_hull_light
+			}
+			else = {
+				has_tech = mdg_basic_destroyer
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 3
+			ROOT = { tag = GER }
+		}
+		modifier = {
+			factor = 0.5
+			ROOT = { is_major = no }
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_naval = 1
+	}
+
+	resource_cost = {
+		resources = { 
+			steel = 3
+			aluminium = 2
+		}
+	}
+	
+	project_output = {
+		#enable_equipment_modules = {
+		#}
+		enable_equipments = {
+			mdg_ship_hull_hydrofoil_1
+		}
+		country_effects = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				add_design_template_bonus = {
+					name = sp_naval_mdg_hydrofoil_free_design
+					uses = 1
+					cost_factor = 1
+					equipment = mdg_ship_hull_hydrofoil_1
+				}
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_naval_generic_reward_scientist_xp_1
+		sp_naval_generic_reward_scientist_xp_2
+		sp_naval_generic_reward_scientist_xp_3
+		sp_naval_generic_reward_navy_xp_1
+		sp_naval_generic_reward_navy_xp_2
+		sp_naval_generic_reward_navy_xp_3
+		sp_naval_generic_reward_major_progress_1
+		sp_naval_generic_reward_major_progress_2
+		sp_naval_generic_reward_major_progress_3
+		sp_naval_generic_reward_test_failure_1
+		sp_naval_generic_reward_test_failure_2
+		sp_naval_generic_reward_test_failure_3
+	}
+	
+	unique_prototype_rewards = {
+		sp_naval_mdg_hydrofoil_unique_reward_a = {
+			fire_only_once = yes
+
+			threshold = { 
+				min = 40
+				max = 90
+			}
+
+			weight = {
+				base = 100
+			}
+
+			option = {
+				token = sp_naval_mdg_hydrofoil_preference_a
+				
+				iteration_output = {
+					country_effects = {
+						if = {
+							limit = { has_dlc = "Man the Guns"}							
+						
+							add_equipment_bonus = {
+								name = sp_mdg_hydrofoil_eq_bonus_speed
+								bonus = {
+									mdg_ship_hull_hydrofoil_1 = {
+										naval_speed = 0.1
+										fuel_consumption = 0.1
+										build_cost_ic = 0.05
+									}
+								}
+							}
+						}
+						else = {
+							add_equipment_bonus = {
+								name = sp_mdg_hydrofoil_eq_bonus_speed
+								bonus = {
+									mdg_hydrofoil_1 = {
+										naval_speed = 0.1
+										fuel_consumption = 0.1
+										build_cost_ic = 0.05
+									}
+								}
+							}						
+						}
+					}
+				}
+			}
+
+			option = {
+				token = sp_naval_mdg_hydrofoil_preference_b
+				default = yes
+				iteration_output = {
+					country_effects = {
+						if = {
+							limit = { has_dlc = "Man the Guns"}							
+						
+							add_equipment_bonus = {
+								name = sp_mdg_hydrofoil_eq_bonus_cost
+								bonus = {
+									mdg_ship_hull_hydrofoil_1 = {
+										build_cost_ic = -0.15
+									}
+								}
+							}
+						}
+						else = {
+							add_equipment_bonus = {
+								name = sp_mdg_hydrofoil_eq_bonus_cost
+								bonus = {
+									mdg_hydrofoil_1 = {
+										build_cost_ic = -0.15
+									}
+								}
+							}						
+						}
+					}
+				} 
+			}
+
+			option = {
+				token = sp_naval_mdg_hydrofoil_preference_c
+				
+				iteration_output = {
+					country_effects = {
+						if = {
+							limit = { has_dlc = "Man the Guns"}							
+						
+							add_equipment_bonus = {
+								name = sp_mdg_hydrofoil_eq_bonus_quality
+								bonus = {
+									mdg_ship_hull_hydrofoil_1 = {
+										reliability = 0.1
+										build_cost_ic = 0.05
+										naval_weather_penalty_factor = -0.1
+										instant = yes
+									}
+								}
+							}
+						}
+						else = {
+							add_equipment_bonus = {
+								name = sp_mdg_hydrofoil_eq_bonus_quality
+								bonus = {
+									mdg_hydrofoil_1 = {
+										reliability = 0.1
+										build_cost_ic = 0.05
+										naval_weather_penalty_factor = -0.1
+										instant = yes
+									}
+								}
+							}						
+						}
+					}
+				}
+			}
+		}
+	}
+}

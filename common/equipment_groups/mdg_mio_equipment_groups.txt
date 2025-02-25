@@ -22,6 +22,7 @@ mio_cat_eq_all_mdg_corvette = {
 mio_cat_eq_all_mdg_boat = {
 	equipment_type = {
 		mdg_ship_hull_boat
+		mdg_ship_hull_hydrofoil
 	}
 }
 
@@ -32,6 +33,7 @@ mio_cat_eq_all_destroyer = {
 		# easiest way to add support of MIO for new equipment
 		mdg_ship_hull_frigate
 		mdg_ship_hull_corvette
+		mdg_ship_hull_hydrofoil
 		mdg_ship_hull_boat
 	}
 }

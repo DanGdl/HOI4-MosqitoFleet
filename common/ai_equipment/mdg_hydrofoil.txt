@@ -1,0 +1,140 @@
+
+mdg_hydrofoils = {
+	category = naval
+	
+	blocked_for = {
+	}
+	
+	available_for = {
+	}
+	
+	roles = {
+		mdg_naval_hydrofoil
+	}
+	
+	priority = {
+		factor = 2500
+		modifier = {
+			factor = 2
+			is_major = no
+		}
+		modifier = {
+			factor = 3
+			num_of_naval_factories < 6
+		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories > 5
+		}
+	}
+	
+	mdg_hydrofoil_default = {
+	
+		priority = {
+			factor = 250
+			modifier = {
+				factor = 10
+				is_major = no
+			}
+		}
+		
+		role_icon_index = 2
+		
+		target_variant = {
+			match_value = 2000.0
+			
+			type = ship_hull_light
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+				}
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo
+				rear_1_custom_slot = {
+					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
+				}
+				fixed_ship_radar_slot = ship_radar
+			}
+		}
+		
+		allowed_modules = {
+			mdg_ship_light_guns
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_depth_charge
+			light_ship_engine
+			ship_mine_layer
+			ship_torpedo
+			ship_radar
+		}
+	}
+}
+
+mdg_naval_mine_layer_hydrofoil = {
+	category = naval
+	
+	blocked_for = {
+	}
+	
+	available_for = {
+	}
+	
+	roles = {
+		mdg_naval_hydrofoil_mine_layer
+	}
+	
+	priority = {
+		factor = 3
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+		modifier = {
+			factor = 5
+			is_major = no
+		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories < 5
+		}
+	}
+	
+	mdg_mine_layer_hydrofoil = {
+	
+		priority = {
+			factor = 3
+		}
+		
+		role_icon_index = 4
+		
+		target_variant = {
+			match_value = 1000.0
+			 
+			type = mdg_ship_hull_hydrofoil
+			modules = {
+				rear_1_custom_slot = ship_mine_layer_1 
+				mid_1_custom_slot = ship_mine_layer_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+				}
+				fixed_ship_torpedo_slot = empty
+				fixed_ship_radar_slot = ship_radar
+			}
+		}
+		
+		requirements = {
+			module = ship_mine_layer_1
+		}
+		allowed_modules = {
+			mdg_ship_light_guns
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_depth_charge
+			light_ship_engine
+			ship_mine_layer
+			ship_torpedo
+			ship_radar
+		}
+	}
+}

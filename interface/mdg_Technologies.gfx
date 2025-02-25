@@ -55,6 +55,15 @@ spriteTypes = {
 	}
 	# EOF: OVERRIDE
 
+	# HYDROFOILS
+	SpriteType = {
+		name = "GFX_mdg_hydrofoil_medium"
+		texturefile = "gfx/interface/technologies/mdg_hydrofoil.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_hydrofoil_medium"
+		texturefile = "gfx/interface/technologies/mdg_hydrofoil.dds"
+	}
 
 	# TORPEDO BOATS
 	# GENERIC

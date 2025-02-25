@@ -23,6 +23,11 @@ default_role_ratios = {
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = mdg_naval_hydrofoil 
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = mdg_naval_midget_sub
 		value = 100
 	}
@@ -99,6 +104,17 @@ default_role_ratios = {
 
 	ai_strategy = {
 		type = role_ratio
+		id = mdg_naval_hydrofoil
+		value = 30
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_hydrofoil_mine_layer
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
 		id = mdg_naval_midget_sub
 		value = 20
 	}
@@ -150,6 +166,13 @@ convoy_voy_voy_voy = {
 		id = mdg_naval_boat
 		value = 35
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_hydrofoil
+		value = 15
+	}
+
 	ai_strategy = {
 		type = role_ratio
 		id = mdg_naval_boat_mine_layer
@@ -193,6 +216,12 @@ ill_show_you_mine = {
 		id = mdg_naval_boat_mine_layer
 		value = -10
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_hydrofoil_mine_layer
+		value = -10
+	}
 }
 
 ill_show_you_mine_2 = {
@@ -229,6 +258,12 @@ ill_show_you_mine_2 = {
 	ai_strategy = {
 		type = role_ratio
 		id = mdg_naval_boat_mine_layer
+		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_hydrofoil_mine_layer
 		value = -10
 	}
 }
