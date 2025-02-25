@@ -44,8 +44,6 @@ technologies = {
 			mdg_ship_light_cannon_1
 		}
 
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 1 }
@@ -78,11 +76,6 @@ technologies = {
             mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
-			mio_cat_tech_all_capital_ship_and_modules
-			mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_carrier_and_modules
-			mio_cat_tech_all_cruiser_and_modules
-			mio_cat_tech_all_destroyer_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
