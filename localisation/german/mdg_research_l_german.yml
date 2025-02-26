@@ -436,3 +436,27 @@
 
  battlefleet_concentration_sm:0 "Schlachtflotten-Konzentration"
  battlefleet_concentration_sm_desc:0 "Sobald ein feindliches Schiff gesichtet wird, rufen wir unsere Schiffe zusammen, die sich in der Nähe befinden. Koordiniertes konzentriertes Feuer setzt die feindlichen Schiffe schnell außer Gefecht. Wir jagen und vernichten sie, eines nach dem anderen."
+
+ TITLE_SMALL_FLEET:0 "Kleine Flotte"
+ small_fleet:0 "Kleine Flotte"
+ SMALL_FLEET_DESC:0 "Eine Flotte, die hauptsächlich aus kleinen Schiffen besteht und dem Feind insbesondere in Schlachtschiffen unterlegen ist."
+ small_fleet_desc:0 "Die Doktrin beinhaltet den Kampf der leichten Seestreitkräfte gegen einzelne Gruppen großer feindlicher Schiffe, das Stören der feindlichen Kommunikation und den Schutz der eigenen Küste.\n\n"
+ small_fleet_tree:0 "Doktrin der kleinen Flotte"
+ small_fleet_doctrine:0 "Doktrin der kleinen Flotte"
+ cat_small_fleet:0 "Doktrin der kleinen Flotte"
+
+ torpedo_boat_operations_sm:0 "Torpedoboot-Operationen"
+ torpedo_boat_operations_sm_desc:0 "Man kann sich unbemerkt an den Feind heranschleichen, Torpedos abfeuern und ebenso unbemerkt wieder verschwinden. Oder sich sehr schnell zurückziehen."
+ raider_patrols_sm:0 "Räuberpatrouillen"
+ raider_patrols_sm_desc:0 "Patrouillen sowohl schneller als auch stark bewaffneter Schiffe lassen feindlichen Handelskonvois keinen Zufluchtsort.\nNicht nur U-Boote können jagen."
+ patrol_and_ambush_sm:0 "Patrouillen und Hinterhalte"
+ patrol_and_ambush_sm_desc:0 "Unsere Flotte entsendet Patrouillen und organisiert Hinterhalte entlang feindlicher Routen."
+ mosquitos_sm:0 "Moskitos"
+ mosquitos_sm_desc:0 "Koordinierte Angriffe mehrerer Gruppen von Torpedobooten."
+
+ combined_operations_sm:0 "Kombinierte Operationen"
+ combined_operations_sm_desc:0 "Koordinierte Operationen mehrerer Gruppen von Torpedobooten, U-Booten und Begleitschiffen."
+ mio_cat_tech_all_mdg_frigate_and_modules:0 "Alle Fregatten-Technologien"
+ mio_cat_tech_all_mdg_corvette_and_modules:0 "Alle Korvetten-Technologien"
+ mio_cat_tech_all_mdg_boat_and_modules:0 "Alle Boot-Technologien"
+ mio_cat_tech_all_mdg_ssm_and_modules:0 "Alle Kleinst-U-Boot-Technologien"

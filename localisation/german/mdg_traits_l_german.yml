@@ -1,0 +1,4 @@
+﻿l_german:
+ mdg_trait_mosquito:0 "Moskito"
+ mdg_trait_mosquito_desc:0 "§LDieses Büro verwaltet geschickt einige Gruppen kleiner Schiffe§!"
+ MOSQUITO_TRIGGER_TT:0 "Kämpft mit leichten Schiffen (mehr als 80%)"
