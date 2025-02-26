@@ -195,9 +195,6 @@
  YUG_mdg_basic_destroyer_desc:0 "A classe Beograd consistia de três contratorpedeiros construídos com ajuda francesa. Dois dos navios foram construídos em Split, enquanto o terceiro foi construído na França. Todos os três navios foram baseados na classe L’Adroit de contratorpedeiros e foram encomendados em 1939. Eles deslocam 1.210 toneladas e são armados com quatro armas Skoda 120 mm/43 de com seis tubos de torpedo de 533 mm. Eles tem excelente velocidade mas alcance abaixo da média."
  YUG_mdg_advanced_destroyer:0 "Classe Split"
  YUG_mdg_advanced_destroyer_desc:0 "O Split era um contratorpedeiro pesado lançado e completado na Iugoslávia. Foi lançado em 1943 mas não foi completado até 1958, com um design modificado. Seu design original desloca 2.400 toneladas e é armado com cinco armas Skoda de 140/56 em seu armamento principal. Apesar de seu tamanho, tinha excelente velocidade."
- TUR_mdg_basic_destroyer_desc:0 "Os dois contratorpedeiros da classe Kocatepe foram construídos na Itália para a Marinha Polonesa e completados em 1931. Eles foram baseados no design do folgore Italiano. Os navios deslocam 1.250 toneladas e são armados com quatro armas Ansaldo 1926 120 mm/50 de com seis tubos de torpedo de 533 mm. Eles tinham boa velocidade e alcance também."
- URU_mdg_early_destroyer:0 "Classe Uruguay"
- URU_mdg_early_destroyer_desc:0 "O Uruguai foi um barco de torpedo construído na Alemanha para a Marinha Uruguaia antes da Primeira Guerra Mundial. Ele desloca mais de 1.400 toneladas e é armado com quatro armas Krupp QF de 120mm/45. Tem um armamento antiaéreo complementar forte e dois tubos de torpedo de 450mm. Dado seu envelhecimento e tamanho avantajado, eles são relativamente lentos comparados a outros destrudiroes."
  mdg_early_submarine:0 "Submarino I"
  mdg_basic_submarine:0 "Submarino II"
  mdg_improved_submarine:0 "Submarino III"
@@ -418,7 +415,6 @@
  advanced_ship_hull_submarine:1 "Casco de submarino de 1944"
 
  convoy_sailing_sm:0 "Navegação em comboio"
- convoy_sailing_desc_sm:0 "Introduzir uma navegação em comboio compulsória tornará mais fácil avistar incursões inimigas e responder a tempo. A segurança em números é o melhor caminho."
  convoy_sailing_sm_desc:0 "Introduzir uma navegação em comboio compulsória tornará mais fácil avistar incursões inimigas e responder a tempo. A segurança em números é o melhor caminho."
  convoy_escorts_sm:0 "Escoltas de comboios"
  convoy_escorts_sm_desc:0 "Ter navios de superfície rápidos como parte de nossos comboios nos permitirá avistar submarinos inimigos e responder a tempo. Detecção é a chave para eliminar o estorvo dos submarinos."
