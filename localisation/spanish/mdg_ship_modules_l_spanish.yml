@@ -1,0 +1,93 @@
+﻿l_spanish:
+ mdg_ship_light_guns_1_short:0 "Armamento de bote I"
+ mdg_ship_light_guns_1_desc:0 "Ametralladora estándar"
+ mdg_ship_light_guns_2:0 "Ametralladora doble de 7.62 mm"
+ mdg_ship_light_guns_2_short:0 "Armamento de bote II"
+ mdg_ship_light_guns_2_desc:0 "Ametralladora pesada doble"
+ mdg_ship_light_guns_3:0 "Cañón automático de 20 mm"
+ mdg_ship_light_guns_3_short:0 "Armamento de bote III"
+ mdg_ship_light_guns_3_desc:0 "Cañón automático de pequeño calibre"
+ mdg_ship_light_guns_4:0 "Cañón automático doble de 20 mm"
+ mdg_ship_light_guns_4_short:0 "Armamento de bote IV"
+ mdg_ship_light_guns_4_desc:0 "Cañón automático doble de pequeño calibre"
+
+ ENG_mdg_ship_light_guns_1:0 "Colt-Browning de 12.7 mm"
+ ENG_mdg_ship_light_guns_2:0 "Colt-Browning doble de 12.7 mm"
+ ENG_mdg_ship_light_guns_3:0 "Oerlikon de 20 mm"
+ ENG_mdg_ship_light_guns_4:0 "Oerlikon doble de 20 mm"
+
+ GER_mdg_ship_light_guns_2:0 "Cañón automático de 20 mm"
+ GER_mdg_ship_light_guns_3:0 "Cañón automático de 30 mm"
+ GER_mdg_ship_light_guns_4:0 "Cañón automático doble de 20 mm"
+
+ ITA_mdg_ship_light_guns_1:0 "Ametralladora de 13.2 mm"
+ ITA_mdg_ship_light_guns_2:0 "Ametralladora doble de 13.2 mm"
+
+ SOV_mdg_ship_light_guns_1:0 "Ametralladora de 7.62 mm"
+ SOV_mdg_ship_light_guns_2:0 "Ametralladora doble de 12.7 mm"
+ SOV_mdg_ship_light_guns_3:0 "Cañón automático de 20 mm"
+
+ USA_mdg_ship_light_guns_1:0 "Colt-Browning de 12.7 mm"
+ USA_mdg_ship_light_guns_2:0 "Colt-Browning doble de 12.7 mm"
+ USA_mdg_ship_light_guns_3:0 "Oerlikon de 20 mm"
+ USA_mdg_ship_light_guns_4:0 "Oerlikon doble de 20 mm"
+
+ mdg_ship_light_cannon_1:0 "Cañón de 76 mm"
+ mdg_ship_light_cannon_1_short:0 "Cañón ligero I"
+ mdg_ship_light_cannon_1_desc:0 "Un cañón relativamente pequeño para su uso en barcos pequeños."
+ mdg_ship_light_cannon_2:0 "Cañón de 102 mm"
+ mdg_ship_light_cannon_2_short:0 "Cañón ligero II"
+ mdg_ship_light_cannon_2_desc:0 "Un cañón pequeño con montaje motorizado que permite apuntar rápidamente."
+ mdg_ship_light_cannon_3:0 "Cañón de 120 mm"
+ mdg_ship_light_cannon_3_short:0 "Cañón ligero III"
+ mdg_ship_light_cannon_3_desc:0 "Un cañón pequeño con escudos para proteger a la tripulación de astillas voladoras y del mal clima."
+ mdg_ship_light_cannon_4:0 "Cañón de 140 mm"
+ mdg_ship_light_cannon_4_short:0 "Cañón ligero IV"
+ mdg_ship_light_cannon_4_desc:0 "Un cañón pequeño en un montaje blindado motorizado."
+
+ GER_mdg_ship_light_cannon_1:0 "Cañón de 88 mm"
+ GER_mdg_ship_light_cannon_2:0 "Cañón de 105 mm"
+ GER_mdg_ship_light_cannon_3:0 "Cañón de 120 mm"
+
+ ITA_mdg_ship_light_cannon_2:0 "Cañón de 76 mm"
+ ITA_mdg_ship_light_cannon_3:0 "Cañón de 100 mm"
+
+ SOV_mdg_ship_light_cannon_1:0 "Cañón de 60 mm"
+ SOV_mdg_ship_light_cannon_2:0 "Cañón de 100 mm"
+ SOV_mdg_ship_light_cannon_3:0 "Cañón de 102 mm"
+
+ FRA_mdg_ship_light_cannon_2:0 "Cañón de 100 mm"
+ FRA_mdg_ship_light_cannon_3:0 "Cañón de 130 mm"
+
+ JAP_mdg_ship_light_cannon_2:0 "Cañón de 100 mm"
+ JAP_mdg_ship_light_cannon_3:0 "Cañón de 120 mm"
+
+ mdg_ship_light_cannon_dp_1:0 "Cañón de doble propósito de 76 mm"
+ mdg_ship_light_cannon_dp_1_short:0 "Cañón ligero de doble propósito I"
+ mdg_ship_light_cannon_dp_1_desc:0 "Un cañón pequeño en un montaje especial, lo que le permite atacar tanto aviones como objetivos en superficie."
+ mdg_ship_light_cannon_dp_2:0 "Cañón de doble propósito de 102 mm"
+ mdg_ship_light_cannon_dp_2_short:0 "Cañón ligero de doble propósito II"
+ mdg_ship_light_cannon_dp_2_desc:0 "Un cañón pequeño con escudo de gran ángulo, lo que le permite atacar tanto aviones como objetivos en superficie."
+ mdg_ship_light_cannon_dp_3:0 "Cañón de doble propósito de 120 mm"
+ mdg_ship_light_cannon_dp_3_short:0 "Cañón ligero de doble propósito III"
+ mdg_ship_light_cannon_dp_3_desc:0 "Un cañón pequeño en una torreta cerrada de gran ángulo, lo que le permite atacar tanto aviones como objetivos en superficie."
+ mdg_ship_light_cannon_dp_4:0 "Cañón ligero de doble propósito de 120 mm"
+ mdg_ship_light_cannon_dp_4_short:0 "Cañón ligero de doble propósito IV"
+ mdg_ship_light_cannon_dp_4_desc:0 "Un cañón pequeño en una torreta motorizada de gran ángulo, lo que le permite atacar tanto aviones como objetivos en superficie."
+
+ GER_mdg_ship_light_cannon_dp_1:0 "Cañón de doble propósito de 88 mm"
+ GER_mdg_ship_light_cannon_dp_2:0 "Cañón de doble propósito de 105 mm"
+ GER_mdg_ship_light_cannon_dp_3:0 "Cañón de doble propósito de 120 mm"
+
+ ITA_mdg_ship_light_cannon_dp_2:0 "Cañón de doble propósito de 76 mm"
+ ITA_mdg_ship_light_cannon_dp_3:0 "Cañón de doble propósito de 100 mm"
+
+ SOV_mdg_ship_light_cannon_dp_1:0 "Cañón de doble propósito de 60 mm"
+ SOV_mdg_ship_light_cannon_dp_2:0 "Cañón de doble propósito de 100 mm"
+ SOV_mdg_ship_light_cannon_dp_3:0 "Cañón de doble propósito de 102 mm"
+
+ FRA_mdg_ship_light_cannon_dp_2:0 "Cañón de doble propósito de 100 mm"
+ FRA_mdg_ship_light_cannon_dp_3:0 "Cañón de doble propósito de 130 mm"
+
+ JAP_mdg_ship_light_cannon_dp_2:0 "Cañón de doble propósito de 100 mm"
+ JAP_mdg_ship_light_cannon_dp_3:0 "Cañón de doble propósito de 120 mm"

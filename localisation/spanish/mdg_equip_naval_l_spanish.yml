@@ -1,0 +1,112 @@
+﻿l_spanish:
+ mdg_corvette:0 "Corbeta"
+ mdg_corvette_1:0 "Corbeta I"
+ mdg_corvette_2:0 "Corbeta II"
+ mdg_corvette_3:0 "Corbeta III"
+ mdg_corvette_4:0 "Corbeta IV"
+ mdg_corvette_1_desc:0 "Descripción de Corbeta I"
+ mdg_corvette_2_desc:0 "Descripción de Corbeta II"
+ mdg_corvette_3_desc:0 "Descripción de Corbeta III"
+ mdg_corvette_4_desc:0 "Descripción de Corbeta IV"
+
+ GER_mdg_corvette_2:0 "Tipo K"
+ GER_mdg_corvette_3:0 "Tipo KUj"
+ GER_mdg_corvette_4:0 "Tipo MZ"
+
+ SOV_mdg_corvette_1:0 "Tipo MO"
+ SOV_mdg_corvette_2:0 "Tipo BMO"
+ SOV_mdg_corvette_3:0 "Proyecto 122"
+ SOV_mdg_corvette_4:0 "Proyecto 122-b"
+
+ ENG_mdg_corvette_1:0 "Tipo P"
+ ENG_mdg_corvette_2:0 "Tipo Kingfisher"
+ ENG_mdg_corvette_3:0 "Tipo Flower"
+ ENG_mdg_corvette_4:0 "Tipo Castle"
+
+ ITA_mdg_corvette_1:0 "Tipo Bafile"
+ ITA_mdg_corvette_2:0 "Tipo Bigfieri"
+
+ USA_mdg_corvette_1:0 "Tipo Eagle"
+ USA_mdg_corvette_2:0 "Tipo Erie"
+ USA_mdg_corvette_3:0 "Tipo Flower"
+ USA_mdg_corvette_4:0 "Tipo PC"
+
+ FRA_mdg_corvette_1:0 "Tipo Conquérante"
+ FRA_mdg_corvette_2:0 "Tipo Chamois"
+
+ JAP_mdg_corvette_1:0 "Tipo P"
+ JAP_mdg_corvette_2:0 "Tipo Ch-1"
+ JAP_mdg_corvette_3:0 "Tipo Ch-13"
+ JAP_mdg_corvette_4:0 "Tipo Ch-51"
+
+ mdg_hydrofoil:0 "Embarcación con hidroalas"
+ mdg_hydrofoil_1:2 "Embarcación con hidroalas I"
+ mdg_hydrofoil_1_desc:0 "Descripción de Embarcación con hidroalas I"
+
+ mdg_boat:0 "Bote"
+ mdg_boat_1:0 "Bote I"
+ mdg_boat_2:0 "Bote II"
+ mdg_boat_3:0 "Bote III"
+ mdg_boat_4:0 "Bote IV"
+ mdg_boat_1_desc:0 "Descripción de Bote I"
+ mdg_boat_2_desc:0 "Descripción de Bote II"
+ mdg_boat_3_desc:0 "Descripción de Bote III"
+ mdg_boat_4_desc:0 "Descripción de Bote IV"
+
+ GER_mdg_boat_1:0 "Tipo 23 Raubvogel"
+ GER_mdg_boat_2:0 "Tipo 1935"
+ GER_mdg_boat_3:0 "Tipo 1940"
+ GER_mdg_boat_4:0 "Tipo 1944"
+
+ SOV_mdg_boat_1:0 "SH-4"
+ SOV_mdg_boat_2:0 "G-5"
+ SOV_mdg_boat_3:0 "D-3"
+ SOV_mdg_boat_4:0 "Proyecto 123 Komsomolets"
+
+ ENG_mdg_boat_2:0 "Tipo 60"
+ ENG_mdg_boat_3:0 "Tipo 70"
+ ENG_mdg_boat_4:0 "Tipo 117"
+
+ ITA_mdg_boat_1:0 "Tipo Baglietto 6"
+ ITA_mdg_boat_2:0 "Tipo Baglietto 1934"
+ ITA_mdg_boat_3:0 "Tipo Baglietto 500"
+ ITA_mdg_boat_4:0 "Tipo II"
+
+ USA_mdg_boat_1:0 "Tipo 110"
+ USA_mdg_boat_2:0 "Tipo 77"
+ USA_mdg_boat_3:0 "Tipo 78"
+ USA_mdg_boat_4:0 "Tipo 80"
+
+ FRA_mdg_boat_1:0 "Ch-25"
+ FRA_mdg_boat_2:0 "Ch-1"
+ FRA_mdg_boat_3:0 "VTB-8"
+
+ JAP_mdg_boat_3:0 "Tipo A Ko-Gata"
+ JAP_mdg_boat_4:0 "Tipo B Otsu-Gata"
+
+ mdg_frigate:0 "Fragata"
+ mdg_frigate_1:0 "Fragata I"
+ mdg_frigate_2:0 "Fragata II"
+ mdg_frigate_3:0 "Fragata III"
+ mdg_frigate_4:0 "Fragata IV"
+ mdg_frigate_1_desc:0 "Descripción de Fragata I"
+ mdg_frigate_2_desc:0 "Descripción de Fragata II"
+ mdg_frigate_3_desc:0 "Descripción de Fragata III"
+ mdg_frigate_4_desc:0 "Descripción de Fragata IV"
+
+ mdg_midget_submarine:0 "Submarino enano"
+ mdg_midget_submarine_1:0 "Submarino enano I"
+ mdg_midget_submarine_2:0 "Submarino enano II"
+ mdg_midget_submarine_1_desc:0 "Descripción de Submarino enano I"
+ mdg_midget_submarine_2_desc:0 "Descripción de Submarino enano II"
+
+ mdg_ship_hull_boat:0 "Bote"
+ mdg_ship_hull_hydrofoil:0 "Embarcación con hidroalas"
+ mdg_ship_hull_corvette:0 "Corbeta"
+ mdg_ship_hull_frigate:0 "Fragata"
+ mdg_ship_hull_midget_submarine:0 "Submarino enano"
+
+ EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Cañones Automáticos"
+ EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Cañones Ligeros"
+ EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Cañones Ligeros de Doble Propósito"
+ EQ_MOD_CAT_ship_anechoic_tile_TITLE:0 "Baldosas Anecoicas"

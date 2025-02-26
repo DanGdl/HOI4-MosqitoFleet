@@ -436,4 +436,27 @@
  
  battlefleet_concentration_sm:0 "Concentración de flota de combate"
  battlefleet_concentration_sm_desc:0 "Avisa a los barcos cercanos en cuanto se detecte un navío enemigo. Al coordinar y concentrar el fuego sobre un barco enemigo, este queda inutilizado rápidamente. Dales caza uno a uno."
- 
+
+ TITLE_SMALL_FLEET:0 "Flota Pequeña"
+small_fleet:0 "Flota Pequeña"
+SMALL_FLEET_DESC:0 "Una flota compuesta principalmente por barcos pequeños y que es inferior al enemigo, sobre todo en acorazados."
+small_fleet_desc:0 "La doctrina implica el combate con las fuerzas ligeras de la flota contra grupos individuales de grandes barcos enemigos, interrumpiendo sus comunicaciones y protegiendo su costa.\n\n"
+small_fleet_tree:0 "Doctrina de Flota Pequeña"
+small_fleet_doctrine:0 "Doctrina de Flota Pequeña"
+cat_small_fleet:0 "Doctrina de Flota Pequeña"
+
+torpedo_boat_operations_sm:0 "Operaciones de lanchas torpederas"
+torpedo_boat_operations_sm_desc:0 "Puedes acercarte sigilosamente al enemigo, lanzar torpedos y retirarte sin ser visto. O simplemente escapar muy rápido."
+raider_patrols_sm:0 "Patrullas de asalto"
+raider_patrols_sm_desc:0 "Las patrullas de barcos rápidos y fuertemente armados dejan a los convoyes comerciales enemigos sin lugar donde esconderse.\nNo solo los submarinos pueden cazar."
+patrol_and_ambush_sm:0 "Patrullas y emboscadas"
+patrol_and_ambush_sm_desc:0 "Nuestra flota envía patrullas y organiza emboscadas a lo largo de las rutas enemigas."
+mosquitos_sm:0 "Mosquitos"
+mosquitos_sm_desc:0 "Ataques coordinados de varios grupos de lanchas torpederas."
+
+combined_operations_sm:0 "Operaciones Combinadas"
+combined_operations_sm_desc:0 "Operaciones coordinadas de varios grupos de lanchas torpederas, submarinos y barcos de cobertura."
+mio_cat_tech_all_mdg_frigate_and_modules: "Todas las Tecnologías de Fragatas"
+mio_cat_tech_all_mdg_corvette_and_modules: "Todas las Tecnologías de Corbetas"
+mio_cat_tech_all_mdg_boat_and_modules: "Todas las Tecnologías de Botes"
+mio_cat_tech_all_mdg_ssm_and_modules: "Todas las Tecnologías de Submarinos enanos"
