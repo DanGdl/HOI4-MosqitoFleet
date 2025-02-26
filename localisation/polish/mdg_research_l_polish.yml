@@ -436,3 +436,27 @@
 
  battlefleet_concentration_sm:0 "Koncentracja floty bojowej"
  battlefleet_concentration_sm_desc:0 "Jeśli załoga któregoś okrętu zauważy nieprzyjaciela, natychmiast powiadamia pobliskie jednostki. Skoordynowany ostrzał może szybko unieszkodliwić każdego wroga."
+
+ TITLE_SMALL_FLEET:0 "Mała Flota"
+ small_fleet:0 "Mała Flota"
+ SMALL_FLEET_DESC:0 "Flota składająca się głównie z małych okrętów, ustępująca przeciwnikowi przede wszystkim w pancernikach."
+ small_fleet_desc:0 "Doktryna zakłada walkę lekkich sił floty przeciwko pojedynczym grupom dużych okrętów przeciwnika, zakłócanie jego komunikacji i ochronę własnego wybrzeża.\n\n"
+ small_fleet_tree:0 "Doktryna Małej Floty"
+ small_fleet_doctrine:0 "Doktryna Małej Floty"
+ cat_small_fleet:0 "Doktryna Małej Floty"
+
+ torpedo_boat_operations_sm:0 "Operacje kutrów torpedowych"
+ torpedo_boat_operations_sm_desc:0 "Możesz niezauważenie zbliżyć się do wroga, wystrzelić torpedy i równie niezauważenie się oddalić. Lub szybko się wycofać."
+ raider_patrols_sm:0 "Patrole rajderskie"
+ raider_patrols_sm_desc:0 "Patrole zarówno szybkich, jak i silnie uzbrojonych okrętów sprawiają, że konwoje handlowe przeciwnika nie mają się gdzie ukryć. \nNie tylko okręty podwodne mogą polować."
+ patrol_and_ambush_sm:0 "Patrole i zasadzki"
+ patrol_and_ambush_sm_desc:0 "Nasza flota wysyła patrole i organizuje zasadzki na trasach wroga."
+ mosquitos_sm:0 "Komary"
+ mosquitos_sm_desc:0 "Skoncentrowane ataki kilku grup kutrów torpedowych."
+
+ combined_operations_sm:0 "Operacje połączone"
+ combined_operations_sm_desc:0 "Skoncentrowane działania kilku grup kutrów torpedowych, okrętów podwodnych i jednostek osłony."
+ mio_cat_tech_all_mdg_frigate_and_modules:0 "Wszystkie technologie fregat"
+ mio_cat_tech_all_mdg_corvette_and_modules:0 "Wszystkie technologie korwet"
+ mio_cat_tech_all_mdg_boat_and_modules:0 "Wszystkie technologie łodzi"
+ mio_cat_tech_all_mdg_ssm_and_modules:0 "Wszystkie technologie miniaturowych okrętów podwodnych"

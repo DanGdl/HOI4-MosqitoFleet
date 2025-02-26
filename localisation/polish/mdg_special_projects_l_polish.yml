@@ -1,0 +1,13 @@
+﻿l_polish:
+ GER_sp_naval_mdg_hydrofoil:0 "VS-10"
+ sp_naval_mdg_hydrofoil:0 "Łódź na poduszce wodnej"
+ sp_naval_mdg_hydrofoil_desc:0 "Statek podtrzymywany nad powierzchnią wody podczas ruchu przez siły hydrodynamiczne generowane przez poduszki wodne. Hydrofolie tworzą siłę unoszącą kadłub statku nad wodą, co pozwala mu osiągać prędkości niedostępne dla tradycyjnych jednostek wypornościowych."
+ sp_naval_mdg_hydrofoil_free_design:0 "Łódź na poduszce wodnej"
+ sp_naval_mdg_hydrofoil_preference_a:0 "Szybsze silniki"
+ sp_naval_mdg_hydrofoil_preference_b:0 "Obniżone koszty"
+ sp_naval_mdg_hydrofoil_preference_c:0 "Nacisk na jakość"
+ sp_mdg_hydrofoil_eq_bonus_speed:0 "Łódź na poduszce wodnej — Szybsze silniki"
+ sp_mdg_hydrofoil_eq_bonus_cost:0 "Łódź na poduszce wodnej — Tańsza konstrukcja"
+ sp_mdg_hydrofoil_eq_bonus_quality:0 "Łódź na poduszce wodnej — Nacisk na jakość"
+ sp_naval_mdg_hydrofoil_unique_reward_a:0 "Maksymalne wykorzystanie przestrzeni"
+ sp_naval_mdg_hydrofoil_unique_reward_a_desc:0 "Zrozumieliśmy, że możemy specjalizować niektóre części naszych łodzi na poduszce wodnej, choć będzie się to wiązało z pewnymi kompromisami."

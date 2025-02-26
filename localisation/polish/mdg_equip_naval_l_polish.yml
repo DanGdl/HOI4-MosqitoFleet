@@ -1,0 +1,154 @@
+﻿l_polish:
+ mdg_corvette:0 "Korweta"
+ mdg_corvette_1:0 "Korweta I"
+ mdg_corvette_2:0 "Korweta II"
+ mdg_corvette_3:0 "Korweta III"
+ mdg_corvette_4:0 "Korweta IV"
+ mdg_corvette_1_desc:0 "Opis Korwety I"
+ mdg_corvette_2_desc:0 "Opis Korwety II"
+ mdg_corvette_3_desc:0 "Opis Korwety III"
+ mdg_corvette_4_desc:0 "Opis Korwety IV"
+
+ GER_mdg_corvette_2:0 "Typ K"
+ GER_mdg_corvette_3:0 "Typ KUj"
+ GER_mdg_corvette_4:0 "Typ MZ"
+
+ SOV_mdg_corvette_1:0 "Typ MO"
+ SOV_mdg_corvette_2:0 "Typ BMO"
+ SOV_mdg_corvette_3:0 "Projekt 122"
+ SOV_mdg_corvette_4:0 "Projekt 122-b"
+
+ ENG_mdg_corvette_1:0 "Typ P"
+ ENG_mdg_corvette_2:0 "Typ Kingfisher"
+ ENG_mdg_corvette_3:0 "Typ Flower"
+ ENG_mdg_corvette_4:0 "Typ Castle"
+
+ ITA_mdg_corvette_1:0 "Typ Bafile"
+ ITA_mdg_corvette_2:0 "Typ Bigfieri"
+
+ USA_mdg_corvette_1:0 "Typ Eagle"
+ USA_mdg_corvette_2:0 "Typ Erie"
+ USA_mdg_corvette_3:0 "Typ Flower"
+ USA_mdg_corvette_4:0 "Typ PC"
+
+ FRA_mdg_corvette_1:0 "Typ Conquerante"
+ FRA_mdg_corvette_2:0 "Typ Chamois"
+
+ JAP_mdg_corvette_1:0 "Typ P"
+ JAP_mdg_corvette_2:0 "Typ Ch-1"
+ JAP_mdg_corvette_3:0 "Typ Ch-13"
+ JAP_mdg_corvette_4:0 "Typ Ch-51"
+
+ mdg_hydrofoil:0 "Łódź na poduszce wodnej"
+ mdg_hydrofoil_1:0 "Łódź na poduszce wodnej I"
+ mdg_hydrofoil_1_desc:0 "Opis Łodzi na poduszce wodnej I"
+
+ mdg_boat:0 "Łódź"
+ mdg_boat_1:0 "Łódź I"
+ mdg_boat_2:0 "Łódź II"
+ mdg_boat_3:0 "Łódź III"
+ mdg_boat_4:0 "Łódź IV"
+ mdg_boat_1_desc:0 "Opis Łodzi I"
+ mdg_boat_2_desc:0 "Opis Łodzi II"
+ mdg_boat_3_desc:0 "Opis Łodzi III"
+ mdg_boat_4_desc:0 "Opis Łodzi IV"
+
+ GER_mdg_boat_1:0 "Typ 23 Raubvogel"
+ GER_mdg_boat_2:0 "Typ 1935"
+ GER_mdg_boat_3:0 "Typ 1940"
+ GER_mdg_boat_4:0 "Typ 1944"
+
+ SOV_mdg_boat_1:0 "SH-4"
+ SOV_mdg_boat_2:0 "G-5"
+ SOV_mdg_boat_3:0 "D-3"
+ SOV_mdg_boat_4:0 "Projekt 123 Komsomolec"
+
+ ENG_mdg_boat_2:0 "Typ 60"
+ ENG_mdg_boat_3:0 "Typ 70"
+ ENG_mdg_boat_4:0 "Typ 117"
+
+ ITA_mdg_boat_1:0 "Typ Baglietto 6"
+ ITA_mdg_boat_2:0 "Typ Baglietto 1934"
+ ITA_mdg_boat_3:0 "Typ Baglietto 500"
+ ITA_mdg_boat_4:0 "Typ II"
+
+ USA_mdg_boat_1:0 "Typ 110"
+ USA_mdg_boat_2:0 "Typ 77"
+ USA_mdg_boat_3:0 "Typ 78"
+ USA_mdg_boat_4:0 "Typ 80"
+
+ FRA_mdg_boat_1:0 "Ch-25"
+ FRA_mdg_boat_2:0 "Ch-1"
+ FRA_mdg_boat_3:0 "VTB-8"
+
+ JAP_mdg_boat_3:0 "Typ A Ko-Gata"
+ JAP_mdg_boat_4:0 "Typ B Otsu-Gata"
+
+ mdg_frigate:0 "Fregata"
+ mdg_frigate_1:0 "Fregata I"
+ mdg_frigate_2:0 "Fregata II"
+ mdg_frigate_3:0 "Fregata III"
+ mdg_frigate_4:0 "Fregata IV"
+ mdg_frigate_1_desc:0 "Opis Fregaty I"
+ mdg_frigate_2_desc:0 "Opis Fregaty II"
+ mdg_frigate_3_desc:0 "Opis Fregaty III"
+ mdg_frigate_4_desc:0 "Opis Fregaty IV"
+
+ SOV_mdg_frigate_1:0 "Typ Uragan"
+ SOV_mdg_frigate_2:0 "Typ Rubin"
+ SOV_mdg_frigate_3:0 "Typ Yastreb"
+
+ GER_mdg_frigate_2:0 "Typ F"
+ GER_mdg_frigate_3:0 "Typ SG"
+
+ JAP_mdg_frigate_2:0 "Typ A Shimushu"
+ JAP_mdg_frigate_3:0 "Typ B Mikura"
+ JAP_mdg_frigate_4:0 "Typ C"
+
+ ENG_mdg_frigate_2:0 "Typ River"
+ ENG_mdg_frigate_3:0 "Typ Loch"
+ ENG_mdg_frigate_4:0 "Typ Bay"
+
+ ITA_mdg_frigate_3:0 "Typ Аре"
+
+ USA_mdg_frigate_3:0 "Typ Asheville"
+ USA_mdg_frigate_4:0 "Typ Tacoma"
+
+ FRA_mdg_frigate_1:0 "Typ Marne"
+ FRA_mdg_frigate_2:0 "Typ Bougainville"
+
+ mdg_midget_submarine:0 "Miniaturowa łódź podwodna"
+ mdg_midget_submarine_1:0 "Miniaturowa łódź podwodna I"
+ mdg_midget_submarine_2:0 "Miniaturowa łódź podwodna II"
+ mdg_midget_submarine_1_desc:0 "Opis Miniaturowej łodzi podwodnej I"
+ mdg_midget_submarine_2_desc:0 "Opis Miniaturowej łodzi podwodnej II"
+
+ ENG_mdg_midget_submarine_1:0 "Typ X"
+ ENG_midget_submarine_1:0 "Typ X"
+ ENG_ship_hull_midget_submarine:0 "Typ X"
+ ENG_mdg_midget_submarine_2:0 "Typ XE"
+
+ GER_mdg_midget_submarine_1:0 "Typ Biber"
+ GER_midget_submarine_1:0 "Typ Biber"
+ GER_ship_hull_midget_submarine:0 "Typ Biber"
+ GER_mdg_midget_submarine_2:0 "Typ Seehund"
+
+ ITA_mdg_midget_submarine_1:0 "Typ CA"
+ ITA_midget_submarine_1:0 "Typ CA"
+ ITA_ship_hull_midget_submarine:0 "Typ CA"
+ ITA_mdg_midget_submarine_2:0 "Typ CB"
+
+ JAP_mdg_midget_submarine_1:0 "Typ A"
+ JAP_midget_submarine_1:0 "Typ A"
+ JAP_ship_hull_midget_submarine:0 "Typ A"
+ JAP_mdg_midget_submarine_2:0 "Typ Kairyu"
+
+ SOV_mdg_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine_1:0 "APSS"
+ SOV_ship_hull_midget_submarine:0 "APSS"
+ SOV_mdg_midget_submarine_2:0 "Typ Pigmey"
+
+ EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Automatyczne Działa"
+ EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Lekkie Działa"
+ EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Lekkie Działa Uniwersalne"
+ EQ_MOD_CAT_ship_anechoic_tile_TITLE:0 "Płytki Anechoiczne"

@@ -1,0 +1,94 @@
+﻿l_polish:
+ mdg_ship_light_guns_1:0 "7,62 mm Karabin maszynowy"
+ mdg_ship_light_guns_1_short:0 "Uzbrojenie łodzi I"
+ mdg_ship_light_guns_1_desc:0 "Zwykły karabin maszynowy"
+ mdg_ship_light_guns_2:0 "7,62 mm Podwójny karabin maszynowy"
+ mdg_ship_light_guns_2_short:0 "Uzbrojenie łodzi II"
+ mdg_ship_light_guns_2_desc:0 "Podwójny ciężki karabin maszynowy"
+ mdg_ship_light_guns_3:0 "20 mm Automatyczna armata"
+ mdg_ship_light_guns_3_short:0 "Uzbrojenie łodzi III"
+ mdg_ship_light_guns_3_desc:0 "Automatyczna armata małego kalibru"
+ mdg_ship_light_guns_4:0 "20 mm Podwójna automatyczna armata"
+ mdg_ship_light_guns_4_short:0 "Uzbrojenie łodzi IV"
+ mdg_ship_light_guns_4_desc:0 "Podwójna automatyczna armata małego kalibru"
+
+ ENG_mdg_ship_light_guns_1:0 "12,7 mm Colt-Browning"
+ ENG_mdg_ship_light_guns_2:0 "12,7 mm Podwójny Colt-Browning"
+ ENG_mdg_ship_light_guns_3:0 "20 mm Oerlikon"
+ ENG_mdg_ship_light_guns_4:0 "20 mm Podwójny Oerlikon"
+
+ GER_mdg_ship_light_guns_2:0 "20 mm Automatyczna armata"
+ GER_mdg_ship_light_guns_3:0 "30 mm Automatyczna armata"
+ GER_mdg_ship_light_guns_4:0 "20 mm Podwójna automatyczna armata"
+
+ ITA_mdg_ship_light_guns_1:0 "13,2 mm Karabin maszynowy"
+ ITA_mdg_ship_light_guns_2:0 "13,2 mm Podwójny karabin maszynowy"
+
+ SOV_mdg_ship_light_guns_1:0 "7,62 mm Karabin maszynowy"
+ SOV_mdg_ship_light_guns_2:0 "12,7 mm Podwójny karabin maszynowy"
+ SOV_mdg_ship_light_guns_3:0 "20 mm Automatyczna armata"
+
+ USA_mdg_ship_light_guns_1:0 "12,7 mm Colt-Browning"
+ USA_mdg_ship_light_guns_2:0 "12,7 mm Podwójny Colt-Browning"
+ USA_mdg_ship_light_guns_3:0 "20 mm Oerlikon"
+ USA_mdg_ship_light_guns_4:0 "20 mm Podwójny Oerlikon"
+
+ mdg_ship_light_cannon_1:0 "76 mm Armata"
+ mdg_ship_light_cannon_1_short:0 "Lekka armata I"
+ mdg_ship_light_cannon_1_desc:0 "Stosunkowo mała armata przeznaczona do użycia na małych jednostkach."
+ mdg_ship_light_cannon_2:0 "102 mm Armata"
+ mdg_ship_light_cannon_2_short:0 "Lekka armata II"
+ mdg_ship_light_cannon_2_desc:0 "Mała armata na napędzanym stanowisku, umożliwiającym szybkie namierzenie celu."
+ mdg_ship_light_cannon_3:0 "120 mm Armata"
+ mdg_ship_light_cannon_3_short:0 "Lekka armata III"
+ mdg_ship_light_cannon_3_desc:0 "Mała armata z osłoną dla załogi chroniącą przed odłamkami i trudnymi warunkami atmosferycznymi."
+ mdg_ship_light_cannon_4:0 "140 mm Armata"
+ mdg_ship_light_cannon_4_short:0 "Lekka armata IV"
+ mdg_ship_light_cannon_4_desc:0 "Mała armata w napędzanej, opancerzonej wieży."
+
+ GER_mdg_ship_light_cannon_1:0 "88 mm Armata"
+ GER_mdg_ship_light_cannon_2:0 "105 mm Armata"
+ GER_mdg_ship_light_cannon_3:0 "120 mm Armata"
+
+ ITA_mdg_ship_light_cannon_2:0 "76 mm Armata"
+ ITA_mdg_ship_light_cannon_3:0 "100 mm Armata"
+
+ SOV_mdg_ship_light_cannon_1:0 "60 mm Armata"
+ SOV_mdg_ship_light_cannon_2:0 "100 mm Armata"
+ SOV_mdg_ship_light_cannon_3:0 "102 mm Armata"
+
+ FRA_mdg_ship_light_cannon_2:0 "100 mm Armata"
+ FRA_mdg_ship_light_cannon_3:0 "130 mm Armata"
+
+ JAP_mdg_ship_light_cannon_2:0 "100 mm Armata"
+ JAP_mdg_ship_light_cannon_3:0 "120 mm Armata"
+
+ mdg_ship_light_cannon_dp_1:0 "Dwufunkcyjna 76 mm Armata"
+ mdg_ship_light_cannon_dp_1_short:0 "Dwufunkcyjna lekka armata I"
+ mdg_ship_light_cannon_dp_1_desc:0 "Mała armata na specjalnym stanowisku, umożliwiająca atakowanie zarówno samolotów, jak i celów nawodnych."
+ mdg_ship_light_cannon_dp_2:0 "Dwufunkcyjna 102 mm Armata"
+ mdg_ship_light_cannon_dp_2_short:0 "Dwufunkcyjna lekka armata II"
+ mdg_ship_light_cannon_dp_2_desc:0 "Mała armata z wysokokątną osłoną, umożliwiająca atakowanie samolotów i celów nawodnych."
+ mdg_ship_light_cannon_dp_3:0 "Dwufunkcyjna 120 mm Armata"
+ mdg_ship_light_cannon_dp_3_short:0 "Dwufunkcyjna lekka armata III"
+ mdg_ship_light_cannon_dp_3_desc:0 "Mała armata w zamkniętej wieży o wysokim kącie, umożliwiająca atakowanie samolotów i celów nawodnych."
+ mdg_ship_light_cannon_dp_4:0 "Dwufunkcyjna 120 mm Armata"
+ mdg_ship_light_cannon_dp_4_short:0 "Dwufunkcyjna lekka armata IV"
+ mdg_ship_light_cannon_dp_4_desc:0 "Mała armata w napędzanej wieży o wysokim kącie, umożliwiająca atakowanie samolotów i celów nawodnych."
+
+ GER_mdg_ship_light_cannon_dp_1:0 "Dwufunkcyjna 88 mm Armata"
+ GER_mdg_ship_light_cannon_dp_2:0 "Dwufunkcyjna 105 mm Armata"
+ GER_mdg_ship_light_cannon_dp_3:0 "Dwufunkcyjna 120 mm Armata"
+
+ ITA_mdg_ship_light_cannon_dp_2:0 "Dwufunkcyjna 76 mm Armata"
+ ITA_mdg_ship_light_cannon_dp_3:0 "Dwufunkcyjna 100 mm Armata"
+
+ SOV_mdg_ship_light_cannon_dp_1:0 "Dwufunkcyjna 60 mm Armata"
+ SOV_mdg_ship_light_cannon_dp_2:0 "Dwufunkcyjna 100 mm Armata"
+ SOV_mdg_ship_light_cannon_dp_3:0 "Dwufunkcyjna 102 mm Armata"
+
+ FRA_mdg_ship_light_cannon_dp_2:0 "Dwufunkcyjna 100 mm Armata"
+ FRA_mdg_ship_light_cannon_dp_3:0 "Dwufunkcyjna 130 mm Armata"
+
+ JAP_mdg_ship_light_cannon_dp_2:0 "Dwufunkcyjna 100 mm Armata"
+ JAP_mdg_ship_light_cannon_dp_3:0 "Dwufunkcyjna 120 mm Armata"
