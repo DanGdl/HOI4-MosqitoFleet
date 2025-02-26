@@ -433,3 +433,27 @@
 
  battlefleet_concentration_sm:0 "作战舰队集中运用"
  battlefleet_concentration_sm_desc:0 "在发现一艘敌舰后立即召集临近僚舰并协同集中火力快速瘫痪敌舰。将敌舰一艘接一艘地猎杀掉。"
+
+ TITLE_SMALL_FLEET:0 "小型舰队"
+ small_fleet:0 "小型舰队"
+ SMALL_FLEET_DESC:0 "主要由小型舰艇组成的舰队，在战列舰方面远逊于敌人。"
+ small_fleet_desc:0 "该学说涉及使用轻型舰艇与敌方大型舰艇的小群体作战，破坏其通信线路并保护本国海岸。\n\n"
+ small_fleet_tree:0 "小型舰队学说"
+ small_fleet_doctrine:0 "小型舰队学说"
+ cat_small_fleet:0 "小型舰队学说"
+
+ torpedo_boat_operations_sm:0 "鱼雷艇作战"
+ torpedo_boat_operations_sm_desc:0 "你可以悄然接近敌人，发射鱼雷，然后不被察觉地离开。或者迅速撤退。"
+ raider_patrols_sm:0 "袭击者巡逻"
+ raider_patrols_sm_desc:0 "快速且火力强大的舰艇巡逻，使敌方商船队无处藏身。\n不仅潜艇可以进行猎杀。"
+ patrol_and_ambush_sm:0 "巡逻与伏击"
+ patrol_and_ambush_sm_desc:0 "我们的舰队沿敌方航线派遣巡逻队并组织伏击。"
+ mosquitos_sm:0 "蚊群战术"
+ mosquitos_sm_desc:0 "多支鱼雷艇编队的协同攻击。"
+
+ combined_operations_sm:0 "联合作战"
+ combined_operations_sm_desc:0 "鱼雷艇、潜艇和掩护舰队的协同作战。"
+ mio_cat_tech_all_mdg_frigate_and_modules: "所有护卫舰科技"
+ mio_cat_tech_all_mdg_corvette_and_modules: "所有轻型护卫舰科技"
+ mio_cat_tech_all_mdg_boat_and_modules: "所有小型舰艇科技"
+ mio_cat_tech_all_mdg_ssm_and_modules: "所有微型潜艇科技"

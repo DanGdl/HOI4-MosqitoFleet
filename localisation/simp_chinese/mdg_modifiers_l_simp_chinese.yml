@@ -1,0 +1,51 @@
+﻿l_simp_chinese:
+ modifier_experience_gain_mdg_boat_training_factor:0 "小型舰艇训练经验获取"
+ modifier_experience_gain_mdg_boat_combat_factor:0 "小型舰艇战斗经验获取"
+
+ modifier_experience_gain_mdg_hydrofoil_training_factor:0 "水翼船训练经验获取"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor:0 "水翼船战斗经验获取"
+
+ modifier_experience_gain_mdg_corvette_training_factor:0 "轻型护卫舰训练经验获取"
+ modifier_experience_gain_mdg_corvette_combat_factor:0 "轻型护卫舰战斗经验获取"
+
+ modifier_experience_gain_mdg_frigate_training_factor:0 "护卫舰训练经验获取"
+ modifier_experience_gain_mdg_frigate_combat_factor:0 "护卫舰战斗经验获取"
+
+ modifier_experience_gain_mdg_midget_submarine_training_factor:0 "微型潜艇训练经验获取"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor:0 "微型潜艇战斗经验获取"
+
+ modifier_module_mdg_ship_light_guns_1_design_cost_factor:0 "轻型武器 I 设计成本"
+ modifier_module_mdg_ship_light_guns_2_design_cost_factor:0 "轻型武器 II 设计成本"
+ modifier_module_mdg_ship_light_guns_3_design_cost_factor:0 "轻型武器 III 设计成本"
+ modifier_module_mdg_ship_light_guns_4_design_cost_factor:0 "轻型武器 IV 设计成本"
+
+ modifier_module_mdg_ship_light_cannon_1_design_cost_factor:0 "轻型火炮 I 设计成本"
+ modifier_module_mdg_ship_light_cannon_2_design_cost_factor:0 "轻型火炮 II 设计成本"
+ modifier_module_mdg_ship_light_cannon_3_design_cost_factor:0 "轻型火炮 III 设计成本"
+ modifier_module_mdg_ship_light_cannon_4_design_cost_factor:0 "轻型火炮 IV 设计成本"
+
+ modifier_module_mdg_boat_engine_1_design_cost_factor:0 "小型舰艇引擎 I 设计成本"
+ modifier_module_mdg_boat_engine_2_design_cost_factor:0 "小型舰艇引擎 II 设计成本"
+ modifier_module_mdg_boat_engine_3_design_cost_factor:0 "小型舰艇引擎 III 设计成本"
+ modifier_module_mdg_boat_engine_4_design_cost_factor:0 "小型舰艇引擎 IV 设计成本"
+
+ modifier_module_mdg_corvette_engine_1_design_cost_factor:0 "轻型护卫舰引擎 I 设计成本"
+ modifier_module_mdg_corvette_engine_2_design_cost_factor:0 "轻型护卫舰引擎 II 设计成本"
+ modifier_module_mdg_corvette_engine_3_design_cost_factor:0 "轻型护卫舰引擎 III 设计成本"
+ modifier_module_mdg_corvette_engine_4_design_cost_factor:0 "轻型护卫舰引擎 IV 设计成本"
+
+ modifier_module_mdg_frigate_engine_1_design_cost_factor:0 "护卫舰引擎 I 设计成本"
+ modifier_module_mdg_frigate_engine_2_design_cost_factor:0 "护卫舰引擎 II 设计成本"
+ modifier_module_mdg_frigate_engine_3_design_cost_factor:0 "护卫舰引擎 III 设计成本"
+ modifier_module_mdg_frigate_engine_4_design_cost_factor:0 "护卫舰引擎 IV 设计成本"
+
+ modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor:0 "微型潜艇引擎 I 设计成本"
+ modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor:0 "微型潜艇引擎 II 设计成本"
+
+ mdg_ship_hull_boat_design_cost_factor:0 "小型舰艇设计成本"
+ mdg_ship_hull_hydrofoil_design_cost_factor:0 "水翼船设计成本"
+ mdg_ship_hull_corvette_design_cost_factor:0 "轻型护卫舰设计成本"
+ mdg_ship_hull_frigate_design_cost_factor:0 "护卫舰设计成本"
+ mdg_ship_hull_midget_submarine_design_cost_factor:0 "微型潜艇设计成本"
+
+ modifier_trait_mdg_trait_mosquito_xp_gain_factor:0 "“蚊子”特性经验获取"
