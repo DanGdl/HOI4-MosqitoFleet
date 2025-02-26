@@ -433,3 +433,27 @@
 
  battlefleet_concentration_sm:0 "戦艦隊の集中運用"
  battlefleet_concentration_sm_desc:0 "敵の船舶が捕捉されると同時に付近の艦船を呼び集め、集中砲火によってすばやく敵船を無力化しつつ、各個撃破する。"
+
+ TITLE_SMALL_FLEET:0 "小型艦隊"
+ small_fleet:0 "小型艦隊"
+ SMALL_FLEET_DESC:0 "主に小型艦で構成され、戦艦の面で敵に劣る艦隊。"
+ small_fleet_desc:0 "このドクトリンは、小型艦艇を用いて敵の大型艦を個別に攻撃し、その通信を妨害し、自国の沿岸を防衛する戦術を含む。\n\n"
+ small_fleet_tree:0 "小型艦隊ドクトリン"
+ small_fleet_doctrine:0 "小型艦隊ドクトリン"
+ cat_small_fleet:0 "小型艦隊ドクトリン"
+
+ torpedo_boat_operations_sm:0 "魚雷艇作戦"
+ torpedo_boat_operations_sm_desc:0 "敵に気づかれずに接近し、魚雷を発射して速やかに離脱することができる。または、迅速に撤退する。"
+ raider_patrols_sm:0 "襲撃パトロール"
+ raider_patrols_sm_desc:0 "高速で重武装の艦艇によるパトロールが、敵の商船護衛艦隊に隠れる場所を与えない。\n狩りをするのは潜水艦だけではない。"
+ patrol_and_ambush_sm:0 "パトロールと待ち伏せ"
+ patrol_and_ambush_sm_desc:0 "我が艦隊は敵の航路にパトロールを展開し、待ち伏せを実施する。"
+ mosquitos_sm:0 "モスキート"
+ mosquitos_sm_desc:0 "複数の魚雷艇グループによる連携攻撃。"
+
+ combined_operations_sm:0 "統合作戦"
+ combined_operations_sm_desc:0 "魚雷艇、潜水艦、および護衛艦の協調作戦。"
+ mio_cat_tech_all_mdg_frigate_and_modules:0 "全フリゲート技術"
+ mio_cat_tech_all_mdg_corvette_and_modules:0 "全コルベット技術"
+ mio_cat_tech_all_mdg_boat_and_modules:0 "全小型艇技術"
+ mio_cat_tech_all_mdg_ssm_and_modules:0 "全小型潜水艦技術"

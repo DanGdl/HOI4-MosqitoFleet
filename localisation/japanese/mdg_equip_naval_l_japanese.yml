@@ -1,0 +1,144 @@
+﻿l_japanese:
+ mdg_corvette:0 "コルベット"
+ mdg_corvette_1:0 "コルベット I"
+ mdg_corvette_2:0 "コルベット II"
+ mdg_corvette_3:0 "コルベット III"
+ mdg_corvette_4:0 "コルベット IV"
+ mdg_corvette_1_desc:0 "コルベット I の説明"
+ mdg_corvette_2_desc:0 "コルベット II の説明"
+ mdg_corvette_3_desc:0 "コルベット III の説明"
+ mdg_corvette_4_desc:0 "コルベット IV の説明"
+
+ GER_mdg_corvette_2:0 "タイプ K"
+ GER_mdg_corvette_3:0 "タイプ KUj"
+ GER_mdg_corvette_4:0 "タイプ MZ"
+
+ SOV_mdg_corvette_1:0 "タイプ MO"
+ SOV_mdg_corvette_2:0 "タイプ BMO"
+ SOV_mdg_corvette_3:0 "プロジェクト 122"
+ SOV_mdg_corvette_4:0 "プロジェクト 122-b"
+
+ ENG_mdg_corvette_1:0 "タイプ P"
+ ENG_mdg_corvette_2:0 "タイプ キングフィッシャー"
+ ENG_mdg_corvette_3:0 "タイプ フラワー"
+ ENG_mdg_corvette_4:0 "タイプ キャッスル"
+
+ ITA_mdg_corvette_1:0 "タイプ バフィーレ"
+ ITA_mdg_corvette_2:0 "タイプ ビグフィエリ"
+
+ USA_mdg_corvette_1:0 "タイプ イーグル"
+ USA_mdg_corvette_2:0 "タイプ エリー"
+ USA_mdg_corvette_3:0 "タイプ フラワー"
+ USA_mdg_corvette_4:0 "タイプ PC"
+
+ FRA_mdg_corvette_1:0 "タイプ コンケラント"
+ FRA_mdg_corvette_2:0 "タイプ シャモア"
+
+ JAP_mdg_corvette_1:0 "タイプ P"
+ JAP_mdg_corvette_2:0 "タイプ Ch-1"
+ JAP_mdg_corvette_3:0 "タイプ Ch-13"
+ JAP_mdg_corvette_4:0 "タイプ Ch-51"
+
+ mdg_hydrofoil:0 "水中翼船"
+ mdg_hydrofoil_1:0 "水中翼船 I"
+ mdg_hydrofoil_1_desc:0 "水中翼船 I の説明"
+
+ mdg_boat:0 "小型艇"
+ mdg_boat_1:0 "小型艇 I"
+ mdg_boat_2:0 "小型艇 II"
+ mdg_boat_3:0 "小型艇 III"
+ mdg_boat_4:0 "小型艇 IV"
+ mdg_boat_1_desc:0 "小型艇 I の説明"
+ mdg_boat_2_desc:0 "小型艇 II の説明"
+ mdg_boat_3_desc:0 "小型艇 III の説明"
+ mdg_boat_4_desc:0 "小型艇 IV の説明"
+
+ GER_mdg_boat_1:0 "タイプ 23 ラウブフォーゲル"
+ GER_mdg_boat_2:0 "タイプ 1935"
+ GER_mdg_boat_3:0 "タイプ 1940"
+ GER_mdg_boat_4:0 "タイプ 1944"
+
+ SOV_mdg_boat_1:0 "SH-4"
+ SOV_mdg_boat_2:0 "G-5"
+ SOV_mdg_boat_3:0 "D-3"
+ SOV_mdg_boat_4:0 "プロジェクト 123 コムソモレツ"
+
+ ENG_mdg_boat_2:0 "タイプ 60"
+ ENG_mdg_boat_3:0 "タイプ 70"
+ ENG_mdg_boat_4:0 "タイプ 117"
+
+ ITA_mdg_boat_1:0 "タイプ バリエット 6"
+ ITA_mdg_boat_2:0 "タイプ バリエット 1934"
+ ITA_mdg_boat_3:0 "タイプ バリエット 500"
+ ITA_mdg_boat_4:0 "タイプ II"
+
+ USA_mdg_boat_1:0 "タイプ 110"
+ USA_mdg_boat_2:0 "タイプ 77"
+ USA_mdg_boat_3:0 "タイプ 78"
+ USA_mdg_boat_4:0 "タイプ 80"
+
+ FRA_mdg_boat_1:0 "Ch-25"
+ FRA_mdg_boat_2:0 "Ch-1"
+ FRA_mdg_boat_3:0 "VTB-8"
+
+ JAP_mdg_boat_3:0 "タイプ A 甲型"
+ JAP_mdg_boat_4:0 "タイプ B 乙型"
+
+ mdg_frigate:0 "フリゲート"
+ mdg_frigate_1:0 "フリゲート I"
+ mdg_frigate_2:0 "フリゲート II"
+ mdg_frigate_3:0 "フリゲート III"
+ mdg_frigate_4:0 "フリゲート IV"
+ mdg_frigate_1_desc:0 "フリゲート I の説明"
+ mdg_frigate_2_desc:0 "フリゲート II の説明"
+ mdg_frigate_3_desc:0 "フリゲート III の説明"
+ mdg_frigate_4_desc:0 "フリゲート IV の説明"
+
+ SOV_mdg_frigate_1:0 "タイプ ウラガン"
+ SOV_mdg_frigate_2:0 "タイプ ルビン"
+ SOV_mdg_frigate_3:0 "タイプ ヤストレブ"
+
+ GER_mdg_frigate_2:0 "タイプ F"
+ GER_mdg_frigate_3:0 "タイプ SG"
+
+ JAP_mdg_frigate_2:0 "タイプ A 志摩須"
+ JAP_mdg_frigate_3:0 "タイプ B 御蔵"
+ JAP_mdg_frigate_4:0 "タイプ C"
+
+ ENG_mdg_frigate_2:0 "タイプ リバー"
+ ENG_mdg_frigate_3:0 "タイプ ロッホ"
+ ENG_mdg_frigate_4:0 "タイプ ベイ"
+
+ ITA_mdg_frigate_3:0 "タイプ アレ"
+
+ USA_mdg_frigate_3:0 "タイプ アッシュビル"
+ USA_mdg_frigate_4:0 "タイプ タコマ"
+
+ FRA_mdg_frigate_1:0 "タイプ マルヌ"
+ FRA_mdg_frigate_2:0 "タイプ ブーゲンビル"
+
+ mdg_midget_submarine:0 "小型潜水艦"
+ mdg_midget_submarine_1:0 "小型潜水艦 I"
+ mdg_midget_submarine_2:0 "小型潜水艦 II"
+ mdg_midget_submarine_1_desc:0 "小型潜水艦 I の説明"
+ mdg_midget_submarine_2_desc:0 "小型潜水艦 II の説明"
+
+ ENG_mdg_midget_submarine_1:0 "タイプ X"
+ ENG_mdg_midget_submarine_2:0 "タイプ XE"
+
+ GER_mdg_midget_submarine_1:0 "タイプ ビーバー"
+ GER_mdg_midget_submarine_2:0 "タイプ ゼーハウント"
+
+ ITA_mdg_midget_submarine_1:0 "タイプ CA"
+ ITA_mdg_midget_submarine_2:0 "タイプ CB"
+
+ JAP_mdg_midget_submarine_1:0 "タイプ A"
+ JAP_mdg_midget_submarine_2:0 "タイプ 海龍"
+
+ SOV_mdg_midget_submarine_1:0 "APSS"
+ SOV_mdg_midget_submarine_2:0 "タイプ ピグミー"
+
+ EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "自動砲"
+ EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "軽砲"
+ EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "両用軽砲"
+ EQ_MOD_CAT_ship_anechoic_tile_TITLE:0 "吸音タイル"

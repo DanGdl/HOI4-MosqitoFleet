@@ -1,0 +1,94 @@
+﻿l_japanese:
+ mdg_ship_light_guns_1:0 "7.62 mm 機関銃"
+ mdg_ship_light_guns_1_short:0 "小型艦兵装 I"
+ mdg_ship_light_guns_1_desc:0 "通常の機関銃"
+ mdg_ship_light_guns_2:0 "7.62 mm 連装機関銃"
+ mdg_ship_light_guns_2_short:0 "小型艦兵装 II"
+ mdg_ship_light_guns_2_desc:0 "連装重機関銃"
+ mdg_ship_light_guns_3:0 "20 mm 自動砲"
+ mdg_ship_light_guns_3_short:0 "小型艦兵装 III"
+ mdg_ship_light_guns_3_desc:0 "自動小口径砲"
+ mdg_ship_light_guns_4:0 "20 mm 連装自動砲"
+ mdg_ship_light_guns_4_short:0 "小型艦兵装 IV"
+ mdg_ship_light_guns_4_desc:0 "連装自動小口径砲"
+
+ ENG_mdg_ship_light_guns_1:0 "12.7 mm コルト・ブローニング"
+ ENG_mdg_ship_light_guns_2:0 "12.7 mm 連装コルト・ブローニング"
+ ENG_mdg_ship_light_guns_3:0 "20 mm エリコン"
+ ENG_mdg_ship_light_guns_4:0 "20 mm 連装エリコン"
+
+ GER_mdg_ship_light_guns_2:0 "20 mm 自動砲"
+ GER_mdg_ship_light_guns_3:0 "30 mm 自動砲"
+ GER_mdg_ship_light_guns_4:0 "20 mm 連装自動砲"
+
+ ITA_mdg_ship_light_guns_1:0 "13.2 mm 機関銃"
+ ITA_mdg_ship_light_guns_2:0 "13.2 mm 連装機関銃"
+
+ SOV_mdg_ship_light_guns_1:0 "7.62 mm 機関銃"
+ SOV_mdg_ship_light_guns_2:0 "12.7 mm 連装機関銃"
+ SOV_mdg_ship_light_guns_3:0 "20 mm 自動砲"
+
+ USA_mdg_ship_light_guns_1:0 "12.7 mm コルト・ブローニング"
+ USA_mdg_ship_light_guns_2:0 "12.7 mm 連装コルト・ブローニング"
+ USA_mdg_ship_light_guns_3:0 "20 mm エリコン"
+ USA_mdg_ship_light_guns_4:0 "20 mm 連装エリコン"
+
+ mdg_ship_light_cannon_1:0 "76 mm 砲"
+ mdg_ship_light_cannon_1_short:0 "軽砲 I"
+ mdg_ship_light_cannon_1_desc:0 "小型艦向けの比較的小口径の砲。"
+ mdg_ship_light_cannon_2:0 "102 mm 砲"
+ mdg_ship_light_cannon_2_short:0 "軽砲 II"
+ mdg_ship_light_cannon_2_desc:0 "迅速な照準を可能にする動力マウント付きの小型砲。"
+ mdg_ship_light_cannon_3:0 "120 mm 砲"
+ mdg_ship_light_cannon_3_short:0 "軽砲 III"
+ mdg_ship_light_cannon_3_desc:0 "砲員を破片や悪天候から守るための防盾付き小型砲。"
+ mdg_ship_light_cannon_4:0 "140 mm 砲"
+ mdg_ship_light_cannon_4_short:0 "軽砲 IV"
+ mdg_ship_light_cannon_4_desc:0 "動力化された装甲マウント付きの小型砲。"
+
+ GER_mdg_ship_light_cannon_1:0 "88 mm 砲"
+ GER_mdg_ship_light_cannon_2:0 "105 mm 砲"
+ GER_mdg_ship_light_cannon_3:0 "120 mm 砲"
+
+ ITA_mdg_ship_light_cannon_2:0 "76 mm 砲"
+ ITA_mdg_ship_light_cannon_3:0 "100 mm 砲"
+
+ SOV_mdg_ship_light_cannon_1:0 "60 mm 砲"
+ SOV_mdg_ship_light_cannon_2:0 "100 mm 砲"
+ SOV_mdg_ship_light_cannon_3:0 "102 mm 砲"
+
+ FRA_mdg_ship_light_cannon_2:0 "100 mm 砲"
+ FRA_mdg_ship_light_cannon_3:0 "130 mm 砲"
+
+ JAP_mdg_ship_light_cannon_2:0 "100 mm 砲"
+ JAP_mdg_ship_light_cannon_3:0 "120 mm 砲"
+
+ mdg_ship_light_cannon_dp_1:0 "両用 76 mm 砲"
+ mdg_ship_light_cannon_dp_1_short:0 "両用軽砲 I"
+ mdg_ship_light_cannon_dp_1_desc:0 "航空機と水上目標の両方に対応できる特殊マウント付き小型砲。"
+ mdg_ship_light_cannon_dp_2:0 "両用 102 mm 砲"
+ mdg_ship_light_cannon_dp_2_short:0 "両用軽砲 II"
+ mdg_ship_light_cannon_dp_2_desc:0 "航空機と水上目標の両方に対応できる高角防盾付き小型砲。"
+ mdg_ship_light_cannon_dp_3:0 "両用 120 mm 砲"
+ mdg_ship_light_cannon_dp_3_short:0 "両用軽砲 III"
+ mdg_ship_light_cannon_dp_3_desc:0 "航空機と水上目標の両方に対応できる高角密閉砲塔付き小型砲。"
+ mdg_ship_light_cannon_dp_4:0 "両用 120 mm 軽砲"
+ mdg_ship_light_cannon_dp_4_short:0 "両用軽砲 IV"
+ mdg_ship_light_cannon_dp_4_desc:0 "航空機と水上目標の両方に対応できる高角動力砲塔付き小型砲。"
+
+ GER_mdg_ship_light_cannon_dp_1:0 "両用 88 mm 砲"
+ GER_mdg_ship_light_cannon_dp_2:0 "両用 105 mm 砲"
+ GER_mdg_ship_light_cannon_dp_3:0 "両用 120 mm 砲"
+
+ ITA_mdg_ship_light_cannon_dp_2:0 "両用 76 mm 砲"
+ ITA_mdg_ship_light_cannon_dp_3:0 "両用 100 mm 砲"
+
+ SOV_mdg_ship_light_cannon_dp_1:0 "両用 60 mm 砲"
+ SOV_mdg_ship_light_cannon_dp_2:0 "両用 100 mm 砲"
+ SOV_mdg_ship_light_cannon_dp_3:0 "両用 102 mm 砲"
+
+ FRA_mdg_ship_light_cannon_dp_2:0 "両用 100 mm 砲"
+ FRA_mdg_ship_light_cannon_dp_3:0 "両用 130 mm 砲"
+
+ JAP_mdg_ship_light_cannon_dp_2:0 "両用 100 mm 砲"
+ JAP_mdg_ship_light_cannon_dp_3:0 "両用 120 mm 砲"
