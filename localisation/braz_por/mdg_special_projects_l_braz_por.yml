@@ -1,0 +1,13 @@
+﻿l_braz_por:
+ GER_sp_naval_mdg_hydrofoil: "VS-10"
+ sp_naval_mdg_hydrofoil: "Barco Hidrofólio"
+ sp_naval_mdg_hydrofoil_desc: "Uma embarcação sustentada acima da superfície da água durante o movimento por forças hidrodinâmicas geradas pelos hidrofólios. Os hidrofólios criam uma força que eleva o casco da embarcação acima da água, permitindo atingir velocidades impossíveis para embarcações de deslocamento tradicionais."
+ sp_naval_mdg_hydrofoil_free_design: "Barco Hidrofólio"
+ sp_naval_mdg_hydrofoil_preference_a: "Motores Mais Rápidos"
+ sp_naval_mdg_hydrofoil_preference_b: "Custos Reduzidos"
+ sp_naval_mdg_hydrofoil_preference_c: "Foco na Qualidade"
+ sp_mdg_hydrofoil_eq_bonus_speed: "Barco Hidrofólio — Motores Mais Rápidos"
+ sp_mdg_hydrofoil_eq_bonus_cost: "Barco Hidrofólio — Construção Mais Barata"
+ sp_mdg_hydrofoil_eq_bonus_quality: "Barco Hidrofólio — Foco na Qualidade"
+ sp_naval_mdg_hydrofoil_unique_reward_a: "Aproveitando Melhor o Espaço"
+ sp_naval_mdg_hydrofoil_unique_reward_a_desc: "Percebemos que podemos especializar certas partes de nossos barcos hidrofólio, embora isso envolva alguns compromissos."
