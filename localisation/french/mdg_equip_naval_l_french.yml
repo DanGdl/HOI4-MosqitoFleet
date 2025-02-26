@@ -1,0 +1,153 @@
+﻿l_french:
+ mdg_corvette:0 "Corvette"
+ mdg_corvette_1:0 "Corvette I"
+ mdg_corvette_2:0 "Corvette II"
+ mdg_corvette_3:0 "Corvette III"
+ mdg_corvette_4:0 "Corvette IV"
+ mdg_corvette_1_desc:0 "Description de la Corvette I"
+ mdg_corvette_2_desc:0 "Description de la Corvette II"
+ mdg_corvette_3_desc:0 "Description de la Corvette III"
+ mdg_corvette_4_desc:0 "Description de la Corvette IV"
+
+ GER_mdg_corvette_2:0 "Type K"
+ GER_mdg_corvette_3:0 "Type KUj"
+ GER_mdg_corvette_4:0 "Type MZ"
+
+ SOV_mdg_corvette_1:0 "Type MO"
+ SOV_mdg_corvette_2:0 "Type BMO"
+ SOV_mdg_corvette_3:0 "Projet 122"
+ SOV_mdg_corvette_4:0 "Projet 122-b"
+
+ ENG_mdg_corvette_1:0 "Type P"
+ ENG_mdg_corvette_2:0 "Type Kingfisher"
+ ENG_mdg_corvette_3:0 "Type Flower"
+ ENG_mdg_corvette_4:0 "Type Castle"
+
+ ITA_mdg_corvette_1:0 "Type Bafile"
+ ITA_mdg_corvette_2:0 "Type Bigfieri"
+
+ USA_mdg_corvette_1:0 "Type Eagle"
+ USA_mdg_corvette_2:0 "Type Erie"
+ USA_mdg_corvette_3:0 "Type Flower"
+ USA_mdg_corvette_4:0 "Type PC"
+
+ FRA_mdg_corvette_1:0 "Type Conquérante"
+ FRA_mdg_corvette_2:0 "Type Chamois"
+
+ JAP_mdg_corvette_1:0 "Type P"
+ JAP_mdg_corvette_2:0 "Type Ch-1"
+ JAP_mdg_corvette_3:0 "Type Ch-13"
+ JAP_mdg_corvette_4:0 "Type Ch-51"
+
+ mdg_hydrofoil:0 "Bateau hydroptère"
+ mdg_hydrofoil_1:0 "Bateau hydroptère I"
+ mdg_hydrofoil_1_desc:0 "Description du Bateau hydroptère I"
+
+ mdg_boat:0 "Vedette"
+ mdg_boat_1:0 "Vedette I"
+ mdg_boat_2:0 "Vedette II"
+ mdg_boat_3:0 "Vedette III"
+ mdg_boat_4:0 "Vedette IV"
+ mdg_boat_1_desc:0 "Description de la Vedette I"
+ mdg_boat_2_desc:0 "Description de la Vedette II"
+ mdg_boat_3_desc:0 "Description de la Vedette III"
+ mdg_boat_4_desc:0 "Description de la Vedette IV"
+
+ GER_mdg_boat_1:0 "Type 23 Raubvogel"
+ GER_mdg_boat_2:0 "Type 1935"
+ GER_mdg_boat_3:0 "Type 1940"
+ GER_mdg_boat_4:0 "Type 1944"
+
+ SOV_mdg_boat_1:0 "SH-4"
+ SOV_mdg_boat_2:0 "G-5"
+ SOV_mdg_boat_3:0 "D-3"
+ SOV_mdg_boat_4:0 "Projet 123 Komsomolets"
+
+ ENG_mdg_boat_2:0 "Type 60"
+ ENG_mdg_boat_3:0 "Type 70"
+ ENG_mdg_boat_4:0 "Type 117"
+
+ ITA_mdg_boat_1:0 "Type Baglietto 6"
+ ITA_mdg_boat_2:0 "Type Baglietto 1934"
+ ITA_mdg_boat_3:0 "Type Baglietto 500"
+ ITA_mdg_boat_4:0 "Type II"
+
+ USA_mdg_boat_1:0 "Type 110"
+ USA_mdg_boat_2:0 "Type 77"
+ USA_mdg_boat_3:0 "Type 78"
+ USA_mdg_boat_4:0 "Type 80"
+
+ FRA_mdg_boat_1:0 "Ch-25"
+ FRA_mdg_boat_2:0 "Ch-1"
+ FRA_mdg_boat_3:0 "VTB-8"
+
+ JAP_mdg_boat_3:0 "Type A Ko-Gata"
+ JAP_mdg_boat_4:0 "Type B Otsu-Gata"
+
+ mdg_frigate:0 "Frégate"
+ mdg_frigate_1:0 "Frégate I"
+ mdg_frigate_2:0 "Frégate II"
+ mdg_frigate_3:0 "Frégate III"
+ mdg_frigate_4:0 "Frégate IV"
+ mdg_frigate_1_desc:0 "Description de la Frégate I"
+ mdg_frigate_2_desc:0 "Description de la Frégate II"
+ mdg_frigate_3_desc:0 "Description de la Frégate III"
+ mdg_frigate_4_desc:0 "Description de la Frégate IV"
+
+ SOV_mdg_frigate_1:0 "Type Ouragan"
+ SOV_mdg_frigate_2:0 "Type Rubin"
+ SOV_mdg_frigate_3:0 "Type Yastreb"
+
+ GER_mdg_frigate_2:0 "Type F"
+ GER_mdg_frigate_3:0 "Type SG"
+
+ JAP_mdg_frigate_2:0 "Type A Shimushu"
+ JAP_mdg_frigate_3:0 "Type B Mikura"
+ JAP_mdg_frigate_4:0 "Type C"
+
+ ENG_mdg_frigate_2:0 "Type River"
+ ENG_mdg_frigate_3:0 "Type Loch"
+ ENG_mdg_frigate_4:0 "Type Bay"
+
+ ITA_mdg_frigate_3:0 "Type Ape"
+
+ USA_mdg_frigate_3:0 "Type Asheville"
+ USA_mdg_frigate_4:0 "Type Tacoma"
+
+ FRA_mdg_frigate_1:0 "Type Marne"
+ FRA_mdg_frigate_2:0 "Type Bougainville"
+
+ mdg_midget_submarine:0 "Sous-marin de poche"
+ mdg_midget_submarine_1:0 "Sous-marin de poche I"
+ mdg_midget_submarine_2:0 "Sous-marin de poche II"
+ mdg_midget_submarine_1_desc:0 "Description du Sous-marin de poche I"
+ mdg_midget_submarine_2_desc:0 "Description du Sous-marin de poche II"
+
+ ENG_mdg_midget_submarine_1:0 "Type X"
+ ENG_mdg_midget_submarine_2:0 "Type XE"
+
+ GER_mdg_midget_submarine_1:0 "Type Biber"
+ GER_mdg_midget_submarine_2:0 "Type Seehund"
+
+ ITA_mdg_midget_submarine_1:0 "Type CA"
+ ITA_mdg_midget_submarine_2:0 "Type CB"
+
+ JAP_mdg_midget_submarine_1:0 "Type A"
+ JAP_mdg_midget_submarine_2:0 "Type Kairyu"
+
+ SOV_mdg_midget_submarine_1:0 "APSS"
+ SOV_mdg_midget_submarine_2:0 "Type Pygmée"
+
+ mdg_ship_hull_boat:0 "Vedette"
+ mdg_ship_hull_boat_1:0 "Coque de vedette précoce"
+ mdg_ship_hull_boat_2:0 "Coque de vedette 1936"
+ mdg_ship_hull_boat_3:0 "Coque de vedette 1940"
+ mdg_ship_hull_boat_4:0 "Coque de vedette 1944"
+
+ mdg_ship_hull_hydrofoil:0 "Bateau hydroptère"
+ mdg_ship_hull_hydrofoil_1:0 "Coque de bateau hydroptère"
+
+ EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Canons automatiques"
+ EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Canons légers"
+ EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Canons légers double usage"
+ EQ_MOD_CAT_ship_anechoic_tile_TITLE:0 "Revêtements anéchoïques"

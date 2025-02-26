@@ -441,3 +441,27 @@
 
  battlefleet_concentration_sm:0 "Concentration de la flotte"
  battlefleet_concentration_sm_desc:0 "Aussitôt qu'un bâtiment ennemi est repéré, tous les navires aux alentours doivent être rassemblés. La concentration et la coordination de leurs tirs neutraliseront ainsi rapidement les navires ennemis, avant de les traquer l'un après l'autre."
+
+ TITLE_SMALL_FLEET:0 "Petite Flotte"
+ small_fleet:0 "Petite Flotte"
+ SMALL_FLEET_DESC:0 "Une flotte composée principalement de petits navires et inférieure à l'ennemi, principalement en cuirassés."
+ small_fleet_desc:0 "Cette doctrine implique le combat des forces légères de la flotte contre des groupes isolés de grands navires ennemis, perturbant ses communications et protégeant son littoral.\n\n"
+ small_fleet_tree:0 "Doctrine de la Petite Flotte"
+ small_fleet_doctrine:0 "Doctrine de la Petite Flotte"
+ cat_small_fleet:0 "Doctrine de la Petite Flotte"
+
+ torpedo_boat_operations_sm:0 "Opérations des vedettes lance-torpilles"
+ torpedo_boat_operations_sm_desc:0 "Vous pouvez vous approcher de l'ennemi sans être remarqué, tirer des torpilles et repartir tout aussi discrètement. Ou battre en retraite très rapidement."
+ raider_patrols_sm:0 "Patrouilles de raiders"
+ raider_patrols_sm_desc:0 "Des patrouilles de navires rapides et lourdement armés empêchent les convois commerciaux ennemis de trouver refuge.\nLes sous-marins ne sont pas les seuls chasseurs."
+ patrol_and_ambush_sm:0 "Patrouilles et embuscades"
+ patrol_and_ambush_sm_desc:0 "Notre flotte envoie des patrouilles et organise des embuscades le long des routes ennemies."
+ mosquitos_sm:0 "Moustiques"
+ mosquitos_sm_desc:0 "Attaques coordonnées de plusieurs groupes de vedettes lance-torpilles."
+
+ combined_operations_sm:0 "Opérations combinées"
+ combined_operations_sm_desc:0 "Opérations coordonnées de plusieurs groupes de vedettes lance-torpilles, sous-marins et navires d'escorte."
+ mio_cat_tech_all_mdg_frigate_and_modules:0 "Toutes les technologies des frégates"
+ mio_cat_tech_all_mdg_corvette_and_modules:0 "Toutes les technologies des corvettes"
+ mio_cat_tech_all_mdg_boat_and_modules:0 "Toutes les technologies des vedettes"
+ mio_cat_tech_all_mdg_ssm_and_modules:0 "Toutes les technologies des sous-marins de poche"
