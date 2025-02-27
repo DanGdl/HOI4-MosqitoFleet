@@ -41,7 +41,7 @@
 
  mdg_hydrofoil:0 "Barco de hidrofolha"
  mdg_hydrofoil_1:2 "Barco de hidrofolha I"
- mdg_hydrofoil_1:2 "Descrição do barco de hidrofolha I"
+ mdg_hydrofoil_1_desc:2 "Descrição do barco de hidrofolha I"
 
  mdg_boat:0 "Barco"
  mdg_boat_1:0 "Barco I"
@@ -83,7 +83,6 @@
 
  JAP_mdg_boat_3:0 "Classe A Ko-Gata"
  JAP_mdg_boat_4:0 "Classe B Otsu-Gata"
-
 
  mdg_frigate:0 "Fragata"
  mdg_frigate_1:0 "Fragata I"
@@ -127,26 +126,31 @@
 
  ENG_mdg_midget_submarine_1:0 "Classe X"
  ENG_midget_submarine_1:0 "Classe X"
+ ENG_midget_submarine:0 "Classe X"
  ENG_ship_hull_midget_submarine:0 "Classe X"
  ENG_mdg_midget_submarine_2:0 "Classe XE"
 
  GER_mdg_midget_submarine_1:0 "Classe Biber"
  GER_midget_submarine_1:0 "Classe Biber"
- GER_ship_hull_midget_submarine:0  "Classe Biber"
+ GER_midget_submarine:0 "Classe Biber"
+ GER_ship_hull_midget_submarine:0 "Classe Biber"
  GER_mdg_midget_submarine_2:0 "Classe Seehund"
 
  ITA_mdg_midget_submarine_1:0 "Classe CA"
  ITA_midget_submarine_1:0 "Classe CA"
+ ITA_midget_submarine:0 "Classe CA"
  ITA_ship_hull_midget_submarine:0 "Classe CA"
  ITA_mdg_midget_submarine_2:0 "Classe CB"
 
  JAP_mdg_midget_submarine_1:0 "Classe A"
  JAP_midget_submarine_1:0 "Classe A"
+ JAP_midget_submarine:0 "Classe A"
  JAP_ship_hull_midget_submarine:0 "Classe A"
  JAP_mdg_midget_submarine_2:0 "Classe Kairyu"
 
  SOV_mdg_midget_submarine_1:0 "APSS"
  SOV_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine:0 "APSS"
  SOV_ship_hull_midget_submarine:0 "APSS"
  SOV_mdg_midget_submarine_2:0 "Classe Pigmey"
 

@@ -94,19 +94,113 @@
  mdg_frigate_3_desc:0 "Descripción de Fragata III"
  mdg_frigate_4_desc:0 "Descripción de Fragata IV"
 
+ SOV_mdg_frigate_1:0 "Tipo Uragan"
+ SOV_mdg_frigate_2:0 "Tipo Rubin"
+ SOV_mdg_frigate_3:0 "Tipo Yastreb"
+
+ GER_mdg_frigate_2:0 "Tipo F"
+ GER_mdg_frigate_3:0 "Tipo SG"
+
+ JAP_mdg_frigate_2:0 "Tipo A Shimushu"
+ JAP_mdg_frigate_3:0 "Tipo B Mikura"
+ JAP_mdg_frigate_4:0 "Tipo C"
+
+ ENG_mdg_frigate_2:0 "Tipo River"
+ ENG_mdg_frigate_3:0 "Tipo Loch"
+ ENG_mdg_frigate_4:0 "Tipo Bay"
+
+ ITA_mdg_frigate_3:0 "Tipo Аре"
+
+ USA_mdg_frigate_3:0 "Tipo Asheville"
+ USA_mdg_frigate_4:0 "Tipo Tacoma"
+
+ FRA_mdg_frigate_1:0 "Tipo Marne"
+ FRA_mdg_frigate_2:0 "Tipo Bougainville"
+
+
  mdg_midget_submarine:0 "Submarino enano"
  mdg_midget_submarine_1:0 "Submarino enano I"
  mdg_midget_submarine_2:0 "Submarino enano II"
  mdg_midget_submarine_1_desc:0 "Descripción de Submarino enano I"
  mdg_midget_submarine_2_desc:0 "Descripción de Submarino enano II"
 
+ ENG_mdg_midget_submarine_1:0 "Tipo X"
+ ENG_midget_submarine_1:0 "Tipo X"
+ ENG_midget_submarine:0 "Tipo X"
+ ENG_ship_hull_midget_submarine:0 "Tipo X"
+ ENG_mdg_midget_submarine_2:0 "Tipo XE"
+
+ GER_mdg_midget_submarine_1:0 "Tipo Biber"
+ GER_midget_submarine_1:0 "Tipo Biber"
+ GER_midget_submarine:0 "Tipo Biber"
+ GER_ship_hull_midget_submarine:0 "Tipo Biber"
+ GER_mdg_midget_submarine_2:0 "Tipo Seehund"
+
+ ITA_mdg_midget_submarine_1:0 "Tipo CA"
+ ITA_midget_submarine_1:0 "Tipo CA"
+ ITA_midget_submarine:0 "Tipo CA"
+ ITA_ship_hull_midget_submarine:0 "Tipo CA"
+ ITA_mdg_midget_submarine_2:0 "Tipo CB"
+
+ JAP_mdg_midget_submarine_1:0 "Tipo A"
+ JAP_midget_submarine_1:0 "Tipo A"
+ JAP_midget_submarine:0 "Tipo A"
+ JAP_ship_hull_midget_submarine:0 "Tipo A"
+ JAP_mdg_midget_submarine_2:0 "Tipo Kairyu"
+
+ SOV_mdg_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine:0 "APSS"
+ SOV_ship_hull_midget_submarine:0 "APSS"
+ SOV_mdg_midget_submarine_2:0 "Tipo Pigmey"
+
  mdg_ship_hull_boat:0 "Bote"
+ mdg_ship_hull_boat_1:2 "Casco de Bote Temprano"
+ mdg_ship_hull_boat_1_desc:0 "Descripción de Casco de Bote Temprano"
+ mdg_ship_hull_boat_2:2 "Casco de Bote de 1936"
+ mdg_ship_hull_boat_2_desc:0 "Descripción de Casco de Bote de 1936"
+ mdg_ship_hull_boat_3:2 "Casco de Bote de 1940"
+ mdg_ship_hull_boat_3_desc:0 "Descripción de Casco de Bote de 1940"
+ mdg_ship_hull_boat_4:2 "Casco de Bote de 1944"
+ mdg_ship_hull_boat_4_desc:0 "Descripción de Casco de Bote de 1944"
+
  mdg_ship_hull_hydrofoil:0 "Embarcación con hidroalas"
+ mdg_ship_hull_hydrofoil_1:2 "Casco de Embarcación con Hidroalas"
+
  mdg_ship_hull_corvette:0 "Corbeta"
+ mdg_ship_hull_corvette_1:2 "Casco de Corbeta Temprano"
+ mdg_ship_hull_corvette_1_desc:0 "Descripción de Casco de Corbeta Temprano"
+ mdg_ship_hull_corvette_2:2 "Casco de Corbeta de 1936"
+ mdg_ship_hull_corvette_2_desc:0 "Descripción de Casco de Corbeta de 1936"
+ mdg_ship_hull_corvette_3:2 "Casco de Corbeta de 1940"
+ mdg_ship_hull_corvette_3_desc:0 "Descripción de Casco de Corbeta de 1940"
+ mdg_ship_hull_corvette_4:2 "Casco de Corbeta de 1944"
+ mdg_ship_hull_corvette_4_desc:0 "Descripción de Casco de Corbeta de 1944"
+
  mdg_ship_hull_frigate:0 "Fragata"
+ mdg_ship_hull_frigate_1:2 "Casco de Fragata Temprano"
+ mdg_ship_hull_frigate_1_desc:0 "Descripción de Casco de Fragata Temprano"
+ mdg_ship_hull_frigate_2:2 "Casco de Fragata de 1936"
+ mdg_ship_hull_frigate_2_desc:0 "Descripción de Casco de Fragata de 1936"
+ mdg_ship_hull_frigate_3:2 "Casco de Fragata de 1940"
+ mdg_ship_hull_frigate_3_desc:0 "Descripción de Casco de Fragata de 1940"
+ mdg_ship_hull_frigate_4:2 "Casco de Fragata de 1944"
+ mdg_ship_hull_frigate_4_desc:0 "Descripción de Casco de Fragata de 1944"
+
  mdg_ship_hull_midget_submarine:0 "Submarino enano"
+ mdg_ship_hull_midget_submarine_1:2 "Casco de Submarino Enano de 1936"
+ mdg_ship_hull_midget_submarine_1_desc:0 "Un submarino de pequeño tamaño operado por una tripulación reducida. Su alcance y capacidad de armamento limitados se compensan con una alta tasa de producción."
+ mdg_ship_hull_midget_submarine_2:2 "Casco de Submarino Enano de 1940"
+ #mdg_ship_hull_midget_submarine_2_desc:0 "Descripción de Casco de Submarino Enano de 1940"
+ mdg_ship_hull_midget_submarine_2_desc:0 "Un submarino de pequeño tamaño operado por una tripulación reducida, que podría usarse para sabotajes en puertos o ataques a convoyes. Su alcance y capacidad de armamento limitados se compensan con una alta tasa de producción."
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Cañones Automáticos"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Cañones Ligeros"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE:0 "Cañones Ligeros de Doble Propósito"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE:0 "Baldosas Anecoicas"
+
+
+
+
+
+

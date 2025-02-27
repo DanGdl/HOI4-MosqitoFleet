@@ -53,6 +53,37 @@
  mdg_boat_3_desc:0 "小型舰艇 III 描述"
  mdg_boat_4_desc:0 "小型舰艇 IV 描述"
 
+ GER_mdg_boat_1:0 "23型掠鸟"
+ GER_mdg_boat_2:0 "1935型"
+ GER_mdg_boat_3:0 "1940型"
+ GER_mdg_boat_4:0 "1944型"
+
+ SOV_mdg_boat_1:0 "SH-4型"
+ SOV_mdg_boat_2:0 "G-5型"
+ SOV_mdg_boat_3:0 "D-3型"
+ SOV_mdg_boat_4:0 "123型 共青团员"
+
+ ENG_mdg_boat_2:0 "60型"
+ ENG_mdg_boat_3:0 "70型"
+ ENG_mdg_boat_4:0 "117型"
+
+ ITA_mdg_boat_1:0 "Baglietto 6型"
+ ITA_mdg_boat_2:0 "Baglietto 1934型"
+ ITA_mdg_boat_3:0 "Baglietto 500型"
+ ITA_mdg_boat_4:0 "II型"
+
+ USA_mdg_boat_1:0 "110型"
+ USA_mdg_boat_2:0 "77型"
+ USA_mdg_boat_3:0 "78型"
+ USA_mdg_boat_4:0 "80型"
+
+ FRA_mdg_boat_1:0 "Ch-25型"
+ FRA_mdg_boat_2:0 "Ch-1型"
+ FRA_mdg_boat_3:0 "VTB-8型"
+
+ JAP_mdg_boat_3:0 "A型 甲型"
+ JAP_mdg_boat_4:0 "B型 乙型"
+
  mdg_frigate:0 "护卫舰"
  mdg_frigate_1:0 "护卫舰 I"
  mdg_frigate_2:0 "护卫舰 II"
@@ -63,11 +94,65 @@
  mdg_frigate_3_desc:0 "护卫舰 III 描述"
  mdg_frigate_4_desc:0 "护卫舰 IV 描述"
 
+ SOV_mdg_frigate_1:0 "飓风型"
+ SOV_mdg_frigate_2:0 "红宝石型"
+ SOV_mdg_frigate_3:0 "鹰型"
+
+ GER_mdg_frigate_2:0 "F型"
+ GER_mdg_frigate_3:0 "SG型"
+
+ JAP_mdg_frigate_2:0 "A型 占守级"
+ JAP_mdg_frigate_3:0 "B型 御藏级"
+ JAP_mdg_frigate_4:0 "C型"
+
+ ENG_mdg_frigate_2:0 "河级"
+ ENG_mdg_frigate_3:0 "洛克级"
+ ENG_mdg_frigate_4:0 "海湾级"
+
+ ITA_mdg_frigate_3:0 "阿雷型"
+
+ USA_mdg_frigate_3:0 "阿什维尔型"
+ USA_mdg_frigate_4:0 "塔科马型"
+
+ FRA_mdg_frigate_1:0 "马恩型"
+ FRA_mdg_frigate_2:0 "紫荆花型"
+
+
  mdg_midget_submarine:0 "微型潜艇"
  mdg_midget_submarine_1:0 "微型潜艇 I"
  mdg_midget_submarine_2:0 "微型潜艇 II"
  mdg_midget_submarine_1_desc:0 "微型潜艇 I 描述"
  mdg_midget_submarine_2_desc:0 "微型潜艇 II 描述"
+
+ ENG_mdg_midget_submarine_1:0 "X型"
+ ENG_midget_submarine_1:0 "X型"
+ ENG_midget_submarine:0 "X型"
+ ENG_ship_hull_midget_submarine:0 "X型"
+ ENG_mdg_midget_submarine_2:0 "XE型"
+
+ GER_mdg_midget_submarine_1:0 "海狸型"
+ GER_midget_submarine_1:0 "海狸型"
+ GER_midget_submarine:0 "海狸型"
+ GER_ship_hull_midget_submarine:0 "海狸型"
+ GER_mdg_midget_submarine_2:0 "海狗型"
+
+ ITA_mdg_midget_submarine_1:0 "CA型"
+ ITA_midget_submarine_1:0 "CA型"
+ ITA_midget_submarine:0 "CA型"
+ ITA_ship_hull_midget_submarine:0 "CA型"
+ ITA_mdg_midget_submarine_2:0 "CB型"
+
+ JAP_mdg_midget_submarine_1:0 "A型"
+ JAP_midget_submarine_1:0 "A型"
+ JAP_midget_submarine:0 "A型"
+ JAP_ship_hull_midget_submarine:0 "A型"
+ JAP_mdg_midget_submarine_2:0 "海龙型"
+
+ SOV_mdg_midget_submarine_1:0 "APSS型"
+ SOV_midget_submarine_1:0 "APSS型"
+ SOV_midget_submarine:0 "APSS型"
+ SOV_ship_hull_midget_submarine:0 "APSS型"
+ SOV_mdg_midget_submarine_2:0 "侏儒型"
 
  mdg_ship_hull_boat:0 "小型舰艇"
  mdg_ship_hull_boat_1:0 "早期小型舰艇船体"
@@ -106,6 +191,7 @@
  mdg_ship_hull_midget_submarine_1:0 "1936年微型潜艇船体"
  mdg_ship_hull_midget_submarine_1_desc:0 "一种由少量船员操作的小型潜艇，其航程和武器容量有限，但生产效率高。"
  mdg_ship_hull_midget_submarine_2:0 "1940年微型潜艇船体"
+ #mdg_ship_hull_midget_submarine_2_desc:0 "1940年微型潜艇船体描述"
  mdg_ship_hull_midget_submarine_2_desc:0 "一种由少量船员操作的小型潜艇，可用于从港口破坏到袭击商船队等多种任务，其航程和武器容量有限，但生产效率高。"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "自动火炮"

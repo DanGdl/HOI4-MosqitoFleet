@@ -84,6 +84,7 @@
  JAP_mdg_boat_3:0 "Typ A Ko-Gata"
  JAP_mdg_boat_4:0 "Typ B Otsu-Gata"
 
+
  mdg_frigate:0 "Fregatte"
  mdg_frigate_1:0 "Fregatte I"
  mdg_frigate_2:0 "Fregatte II"
@@ -94,11 +95,65 @@
  mdg_frigate_3_desc:0 "Fregatte III Beschreibung"
  mdg_frigate_4_desc:0 "Fregatte IV Beschreibung"
 
+ SOV_mdg_frigate_1:0 "Typ Uragan"
+ SOV_mdg_frigate_2:0 "Typ Rubin"
+ SOV_mdg_frigate_3:0 "Typ Yastreb"
+
+ GER_mdg_frigate_2:0 "Typ F"
+ GER_mdg_frigate_3:0 "Typ SG"
+
+ JAP_mdg_frigate_2:0 "Typ A Shimushu"
+ JAP_mdg_frigate_3:0 "Typ B Mikura"
+ JAP_mdg_frigate_4:0 "Typ C"
+
+ ENG_mdg_frigate_2:0 "Typ River"
+ ENG_mdg_frigate_3:0 "Typ Loch"
+ ENG_mdg_frigate_4:0 "Typ Bay"
+
+ ITA_mdg_frigate_3:0 "Typ Are"
+
+ USA_mdg_frigate_3:0 "Typ Asheville"
+ USA_mdg_frigate_4:0 "Typ Tacoma"
+
+ FRA_mdg_frigate_1:0 "Typ Marne"
+ FRA_mdg_frigate_2:0 "Typ Bougainville"
+
+
  mdg_midget_submarine:0 "Kleinst-U-Boot"
  mdg_midget_submarine_1:0 "Kleinst-U-Boot I"
  mdg_midget_submarine_2:0 "Kleinst-U-Boot II"
  mdg_midget_submarine_1_desc:0 "Kleinst-U-Boot I Beschreibung"
  mdg_midget_submarine_2_desc:0 "Kleinst-U-Boot II Beschreibung"
+
+ ENG_mdg_midget_submarine_1:0 "Typ X"
+ ENG_midget_submarine_1:0 "Typ X"
+ ENG_midget_submarine:0 "Typ X"
+ ENG_ship_hull_midget_submarine:0 "Typ X"
+ ENG_mdg_midget_submarine_2:0 "Typ XE"
+
+ GER_mdg_midget_submarine_1:0 "Typ Biber"
+ GER_midget_submarine_1:0 "Typ Biber"
+ GER_midget_submarine:0 "Typ Biber"
+ GER_ship_hull_midget_submarine:0 "Typ Biber"
+ GER_mdg_midget_submarine_2:0 "Typ Seehund"
+
+ ITA_mdg_midget_submarine_1:0 "Typ CA"
+ ITA_midget_submarine_1:0 "Typ CA"
+ ITA_midget_submarine:0 "Typ CA"
+ ITA_ship_hull_midget_submarine:0 "Typ CA"
+ ITA_mdg_midget_submarine_2:0 "Typ CB"
+
+ JAP_mdg_midget_submarine_1:0 "Typ A"
+ JAP_midget_submarine_1:0 "Typ A"
+ JAP_midget_submarine:0 "Typ A"
+ JAP_ship_hull_midget_submarine:0 "Type A"
+ JAP_mdg_midget_submarine_2:0 "Typ Kairyu"
+
+ SOV_mdg_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine_1:0 "APSS"
+ SOV_midget_submarine:0 "APSS"
+ SOV_ship_hull_midget_submarine:0 "APSS"
+ SOV_mdg_midget_submarine_2:0 "Typ Pigmey"
 
  mdg_ship_hull_boat:0 "Boot"
  mdg_ship_hull_boat_1:2 "Früher Bootsrumpf"
@@ -122,6 +177,23 @@
  mdg_ship_hull_corvette_3_desc:0 "Beschreibung des 1940 Korvettenrumpfs"
  mdg_ship_hull_corvette_4:2 "1944 Korvettenrumpf"
  mdg_ship_hull_corvette_4_desc:0 "Beschreibung des 1944 Korvettenrumpfs"
+
+ mdg_ship_hull_frigate:0 "Fregatte"
+ mdg_ship_hull_frigate_1:2 "Früher Fregattenrumpf"
+ mdg_ship_hull_frigate_1_desc:0 "Beschreibung des frühen Fregattenrumpfs"
+ mdg_ship_hull_frigate_2:2 "1936 Fregattenrumpf"
+ mdg_ship_hull_frigate_2_desc:0 "Beschreibung des 1936 Fregattenrumpfs"
+ mdg_ship_hull_frigate_3:2 "1940 Fregattenrumpf"
+ mdg_ship_hull_frigate_3_desc:0 "Beschreibung des 1940 Fregattenrumpfs"
+ mdg_ship_hull_frigate_4:2 "1944 Fregattenrumpf"
+ mdg_ship_hull_frigate_4_desc:0 "Beschreibung des 1944 Fregattenrumpfs"
+
+ mdg_ship_hull_midget_submarine:0 "Kleinst-U-Boot"
+ mdg_ship_hull_midget_submarine_1:2 "1936 Kleinst-U-Boot-Rumpf"
+ mdg_ship_hull_midget_submarine_1_desc:0 "Ein kleines U-Boot, das von einer kleinen Besatzung betrieben wird. Seine reduzierte Reichweite und Waffenfähigkeit wird durch eine hohe Produktionsrate ausgeglichen."
+ mdg_ship_hull_midget_submarine_2:2 "1940 Kleinst-U-Boot-Rumpf"
+ #mdg_ship_hull_midget_submarine_2_desc:0 "Beschreibung des 1940 Kleinst-U-Boot-Rumpfs"
+ mdg_ship_hull_midget_submarine_2_desc:0 "Ein kleines U-Boot, das von einer kleinen Besatzung betrieben wird und für alles eingesetzt werden kann, von Hafen-Sabotage bis zur Konvoijagd. Seine reduzierte Reichweite und Waffenfähigkeit wird durch eine hohe Produktionsrate ausgeglichen."
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE:0 "Automatische Kanonen"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE:0 "Leichte Kanonen"
