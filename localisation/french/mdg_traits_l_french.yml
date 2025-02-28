@@ -1,4 +1,4 @@
 ﻿l_french:
- mdg_trait_mosquito:0 "Moustique"
- mdg_trait_mosquito_desc:0 "§LCe bureau gère efficacement plusieurs groupes de petits navires§!"
- MOSQUITO_TRIGGER_TT:0 "Combat en utilisant des navires légers (plus de 80%)"
+ mdg_trait_mosquito: "Moustique"
+ mdg_trait_mosquito_desc: "§LCe bureau gère efficacement plusieurs groupes de petits navires§!"
+ MOSQUITO_TRIGGER_TT: "Combat en utilisant des navires légers (plus de 80%)"

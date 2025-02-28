@@ -1,5 +1,5 @@
 ﻿l_spanish:
- mdg_trait_mosquito:0 "Mosquito"
- mdg_trait_mosquito_desc:0 "§LEsta oficina gestiona eficientemente algunos grupos de barcos pequeños§!"
- MOSQUITO_TRIGGER_TT:0 "Combate utilizando barcos ligeros (más del 80%)"
+ mdg_trait_mosquito: "Mosquito"
+ mdg_trait_mosquito_desc: "§LEsta oficina gestiona eficientemente algunos grupos de barcos pequeños§!"
+ MOSQUITO_TRIGGER_TT: "Combate utilizando barcos ligeros (más del 80%)"
 

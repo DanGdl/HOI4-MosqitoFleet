@@ -1,4 +1,4 @@
 ﻿l_simp_chinese:
- mdg_trait_mosquito:0 "蚊子"
- mdg_trait_mosquito_desc:0 "§L该办公室目前管理着几组小型舰船§!"
- MOSQUITO_TRIGGER_TT:0 "使用轻型舰船作战（超过80%）"
+ mdg_trait_mosquito: "蚊子"
+ mdg_trait_mosquito_desc: "§L该办公室目前管理着几组小型舰船§!"
+ MOSQUITO_TRIGGER_TT: "使用轻型舰船作战（超过80%）"

@@ -1,7 +1,7 @@
 ﻿l_french:
- small_fleet_academy_spirit:0 "Combat Littoral"
- small_fleet_academy_spirit_desc:0 "Protéger nos côtes et couvrir nos plus grands navires doit être une priorité."
- small_fleet_academy_spirit_tt:0 "Nouveaux amiraux : §G50 % de chance§! de commencer avec le trait §Y« Moustique »§!, §YProtecteur de flotte§!, §YChasseur de moustiques§! ou §YObservateur§!."
+ small_fleet_academy_spirit: "Combat Littoral"
+ small_fleet_academy_spirit_desc: "Protéger nos côtes et couvrir nos plus grands navires doit être une priorité."
+ small_fleet_academy_spirit_tt: "Nouveaux amiraux : §G50 % de chance§! de commencer avec le trait §Y« Moustique »§!, §YProtecteur de flotte§!, §YChasseur de moustiques§! ou §YObservateur§!."
 
- mosquitos_navy_spirit:0 "Moustiques"
- mosquitos_navy_spirit_desc:0 "Aucun répit pour l'ennemi dans nos eaux.\n\n§GCet esprit est disponible grâce à nos doctrines.§!"
+ mosquitos_navy_spirit: "Moustiques"
+ mosquitos_navy_spirit_desc: "Aucun répit pour l'ennemi dans nos eaux.\n\n§GCet esprit est disponible grâce à nos doctrines.§!"

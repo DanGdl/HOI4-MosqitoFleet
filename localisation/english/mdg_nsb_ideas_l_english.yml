@@ -1,7 +1,7 @@
 ﻿l_english:
- small_fleet_academy_spirit:0 "Littoral Combat"
- small_fleet_academy_spirit_desc:0 "Protecting our coasts and screening our larger vessels should be a priority."
- small_fleet_academy_spirit_tt:0 "New Admirals: §G50% chance§! to begin with §Y""Mosquito"§!, §YFleet Protector§!, §YFly Swatter§! or §YSpotter§! trait."
+ small_fleet_academy_spirit: "Littoral Combat"
+ small_fleet_academy_spirit_desc: "Protecting our coasts and screening our larger vessels should be a priority."
+ small_fleet_academy_spirit_tt: "New Admirals: §G50% chance§! to begin with §Y""Mosquito"§!, §YFleet Protector§!, §YFly Swatter§! or §YSpotter§! trait."
 
- mosquitos_navy_spirit:0 "Mosquitos"
- mosquitos_navy_spirit_desc:0 "No rest for enemy in our waters.\n\n§GThis spirit is available due to our doctrines.§!"
+ mosquitos_navy_spirit: "Mosquitos"
+ mosquitos_navy_spirit_desc: "No rest for enemy in our waters.\n\n§GThis spirit is available due to our doctrines.§!"

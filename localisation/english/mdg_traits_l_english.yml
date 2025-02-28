@@ -1,4 +1,4 @@
 ﻿l_english:
- mdg_trait_mosquito:0 "Mosquito"
- mdg_trait_mosquito_desc:0 "§LThis office exently manages a few groups of small ships§!"
- MOSQUITO_TRIGGER_TT:0 "Fights using light ships (more than 80%)"
+ mdg_trait_mosquito: "Mosquito"
+ mdg_trait_mosquito_desc: "§LThis office exently manages a few groups of small ships§!"
+ MOSQUITO_TRIGGER_TT: "Fights using light ships (more than 80%)"

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
- small_fleet_academy_spirit:0 "近岸作战"
- small_fleet_academy_spirit_desc:0 "保护我们的海岸并掩护大型舰艇应当是首要任务。"
- small_fleet_academy_spirit_tt:0 "新任海军上将有§G50%几率§!获得§Y“蚊子”§!、§Y舰队护卫者§!、§Y驱逐者§!或§Y侦察者§!特性。"
+ small_fleet_academy_spirit: "近岸作战"
+ small_fleet_academy_spirit_desc: "保护我们的海岸并掩护大型舰艇应当是首要任务。"
+ small_fleet_academy_spirit_tt: "新任海军上将有§G50%几率§!获得§Y“蚊子”§!、§Y舰队护卫者§!、§Y驱逐者§!或§Y侦察者§!特性。"
 
- mosquitos_navy_spirit:0 "蚊群战术"
- mosquitos_navy_spirit_desc:0 "敌人在我们的水域永无宁日。\n\n§G该精神因我们的学说而可用。§!"
+ mosquitos_navy_spirit: "蚊群战术"
+ mosquitos_navy_spirit_desc: "敌人在我们的水域永无宁日。\n\n§G该精神因我们的学说而可用。§!"

@@ -1,4 +1,4 @@
 ﻿l_braz_por:
- mdg_trait_mosquito:0 "Mosquito"
- mdg_trait_mosquito_desc:0 "§LEste oficial gerencia com excelência alguns grupos de navios pequenos§!"
- MOSQUITO_TRIGGER_TT:0 "Luta usando navios leves (mais de 80%)"
+ mdg_trait_mosquito: "Mosquito"
+ mdg_trait_mosquito_desc: "§LEste oficial gerencia com excelência alguns grupos de navios pequenos§!"
+ MOSQUITO_TRIGGER_TT: "Luta usando navios leves (mais de 80%)"
