@@ -167,7 +167,7 @@ sp_naval_mdg_hydrofoil = {
 
 			option = {
 				token = sp_naval_mdg_hydrofoil_preference_c
-				
+				default = yes
 				iteration_output = {
 					country_effects = {
 						if = {
