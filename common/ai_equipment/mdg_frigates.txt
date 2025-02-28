@@ -42,12 +42,30 @@ mdg_frigates = {
 			
 			type = mdg_ship_hull_frigate
 			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_cannon
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
-				fixed_ship_radar_slot = ship_sonar
-				fixed_ship_engine_slot = light_ship_engine
-				fixed_ship_torpedo_slot = ship_torpedo
-				rear_1_custom_slot = ship_depth_charge
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
+				fixed_ship_fire_control_system_slot = {
+					any_of = { ship_radar ship_fire_control_system }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
 			}
 		}
 		
@@ -82,17 +100,33 @@ mdg_frigates = {
 			type = mdg_ship_hull_frigate
 			modules = {
 				fixed_ship_battery_slot = {
-					module > mdg_ship_light_cannon_1
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
-				fixed_ship_fire_control_system_slot > ship_fire_control_system_0
-				fixed_ship_engine_slot = light_ship_engine
-				fixed_ship_radar_slot = { 
-					any_of = { ship_radar ship_sonar } 
+				fixed_ship_fire_control_system_slot = {
+					any_of = { ship_radar ship_fire_control_system }
+					upgrade > current
 				}
-				fixed_ship_torpedo_slot = ship_torpedo
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				rear_1_custom_slot = ship_depth_charge
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = { 
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
 			}
 		}
 		
@@ -127,23 +161,30 @@ mdg_frigates = {
 			type = mdg_ship_hull_frigate
 			modules = {
 				fixed_ship_battery_slot = {
-					module = mdg_ship_light_cannon
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system_2 ship_fire_control_system_1 }
+					any_of = { ship_radar ship_fire_control_system }
 				}
-				fixed_ship_engine_slot > light_ship_engine_1
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
 				fixed_ship_radar_slot = {
-					any_of = { 
-						ship_radar
-						ship_sonar
-					}
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
 				}
-				fixed_ship_torpedo_slot = ship_torpedo
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
 				rear_1_custom_slot = { 
-					module = ship_depth_charge
+					any_of = { ship_depth_charge }
 					upgrade > current
 				}
 			}
@@ -201,11 +242,23 @@ mdg_escort_frigate = {
 			
 			type = mdg_ship_hull_frigate_1
 			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
 				fixed_ship_fire_control_system_slot = empty
-				fixed_ship_radar_slot = ship_sonar
-				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
 				fixed_ship_torpedo_slot = empty
 				rear_1_custom_slot = {
 					any_of = { ship_depth_charge }
@@ -248,13 +301,31 @@ mdg_escort_frigate = {
 			
 			type = mdg_ship_hull_frigate
 			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
-				fixed_ship_anti_air_slot = ship_anti_air
-				fixed_ship_fire_control_system_slot = ship_radar
-				fixed_ship_radar_slot = ship_sonar
-				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
+				fixed_ship_fire_control_system_slot = {
+					any_of = { ship_radar ship_fire_control_system }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
 				fixed_ship_torpedo_slot = empty
-				rear_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
 				mid_1_custom_slot =  {
 					any_of = { ship_depth_charge }
 					upgrade > current
@@ -326,10 +397,19 @@ mdg_naval_mine_sweeper_frigate = {
 			type = mdg_ship_hull_frigate_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
-				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
 				fixed_ship_torpedo_slot = empty
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
 			}
 		}
 		requirements = {
@@ -366,17 +446,23 @@ mdg_naval_mine_sweeper_frigate = {
 		target_variant = {
 			match_value = 1000.0
 			
-			type = ship_hull_light_1
+			type = mdg_ship_hull_frigate_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon_1 mdg_ship_light_cannon_dp_1 }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
-				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
 				fixed_ship_torpedo_slot = empty
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
 			}
 		}
 		
@@ -438,14 +524,27 @@ mdg_naval_mine_layer_frigate = {
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1 
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
 				fixed_ship_torpedo_slot = empty
-				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_fire_control_system_slot = {
+					any_of = { ship_radar ship_fire_control_system }
+					upgrade > current
+				}
 				fixed_ship_radar_slot = {
 					any_of = { ship_sonar ship_radar }
+					upgrade > current
 				}
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
 			}
 		}
 		
@@ -479,17 +578,23 @@ mdg_naval_mine_layer_frigate = {
 		target_variant = {
 			match_value = 1000.0
 			
-			type = ship_hull_light_1
+			type = mdg_ship_hull_frigate_1
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon_1 mdg_ship_light_cannon_dp_1 }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
-				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
 				fixed_ship_torpedo_slot = empty
-				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
 			}
 		}
 		

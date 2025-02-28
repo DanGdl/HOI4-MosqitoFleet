@@ -41,9 +41,18 @@ mdg_midget_submarine = {
 			
 			type = mdg_ship_hull_midget_submarine
 			modules = {
-				fixed_ship_engine_slot = sub_ship_engine_3
-				fixed_ship_torpedo_slot = ship_torpedo_sub_3
-				mid_1_custom_slot = ship_sub_snorkel
+				fixed_ship_engine_slot = {
+					any_of = { sub_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo_sub }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { ship_sub_snorkel }
+					upgrade > current
+				}
 			}
 		}
 		

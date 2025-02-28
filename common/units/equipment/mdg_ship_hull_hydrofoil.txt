@@ -41,7 +41,6 @@ equipments = {
 					ship_torpedo
 					ship_mine_layer
 					mdg_ship_light_guns
-					ship_depth_charge
 				}
 			}
 			mid_1_custom_slot = {
@@ -49,7 +48,6 @@ equipments = {
 				allowed_module_categories = {
 					ship_mine_layer
 					mdg_ship_light_guns
-					ship_depth_charge
 				}
 			}
 		}
