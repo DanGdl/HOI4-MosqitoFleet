@@ -131,31 +131,32 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 			fixed_ship_torpedo_slot = ship_torpedo_2
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_2
+			rear_1_custom_slot = empty
 		}
-		lg_armor_piercing = 0.1
-		lg_attack = 0
+		lg_armor_piercing = 0.2
+		lg_attack = 0.7
 		
-		torpedo_attack = 2
-		sub_attack = 5
+		torpedo_attack = -7
+		sub_attack = 0
 		
-		anti_air_attack = 0
+		anti_air_attack = 0.1
 		
 		armor_value = 0
 
-		surface_detection = 30
-		sub_detection = 5
-		surface_visibility = 7
-		naval_speed = 30
-		reliability = 0.80
+		surface_detection = 40
+		sub_detection = 0
+		surface_visibility = 8
+		naval_speed = 37
+		reliability = 0.7
 		
-		naval_range = 400
+		naval_range = 500
 		
-		max_strength = 15
+		max_strength = 25
 		
-		fuel_consumption = -2
+		fuel_consumption = 3
 		
-		build_cost_ic = 210
+		build_cost_ic = 100
 		resources = {
 			steel = 1
 		}
