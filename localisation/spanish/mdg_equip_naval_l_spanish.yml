@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Tipo Ch-51"
 
  mdg_hydrofoil:0 "Embarcación con hidroalas"
- mdg_hydrofoil_1:2 "Embarcación con hidroalas I"
- mdg_hydrofoil_1_desc:0 "Descripción de Embarcación con hidroalas I"
+ mdg_hydrofoil_1:2 "Embarcación con hidroalas"
+ mdg_hydrofoil_1_desc:0 "Descripción de Embarcación con hidroalas"
 
  mdg_boat:0 "Bote"
  mdg_boat_1:0 "Bote I"

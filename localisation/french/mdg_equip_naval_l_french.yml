@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Type Ch-51"
 
  mdg_hydrofoil:0 "Bateau hydroptère"
- mdg_hydrofoil_1:0 "Bateau hydroptère I"
- mdg_hydrofoil_1_desc:0 "Description du Bateau hydroptère I"
+ mdg_hydrofoil_1:0 "Bateau hydroptère"
+ mdg_hydrofoil_1_desc:0 "Description du Bateau hydroptère"
 
  mdg_boat:0 "Vedette"
  mdg_boat_1:0 "Vedette I"

@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Classe Ch-51"
 
  mdg_hydrofoil:0 "Barco de hidrofolha"
- mdg_hydrofoil_1:2 "Barco de hidrofolha I"
- mdg_hydrofoil_1_desc:2 "Descrição do barco de hidrofolha I"
+ mdg_hydrofoil_1:2 "Barco de hidrofolha"
+ mdg_hydrofoil_1_desc:2 "Descrição do barco de hidrofolha"
 
  mdg_boat:0 "Barco"
  mdg_boat_1:0 "Barco I"

@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Typ Ch-51"
 
  mdg_hydrofoil:0 "Łódź na poduszce wodnej"
- mdg_hydrofoil_1:0 "Łódź na poduszce wodnej I"
- mdg_hydrofoil_1_desc:0 "Opis Łodzi na poduszce wodnej I"
+ mdg_hydrofoil_1:0 "Łódź na poduszce wodnej"
+ mdg_hydrofoil_1_desc:0 "Opis Łodzi na poduszce wodnej"
 
  mdg_boat:0 "Łódź"
  mdg_boat_1:0 "Łódź I"

@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "タイプ Ch-51"
 
  mdg_hydrofoil:0 "水中翼船"
- mdg_hydrofoil_1:0 "水中翼船 I"
- mdg_hydrofoil_1_desc:0 "水中翼船 I の説明"
+ mdg_hydrofoil_1:0 "水中翼船"
+ mdg_hydrofoil_1_desc:0 "水中翼船 の説明"
 
  mdg_boat:0 "小型艇"
  mdg_boat_1:0 "小型艇 I"

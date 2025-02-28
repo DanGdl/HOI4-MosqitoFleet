@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Тип «Ш-51»"
 
  mdg_hydrofoil:0 "Катер на подводных крыльях"
- mdg_hydrofoil_1:0 "Катер на подводных крыльях I"
- mdg_hydrofoil_1_desc:0 "Катер на подводных крыльях I описание"
+ mdg_hydrofoil_1:0 "Катер на подводных крыльях"
+ mdg_hydrofoil_1_desc:0 "Катер на подводных крыльях описание"
 
  mdg_boat:0 "Катер"
  mdg_boat_1:0 "Катер I"

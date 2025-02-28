@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Typ Ch-51"
 
  mdg_hydrofoil:0 "Tragflügelboot"
- mdg_hydrofoil_1:2 "Tragflügelboot I"
- mdg_hydrofoil_1_desc:0 "Tragflügelboot I Beschreibung"
+ mdg_hydrofoil_1:2 "Tragflügelboot"
+ mdg_hydrofoil_1_desc:0 "Tragflügelboot Beschreibung"
 
  mdg_boat:0 "Boot"
  mdg_boat_1:0 "Boot I"

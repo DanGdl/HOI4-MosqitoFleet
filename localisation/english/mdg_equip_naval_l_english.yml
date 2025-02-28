@@ -40,8 +40,8 @@
  JAP_mdg_corvette_4:0 "Type Ch-51"
 
  mdg_hydrofoil:0 "Hydrofoil boat"
- mdg_hydrofoil_1:2 "Hydrofoil boat I"
- mdg_hydrofoil_1_desc:2 "Hydrofoil boat I description"
+ mdg_hydrofoil_1:2 "Hydrofoil boat"
+ mdg_hydrofoil_1_desc:2 "Hydrofoil boat description"
 
  mdg_boat:0 "Boat"
  mdg_boat_1:0 "Boat I"
