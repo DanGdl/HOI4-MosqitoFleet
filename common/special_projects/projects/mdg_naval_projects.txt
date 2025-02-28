@@ -98,8 +98,7 @@ sp_naval_mdg_hydrofoil = {
 	unique_prototype_rewards = {
 		sp_naval_mdg_hydrofoil_unique_reward_a = {
 			fire_only_once = yes
-			default = yes
-			
+
 			threshold = { 
 				min = 40
 				max = 90

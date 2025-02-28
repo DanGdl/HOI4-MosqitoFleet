@@ -189,7 +189,7 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					module = any_of = { ship_depth_charge }
+					any_of = { ship_depth_charge }
 					upgrade > current
 				}
 			}
@@ -451,7 +451,7 @@ mdg_naval_mine_sweeper_corvette = {
 		target_variant = {
 			match_value = 1000.0
 			
-			type = mdg_ship_hull_corvette_1
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
@@ -583,7 +583,7 @@ mdg_naval_mine_layer_corvette = {
 		target_variant = {
 			match_value = 1000.0
 			
-			type = mdg_ship_hull_corvette_1
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1
