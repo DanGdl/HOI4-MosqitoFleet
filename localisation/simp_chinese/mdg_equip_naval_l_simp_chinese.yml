@@ -167,6 +167,9 @@
  mdg_ship_hull_hydrofoil: "水翼船"
  mdg_ship_hull_hydrofoil_1: "水翼船船体"
 
+ mdg_ship_hull_auxiliary: "辅助巡洋舰"
+ mdg_ship_hull_auxiliary_1: "辅助巡洋舰船体"
+
  mdg_ship_hull_corvette: "轻型护卫舰"
  mdg_ship_hull_corvette_1: "早期轻型护卫舰船体"
  mdg_ship_hull_corvette_1_desc: "早期轻型护卫舰船体描述"

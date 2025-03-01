@@ -44,6 +44,7 @@
 
  mdg_ship_hull_boat_design_cost_factor: "Costo de diseño de bote"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Costo de diseño de embarcación con hidroalas"
+ mdg_ship_hull_auxiliary_design_cost_factor: "Costo de diseño de crucero auxiliar"
  mdg_ship_hull_corvette_design_cost_factor: "Costo de diseño de corbeta"
  mdg_ship_hull_frigate_design_cost_factor: "Costo de diseño de fragata"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Costo de diseño de submarino enano"

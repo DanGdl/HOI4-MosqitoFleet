@@ -172,7 +172,7 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
 
-		reliability = 0.90
+		reliability = 0.85
 		naval_range = 700
 		max_strength = 25
 		build_cost_ic = 338
@@ -201,7 +201,7 @@ equipments = {
 			mid_1_custom_slot = inherit
 		}
 
-		reliability = 0.92
+		reliability = 0.9
 		naval_range = 800
 		max_strength = 30
 		build_cost_ic = 385
@@ -329,7 +329,7 @@ equipments = {
 		sub_detection = 9
 		surface_visibility = 7
 		naval_speed = 32
-		reliability = 0.90
+		reliability = 0.85
 
 		naval_range = 550
 		
@@ -373,7 +373,7 @@ equipments = {
 		sub_detection = 9
 		surface_visibility = 10
 		naval_speed = 34
-		reliability = 0.92
+		reliability = 0.9
 
 		naval_range = 600
 		

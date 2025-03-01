@@ -46,6 +46,7 @@
 
  mdg_ship_hull_boat_design_cost_factor: "Стоимость проекта катера"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Стоимость проекта катера на подводных крыльях"
+ mdg_ship_hull_auxiliary_design_cost_factor: "Стоимость проекта вспомогательного крейсера"
  mdg_ship_hull_corvette_design_cost_factor: "Стоимость проекта корвета"
  mdg_ship_hull_frigate_design_cost_factor: "Стоимость проекта фрегата"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Стоимость проекта сверхмалой субмарины"

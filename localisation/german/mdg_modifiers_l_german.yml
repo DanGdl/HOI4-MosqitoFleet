@@ -44,6 +44,7 @@
 
  mdg_ship_hull_boat_design_cost_factor: "Konstruktionskosten für Bootsrumpf"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Konstruktionskosten für Tragflügelboot-Rumpf"
+ mdg_ship_hull_auxiliary_design_cost_factor: "Konstruktionskosten für Hilfskreuzer"
  mdg_ship_hull_corvette_design_cost_factor: "Konstruktionskosten für Korvettenrumpf"
  mdg_ship_hull_frigate_design_cost_factor: "Konstruktionskosten für Fregattenrumpf"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Rumpf"

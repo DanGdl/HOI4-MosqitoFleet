@@ -202,7 +202,7 @@ equipments = {
 		}
 
 		fuel_consumption = -2
-		reliability = 0.90
+		reliability = 0.85
 		naval_range = 1300
 		max_strength = 35
 		build_cost_ic = 435
@@ -235,7 +235,7 @@ equipments = {
 		}
 
 		fuel_consumption = -2
-		reliability = 0.92
+		reliability = 0.9
 		naval_range = 1400
 		max_strength = 40
 		build_cost_ic = 483
@@ -371,7 +371,7 @@ equipments = {
 		sub_detection = 13
 		surface_visibility = 9
 		naval_speed = 26
-		reliability = 0.90
+		reliability = 0.85
 
 		naval_range = 1300
 		
@@ -417,7 +417,7 @@ equipments = {
 		sub_detection = 13
 		surface_visibility = 9
 		naval_speed = 28
-		reliability = 0.92
+		reliability = 0.9
 
 		naval_range = 1400
 		

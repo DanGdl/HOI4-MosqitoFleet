@@ -44,6 +44,7 @@
 
  mdg_ship_hull_boat_design_cost_factor: "小型艇設計コスト"
  mdg_ship_hull_hydrofoil_design_cost_factor: "水中翼船設計コスト"
+ mdg_ship_hull_auxiliary_design_cost_factor: "補助巡洋艦設計コスト"
  mdg_ship_hull_corvette_design_cost_factor: "コルベット設計コスト"
  mdg_ship_hull_frigate_design_cost_factor: "フリゲート設計コスト"
  mdg_ship_hull_midget_submarine_design_cost_factor: "小型潜水艦設計コスト"

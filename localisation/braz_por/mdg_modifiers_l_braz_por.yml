@@ -44,6 +44,7 @@
 
  mdg_ship_hull_boat_design_cost_factor: "Custo de Projeto de Barco"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Custo de Projeto de Barco Hidrofólio"
+ mdg_ship_hull_auxiliary_design_cost_factor: "Custo de Projeto do Cruzador Auxiliar"
  mdg_ship_hull_corvette_design_cost_factor: "Custo de Projeto de Corveta"
  mdg_ship_hull_frigate_design_cost_factor: "Custo de Projeto de Fragata"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Custo de Projeto de Submarino Anão"

@@ -44,6 +44,7 @@
 
  mdg_ship_hull_boat_design_cost_factor: "Koszt projektu kadłuba łodzi"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Koszt projektu kadłuba łodzi na poduszce wodnej"
+ mdg_ship_hull_auxiliary_design_cost_factor: "Koszt projektu krążownika pomocniczego"
  mdg_ship_hull_corvette_design_cost_factor: "Koszt projektu kadłuba korwety"
  mdg_ship_hull_frigate_design_cost_factor: "Koszt projektu kadłuba fregaty"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Koszt projektu kadłuba miniaturowego okrętu podwodnego"
