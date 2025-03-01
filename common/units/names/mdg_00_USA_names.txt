@@ -29,4 +29,12 @@
         generic = { "FF" }
         unique = {}
     }
+
+	mdg_ship_hull_auxiliary = {
+        prefix = ""
+        generic = { "XAP" }
+        unique = {
+        	"USS Von Steuben" "USS Mount Vernon" "USS Buffalo" "USS Dixie"
+        }
+    }
 }

@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Катер на подводных крыльях"
  mdg_hydrofoil_1_desc: "Катер на подводных крыльях описание"
 
+ mdg_auxiliary: "Вспомогательный крейсер"
+ mdg_auxiliary_1: "Вспомогательный крейсер"
+ mdg_auxiliary_1_desc: "Вспомогательный крейсер описание"
+
  mdg_boat: "Катер"
  mdg_boat_1: "Катер I"
  mdg_boat_2: "Катер II"

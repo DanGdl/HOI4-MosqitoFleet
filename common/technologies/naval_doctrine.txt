@@ -23,6 +23,9 @@ technologies = {
 		destroyer = {
 			surface_detection = 0.10
 		}
+		mdg_auxiliary = {
+			surface_detection = 0.10
+		}
 		mdg_frigate = {
 			surface_detection = 0.10
 		}
@@ -229,6 +232,9 @@ technologies = {
 		mdg_frigate = {
 			max_organisation = 5
 			sub_detection = 0.1
+		}
+		mdg_auxiliary = {
+			max_organisation = 5
 		}
 		destroyer = {
 			max_organisation = 5
@@ -681,6 +687,9 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.1
 		}
+		mdg_auxiliary = {
+			max_organisation = 5
+		}
 		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.1
@@ -973,7 +982,10 @@ technologies = {
 			max_organisation = 10
 			surface_detection = 0.05
 		}
-
+		mdg_auxiliary = {
+			max_organisation = 10
+			surface_detection = 0.05
+		}
 		light_cruiser = {
 			max_organisation = 10
 			surface_detection = 0.05
@@ -1324,6 +1336,11 @@ technologies = {
 			convoy_raiding_coordination = 0.05
 			surface_detection = 0.1
 		}
+		mdg_auxiliary = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.35
+			surface_detection = 0.15
+		}
 		light_cruiser = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.35
@@ -1402,6 +1419,11 @@ technologies = {
 		}
 
 		heavy_cruiser = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.15
+			surface_detection = 0.10
+		}
+		mdg_auxiliary = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
@@ -2002,6 +2024,9 @@ technologies = {
 		light_cruiser = {
 			max_organisation = 20
 		}
+		mdg_auxiliary = {
+			max_organisation = 10
+		}
 		modifier = {
 			naval_strike_targetting_factor = 0.1
 		}
@@ -2291,7 +2316,9 @@ technologies = {
 		light_cruiser = {
 			max_organisation = 20
 		}
-
+		mdg_auxiliary = {
+			max_organisation = 10
+		}
 		navy_carrier_air_agility_factor = 0.10
 
 		###########
@@ -2692,6 +2719,9 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
+		mdg_auxiliary = {
+			max_organisation = 5
+		}
 		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.05
@@ -2851,6 +2881,9 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.10
 		}
+		mdg_auxiliary = {
+			max_organisation = 5
+		}
 		destroyer = {
 			max_organisation = 5
 			sub_detection = 0.10
@@ -2931,6 +2964,10 @@ technologies = {
 			surface_detection = 0.05
 		}
 		mdg_frigate = {
+			max_organisation = 5
+			surface_detection = 0.05
+		}
+		mdg_auxiliary = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
@@ -3183,6 +3220,9 @@ technologies = {
 		mdg_frigate = {
 			max_organisation = 5
 			sub_detection = 0.05
+		}
+		mdg_auxiliary = {
+			max_organisation = 5
 		}
 		destroyer = {
 			max_organisation = 5
@@ -3595,6 +3635,11 @@ technologies = {
 			convoy_raiding_coordination = 0.15
 			surface_detection = 0.10
 		}
+		mdg_auxiliary = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.15
+			surface_detection = 0.10
+		}
 
 		path = {
 			leads_to_tech = patrol_and_ambush_sm
@@ -3772,6 +3817,11 @@ technologies = {
 			max_organisation = 10
 			convoy_raiding_coordination = 0.05
 			surface_detection = 0.1
+		}
+		mdg_auxiliary = {
+			max_organisation = 10
+			convoy_raiding_coordination = 0.35
+			surface_detection = 0.15
 		}
 		destroyer = {
 			max_organisation = 10

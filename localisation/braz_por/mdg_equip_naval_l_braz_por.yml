@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Barco de hidrofolha"
  mdg_hydrofoil_1_desc: "Descrição do barco de hidrofolha"
 
+ mdg_auxiliary: "Cruzador Auxiliar"
+ mdg_auxiliary_1: "Cruzador Auxiliar"
+ mdg_auxiliary_1_desc: "Descrição do Cruzador Auxiliar"
+
  mdg_boat: "Barco"
  mdg_boat_1: "Barco I"
  mdg_boat_2: "Barco II"

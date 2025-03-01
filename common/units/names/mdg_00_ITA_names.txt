@@ -29,4 +29,12 @@
         generic = { "FF" }
         unique = {}
     }
+
+    mdg_ship_hull_auxiliary = {
+        prefix = ""
+        generic = { "IA" }
+        unique = {
+        	"Ramb I" "Ramb II" "Ramb III"
+        }
+    }
 } 

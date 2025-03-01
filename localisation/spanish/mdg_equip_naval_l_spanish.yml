@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Embarcación con hidroalas"
  mdg_hydrofoil_1_desc: "Descripción de Embarcación con hidroalas"
 
+ mdg_auxiliary: "Crucero auxiliar"
+ mdg_auxiliary_1: "Crucero auxiliar"
+ mdg_auxiliary_1_desc: "Descripción de crucero auxiliar"
+
  mdg_boat: "Bote"
  mdg_boat_1: "Bote I"
  mdg_boat_2: "Bote II"

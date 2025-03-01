@@ -28,4 +28,12 @@
         generic = { "FF" }
         unique = {}
     }
+
+	mdg_ship_hull_auxiliary = {
+        prefix = ""
+        generic = { "AMC" }
+        unique = {
+        	"Jervis Bay" "Rawalpindi" "Carnarvon Castle" "Alcantara"
+        }
+    }
 }

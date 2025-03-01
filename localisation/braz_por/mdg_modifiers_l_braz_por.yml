@@ -5,6 +5,9 @@
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Ganho de Experiência no Treinamento de Barcos Hidrofólio"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "Ganho de Experiência em Combate de Barcos Hidrofólio"
 
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Ganho de Experiência no Treinamento de Cruzador Auxiliar"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Ganho de Experiência em Combate de Cruzador Auxiliar"
+
  modifier_experience_gain_mdg_corvette_training_factor: "Ganho de Experiência no Treinamento de Corvetas"
  modifier_experience_gain_mdg_corvette_combat_factor: "Ganho de Experiência em Combate de Corvetas"
 

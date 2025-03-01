@@ -31,6 +31,11 @@ default_role_ratios = {
 		id = mdg_naval_midget_sub
 		value = 100
 	}
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_auxiliary
+		value = 70
+	}
 }
 
 default_role_ratios = {
@@ -117,6 +122,11 @@ default_role_ratios = {
 		type = role_ratio
 		id = mdg_naval_midget_sub
 		value = 20
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_auxiliary
+		value = 30
 	}
 }
 

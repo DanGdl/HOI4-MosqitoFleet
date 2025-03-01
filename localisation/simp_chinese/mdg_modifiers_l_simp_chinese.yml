@@ -5,6 +5,9 @@
  modifier_experience_gain_mdg_hydrofoil_training_factor: "水翼船训练经验获取"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "水翼船战斗经验获取"
 
+ modifier_experience_gain_mdg_auxiliary_training_factor: "辅助巡洋舰训练经验获取"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "辅助巡洋舰战斗经验获取"
+
  modifier_experience_gain_mdg_corvette_training_factor: "轻型护卫舰训练经验获取"
  modifier_experience_gain_mdg_corvette_combat_factor: "轻型护卫舰战斗经验获取"
 

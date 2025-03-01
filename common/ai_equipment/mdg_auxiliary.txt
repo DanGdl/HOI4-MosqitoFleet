@@ -1,0 +1,71 @@
+
+mdg_auxiliarys = {
+	category = naval
+	
+	blocked_for = {
+	}
+	
+	available_for = {
+	}
+	
+	roles = {
+		mdg_naval_auxiliary
+	}
+	
+	priority = {
+		factor = 2500
+		modifier = {
+			factor = 2
+			is_major = no
+		}
+		modifier = {
+			factor = 3
+			num_of_naval_factories < 6
+		}
+		modifier = {
+			factor = 2
+			num_of_naval_factories > 5
+		}
+	}
+	
+	mdg_auxiliary_default = {
+	
+		priority = {
+			factor = 250
+			modifier = {
+				factor = 10
+				is_major = no
+			}
+		}
+		
+		role_icon_index = 2
+		
+		target_variant = {
+			match_value = 2000.0
+			
+			type = mdg_ship_hull_auxiliary
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_light_medium_battery_1
+				rear_2_custom_slot = ship_mine_layer_1
+			}
+		}
+		
+		allowed_modules = {
+			ship_light_medium_battery
+			ship_fire_control_system
+			ship_airplane_launcher
+			light_ship_engine
+			ship_mine_layer
+			ship_anti_air
+			ship_torpedo
+		}
+	}
+}

@@ -95,5 +95,12 @@ categories =  {
 				movement = -0.3
 			}
 		}
+		mdg_auxiliary = {
+			units = {
+				attack = -0.1
+				movement = -0.1
+				defence = -0.1
+			}
+		}
 	}
 }

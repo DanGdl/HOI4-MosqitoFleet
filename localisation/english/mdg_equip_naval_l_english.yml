@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Hydrofoil boat"
  mdg_hydrofoil_1_desc: "Hydrofoil boat description"
 
+ mdg_auxiliary: "Auxiliary cruiser"
+ mdg_auxiliary_1: "Auxiliary cruiser"
+ mdg_auxiliary_1_desc: "Auxiliary cruiser description"
+
  mdg_boat: "Boat"
  mdg_boat_1: "Boat I"
  mdg_boat_2: "Boat II"

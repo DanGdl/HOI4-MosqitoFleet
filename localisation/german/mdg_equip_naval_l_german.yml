@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Tragflügelboot"
  mdg_hydrofoil_1_desc: "Tragflügelboot Beschreibung"
 
+ mdg_auxiliary: "Hilfskreuzer"
+ mdg_auxiliary_1: "Hilfskreuzer"
+ mdg_auxiliary_1_desc: "Beschreibung des Hilfskreuzers"
+
  mdg_boat: "Boot"
  mdg_boat_1: "Boot I"
  mdg_boat_2: "Boot II"

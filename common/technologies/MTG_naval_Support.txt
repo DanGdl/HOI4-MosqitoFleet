@@ -157,6 +157,10 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
+		mdg_auxiliary = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 		destroyer = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
@@ -289,6 +293,10 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 		mdg_frigate = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		mdg_auxiliary = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -458,6 +466,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
+		mdg_auxiliary = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -551,7 +563,10 @@ technologies = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
 		}
-
+		mdg_auxiliary = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -1141,6 +1156,9 @@ technologies = {
 		mdg_frigate = {
 			torpedo_attack = 0.2
 		}
+		mdg_auxiliary = {
+			torpedo_attack = 0.2
+		}
 		destroyer = {
 			torpedo_attack = 0.2
 		}
@@ -1218,6 +1236,9 @@ technologies = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		mdg_frigate = {
+			naval_torpedo_hit_chance_factor = 0.1
+		}
+		mdg_auxiliary = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		destroyer = {
@@ -1753,6 +1774,10 @@ technologies = {
 		destroyer = {
 			lg_attack = 0.05
 			hg_attack = 0.05
+		}
+		mdg_auxiliary = {
+			lg_attack = 0.1
+			hg_attack = 0.1
 		}
 		mdg_frigate = {
 			lg_attack = 0.05

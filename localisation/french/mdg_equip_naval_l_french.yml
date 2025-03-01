@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Bateau hydroptère"
  mdg_hydrofoil_1_desc: "Description du Bateau hydroptère"
 
+ mdg_auxiliary: "Croiseur auxiliaire"
+ mdg_auxiliary_1: "Croiseur auxiliaire"
+ mdg_auxiliary_1_desc: "Description du croiseur auxiliaire"
+
  mdg_boat: "Vedette"
  mdg_boat_1: "Vedette I"
  mdg_boat_2: "Vedette II"

@@ -28,4 +28,10 @@
         generic = { "Frigate" }
         unique = {}
     }
+
+    mdg_ship_hull_auxiliary = {
+        prefix = ""
+        generic = { "AUX" }
+        unique = {}
+    }
 }

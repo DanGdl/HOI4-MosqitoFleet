@@ -40,6 +40,27 @@ animation = {
 	file = "generic_mdg_hydrofoil_idle.anim"
 }
 
+# AUXILIARY
+animation = {
+	name = "generic_mdg_auxiliary_death_animation"
+	file = "generic_mdg_auxiliary_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_auxiliary_attack_animation"
+	file = "generic_mdg_auxiliary_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_auxiliary_defend_animation"
+	file = "generic_mdg_auxiliary_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_auxiliary_idle_animation"
+	file = "generic_mdg_auxiliary_idle.anim"
+}
+
 # CORVETTE
 animation = {
 	name = "generic_mdg_corvette_death_animation"

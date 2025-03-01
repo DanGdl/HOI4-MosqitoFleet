@@ -14,4 +14,9 @@ spriteTypes = {
 		name = "GFX_SD_tv_hydrofoil"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mdg_topview_hydrofoil.dds"
 	}
+
+	spriteType = {
+		name = "GFX_SD_tv_auxiliary"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mdg_topview_auxiliary.dds"
+	}
 }

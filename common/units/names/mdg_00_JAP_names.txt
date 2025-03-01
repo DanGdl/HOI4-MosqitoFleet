@@ -26,6 +26,8 @@
 	mdg_ship_hull_frigate = {
         prefix = ""
         generic = { "CD" }
-        unique = {}
+        unique = {
+        	"Aikoku Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru"
+        }
     }
 }

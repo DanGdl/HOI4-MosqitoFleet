@@ -37,3 +37,12 @@ mio_cat_eq_all_destroyer = {
 		mdg_ship_hull_boat
 	}
 }
+
+mio_cat_eq_all_cruiser = {
+	equipment_type = {
+		ship_hull_cruiser
+
+		# easiest way to add support of MIO for new equipment
+		mdg_auxiliary
+	}
+}

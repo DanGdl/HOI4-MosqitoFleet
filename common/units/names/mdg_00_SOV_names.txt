@@ -28,6 +28,8 @@
 	mdg_ship_hull_frigate = {
         prefix = ""
         generic = { "SKR" }
-        unique = {}
+        unique = {
+        	"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen"
+        }
     }
 }

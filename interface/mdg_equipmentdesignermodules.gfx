@@ -180,6 +180,70 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_torpedo@highlight.dds"
 	}
 
+	# Auxiliary
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_front_medium_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_front_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_front_medium_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_front_light_battery@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_fixed_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_fixed_secondaries@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_fixed_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_fixed_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_fixed_anti_air@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_mid_1_airplane_launcher"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_mid_1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_mid_1_airplane_launcher@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_mid_1_airplane_launcher@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_rear_2_mine_layer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_rear_2_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_rear_2_mine_layer@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_rear_2_mine_layer@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_rear_1_medium_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_rear_2_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_rear_1_medium_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_rear_2_medium_battery@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_mid_2_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_mid_2_torpedo@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_mid_2_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/cruiser_hull_mid_2_torpedo@highlight.dds"
+	}
+
 	# Midget
 	spriteType = {
 		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo"

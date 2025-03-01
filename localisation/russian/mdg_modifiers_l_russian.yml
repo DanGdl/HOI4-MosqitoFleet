@@ -1,12 +1,15 @@
 ﻿l_russian:
  modifier_experience_gain_mdg_boat_training_factor: "Получаемый опыт за подготовку катера"
- modifier_experience_gain_mdg_boat_combat_factor: "Получаемый опыт за подготовку катера"
+ modifier_experience_gain_mdg_boat_combat_factor: "Получаемый боевой опыт катера"
  
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Получаемый опыт за подготовку катера на подводных крыльях"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "Получаемый опыт за подготовку катера на подводных крыльях"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "Получаемый боевой опыт катера на подводных крыльях"
+
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Получаемый опыт за подготовку вспомогательного крейсера"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Получаемыйбоевой опыт вспомогательного крейсера"
 
  modifier_experience_gain_mdg_corvette_training_factor: "Получаемый опыт за подготовку корвета"
- modifier_experience_gain_mdg_corvette_combat_factor: "Получаемый опыт за подготовку корвета"
+ modifier_experience_gain_mdg_corvette_combat_factor: "Получаемый боевой опыт корвета"
 
  modifier_experience_gain_mdg_frigate_training_factor: "Получаемый опыт за подготовку фрегата"
  modifier_experience_gain_mdg_frigate_combat_factor: "Получаемый боевой опыт фрегата"

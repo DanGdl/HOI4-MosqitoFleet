@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "水中翼船"
  mdg_hydrofoil_1_desc: "水中翼船 の説明"
 
+ mdg_auxiliary: "補助巡洋艦"
+ mdg_auxiliary_1: "補助巡洋艦"
+ mdg_auxiliary_1_desc: "補助巡洋艦の説明"
+
  mdg_boat: "小型艇"
  mdg_boat_1: "小型艇 I"
  mdg_boat_2: "小型艇 II"

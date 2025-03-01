@@ -30,4 +30,12 @@
         generic = { "MZ" }
         unique = {}
     }
+
+    mdg_ship_hull_auxiliary = {
+        prefix = ""
+        generic = { "HSK" }
+        unique = {
+        	"Orion" "Atlantis" "Widder" "Thor" "Pinguin" "Stier" "Komet" "Kormoran" "Michel" "Coronel" "Hansa"
+        }
+    }
 }

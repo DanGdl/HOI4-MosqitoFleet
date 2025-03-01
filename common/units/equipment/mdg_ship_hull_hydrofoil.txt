@@ -10,13 +10,6 @@ equipments = {
 		alias = mdg_hydrofoil
 		priority = 2300
 
-		upgrades = {
-			ship_torpedo_upgrade
-			destroyer_engine_upgrade
-			ship_ASW_upgrade
-			ship_anti_air_upgrade
-		}
-
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -132,6 +125,14 @@ equipments = {
 			mid_1_custom_slot = ship_torpedo_2
 			rear_1_custom_slot = empty
 		}
+
+		upgrades = {
+			ship_torpedo_upgrade
+			destroyer_engine_upgrade
+			ship_anti_air_upgrade
+			ship_reliability_upgrade
+		}
+
 		lg_armor_piercing = 0.2
 		lg_attack = 0.7
 		

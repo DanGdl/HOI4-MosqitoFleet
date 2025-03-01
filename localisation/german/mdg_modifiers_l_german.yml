@@ -5,6 +5,9 @@
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Erfahrungsgewinn für Tragflügelboot-Ausbildung"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "Erfahrungsgewinn für Tragflügelboot-Kampf"
 
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Erfahrungsgewinn für Hilfskreuzer-Ausbildung"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Erfahrungsgewinn für Hilfskreuzer-Kampf"
+
  modifier_experience_gain_mdg_corvette_training_factor: "Erfahrungsgewinn für Korvetten-Ausbildung"
  modifier_experience_gain_mdg_corvette_combat_factor: "Erfahrungsgewinn für Korvetten-Kampf"
 

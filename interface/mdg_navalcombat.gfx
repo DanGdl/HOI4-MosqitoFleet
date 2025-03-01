@@ -18,6 +18,12 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	spriteType = { # "auxiliary"
+		name = "GFX_navalcombat_ship_icon_mdg_auxiliary"
+		texturefile = "gfx/interface/navalcombat/ships/mdg_auxiliary.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = { # "frigates"
 		name = "GFX_navalcombat_ship_icon_mdg_frigate"
 		texturefile = "gfx/interface/navalcombat/ships/mdg_frigate.dds"

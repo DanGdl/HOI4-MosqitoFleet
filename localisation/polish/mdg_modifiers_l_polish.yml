@@ -5,6 +5,9 @@
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Doświadczenie z treningu łodzi na poduszce wodnej"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "Doświadczenie bojowe łodzi na poduszce wodnej"
 
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Doświadczenie z treningu krążowników pomocniczych"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Doświadczenie bojowe krążowników pomocniczych"
+
  modifier_experience_gain_mdg_corvette_training_factor: "Doświadczenie z treningu korwet"
  modifier_experience_gain_mdg_corvette_combat_factor: "Doświadczenie bojowe korwet"
 

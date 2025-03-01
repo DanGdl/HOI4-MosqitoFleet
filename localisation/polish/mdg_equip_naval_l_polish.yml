@@ -43,6 +43,10 @@
  mdg_hydrofoil_1: "Łódź na poduszce wodnej"
  mdg_hydrofoil_1_desc: "Opis Łodzi na poduszce wodnej"
 
+ mdg_auxiliary: "Krążownik pomocniczy"
+ mdg_auxiliary_1: "Krążownik pomocniczy"
+ mdg_auxiliary_1_desc: "Opis krążownika pomocniczego"
+
  mdg_boat: "Łódź"
  mdg_boat_1: "Łódź I"
  mdg_boat_2: "Łódź II"

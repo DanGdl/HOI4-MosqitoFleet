@@ -5,6 +5,9 @@
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Gain d'expérience en entraînement des bateaux hydroptères"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "Gain d'expérience en combat des bateaux hydroptères"
 
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Gain d'expérience en entraînement des croiseurs auxiliaires"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Gain d'expérience en combat des croiseurs auxiliaires"
+
  modifier_experience_gain_mdg_corvette_training_factor: "Gain d'expérience en entraînement des corvettes"
  modifier_experience_gain_mdg_corvette_combat_factor: "Gain d'expérience en combat des corvettes"
 
