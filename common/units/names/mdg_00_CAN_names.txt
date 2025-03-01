@@ -1,0 +1,9 @@
+﻿CAN = {
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {
+			"Prince David" "Prince Henry" "Prince Robert"
+		}
+	}
+}

@@ -24,16 +24,16 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-        prefix = "HMS"
-        generic = { "FF" }
-        unique = {}
-    }
+		prefix = "HMS"
+		generic = { "FF" }
+		unique = {}
+	}
 
 	mdg_ship_hull_auxiliary = {
-        prefix = ""
-        generic = { "AMC" }
-        unique = {
-        	"Jervis Bay" "Rawalpindi" "Carnarvon Castle" "Alcantara"
-        }
-    }
+		prefix = ""
+		generic = { "AMC" }
+		unique = {
+			"Jervis Bay" "Worcestershire" "Wolfe" "Voltaire" "Transylvania" "Scotstoun" "Salopian" "Ranpura" "Ranchi" "Rajputana" "Queen of Bermuda" "Pretoria Castle" "Patroclus" "Moreton Bay" "Mooltan" "Montclare" "Maloja" "Letitia" "Laurentic" "Laconia" "Kanimbla" "Hector" "Forfar" "Esperance Bay" "Dunvegan Castle" "Dunnottar Castle" "Derbyshire" "Corfu" "Comorin" "Circassia" "Cilicia" "Chitral" "Cheshire" "Cathay" "Carthage" "Carinthia" "California" "Canton" "California" "Bulolo" "Ausonia" "Aurania" "Asturias" "Ascania" "Rawalpindi" "Carnarvon Castle" "Alcantara" "Alaunia" "Andania" "Antenor" "Antonia" "Arawa"
+		}
+	}
 }

@@ -25,16 +25,16 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-        prefix = ""
-        generic = { "FF" }
-        unique = {}
-    }
+		prefix = ""
+		generic = { "FF" }
+		unique = {}
+	}
 
-    mdg_ship_hull_auxiliary = {
-        prefix = ""
-        generic = { "IA" }
-        unique = {
-        	"Ramb I" "Ramb II" "Ramb III"
-        }
-    }
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "IA" }
+		unique = {
+			"Ramb I" "Ramb II" "Ramb III"
+		}
+	}
 } 

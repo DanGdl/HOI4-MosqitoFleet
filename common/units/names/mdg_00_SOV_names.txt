@@ -26,10 +26,16 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-        prefix = ""
-        generic = { "SKR" }
-        unique = {
-        	"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen"
-        }
-    }
+		prefix = ""
+		generic = { "SKR" }
+		unique = {}
+	}
+
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {
+			"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen"
+		}
+	}
 }

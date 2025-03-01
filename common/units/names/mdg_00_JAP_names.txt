@@ -24,10 +24,16 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-        prefix = ""
-        generic = { "CD" }
-        unique = {
-        	"Aikoku Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru"
-        }
-    }
+		prefix = ""
+		generic = { "CD" }
+		unique = {}
+	}
+
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {
+			"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru" "Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" Saigon Maru" "Ukishima Maru"
+		}
+	}
 }

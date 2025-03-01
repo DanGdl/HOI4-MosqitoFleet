@@ -1,0 +1,9 @@
+﻿NZL = {
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {
+			"Monowai"
+		}
+	}
+}

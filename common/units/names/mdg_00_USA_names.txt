@@ -25,16 +25,16 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-        prefix = ""
-        generic = { "FF" }
-        unique = {}
-    }
+		prefix = ""
+		generic = { "FF" }
+		unique = {}
+	}
 
 	mdg_ship_hull_auxiliary = {
-        prefix = ""
-        generic = { "XAP" }
-        unique = {
-        	"USS Von Steuben" "USS Mount Vernon" "USS Buffalo" "USS Dixie"
-        }
-    }
+		prefix = ""
+		generic = { "XAP" }
+		unique = {
+			"USS Von Steuben" "USS Mount Vernon" "USS Buffalo" "USS Dixie"
+		}
+	}
 }

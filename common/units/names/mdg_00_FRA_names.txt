@@ -1,0 +1,9 @@
+﻿FRA = {
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "X" }
+		unique = {
+			"Aramis" "Colombie" "El Kantara" "Quercy" "Mexique" "Esterel" "Barfleur" "Eridan" "El Djezair" "Djenné" "Charles Plumier" "Ville D'Alger" "Cap des Palmes" "Ville d'Oran" "El Mansour" "Victor Scoelcher"
+		}
+	}
+}

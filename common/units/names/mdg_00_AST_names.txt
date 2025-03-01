@@ -1,0 +1,9 @@
+﻿AST = {
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {
+			"Manoora" "Westralia"
+		}
+	}
+}
