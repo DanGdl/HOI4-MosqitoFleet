@@ -409,10 +409,6 @@
  basic_ship_hull_submarine_desc: "新的潜艇拥有更好的武装以及更佳的稳定性，它们在设计中就考虑到了海军战术的最新发展并拥有更大的航程来满足袭击更远的航运路线的需要。"
  improved_ship_hull_submarine_desc: "关于潜艇在舰队中除了袭击运输船之外还应担任什么角色目前还有很大争议。各国海军都需要一种速度、航程以及武器三方面较为均衡的潜艇。"
  advanced_ship_hull_submarine_desc: "现代潜艇有着更深的测试潜深和更为优化的布局。根据战场上得到的经验，人们还为它们安装了更加合理的武器以及引擎。"
- early_ship_hull_submarine: "早期潜艇船体"
- basic_ship_hull_submarine: "1936潜艇船体"
- improved_ship_hull_submarine: "1940潜艇船体"
- advanced_ship_hull_submarine: "1944潜艇船体"
 
  convoy_sailing_sm: "运输船队航行"
  convoy_sailing_sm_desc: "引入强制性运输让发现敌袭与及时应对更加容易。船多势众会是大趋势。"

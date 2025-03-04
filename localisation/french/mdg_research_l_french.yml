@@ -409,10 +409,6 @@
  basic_ship_hull_submarine_desc: "Mieux armés et plus stables, les nouveaux modèles de sous-marins tirent parti des progrès réalisés dans le domaine des tactiques navales et bénéficient d'un rayon d'action supérieur à celui de leurs prédécesseurs, ce qui leur permet d'opérer sur des routes maritimes plus éloignées."
  improved_ship_hull_submarine_desc: "En dehors des attaques de convois, le rôle des sous-marins reste encore à définir. Un compromis doit être trouvé entre vitesse, rayon d'action et armement."
  advanced_ship_hull_submarine_desc: "Les sous-marins de la dernière génération bénéficient des résultats des tests de plongée en eaux profondes et de l'amélioration de leur agencement. En outre, l'expérience acquise en mer permet de choisir l'armement et la motorisation les plus appropriés."
- early_ship_hull_submarine: "Coque de sous-marin"
- basic_ship_hull_submarine: "Coque de sous-marin 1936"
- improved_ship_hull_submarine: "Coque de sous-marin 1940"
- advanced_ship_hull_submarine: "Coque de sous-marin 1944"
 
  convoy_sailing_sm: "Navigation en convois"
  convoy_sailing_sm_desc: "Rendre obligatoire la navigation en convois permettra de mieux repérer les attaques ennemies et de riposter à temps. L'intervention en nombre suffisant est encore le meilleur moyen d'assurer la sécurité des convois marchands."

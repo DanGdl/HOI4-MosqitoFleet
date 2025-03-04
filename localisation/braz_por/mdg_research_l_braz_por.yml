@@ -409,10 +409,6 @@
  basic_ship_hull_submarine_desc: "Novos designs de submarinos, melhores e com mais armamentos, foram projetados para tirarem vantagens dos avanços das táticas navais. Seu alcance é maior e eles podem atacar rotas de comboios distantes."
  improved_ship_hull_submarine_desc: "O papel do submarino na frota para além de ataques a comboios ainda é um debate. Alcançar um balanço entre a combinação de velocidade, alcance e armamento será chave para os modelos necessários."
  advanced_ship_hull_submarine_desc: "Os submarinos modernos terão layouts eficientes e profundidades de teste maiores. A experiência de campo ajudará a selecionar os armamentos e motores apropriados."
- early_ship_hull_submarine: "Casco de submarino antigo"
- basic_ship_hull_submarine: "Casco de submarino de 1936"
- improved_ship_hull_submarine: "Casco de submarino de 1940"
- advanced_ship_hull_submarine: "Casco de submarino de 1944"
 
  convoy_sailing_sm: "Navegação em comboio"
  convoy_sailing_sm_desc: "Introduzir uma navegação em comboio compulsória tornará mais fácil avistar incursões inimigas e responder a tempo. A segurança em números é o melhor caminho."
