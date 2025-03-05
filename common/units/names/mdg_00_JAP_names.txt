@@ -33,7 +33,7 @@
 		prefix = ""
 		generic = { "AUX" }
 		unique = {
-			"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru" "Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" Saigon Maru" "Ukishima Maru"
+			"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru" "Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru"
 		}
 	}
 }
