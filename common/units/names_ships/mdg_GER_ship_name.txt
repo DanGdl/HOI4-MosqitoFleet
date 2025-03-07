@@ -1,0 +1,90 @@
+﻿GER_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = ""
+	fallback_name = "HSK %s"
+
+	unique = {
+		"Orion" "Atlantis" "Widder" "Thor" "Pinguin" "Stier" "Komet" "Kormoran" "Michel" "Coronel" "Hansa"
+	}
+}
+
+GER_MIDGET_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MIDGETS
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { mdg_ship_hull_midget_submarine }
+
+	prefix = ""
+	fallback_name = "U %s"
+
+	unique = {
+	}
+}
+
+GER_BOAT_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BOATS
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { mdg_ship_hull_boat }
+
+	prefix = ""
+	fallback_name = "S %s"
+
+	unique = {
+	}
+}
+
+GER_HYDROFOIL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_HYDROFOILS
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { mdg_ship_hull_hydrofoil }
+
+	prefix = ""
+	fallback_name = "VS %s"
+
+	unique = {
+	}
+}
+
+GER_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = ""
+	fallback_name = "PA %s"
+
+	unique = {
+	}
+}
+
+GER_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = ""
+	fallback_name = "MZ %s"
+
+	unique = {
+	}
+}

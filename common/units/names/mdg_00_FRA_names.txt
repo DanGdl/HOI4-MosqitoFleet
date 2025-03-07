@@ -1,4 +1,6 @@
 ﻿FRA = {
+	fleet_names_template = FLEET_NAME_FRA
+
 	mdg_ship_hull_auxiliary = {
 		prefix = ""
 		generic = { "X" }

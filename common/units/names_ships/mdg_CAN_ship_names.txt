@@ -1,0 +1,17 @@
+﻿##### CANADA NAME LISTS #####
+### AUXILIARY SHIPS ###
+CAN_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }			
+
+	prefix = "HMCS "							
+	fallback_name = "AUX %s"					
+
+	unique = {											
+		"Prince David" "Prince Henry" "Prince Robert"
+	}
+}

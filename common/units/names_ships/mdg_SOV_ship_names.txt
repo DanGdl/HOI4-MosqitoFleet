@@ -1,0 +1,91 @@
+﻿##### USSR NAME LISTS #####
+SOV_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = ""
+	fallback_name = "AUX %s"
+
+	unique = {
+		"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen"
+	}
+}
+
+SOV_MIDGET_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MIDGETS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { mdg_ship_hull_midget_submarine }
+
+	prefix = ""
+	fallback_name = "Sverhmalaya podvodnaya lodka %s"
+
+	unique = {
+	}
+}
+
+SOV_BOAT_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BOATS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { mdg_ship_hull_boat }
+
+	prefix = ""
+	fallback_name = "TKA %s"
+
+	unique = {
+	}
+}
+
+SOV_HYDROFOIL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_HYDROFOILS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { mdg_ship_hull_hydrofoil }
+
+	prefix = ""
+	fallback_name = "ПК %s"
+
+	unique = {
+	}
+}
+
+SOV_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = ""
+	fallback_name = "MO %s"
+
+	unique = {
+	}
+}
+
+SOV_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = ""
+	fallback_name = "СКР %s"
+
+	unique = {
+	}
+}

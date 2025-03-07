@@ -1,0 +1,91 @@
+﻿##### JAPAN NAME LISTS #####
+JAP_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = ""
+	fallback_name = "AUX %s"
+
+	unique = {
+		"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru" "Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru"
+	}
+}
+
+JAP_MIDGET_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MIDGETS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_midget_submarine }
+
+	prefix = ""
+	fallback_name = "I %s"
+
+	unique = {
+	}
+}
+
+JAP_BOAT_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BOATS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_boat }
+
+	prefix = ""
+	fallback_name = "T %s"
+
+	unique = {
+	}
+}
+
+JAP_HYDROFOIL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_HYDROFOILS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_hydrofoil }
+
+	prefix = ""
+	fallback_name = "PG %s"
+
+	unique = {
+	}
+}
+
+JAP_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = ""
+	fallback_name = "P %s"
+
+	unique = {
+	}
+}
+
+JAP_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = ""
+	fallback_name = "CD %s"
+
+	unique = {
+	}
+}

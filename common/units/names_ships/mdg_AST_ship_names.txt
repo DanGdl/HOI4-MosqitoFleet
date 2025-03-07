@@ -1,0 +1,17 @@
+﻿##### AUSTRALIA NAME LISTS #####
+### AUXILIARY SHIPS ###
+AST_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }			
+
+	prefix = "HMAS "							
+	fallback_name = "AUX %s"					
+
+	unique = {											
+		"Manoora" "Westralia"
+	}
+}

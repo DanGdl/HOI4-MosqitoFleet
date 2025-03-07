@@ -1,0 +1,16 @@
+﻿##### FRANCE NAME LISTS #####
+FRA_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = ""
+	fallback_name = "X %s"
+	
+	unique = {
+		"Aramis" "Colombie" "El Kantara" "Quercy" "Mexique" "Esterel" "Barfleur" "Eridan" "El Djezair" "Djenné" "Charles Plumier" "Ville D'Alger" "Cap des Palmes" "Ville d'Oran" "El Mansour" "Victor Scoelcher"
+	}
+}

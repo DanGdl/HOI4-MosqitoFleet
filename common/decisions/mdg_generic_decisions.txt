@@ -40,17 +40,17 @@ mdg_generic_refit_civilian_ships_category = {
 	    #    cancel_if_not_visible = yes
 	    #}
 
-	    custom_cost_text = mdg_decision_cost_12_convoy_3_NavXP
+	    custom_cost_text = mdg_decision_cost_15_convoy_10_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 2
+			has_navy_experience > 9
 			has_equipment = {
-				convoy > 12
+				convoy > 15
 			}
 		}
 
 		available = {	
 			has_equipment = {
-   				convoy > 12
+   				convoy > 15
 	  		}	
 	  		if = {
 				limit = {
@@ -65,9 +65,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 30
 
 		complete_effect = {
+			navy_experience = -10
 			add_equipment_to_stockpile = { 
 				type = convoy_1
-				amount = -12
+				amount = -15
 			}
 		}
 		remove_effect = {
@@ -84,7 +85,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {	
 						name = "Refitted Mine Layer" 		
 						type = mdg_ship_hull_auxiliary_1
-						name_group = "DEN_DD_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = ship_light_battery_1
@@ -177,17 +178,17 @@ mdg_generic_refit_civilian_ships_category = {
 	    #    cancel_if_not_visible = yes
 	    #}
 
-	    custom_cost_text = mdg_decision_cost_17_convoy_5_NavXP
+	    custom_cost_text = mdg_decision_cost_20_convoy_20_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 4
+			has_navy_experience > 20
 			has_equipment = {
-				convoy > 17
+				convoy > 20
 			}
 		}
 
 		available = {	
 			has_equipment = {
-   				convoy > 17
+   				convoy > 20
 	  		}	
 	  		if = {
 				limit = {
@@ -202,9 +203,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 60
 
 		complete_effect = {
+			navy_experience = -20
 			add_equipment_to_stockpile = { 
 				type = convoy_1
-				amount = -17
+				amount = -20
 			}
 		}
 		remove_effect = {
@@ -221,7 +223,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {	
 						name = "Refitted Escort Ship" 		
 						type = mdg_ship_hull_auxiliary_1
-						name_group = "DEN_DD_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = ship_light_battery_1
@@ -314,17 +316,17 @@ mdg_generic_refit_civilian_ships_category = {
 	    #    cancel_if_not_visible = yes
 	    #}
 
-		custom_cost_text = mdg_decision_cost_25_convoy_10_NavXP
+		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 9
+			has_navy_experience > 30
 			has_equipment = {
-				convoy > 25
+				convoy > 30
 			}
 		}
 
 		available = {
 			has_equipment = {
-   				convoy > 25
+   				convoy > 30
 	  		}
 	  		if = {
 				limit = {
@@ -339,9 +341,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 90
 
 		complete_effect = {
+			navy_experience = -30
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -25
+				amount = -30
 			}
 		}
 		remove_effect = {
@@ -358,7 +361,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {
 						name = "Refitted Cruiser"
 						type = mdg_ship_hull_auxiliary_1
-						name_group = DEN_CL_HISTORICAL #Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = ENG_AUXILIARY_HISTORICAL #Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = ship_light_medium_battery_1

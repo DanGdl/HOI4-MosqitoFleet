@@ -1,4 +1,5 @@
 ﻿ITA = {
+	fleet_names_template = FLEET_NAME_ITA
 
 	mdg_ship_hull_midget_submarine = {
 		prefix = "RSmg" # Regio Sommergibile

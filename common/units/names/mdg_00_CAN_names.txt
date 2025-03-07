@@ -1,6 +1,8 @@
 ﻿CAN = {
+	fleet_names_template = FLEET_NAME_CAN
+
 	mdg_ship_hull_auxiliary = {
-		prefix = ""
+		prefix = "HMCS"
 		generic = { "AUX" }
 		unique = {
 			"Prince David" "Prince Henry" "Prince Robert"

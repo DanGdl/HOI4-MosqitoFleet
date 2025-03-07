@@ -1,0 +1,91 @@
+﻿##### Britain NAME LISTS #####
+ENG_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = "HMS "
+	fallback_name = "AMC %s"
+
+	unique = {
+		"Jervis Bay" "Worcestershire" "Wolfe" "Voltaire" "Transylvania" "Scotstoun" "Salopian" "Ranpura" "Ranchi" "Rajputana" "Queen of Bermuda" "Pretoria Castle" "Patroclus" "Moreton Bay" "Mooltan" "Montclare" "Maloja" "Letitia" "Laurentic" "Laconia" "Kanimbla" "Hector" "Forfar" "Esperance Bay" "Dunvegan Castle" "Dunnottar Castle" "Derbyshire" "Corfu" "Comorin" "Circassia" "Cilicia" "Chitral" "Cheshire" "Cathay" "Carthage" "Carinthia" "California" "Canton" "California" "Bulolo" "Ausonia" "Aurania" "Asturias" "Ascania" "Rawalpindi" "Carnarvon Castle" "Alcantara" "Alaunia" "Andania" "Antenor" "Antonia" "Arawa"
+	}
+}
+
+ENG_MIDGET_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MIDGETS
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { mdg_ship_hull_midget_submarine }
+
+	prefix = "HMS "
+	fallback_name = "X %s"
+
+	unique = {
+	}
+}
+
+ENG_BOAT_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BOATS
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { mdg_ship_hull_boat }
+
+	prefix = "HMS "
+	fallback_name = "MBT %s"
+
+	unique = {
+	}
+}
+
+ENG_HYDROFOIL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_HYDROFOILS
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { mdg_ship_hull_hydrofoil }
+
+	prefix = "HMS "
+	fallback_name = "HPC %s"
+
+	unique = {
+	}
+}
+
+ENG_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = "HMS "
+	fallback_name = "LCS %s"
+
+	unique = {
+	}
+}
+
+ENG_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { ENG }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = "HMS "
+	fallback_name = "FF %s"
+
+	unique = {
+	}
+}

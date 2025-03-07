@@ -1,40 +1,40 @@
 ﻿USA = {
 	fleet_names_template = FLEET_NAME_USA
 	mdg_ship_hull_midget_submarine = {
-		prefix = ""
+		prefix = "USS "
 		generic = { "SSM" }
 		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
-		prefix = ""
+		prefix = "USS "
 		generic = { "PT" }
 		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
-		prefix = ""
+		prefix = "USS "
 		generic = { "PGH" }
 		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {
-		prefix = ""
+		prefix = "USS "
 		generic = { "PG" }
 		unique = {}
 	}
 	
 	mdg_ship_hull_frigate = {
-		prefix = ""
+		prefix = "USS "
 		generic = { "FF" }
 		unique = {}
 	}
 
 	mdg_ship_hull_auxiliary = {
-		prefix = ""
+		prefix = "USS "
 		generic = { "XAP" }
 		unique = {
-			"USS Von Steuben" "USS Mount Vernon" "USS Buffalo" "USS Dixie"
+			"Von Steuben" "Mount Vernon" "Buffalo" "Dixie"
 		}
 	}
 }

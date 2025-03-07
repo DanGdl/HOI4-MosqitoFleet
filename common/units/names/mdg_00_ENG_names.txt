@@ -1,4 +1,6 @@
 ﻿ENG = {
+	fleet_names_template = FLEET_NAME_ENG
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "HMS"
 		generic = { "X" }
