@@ -261,7 +261,17 @@ spriteTypes = {
 		name = "GFX_SM_mdg_auxiliary_mid_2_torpedo@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_mid_2_torpedo@highlight.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_rear_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_rear_depth_charge@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_mdg_auxiliary_rear_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_rear_depth_charge@highlight.dds"
+	}
+	
+	
 	# Midget
 	spriteType = {
 		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo"

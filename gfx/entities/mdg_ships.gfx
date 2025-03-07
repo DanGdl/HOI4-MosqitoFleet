@@ -30,12 +30,12 @@ objectTypes = {
 	pdxmesh = {
 		name = "generic_mdg_auxiliary_mesh"
 		file = "gfx/models/units/ships/generic_mdg_auxiliary.mesh"
-		
+				
 		animation = { id = "idle"			type = "generic_mdg_auxiliary_idle_animation" }
-		animation = { id = "attack"			type = "generic_mdg_auxiliary_attack_animation" }
-		animation = { id = "defend"			type = "generic_mdg_auxiliary_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_mdg_auxiliary_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_mdg_auxiliary_defend_animation" }
+		#animation = { id = "attack"			type = "generic_mdg_auxiliary_attack_animation" }
+		#animation = { id = "defend"			type = "generic_mdg_auxiliary_defend_animation" }
+		#animation = { id = "damaged_attack"		type = "generic_mdg_auxiliary_attack_animation" }
+		#animation = { id = "damaged_defend"		type = "generic_mdg_auxiliary_defend_animation" }
 		animation = { id = "death"			type = "generic_mdg_auxiliary_death_animation" }
 	}
 

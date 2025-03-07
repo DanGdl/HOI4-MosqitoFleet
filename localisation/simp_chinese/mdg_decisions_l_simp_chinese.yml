@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+ mdg_generic_refit_civilian_ships_category: "$generic_refit_civilian_ships_category$"
+ mdg_generic_refit_civilian_ships_category_desc: "$generic_refit_civilian_ships_category_desc$"
+
+ mdg_refit_to_mine_layer: "改装为布雷舰"
+ mdg_decision_cost_12_convoy_3_NavXP: "£GFX_topbar_convoys §Y12§! £navy_experience §Y3§!"
+ mdg_decision_cost_12_convoy_3_NavXP_blocked: "£GFX_topbar_convoys §R12§! £navy_experience §R3§!"
+ mdg_decision_cost_12_convoy_3_NavXP_tooltip: "执行此决议需要花费§Y12§!£GFX_topbar_convoys 和§Y3§!£navy_experience"
+
+ mdg_refit_to_escort: "改装为护航舰"
+ mdg_decision_cost_17_convoy_5_NavXP: "£GFX_topbar_convoys §Y17§! £navy_experience §Y5§!"
+ mdg_decision_cost_17_convoy_5_NavXP_blocked: "£GFX_topbar_convoys §R17§! £navy_experience §R5§!"
+ mdg_decision_cost_17_convoy_5_NavXP_tooltip: "执行此决议需要花费§Y17§!£GFX_topbar_convoys 和§Y5§!£navy_experience"
+
+ mdg_refit_to_cruiser: "改装为辅助巡洋舰"
+ mdg_decision_cost_25_convoy_10_NavXP: "£GFX_topbar_convoys §Y25§! £navy_experience §Y10§!"
+ mdg_decision_cost_25_convoy_10_NavXP_blocked: "£GFX_topbar_convoys §R25§! £navy_experience §R10§!"
+ mdg_decision_cost_25_convoy_10_NavXP_tooltip: "执行此决议需要花费§Y25§!£GFX_topbar_convoys 和§Y10§!£navy_experience"

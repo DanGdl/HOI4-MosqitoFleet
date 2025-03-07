@@ -6,5 +6,5 @@ tags={
 	"Military"
 }
 name="MosquitoFleet"
-supported_version="1.15.*"
+supported_version="1.16.*"
 remote_file_id="3167195673"

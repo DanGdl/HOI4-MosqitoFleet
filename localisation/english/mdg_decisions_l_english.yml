@@ -1,0 +1,18 @@
+﻿l_english:
+ mdg_generic_refit_civilian_ships_category: "$generic_refit_civilian_ships_category$"
+ mdg_generic_refit_civilian_ships_category_desc: "$generic_refit_civilian_ships_category_desc$"
+
+ mdg_refit_to_mine_layer: "Refit the vessel into a minelayer"
+ mdg_decision_cost_12_convoy_3_NavXP: "£GFX_topbar_convoys §Y12§! £navy_experience §Y3§!"
+ mdg_decision_cost_12_convoy_3_NavXP_blocked: "£GFX_topbar_convoys §R12§! £navy_experience §R3§!"
+ mdg_decision_cost_12_convoy_3_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y12§! £navy_experience §Y3§! to take the decision"
+
+ mdg_refit_to_escort: "Refit the vessel into an escort ship"
+ mdg_decision_cost_17_convoy_5_NavXP: "£GFX_topbar_convoys §Y17§! £navy_experience §Y5§!"
+ mdg_decision_cost_17_convoy_5_NavXP_blocked: "£GFX_topbar_convoys §R17§! £navy_experience §R5§!"
+ mdg_decision_cost_17_convoy_5_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y17§! £navy_experience §Y5§! to take the decision"
+
+ mdg_refit_to_cruiser: "Refit ship to auxiliary cruiser"
+ mdg_decision_cost_25_convoy_10_NavXP: "£GFX_topbar_convoys §Y25§! £navy_experience §Y10§!"
+ mdg_decision_cost_25_convoy_10_NavXP_blocked: "£GFX_topbar_convoys §R25§! £navy_experience §R10§!"
+ mdg_decision_cost_25_convoy_10_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y25§! £navy_experience §Y10§! to take the decision"
