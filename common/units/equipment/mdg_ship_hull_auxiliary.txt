@@ -78,18 +78,18 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 12
-		naval_speed = 17
+		naval_speed = 15
 		reliability = 0.7
 		
 		naval_range = 10000
 		
 		max_strength = 60
 
-		fuel_consumption = -3
+		fuel_consumption = -4
 		
 		naval_light_gun_hit_chance_factor = 0.1
 
-		build_cost_ic = 0
+		build_cost_ic = 70
 		resources = {
 			steel = 1
 		}
