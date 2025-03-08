@@ -22,7 +22,7 @@ sp_naval_mdg_hydrofoil = {
 				has_tech = basic_ship_hull_light
 			}
 			else = {
-				has_tech = mdg_basic_destroyer
+				has_tech = basic_destroyer
 			}
 		}
 	}
