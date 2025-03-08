@@ -1,7 +1,6 @@
 ﻿l_german:
  early_destroyer: "Zerstörer"
  basic_destroyer: "Zerstörer II"
- improved_destroyer: "Zerstörer III"
  advanced_destroyer: "Zerstörer IV"
  early_destroyer_desc: "Um die Sicherheit von Handelskonvois zu gewährleisten, müssen die Zerstörer aus dem Ersten Weltkrieg umgewandelt und weiterentwickelt werden. Indem wir Schiffe mit mehr Torpedos ausstatten, schaffen wir zusätzliche Möglichkeiten zum Angriff."
  basic_destroyer_desc: "Eine größere Torpedoreichweite und schnellere Nachladegeschwindigkeiten sorgen zusammen mit neuen Bewaffnungsarten wie Flugabwehrgeschützen dafür, dass unsere Zerstörer effizient und vielseitig bleiben."
@@ -405,10 +404,6 @@
  basic_ship_hull_light: "Zerstörerrumpf von 1936"
  improved_ship_hull_light: "Zerstörerrumpf von 1940"
  advanced_ship_hull_light: "Zerstörerrumpf von 1944"
- early_ship_hull_submarine_desc: "U-Boote sind schwer zu entdeckende Schiffe, die dazu dienen, ungeschützte Konvois auszuschalten. Die frühen Modelle aus dem Ersten Weltkrieg ebnen den Weg für neue Methoden der Marinekriegsführung."
- basic_ship_hull_submarine_desc: "Neue U-Boot-Modelle sind besser bewaffnet und stabiler. Sie ermöglichen den Einsatz neuer Marinetaktiken und besitzen eine größere Reichweite. So können sie auch abgelegene Konvoirouten attackieren."
- improved_ship_hull_submarine_desc: "Es ist noch umstritten, welche Rolle das U-Boot in einer Flotte einnehmen kann und soll, abgesehen von Angriffen auf Konvois. Ein ausgewogenes Verhältnis zwischen Geschwindigkeit, Reichweite und Bewaffnung stellt den Schlüssel für das erforderliche Modell dar."
- advanced_ship_hull_submarine_desc: "Moderne U-Boote werden sich durch eine größere Testtiefe und eine effizientere Konstruktion auszeichnen. Erfahrungen aus dem Feldeinsatz werden dazu dienen, die geeignete Bewaffnung und die richtigen Maschinen auszuwählen."
 
  convoy_sailing_sm: "Konvoifahrten"
  convoy_sailing_sm_desc: "Wir machen es zur Pflicht, im Konvoi zu fahren. Das macht es leichter, feindliche Angriffe zu sehen und rechtzeitig zu reagieren. In der Masse ist man sicherer."

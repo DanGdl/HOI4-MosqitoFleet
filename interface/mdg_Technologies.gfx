@@ -1,5 +1,5 @@
 spriteTypes = {
-
+	### NAVAL TECH ###
 	# AUXILIARIES
 	SpriteType = {
 		name = "GFX_mdg_auxiliary_medium"
@@ -9,61 +9,6 @@ spriteTypes = {
 		name = "GFX_mdg_ship_hull_auxiliary_medium"
 		texturefile = "gfx/interface/technologies/mdg_auxiliary.dds"
 	}
-
-	### NAVAL TECH ###
-	# OVERRIDE
-	# DESTROYERS
-	SpriteType = {
-		name = "GFX_mdg_modern_destroyer_medium"
-		texturefile = "gfx/interface/technologies/modern_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_semi_modern_destroyer_medium"
-		texturefile = "gfx/interface/technologies/semi_modern_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_advanced_destroyer_medium"
-		texturefile = "gfx/interface/technologies/advanced_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_improved_destroyer_medium"
-		texturefile = "gfx/interface/technologies/improved_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_basic_destroyer_medium"
-		texturefile = "gfx/interface/technologies/basic_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_early_destroyer_medium"
-		texturefile = "gfx/interface/technologies/early_destroyer.dds"
-	}
-
-	# SUBMARINES
-	SpriteType = {
-		name = "GFX_mdg_modern_submarine_medium"
-		texturefile = "gfx/interface/technologies/modern_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_semi_modern_submarine_medium"
-		texturefile = "gfx/interface/technologies/semi_modern_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_advanced_submarine_medium"
-		texturefile = "gfx/interface/technologies/advanced_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_improved_submarine_medium"
-		texturefile = "gfx/interface/technologies/improved_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_basic_submarine_medium"
-		texturefile = "gfx/interface/technologies/basic_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_mdg_early_submarine_medium"
-		texturefile = "gfx/interface/technologies/early_submarine.dds"
-	}
-	# EOF: OVERRIDE
 
 	# HYDROFOILS
 	SpriteType = {
@@ -979,13 +924,6 @@ spriteTypes = {
 	}
 
 
-	# FUTURE VERSIONS
-	# BRANDERS
-	#SpriteType = {
-	#	name = "GFX_mdg_radio_boat_medium"
-	#	texturefile = "gfx/interface/technologies/mdg_radio_boat.dds"
-	#}
-
 
 
 
@@ -1054,7 +992,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_mosquitos_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_moquitos_sm.dds"
+		texturefile = "gfx/interface/technologies/mdg_mosquitos_sm.dds"
 	}
 
 	# central branch (end)

@@ -1,7 +1,6 @@
 ﻿l_simp_chinese:
  early_destroyer: "驱逐舰 I型"
  basic_destroyer: "驱逐舰 II型"
- improved_destroyer: "驱逐舰 III型"
  advanced_destroyer: "驱逐舰 IV型"
  early_destroyer_desc: "为了确保运输船的安全，第一次世界大战的驱逐舰需要更改它们的定位并改变它们的设计。新的设计将拥有更多的鱼雷来增加与敌人交火的机会。"
  basic_destroyer_desc: "更长的鱼雷射程和更快的装填时间，外加诸如高角炮塔的新设计将使我们的驱逐舰变成更高效的多面手。"
@@ -405,10 +404,6 @@
  basic_ship_hull_light: "1936驱逐舰船体"
  improved_ship_hull_light: "1940驱逐舰船体"
  advanced_ship_hull_light: "1944驱逐舰船体"
- early_ship_hull_submarine_desc: "潜艇是擅长于对付无武装的运输船的暗影猎手。第一次世界大战中的早期潜艇改变了海战的面貌。"
- basic_ship_hull_submarine_desc: "新的潜艇拥有更好的武装以及更佳的稳定性，它们在设计中就考虑到了海军战术的最新发展并拥有更大的航程来满足袭击更远的航运路线的需要。"
- improved_ship_hull_submarine_desc: "关于潜艇在舰队中除了袭击运输船之外还应担任什么角色目前还有很大争议。各国海军都需要一种速度、航程以及武器三方面较为均衡的潜艇。"
- advanced_ship_hull_submarine_desc: "现代潜艇有着更深的测试潜深和更为优化的布局。根据战场上得到的经验，人们还为它们安装了更加合理的武器以及引擎。"
 
  convoy_sailing_sm: "运输船队航行"
  convoy_sailing_sm_desc: "引入强制性运输让发现敌袭与及时应对更加容易。船多势众会是大趋势。"

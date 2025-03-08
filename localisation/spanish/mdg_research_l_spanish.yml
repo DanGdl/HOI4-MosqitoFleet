@@ -1,7 +1,6 @@
 ﻿l_spanish:
  early_destroyer: "Destructor"
  basic_destroyer: "Destructor II"
- improved_destroyer: "Destructor III"
  advanced_destroyer: "Destructor IV"
  early_destroyer_desc: "Para garantizar la seguridad de los convoyes, los destructores de la Gran Guerra deben ser repensados y desarrollados. Armar buques con más torpedos dará más oportunidades para entablar combate."
  basic_destroyer_desc: "Mayor alcance del torpedos y velocidad de recarga, junto con nuevos tipos de armamentos como torretas antiaéreas, permitirá a nuestros destructores seguir siendo eficientes y versátiles."
@@ -405,10 +404,6 @@
  basic_ship_hull_light: "Casco de destructor (1936)"
  improved_ship_hull_light: "Casco de destructor (1940)"
  advanced_ship_hull_light: "Casco de destructor (1944)"
- early_ship_hull_submarine_desc: "Los submarinos son buques sigilosos diseñados para acabar con los convoyes desprotegidos. Los primeros modelos de la Gran Guerra allanan el camino para nuevos métodos de guerra naval."
- basic_ship_hull_submarine_desc: "Los nuevos diseños de submarino, mejor armados y más estables, están pensados para aprovechar los avances en estrategia naval y tienen un mayor alcance, de modo que pueden atacar a rutas lejanas de convoyes."
- improved_ship_hull_submarine_desc: "Aún se debate el papel del submarino en la flota más allá de los ataques a convoyes. Conseguir un equilibrio entre velocidad, alcance y armamento será la clave del modelo necesario."
- advanced_ship_hull_submarine_desc: "Los submarinos modernos contarán con una profundidad de prueba incrementada y trazados eficaces, aprovechando la experiencia sobre el terreno para seleccionar motores y armamento adecuados."
 
  convoy_sailing_sm: "Navegar en convoy"
  convoy_sailing_sm_desc: "La introducción de la navegación en convoy facilitará la detección de incursiones enemigas para responder a tiempo. El camino a seguir pasa por la seguridad del grupo."

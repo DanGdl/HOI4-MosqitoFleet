@@ -12,6 +12,7 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_light_1
+
 			mdg_ship_hull_frigate_1
 			mdg_ship_hull_corvette_1
 			mdg_ship_hull_boat_1
@@ -82,6 +83,7 @@ technologies = {
 		
 		enable_equipments = {
 			ship_hull_light_2
+
 			mdg_ship_hull_frigate_2
 			mdg_ship_hull_corvette_2
 			mdg_ship_hull_boat_2
@@ -140,6 +142,7 @@ technologies = {
 		
 		enable_equipments = {
 			ship_hull_light_3
+
 			mdg_ship_hull_frigate_3
 			mdg_ship_hull_corvette_3
 			mdg_ship_hull_boat_3
@@ -196,6 +199,7 @@ technologies = {
 		
 		enable_equipments = {
 			ship_hull_light_4
+
 			mdg_ship_hull_frigate_4
 			mdg_ship_hull_corvette_4
 			mdg_ship_hull_boat_4

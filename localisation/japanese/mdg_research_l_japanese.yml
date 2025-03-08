@@ -1,7 +1,6 @@
 ﻿l_japanese:
  early_destroyer: "駆逐艦 I"
  basic_destroyer: "駆逐艦 II"
- improved_destroyer: "駆逐艦 III"
  advanced_destroyer: "駆逐艦 IV"
  early_destroyer_desc: "輸送船団の安全確保のために先の大戦時の駆逐艦を改装し再就役させるべきである。より多くの魚雷を搭載した戦闘艦がより多くの交戦の機会を得る。"
  basic_destroyer_desc: "長射程の魚雷と迅速な再装填、それに対空砲等の新兵器が駆逐艦に汎用性と効率性を与える。"
@@ -405,10 +404,6 @@
  basic_ship_hull_light: "1936年型駆逐艦船体"
  improved_ship_hull_light: "1940年型駆逐艦船体"
  advanced_ship_hull_light: "1944年型駆逐艦船体"
- early_ship_hull_submarine_desc: "潜水艦は無防備な輸送船団を発見されることなく攻撃するために設計された。先の大戦では、初期の潜水艦は海戦の新戦法を提示した。"
- basic_ship_hull_submarine_desc: "より良い武装と安定性を有した新型の潜水艦は、発達した海軍戦術や長い航続距離を生かし、遠方の船団航路を攻撃できる。"
- improved_ship_hull_submarine_desc: "輸送船団への攻撃以外での潜水艦の役割についてはいまだ結論が出ていない。速度、航続距離、そして武装をどのようなバランスで組み合わせるかが新設計の要件となるだろう。"
- advanced_ship_hull_submarine_desc: "実地経験を活用した適切な武装や機関の選択、最大潜行深度の増大と効率的な設計こそが近代的潜水艦の特徴となるだろう。"
 
  convoy_sailing_sm: "船団航法"
  convoy_sailing_sm_desc: "輸送船への航行法の熟知は、容易な索敵と敵襲への迅速な対応を可能にする。集団的な行動は、輸送船への被害をより減らすことに繋がるだろう。"

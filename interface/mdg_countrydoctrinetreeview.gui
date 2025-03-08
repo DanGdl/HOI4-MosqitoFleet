@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "countrydoctrineview"
-		position = { x = -3 y = 78 }
+		position = { x=-3 y=78 }
 		size = { width = 100%% height = 100%% }
 		fade_time = 400
 		fade_type = linear
@@ -398,7 +398,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "naval_doctrine_folder"
-			position = { x = 0 y = 47 }
+			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -413,28 +413,26 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "size_filler"
-				position = { x = 0 y = 0 }
-				size = { width = 2055 height = 100% }
+				position = { x=0 y=0 }
+				size = { width = 1565 height = 100% }
 			}
-
-
 
 			iconType = {
 				name ="fleet_in_being_bg"
 				spriteType = "GFX_fleet_in_being_bg"
-				position = { x = 85 y = 33 }
+				position = { x=85 y=33 }
 			}			
 				
 			iconType = {
 				name ="trade_interdiction_bg"
 				spriteType = "GFX_trade_interdiction_bg"
-				position = { x = 575 y = 33 }
+				position = { x=575 y=33 }
 			}	
 	
 			iconType = {
 				name ="base_strike_bg"
 				spriteType = "GFX_base_strike_bg"
-				position = { x = 1052 y = 33 }
+				position = { x=1052 y=33 }
 			}			
 			
 			iconType = {
@@ -443,13 +441,12 @@ guiTypes = {
 				position = { x = 1529 y = 33 }
 			}
 
-
 			instantTextBoxType = {
 				name = "fleet_in_being_title"
 				position = { x = 120 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
-				borderSize = { x = 0 y = 4 }
+				borderSize = {x = 0 y = 4}
 				text = "TITLE_FLEET_IN_BEING"
 				maxWidth = 400
 				maxHeight = 122
@@ -462,7 +459,7 @@ guiTypes = {
 				position = { x = 130 y = 70 }
 				textureFile = ""
 				font = "hoi_20b"
-				borderSize = { x = 0 y = 4 }
+				borderSize = {x = 0 y = 4}
 				text = "FLEET_IN_BEING_DESC"
 				maxWidth = 380
 				maxHeight = 122
@@ -470,13 +467,12 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
-
 			instantTextBoxType = {
 				name = "trade_interdiction_title"
 				position = { x = 610 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
-				borderSize = { x = 0 y = 4 }
+				borderSize = {x = 0 y = 4}
 				text = "TITLE_TRADE_INTERDICTION"
 				maxWidth = 400
 				maxHeight = 122
@@ -489,7 +485,7 @@ guiTypes = {
 				position = { x = 610 y = 70 }
 				textureFile = ""
 				font = "hoi_20b"
-				borderSize = { x = 0 y = 4 }
+				borderSize = {x = 0 y = 4}
 				text = "TRADE_INTERDICTION_DESC"
 				maxWidth = 380
 				maxHeight = 122
@@ -497,13 +493,12 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
-
 			instantTextBoxType = {
 				name = "base_strike_title"
 				position = { x = 1085 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
-				borderSize = { x = 0 y = 4 }
+				borderSize = {x = 0 y = 4}
 				text = "TITLE_BASE_STRIKE"
 				maxWidth = 400
 				maxHeight = 122
@@ -516,14 +511,13 @@ guiTypes = {
 				position = { x = 1095 y = 70 }
 				textureFile = ""
 				font = "hoi_20b"
-				borderSize = { x = 0 y = 4 }
+				borderSize = {x = 0 y = 4}
 				text = "BASE_STRIKE_DESC"
 				maxWidth = 380
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-
 
 			# 490 475
 			instantTextBoxType = {
@@ -552,33 +546,32 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
-
-
 			gridboxtype = {
 				name = "fleet_in_being_tree"
-				position = { x = 80 y = 172 }
+				position = { x=80 y=172 }
 				size = { width = 478 height = 1000 }
-				slotsize = { width = 60 height = 60 }
+				slotsize = { width=60 height= 60 }
 				format = "UP"
 
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x = 0 y = -150 }					
+					position = { x=0 y=-150 }					
 				}					
+				
 			}
 
 			gridboxtype = {
 				name = "trade_interdiction_tree"
-				position = { x = 560 y = 172 }
+				position = { x=560 y=172 }
 				size = { width = 480 height = 1000 }
-				slotsize = { width = 60 height = 60 }
+				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x = 0 y = -150 }					
+					position = { x=0 y=-150 }					
 				}
 			}
 
@@ -648,7 +641,13 @@ guiTypes = {
 				name ="operational_destruction_bg"
 				spriteType = "GFX_operational_destruction_bg"
 				position = { x=1100 y=33 }
-			}			
+			}
+	
+#			iconType = {
+#				name ="strategic_destruction_bg"
+#				spriteType = "GFX_strategic_destruction_bg"
+#				position = { x=1567 y=33 }
+#			}			
 			
 			instantTextBoxType = {
 				name = "strategic_destruction_title"
@@ -721,7 +720,7 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-			
+ 			
 # 			instantTextBoxType = {
 #				name = "strategic_destruction_title"
 #				position = { x = 1580 y = 35 }
@@ -746,6 +745,7 @@ guiTypes = {
 #				Orientation = "UPPER_LEFT"
 #			}
 
+			
 			gridboxtype = {
 				#strategic_destruction_tree Needs to be named after first tech (air_superiority)
 				name = "air_superiority_tree"
@@ -791,7 +791,7 @@ guiTypes = {
 				}
 			}
 		}
-
+		
 		containerWindowType = {
 			name = "special_forces_doctrine_folder"
 			position = { x=0 y=47 }
@@ -955,7 +955,7 @@ guiTypes = {
 				
 			}	 
 		}
-
+		
 		containerWindowType = {
 			name = "folder_tabs"
 			position = { x=350 y=7 }
@@ -968,7 +968,6 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_doctrine_tab_land
 			}
-
 			instantTextBoxType = {
 				name = "army_doctrine_folder_title"
 				text = "land_doctrine"
@@ -979,7 +978,6 @@ guiTypes = {
 				format = center
 				alwaystransparent = "yes"
 			}
-
 			iconType = {
 				name = "highlight_land_doctrine_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
@@ -987,7 +985,6 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}
-
 			buttonType = {
 				name = "naval_doctrine_folder_tab"
 				position = { x = 0 y = 0 }
@@ -995,7 +992,6 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_doctrine_tab_naval
 			}
-
 			instantTextBoxType = {
 				name = "navy_doctrine_folder_title"
 				text = "naval_doctrine"
@@ -1005,8 +1001,7 @@ guiTypes = {
 				maxHeight = 20
 				format = center
 				alwaystransparent = "yes"
-			}
-
+			}			
 			buttonType = {
 				name = "air_doctrine_folder_tab"
 				position = { x = 250 y = 0 }
@@ -1014,17 +1009,16 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_doctrine_tab_air
 			}
-
 			instantTextBoxType = {
 				name = "air_doctrine_folder_title"
 				text = "air_doctrine"
-				position = { x = 310 y = 18 }
+				position = { x=310 y=18}
 				font = "hoi_20bs"
 				maxWidth = 160
 				maxHeight = 20
 				format = center
 				alwaystransparent = "yes"
-			}
+			}	
 			buttonType = {
 				name = "special_forces_doctrine_folder_tab"
 				position = { x = 504 y = 0 }
