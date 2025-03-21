@@ -792,33 +792,39 @@ script_enum_equipment_bonus_type = {
 	mdg_boat_2
 	mdg_boat_3
 	mdg_boat_4
+	mdg_boat_5
 	mdg_ship_hull_boat
 	mdg_ship_hull_boat_1
 	mdg_ship_hull_boat_2
 	mdg_ship_hull_boat_3
 	mdg_ship_hull_boat_4
+	mdg_ship_hull_boat_5
 
 	mdg_corvette
 	mdg_corvette_1
 	mdg_corvette_2
 	mdg_corvette_3
 	mdg_corvette_4
+	mdg_corvette_5
 	mdg_ship_hull_corvette
 	mdg_ship_hull_corvette_1
 	mdg_ship_hull_corvette_2
 	mdg_ship_hull_corvette_3
 	mdg_ship_hull_corvette_4
+	mdg_ship_hull_corvette_5
 
 	mdg_frigate
 	mdg_frigate_1
 	mdg_frigate_2
 	mdg_frigate_3
 	mdg_frigate_4
+	mdg_frigate_5
 	mdg_ship_hull_frigate
 	mdg_ship_hull_frigate_1
 	mdg_ship_hull_frigate_2
 	mdg_ship_hull_frigate_3
 	mdg_ship_hull_frigate_4
+	mdg_ship_hull_frigate_5
 
 	mdg_midget_submarine
 	mdg_midget_submarine_1

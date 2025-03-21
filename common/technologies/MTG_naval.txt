@@ -307,6 +307,7 @@ technologies = {
 	}
 
 	modern_ship_hull_light = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_light_5
