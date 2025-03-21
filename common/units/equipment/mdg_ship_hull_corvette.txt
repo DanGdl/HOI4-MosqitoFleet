@@ -240,6 +240,48 @@ equipments = {
 		manpower = 300
 	}
 
+	mdg_ship_hull_corvette_5 = {
+		abbreviation = "hc_5"
+		year = 1948
+
+		archetype = mdg_ship_hull_corvette
+		priority = 2500
+		parent = mdg_ship_hull_corvette_4
+
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					ship_anti_air
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
+				}
+			}
+			mid_1_custom_slot = inherit
+		}
+
+		fuel_consumption = -2
+		reliability = 0.9
+		naval_range = 1600
+		max_strength = 45
+		build_cost_ic = 500
+		resources = {
+			steel = 3
+		}
+		manpower = 350
+	}
+
 
 	# VANILA GANE
 
@@ -435,5 +477,52 @@ equipments = {
 			steel = 2
 		}		
 		manpower = 300
+	}
+
+	mdg_corvette_5 = {
+		year = 1948
+
+		archetype = mdg_ship_hull_corvette
+		priority = 2500
+		parent = mdg_corvette_4
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_torpedo_slot = ship_torpedo_4
+			rear_1_custom_slot = ship_depth_charge_4
+			mid_1_custom_slot = empty
+		}
+		lg_armor_piercing = -0.5
+		lg_attack = 0
+		torpedo_attack = -11
+		sub_attack = 3
+
+		anti_air_attack = -3.5
+
+		armor_value = 0
+
+		surface_detection = 43
+		sub_detection = 15
+		surface_visibility = 9
+		naval_speed = 28
+		reliability = 0.9
+
+		naval_range = 1600
+
+		max_strength = 45
+
+		type = {
+			screen_ship
+		}
+
+		build_cost_ic = 0
+		resources = {
+			steel = 3
+		}
+		manpower = 350
 	}
 }

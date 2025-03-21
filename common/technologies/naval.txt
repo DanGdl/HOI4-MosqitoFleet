@@ -234,9 +234,9 @@ technologies = {
 		enable_equipments = {
 			destroyer_5
 
-			mdg_frigate_3
-			mdg_corvette_3
-			mdg_boat_3
+			mdg_frigate_5
+			mdg_corvette_5
+			mdg_boat_5
 		}
 
 		research_cost = 2

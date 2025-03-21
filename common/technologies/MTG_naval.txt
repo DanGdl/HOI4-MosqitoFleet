@@ -310,6 +310,10 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_light_5
+
+			mdg_ship_hull_frigate_5
+			mdg_ship_hull_corvette_5
+			mdg_ship_hull_boat_5
 		}
 
 		research_cost = 2
@@ -353,6 +357,13 @@ technologies = {
 			dd_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+
+			mdg_ff_tech
+			mdg_lcs_tech
+			mdg_pt_tech
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
