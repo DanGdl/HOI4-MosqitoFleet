@@ -63,8 +63,14 @@ guiTypes = {
 				name ="mass_assault_bg"
 				spriteType = "GFX_mass_assault_bg"
 				position = { x=1535 y=33 }
-			}		
-			
+			}
+
+			iconType = {
+				name ="r56_guerilla_warfare_bg"
+				spriteType = "GFX_r56_guerilla_warfare_bg"
+				position = { x=2013 y=33 }
+			}
+
 			instantTextBoxType = {
 				name = "mob_warfare_title"
 				position = { x = 120 y = 35 }
@@ -112,6 +118,19 @@ guiTypes = {
 				borderSize = {x = 0 y = 4}
 				text = "MASS_ASSAULT_DOCTRINE_LABEL"
 				maxWidth = 400
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "r56_guerilla_warfare_title"
+				position = { x = 2050 y = 35 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "Asymmetrical Warfare Doctrine"
+				maxWidth = 404
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
@@ -168,7 +187,20 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-			
+
+			instantTextBoxType = {
+				name = "r56_guerilla_warfare_desc"
+				position = { x = 2100 y = 90 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 4}
+				text = "ASYMMETRICAL_WARFARE_DOCTRINE_DESC"
+				maxWidth = 300
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle1"
 				position = { x = 110 y = 435 }
@@ -336,7 +368,63 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
 			}
-				
+
+			instantTextBoxType = {
+				name = "r56_guerilla_warfare_subtitle1"
+				position = { x = 2050 y = 435 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "R56_DEEP_INFILTRATION_LABEL"
+				maxWidth = 150
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "INFILTRATION_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "r56_guerilla_warfare_subtitle2"
+				position = { x = 2290 y = 435 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "R56_MILITA_LABEL"
+				maxWidth = 150
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "R56_MILITA_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "r56_guerilla_warfare_subtitle3"
+				position = { x = 2050 y = 919 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "R56_LAST_STAND_LABEL"
+				maxWidth = 150
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "R56_LAST_STAND_LABEL_TT"
+			}
+
+			instantTextBoxType = {
+				name = "r56_guerilla_warfare_subtitle4"
+				position = { x = 2290 y = 919 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "R56_BREAKOUT_LABEL"
+				maxWidth = 150
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "R56_BREAKOUT_LABEL_TT"
+			}
+
 			gridboxtype = {
 				name = "mobile_warfare_tree"
 				position = { x=80 y=172 }
@@ -390,9 +478,22 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}					
-				
+					position = { x=0 y=-150 }
+				}
+
+			}
+			gridboxtype = {
+				name = "r56_guerilla_warfare_tree"
+				position = { x=2000 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }
+				}
 			}
 		}
 
@@ -830,8 +931,15 @@ guiTypes = {
 				name ="paratroopers_bg"
 				spriteType = "GFX_paratroopers_bg"
 				position = { x=1050 y=33 }
-			}		
-			
+			}
+
+			iconType = {
+				name ="shocktroops_bg"
+				spriteType = "GFX_r56_shocktroop_techtree_bg"
+				position = { x=1530 y=33 }
+			}
+
+
 			instantTextBoxType = {
 				name = "mountaineers_title"
 				position = { x = 120 y = 35 }
@@ -865,6 +973,19 @@ guiTypes = {
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
 				text = "PARATROOPERS_DOCTRINE_LABEL"
+				maxWidth = 400
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "shocktroops_title"
+				position = { x = 1560 y = 35 }
+				textureFile = ""
+				font = "hoi_22tech"
+				borderSize = {x = 0 y = 4}
+				text = "SHOCKTROOPS_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -909,7 +1030,20 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-				
+
+			instantTextBoxType = {
+				name = "shocktroops_desc"
+				position = { x = 1600 y = 90 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 4}
+				text = "SHOCKTROOPS_DOCTRINE_DESC"
+				maxWidth = 350
+				maxHeight = 122
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
+
 			gridboxtype = {
 				name = "special_forces_mountaineers_tree"
 				position = { x=80 y=172 }
@@ -950,10 +1084,25 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}					
-				
-			}	 
+					position = { x=0 y=-150 }
+				}
+
+			}
+
+			gridboxtype = {
+				name = "special_forces_shocktroops_tree"
+				position = { x=1520 y=172 }
+				size = { width = 478 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }
+				}
+
+			}
 		}
 		
 		containerWindowType = {
@@ -969,7 +1118,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_land
 			}
 			instantTextBoxType = {
-				name = "army_doctrine_folder_title"
+				name = "army_doctrine_title"
 				text = "land_doctrine"
 				position = { x=-190 y=18}
 				font = "hoi_20bs"
@@ -993,7 +1142,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_naval
 			}
 			instantTextBoxType = {
-				name = "navy_doctrine_folder_title"
+				name = "navy_doctrine_title"
 				text = "naval_doctrine"
 				position = { x=60 y=18}
 				font = "hoi_20bs"
@@ -1010,7 +1159,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_air
 			}
 			instantTextBoxType = {
-				name = "air_doctrine_folder_title"
+				name = "air_doctrine_title"
 				text = "air_doctrine"
 				position = { x=310 y=18}
 				font = "hoi_20bs"
@@ -1027,7 +1176,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_air
 			}
 			instantTextBoxType = {
-				name = "special_forces_doctrine_folder_title"
+				name = "special_forces_doctrine_title"
 				text = "special_forces"
 				position = { x=564 y=18}
 				font = "hoi_20bs"

@@ -40,15 +40,7 @@ technologies = {
 		}
 		mines_planting_by_fleets_factor = 0.1
 		#####
-		on_research_complete = {
-			if = {
-				limit = { has_dlc = "Gotterdammerung"}
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_underway_replenishment
-				}
-			}
-		}
+
 
 		xor = { trade_interdiction base_strike small_fleet }
 
@@ -484,6 +476,7 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
+		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -970,9 +963,7 @@ technologies = {
 		doctrine_name = "TITLE_TRADE_INTERDICTION"
 
 		# This tree is focused on sinking convoys, and boosting Subs and all types of Cruiser. It has some boosts for CVs and Battleships, but the CVs should be a bit worse and the BBs a lot worse than Fleet in being's.
-
-		xp_research_type = navy
-
+		
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
@@ -1747,6 +1738,7 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
+		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -1897,16 +1889,7 @@ technologies = {
 			leads_to_tech =  convoy_escorts_bs
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			if = {
-				limit = { has_dlc = "Gotterdammerung"}
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_underway_replenishment
-				}
-			}
-		}
-		xp_research_type = navy
+
 		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
@@ -2410,6 +2393,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 			cat_base_strike
+			submarine_doctrine
 		}
 
 		folder = {
@@ -2466,6 +2450,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 			cat_base_strike
+			submarine_doctrine
 		}
 
 		folder = {
@@ -2809,6 +2794,7 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
+		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -3075,7 +3061,7 @@ technologies = {
 			max_organisation = 5
 			sub_detection = 0.05
 		}
-
+		convoy_retreat_speed = 0.05
 		convoy_escort_efficiency = 0.05
 
 		path = {

@@ -5,6 +5,8 @@ tags={
 	"Graphics"
 	"Military"
 }
-name="MosquitoFleet"
+dependencies={
+	"The Road to 56"
+}
+name="MosquitoFleetRT56"
 supported_version="1.16.*"
-remote_file_id="3167195673"

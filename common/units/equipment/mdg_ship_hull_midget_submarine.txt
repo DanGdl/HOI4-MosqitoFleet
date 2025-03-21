@@ -65,9 +65,9 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
-		sub_visibility = 15
+		sub_visibility = 18
 		naval_speed = 8.3
-		reliability = 0.6
+		reliability = 0.65
 		
 		naval_range = 500
 		
@@ -182,7 +182,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		
+
 		manpower = 100
 	}
 
