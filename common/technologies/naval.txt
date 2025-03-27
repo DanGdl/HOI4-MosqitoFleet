@@ -1,7 +1,8 @@
 technologies = {
 
 	early_destroyer = {
-
+		#show_equipment_icon = yes
+		
 		enable_equipments = {
 			destroyer_1
 
@@ -50,7 +51,8 @@ technologies = {
 	}
 
 	basic_destroyer = {
-
+		#show_equipment_icon = yes
+		
 		enable_equipments = {
 			destroyer_2
 
@@ -99,7 +101,8 @@ technologies = {
 	}
 
 	improved_destroyer = {
-
+		#show_equipment_icon = yes
+		
 		enable_equipments = {
 			destroyer_3
 
@@ -148,7 +151,8 @@ technologies = {
 	}
 
 	advanced_destroyer = {
-
+		#show_equipment_icon = yes
+		
 		enable_equipments = {
 			destroyer_4
 
@@ -1246,7 +1250,8 @@ technologies = {
 	}
 
 	basic_submarine = {
-
+		#show_equipment_icon = yes
+		
 		enable_equipments = {
 			submarine_2
 
@@ -1300,7 +1305,8 @@ technologies = {
 	}
 
 	improved_submarine = {
-
+		#show_equipment_icon = yes
+		
 		enable_equipments = {
 			submarine_3
 

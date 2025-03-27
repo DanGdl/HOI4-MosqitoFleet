@@ -82,7 +82,7 @@ equipments = {
 		armor_value = 0
 		
 		surface_detection = 20
-		sub_detection = 1
+		sub_detection = 2.5
 		surface_visibility = 9
 		naval_speed = 28
 		reliability = 0.80
@@ -139,6 +139,7 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 
+		sub_detection = 3
 		reliability = 0.85
 		naval_range = 1200
 		max_strength = 25
@@ -186,6 +187,7 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
 
+		sub_detection = 3.5
 		fuel_consumption = -2
 		reliability = 0.85
 		naval_range = 1300
@@ -229,6 +231,7 @@ equipments = {
 			mid_1_custom_slot = inherit			
 		}
 
+		sub_detection = 4
 		fuel_consumption = -2
 		reliability = 0.9
 		naval_range = 1400
