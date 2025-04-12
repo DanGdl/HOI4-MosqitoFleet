@@ -448,3 +448,8 @@
  mio_cat_tech_all_mdg_corvette_and_modules: "Alle Korvetten-Technologien"
  mio_cat_tech_all_mdg_boat_and_modules: "Alle Boot-Technologien"
  mio_cat_tech_all_mdg_ssm_and_modules: "Alle Kleinst-U-Boot-Technologien"
+
+ mdg_ff_tech: "Fregattenmodelle"
+ mdg_lcs_tech: "Korvettenmodelle"
+ mdg_pt_tech: "Schnellbootmodelle"
+ mdg_ssm_tech: "Kleinst-U-Boot-Modelle"

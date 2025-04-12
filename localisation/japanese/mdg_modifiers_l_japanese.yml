@@ -53,3 +53,8 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "小型潜水艦設計コスト"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "「モスキート」特性経験値獲得"
+
+ mdg_ff_tech_research: "フリゲート艦研究速度"
+ mdg_lcs_tech_research: "コルベット艦研究速度"
+ mdg_pt_tech_research: "小型艇研究速度"
+ mdg_ssm_tech_research: "超小型潜水艦研究速度"

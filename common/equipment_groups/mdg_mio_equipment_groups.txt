@@ -43,6 +43,6 @@ mio_cat_eq_all_cruiser = {
 		ship_hull_cruiser
 
 		# easiest way to add support of MIO for new equipment
-		mdg_auxiliary
+		mdg_ship_hull_auxiliary
 	}
 }

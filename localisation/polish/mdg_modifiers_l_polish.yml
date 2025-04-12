@@ -53,3 +53,8 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Koszt projektu kadłuba miniaturowego okrętu podwodnego"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Przyrost doświadczenia cechy „Komar”"
+
+ mdg_ff_tech_research: "Tempo badań fregat"
+ mdg_lcs_tech_research: "Tempo badań korwet"
+ mdg_pt_tech_research: "Tempo badań kutrów"
+ mdg_ssm_tech_research: "Tempo badań miniaturowych okrętów podwodnych"

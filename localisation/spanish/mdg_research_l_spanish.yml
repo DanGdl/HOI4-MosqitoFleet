@@ -448,3 +448,8 @@
  mio_cat_tech_all_mdg_corvette_and_modules: "Todas las Tecnologías de Corbetas"
  mio_cat_tech_all_mdg_boat_and_modules: "Todas las Tecnologías de Botes"
  mio_cat_tech_all_mdg_ssm_and_modules: "Todas las Tecnologías de Submarinos enanos"
+
+ mdg_ff_tech: "Modelos de fragatas"
+ mdg_lcs_tech: "Modelos de corbetas"
+ mdg_pt_tech: "Modelos de lanchas"
+ mdg_ssm_tech: "Modelos de submarinos enanos"

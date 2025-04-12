@@ -53,3 +53,8 @@
  mdg_ship_hull_corvette_design_cost_factor: "Стоимость проекта корвета"
  mdg_ship_hull_frigate_design_cost_factor: "Стоимость проекта фрегата"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Стоимость проекта сверхмалой субмарины"
+
+ mdg_ff_tech_research: "Темпы исследований фрегатов"
+ mdg_lcs_tech_research: "Темпы исследований корветов"
+ mdg_pt_tech_research: "Темпы исследований катеров"
+ mdg_ssm_tech_research: "Темпы исследований сверхмалых субмарин"

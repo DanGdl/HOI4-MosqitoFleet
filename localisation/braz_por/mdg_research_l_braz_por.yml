@@ -449,3 +449,7 @@
  mio_cat_tech_all_mdg_boat_and_modules: "Todas as Tecnologias de Barcos"
  mio_cat_tech_all_mdg_ssm_and_modules: "Todas as Tecnologias de Submarinos Anões"
 
+ mdg_ff_tech: "Modelos de Fragatas"
+ mdg_lcs_tech: "Modelos de Corvetas"
+ mdg_pt_tech: "Modelos de Barcos"
+ mdg_ssm_tech: "Modelos de Submarinos Anões"

@@ -53,3 +53,8 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Rumpf"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Erfahrungsgewinn für „Moskito“-Eigenschaft"
+
+ mdg_ff_tech_research: "Forschungsgeschwindigkeit für Fregatten"
+ mdg_lcs_tech_research: "Forschungsgeschwindigkeit für Korvetten"
+ mdg_pt_tech_research: "Forschungsgeschwindigkeit für Schnellboote"
+ mdg_ssm_tech_research: "Forschungsgeschwindigkeit für Kleinst-U-Boote"

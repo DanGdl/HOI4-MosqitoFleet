@@ -53,3 +53,8 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Costo de diseño de submarino enano"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Ganancia de experiencia del rasgo Mosquito"
+
+ mdg_ff_tech_research: "Velocidad de investigación de fragatas"
+ mdg_lcs_tech_research: "Velocidad de investigación de corbetas"
+ mdg_pt_tech_research: "Velocidad de investigación de lanchas"
+ mdg_ssm_tech_research: "Velocidad de investigación de submarinos enanos"

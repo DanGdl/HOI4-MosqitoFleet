@@ -52,3 +52,8 @@
  mdg_ship_hull_frigate_design_cost_factor: "Custo de Projeto de Fragata"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Custo de Projeto de Submarino Anão"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Ganho de XP do Traço Mosquito"
+
+ mdg_ff_tech_research: "Velocidade de Pesquisa de Fragatas"
+ mdg_lcs_tech_research: "Velocidade de Pesquisa de Corvetas"
+ mdg_pt_tech_research: "Velocidade de Pesquisa de Barcos"
+ mdg_ssm_tech_research: "Velocidade de Pesquisa de Submarinos Anões"
