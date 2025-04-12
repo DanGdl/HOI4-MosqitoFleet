@@ -304,6 +304,7 @@ ideas = {
 				mdg_ship_hull_boat_design_cost_factor = -0.6
 				mdg_ship_hull_frigate_design_cost_factor = -0.6
 				mdg_ship_hull_corvette_design_cost_factor = -0.6
+				mdg_ship_hull_hydrofoil_design_cost_factor = -0.6
 			}
 			ai_will_do = {
 				factor = 1
@@ -352,6 +353,7 @@ ideas = {
 			modifier = {
 				naval_manufacturer_cost_factor = -0.8
 				ship_hull_cruiser_design_cost_factor = -0.6
+				mdg_ship_hull_auxiliary_design_cost_factor = -0.6
 			}
 			ai_will_do = {
 				factor = 1
