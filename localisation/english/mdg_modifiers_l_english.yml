@@ -52,3 +52,8 @@
  mdg_ship_hull_frigate_design_cost_factor: "Frigate Design Cost"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Midget Submarine Design Cost"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Mosquito Trait XP Gain"
+
+ mdg_ff_tech_research: "Frigate Research Speed"
+ mdg_lcs_tech_research: "Corvette Research Speed"
+ mdg_pt_tech_research: "Boat Research Speed"
+ mdg_ssm_tech_research: "Midget Submarine Research Speed"

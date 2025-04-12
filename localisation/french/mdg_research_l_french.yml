@@ -448,3 +448,8 @@
  mio_cat_tech_all_mdg_corvette_and_modules: "Toutes les technologies des corvettes"
  mio_cat_tech_all_mdg_boat_and_modules: "Toutes les technologies des vedettes"
  mio_cat_tech_all_mdg_ssm_and_modules: "Toutes les technologies des sous-marins de poche"
+
+ mdg_ff_tech: "Modèles de frégates"
+ mdg_lcs_tech: "Modèles de corvettes"
+ mdg_pt_tech: "Modèles de vedettes"
+ mdg_ssm_tech: "Modèles de sous-marins de poche"

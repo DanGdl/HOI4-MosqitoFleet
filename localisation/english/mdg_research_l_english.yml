@@ -448,3 +448,8 @@
  mio_cat_tech_all_mdg_corvette_and_modules: "All Corvette Technologies"
  mio_cat_tech_all_mdg_boat_and_modules: "All Boat Technologies"
  mio_cat_tech_all_mdg_ssm_and_modules: "All Midget Submarine Technologies"
+
+ mdg_ff_tech: "Frigate Models"
+ mdg_lcs_tech: "Corvette Models"
+ mdg_pt_tech: "Boat Models"
+ mdg_ssm_tech: "Midget submarine Models"

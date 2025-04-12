@@ -448,3 +448,8 @@
  mio_cat_tech_all_mdg_corvette_and_modules: "所有轻型护卫舰科技"
  mio_cat_tech_all_mdg_boat_and_modules: "所有小型舰艇科技"
  mio_cat_tech_all_mdg_ssm_and_modules: "所有微型潜艇科技"
+
+ mdg_ff_tech: "护卫舰型号"
+ mdg_lcs_tech: "轻型护卫舰型号"
+ mdg_pt_tech: "小型舰艇型号"
+ mdg_ssm_tech: "微型潜艇型号"

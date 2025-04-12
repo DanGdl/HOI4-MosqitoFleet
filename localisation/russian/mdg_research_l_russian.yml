@@ -448,3 +448,8 @@
  mio_cat_tech_all_mdg_corvette_and_modules: "Все технологии корветов"
  mio_cat_tech_all_mdg_boat_and_modules: "Все технологии катеров"
  mio_cat_tech_all_mdg_ssm_and_modules: "Все технологии сверхмалых подводных лодок"
+
+ mdg_ff_tech: "Модели фрегатов"
+ mdg_lcs_tech: "Модели корветов"
+ mdg_pt_tech: "Модели катеров"
+ mdg_ssm_tech: "Модели сверхмалых субмарин"

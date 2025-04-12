@@ -53,3 +53,8 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Coût de conception des sous-marins de poche"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Gain d'expérience du trait Moustique"
+
+ mdg_ff_tech_research: "Vitesse de recherche des frégates"
+ mdg_lcs_tech_research: "Vitesse de recherche des corvettes"
+ mdg_pt_tech_research: "Vitesse de recherche des vedettes"
+ mdg_ssm_tech_research: "Vitesse de recherche des sous-marins de poche"

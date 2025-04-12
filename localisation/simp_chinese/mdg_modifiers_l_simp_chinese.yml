@@ -53,3 +53,8 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "微型潜艇设计成本"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "“蚊子”特性经验获取"
+
+ mdg_ff_tech_research: "护卫舰研究速度"
+ mdg_lcs_tech_research: "轻型护卫舰研究速度"
+ mdg_pt_tech_research: "小型舰艇研究速度"
+ mdg_ssm_tech_research: "微型潜艇研究速度"
