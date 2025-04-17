@@ -1,3 +1,5 @@
+# animations for midgets not needed till it can use generic submarine animations
+
 # BOAT
 animation = {
 	name = "generic_mdg_boat_death_animation"
