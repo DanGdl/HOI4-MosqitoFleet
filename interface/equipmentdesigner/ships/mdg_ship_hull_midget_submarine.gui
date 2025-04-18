@@ -1,4 +1,5 @@
 ################# Equipment Designer Window layouts: Midget submarine (new format examples) #################
+# English midget is used as generic too
 guiTypes = {
 
 	################# Equipment Archetype: mdg_ship_hull_midget_submarine #################
@@ -16,6 +17,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
+			# spriteType = "GFX_SD_tv_midget_submarine_eng" # from file "interface/mdg_equipmentdesignerview_eng.gfx"
 			spriteType = "GFX_SD_tv_midget_submarine"
 			position = { x = 0 y = 0 }
 		}
@@ -38,8 +40,9 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
+						# spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_eng" # from file "interface/mdg_equipmentdesignermodules_eng.gfx"
 						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo"
-						position = { x = 340 y = 0 }
+						position = { x = 158 y = 0 }
 					}
 				}
 
@@ -50,8 +53,9 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint_highlight"
+						# spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_eng@highlight" # from file "interface/mdg_equipmentdesignermodules_eng.gfx"
 						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo@highlight"
-						position = { x = 340 y = 0 }
+						position = { x = 158 y = 0 }
 					}
 				}
 			}
