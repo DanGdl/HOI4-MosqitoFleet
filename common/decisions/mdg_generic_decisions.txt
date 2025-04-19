@@ -1,423 +1,5 @@
 mdg_generic_refit_civilian_ships_category = {
 	
-	mdg_refit_to_mine_layer = {
-		cost = 15
-		icon = GFX_decision_generic_merge_plant_ship
-		fire_only_once = no
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
-		}
-
-		visible = {
-			has_war = yes
-			any_owned_state = {
-				is_coastal = yes
-			}
-		}
-		allowed = {
-			always = yes
-		}
-		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
-
-	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
-		custom_cost_trigger = {
-			has_navy_experience > 9
-			has_equipment = {
-				convoy > 20
-			}
-		}
-
-		available = {	
-			has_equipment = {
-   				convoy > 20
-	  		}	
-	  		if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_naval_mines
-					has_tech = basic_battery
-				}
-			}
-			else = {
-				has_tech = early_destroyer
-			}
-		}
-		days_remove = 30
-
-		complete_effect = {
-			navy_experience = -10
-			add_equipment_to_stockpile = { 
-				type = convoy_1
-				amount = -20
-			}
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Mine Layer" 		
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = empty
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_mine_layer_1
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_ship_hull_auxiliary_1
-					equipment_variant = "Refitted Mine Layer"
-					creator = ROOT
-					name = "AUX"
-				}
-			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Mine Layer"
-						type = mdg_auxiliary_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_anti_air_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_auxiliary_1
-					equipment_variant = "Refitted Mine Layer"
-					creator = ROOT
-					name = "AUX"
-				}		
-			}
-		}
-	}
-
-	mdg_refit_to_mine_sweeper = {
-		cost = 15
-		icon = GFX_decision_generic_merge_plant_ship
-		fire_only_once = no
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
-		}
-
-		visible = {
-			has_war = yes
-			any_owned_state = {
-				is_coastal = yes
-			}
-		}
-		allowed = {
-			always = yes
-		}
-		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
-
-	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
-		custom_cost_trigger = {
-			has_navy_experience > 9
-			has_equipment = {
-				convoy > 20
-			}
-		}
-
-		available = {	
-			has_equipment = {
-   				convoy > 20
-	  		}	
-	  		if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_naval_mines
-					has_tech = basic_battery
-				}
-			}
-			else = {
-				has_tech = early_destroyer
-			}
-		}
-		days_remove = 30
-
-		complete_effect = {
-			navy_experience = -10
-			add_equipment_to_stockpile = { 
-				type = convoy_1
-				amount = -20
-			}
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Mine Sweeper" 		
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = empty
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_mine_sweeper_1
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_ship_hull_auxiliary_1
-					equipment_variant = "Refitted Mine Sweeper"
-					creator = ROOT
-					name = "AUX"
-				}
-			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_sweeper_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Mine Sweeper"
-						type = mdg_auxiliary_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_anti_air_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_auxiliary_1
-					equipment_variant = "Refitted Mine Sweeper"
-					creator = ROOT
-					name = "AUX"
-				}		
-			}
-		}
-	}
-
-	mdg_refit_to_escort = {
-		cost = 15
-		icon = GFX_decision_generic_merge_plant_ship
-		fire_only_once = no
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
-		}
-
-		visible = {
-			has_war = yes
-			any_owned_state = {
-				is_coastal = yes
-			}
-		}
-		allowed = {
-			always = yes
-		}
-		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
-
-	    custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
-		custom_cost_trigger = {
-			has_navy_experience > 40
-			has_equipment = {
-				convoy > 40
-			}
-		}
-
-		available = {	
-			has_equipment = {
-   				convoy > 40
-	  		}	
-	  		if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_depth_charges
-					has_tech = basic_battery
-					has_tech = sonar
-				}
-			}
-			else = {
-				has_tech = early_destroyer
-			}
-		}
-		days_remove = 60
-
-		complete_effect = {
-			navy_experience = -20
-			add_equipment_to_stockpile = { 
-				type = convoy_1
-				amount = -40
-			}
-		}
-		remove_effect = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_escort_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Escort Ship" 		
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = ship_sonar_1
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_depth_charge_1
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_ship_hull_auxiliary_1
-					equipment_variant = "Refitted Escort Ship"
-					creator = ROOT
-					name = "E"
-				}
-			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_escort_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Escort Ship"
-						type = mdg_auxiliary_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_anti_air_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_auxiliary_1
-					equipment_variant = "Refitted Escort Ship"
-					creator = ROOT
-					name = "E"
-				}		
-			}
-		}
-	}
-
 	mdg_refit_to_cruiser = {
 		cost = 30
 		icon = GFX_decision_generic_merge_plant_ship
@@ -557,6 +139,562 @@ mdg_generic_refit_civilian_ships_category = {
 					creator = ROOT
 					name = "Protector"
 				}
+			}
+		}
+	}
+
+	mdg_refit_to_escort = {
+		cost = 15
+		icon = GFX_decision_generic_merge_plant_ship
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 1.5
+				has_equipment = {
+	   				convoy > 200
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 300
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 500
+		  		}
+			}
+		}
+
+		visible = {
+			has_war = yes
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		allowed = {
+			always = yes
+		}
+		#cancel_trigger = {
+	    #    cancel_if_not_visible = yes
+	    #}
+
+	    custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
+		custom_cost_trigger = {
+			has_navy_experience > 20
+			has_equipment = {
+				convoy > 40
+			}
+		}
+
+		available = {	
+			has_equipment = {
+   				convoy > 40
+	  		}	
+	  		if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				AND = {
+					has_tech = early_ship_hull_light
+					has_tech = basic_depth_charges
+					has_tech = basic_battery
+					has_tech = sonar
+				}
+			}
+			else = {
+				has_tech = early_destroyer
+			}
+		}
+		days_remove = 60
+
+		complete_effect = {
+			navy_experience = -20
+			add_equipment_to_stockpile = { 
+				type = convoy_1
+				amount = -40
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
+					}
+					set_country_flag = mdg_flag_refit_to_escort_mtg
+					
+					create_equipment_variant = {	
+						name = "Refitted Escort Ship" 		
+						type = mdg_ship_hull_corvette_1
+						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = mdg_ship_light_cannon_1
+							fixed_ship_anti_air_slot = empty
+							fixed_ship_fire_control_system_slot = ship_sonar_1
+							fixed_ship_engine_slot = light_ship_engine_1
+							fixed_ship_torpedo_slot = empty
+							rear_1_custom_slot = ship_depth_charge_1
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_ship_hull_corvette_1
+					equipment_variant = "Refitted Escort Ship"
+					creator = ROOT
+					name = "E"
+				}
+			}
+			# NO MTG
+			else = {
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
+					}
+					set_country_flag = mdg_flag_refit_to_escort_vanila
+
+					create_equipment_variant = {
+						name = "Refitted Escort Ship"
+						type = mdg_corvette_1
+						upgrades = {
+							ship_reliability_upgrade = 0
+							ship_engine_upgrade = 0
+							ship_gun_upgrade = 0
+							ship_ASW_upgrade = 0
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_corvette_1
+					equipment_variant = "Refitted Escort Ship"
+					creator = ROOT
+					name = "E"
+				}		
+			}
+		}
+	}
+
+	mdg_refit_to_patrol = {
+		cost = 15
+		icon = GFX_decision_generic_merge_plant_ship
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 1.5
+				has_equipment = {
+	   				convoy > 200
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 300
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 500
+		  		}
+			}
+		}
+
+		visible = {
+			has_war = yes
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		allowed = {
+			always = yes
+		}
+		#cancel_trigger = {
+	    #    cancel_if_not_visible = yes
+	    #}
+
+	    custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
+		custom_cost_trigger = {
+			has_navy_experience > 15
+			has_equipment = {
+				convoy > 20
+			}
+		}
+
+		available = {	
+			has_equipment = {
+   				convoy > 20
+	  		}	
+	  		if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				AND = {
+					has_tech = early_ship_hull_light
+					has_tech = basic_battery
+				}
+			}
+			else = {
+				has_tech = early_destroyer
+			}
+		}
+		days_remove = 60
+
+		complete_effect = {
+			navy_experience = -15
+			add_equipment_to_stockpile = { 
+				type = convoy_1
+				amount = -20
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
+					}
+					set_country_flag = mdg_flag_refit_to_escort_mtg
+					
+					create_equipment_variant = {	
+						name = "Refitted Escort Ship" 		
+						type = mdg_ship_hull_corvette_1
+						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = mdg_ship_light_cannon_1
+							fixed_ship_anti_air_slot = empty
+							fixed_ship_fire_control_system_slot = empty
+							fixed_ship_engine_slot = light_ship_engine_1
+							fixed_ship_torpedo_slot = empty
+							rear_1_custom_slot = mdg_ship_light_cannon_1
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_ship_hull_corvette_1
+					equipment_variant = "Refitted Patrol Ship"
+					creator = ROOT
+					name = "P"
+				}
+			}
+			# NO MTG
+			else = {
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
+					}
+					set_country_flag = mdg_flag_refit_to_escort_vanila
+
+					create_equipment_variant = {
+						name = "Refitted Escort Ship"
+						type = mdg_corvette_1
+						upgrades = {
+							ship_reliability_upgrade = 0
+							ship_engine_upgrade = 0
+							ship_gun_upgrade = 0
+							ship_ASW_upgrade = 0
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_corvette_1
+					equipment_variant = "Refitted Escort Ship"
+					creator = ROOT
+					name = "P"
+				}		
+			}
+		}
+	}
+
+	mdg_refit_to_mine_layer = {
+		cost = 15
+		icon = GFX_decision_generic_merge_plant_ship
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 1.5
+				has_equipment = {
+	   				convoy > 200
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 300
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 500
+		  		}
+			}
+		}
+
+		visible = {
+			has_war = yes
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		allowed = {
+			always = yes
+		}
+		#cancel_trigger = {
+	    #    cancel_if_not_visible = yes
+	    #}
+
+	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
+		custom_cost_trigger = {
+			has_navy_experience > 10
+			has_equipment = {
+				convoy > 20
+			}
+		}
+
+		available = {	
+			has_equipment = {
+   				convoy > 20
+	  		}	
+	  		if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				AND = {
+					has_tech = early_ship_hull_light
+					has_tech = basic_naval_mines
+					has_tech = basic_battery
+				}
+			}
+			else = {
+				has_tech = early_destroyer
+			}
+		}
+		days_remove = 30
+
+		complete_effect = {
+			navy_experience = -10
+			add_equipment_to_stockpile = { 
+				type = convoy_1
+				amount = -20
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
+					}
+					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
+					
+					create_equipment_variant = {	
+						name = "Refitted Mine Layer" 		
+						type = mdg_ship_hull_corvette_1
+						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = mdg_ship_light_cannon_1
+							fixed_ship_anti_air_slot = empty
+							fixed_ship_fire_control_system_slot = empty
+							fixed_ship_engine_slot = light_ship_engine_1
+							fixed_ship_torpedo_slot = empty
+							rear_1_custom_slot = ship_mine_layer_1
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_ship_hull_corvette_1
+					equipment_variant = "Refitted Mine Layer"
+					creator = ROOT
+					name = "ML"
+				}
+			}
+			# NO MTG
+			else = {
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
+					}
+					set_country_flag = mdg_flag_refit_to_mine_layer_vanila
+
+					create_equipment_variant = {
+						name = "Refitted Mine Layer"
+						type = mdg_corvette_1
+						upgrades = {
+							ship_reliability_upgrade = 0
+							ship_engine_upgrade = 0
+							ship_gun_upgrade = 0
+							ship_ASW_upgrade = 0
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_corvette_1
+					equipment_variant = "Refitted Mine Layer"
+					creator = ROOT
+					name = "ML"
+				}		
+			}
+		}
+	}
+
+	mdg_refit_to_mine_sweeper = {
+		cost = 15
+		icon = GFX_decision_generic_merge_plant_ship
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 1.5
+				has_equipment = {
+	   				convoy > 200
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 300
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 500
+		  		}
+			}
+		}
+
+		visible = {
+			has_war = yes
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		allowed = {
+			always = yes
+		}
+		#cancel_trigger = {
+	    #    cancel_if_not_visible = yes
+	    #}
+
+	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
+		custom_cost_trigger = {
+			has_navy_experience > 9
+			has_equipment = {
+				convoy > 20
+			}
+		}
+
+		available = {	
+			has_equipment = {
+   				convoy > 20
+	  		}	
+	  		if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				AND = {
+					has_tech = early_ship_hull_light
+					has_tech = basic_naval_mines
+					has_tech = basic_battery
+				}
+			}
+			else = {
+				has_tech = early_destroyer
+			}
+		}
+		days_remove = 30
+
+		complete_effect = {
+			navy_experience = -10
+			add_equipment_to_stockpile = { 
+				type = convoy_1
+				amount = -20
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
+					}
+					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
+					
+					create_equipment_variant = {	
+						name = "Refitted Mine Sweeper" 		
+						type = mdg_ship_hull_corvette_1
+						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_battery_slot = mdg_ship_light_cannon_1
+							fixed_ship_anti_air_slot = empty
+							fixed_ship_fire_control_system_slot = empty
+							fixed_ship_engine_slot = light_ship_engine_1
+							fixed_ship_torpedo_slot = empty
+							rear_1_custom_slot = ship_mine_sweeper_1
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_ship_hull_corvette_1
+					equipment_variant = "Refitted Mine Sweeper"
+					creator = ROOT
+					name = "MS"
+				}
+			}
+			# NO MTG
+			else = {
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
+					}
+					set_country_flag = mdg_flag_refit_to_mine_sweeper_vanila
+
+					create_equipment_variant = {
+						name = "Refitted Mine Sweeper"
+						type = mdg_corvette_1
+						upgrades = {
+							ship_reliability_upgrade = 0
+							ship_engine_upgrade = 0
+							ship_gun_upgrade = 0
+							ship_ASW_upgrade = 0
+						}
+						obsolete = no
+					}
+				}
+				create_ship = {
+					type = mdg_corvette_1
+					equipment_variant = "Refitted Mine Sweeper"
+					creator = ROOT
+					name = "MS"
+				}		
 			}
 		}
 	}

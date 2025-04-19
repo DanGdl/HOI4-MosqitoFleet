@@ -12,6 +12,11 @@
  mdg_decision_cost_20_convoy_10_NavXP_ms_blocked: "£GFX_topbar_convoys §R20§! £navy_experience §R10§!"
  mdg_decision_cost_20_convoy_10_NavXP_ms_tooltip: "It costs £GFX_topbar_convoys §Y20§! £navy_experience §Y10§! to take the decision"
 
+ mdg_refit_to_patrol: "Refit the vessel into an auxiliary patrol vessel"
+ mdg_decision_cost_20_convoy_15_NavXP: "£GFX_topbar_convoys §Y20§! £navy_experience §Y15§!"
+ mdg_decision_cost_20_convoy_15_NavXP_blocked: "£GFX_topbar_convoys §R20§! £navy_experience §R15§!"
+ mdg_decision_cost_20_convoy_15_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y20§! £navy_experience §Y15§!"
+
  mdg_refit_to_escort: "Refit the vessel into an escort ship"
  mdg_decision_cost_40_convoy_20_NavXP: "£GFX_topbar_convoys §Y40§! £navy_experience §Y20§!"
  mdg_decision_cost_40_convoy_20_NavXP_blocked: "£GFX_topbar_convoys §R40§! £navy_experience §R20§!"
