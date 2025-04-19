@@ -236,7 +236,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_fire_control_system_slot = empty
 							fixed_ship_engine_slot = light_ship_engine_1
 							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_mine_warfare_1
+							rear_1_custom_slot = ship_mine_sweeper_1
 						}
 						obsolete = no
 					}
@@ -373,7 +373,7 @@ mdg_generic_refit_civilian_ships_category = {
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
 							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = ship_sonar
+							fixed_ship_fire_control_system_slot = ship_sonar_1
 							fixed_ship_engine_slot = light_ship_engine_1
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_depth_charge_1
@@ -483,7 +483,7 @@ mdg_generic_refit_civilian_ships_category = {
 				}
 			}
 			else = {
-				has_tech = early_cruiser
+				has_tech = early_light_cruiser
 			}
 		}
 		days_remove = 90
