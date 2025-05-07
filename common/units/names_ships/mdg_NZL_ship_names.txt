@@ -13,3 +13,19 @@
 		"Monowai"
 	}
 }
+
+NZL_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { NZL }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = "HMNZS "
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Kiwi" "Моа" "Tui"
+	}
+}

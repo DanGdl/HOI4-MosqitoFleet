@@ -1,9 +1,20 @@
 ﻿NZL = {
+	fleet_names_template = FLEET_NAME_NZL
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMNZS "
 		generic = { "AUX" }
 		unique = {
 			"Monowai"
+		}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HMNZS "
+		generic = { "LCS" }
+
+		unique = {
+			"Kiwi" "Моа" "Tui"
 		}
 	}
 }
