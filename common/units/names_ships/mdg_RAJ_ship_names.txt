@@ -1,0 +1,47 @@
+﻿##### INDIA NAME LISTS #####
+### AUXILIARY SHIPS ###
+RAJ_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = "HMIS "
+	fallback_name = "AUX %s"
+
+	unique = {}
+}
+
+RAJ_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = "HMIS "
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Bombay" "Punjab" "Madras" "Bengal" "Agra" "Ahmedabad" "Amritsar" "Baroda" "Berar" "Calcutta" "Cochin" "Cuttack" "Karachi" "Lahore" "Lucknow" "Madura" "Multan" "Nasik" "Patna" "Poona" "Rampur" "Shillong" "Travancore"
+	}
+}
+
+RAJ_MS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { RAJ }
+	
+	type = ship
+	prefix = "HMIS "
+	ship_types = { mdg_ship_hull_corvette }
+	
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Rajputana" "Orissa" "Konkon" "Bihar" "Oudh" "Baluchistan" "Kathiawar" "Khyber" "Kumaon" "Carnatic" "Rohilkand" "Bombay" "Punjab" "Madras" "Bengal"
+	}
+}
