@@ -1,0 +1,20 @@
+﻿units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 4076 # Alexandria
+		task_force = {
+			name = "1st Task Force"
+			location = 4076
+			ship = { name = "El Amir Farouq" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = EGY version_name = "El Amir Farouq" } } }
+			ship = { name = "Solium" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
+
+			ship = { name = "El Zafir" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = EGY version_name = "Nile cannon boat" } } }
+			ship = { name = "El Fateh" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = EGY version_name = "Nile cannon boat" } } }
+			ship = { name = "Hafir" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = EGY version_name = "Nile cannon boat" } } }
+
+			ship = { name = "Darfeel" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Noor El Bahr" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "Al Sarea" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
+		}
+	}
+}
