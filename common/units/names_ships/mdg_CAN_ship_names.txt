@@ -6,12 +6,78 @@ CAN_AUXILIARY_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }			
+	ship_types = { mdg_ship_hull_auxiliary }
 
-	prefix = "HMCS "							
-	fallback_name = "AUX %s"					
+	prefix = "HMCS "
+	fallback_name = "AUX %s"
 
-	unique = {											
+	unique = {
 		"Prince David" "Prince Henry" "Prince Robert"
+	}
+}
+
+CAN_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = "HMCS "
+	fallback_name = "FF %s"
+
+	unique = {
+		"Barle" "Cuckmere" "Evenlode" "Findhorn" "Inver" "Lossie" "Matane" "Montreal" "Parret" "Shiel" "New Glasgow" "New Waterford" "Port Colborn" "Prince Rupert"
+		"St. Catherine's" "St. John" "Stormont" "Swansea" "Waskesiu" "Wentworth" "Grou" "Cape Breton" "Dunver" "Outremont" "Valleyfield" "Stettler" "Orkney" "Magog"
+		"Longueuil" "Eastview" "Runnymede" "Hallowell" "Stonetown" "Roual Mount" "Poundmaker" "Chebogue" "Springhill" "La Hulloise" "Beacon Hill" "Kokanee" "Lanark"
+		"St. Stephen" "Antigonish" "Strathadam" "Capilano" "Toronto" "Ste. Therese" "La Salle" "Coaticook" "St. Pierre" "Buckingham" "Incharron" "Prestonian"
+		"Carlplace" "Sea Cliff" "Sussexvale" "Charlottetown" "Jonquiere" "Levis" "Glace Bay" "Fort Erie" "Lauzon" "Victoriaville" "Penetang" "Thetford Mines"
+		"Joliette" "Kirkland Lake" "Cap De La Madeleine"
+	}
+}
+
+CAN_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = "HMCS "
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Nanaimo" "Alberni" "Edmunston" "Chambly" "Mayflower" "Eyebright" "Chicoutimi" "Dauphin" "Saskatoon" "Lethbridge" "Trillium" "Levis" "Shawinigan" "Lunenburg"
+		"Pictou" "Baddeck" "Spikenard" "Rimouski" "Brandon" "Windflower" "Shediac" "Hepatica" "Snowberry" "Buctouche" "Matapedia" "Arvida" "Summerside" "Louisburg"
+		"Bittersweet" "Fennel" "Arrowhead" "Sherbrooke" "Sorel" "Camrose" "Dunvegan" "Napanee" "Prescott" "Sudbury" "Orillia" "Barrie" "Galt" "Moose Jaw" "Battleford"
+		"Drumheller" "The Pas" "Collingwood" "Cobalt" "Kenogami" "Algoma" "Oakville" "Rosthern" "Morden" "Kamsack" "Weyburn" "Agassiz" "Chilliwack" "Trail"
+		"Wetaskiwin" "Sackville" "Moncton" "Amherst" "Dawson" "Kamloops" "Quesnel" "Brantford" "Midland" "Timmins" "New Westminster" "Dundas" "Vancouver" "Kitchener"
+		"Calgary" "Regina" "Fredericton" "La Malbaie" "Halifax" "Woodstock" "Ville de Quebec" "Charlottetown" "Port Arthur" "Atholl" "Cobourg" "Lindsay" "Whitby"
+		"Frontenac" "Trentonian" "Fergus" "Guelph" "North Bay" "Owen Sound" "St. Lambert" "Riviere du Loup" "Louisburg" "Hawkesbury" "Norsyd" "Dittany" "Statice"
+		"Smilax" "Honesty" "Rosebay" "Linaria" "Willowherb" "Belleville" "Peterborough" "Smith's Falls" "Parry Sound" "West York" "Thoriock" "Strathroy" "Asbestos"
+		"Lachute" "Stellarton" "Beauharnois" "Merrittonia" "Comox" "Fundy" "Gaspe" "Nootka" "Nanoose" "Anticosti" "Baffin" "Cailiff" "Campobello" "Dochet" "Flint"
+		"Gateshell" "Herschell" "Ironbound" "Liscomb" "Magdalen" "Manitoulin" "Miscou" "Porcher" "Prospect" "Texada"
+	}
+}
+
+CAN_MS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { CAN }
+	
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+	
+	prefix = "HMCS "
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Brockville" "Esquimalt" "Transcona" "Trois Rivieres" "Digby" "Granby" "Lachine" "Melville" "Noranda" "Truro" "Canso" "Caraquet" "Chignecto" "Cowichan"
+		"Guysborough" "Ingonish" "Lockeport" "Mahone" "Outarde" "Malpeque" "Ungava" "Bayfield" "Blairmore" "Fort William" "Kenora" "Kentville" "Milltown" "Mulgrave"
+		"Burlington" "Gananoque" "Georgian" "Goderich" "Nipigon" "Port Hope" "Sarnia" "Stratford" "Thunder" "Westmount" "Bellechase" "Chedabucto" "Quinte" "Minas"
+		"Miramichi" "Wasaga" "Clayoquot" "Courtenay" "Kelowna" "Quatsino" "Drummondvilte" "Grandmere" "Medicine Hat" "Red Deer" "Swift Current" "Vegreville"
+		"Border Cities" "Fort Francis" "Kapuskasing" "Middlesex" "New Liskeard" "Oshawa" "Portage" "Rockcliff" "St. Boniface" "Sault Sts. Marie" "Winnipeg" "Wallaceburg"
 	}
 }
