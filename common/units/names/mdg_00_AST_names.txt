@@ -5,7 +5,26 @@
 		prefix = "HMAS"
 		generic = { "AUX" }
 		unique = {
-			"Manoora" "Westralia"
+			"Manoora" "Westralia" "Kanimbla"
+		}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HMAS"
+		generic = { "LCS" }
+		unique = {
+			"Bathurst" "Bendigo" "Cessnock" "Glenelg" "Goulburn" "Wollongong" "Ararat" "Broome" "Bunbury" "Bundaberg" "Fremantle" "Gympie" "Ipswich" "Kiama"
+			"Launceston" "Parkes" "Townsville" "Ballarat" "Benalla" "Castlemaine" "Echuca" "Geelong" "Horsham" "Shepparton" "Stawell" "Armidale" "Burnie" "Colac"
+			"Deloraine" "Dubbo" "Invereir" "Latrobe" "Lismore" "Lithgow" "Mildura" "Warnambool" "Wagga" "Bowen" "Cairns" "Gladstone" "Maryborough" "Rockhampton"
+			"Tamworth" "Toowoomba" "Cootamundra" "Cowra" "Geraldton" "Junee" "Kapunda" "Katoomba" "Wallaroo" "Gawler" "Kalgoorlie" "Pirie" "Whyalla" "Strahan"
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HMAS"
+		generic = { "FF" }
+		unique = {
+			"Barwon" "Burdekin" "Diamantina" "Gascoyne" "Hawkesbury" "Lachlan"
 		}
 	}
 }

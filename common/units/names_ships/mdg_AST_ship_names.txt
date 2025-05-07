@@ -6,12 +6,61 @@ AST_AUXILIARY_HISTORICAL = {
 	for_countries = { AST }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }			
+	ship_types = { mdg_ship_hull_auxiliary }
 
-	prefix = "HMAS "							
-	fallback_name = "AUX %s"					
+	prefix = "HMAS "
+	fallback_name = "AUX %s"
 
-	unique = {											
-		"Manoora" "Westralia"
+	unique = {
+		"Manoora" "Westralia" "Kanimbla"
+	}
+}
+
+AST_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = "HMAS "
+	fallback_name = "LCS %s"
+
+	unique = { }
+}
+
+AST_MS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { AST }
+	
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+	
+	prefix = "HMAS "
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Bathurst" "Bendigo" "Cessnock" "Glenelg" "Goulburn" "Wollongong" "Ararat" "Broome" "Bunbury" "Bundaberg" "Fremantle" "Gympie" "Ipswich" "Kiama" "Launceston"
+		"Parkes" "Townsville" "Ballarat" "Benalla" "Castlemaine" "Echuca" "Geelong" "Horsham" "Shepparton" "Stawell" "Armidale" "Burnie" "Colac" "Deloraine" "Dubbo"
+		"Invereir" "Latrobe" "Lismore" "Lithgow" "Mildura" "Warnambool" "Wagga" "Bowen" "Cairns" "Gladstone" "Maryborough" "Rockhampton" "Tamworth" "Toowoomba"
+		"Cootamundra" "Cowra" "Geraldton" "Junee" "Kapunda" "Katoomba" "Wallaroo" "Gawler" "Kalgoorlie" "Pirie" "Whyalla" "Strahan"
+	}
+}
+
+AST_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { AST }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = "HMAS "
+	fallback_name = "FF %s"
+
+	unique = {
+		"Barwon" "Burdekin" "Diamantina" "Gascoyne" "Hawkesbury" "Lachlan"
 	}
 }
