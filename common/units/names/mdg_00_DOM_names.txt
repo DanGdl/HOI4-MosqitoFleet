@@ -1,0 +1,9 @@
+﻿DOM = {
+	fleet_names_template = FLEET_NAME_DOM
+	
+	mdg_ship_hull_boat = {
+		prefix = ""
+		generic = { "GC" }
+		unique = {}
+	}
+}
