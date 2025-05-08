@@ -21,7 +21,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo ship_depth_charge }
 			}
 			fixed_ship_engine_slot = {
 				required = yes

@@ -1,0 +1,85 @@
+﻿units = {
+	fleet = {
+		name = "Support Fleet"
+		naval_base = 321 # Rostok
+		task_force = {
+			name = "Supprort Group"
+			location = 321
+
+			ship = { name = "М-61" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-72" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-75" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-84" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-85" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-89" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-98" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-102" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-104" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-110" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-111" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-117" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-122" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-132" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-145" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "М-157" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Hecht" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Stortebecker" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Nautilus" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Jagd" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Von der Groeben" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Delphin" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Sundewall" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Acheron" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Аrсоnа" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Adlers" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Otto Braun" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Fuchs" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Raule" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Frauenlob" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Hela" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Havel" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Nettelbeck" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Taku" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Pelikan" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "Brommy" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+
+			ship = { name = "F-1" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-2" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-3" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-4" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-5" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-6" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-7" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-8" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-9" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "F-10" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+
+			ship = { name = "R-1" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-2" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-3" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-4" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-5" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-6" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-7" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-8" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-9" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-10" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-11" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-12" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-13" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-14" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-15" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-16" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+
+			ship = { name = "S-6" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-7" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-8" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-9" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-10" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-11" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-12" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-13" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+
+		}
+	}
+}

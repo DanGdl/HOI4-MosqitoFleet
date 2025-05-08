@@ -1,0 +1,127 @@
+﻿if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "mdg_GER_1936_naval_mtg"
+
+	else = {
+		set_naval_oob = "mdg_GER_1936_naval_legacy"
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	
+	create_equipment_variant = {
+		name = "1916/1918"
+		type = mdg_ship_hull_corvette_1
+		name_group = GER_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_sweeper_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "F"
+		type = mdg_ship_hull_frigate_1
+		name_group = GER_FRIAGTE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_mine_sweeper_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "R"
+		type = mdg_ship_hull_boat_2
+		name_group = GER_BOAT_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "S-10"
+		type = mdg_ship_hull_boat_2
+		name_group = GER_BOAT_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = mdg_ship_light_guns_1
+		}
+	}
+
+	else = {
+		create_equipment_variant = {
+			name = "1916/1918"
+			type = mdg_ship_hull_corvette_1
+			name_group = GER_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_ASW_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "F"
+			type = mdg_ship_hull_frigate_1
+			name_group = GER_FRIAGTE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 2
+			}
+		}
+
+		create_equipment_variant = {
+			name = "R"
+			type = mdg_ship_hull_boat_2
+			name_group = GER_BOAT_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 2
+			}
+		}
+
+		create_equipment_variant = {
+			name = "S-10"
+			type = mdg_ship_hull_boat_2
+			name_group = GER_BOAT_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_torpedo_upgrade = 1
+			}
+		}
+	}
+}
