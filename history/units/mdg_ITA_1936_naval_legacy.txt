@@ -1,84 +1,96 @@
 ﻿units = {
 	fleet = {
-		name = "Support Fleet"
-		naval_base = 321 # Rostok
+		name = "Comando Navale Mar Rosso 2"
+		naval_base = 12766 # Massawa, Eritrea
+
 		task_force = {
-			name = "Supprort Group"
-			location = 321
+			name = "Squadra di Mar Rosso 2"
+			location = 12766 # Massawa, Eritrea
 
-			ship = { name = "М-61" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-72" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-75" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-84" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-85" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-89" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-98" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-102" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-104" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-110" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-111" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-117" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-122" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-132" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-145" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "М-157" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Hecht" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Stortebecker" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Nautilus" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Jagd" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Von der Groeben" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Delphin" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Sundewall" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Acheron" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Аrсоnа" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Adlers" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Otto Braun" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Fuchs" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Raule" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Frauenlob" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Hela" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Havel" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Nettelbeck" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Taku" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Pelikan" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
-			ship = { name = "Brommy" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+			ship = { name = "MAS-204" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-206" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-210" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-213" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-216" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
 
-			ship = { name = "F-1" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-2" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-3" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-4" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-5" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-6" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-7" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-8" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-9" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
-			ship = { name = "F-10" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = GER version_name = "F" } } }
+			ship = { name = "Eritrea" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ITA version_name = "Eritrea Class" } } }
+		}
+	}
 
-			ship = { name = "R-1" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-2" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-3" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-4" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-5" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-6" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-7" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-8" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-9" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-10" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-11" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-12" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-13" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-14" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-15" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
-			ship = { name = "R-16" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+	fleet = {
+		name = "Comando Navale Mar Egeo 2"			
+		naval_base = 10007 # Rhodes, Greece
 
-			ship = { name = "S-6" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-7" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-8" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-9" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-10" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-11" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-12" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-			ship = { name = "S-13" definition = destroyer equipment = { mdg_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+		task_force = {
+			name = "Squadra di Mar Egeo 2"
+			location = 10007 # Rhodes, Greece
+
+			ship = { name = "Sebastiano Caboto" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Bafile Class" } } }
+			ship = { name = "Bafile" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Bafile Class" } } }
+			ship = { name = "Ernesto Giovannini" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Bafile Class" } } }
+		}
+	}
+	
+	fleet = {
+		name = "Comando Navale Libia 2"			
+		naval_base = 1130 # Tobruk, Libya
+
+		task_force = { 
+			name = "Squadra di Libia 2" 
+			location = 1130 # Tobruk, Libya
+
+			ship = { name = "Giuseppe Biglieri" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+			ship = { name = "Giovanni Bertal" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+			ship = { name = "Mario Sonzini" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+			ship = { name = "Pellegrino Matteucci" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+
+			ship = { name = "Alula" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Cirene" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Gallipoli" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Mario Bianco" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Otranto" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Porto Corsini" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Rimini" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+		}
+	}
+
+	fleet = {
+		name = "Comando Navale Mar Adriatico"
+		naval_base = 925 # Ancona
+
+		task_force = {
+			name = "Squadra di Mar Adriatico"
+			location = 925 # Ancona
+
+			ship = { name = "МАS-423" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "MAS-426" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "MAS-430" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "MAS-431" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+
+			ship = { name = "МАS-432" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "MAS-433" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "MAS-434" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "MAS-437" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+
+			ship = { name = "MAS-438" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "MAS-439" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "MAS-440" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "MAS-441" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+
+			ship = { name = "Stefano Turr" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = ITA version_name = "Stefano Turr" } } }
+
+			ship = { name = "Vieste" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "1916/1918 Class" } } }
+			ship = { name = "Cortone" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "1916/1918 Class" } } }
+
+			ship = { name = "Azio" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			ship = { name = "Legnano" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			ship = { name = "Lepanto" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			ship = { name = "Ostia" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+
+			ship = { name = "Buccari" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "Durazzo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "Fasana" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "Pelagosa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
 		}
 	}
 }
