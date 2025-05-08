@@ -5,13 +5,13 @@
 		task_force = {
 			name = "Patrol boats"
 			location = 7660
-			ship = { name = "GC-1" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
-			ship = { name = "GC-2" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
-			ship = { name = "GC-3" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
-			ship = { name = "GC-4" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
-			ship = { name = "GC-5" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
-			ship = { name = "GC-6" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
-			ship = { name = "GC-7" definition = destroyer equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-4" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-5" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-6" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "GC-7" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
 		}
 	}
 }
