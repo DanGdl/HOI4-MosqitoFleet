@@ -1,0 +1,357 @@
+﻿# replaces game's OOB
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#	set_naval_oob = "mdg_SOV_1936_naval_mtg"
+#
+#	else = {
+#		set_naval_oob = "mdg_SOV_1936_naval_legacy"
+#	}
+#}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	
+	create_equipment_variant = {
+		name = "Uragan Class"
+		type = mdg_ship_hull_frigate_1
+		name_group = SOV_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = mdg_ship_light_guns_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Vorovskiy Class"
+		type = mdg_ship_hull_frigate_1
+		name_group = SOV_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Siberian Rifleman Class"
+		type = mdg_ship_hull_frigate_1
+		name_group = SOV_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = mdg_ship_light_guns_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Dzerjinskiy Class"
+		type = mdg_ship_hull_frigate_1
+		name_group = SOV_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Brilliant Class"
+		type = mdg_ship_hull_frigate_2
+		name_group = SOV_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Krasnoye Znamya Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = SOV_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Elpidifor Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = SOV_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Okean Class"
+		type = mdg_ship_hull_frigate_1
+		name_group = SOV_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Sh-4 Class"
+		type = mdg_ship_hull_boat_1
+		name_group = SOV_BOAT_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "MO Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = SOV_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "ZK Class"
+		type = mdg_ship_hull_boat_1
+		name_group = SOV_BOAT_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "R Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = SOV_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	else = {
+		create_equipment_variant = {
+			name = "Uragan Class"
+			type = mdg_frigate_1
+			name_group = SOV_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Vorovskiy Class"
+			type = mdg_frigate_1
+			name_group = SOV_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_anti_air_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Siberian Rifleman Class"
+			type = mdg_frigate_1
+			name_group = SOV_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_torpedo_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Dzerjinskiy Class"
+			type = mdg_frigate_1
+			name_group = SOV_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Brilliant Class"
+			type = mdg_frigate_2
+			name_group = SOV_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 3
+				ship_anti_air_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Krasnoye Znamya Class"
+			type = mdg_corvette_1
+			name_group = SOV_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Elpidifor Class"
+			type = mdg_corvette_1
+			name_group = SOV_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_ASW_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Okean Class"
+			type = mdg_frigate_1
+			name_group = SOV_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 2
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Sh-4 Class"
+			type = mdg_boat_1
+			name_group = SOV_BOAT_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_torpedo_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "MO Class"
+			type = mdg_corvette_1
+			name_group = SOV_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 2
+			}
+		}
+
+		create_equipment_variant = {
+			name = "ZK Class"
+			type = mdg_boat_1
+			name_group = SOV_BOAT_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			upgrades = {
+				ship_torpedo_upgrade = 1
+			}
+		}
+		
+		create_equipment_variant = {
+			name = "R Class"
+			type = mdg_corvette_1
+			name_group = SOV_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			upgrades = {
+				ship_ASW_upgrade = 1
+			}
+		}
+	}
+}

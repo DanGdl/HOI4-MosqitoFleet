@@ -22,20 +22,30 @@
 	mdg_ship_hull_corvette = {
 		prefix = ""
 		generic = { "MO" }
-		unique = {}
+		unique = {
+			"Lenin" "Krasniy Azerbaijan" "Lahta" "Krasnaya Gorka" "Kronstadt" "Oranienbaum" "Sestroretsk" "Amgun" "Bira" "Bureya" "Volga" "Zeya" "Kama"
+			"Moskva" "Nora" "Oka" "Olekma" "Selemja" "Sheksna" "Bug" "Dnepr" "Don" "Kuban" "Rion" "Sergo Orjonikidze" "Angara" "Arake" "Ahtuba" 
+			"Dnestr" "Terek" "Topaz" "Yantar" "Artilerist" "Miner" "Torpedist" "Zenitchik" "Botsman" "Dalnomershik" "Marsovoy" "Projectorist" 
+			"Navodchik" "Ognemetchik" "Shturman" "Kirovets" "Mehanik" "Mashinist" "Motorist" "Turbinist" "Elektrik" "Tryumniy" "Engineer" "Kochegar" 
+			"Letchik" "Pilot"
+		}
 	}
 	
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "СКР" }
-		unique = {}
+		unique = {
+			"Atarbekov" "Mogilevskiy" "Sobol" "Razvedchik" "Uran" "Iceberg" "Briz" "Grad" "Zarya" "Mgla" "Musson" "Passat" "Priliv" "Toros" "Tuman" 
+			"Shtil" "Partizan" "Voikov" "Mariupol" "Pervansh" "Petrash" "Sevastopol" "Shturman" "Аметист" "Laine" "Dejnev" "Litke" "Kasatka" "Ost" 
+			"Chapaev" "Shors" "Stepan Razin" "Pioner" "Ayan" "Gijiga" "Lukomskiy" "Zarya" "Doob"
+		}
 	}
 
 	mdg_ship_hull_auxiliary = {
 		prefix = ""
 		generic = { "AUX" }
 		unique = {
-			"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen"
+			"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen" "Mikoyan"
 		}
 	}
 }
