@@ -1,0 +1,96 @@
+﻿units = {
+	fleet = {
+		name = "Comando Navale Mar Rosso 2"
+		naval_base = 12766 # Massawa, Eritrea
+
+		task_force = {
+			name = "Squadra di Mar Rosso 2"
+			location = 12766 # Massawa, Eritrea
+
+			ship = { name = "MAS-204" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-206" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-210" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-213" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "MAS-216" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+
+			ship = { name = "Eritrea" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Eritrea Class" } } }
+		}
+	}
+
+	fleet = {
+		name = "Comando Navale Mar Egeo 2"			
+		naval_base = 10007 # Rhodes, Greece
+
+		task_force = {
+			name = "Squadra di Mar Egeo 2"
+			location = 10007 # Rhodes, Greece
+
+			ship = { name = "Sebastiano Caboto" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Bafile Class" } } }
+			ship = { name = "Bafile" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Bafile Class" } } }
+			ship = { name = "Ernesto Giovannini" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Bafile Class" } } }
+		}
+	}
+	
+	fleet = {
+		name = "Comando Navale Libia 2"			
+		naval_base = 1130 # Tobruk, Libya
+
+		task_force = { 
+			name = "Squadra di Libia 2" 
+			location = 1130 # Tobruk, Libya
+
+			ship = { name = "Giuseppe Biglieri" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+			ship = { name = "Giovanni Bertal" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+			ship = { name = "Mario Sonzini" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+			ship = { name = "Pellegrino Matteucci" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Bigfieri Class" } } }
+
+			ship = { name = "Alula" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Cirene" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Gallipoli" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Mario Bianco" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Otranto" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Porto Corsini" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+			ship = { name = "Rimini" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type 6" } } }
+		}
+	}
+
+	fleet = {
+		name = "Comando Navale Mar Adriatico"
+		naval_base = 925 # Ancona
+
+		task_force = {
+			name = "Squadra di Mar Adriatico"
+			location = 925 # Ancona
+
+			ship = { name = "МАS-423" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "MAS-426" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "MAS-430" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "MAS-431" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+
+			ship = { name = "МАS-432" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "MAS-433" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "MAS-434" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "MAS-437" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+
+			ship = { name = "MAS-438" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "MAS-439" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "MAS-440" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "MAS-441" definition = destroyer equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+
+			ship = { name = "Stefano Turr" definition = destroyer equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ITA version_name = "Stefano Turr" } } }
+
+			ship = { name = "Vieste" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "1916/1918 Class" } } }
+			ship = { name = "Cortone" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "1916/1918 Class" } } }
+
+			ship = { name = "Azio" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			ship = { name = "Legnano" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			ship = { name = "Lepanto" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			ship = { name = "Ostia" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Ostia Class" } } }
+			
+			ship = { name = "Buccari" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "Durazzo" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "Fasana" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "Pelagosa" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+		}
+	}
+}
