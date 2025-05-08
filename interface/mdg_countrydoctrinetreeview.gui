@@ -339,8 +339,10 @@ guiTypes = {
 				
 			gridboxtype = {
 				name = "mobile_warfare_tree"
-				position = { x=80 y=172 }
-				size = { width = 478 height = 1350 }
+#				position = { x=80 y=172 }
+				position = { x=70 y=172 }
+#				size = { width = 478 height = 1350 }
+				size = { width = 478 height = 2200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -354,7 +356,8 @@ guiTypes = {
 			gridboxtype = {
 				name = "superior_firepower_tree"
 				position = { x=560 y=172 }
-				size = { width = 480 height = 1350 }
+#				size = { width = 480 height = 1350 }
+				size = { width = 480 height = 2200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
@@ -368,7 +371,8 @@ guiTypes = {
 			gridboxtype = {
 				name = "trench_warfare_tree"
 				position = { x=1040 y=172 }
-				size = { width = 480 height = 1350 }
+#				size = { width = 480 height = 1350 }
+				size = { width = 480 height = 2200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
@@ -383,7 +387,8 @@ guiTypes = {
 			gridboxtype = {
 				name = "mass_assault_tree"
 				position = { x=1520 y=172 }
-				size = { width = 480 height = 1350 }
+#				size = { width = 480 height = 1350 }
+				size = { width = 480 height = 2200 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
@@ -545,9 +550,24 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-
+			
 			gridboxtype = {
 				name = "fleet_in_being_tree"
+				position = { x=80 y=172 }
+				size = { width = 478 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+#				background = {
+#					name = "Background"
+#					quadTextureSprite ="GFX_fullborder_tiled"
+#					position = { x=0 y=-150 }					
+#				}					
+				
+			}
+
+			gridboxtype = {
+				name = "fleet_in_being2_tree"
 				position = { x=80 y=172 }
 				size = { width = 478 height = 1000 }
 				slotsize = { width=60 height= 60 }
@@ -563,7 +583,8 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "trade_interdiction_tree"
-				position = { x=560 y=172 }
+#				position = { x=560 y=172 }
+				position = { x=80 y=172 }
 				size = { width = 480 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -571,23 +592,69 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
+#					position = { x=0 y=-150 }					
+					position = { x=480 y=-150 }					
 				}
 			}
 
 			gridboxtype = {
 				name = "base_strike_tree"
-				position = { x = 1042 y = 172 }
+#				position = { x=1042 y=172 }
+				position = { x=80 y=172 }
 				size = { width = 480 height = 1000 }
-				slotsize = { width = 60 height = 60 }
+				slotsize = { width=60 height= 60 }
 				format = "UP"
 				
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x = 0 y = -150 }					
+#					position = { x=0 y=-150 }					
+					position = { x=960 y=-150 }					
 				}
 			}
+
+			gridboxtype = {
+				name = "fleet_in_being001_tree"
+				position = { x=80 y=1252 }
+				size = { width = 478 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-50 }					
+				}					
+			}
+
+			gridboxtype = {
+				name = "trade_interdiction001_tree"
+				position = { x=560 y=1252 }
+				size = { width = 480 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-50 }					
+				}
+			}
+
+			gridboxtype = {
+				name = "base_strike001_tree"
+				position = { x=1042 y=1252 }
+				size = { width = 480 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-50 }					
+				}
+			}
+
 			# 480, 482
 			gridboxtype = {
 				name = "small_fleet_tree"
@@ -750,7 +817,7 @@ guiTypes = {
 				#strategic_destruction_tree Needs to be named after first tech (air_superiority)
 				name = "air_superiority_tree"
 				position = { x=80 y=172 }
-				size = { width = 427 height = 1335 }
+				size = { width = 427 height = 2800 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -765,7 +832,7 @@ guiTypes = {
 				#battlefield_support_tree Needs to be named after first tech (formation_flying)
 				name = "formation_flying_tree"
 				position = { x=595 y=172 }
-				size = { width = 427 height = 1335 }
+				size = { width = 427 height = 2800 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -780,7 +847,7 @@ guiTypes = {
 				#operational_integrity_tree Needs to be named after first tech (force_rotation)
 				name = "force_rotation_tree"
 				position = { x=1100 y=172 }
-				size = { width = 427 height = 1335 }
+				size = { width = 427 height = 2800 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 
@@ -791,7 +858,7 @@ guiTypes = {
 				}
 			}
 		}
-		
+
 		containerWindowType = {
 			name = "special_forces_doctrine_folder"
 			position = { x=0 y=47 }
@@ -969,7 +1036,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_land
 			}
 			instantTextBoxType = {
-				name = "army_doctrine_folder_title"
+				name = "army_doctrine_title"
 				text = "land_doctrine"
 				position = { x=-190 y=18}
 				font = "hoi_20bs"
@@ -993,7 +1060,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_naval
 			}
 			instantTextBoxType = {
-				name = "navy_doctrine_folder_title"
+				name = "navy_doctrine_title"
 				text = "naval_doctrine"
 				position = { x=60 y=18}
 				font = "hoi_20bs"
@@ -1010,7 +1077,7 @@ guiTypes = {
 				clicksound = ui_doctrine_tab_air
 			}
 			instantTextBoxType = {
-				name = "air_doctrine_folder_title"
+				name = "air_doctrine_title"
 				text = "air_doctrine"
 				position = { x=310 y=18}
 				font = "hoi_20bs"
@@ -1090,6 +1157,7 @@ guiTypes = {
 		name = "techtree_naval_doctrine_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 72 height = 72 }
+		can_assign_design_team_icon = no
 		clipping = no
 
 		background = {

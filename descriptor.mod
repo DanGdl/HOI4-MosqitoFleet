@@ -1,10 +1,12 @@
-version="0"
+version="0.1"
 picture="thumbnail.png"
 tags={
 	"Technologies"
-	"Graphics"
 	"Military"
 }
-name="MosquitoFleet"
-supported_version="1.16.*"
-remote_file_id="3167195673"
+dependencies={
+	"UTTNH_2.0"
+}
+name="MosquitoFleetUTTNH2"
+supported_version="1.16.5"
+remote_file_id="3474956619"
