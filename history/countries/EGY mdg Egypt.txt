@@ -1,10 +1,11 @@
-﻿if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "mdg_EGY_1936_naval_mtg"
-	else = {
-		set_naval_oob = "mdg_EGY_1936_naval_legacy"
-	}
-}
+﻿# replaces game's OOB
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "mdg_EGY_1936_naval_mtg"
+#	else = {
+#		set_naval_oob = "mdg_EGY_1936_naval_legacy"
+#	}
+#}
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

@@ -1,13 +1,12 @@
-﻿if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "mdg_GER_1936_naval_mtg"
-
-	else = {
-		set_naval_oob = "mdg_GER_1936_naval_legacy"
-	}
-}
+﻿# replaces game's OOB
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#	set_naval_oob = "mdg_GER_1936_naval_mtg"
+#
+#	else = {
+#		set_naval_oob = "mdg_GER_1936_naval_legacy"
+#	}
+#}
 
 if = {
 	limit = {
@@ -34,7 +33,7 @@ if = {
 	create_equipment_variant = {
 		name = "F"
 		type = mdg_ship_hull_frigate_1
-		name_group = GER_FRIAGTE_HISTORICAL
+		name_group = GER_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = no
 		modules = {
