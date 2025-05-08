@@ -72,6 +72,8 @@ ITA_CORVETTE_HISTORICAL = {
 	fallback_name = "LCS %s"
 
 	unique = {
+		"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu" 
+		"Gaspers" "Mazare" "Monte Gargano" "Orlando" "Partenope" "San Giorgio" "San Giusto" "Scilla"
 	}
 }
 
@@ -87,5 +89,9 @@ ITA_FRIGATE_HISTORICAL = {
 	fallback_name = "FF %s"
 
 	unique = {
+		"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta" 
+		"Artemide" "Persefone" "Euterpe" "Minerva" "Driade" "Danaide" "Pomona" "Flora" "Sfinge" "Chimera" "Sibillf" "Fenice" "Urania" "Berenice" "Renna" "Colubrina" 
+		"Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta" "Libellula" 
+		"Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice" "Terpsicore"
 	}
 }
