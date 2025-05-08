@@ -82,7 +82,7 @@ if = {
 	else = {
 		create_equipment_variant = {
 			name = "1916/1918"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			name_group = GER_CORVETTE_HISTORICAL
 			parent_version = 0
 			obsolete = yes
@@ -93,7 +93,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "F"
-			type = mdg_ship_hull_frigate_1
+			type = mdg_frigate_1
 			name_group = GER_FRIAGTE_HISTORICAL
 			parent_version = 0
 			obsolete = no
@@ -104,7 +104,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "R"
-			type = mdg_ship_hull_boat_2
+			type = mdg_boat_2
 			name_group = GER_BOAT_HISTORICAL
 			parent_version = 0
 			obsolete = no
@@ -115,7 +115,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "S-10"
-			type = mdg_ship_hull_boat_2
+			type = mdg_boat_2
 			name_group = GER_BOAT_HISTORICAL
 			parent_version = 0
 			obsolete = no

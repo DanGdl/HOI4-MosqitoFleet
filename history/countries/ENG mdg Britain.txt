@@ -175,7 +175,7 @@ if = {
 	else = {
 		create_equipment_variant = {
 			name = "Acacia/Arabis Series"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -184,7 +184,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Aubretia Class"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -193,7 +193,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Brigewater/Hastings Class"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -212,7 +212,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Medusa Class"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -231,7 +231,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Shoreham/Grimsby Class"
-			type = mdg_ship_hull_frigate_1
+			type = mdg_frigate_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -241,7 +241,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Yarra/Bittern Class"
-			type = mdg_ship_hull_frigate_1
+			type = mdg_frigate_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -252,7 +252,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "PC Class"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -272,7 +272,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "Hunt Class"
-			type = mdg_ship_hull_corvette_1
+			type = mdg_corvette_1
 			parent_version = 0
 			obsolete = yes
 			upgrades = {
@@ -283,7 +283,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Halcyon Class"
-			type = mdg_ship_hull_corvette_2
+			type = mdg_corvette_2
 			parent_version = 0
 			upgrades = {
 				ship_anti_air_upgrade = 1
@@ -300,7 +300,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Kingfisher Class"
-			type = mdg_ship_hull_corvette_2
+			type = mdg_corvette_2
 			parent_version = 0
 			upgrades = {
 				ship_anti_air_upgrade = 1
