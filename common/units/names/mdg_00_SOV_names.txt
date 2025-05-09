@@ -3,7 +3,7 @@
 
 	mdg_ship_hull_midget_submarine = {
 		prefix = ""
-		generic = { "Sverhmalaya podvodnaya lodka" }
+		generic = { "СМПЛ" }
 		unique = {}
 	}
 

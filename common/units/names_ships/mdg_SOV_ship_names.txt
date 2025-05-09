@@ -24,7 +24,7 @@ SOV_MIDGET_HISTORICAL = {
 	ship_types = { mdg_ship_hull_midget_submarine }
 
 	prefix = ""
-	fallback_name = "SSMP %s"
+	fallback_name = "СМПЛ %s"
 
 	unique = {
 	}
