@@ -5,7 +5,7 @@
 		task_force = {
 			name = "1st Task Force"
 			location = 8252
-			ship = { name = "Abdon Calderon" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ECU version_name = "Abdon Calderon" } } }
+			ship = { name = "Abdon Calderon" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ECU } } }
 			ship = { name = "Atahualpa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ECU } } }
 			ship = { name = "Hualtaco" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ECU } } }
 		}

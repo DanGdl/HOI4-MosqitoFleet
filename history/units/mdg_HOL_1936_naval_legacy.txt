@@ -1,45 +1,43 @@
 ﻿units = {
 	fleet = {
-		name = "National Fleet"
-		naval_base = 3325 # Odense
+		name = "Koninklijke Marine"
+		naval_base = 3314  # Amsterdam
 		task_force = {
-			name = "Patrol group"
-			location = 3325
+			name = "Koninklijke Vloot"
+			location = 3314
 
-			ship = { name = "R-1 Hvalrossen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN } } }
-			
-			ship = { name = "R-2 Makrelen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "R-3 Nordkaperen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "R-4 Havkatten" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "R-5 Saelen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "S-1 Springeren" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "S-2 Storen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "S-3 Soridderen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "S-4 Sohunden" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "S-5 Havornen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "S-6 Narhvalen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
+			ship = { name = "Brinio" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Friso" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Gruno" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 
-			ship = { name = "T-1 Dragen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "T-2 Hvalen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "T-3 Laxen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "T-4 Glenten" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "T-5 Hogen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "T-5 Omen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN  } } }
+			ship = { name = "Flores" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Soemba" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 
-			ship = { name = "Beskytteren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Freja" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Hejmdal" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Hvidbjornen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Ingolf" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Islands Falk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
+			ship = { name = "Johan Maurits van Nassau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL } } }
 
-			ship = { name = "Henrik Gerner" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Laaland" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Lougen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Lindormen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Lossen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Kvintus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
-			ship = { name = "Sixtus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = DEN  } } }
+			ship = { name = "Hydra" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Medusa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Douwe Aukes" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Van Meerlant" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Krakatau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Pro Patria" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Nautilus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Prince van Oranje" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "GouHOL Leeuw" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Jan van Вrакеl" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Bangkalan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Soemenep" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "Rigel" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+
+			ship = { name = "M-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "M-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "M-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "M-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+
+			ship = { name = "A" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "B" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "C" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "D" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 		}
 	}
 }
