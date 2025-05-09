@@ -1,0 +1,11 @@
+﻿DEN = {
+	fleet_names_template = FLEET_NAME_DEN
+
+	mdg_ship_hull_corvette = {
+		prefix = ""
+		generic = { "M" }
+		unique = {
+			"Soloven" "Sobjomen" "Soulven" "Soridderen" "Sohesten" "Sohunden"
+		}
+	}
+}
