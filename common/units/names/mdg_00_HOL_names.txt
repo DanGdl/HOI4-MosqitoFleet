@@ -1,0 +1,47 @@
+﻿HOL = {
+	fleet_names_template = FLEET_NAME_HOL
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "HrMs"
+		generic = { "AUX" }
+		unique = { }
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HrMs"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HrMs"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HrMs"
+		generic = { "TM" }
+		unique = { }
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HrMs"
+		generic = { "K" }
+		unique = {
+			"Van Kinsbergen" "Friso" "Willem van der Zaan" "Jan van Amstel" "Pieter de Bitter" "Abraham Crijnssen" "Eland Dubois" "Pieter Florisz" 
+			"Jan van Galen" "Abraham van der Hulst" "Willem van Ewijck" "Alor" "Aroe" "Bantam" "Bogor" "Ceram" "Cheribon" "Digoel" "Endeh" "Enggano" 
+			"Djampea" "Djember" "Djombang" "Fakfak" "Flores" "Garoet" "Grissee" "Ardjoeno" "Gedeh" "Kawi" "Lawoe" "Salak" "Smeroe" "Merbaboe" 
+			"Rindjani" "Merapi" "Slamat" "Tjerimai" "Ameland" "Beveland" "Marken" "Putten" "Rozenburg" "Terschelling" "Texel" "Vlieland" "Duiveland" 
+			"Ijsselmonde" "Overflakkee" "Schokland" "Tholen" "Voorne" "Walcheren" "Wieringen"
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HrMs"
+		generic = { "FF" }
+		unique = {
+			"Johan Maurits van Nassau"
+		}
+	}
+}

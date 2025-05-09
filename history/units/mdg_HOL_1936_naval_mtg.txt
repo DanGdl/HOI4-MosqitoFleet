@@ -1,0 +1,43 @@
+﻿units = {
+	fleet = {
+		name = "Koninklijke Marine"			
+		naval_base = 3314  # Amsterdam
+		task_force = {				
+			name = "Koninklijke Vloot"			
+			location = 3314
+
+			ship = { name = "Brinio" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Brinio Class" } } }
+			ship = { name = "Friso" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Brinio Class" } } }
+			ship = { name = "Gruno" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Brinio Class" } } }
+
+			ship = { name = "Flores" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Flores Class" } } }
+			ship = { name = "Soemba" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Flores Class" } } }
+
+			ship = { name = "Johan Maurits van Nassau" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Johan Maurits van Nassau" } } }
+
+			ship = { name = "Hydra" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Medusa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Douwe Aukes" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Van Meerlant" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Krakatau" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Pro Patria" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Nautilus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Prince van Oranje" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Gouden Leeuw" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Jan van Вrакеl" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Bangkalan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Soemenep" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "Rigel" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+
+			ship = { name = "M-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "M-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "M-3" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "M-4" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+
+			ship = { name = "A" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "B" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "C" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }
+			ship = { name = "D" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Hydra Class" } } }			
+		}
+	}
+}
