@@ -58,7 +58,8 @@ CAN_CORVETTE_HISTORICAL = {
 		"Frontenac" "Trentonian" "Fergus" "Guelph" "North Bay" "Owen Sound" "St. Lambert" "Riviere du Loup" "Louisburg" "Hawkesbury" "Norsyd" "Dittany" "Statice"
 		"Smilax" "Honesty" "Rosebay" "Linaria" "Willowherb" "Belleville" "Peterborough" "Smith's Falls" "Parry Sound" "West York" "Thoriock" "Strathroy" "Asbestos"
 		"Lachute" "Stellarton" "Beauharnois" "Merrittonia" "Comox" "Fundy" "Gaspe" "Nootka" "Nanoose" "Anticosti" "Baffin" "Cailiff" "Campobello" "Dochet" "Flint"
-		"Gateshell" "Herschell" "Ironbound" "Liscomb" "Magdalen" "Manitoulin" "Miscou" "Porcher" "Prospect" "Texada"
+		"Gateshell" "Herschell" "Ironbound" "Liscomb" "Magdalen" "Manitoulin" "Miscou" "Porcher" "Prospect" "Texada" "Comfrey" "Cornel" "Flanx" "Mandrake" "Milfoil" 
+		"Musk" "Nepeta" "Privet"
 	}
 }
 
