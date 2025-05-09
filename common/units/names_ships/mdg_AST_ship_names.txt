@@ -16,20 +16,6 @@ AST_AUXILIARY_HISTORICAL = {
 	}
 }
 
-AST_CORVETTE_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CORVETTES
-
-	for_countries = { AST }
-
-	type = ship
-	ship_types = { mdg_ship_hull_corvette }
-
-	prefix = "HMAS "
-	fallback_name = "LCS %s"
-
-	unique = { }
-}
-
 AST_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 

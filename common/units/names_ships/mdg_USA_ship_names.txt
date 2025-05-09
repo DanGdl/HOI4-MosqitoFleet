@@ -15,51 +15,6 @@ USA_AUXILIARY_HISTORICAL = {
 	}
 }
 
-USA_MIDGET_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MIDGETS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { mdg_ship_hull_midget_submarine }
-
-	prefix = "USS "
-	fallback_name = "SSM %s"
-
-	unique = {
-	}
-}
-
-USA_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { mdg_ship_hull_boat }
-
-	prefix = "USS "
-	fallback_name = "PT %s"
-
-	unique = {
-	}
-}
-
-USA_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { mdg_ship_hull_hydrofoil }
-
-	prefix = "USS "
-	fallback_name = "PGH %s"
-
-	unique = {
-	}
-}
-
 USA_CORVETTE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CORVETTES
 

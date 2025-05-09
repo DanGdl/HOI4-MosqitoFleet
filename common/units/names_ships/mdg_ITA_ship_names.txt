@@ -7,56 +7,11 @@ ITA_AUXILIARY_HISTORICAL = {
 	type = ship
 	ship_types = { mdg_ship_hull_auxiliary }
 
-	prefix = ""
+	prefix = "RI "
 	fallback_name = "IA %s"
 
 	unique = {
 		"Ramb I" "Ramb II" "Ramb III"
-	}
-}
-
-ITA_MIDGET_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MIDGETS
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { mdg_ship_hull_midget_submarine }
-
-	prefix = "RSmg "
-	fallback_name = "SLC %s"
-
-	unique = {
-	}
-}
-
-ITA_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { mdg_ship_hull_boat }
-
-	prefix = ""
-	fallback_name = "MAS %s"
-
-	unique = {
-	}
-}
-
-ITA_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { mdg_ship_hull_hydrofoil }
-
-	prefix = ""
-	fallback_name = "P %s"
-
-	unique = {
 	}
 }
 
@@ -68,7 +23,7 @@ ITA_CORVETTE_HISTORICAL = {
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
 
-	prefix = ""
+	prefix = "RCT "
 	fallback_name = "LCS %s"
 
 	unique = {
@@ -85,7 +40,7 @@ ITA_FRIGATE_HISTORICAL = {
 	type = ship
 	ship_types = { mdg_ship_hull_frigate }
 
-	prefix = ""
+	prefix = "RCT "
 	fallback_name = "FF %s"
 
 	unique = {

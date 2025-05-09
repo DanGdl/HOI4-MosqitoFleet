@@ -6,7 +6,7 @@
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
 
-	prefix = ""
+	prefix = "HDMS "
 	fallback_name = "M $s"
 
 	unique = {

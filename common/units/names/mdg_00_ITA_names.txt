@@ -1,6 +1,14 @@
 ﻿ITA = {
 	fleet_names_template = FLEET_NAME_ITA
 
+	mdg_ship_hull_auxiliary = {
+		prefix = "RI"
+		generic = { "IA" }
+		unique = {
+			"Ramb I" "Ramb II" "Ramb III"
+		}
+	}
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "RSmg" # Regio Sommergibile
 		generic = { "SLC" } 
@@ -8,19 +16,19 @@
 	}
 
 	mdg_ship_hull_boat = {
-		prefix = ""
+		prefix = "RCT"
 		generic = { "MAS" }
 		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
-		prefix = ""
+		prefix = "RCT"
 		generic = { "P" }
 		unique = {}
 	}
 	
 	mdg_ship_hull_corvette = {
-		prefix = ""
+		prefix = "RCT"
 		generic = { "LCS" }
 		unique = {
 			"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu" 
@@ -29,7 +37,7 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-		prefix = ""
+		prefix = "RCT"
 		generic = { "FF" }
 		unique = {
 			"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta" 
@@ -37,14 +45,6 @@
 			"Colubrina" "Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta" 
 			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice" 
 			"Terpsicore"
-		}
-	}
-
-	mdg_ship_hull_auxiliary = {
-		prefix = ""
-		generic = { "IA" }
-		unique = {
-			"Ramb I" "Ramb II" "Ramb III"
 		}
 	}
 } 

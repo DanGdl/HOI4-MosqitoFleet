@@ -18,48 +18,6 @@ ENG_AUXILIARY_HISTORICAL = {
 	}
 }
 
-ENG_MIDGET_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MIDGETS
-
-	for_countries = { ENG }
-
-	type = ship
-	ship_types = { mdg_ship_hull_midget_submarine }
-
-	prefix = "HMS "
-	fallback_name = "X %s"
-
-	unique = { }
-}
-
-ENG_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
-
-	for_countries = { ENG }
-
-	type = ship
-	ship_types = { mdg_ship_hull_boat }
-
-	prefix = "HMS "
-	fallback_name = "MBT %s"
-
-	unique = { }
-}
-
-ENG_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
-
-	for_countries = { ENG }
-
-	type = ship
-	ship_types = { mdg_ship_hull_hydrofoil }
-
-	prefix = "HMS "
-	fallback_name = "HPC %s"
-
-	unique = { }
-}
-
 ENG_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 

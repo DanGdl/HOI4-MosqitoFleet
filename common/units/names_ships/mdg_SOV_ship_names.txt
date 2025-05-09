@@ -15,51 +15,6 @@ SOV_AUXILIARY_HISTORICAL = {
 	}
 }
 
-SOV_MIDGET_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MIDGETS
-
-	for_countries = { SOV }
-
-	type = ship
-	ship_types = { mdg_ship_hull_midget_submarine }
-
-	prefix = ""
-	fallback_name = "СМПЛ %s"
-
-	unique = {
-	}
-}
-
-SOV_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
-
-	for_countries = { SOV }
-
-	type = ship
-	ship_types = { mdg_ship_hull_boat }
-
-	prefix = ""
-	fallback_name = "TKA %s"
-
-	unique = {
-	}
-}
-
-SOV_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
-
-	for_countries = { SOV }
-
-	type = ship
-	ship_types = { mdg_ship_hull_hydrofoil }
-
-	prefix = ""
-	fallback_name = "ПК %s"
-
-	unique = {
-	}
-}
-
 SOV_CORVETTE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CORVETTES
 

@@ -1,5 +1,14 @@
 ﻿USA = {
 	fleet_names_template = FLEET_NAME_USA
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "USS "
+		generic = { "XAP" }
+		unique = {
+			"Von Steuben" "Mount Vernon" "Buffalo" "Dixie"
+		}
+	}
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "USS "
 		generic = { "SSM" }
@@ -68,14 +77,6 @@
 			"PF-62 Gladwyne" "PF-63 Moberly" "PF-64 Knoxville" "PF-65 Uniontown" "PF-66 Reading" "PF-67 Peoria" "PF-68 Brunswick" "PF-69 Davenport" 
 			"PF-70 Evansville" "PF-71 New Bedford" "PF-93 Lorain" "PF-94 Milledgeville" "PF-99 Orlando" "PF-100 Racine" "PF-101 Greensboro" 
 			"PF-102 Forsyth"
-		}
-	}
-
-	mdg_ship_hull_auxiliary = {
-		prefix = "USS "
-		generic = { "XAP" }
-		unique = {
-			"Von Steuben" "Mount Vernon" "Buffalo" "Dixie"
 		}
 	}
 }

@@ -7,11 +7,35 @@
 		unique = {}
 	}
 
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HMIS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HMIS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HMIS"
+		generic = { "GC" }
+		unique = {}
+	}
+
 	mdg_ship_hull_corvette = {
 		prefix = "HMIS"
 		generic = { "LCS" }
 		unique = {
 			"Bombay" "Punjab" "Madras" "Bengal" "Agra" "Ahmedabad" "Amritsar" "Baroda" "Berar" "Calcutta" "Cochin" "Cuttack" "Karachi" "Lahore" "Lucknow" "Madura" "Multan" "Nasik" "Patna" "Poona" "Rampur" "Shillong" "Travancore" "Rajputana" "Orissa" "Konkon" "Bihar" "Oudh" "Baluchistan" "Kathiawar" "Khyber" "Kumaon" "Carnatic" "Rohilkand"
 		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HMIS"
+		generic = { "FF" }
+		unique = { }
 	}
 }

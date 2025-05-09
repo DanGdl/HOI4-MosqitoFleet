@@ -14,77 +14,140 @@
 	}
 }
 
-GER_MIDGET_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MIDGETS
+
+
+
+
+GER_AUXILIARY_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_AUXILIARIES
 
 	for_countries = { GER }
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
 
+	prefix = ""
+	fallback_name = "HSK %s"
+
+	unique = {
+		"Orion" "Atlantis" "Widder" "Thor" "Pinguin" "Stier" "Komet" "Kormoran" "Michel" "Coronel" "Hansa"
+	}
+}
+
+GER_MIDGET_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_MIDGETS
+
+	for_countries = { GER }
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
 	type = ship
 	ship_types = { mdg_ship_hull_midget_submarine }
 
 	prefix = ""
 	fallback_name = "U %s"
 
-	unique = {
-	}
+	unique = { }
 }
 
-GER_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
+GER_BOAT_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BOATS
 
 	for_countries = { GER }
-
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
 	type = ship
 	ship_types = { mdg_ship_hull_boat }
 
 	prefix = ""
 	fallback_name = "S %s"
 
-	unique = {
-	}
+	unique = { }
 }
 
-GER_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
+GER_HYDROFOIL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_HYDROFOILS
 
 	for_countries = { GER }
-
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
 	type = ship
 	ship_types = { mdg_ship_hull_hydrofoil }
 
 	prefix = ""
 	fallback_name = "VS %s"
 
-	unique = {
-	}
+	unique = { }
 }
 
-GER_CORVETTE_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CORVETTES
+GER_CORVETTE_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CORVETTES
 
 	for_countries = { GER }
-
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
 
 	prefix = ""
 	fallback_name = "PA %s"
 
-	unique = {
-	}
+	unique = { }
 }
 
-GER_FRIGATE_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_FRIGATES
+GER_FRIGATE_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_FRIGATE
 
 	for_countries = { GER }
 
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
 	type = ship
 	ship_types = { mdg_ship_hull_frigate }
+	
+	fallback_name = "MZ %d"
 
-	prefix = ""
-	fallback_name = "MZ %s"
-
-	unique = {
-	}
+	unique = { }
 }
