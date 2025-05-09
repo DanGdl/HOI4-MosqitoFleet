@@ -5,7 +5,33 @@
 		prefix = ""
 		generic = { "X" }
 		unique = {
-			"Aramis" "Colombie" "El Kantara" "Quercy" "Mexique" "Esterel" "Barfleur" "Eridan" "El Djezair" "Djenné" "Charles Plumier" "Ville D'Alger" "Cap des Palmes" "Ville d'Oran" "El Mansour" "Victor Scoelcher"
+			"Х-01 Aramis" "Х-03 Cap des Palmes" "Х-04 Koutoubia" "Х-05 Ville d'Oran" "Х-06 El Mansour" "Х-07 Victor Scoelcher" "X-10 Colombie" 
+			"X-11 Charles Plumier" "Х-16 El Kantara" "Х-17 El Djezair" "Х-19 Barfleur" "Х-20 Quercy" "Х-21 Esterel" "Mexique" "Eridan" "Djenné" 
+			"Ville D'Alger"
+		}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = ""
+		generic = { "Ch" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = ""
+		generic = { "LCS" }
+		unique = {
+			"La Malouine" "La Dieppoise" "La Paimpolaise" "La Bastiaise" "Commandant d'Estlenne d'Orves" "Mimosa" "Alysse" "Aconit" "Roselys" "Renoncule" "Lobelia" "Commandant Detroyat" "Commandant Drogou" "Elan" "Commandant Bory" "Commandant Delage" "Commandant Dominie" "Commandant Duboc" "Commandant Riviere" "La Capricieuse" "La Moqueuse" "L'Impetueuse" "La Curieuse" "La Batailleuse" "La Boudeuse" 
+			"La Gradeuse" "Chamois" "Chevreuil" "Gazelle" "Annamite" "La Surprise" "Matelot Leblanc" "Rageot dela Touche" "Amiral Senes" 
+			"Enseigne Ballande"
+		}
+	}
+	
+	mdg_ship_hull_frigate = {
+		prefix = ""
+		generic = { "FF" }
+		unique = {
+			"L'Aventure" "Croixde Lorraine" "La Decouverte" "L'Escarmouche" "La Surprise" "Tonkinois"
 		}
 	}
 }
