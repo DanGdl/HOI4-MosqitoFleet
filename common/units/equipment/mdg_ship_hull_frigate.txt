@@ -29,7 +29,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo ship_depth_charge }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -45,6 +45,7 @@ equipments = {
 					ship_mine_layer
 					ship_anti_air
 					ship_depth_charge
+					#ship_airplane_launcher
 				}
 			}
 			mid_1_custom_slot = rear_1_custom_slot
@@ -58,7 +59,7 @@ equipments = {
 		module_count_limit = {
 			category = ship_sonar
 			count < 2
-		}
+		}		
 		
 		default_modules = {
 			fixed_ship_battery_slot = empty

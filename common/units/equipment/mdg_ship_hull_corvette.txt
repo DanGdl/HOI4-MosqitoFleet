@@ -44,6 +44,7 @@ equipments = {
 					ship_depth_charge
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
+					ship_airplane_launcher
 				}
 			}
 		}
@@ -57,7 +58,12 @@ equipments = {
 			category = ship_sonar
 			count < 2
 		}
-		
+
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 2
+		}
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
