@@ -16,7 +16,6 @@ if = {
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 12-tons"
 		type = mdg_ship_hull_boat_1
-		name_group = ITA_BOAT_HISTORICAL
 		parent_version = 0
 		obsolete = yes
 		modules = {
@@ -31,7 +30,6 @@ if = {
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 13-tons"
 		type = mdg_ship_hull_boat_1
-		name_group = ITA_BOAT_HISTORICAL
 		parent_version = 0
 		obsolete = yes
 		modules = {
@@ -46,7 +44,6 @@ if = {
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 14-tons"
 		type = mdg_ship_hull_boat_1
-		name_group = ITA_BOAT_HISTORICAL
 		parent_version = 0
 		obsolete = no
 		modules = {
@@ -61,7 +58,6 @@ if = {
 	create_equipment_variant = {
 		name = "Baglietto AWS"
 		type = mdg_ship_hull_boat_1
-		name_group = ITA_BOAT_HISTORICAL
 		parent_version = 0
 		obsolete = no
 		modules = {
@@ -76,7 +72,6 @@ if = {
 	create_equipment_variant = {
 		name = "Stefano Turr"
 		type = mdg_ship_hull_boat_2
-		name_group = ITA_BOAT_HISTORICAL
 		parent_version = 0
 		obsolete = no
 		modules = {
@@ -204,149 +199,6 @@ if = {
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
 			rear_1_custom_slot = ship_mine_layer_1
-		}
-	}
-
-	else = {
-		create_equipment_variant = {
-			name = "Baglietto (SVAN) 12-tons"
-			type = mdg_ship_hull_boat_1
-			name_group = ITA_BOAT_HISTORICAL
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_torpedo_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Baglietto (SVAN) 13-tons"
-			type = mdg_ship_hull_boat_1
-			name_group = ITA_BOAT_HISTORICAL
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Baglietto (SVAN) 14-tons"
-			type = mdg_ship_hull_boat_1
-			name_group = ITA_BOAT_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-				ship_anti_air_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Baglietto AWS"
-			type = mdg_ship_hull_boat_1
-			name_group = ITA_BOAT_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Stefano Turr"
-			type = mdg_ship_hull_boat_2
-			name_group = ITA_BOAT_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_anti_air_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Eritrea Class"
-			type = mdg_ship_hull_corvette_2
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				ship_anti_air_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Bafile Class"
-			type = mdg_ship_hull_corvette_1
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				ship_anti_air_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Bigfieri Class"
-			type = mdg_ship_hull_corvette_2
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_anti_air_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Type 6"
-			type = mdg_ship_hull_corvette_1
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_anti_air_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "1916/1918 Class"
-			type = mdg_ship_hull_corvette_1
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Ostia Class"
-			type = mdg_ship_hull_corvette_1
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = no
-			upgrades = {
-				ship_torpedo_upgrade = 3
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Fasana Class"
-			type = mdg_ship_hull_corvette_1
-			name_group = ITA_CORVETTE_HISTORICAL
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_ASW_upgrade = 2
-			}
 		}
 	}
 }
