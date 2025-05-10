@@ -1,0 +1,40 @@
+﻿POR = {
+	fleet_names_template = FLEET_NAME_POR
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "NRP"
+		generic = { "AUX" }
+		unique = { }
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "NRP"
+		generic = { "X" }
+		unique = { }
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "NRP"
+		generic = { "HPC" }
+		unique = { }
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "NRP"
+		generic = { "LT" }
+		unique = { }
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "NRP"
+		generic = { "FF" }
+		unique = { }
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "NRP "
+		generic = { "V" }
+
+		unique = { }
+	}
+}
