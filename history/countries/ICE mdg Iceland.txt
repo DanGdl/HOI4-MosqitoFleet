@@ -1,0 +1,25 @@
+﻿# replaces game's OOB
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "mdg_ICE_1936_naval_mtg"
+#	else = {
+#		set_naval_oob = "mdg_ICE_1936_naval_legacy"
+#	}
+#}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+
+	create_equipment_variant = {
+		name = "Patrol ship"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}

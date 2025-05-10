@@ -1,0 +1,39 @@
+﻿ICE = {
+	fleet_names_template = FLEET_NAME_ICE
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ICGV"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ICGV"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ICGV"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ICGV"
+		generic = { "MTB" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ICGV"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ICGV "
+		generic = { "LCS" }
+		unique = {}
+	}
+}
