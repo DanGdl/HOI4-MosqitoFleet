@@ -1,6 +1,6 @@
 ﻿units = {
 	fleet = {
-		name = "Latvijas Kara Flote"			
+		name = "Latvijas Kara Flote"
 		naval_base = 9340 # Riga
 		task_force = {
 			name = "Latvijas Kara Flote"
