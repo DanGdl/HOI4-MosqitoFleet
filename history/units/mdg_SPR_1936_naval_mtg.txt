@@ -1,0 +1,39 @@
+﻿units = {
+	fleet = {
+		name = "Base Naval Cádiz"
+		naval_base = 1048  #Cádiz
+		task_force = {
+			name = "Escuadrón de Cádiz"
+			location = 1048  #Cádiz
+
+			ship = { name = "ARE Canovas del Castillo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Canovas del Castillo Class" } } }
+			ship = { name = "ARE Canalejas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Canovas del Castillo Class" } } }
+			ship = { name = "ARE Dato" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Canovas del Castillo Class" } } }
+			
+			ship = { name = "ARE Virgen de la Caridad" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Virgen de la Caridad Class" } } }
+
+			ship = { name = "ARE Calvo Sotelo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SPR version_name = "Durango Class" } } }
+
+			ship = { name = "ARE Jupiter" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SPR version_name = "Jupiter Class" } } }
+			ship = { name = "ARE Vulcano" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SPR version_name = "Jupiter Class" } } }
+			ship = { name = "ARE Marte" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SPR version_name = "Jupiter Class" } } }
+			ship = { name = "ARE Neptuno" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SPR version_name = "Jupiter Class" } } }
+
+			ship = { name = "ARE Uad Martin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Uad Kert" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Arcila" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Xauen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Alcazar" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Larache" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Tetuan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Condestable Zaragoza" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Cabo de Infanteria Marina Garciolo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Contramaestre Castello" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Maquinista Macias" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Fogonero Banobre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Marinero Jarana" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Finisterre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+			ship = { name = "ARE Alhucemas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Castle/Harsey/Biscard Class" } } }
+		}
+	}
+}
