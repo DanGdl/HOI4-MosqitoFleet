@@ -1,0 +1,39 @@
+﻿EGY = {
+	fleet_names_template = FLEET_NAME_EGY
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "ERN"
+		generic = { "AUX" }
+		unique = { }
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ERN"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ERN"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ERN"
+		generic = { "GC" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_corvette = {
+		prefix = "ERN"
+		generic = { "LCS" }
+		unique = { }
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ERN"
+		generic = { "FF" }
+		unique = { }
+	}
+}
