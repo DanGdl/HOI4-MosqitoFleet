@@ -2,8 +2,8 @@
 	fleet = {
 		name = "Suomen Merivoimat"
 		naval_base = 11105 # Helsinki
-		task_force = {				
-			name = "Rannikkolaivue"	
+		task_force = {
+			name = "Rannikkolaivue"
 			location =  11105
 
 			ship = { name = "Hameenmaa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }
@@ -38,7 +38,6 @@
 			ship = { name = "MTV-5 Nudi" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "Syoksy Class" } } }
 			ship = { name = "MTV-6 Vinha" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "Syoksy Class" } } }
 			ship = { name = "MTV-7 Raju" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "Syoksy Class" } } }
-
 		}
 	}
 }

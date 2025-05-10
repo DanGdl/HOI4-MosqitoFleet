@@ -18,7 +18,7 @@
 	}
 
 	fleet = {
-		name = "Comando Navale Mar Egeo 2"			
+		name = "Comando Navale Mar Egeo 2"
 		naval_base = 10007 # Rhodes, Greece
 
 		task_force = {
@@ -32,7 +32,7 @@
 	}
 	
 	fleet = {
-		name = "Comando Navale Libia 2"			
+		name = "Comando Navale Libia 2"
 		naval_base = 1130 # Tobruk, Libya
 
 		task_force = { 

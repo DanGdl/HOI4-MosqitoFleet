@@ -16,12 +16,12 @@
 	mdg_ship_hull_hydrofoil = {
 		prefix = "HNoMS"
 		generic = { "HPC" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "HNoMS"
-		generic = { "GC" }
+		generic = { "MTB" }
 		unique = {
 			"Kong Haakon" "Vigra" "Hessa" "Hitra"
 		}

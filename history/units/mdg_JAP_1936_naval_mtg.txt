@@ -1,6 +1,6 @@
 ﻿units = {
 	fleet = {
-		name = "Support Fleet"			
+		name = "Support Fleet"
 		naval_base = 1136  #Kansai
 		task_force = {
 			name = "Support Task Force"

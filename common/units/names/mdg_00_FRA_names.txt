@@ -14,7 +14,7 @@
 	mdg_ship_hull_boat = {
 		prefix = ""
 		generic = { "Ch" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_corvette = {

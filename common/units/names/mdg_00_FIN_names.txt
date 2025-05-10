@@ -10,7 +10,7 @@
 	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "X" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_hydrofoil = {

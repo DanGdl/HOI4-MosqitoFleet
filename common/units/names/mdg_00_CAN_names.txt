@@ -12,13 +12,13 @@
 	mdg_ship_hull_hydrofoil = {
 		prefix = "HMCS"
 		generic = { "HPC" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "HMCS"
 		generic = { "MTB" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_frigate = {

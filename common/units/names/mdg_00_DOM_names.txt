@@ -10,19 +10,19 @@
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ARD"
 		generic = { "X" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "ARD"
 		generic = { "HPC" }
-		unique = {}
+		unique = { }
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "ARD"
 		generic = { "GC" }
-		unique = {}
+		unique = { }
 	}
 	
 	mdg_ship_hull_corvette = {
