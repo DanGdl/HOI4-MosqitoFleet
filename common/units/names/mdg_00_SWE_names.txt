@@ -1,0 +1,42 @@
+﻿SWE = {
+	fleet_names_template = FLEET_NAME_SWE
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "HMS"
+		generic = { "AUX" }
+		unique = { }
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HMS"
+		generic = { "X" }
+		unique = { }
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HMS"
+		generic = { "HPC" }
+		unique = { }
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HMS"
+		generic = { "T" }
+		unique = { }
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HMS"
+		generic = { "FF" }
+		unique = { }
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HMS"
+		generic = { "V" }
+
+		unique = {
+			"Arholma" "Landsort" "Bremon" "Holmon" "Koster" "Vinga" "Ven" "Ramskar" "Bredskar" "Kullen" "Sandon" "Gronskar" "Orskar" "Ulvon"
+		}
+	}
+}
