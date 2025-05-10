@@ -6,12 +6,12 @@
 			name = "Polska Flota Niszczycieli"
 			location =  362
 
-			ship = { name = "Gryf" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Gryf Class" } } }
+			ship = { name = "ORP Gryf" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Gryf Class" } } }
 
-			ship = { name = "Jaskolka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
-			ship = { name = "Czajka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
-			ship = { name = "Mewa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
-			ship = { name = "Rybitwa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "ORP Jaskolka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "ORP Czajka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "ORP Mewa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "ORP Rybitwa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
 		}
 	}
 }

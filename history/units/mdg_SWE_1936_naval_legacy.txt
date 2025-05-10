@@ -6,14 +6,14 @@
 			name = "2a Eskadern"
 			location = 11215 # Karlskrona
 
-			ship = { name = "Sokaren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
-			ship = { name = "Sveparen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
-			ship = { name = "Sprangaren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Sokaren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Sveparen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Sprangaren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
 
-			ship = { name = "Jagarer" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
-			ship = { name = "Караrеn" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
-			ship = { name = "Snapphanen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
-			ship = { name = "Vaktaren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Jagarer" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Караrеn" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Snapphanen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
+			ship = { name = "HMS Vaktaren" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
 		}
 	}
 }

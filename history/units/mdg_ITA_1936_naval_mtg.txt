@@ -7,13 +7,13 @@
 			name = "Squadra di Mar Rosso 2"
 			location = 12766 # Massawa, Eritrea
 
-			ship = { name = "MAS-204" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-206" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-210" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-213" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-216" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-204" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-206" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-210" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-213" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-216" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "Eritrea" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Eritrea" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
 		}
 	}
 
@@ -25,9 +25,9 @@
 			name = "Squadra di Mar Egeo 2"
 			location = 10007 # Rhodes, Greece
 
-			ship = { name = "Sebastiano Caboto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Bafile" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Ernesto Giovannini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Sebastiano Caboto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Bafile" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Ernesto Giovannini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
 		}
 	}
 	
@@ -39,18 +39,18 @@
 			name = "Squadra di Libia 2" 
 			location = 1130 # Tobruk, Libya
 
-			ship = { name = "Giuseppe Biglieri" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
-			ship = { name = "Giovanni Bertal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
-			ship = { name = "Mario Sonzini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
-			ship = { name = "Pellegrino Matteucci" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Giuseppe Biglieri" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Giovanni Bertal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Mario Sonzini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Pellegrino Matteucci" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "Alula" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Cirene" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Gallipoli" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Mario Bianco" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Otranto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Porto Corsini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Rimini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Alula" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Cirene" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Gallipoli" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Mario Bianco" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Otranto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Porto Corsini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Rimini" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
 		}
 	}
 
@@ -62,35 +62,35 @@
 			name = "Squadra di Mar Adriatico"
 			location = 925 # Ancona
 
-			ship = { name = "МАS-423" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-426" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-430" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-431" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT МАS-423" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-426" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-430" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-431" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "МАS-432" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-433" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-434" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-437" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT МАS-432" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-433" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-434" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-437" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "MAS-438" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-439" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-440" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "MAS-441" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-438" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-439" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-440" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT MAS-441" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "Stefano Turr" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Stefano Turr" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "Vieste" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Cortone" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Vieste" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Cortone" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "Azio" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Legnano" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Lepanto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Ostia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Azio" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Legnano" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Lepanto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Ostia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
 
-			ship = { name = "Buccari" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Durazzo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Fasana" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
-			ship = { name = "Pelagosa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Buccari" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Durazzo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Fasana" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
+			ship = { name = "RCT Pelagosa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
 		}
 	}
 }

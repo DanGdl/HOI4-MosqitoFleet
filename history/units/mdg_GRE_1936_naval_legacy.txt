@@ -6,15 +6,15 @@
 			name = "Vasilikós Stólos"
 			location = 4109 # Athens
 
-			ship = { name = "Korgialenios" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
-			ship = { name = "Tenedos" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
-			ship = { name = "Paralos" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
-			ship = { name = "Plias" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Korgialenios" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Tenedos" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Paralos" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Plias" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
 
-			ship = { name = "Aliakmon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
-			ship = { name = "Axios" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
-			ship = { name = "Nestos" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
-			ship = { name = "Strymon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Aliakmon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Axios" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Nestos" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Strymon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
 		}
 	}
 }

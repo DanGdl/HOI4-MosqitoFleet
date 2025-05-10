@@ -1,0 +1,39 @@
+﻿ECU = {
+	fleet_names_template = FLEET_NAME_ECU
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "BAE"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "BAE"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "BAE"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "BAE"
+		generic = { "MTB" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_corvette = {
+		prefix = "BAE"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "BAE"
+		generic = { "FF" }
+		unique = {}
+	}
+}

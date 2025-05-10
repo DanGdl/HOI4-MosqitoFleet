@@ -6,38 +6,38 @@
 			name = "Koninklijke Vloot"
 			location = 3314
 
-			ship = { name = "Brinio" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Friso" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Gruno" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Brinio" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Friso" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Gruno" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 
-			ship = { name = "Flores" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Soemba" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Flores" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Soemba" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 
-			ship = { name = "Johan Maurits van Nassau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL } } }
+			ship = { name = "HrMs Johan Maurits van Nassau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL } } }
 
-			ship = { name = "Hydra" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Medusa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Douwe Aukes" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Van Meerlant" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Krakatau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Pro Patria" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Nautilus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Prince van Oranje" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "GouHOL Leeuw" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Jan van Вrакеl" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Bangkalan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Soemenep" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "Rigel" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Hydra" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Medusa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Douwe Aukes" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Van Meerlant" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Krakatau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Pro Patria" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Nautilus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Prince van Oranje" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs GouHOL Leeuw" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Jan van Вrакеl" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Bangkalan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Soemenep" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs Rigel" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 
-			ship = { name = "M-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "M-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "M-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "M-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs M-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs M-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs M-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs M-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 
-			ship = { name = "A" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "B" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "C" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
-			ship = { name = "D" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs A" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs B" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs C" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
+			ship = { name = "HrMs D" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 		}
 	}
 }

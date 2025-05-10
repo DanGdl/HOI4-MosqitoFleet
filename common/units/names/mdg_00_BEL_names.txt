@@ -1,0 +1,39 @@
+﻿BEL = {
+	fleet_names_template = FLEET_NAME_BEL
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "BNS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "BNS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "BNS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "BNS"
+		generic = { "MTB" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_corvette = {
+		prefix = "BNS"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "BNS"
+		generic = { "FF" }
+		unique = {}
+	}
+}

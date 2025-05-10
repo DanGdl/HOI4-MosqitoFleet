@@ -5,16 +5,16 @@
 		task_force = {
 			name = "1st Task Force"
 			location = 4076
-			ship = { name = "El Amir Farouq" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
-			ship = { name = "Solium" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN El Amir Farouq" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN Solium" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
 
-			ship = { name = "El Zafir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
-			ship = { name = "El Fateh" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
-			ship = { name = "Hafir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN El Zafir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN El Fateh" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN Hafir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EGY } } }
 
-			ship = { name = "Darfeel" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
-			ship = { name = "Noor El Bahr" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
-			ship = { name = "Al Sarea" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN Darfeel" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN Noor El Bahr" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
+			ship = { name = "ERN Al Sarea" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = EGY } } }
 		}
 	}
 }
