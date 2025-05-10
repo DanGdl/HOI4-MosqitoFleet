@@ -1,0 +1,20 @@
+﻿units = {
+	fleet = {
+		name = "Vasilikó Polemikó Naftikó"
+		naval_base = 4109 # Athens
+		task_force = {
+			name = "Vasilikós Stólos"
+			location = 4109 # Athens
+
+			ship = { name = "Korgialenios" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "Tenedos" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "Paralos" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "Plias" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+
+			ship = { name = "Aliakmon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "Axios" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "Nestos" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+			ship = { name = "Strymon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST version_name = "Aliakmon Class" } } }
+		}
+	}
+}
