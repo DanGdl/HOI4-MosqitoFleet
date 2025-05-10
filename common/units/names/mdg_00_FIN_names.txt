@@ -4,13 +4,13 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = ""
 		generic = { "AUX" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
@@ -25,13 +25,13 @@
 	mdg_ship_hull_boat = {
 		prefix = ""
 		generic = { "MTV" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {

@@ -4,31 +4,31 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = "EML"
 		generic = { "AUX" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_midget_submarine = {
 		prefix = "EML"
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "EML"
 		generic = { "HPC" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "EML"
 		generic = { "RV" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_frigate = {
 		prefix = "EML"
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {

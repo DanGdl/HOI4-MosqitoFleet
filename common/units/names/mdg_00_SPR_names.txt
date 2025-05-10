@@ -4,19 +4,19 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARE"
 		generic = { "AUX" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ARE"
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "ARE"
 		generic = { "HPC" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
@@ -30,13 +30,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "ARE"
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {
 		prefix = "ARE "
 		generic = { "V" }
-
 		unique = {
 			"Eolo" "Triton"
 		}

@@ -4,36 +4,36 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARD "
 		generic = { "AUX" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ARD"
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "ARD"
 		generic = { "HPC" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "ARD"
 		generic = { "GC" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_corvette = {
 		prefix = "ARD"
 		generic = { "LCS" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_frigate = {
 		prefix = "ARD"
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 }

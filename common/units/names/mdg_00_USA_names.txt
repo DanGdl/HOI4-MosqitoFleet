@@ -12,19 +12,19 @@
 	mdg_ship_hull_midget_submarine = {
 		prefix = "USS "
 		generic = { "SSM" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "USS "
 		generic = { "PT" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "USS "
 		generic = { "PGH" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {

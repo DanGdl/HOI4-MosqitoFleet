@@ -4,37 +4,36 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = "NRP"
 		generic = { "AUX" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_midget_submarine = {
 		prefix = "NRP"
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "NRP"
 		generic = { "HPC" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "NRP"
 		generic = { "LT" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_frigate = {
 		prefix = "NRP"
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {
 		prefix = "NRP "
 		generic = { "V" }
-
-		unique = { }
+		unique = {}
 	}
 }

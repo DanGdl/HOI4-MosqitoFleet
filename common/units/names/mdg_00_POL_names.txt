@@ -10,13 +10,13 @@
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ORP"
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "ORP"
 		generic = { "HPC" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
@@ -30,13 +30,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "ORP"
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {
 		prefix = "ORP"
 		generic = { "LCS" }
-
 		unique = {
 			"Czapla" "Zuraw" "General Haller" "Komendant Pilsudski" "Krakov" "Wilno" "Horodyszcze" "Pinsk" "Torun" "Warszawa"
 		}

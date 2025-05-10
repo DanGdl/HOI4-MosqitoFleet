@@ -4,36 +4,36 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = "ERN"
 		generic = { "AUX" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ERN"
 		generic = { "X" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "ERN"
 		generic = { "HPC" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "ERN"
 		generic = { "MTB" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_corvette = {
 		prefix = "ERN"
 		generic = { "LCS" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_frigate = {
 		prefix = "ERN"
 		generic = { "FF" }
-		unique = { }
+		unique = {}
 	}
 }

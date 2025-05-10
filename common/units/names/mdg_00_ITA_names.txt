@@ -12,19 +12,19 @@
 	mdg_ship_hull_midget_submarine = {
 		prefix = "RSmg" # Regio Sommergibile
 		generic = { "SLC" } 
-		unique = { } 
+		unique = {} 
 	}
 
 	mdg_ship_hull_boat = {
 		prefix = "RCT"
 		generic = { "MAS" }
-		unique = { }
+		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
 		prefix = "RCT"
 		generic = { "P" }
-		unique = { }
+		unique = {}
 	}
 	
 	mdg_ship_hull_corvette = {
