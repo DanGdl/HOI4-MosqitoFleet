@@ -6,7 +6,7 @@
 			name = "1st Task Force"
 			location = 11293
 
-			ship = { name = "Muirchu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = IRE version_name = "Muirchu Class" } } }
+			ship = { name = "LE Muirchu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = IRE version_name = "Muirchu Class" } } }
 		}
 	}
 }
