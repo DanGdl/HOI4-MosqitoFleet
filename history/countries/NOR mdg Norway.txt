@@ -1,0 +1,92 @@
+﻿# replaces game's OOB
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "mdg_NOR_1936_naval_mtg"
+#	else = {
+#		set_naval_oob = "mdg_NOR_1936_naval_legacy"
+#	}
+#}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+
+	# enable and disable tech to create a task force if country didn't research technology yet. (Another way - create a hidden technology)
+	set_technology = { early_ship_hull_light = 1 }
+
+	create_equipment_variant = {
+		name = "Refited destroyers"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Refited fishing ships"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Vale Class"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Minelaying ships"
+		type = mdg_ship_hull_frigate_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Minesweeping ships"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_sweeper_1
+		}
+	}
+	set_technology = { early_ship_hull_light = 0 }
+}

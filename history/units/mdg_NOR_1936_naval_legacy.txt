@@ -1,0 +1,82 @@
+﻿units = {
+	fleet = {
+		name = "Kongelige Norske Marine"
+		naval_base = 9296 # Kristiansand
+		task_force = {
+			name = "3. Sjøforsvarsdistrikt"
+			location =  122 # Bergen
+
+			ship = { name = "Blink" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited destroyer class" } } }
+			ship = { name = "Kvik" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited destroyer class" } } }
+			ship = { name = "Lyn" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited destroyer class" } } }
+
+			ship = { name = "Haug II" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Haug III" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Hval II" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Hval III" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Hval IV" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Hval V" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Hval VI" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Hval VII" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Firern" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Oter I" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Pol III" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Treff" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Skudd I" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Skudd II" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+
+			ship = { name = "Alpha" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Alversund" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Andenes" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Beta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Bjerk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Bortind" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Commonwealth" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Fosen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Furu" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "William Barents" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Lyngdal" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Manger" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Lindaas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Oygar" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Oster" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Smart" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Veslefrikk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Veslegutt" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Heilhorn" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Stenkjaer" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Nauma" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Syrian" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Thorodd" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Svalbard II" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Kvitoy" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Nordhav II" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Rundoy" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Sperm" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Ramoen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Saetre" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Fridtjof Nansen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Heimdal" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+			ship = { name = "Michael Sars" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Refited fishing ships" } } }
+
+			ship = { name = "Froya" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR version_name = "Minelaying ships" } } }
+			ship = { name = "Olaf Tryggvason" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR version_name = "Minelaying ships" } } }
+			ship = { name = "Glommen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR version_name = "Minelaying ships" } } }
+			ship = { name = "Laugen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR version_name = "Minelaying ships" } } }
+			
+			ship = { name = "Vale" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Vale Class" } } }
+			ship = { name = "Uller" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Vale Class" } } }
+			ship = { name = "Nor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Vale Class" } } }
+			ship = { name = "Vidar" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Vale Class" } } }
+			ship = { name = "Gor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Vale Class" } } }
+			ship = { name = "Туг" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Vale Class" } } }
+
+			ship = { name = "Djerv" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Minesweeping ships" } } }
+			ship = { name = "Dristig" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Minesweeping ships" } } }
+			ship = { name = "Hvas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Minesweeping ships" } } }
+			ship = { name = "Kjaek" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Minesweeping ships" } } }
+			ship = { name = "Falk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Minesweeping ships" } } }
+			ship = { name = "Hauk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR version_name = "Minesweeping ships" } } }
+		}
+	}
+}

@@ -1,0 +1,45 @@
+﻿NOR = {
+	fleet_names_template = FLEET_NAME_NOR
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "HNoMS"
+		generic = { "AUX" }
+		unique = { }
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HNoMS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HNoMS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HNoMS"
+		generic = { "GC" }
+		unique = {
+			"Kong Haakon" "Vigra" "Hessa" "Hitra"
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HNoMS"
+		generic = { "FF" }
+		unique = { }
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HNoMS"
+		generic = { "LCS" }
+
+		unique = {
+			"Nordkapp" "Senja" "Andenes" "Montbretia" "Nordkyn" "Potentilla" "Rose" "Soroy" "Tungsberg" "Jeloy" "Karmoy" "Oksoy" "Tromoy" "Eday" 
+			"Tromoy" "Otra" "Rauma" "Orkla" "Vefsna"
+		}
+	}
+}
