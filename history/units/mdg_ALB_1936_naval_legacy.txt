@@ -1,23 +1,15 @@
 ﻿units = {
 	fleet = {
-		name = "Kraljevska Mornarica"
-		naval_base = 3924 # Split
+		name = "National Fleet"
+		naval_base = 11767 # Vlera
 		task_force = {
-			name = "Kraljevska Mornarica"
-			location = 3924
+			name = "1st Task Force"
+			location = 11767
 
-			ship = { name = "KB Galeb" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Jastreb" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Kobac" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Labud" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Orao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Sokol" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-
-			ship = { name = "KB Malinska" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Marjan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Meljine" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Mljet" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
-			ship = { name = "KB Mosor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "Tirana" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ALB } } }
+			ship = { name = "Saranda" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ALB } } }
+			ship = { name = "Durres" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ALB } } }
+			ship = { name = "Shengjin" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ALB } } }
 		}
 	}
 }

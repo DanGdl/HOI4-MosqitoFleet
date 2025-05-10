@@ -9,7 +9,7 @@
 			ship = { name = "Tirana" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
 			ship = { name = "Saranda" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
 			ship = { name = "Durres" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
-			ship = { name = "Shengjin" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }	
+			ship = { name = "Shengjin" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
 		}
 	}
 }
