@@ -1,0 +1,17 @@
+﻿units = {
+	fleet = {
+		name = "National Fleet"
+		naval_base = 6314 # Palanga
+		task_force = {
+			name = "1st Task Force"
+			location = 6314
+
+			ship = { name = "Prezidentas Smetona" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = LIT version_name = "Prezidentas Smetona Class" } } }
+
+			ship = { name = "Zaibas" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Aitvaras" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Saulis" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Partizanas" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+		}
+	}
+}
