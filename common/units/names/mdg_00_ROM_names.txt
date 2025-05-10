@@ -1,0 +1,41 @@
+﻿ROM = {
+	fleet_names_template = FLEET_NAME_ROM
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "NMS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "NMS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "NMS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "NMS"
+		generic = { "N" }
+		unique = {
+			"Viforul" "Vijelia" "Viscolu"  "Vedenia" "Vantul" "Vijetia" "Viforul" "Vartejul" "Vulcanu" 
+		}
+	}
+	
+	mdg_ship_hull_corvette = {
+		prefix = "NMS"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "NMS"
+		generic = { "FF" }
+		unique = {}
+	}
+}
