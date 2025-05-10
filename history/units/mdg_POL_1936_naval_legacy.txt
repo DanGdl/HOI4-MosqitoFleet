@@ -1,0 +1,17 @@
+﻿units = {
+	fleet = {
+		name = "Polska Flota Niszczycieli"
+		naval_base = 362 # Danzig
+		task_force = {
+			name = "Polska Flota Niszczycieli"
+			location =  362
+
+			ship = { name = "Gryf" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL version_name = "Gryf Class" } } }
+
+			ship = { name = "Jaskolka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "Czajka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "Mewa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "Rybitwa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+		}
+	}
+}

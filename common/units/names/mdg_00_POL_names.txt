@@ -1,0 +1,44 @@
+﻿POL = {
+	fleet_names_template = FLEET_NAME_POL
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ORP"
+		generic = { "AUX" }
+		unique = { }
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ORP"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ORP"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ORP"
+		generic = { "S" }
+		unique = {
+			"S-1 Chart" "S-2 Wilczur" "S-3 Wyzel"
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ORP"
+		generic = { "FF" }
+		unique = { }
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ORP"
+		generic = { "LCS" }
+
+		unique = {
+			"Czapla" "Zuraw" "General Haller" "Komendant Pilsudski" "Krakov" "Wilno" "Horodyszcze" "Pinsk" "Torun" "Warszawa"
+		}
+	}
+}
