@@ -1,0 +1,27 @@
+﻿units = {
+	fleet = {
+		name = "Eesti Sojalaevastikl"
+		naval_base = 3152  # Tallinn
+		task_force = {
+			name = "Eesti Sojalaevastikl"
+			location = 3152  # Tallinn
+
+			ship = { name = "Sulev" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Sulev Class" } } }
+			ship = { name = "Laine" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Sulev Class" } } }
+
+			ship = { name = "Ahti" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "Vanemuine" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "Ilmator" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "Tartu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "Mardus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+
+			ship = { name = "Ristna" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Minelaying ship" } } }
+			ship = { name = "Surop" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Minelaying ship" } } }
+			
+			ship = { name = "Keri" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = EST version_name = "M Class" } } }
+			ship = { name = "Vaindlo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = EST version_name = "M Class" } } }
+
+			ship = { name = "Tahkonа" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Tahkonа Class" } } }
+		}
+	}
+}
