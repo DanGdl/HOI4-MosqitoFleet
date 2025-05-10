@@ -32,7 +32,7 @@
 	}
 
 	mdg_ship_hull_corvette = {
-		prefix = "LE "
+		prefix = "LE"
 		generic = { "LCS" }
 		unique = {}
 	}

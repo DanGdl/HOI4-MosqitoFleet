@@ -32,7 +32,7 @@
 	}
 
 	mdg_ship_hull_corvette = {
-		prefix = "RHS "
+		prefix = "RHS"
 		generic = { "LCS" }
 		unique = {
 			"Apostolis" "Kriezis" "Sachtouris" "Tombazis" "Vassilefs Georgios II" "Afroessa" "Karteria" "Paralos" "Salaminia" "Kassos" "Kos" "Leros" "Andros" 

@@ -32,7 +32,7 @@
 	}
 
 	mdg_ship_hull_corvette = {
-		prefix = "NRP "
+		prefix = "NRP"
 		generic = { "V" }
 		unique = {}
 	}

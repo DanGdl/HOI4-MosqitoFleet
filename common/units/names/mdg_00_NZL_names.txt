@@ -34,7 +34,7 @@
 	}
 
 	mdg_ship_hull_corvette = {
-		prefix = "HMNZS "
+		prefix = "HMNZS"
 		generic = { "LCS" }
 		unique = {
 			"Kiwi" "Моа" "Tui"
