@@ -1,0 +1,43 @@
+﻿PHI = {
+	fleet_names_template = FLEET_NAME_PHI
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "RPS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "RPS"
+		generic = { "SSM" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "RPS"
+		generic = { "O" }
+		unique = {
+			"Abra" "Agusan" "Danday" "Luzon"
+		}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "RPS"
+		generic = { "O" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "RPS"
+		generic = { "PG" }
+		unique = {
+			"Negros Oriental"
+		}
+	}
+	
+	mdg_ship_hull_frigate = {
+		prefix = "RPS"
+		generic = { "FF" }
+		unique = {}
+	}
+}
