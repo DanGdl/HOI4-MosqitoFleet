@@ -1,0 +1,41 @@
+﻿SPR = {
+	fleet_names_template = FLEET_NAME_SPR
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARA"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARA"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARA"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARA"
+		generic = { "LT" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARA"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARA "
+		generic = { "V" }
+		unique = {
+			"Meta" "Melitta" "Margot" "Marianne" "Margarita" "Mecha" "Murature" "Py"
+		}
+	}
+}
