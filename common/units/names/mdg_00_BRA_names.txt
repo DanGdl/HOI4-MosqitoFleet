@@ -1,0 +1,43 @@
+﻿BRA = {
+	fleet_names_template = FLEET_NAME_BRA
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "NRB"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "NRB"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "NRB"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "NRB"
+		generic = { "LT" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "NRB"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "NRB "
+		generic = { "LCS" }
+		unique = {
+			"Carioca" "Cananeia" "Camocim" "Cabedelo" "Caravelas" "Camaqua" "Fernandes Vieira" "Felipe Camarao" "Henrique Dias" "Matias de Albuquerque" 
+			"Vidal de Negreiros" "Barreto de Menezes" "Rio Pardo" "Guapore" "Gurupi" "Guaiba" "Gurupa" "Guajara" "Goaina" "Grajau" "Grauna" "Jutai" "Jurua" "Juruena" 
+			"Jaguarao" "Jaguaribe" "Jacui" "Jundiai"
+		}
+	}
+}
