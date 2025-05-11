@@ -6,7 +6,7 @@
 			name = "Armada Venezula"
 			location = 8113
 
-			ship = { name = "ARV General Soublette'" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
+			ship = { name = "ARV General Soublette" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
 			ship = { name = "ARV General Urdaneta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
 			ship = { name = "ARV Miranda" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
 			ship = { name = "ARV General Salom" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
