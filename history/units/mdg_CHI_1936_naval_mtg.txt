@@ -1,21 +1,22 @@
 ﻿units = {
 	fleet = {
-		name = "National Fleet"
-		naval_base = 7982 # Bander-Abbas
+		name = "Di 1 Jiandui"
+		naval_base = 7014 # Shanghai
 		task_force = {
-			name = "1st Task Force"
-			location = 7982
+			name = "Di 1 Jiandui"
+			location = 7014
 
-			ship = { name = "IIS Babr" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Babr Class" } } }
+			ship = { name = "Ming Chuan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Ming Chuan Class" } } }
+			ship = { name = "Yung Sui" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Ming Chuan Class" } } }
 
-			ship = { name = "IIS Chahrokh" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
-			ship = { name = "IIS Chahbaaz" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
-			ship = { name = "IIS Karkass" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
-			ship = { name = "IIS Simorgh" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
+			ship = { name = "Chu Tung" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
+			ship = { name = "Chu Chien" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
+			ship = { name = "Chu Tai" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
+			ship = { name = "Chu Kuan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
 
-			ship = { name = "IIS Azerbaijan" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
-			ship = { name = "IIS Gehlani" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
-			ship = { name = "IIS Mazenderan" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
+			ship = { name = "Kiang Yuan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
+			ship = { name = "Kiang Chen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
+			ship = { name = "Kiang Li" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Chu Tung Class" } } }
 		}
 	}
 }

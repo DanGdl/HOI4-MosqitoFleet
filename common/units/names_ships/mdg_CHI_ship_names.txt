@@ -1,0 +1,73 @@
+﻿CHI_AUXILIARY_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_AUXILIARIES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { mdg_ship_hull_auxiliary }
+
+	prefix = ""
+	fallback_name = "AUX %s"
+
+	unique = {}
+}
+
+CHI_BOAT_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BOATS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { mdg_ship_hull_boat }
+
+	prefix = ""
+	fallback_name = "Kuai %s"
+
+	unique = {}
+}
+
+CHI_HYDROFOIL_IMPERIAL = {
+	name = NAME_THEME_HISTORICAL_HYDROFOILS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	prefix = ""
+	type = ship
+	ship_types = { mdg_ship_hull_hydrofoil }
+
+	prefix = ""
+	fallback_name = "Kuai %s"
+
+	unique = {}
+}
+
+CHI_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = ""
+	fallback_name = "LCS %s"
+
+	unique = {
+		"Chiang Hsi" "Chiang Kun" "Fa Ku" "San Min" "Ying Hao" "Ying Shan" "Ying Teh" "Mel Yuan" "Wei Ning" "Yi Ning" "Kiang Ning" "Chung Ning" "Chang Ning" 
+		"Sui Ning" "Hai Ning" "Wu Ning" "Suh Ning" "Cheng Nin"
+	}
+}
+
+CHI_FRIGATE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_FRIGATES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { mdg_ship_hull_frigate }
+
+	prefix = ""
+	fallback_name = "FF %s"
+
+	unique = {}
+}
