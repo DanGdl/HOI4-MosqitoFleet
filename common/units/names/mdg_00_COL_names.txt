@@ -1,0 +1,39 @@
+﻿COL = {
+	fleet_names_template = FLEET_NAME_COL
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARC"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARC"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARC"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARC"
+		generic = { "MTB" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARC"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARC"
+		generic = { "LCS" }
+		unique = {}
+	}
+}
