@@ -1,0 +1,39 @@
+﻿VEN = {
+	fleet_names_template = FLEET_NAME_VEN
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARV"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARV"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARV"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARV"
+		generic = { "CS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARV"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARV"
+		generic = { "LCS" }
+		unique = {}
+	}
+}

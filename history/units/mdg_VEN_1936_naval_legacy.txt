@@ -1,0 +1,21 @@
+﻿units = {
+	fleet = {
+		name = "Armada Venezula"
+		naval_base = 8113 # Caracas
+		task_force = {
+			name = "Armada Venezula"
+			location = 8113
+
+			ship = { name = "ARV General Soublette'" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV General Urdaneta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV Miranda" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV General Salom" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV Mariscal Sucre" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+
+			ship = { name = "ARV CS-1 Antonio Diaz" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV CS-2 Brion" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV CS-3 Bricendo Mendez" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV CS-4 Arismendi" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = VEN } } }
+		}
+	}
+}
