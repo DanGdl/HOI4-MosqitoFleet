@@ -1,5 +1,5 @@
-﻿SPR = {
-	fleet_names_template = FLEET_NAME_SPR
+﻿ARG = {
+	fleet_names_template = FLEET_NAME_ARG
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARA"
@@ -33,7 +33,7 @@
 
 	mdg_ship_hull_corvette = {
 		prefix = "ARA "
-		generic = { "V" }
+		generic = { "LCS" }
 		unique = {
 			"Meta" "Melitta" "Margot" "Marianne" "Margarita" "Mecha" "Murature" "Py"
 		}
