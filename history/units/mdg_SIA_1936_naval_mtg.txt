@@ -1,0 +1,19 @@
+﻿units = {
+	fleet = {
+		name = "Royal Siamese Navy"
+		naval_base = 7408 # Bangkok
+		task_force = {
+			name = "Royal Siamese Navy"
+			location = 7408
+
+			ship = { name = "HTMS Chow Phraya" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Chow Phraya Class" } } }
+			ship = { name = "HTMS Bangrachan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Bangrachan Class" } } }
+
+			ship = { name = "HTMS N-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+		}
+	}
+}
