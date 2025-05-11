@@ -26,38 +26,7 @@ JAP_MIDGET_HISTORICAL = {
 	prefix = ""
 	fallback_name = "I %s"
 
-	unique = {
-	}
-}
-
-JAP_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { mdg_ship_hull_boat }
-
-	prefix = ""
-	fallback_name = "T %s"
-
-	unique = {
-	}
-}
-
-JAP_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { mdg_ship_hull_hydrofoil }
-
-	prefix = ""
-	fallback_name = "PG %s"
-
-	unique = {
-	}
+	unique = {}
 }
 
 JAP_CORVETTE_HISTORICAL = {

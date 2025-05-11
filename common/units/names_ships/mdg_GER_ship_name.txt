@@ -61,7 +61,7 @@ GER_MIDGET_IMPERIAL = {
 	prefix = ""
 	fallback_name = "U %s"
 
-	unique = { }
+	unique = {}
 }
 
 GER_BOAT_IMPERIAL = {
@@ -83,7 +83,7 @@ GER_BOAT_IMPERIAL = {
 	prefix = ""
 	fallback_name = "S %s"
 
-	unique = { }
+	unique = {}
 }
 
 GER_HYDROFOIL_IMPERIAL = {
@@ -105,7 +105,7 @@ GER_HYDROFOIL_IMPERIAL = {
 	prefix = ""
 	fallback_name = "VS %s"
 
-	unique = { }
+	unique = {}
 }
 
 GER_CORVETTE_IMPERIAL = {
@@ -127,7 +127,7 @@ GER_CORVETTE_IMPERIAL = {
 	prefix = ""
 	fallback_name = "PA %s"
 
-	unique = { }
+	unique = {}
 }
 
 GER_FRIGATE_IMPERIAL = {
@@ -149,5 +149,5 @@ GER_FRIGATE_IMPERIAL = {
 	
 	fallback_name = "MZ %d"
 
-	unique = { }
+	unique = {}
 }

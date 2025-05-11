@@ -1,19 +1,5 @@
 ﻿##### INDIA NAME LISTS #####
 ### AUXILIARY SHIPS ###
-RAJ_AUXILIARY_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_AUXILIARIES
-
-	for_countries = { RAJ }
-
-	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
-
-	prefix = "HMIS "
-	fallback_name = "AUX %s"
-
-	unique = {}
-}
-
 RAJ_CORVETTE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CORVETTES
 

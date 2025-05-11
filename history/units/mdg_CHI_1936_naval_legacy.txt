@@ -1,0 +1,21 @@
+﻿units = {
+	fleet = {
+		name = "National Fleet"
+		naval_base = 7982 # Bander-Abbas
+		task_force = {
+			name = "1st Task Force"
+			location = 7982
+
+			ship = { name = "IIS Babr" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = PER } } }
+
+			ship = { name = "IIS Chahrokh" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = PER } } }
+			ship = { name = "IIS Chahbaaz" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = PER } } }
+			ship = { name = "IIS Karkass" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = PER } } }
+			ship = { name = "IIS Simorgh" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = PER } } }
+
+			ship = { name = "IIS Azerbaijan" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = PER } } }
+			ship = { name = "IIS Gehlani" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = PER } } }
+			ship = { name = "IIS Mazenderan" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = PER } } }
+		}
+	}
+}
