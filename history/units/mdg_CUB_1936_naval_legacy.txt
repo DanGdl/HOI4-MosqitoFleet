@@ -1,0 +1,33 @@
+﻿units = {
+	fleet = {
+		name = "Armada Nacional"
+		naval_base = 7622 # Habana
+		task_force = {
+			name = "Armada Nacional"
+			location = 7622
+
+			ship = { name = "ARC Bogota" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+
+			ship = { name = "ARC Patriа" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Donativo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+
+			ship = { name = "ARC Habana" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Pinar del Rio" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Matanzas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Las Villas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Diez de Octubre" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC General Juan Bruno Zayas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Veinte de Mayo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Yara" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Baire" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Santa Clara" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Oriente" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC Саmaguey" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CUB } } }
+
+			ship = { name = "ARC CS-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC CS-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC CS-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = CUB } } }
+			ship = { name = "ARC CS-4" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = CUB } } }
+		}
+	}
+}
