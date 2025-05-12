@@ -1,0 +1,39 @@
+﻿CHL = {
+	fleet_names_template = FLEET_NAME_CHL
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "BACH"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "BACH"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "BACH"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "BACH"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "BACH"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "BACH"
+		generic = { "LCS" }
+		unique = {}
+	}
+}
