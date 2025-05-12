@@ -1,0 +1,43 @@
+﻿MEX = {
+	fleet_names_template = FLEET_NAME_MEX
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARM"
+		generic = { "AUX" }
+		unique = {
+			"Progresso" "Coahurta" "Jalisco" "Mexico"		
+		}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARM"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARM"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARM"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARM"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARM"
+		generic = { "LCS" }
+		unique = {
+			"Halcon" "La Paz" "Jose Rafael" "Nereida"	
+		}
+	}
+}

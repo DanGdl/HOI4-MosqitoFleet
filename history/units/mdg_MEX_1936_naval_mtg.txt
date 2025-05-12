@@ -1,0 +1,36 @@
+﻿units = {
+	fleet = {
+		name = "Armada Nacional"
+		naval_base = 12810 # Veracruz
+		task_force = {
+			name = "Armada Nacional"
+			location = 12810
+
+			ship = { name = "ARM Durango" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MEX version_name = "Durango Class" } } }
+
+			ship = { name = "ARM Nicolas Bravo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MEX version_name = "Nicolas Bravo Class" } } }
+
+			ship = { name = "ARM Potosi" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MEX version_name = "Guanajuato Class" } } }
+			ship = { name = "ARM Guanajuato" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MEX version_name = "Guanajuato Class" } } }
+			ship = { name = "ARM Queretaro" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MEX version_name = "Guanajuato Class" } } }
+
+			ship = { name = "ARM G-20" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-21" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-22" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-23" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-24" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-26" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-27" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-28" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+			ship = { name = "ARM G-29" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "G Class" } } }
+
+			ship = { name = "ARM Acapulco" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "Mazatlan Class" } } }
+			ship = { name = "ARM Mazatlan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "Mazatlan Class" } } }
+			ship = { name = "ARM Tampico" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "Mazatlan Class" } } }
+			ship = { name = "ARM Veracruz" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = MEX version_name = "Mazatlan Class" } } }
+
+			ship = { name = "ARM Mayo" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = MEX version_name = "SC Class" } } }
+			ship = { name = "ARM Yagul" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = MEX version_name = "SC Class" } } }
+		}
+	}
+}
