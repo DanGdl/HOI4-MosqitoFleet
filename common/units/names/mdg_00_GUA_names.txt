@@ -1,38 +1,38 @@
-﻿PER = {
-	fleet_names_template = FLEET_NAME_PER
+﻿GUA = {
+	fleet_names_template = FLEET_NAME_GUA
 
 	mdg_ship_hull_auxiliary = {
-		prefix = "IIS"
+		prefix = "ARG"
 		generic = { "AUX" }
 		unique = {}
 	}
 	
 	mdg_ship_hull_midget_submarine = {
-		prefix = "IIS"
+		prefix = "ARG"
 		generic = { "X" }
 		unique = {}
 	}
 
 	mdg_ship_hull_hydrofoil = {
-		prefix = "IIS"
+		prefix = "ARG"
 		generic = { "HPC" }
 		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
-		prefix = "IIS"
+		prefix = "ARG"
 		generic = { "SC" }
 		unique = {}
 	}
 
 	mdg_ship_hull_frigate = {
-		prefix = "IIS"
+		prefix = "ARG"
 		generic = { "FF" }
 		unique = {}
 	}
 
 	mdg_ship_hull_corvette = {
-		prefix = "IIS"
+		prefix = "ARG"
 		generic = { "LCS" }
 		unique = {}
 	}
