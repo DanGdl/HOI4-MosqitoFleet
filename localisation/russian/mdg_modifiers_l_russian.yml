@@ -29,24 +29,6 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Стоимость проекта малокалиберного орудия III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Стоимость проекта малокалиберного орудия IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Стоимость проекта двигателя катера мощностью 700 л. с."
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Стоимость проекта двигателя катера мощностью 800 л. с."
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Стоимость проекта двигателя катера мощностью 1 200 л. с."
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Стоимость проекта двигателя катера мощностью 1 300 л. с."
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Стоимость проекта двигателя корвета мощностью 1 000 л. с."
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Стоимость проекта двигателя корвета мощностью 1 100 л. с."
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Стоимость проекта двигателя корвета мощностью 1 300 л. с."
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Стоимость проекта двигателя корвета мощностью 1 500 л. с."
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Стоимость проекта двигателя фрегата мощностью 5 000 л. с."
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Стоимость проекта двигателя фрегата мощностью 5 500 л. с."
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Стоимость проекта двигателя фрегата мощностью 6 000 л. с."
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Стоимость проекта двигателя фрегата мощностью 6 500 л. с."
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Стоимость проекта двигателя сверхмалой субмарины мощностью 25 л. с."
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Стоимость проекта двигателя сверхмалой субмарины мощностью 35 л. с."
-
  mdg_ship_hull_boat_design_cost_factor: "Стоимость проекта катера"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Стоимость проекта катера на подводных крыльях"
  mdg_ship_hull_auxiliary_design_cost_factor: "Стоимость проекта вспомогательного крейсера"

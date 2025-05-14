@@ -27,24 +27,6 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Custo de Projeto de Canhão Leve III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Custo de Projeto de Canhão Leve IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Custo de Projeto de Motor de Barco I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Custo de Projeto de Motor de Barco II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Custo de Projeto de Motor de Barco III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Custo de Projeto de Motor de Barco IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Custo de Projeto de Motor de Corveta I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Custo de Projeto de Motor de Corveta II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Custo de Projeto de Motor de Corveta III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Custo de Projeto de Motor de Corveta IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Custo de Projeto de Motor de Fragata I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Custo de Projeto de Motor de Fragata II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Custo de Projeto de Motor de Fragata III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Custo de Projeto de Motor de Fragata IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Custo de Projeto de Motor de Submarino Anão I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Custo de Projeto de Motor de Submarino Anão II"
-
  mdg_ship_hull_boat_design_cost_factor: "Custo de Projeto de Barco"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Custo de Projeto de Barco Hidrofólio"
  mdg_ship_hull_auxiliary_design_cost_factor: "Custo de Projeto do Cruzador Auxiliar"

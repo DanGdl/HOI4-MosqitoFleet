@@ -27,24 +27,6 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Koszt projektu lekkiej armaty III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Koszt projektu lekkiej armaty IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Koszt projektu silnika łodzi I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Koszt projektu silnika łodzi II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Koszt projektu silnika łodzi III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Koszt projektu silnika łodzi IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Koszt projektu silnika korwety I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Koszt projektu silnika korwety II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Koszt projektu silnika korwety III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Koszt projektu silnika korwety IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Koszt projektu silnika fregaty I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Koszt projektu silnika fregaty II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Koszt projektu silnika fregaty III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Koszt projektu silnika fregaty IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Koszt projektu silnika miniaturowego okrętu podwodnego I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Koszt projektu silnika miniaturowego okrętu podwodnego II"
-
  mdg_ship_hull_boat_design_cost_factor: "Koszt projektu kadłuba łodzi"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Koszt projektu kadłuba łodzi na poduszce wodnej"
  mdg_ship_hull_auxiliary_design_cost_factor: "Koszt projektu krążownika pomocniczego"

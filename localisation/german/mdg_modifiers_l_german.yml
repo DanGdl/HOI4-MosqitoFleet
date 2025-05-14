@@ -27,24 +27,6 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Konstruktionskosten für leichte Kanone III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Konstruktionskosten für leichte Kanone IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Konstruktionskosten für Bootsmotor I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Konstruktionskosten für Bootsmotor II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Konstruktionskosten für Bootsmotor III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Konstruktionskosten für Bootsmotor IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Konstruktionskosten für Korvettenmotor I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Konstruktionskosten für Korvettenmotor II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Konstruktionskosten für Korvettenmotor III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Konstruktionskosten für Korvettenmotor IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Konstruktionskosten für Fregattenmotor I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Konstruktionskosten für Fregattenmotor II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Konstruktionskosten für Fregattenmotor III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Konstruktionskosten für Fregattenmotor IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Motor I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Motor II"
-
  mdg_ship_hull_boat_design_cost_factor: "Konstruktionskosten für Bootsrumpf"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Konstruktionskosten für Tragflügelboot-Rumpf"
  mdg_ship_hull_auxiliary_design_cost_factor: "Konstruktionskosten für Hilfskreuzer"

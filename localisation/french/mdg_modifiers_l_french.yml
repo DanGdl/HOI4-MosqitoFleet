@@ -27,24 +27,6 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Coût de conception des canons légers III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Coût de conception des canons légers IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Coût de conception du moteur de vedette I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Coût de conception du moteur de vedette II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Coût de conception du moteur de vedette III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Coût de conception du moteur de vedette IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Coût de conception du moteur de corvette I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Coût de conception du moteur de corvette II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Coût de conception du moteur de corvette III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Coût de conception du moteur de corvette IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Coût de conception du moteur de frégate I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Coût de conception du moteur de frégate II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Coût de conception du moteur de frégate III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Coût de conception du moteur de frégate IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Coût de conception du moteur de sous-marin de poche I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Coût de conception du moteur de sous-marin de poche II"
-
  mdg_ship_hull_boat_design_cost_factor: "Coût de conception des vedettes"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Coût de conception des bateaux hydroptères"
  mdg_ship_hull_auxiliary_design_cost_factor: "Coût de conception du croiseur auxiliaire"
