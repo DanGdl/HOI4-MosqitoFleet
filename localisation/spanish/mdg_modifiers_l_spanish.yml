@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Ganancia de experiencia en entrenamiento de submarinos enanos"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Ganancia de experiencia en combate de submarinos enanos"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "Ganancia de experiencia de entrenamiento de monitor"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Ganancia de experiencia de combate de monitor"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Costo de diseño de cañones ligeros I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Costo de diseño de cañones ligeros II"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Costo de diseño de cañones ligeros III"
@@ -33,6 +36,7 @@
  mdg_ship_hull_corvette_design_cost_factor: "Costo de diseño de corbeta"
  mdg_ship_hull_frigate_design_cost_factor: "Costo de diseño de fragata"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Costo de diseño de submarino enano"
+ mdg_ship_hull_monitor_design_cost_factor: "Costo de diseño del monitor"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Ganancia de experiencia del rasgo Mosquito"
 

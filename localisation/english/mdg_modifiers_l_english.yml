@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Midget Submarine experence gain from training"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Midget Submarine Combat Experience Gain"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "Monitor Training Experience Gain"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Monitor Combat Experience Gain"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Light guns I Design Cost"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Light guns II Design Cost"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Light guns III Design Cost"
@@ -34,6 +37,7 @@
  mdg_ship_hull_frigate_design_cost_factor: "Frigate Design Cost"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Midget Submarine Design Cost"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Mosquito Trait XP Gain"
+ mdg_ship_hull_monitor_design_cost_factor: "Monitor Design Cost"
 
  mdg_ff_tech_research: "Frigate Research Speed"
  mdg_lcs_tech_research: "Corvette Research Speed"

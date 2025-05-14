@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "微型潜艇训练经验获取"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "微型潜艇战斗经验获取"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "浅水重炮舰训练经验获取"
+ modifier_experience_gain_mdg_monitor_combat_factor: "浅水重炮舰战斗经验获取"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "轻型武器 I 设计成本"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "轻型武器 II 设计成本"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "轻型武器 III 设计成本"
@@ -33,6 +36,7 @@
  mdg_ship_hull_corvette_design_cost_factor: "轻型护卫舰设计成本"
  mdg_ship_hull_frigate_design_cost_factor: "护卫舰设计成本"
  mdg_ship_hull_midget_submarine_design_cost_factor: "微型潜艇设计成本"
+ mdg_ship_hull_monitor_design_cost_factor: "浅水重炮舰设计花费"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "“蚊子”特性经验获取"
 

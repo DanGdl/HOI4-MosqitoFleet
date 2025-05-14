@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "小型潜水艦訓練経験値獲得"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "小型潜水艦戦闘経験値獲得"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "モニター艦の訓練経験値獲得"
+ modifier_experience_gain_mdg_monitor_combat_factor: "モニター艦の戦闘経験値獲得"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "軽火器 I 設計コスト"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "軽火器 II 設計コスト"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "軽火器 III 設計コスト"
@@ -33,6 +36,7 @@
  mdg_ship_hull_corvette_design_cost_factor: "コルベット設計コスト"
  mdg_ship_hull_frigate_design_cost_factor: "フリゲート設計コスト"
  mdg_ship_hull_midget_submarine_design_cost_factor: "小型潜水艦設計コスト"
+ mdg_ship_hull_monitor_design_cost_factor: "モニター艦設計コスト"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "「モスキート」特性経験値獲得"
 

@@ -201,6 +201,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "1940年式小型潜水艦船体の説明"
  mdg_ship_hull_midget_submarine_2_desc: "少人数の乗組員で運用される小型潜水艦で、港湾の破壊工作から護送船団襲撃まで幅広く使用できる。その航続距離と武装は制限されるが、生産性は高い。"
 
+ mdg_monitor: "モニター艦"
+ mdg_monitor_1: "モニター I"
+ mdg_monitor_2: "モニター II"
+ mdg_monitor_1_desc: "モニター I の説明"
+ mdg_monitor_2_desc: "モニター II の説明"
+
+ BRA_mdg_monitor_1: "ペルナンブコ型"
+ BRA_mdg_monitor_2: "パルナイーバ型"
+ ENG_mdg_monitor_1: "エレバス型"
+ ENG_mdg_monitor_2: "ロバーツ型"
+ SOV_mdg_monitor_2: "ハサン型"
+ YUG_mdg_monitor_1: "モラヴァ型"
+
+ mdg_ship_hull_monitor: "モニター艦"
+ mdg_ship_hull_monitor_1: "初期型モニター艦船体"
+ mdg_ship_hull_monitor_1_desc: "初期型モニター艦船体の説明"
+ mdg_ship_hull_monitor_2: "1940年型モニター艦船体"
+ mdg_ship_hull_monitor_2_desc: "1940年型モニター艦船体の説明"
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "自動砲"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "軽砲"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "両用軽砲"

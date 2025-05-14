@@ -202,6 +202,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "Корпус сверхмалой подводной лодки обр. 1940 г. описание"
  mdg_ship_hull_midget_submarine_2_desc: "Небольшая подлодка, управляемая малым экипажем, предназначенна для рейдов на гавани или уничтожение легких конвоев. Сниженная дальность действия и объем вооружения компенсируются высокими темпами производства."
 
+ mdg_monitor: "Монитор"
+ mdg_monitor_1: "Монитор I"
+ mdg_monitor_2: "Монитор II"
+ mdg_monitor_1_desc: "Монитор I описание"
+ mdg_monitor_2_desc: "Монитор II описание"
+
+ BRA_mdg_monitor_1: "Тип «Pernambuco»"
+ BRA_mdg_monitor_2: "Тип «Parnaiba»"
+ ENG_mdg_monitor_1: "Тип «Эребус»"
+ ENG_mdg_monitor_2: "Тип «Робертс»"
+ SOV_mdg_monitor_2: "Тип «Хасан»"
+ YUG_mdg_monitor_1: "Тип «Морава»"
+
+ mdg_ship_hull_monitor: "Монитор"
+ mdg_ship_hull_monitor_1: "Ранний корпус монитора"
+ mdg_ship_hull_monitor_1_desc: "Ранний корпус монитора описание"
+ mdg_ship_hull_monitor_2: "Корпус монитора обр. 1940 г."
+ mdg_ship_hull_monitor_2_desc: "Корпус монитора обр. 1940 г. описание"
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Автоматические пушки"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Легкие орудия"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Универсальные легкие орудия"

@@ -200,6 +200,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "Description de la coque de sous-marin de poche 1940"
  mdg_ship_hull_midget_submarine_2_desc: "Un sous-marin de petite taille opéré par un équipage réduit, pouvant être utilisé pour tout, du sabotage portuaire à l'attaque de convois. Sa portée et sa capacité d'armement limitées sont compensées par un taux de production élevé."
 
+ mdg_monitor: "Monitor"
+ mdg_monitor_1: "Monitor I"
+ mdg_monitor_2: "Monitor II"
+ mdg_monitor_1_desc: "Description du Monitor I"
+ mdg_monitor_2_desc: "Description du Monitor II"
+
+ BRA_mdg_monitor_1: "Classe Pernambuco"
+ BRA_mdg_monitor_2: "Classe Parnaiba"
+ ENG_mdg_monitor_1: "Classe Erebus"
+ ENG_mdg_monitor_2: "Classe Roberts"
+ SOV_mdg_monitor_2: "Classe Khasan"
+ YUG_mdg_monitor_1: "Classe Morava"
+
+ mdg_ship_hull_monitor: "Monitor"
+ mdg_ship_hull_monitor_1: "Coque de monitor précoce"
+ mdg_ship_hull_monitor_1_desc: "Description de la coque de monitor précoce"
+ mdg_ship_hull_monitor_2: "Coque de monitor modèle 1940"
+ mdg_ship_hull_monitor_2_desc: "Description de la coque de monitor modèle 1940"
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Canons automatiques"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Canons légers"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Canons légers double usage"
