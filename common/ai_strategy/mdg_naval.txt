@@ -34,6 +34,11 @@ default_role_ratios = {
 		id = mdg_naval_auxiliary
 		value = 70
 	}
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_monitor
+		value = 5
+	}
 }
 
 default_role_ratios = {
@@ -114,6 +119,12 @@ default_role_ratios = {
 		id = mdg_naval_auxiliary
 		value = 30
 	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_monitor
+		value = -90
+	}
 }
 
 convoy_voy_voy_voy = {
@@ -173,6 +184,12 @@ convoy_voy_voy_voy = {
 		type = role_ratio
 		id = mdg_naval_boat_mine_layer
 		value = -10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_monitor
+		value = -95
 	}
 }
 

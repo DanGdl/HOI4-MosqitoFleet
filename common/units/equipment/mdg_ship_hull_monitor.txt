@@ -5,7 +5,7 @@ equipments = {
 
 		is_archetype = yes
 		is_buildable = no
-		type = screen_ship
+		type = capital_ship
 		interface_category = interface_category_capital_ships
 		alias = mdg_monitor
 		priority = 1000
@@ -129,7 +129,6 @@ equipments = {
 		}
 		archetype = mdg_ship_hull_monitor
 		priority = 2300
-		active = yes
 
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -146,9 +145,8 @@ equipments = {
 		year = 1940
 
 		archetype = mdg_ship_hull_monitor
-		arent = mdg_monitor_1
+		parent = mdg_monitor_1
 		priority = 2300
-		active = yes
 
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1

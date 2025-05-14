@@ -108,7 +108,7 @@ equipments = {
 		archetype = mdg_ship_hull_auxiliary
 		module_slots = inherit
 		priority = 2300
-		active = yes
+		#active = yes
 
 		can_be_produced = {
 			OR = {
@@ -132,7 +132,7 @@ equipments = {
 		}
 		archetype = mdg_ship_hull_auxiliary
 		priority = 2300
-		active = yes
+		#active = yes
 
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_battery_1

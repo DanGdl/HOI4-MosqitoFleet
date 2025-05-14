@@ -20,6 +20,40 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_hydrofoil.dds"
 	}
 
+	# MONITORS
+	SpriteType = {
+		name = "GFX_mdg_monitor_medium"
+		texturefile = "gfx/interface/technologies/mdg_monitor.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_monitor_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_monitor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_monitor_2_medium"
+		texturefile = "gfx/interface/technologies/mdg_monitor_2.dds"
+	}
+	#SpriteType = {
+	#	name = "GFX_SOV_mdg_monitor_2_medium"
+	#	texturefile = "gfx/interface/technologies/SOV_mdg_monitor_2.dds"
+	#}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_monitor_medium"
+		texturefile = "gfx/interface/technologies/mdg_monitor.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_monitor_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_monitor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_monitor_2_medium"
+		texturefile = "gfx/interface/technologies/mdg_monitor_2.dds"
+	}
+	#SpriteType = {
+	#	name = "GFX_SOV_mdg_ship_hull_monitor_2_medium"
+	#	texturefile = "gfx/interface/technologies/SOV_mdg_monitor_2.dds"
+	#}
+
 	# TORPEDO BOATS
 	# GENERIC
 	SpriteType = {
