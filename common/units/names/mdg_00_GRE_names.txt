@@ -1,6 +1,53 @@
 ﻿GRE = {
 	fleet_names_template = FLEET_NAME_GRE
 
+	mdg_auxiliary = {
+		prefix = "RHS"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "RHS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "RHS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "RHS"
+		generic = { "T" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "RHS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "RHS"
+		generic = { "LCS" }
+		unique = {
+			"Apostolis" "Kriezis" "Sachtouris" "Tombazis" "Vassilefs Georgios II" "Afroessa" "Karteria" "Paralos" "Salaminia" "Kassos" "Kos" "Leros" "Andros" 
+			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson" 
+			"Kalavrita" "Distomon" "Lechovon" "Anchialos"
+		}
+	}
+
+	mdg_monitor = {
+		prefix = "RHS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "RHS"
 		generic = { "AUX" }
@@ -39,5 +86,11 @@
 			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson" 
 			"Kalavrita" "Distomon" "Lechovon" "Anchialos"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "RHS"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

@@ -1,6 +1,50 @@
 ﻿COL = {
 	fleet_names_template = FLEET_NAME_COL
 
+	mdg_submarine = {
+		prefix = "ARC"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARC"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARC"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARC"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARC"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARC"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARC"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARC"
 		generic = { "AUX" }
@@ -34,6 +78,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "ARC"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARC"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

@@ -1,11 +1,58 @@
 ﻿MEX = {
 	fleet_names_template = FLEET_NAME_MEX
 
+	mdg_submarine = {
+		prefix = "ARM"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARM"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARM"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARM"
+		generic = { "Corvette" }
+		unique = {
+			"Halcon" "La Paz" "Jose Rafael" "Nereida"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARM"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARM"
+		generic = { "AUX" }
+		unique = {
+			"Progresso" "Coahurta" "Jalisco" "Mexico"
+		}
+	}
+
+	mdg_monitor = {
+		prefix = "ARM"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARM"
 		generic = { "AUX" }
 		unique = {
-			"Progresso" "Coahurta" "Jalisco" "Mexico"		
+			"Progresso" "Coahurta" "Jalisco" "Mexico"
 		}
 	}
 	
@@ -37,7 +84,13 @@
 		prefix = "ARM"
 		generic = { "LCS" }
 		unique = {
-			"Halcon" "La Paz" "Jose Rafael" "Nereida"	
+			"Halcon" "La Paz" "Jose Rafael" "Nereida"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARM"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

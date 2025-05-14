@@ -1,6 +1,49 @@
 ﻿VEN = {
 	fleet_names_template = FLEET_NAME_VEN
 
+mdg_submarine = {
+		prefix = "ARV"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARV"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARV"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARV"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARV"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARV"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARV"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARV"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "ARV"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARV"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

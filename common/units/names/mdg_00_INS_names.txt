@@ -1,6 +1,49 @@
 ﻿INS = {
 	fleet_names_template = FLEET_NAME_INS
 
+	mdg_submarine = {
+		prefix = "KRI"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "KRI"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "KRI"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "KRI"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "KRI"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "KRI"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "KRI"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "KRI"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "KRI"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "KRI"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

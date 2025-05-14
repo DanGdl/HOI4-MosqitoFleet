@@ -1,6 +1,49 @@
 ﻿BEL = {
 	fleet_names_template = FLEET_NAME_BEL
-	
+
+	mdg_submarine = {
+		prefix = "BNS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "BNS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "BNS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "BNS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "BNS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "BNS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "BNS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "BNS"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "BNS"
 		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "BNS"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

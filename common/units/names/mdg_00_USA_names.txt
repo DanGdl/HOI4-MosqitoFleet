@@ -1,6 +1,49 @@
 ﻿USA = {
 	fleet_names_template = FLEET_NAME_USA
 	
+	mdg_submarine = {
+		prefix = "USS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "USS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "USS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "USS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "USS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "USS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "USS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "USS "
 		generic = { "XAP" }
@@ -24,6 +67,12 @@
 	mdg_ship_hull_hydrofoil = {
 		prefix = "USS "
 		generic = { "PGH" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "USS"
+		generic = { "BM" }
 		unique = {}
 	}
 

@@ -1,5 +1,49 @@
 ﻿EGY = {
 	fleet_names_template = FLEET_NAME_EGY
+
+	mdg_submarine = {
+		prefix = "ERN"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ERN"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ERN"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ERN"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ERN"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ERN"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ERN"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	
 	mdg_ship_hull_auxiliary = {
 		prefix = "ERN"
@@ -34,6 +78,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "ERN"
 		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ERN"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

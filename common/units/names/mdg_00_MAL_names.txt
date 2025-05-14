@@ -1,6 +1,49 @@
 ﻿MAL = {
 	fleet_names_template = FLEET_NAME_MAL
 
+	mdg_submarine = {
+		prefix = "KD"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "KD"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "KD"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "KD"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "KD"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "KD"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "KD"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "KD"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "KD"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "KD"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

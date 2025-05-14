@@ -1,6 +1,53 @@
 ﻿BRA = {
 	fleet_names_template = FLEET_NAME_BRA
 
+	mdg_submarine = {
+		prefix = "NRB"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "NRB"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "NRB"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "NRB"
+		generic = { "Corvette" }
+		unique = {
+			"Carioca" "Cananeia" "Camocim" "Cabedelo" "Caravelas" "Camaqua" "Fernandes Vieira" "Felipe Camarao" "Henrique Dias" "Matias de Albuquerque"
+			"Vidal de Negreiros" "Barreto de Menezes" "Rio Pardo" "Guapore" "Gurupi" "Guaiba" "Gurupa" "Guajara" "Goaina" "Grajau" "Grauna" "Jutai" "Jurua" "Juruena"
+			"Jaguarao" "Jaguaribe" "Jacui" "Jundiai"
+		}
+	}
+
+	mdg_frigate = {
+		prefix = "NRB"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "NRB"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "NRB"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "NRB"
 		generic = { "AUX" }
@@ -39,5 +86,11 @@
 			"Vidal de Negreiros" "Barreto de Menezes" "Rio Pardo" "Guapore" "Gurupi" "Guaiba" "Gurupa" "Guajara" "Goaina" "Grajau" "Grauna" "Jutai" "Jurua" "Juruena" 
 			"Jaguarao" "Jaguaribe" "Jacui" "Jundiai"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "NRB"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

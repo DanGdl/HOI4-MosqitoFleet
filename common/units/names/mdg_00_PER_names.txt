@@ -1,6 +1,49 @@
 ﻿PER = {
 	fleet_names_template = FLEET_NAME_PER
 
+	mdg_auxiliary = {
+		prefix = "IIS"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "IIS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "IIS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "IIS"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "IIS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "IIS"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "IIS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "IIS"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "IIS"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "IIS"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

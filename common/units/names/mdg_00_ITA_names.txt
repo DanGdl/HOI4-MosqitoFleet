@@ -1,6 +1,60 @@
 ﻿ITA = {
 	fleet_names_template = FLEET_NAME_ITA
 
+	mdg_auxiliary = {
+		prefix = "RI"
+		generic = { "IA" }
+		unique = {
+			"Ramb I" "Ramb II" "Ramb III"
+		}
+	}
+
+	mdg_midget_submarine = {
+		prefix = "RSmg" # Regio Sommergibile
+		generic = { "SLC" } 
+		unique = {} 
+	}
+
+	mdg_boat = {
+		prefix = "RCT"
+		generic = { "MAS" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "RCT"
+		generic = { "P" }
+		unique = {}
+	}
+	
+	mdg_corvette = {
+		prefix = "RCT"
+		generic = { "LCS" }
+		unique = {
+			"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu" 
+			"Gaspers" "Mazare" "Monte Gargano" "Orlando" "Partenope" "San Giorgio" "San Giusto" "Scilla"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = "RCT"
+		generic = { "FF" }
+		unique = {
+			"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta" 
+			"Artemide" "Persefone" "Euterpe" "Minerva" "Driade" "Danaide" "Pomona" "Flora" "Sfinge" "Chimera" "Sibillf" "Fenice" "Urania" "Berenice" "Renna" 
+			"Colubrina" "Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta" 
+			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice" 
+			"Terpsicore"
+		}
+	}
+
+	mdg_monitor = {
+		prefix = "RI"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "RI"
 		generic = { "IA" }
@@ -46,5 +100,11 @@
 			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice" 
 			"Terpsicore"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "RI"
+		generic = { "Monitor" }
+		unique = {}
 	}
 } 

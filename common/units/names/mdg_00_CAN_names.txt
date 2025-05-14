@@ -1,6 +1,49 @@
 ﻿CAN = {
 	fleet_names_template = FLEET_NAME_CAN
 
+	mdg_submarine = {
+		prefix = "HMCS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HMCS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HMCS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HMCS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "HMCS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HMCS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "HMCS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMCS"
 		generic = { "AUX" }
@@ -55,5 +98,11 @@
 			"Vegreville" "Border Cities" "Fort Francis" "Kapuskasing" "Middlesex" "New Liskeard" "Oshawa" "Portage" "Rockcliff" "St. Boniface" "Sault Sts. Marie"
 			"Winnipeg" "Wallaceburg"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HMCS"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

@@ -1,5 +1,50 @@
 ﻿DEN = {
 	fleet_names_template = FLEET_NAME_DEN
+
+	mdg_submarine = {
+		prefix = "HDMS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HDMS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HDMS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HDMS"
+		generic = { "Corvette" }
+		unique = {
+			"Soloven" "Sobjomen" "Soulven" "Soridderen" "Sohesten" "Sohunden"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = "HDMS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HDMS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "HDMS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
 	
 	mdg_ship_hull_auxiliary = {
 		prefix = "HDMS "
@@ -36,6 +81,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "HDMS"
 		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HDMS"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

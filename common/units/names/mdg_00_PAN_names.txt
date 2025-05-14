@@ -1,6 +1,49 @@
 ﻿PAN = {
 	fleet_names_template = FLEET_NAME_PAN
 
+	mdg_auxiliary = {
+		prefix = "ARP"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "ARP"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARP"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARP"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "ARP"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARP"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARP"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARP"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "ARP"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARP"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

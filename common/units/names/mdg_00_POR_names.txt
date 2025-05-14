@@ -1,6 +1,50 @@
 ﻿POR = {
 	fleet_names_template = FLEET_NAME_POR
 
+	mdg_submarine = {
+		prefix = "NRP"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "NRP"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "NRP"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "NRP"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "NRP"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "NRP"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "NRP"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "NRP"
 		generic = { "AUX" }
@@ -34,6 +78,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "NRP"
 		generic = { "V" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "NRP"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

@@ -1,5 +1,48 @@
 ﻿SPR = {
 	fleet_names_template = FLEET_NAME_SPR
+	
+	mdg_submarine = {
+		prefix = "ARE"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARE"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARE"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARE"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARE"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARE"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARE"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARE"
@@ -39,5 +82,11 @@
 		unique = {
 			"Eolo" "Triton"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARE"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

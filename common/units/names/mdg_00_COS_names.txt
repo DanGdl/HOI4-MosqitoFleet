@@ -1,6 +1,49 @@
 ﻿COS = {
 	fleet_names_template = FLEET_NAME_COS
 
+	mdg_submarine = {
+		prefix = "ARCR"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARCR"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARCR"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARCR"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARCR"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARCR"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARCR"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARCR"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "ARCR"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARCR"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

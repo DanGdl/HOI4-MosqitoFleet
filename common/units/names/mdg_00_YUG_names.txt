@@ -1,6 +1,49 @@
 ﻿YUG = {
 	fleet_names_template = FLEET_NAME_YUG
 	
+	mdg_submarine = {
+		prefix = "RB"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "RB"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "RB"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "RB"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "RB"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "RB"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "RB"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "KB"
 		generic = { "AUX" }
@@ -38,6 +81,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "KB"
 		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "KB"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

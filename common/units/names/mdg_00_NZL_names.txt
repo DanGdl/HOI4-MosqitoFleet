@@ -1,6 +1,53 @@
 ﻿NZL = {
 	fleet_names_template = FLEET_NAME_NZL
 
+	mdg_auxiliary = {
+		prefix = "HMNZS"
+		generic = { "AUX" }
+		unique = {
+			"Monowai"
+		}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "HMNZS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HMNZS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HMNZS"
+		generic = { "MTB" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "HMNZS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HMNZS"
+		generic = { "LCS" }
+		unique = {
+			"Kiwi" "Моа" "Tui"
+		}
+	}
+
+	mdg_monitor = {
+		prefix = "HMNZS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMNZS"
 		generic = { "AUX" }
@@ -39,5 +86,11 @@
 		unique = {
 			"Kiwi" "Моа" "Tui"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HMNZS"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

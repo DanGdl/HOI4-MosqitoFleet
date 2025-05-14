@@ -1,6 +1,49 @@
 ﻿PAK = {
 	fleet_names_template = FLEET_NAME_PAK
 
+	mdg_auxiliary = {
+		prefix = "PNS"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "PNS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "PNS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "PNS"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "PNS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "PNS"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "PNS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "PNS"
 		generic = { "AUX" }
@@ -34,6 +77,12 @@
 	mdg_ship_hull_corvette = {
 		prefix = "PNS"
 		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "PNS"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

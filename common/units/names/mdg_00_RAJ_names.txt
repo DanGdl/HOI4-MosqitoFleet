@@ -1,5 +1,51 @@
 ﻿RAJ = {
 	fleet_names_template = FLEET_NAME_RAJ
+
+	mdg_submarine = {
+		prefix = "HMIS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HMIS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HMIS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HMIS"
+		generic = { "Corvette" }
+		unique = {
+			"Bombay" "Punjab" "Madras" "Bengal" "Agra" "Ahmedabad" "Amritsar" "Baroda" "Berar" "Calcutta" "Cochin" "Cuttack" "Karachi" "Lahore" "Lucknow" "Madura" "Multan" "Nasik" "Patna" "Poona" "Rampur" "Shillong" "Travancore" "Rajputana" "Orissa" "Konkon" "Bihar" "Oudh" "Baluchistan" "Kathiawar" "Khyber" "Kumaon" "Carnatic" "Rohilkand"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = "HMIS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HMIS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "HMIS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMIS"
@@ -36,6 +82,12 @@
 	mdg_ship_hull_frigate = {
 		prefix = "HMIS"
 		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HMIS"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

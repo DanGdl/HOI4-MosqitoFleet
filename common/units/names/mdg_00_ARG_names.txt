@@ -1,6 +1,50 @@
 ﻿ARG = {
 	fleet_names_template = FLEET_NAME_ARG
 
+	mdg_submarine = {
+		prefix = "ARA"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARA"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARA"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARA"
+		generic = { "Corvette" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "ARA"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARA"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARA"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARA"
 		generic = { "AUX" }
@@ -37,5 +81,11 @@
 		unique = {
 			"Meta" "Melitta" "Margot" "Marianne" "Margarita" "Mecha" "Murature" "Py"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARA"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }
