@@ -934,9 +934,11 @@ technologies = {
 
 
 	early_ship_hull_heavy = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_heavy_1
+			mdg_ship_hull_monitor_1
 		}
 
 		enable_equipment_modules = {
@@ -1091,9 +1093,11 @@ technologies = {
 	}
 
 	improved_ship_hull_heavy = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = {
 			ship_hull_heavy_3
+			mdg_ship_hull_monitor_2
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_3

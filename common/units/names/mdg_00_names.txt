@@ -34,4 +34,10 @@
 		generic = { "AUX" }
 		unique = {}
 	}
+
+	mdg_ship_hull_monitor = {
+		prefix = ""
+		generic = { "Monitor" }
+		unique = {}
+	}
 }
