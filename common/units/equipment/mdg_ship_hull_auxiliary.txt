@@ -105,7 +105,7 @@ equipments = {
 	mdg_ship_hull_auxiliary_1 = {
 		year = 1922
 
-		archetype = mdg_ship_hull_auxiliary	
+		archetype = mdg_ship_hull_auxiliary
 		module_slots = inherit
 		priority = 2300
 		active = yes
