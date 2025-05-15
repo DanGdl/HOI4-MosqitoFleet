@@ -326,11 +326,11 @@ mdg_escort_frigate = {
 					any_of = { ship_depth_charge }
 					upgrade > current
 				}
-				mid_1_custom_slot =  {
+				mid_1_custom_slot = {
 					any_of = { ship_depth_charge }
 					upgrade > current
 				}
-				mid_2_custom_slot =  {
+				mid_2_custom_slot = {
 					any_of = { ship_depth_charge }
 					upgrade > current
 				}

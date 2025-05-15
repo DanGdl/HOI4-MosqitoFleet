@@ -1924,7 +1924,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech =  convoy_escorts_bs
+			leads_to_tech = convoy_escorts_bs
 			research_cost_coeff = 1
 		}
 		on_research_complete = {

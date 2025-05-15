@@ -1,4 +1,4 @@
-categories =  {
+categories = {
 
 	water_fjords = {
 		mdg_boat = {
