@@ -218,8 +218,8 @@
  mdg_ship_hull_monitor: "Монитор"
  mdg_ship_hull_monitor_1: "Ранний корпус монитора"
  mdg_ship_hull_monitor_1_desc: "Ранний корпус монитора описание"
- mdg_ship_hull_monitor_2: "Корпус монитора обр. 1940 г."
- mdg_ship_hull_monitor_2_desc: "Корпус монитора обр. 1940 г. описание"
+ mdg_ship_hull_monitor_2: "Корпус монитора обр. 1936 г."
+ mdg_ship_hull_monitor_2_desc: "Корпус монитора обр. 1936 г. описание"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Автоматические пушки"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Легкие орудия"

@@ -218,7 +218,7 @@
  mdg_ship_hull_monitor: "Monitor"
  mdg_ship_hull_monitor_1: "Früher Monitor-Rumpf"
  mdg_ship_hull_monitor_1_desc: "Ein einfacher Rumpf für frühe Monitore mit begrenzter Reichweite und Stabilität."
- mdg_ship_hull_monitor_2: "Monitor-Rumpf von 1940"
+ mdg_ship_hull_monitor_2: "Monitor-Rumpf von 1936"
  mdg_ship_hull_monitor_2_desc: "Ein fortschrittlicher Monitor-Rumpf mit verbesserter Feuerkraft und Verteidigung."
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatische Kanonen"

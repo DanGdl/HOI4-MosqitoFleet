@@ -171,4 +171,18 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_2
 		}
 	}
+	create_equipment_variant = {
+		name = "Erebus Class"
+		type = mdg_ship_hull_monitor_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_secondaries_1
+		}
+	}
 }

@@ -6,6 +6,9 @@
 			name = "Supprort Group"
 			location = 9458
 
+			ship = { name = "HMS Erebus" definition = mdg_monitor equipment = { mdg_smonitor_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Terror" definition = mdg_monitor equipment = { mdg_monitor_1 = { amount = 1 owner = ENG } } }
+
 			ship = { name = "HMS Foxglove" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Lupin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Rosemary" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }

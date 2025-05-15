@@ -217,8 +217,8 @@
  mdg_ship_hull_monitor: "Monitor"
  mdg_ship_hull_monitor_1: "Early Monitor Hull"
  mdg_ship_hull_monitor_1_desc: "Early Monitor Hull description"
- mdg_ship_hull_monitor_2: "1940 Monitor Hull"
- mdg_ship_hull_monitor_2_desc: "1940 Monitor Hull description"
+ mdg_ship_hull_monitor_2: "1936 Monitor Hull"
+ mdg_ship_hull_monitor_2_desc: "1936 Monitor Hull description"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatic Cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Light Cannons"

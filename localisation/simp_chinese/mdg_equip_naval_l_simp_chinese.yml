@@ -217,8 +217,8 @@
  mdg_ship_hull_monitor: "浅水重炮舰"
  mdg_ship_hull_monitor_1: "早期浅水重炮舰船体"
  mdg_ship_hull_monitor_1_desc: "早期浅水重炮舰船体描述"
- mdg_ship_hull_monitor_2: "1940年型浅水重炮舰船体"
- mdg_ship_hull_monitor_2_desc: "1940年型浅水重炮舰船体描述"
+ mdg_ship_hull_monitor_2: "1936年型浅水重炮舰船体"
+ mdg_ship_hull_monitor_2_desc: "1936年型浅水重炮舰船体描述"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "自动火炮"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "轻型火炮"

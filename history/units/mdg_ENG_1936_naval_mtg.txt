@@ -5,7 +5,10 @@
 		task_force = {
 			name = "Supprort Group"
 			location = 9458
-			ship = { name = "HMS Foxglove" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
+
+			ship = { name = "HMS Erebus" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
+			ship = { name = "HMS Terror" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
+				
 			ship = { name = "HMS Lupin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
 			ship = { name = "HMS Rosemary" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
 			ship = { name = "HMS Cornwallis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Aubretia Class" } } }

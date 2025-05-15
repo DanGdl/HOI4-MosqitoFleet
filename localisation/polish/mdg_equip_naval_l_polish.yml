@@ -217,8 +217,8 @@
  mdg_ship_hull_monitor: "Monitor"
  mdg_ship_hull_monitor_1: "Wczesny kadłub monitora"
  mdg_ship_hull_monitor_1_desc: "Opis wczesnego kadłuba monitora"
- mdg_ship_hull_monitor_2: "Kadłub monitora z 1940 r."
- mdg_ship_hull_monitor_2_desc: "Opis kadłuba monitora z 1940 r."
+ mdg_ship_hull_monitor_2: "Kadłub monitora z 1936 r."
+ mdg_ship_hull_monitor_2_desc: "Opis kadłuba monitora z 1936 r."
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatyczne Działa"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Lekkie Działa"

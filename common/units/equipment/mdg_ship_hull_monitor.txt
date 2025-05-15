@@ -25,7 +25,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { heavy_ship_engine } # or cruiser_ship_engine?
+				allowed_module_categories = { heavy_ship_engine }
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
@@ -49,11 +49,6 @@ equipments = {
 			fixed_ship_secondaries_slot = empty
 			fixed_ship_armor_slot = empty
 			rear_1_custom_slot = empty
-		}
-		
-		module_count_limit = {
-			category = ship_radar
-			count < 2
 		}
 
 		lg_armor_piercing = 0

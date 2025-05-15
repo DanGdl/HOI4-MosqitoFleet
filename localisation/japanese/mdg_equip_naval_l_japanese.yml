@@ -217,8 +217,8 @@
  mdg_ship_hull_monitor: "モニター艦"
  mdg_ship_hull_monitor_1: "初期型モニター艦船体"
  mdg_ship_hull_monitor_1_desc: "初期型モニター艦船体の説明"
- mdg_ship_hull_monitor_2: "1940年型モニター艦船体"
- mdg_ship_hull_monitor_2_desc: "1940年型モニター艦船体の説明"
+ mdg_ship_hull_monitor_2: "1936年型モニター艦船体"
+ mdg_ship_hull_monitor_2_desc: "1936年型モニター艦船体の説明"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "自動砲"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "軽砲"

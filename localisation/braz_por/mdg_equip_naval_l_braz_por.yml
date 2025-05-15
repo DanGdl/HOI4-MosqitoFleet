@@ -217,8 +217,8 @@
  mdg_ship_hull_monitor: "Monitor"
  mdg_ship_hull_monitor_1: "Casco de monitor inicial"
  mdg_ship_hull_monitor_1_desc: "Descrição do casco de monitor inicial"
- mdg_ship_hull_monitor_2: "Casco de monitor modelo 1940"
- mdg_ship_hull_monitor_2_desc: "Descrição do casco de monitor modelo 1940"
+ mdg_ship_hull_monitor_2: "Casco de monitor modelo 1936"
+ mdg_ship_hull_monitor_2_desc: "Descrição do casco de monitor modelo 1936"
 
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Canhões Automáticos"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Canhões de Luz"
