@@ -201,6 +201,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "Descripción de Casco de Submarino Enano de 1940"
  mdg_ship_hull_midget_submarine_2_desc: "Un submarino de pequeño tamaño operado por una tripulación reducida, que podría usarse para sabotajes en puertos o ataques a convoyes. Su alcance y capacidad de armamento limitados se compensan con una alta tasa de producción."
 
+ mdg_monitor: "Monitor"
+ mdg_monitor_1: "Monitor I"
+ mdg_monitor_2: "Monitor II"
+ mdg_monitor_1_desc: "Descripción del Monitor I"
+ mdg_monitor_2_desc: "Descripción del Monitor II"
+
+ BRA_mdg_monitor_1: "Clase Pernambuco"
+ BRA_mdg_monitor_2: "Clase Parnaiba"
+ ENG_mdg_monitor_1: "Clase Erebus"
+ ENG_mdg_monitor_2: "Clase Roberts"
+ SOV_mdg_monitor_2: "Clase Khasan"
+ YUG_mdg_monitor_1: "Clase Morava"
+
+ mdg_ship_hull_monitor: "Monitor"
+ mdg_ship_hull_monitor_1: "Casco de monitor temprano"
+ mdg_ship_hull_monitor_1_desc: "Descripción del casco de monitor temprano"
+ mdg_ship_hull_monitor_2: "Casco de monitor de 1936"
+ mdg_ship_hull_monitor_2_desc: "Descripción del casco de monitor de 1936"
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Cañones Automáticos"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Cañones Ligeros"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Cañones Ligeros de Doble Propósito"

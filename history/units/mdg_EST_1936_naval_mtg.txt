@@ -1,0 +1,27 @@
+﻿units = {
+	fleet = {
+		name = "Eesti Sojalaevastikl"
+		naval_base = 3152  # Tallinn
+		task_force = {
+			name = "Eesti Sojalaevastikl"
+			location = 1660  # near Tallinn
+
+			ship = { name = "EML Sulev" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Sulev Class" } } }
+			ship = { name = "EML Laine" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Sulev Class" } } }
+
+			ship = { name = "EML Ahti" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "EML Vanemuine" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "EML Ilmator" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "EML Tartu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+			ship = { name = "EML Mardus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Canon boat" } } }
+
+			ship = { name = "EML Ristna" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Minelaying ship" } } }
+			ship = { name = "EML Surop" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Minelaying ship" } } }
+			
+			ship = { name = "EML Keri" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = EST version_name = "M Class" } } }
+			ship = { name = "EML Vaindlo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = EST version_name = "M Class" } } }
+
+			ship = { name = "EML Tahkonа" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Tahkonа Class" } } }
+		}
+	}
+}

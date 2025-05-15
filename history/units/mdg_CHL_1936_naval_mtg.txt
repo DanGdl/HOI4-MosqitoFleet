@@ -1,0 +1,16 @@
+﻿units= {
+	fleet = {
+		name = "Armada de Chile"
+		naval_base = 8222 # Valparaiso
+		task_force = {
+			name = "Armada de Chile"
+			location = 5353
+
+			ship = { name = "BACH Aguila" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHL version_name = "Aguila Class" } } }
+
+			ship = { name = "BACH Elicura" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHL version_name = "Leucoton Class" } } }
+			ship = { name = "BACH Leucoton" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHL version_name = "Leucoton Class" } } }
+			ship = { name = "BACH Orompello" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHL version_name = "Leucoton Class" } } }
+		}
+	}
+} 

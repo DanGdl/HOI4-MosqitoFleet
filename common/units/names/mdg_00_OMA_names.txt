@@ -1,0 +1,88 @@
+﻿OMA = {
+	fleet_names_template = FLEET_NAME_OMA
+
+	mdg_auxiliary = {
+		prefix = "SNV"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "SNV"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "SNV"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "SNV"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "SNV"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "SNV"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "SNV"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "SNV"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "SNV"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "SNV"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "SNV"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "SNV"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "SNV"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "SNV"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

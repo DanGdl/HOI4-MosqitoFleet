@@ -1,8 +1,61 @@
 ﻿ENG = {
 	fleet_names_template = FLEET_NAME_ENG
 
+	mdg_submarine = {
+		prefix = "HMS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HMS"
+		generic = { "MTB" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HMS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HMS"
+		generic = { "LCS" }
+		unique = {
+			"Foxglove" "Lupin" "Rosemary" "Tedworth" "Aberdare" "Abingdon" "Albury" "Alresford" "Bagshot" "Derby" "Dundalk" "Dunnon" "Elgin" "Kellet" "Fareham" "Fermoy" "Harrow" "Huntley" "Lydd" "Pangbourne" "Fitzroy" "Flinders" "Ross" "Saltash" "Saltburn" "Selkirk" "Stoke" "Sutton" "Widnes" "Halcyon" "Skipjack" "Harrier" "Hussar" "Speedwell" "Niger" "Salamander" "Gleaner" "Hazard" "Franklin" "Jason" "Gossamer" "Hebe" "Sharpshooter" "Leda" "Seagull" "Bramble" "Britomart" "Scott" "Speedy" "Sphinx" "Bangor" "Blackpool" "Bridlington" "Bridport" "Blyth" "Peterhead" "Bude" "Cromer" "Eastbourne" "Felixstowe" "Fraserburgh" "Rhyl" "Romney" "Seaham" "Sidmouth" "Stornoway" "Wedgeport" "Fort York" "Parrsborough" "Qualicum" "Shippigan" "Tadoussac" "Ardrossan" "Brixham" "Cromarty" "Dunbar" "Beaumaris" "Bootle" "Boston" "Clacton" "Dornoch" "Hythe" "Polruan" "Rye" "Ilfracombe" "Llandudno" "Rothesay" "Tenby" "Poole" "Lyme Regis" "Whitehaven" "Worthing" "Acute" "Alarm" "Albacore" "Algerine" "Cadmus" "Chameleon" "Cheerful" "Circe" "Espiegle" "Fantome" "Hare" "Jewel" "Liberty" "Loyalty" "Mutine" "Onyx" "Pickle" "Pincher" "Plucky" "Ready" "Recruit" "Rifleman" "Rinaldo" "Rosario" "Spanker" "Squirrel" "Vestal" "Brave" "Fancy" "Bramble" "Fly" "Hound" "Hydra" "Larne" "Lennox" "Orestes" "Pelorus" "Rattlesnake" "Rowena" "Stormcloud" "Sylvia" "Tanganyika" "Waterwitch" "Wave" "Welcome" "Cockatrice" "Antares" "Aries" "Clinton" "Friendship" "Arcturus" "Coquette" "Courier" "Felicity" "Flyingfish" "Persian" "Golden Fleece" "Gozo"	"Jaseur" "Laertes" "Lightfoot" "Lioness" "Maenad" "Magicienne" "Mameluke" "Mandate" "Marvel" "Mary Rose" "Melita" "Michael" "Minstrel" "Moon" "Myrmidon" "Mystic" "Nerissa" "Octavia" "Postillion" "Prompt" "Providence" "Regulus" "Seabear" "Serene" "Thisbe" "Truelove" "Welfare" "Lysander" "Mariner" "Marmion" "Orcadia" "Catherine" "Cato" "Pique" "Chamois" "Chance" "Combatant" "Cynthia" "Elfreda" "Fairy" "Floriziel" "Foam" "Frolic" "Jasper" "Gazelle" "Gorgon" "Grecian" "Magic" "Pylades" "Steadfast" "Tattoo" "Strenuous" "Tourmaline" "Medusa" "Melpomene" "Minerva" "Brigewater" "Sandwich" "Folkestone" "Hastings" "Penzance" "Scarborough" ""Medusa", "Melpomene" "Minerva" "Linnet" "Ringdove" "Plover" "Linnet" "Redstart" "Ringdove" "Miner I" "Miner II" "Miner III" "Miner IV" "Miner V" "Miner VI" "Miner VII" "Miner VIII" "Blackbird" "Dabchik" "Corncrake" "Redshank" "Dee" "Garry" "Kennet" "Liffey" "Blackwater" "Boyne" "Cherwell" "Colne" "Doon" "Eden" "Exceient" "Foyle" "James Ludford" "Moy" "Ouse" "Armentieres" "Festubert" "Ypres" "Agate" "Amber" "Amethyst" "Beryl" "Coral" "Cornelian" "Jade" "Jasper" "Moonstone" "Pearl" "Ruby" "Sapphire" "Topaze" "Tourmaline" "Turquoise" "Alder" "Beech" "Berberis" "Cedar" "Cypress" "Guava" "Hawthorn" "Holly" "Hornbeam" "Larch" "Laurel" "Liliac" "Magnolia" "Maple" "Myrtle" "Oal" "Redwood" "Sycamoer" "Syringa" "Tamarisk" "Willow" "Shoreham" "Rochester" "Bideford" "Fowey" "Dundee" "Falmouth" "Milford" "Weston" "Grimsby" "Leith" "Lowestoft" "Wellington" "Deptford" "Londonderry" "Aberdeen" "Fleetwood" "Yarra" "Swan" "Bittern" "Pathan" Enchantress" "Stork" "Bittern" "Auckland" "Egret" "Pelican" "Jumna" "Sutlej" "Godavari" "Narbada" "Black Swan" "Erne" "Flamingo" "Ibis" "Whimbrel" "Wild Goose" "Woodcock" "Woodpecker" "Wren" "Culver" "Fishguard" "Hartland" "Lulworth" "Sennen" "Banff" "Gorelston" "Landguard" "Totland" "Walney" "Gladiolus" "Godetia" "Tulip" "Verbena" "Snowdrop" "Sunflower" "Wallflower" "Zinnia" "Celandine" "Carnation" "Gardenia" "Geranium" "Primrose" "Primula" "Salvia" "Snapdragon" "Bluebell" "Campanula" "Jonquil" "Anemone" "Arbutus" "Coreopsis" "Crocus" "Asphodel" "Aubretia" "Auricula" "Azalea" "Hollyhock" "Cyclamen" "Dianella" "Dahlia" "Myosotis" "Narcissus" "Nigella" "Pentstemon" "Honeysuckle" "Hydrangea" "Jasmine" "Lavender" "Lobelia" "Delphinium" "Dianthus" "Petunia" "Polyanthus" "Marguerite" "Marigold" "Mignonette" "Clematis" "Columbine" "Convolvulus" "Mimosa" "Clarkia" "Camellia" "Mallow" "Peony" "Erica" "Gloxina" "Picotee" "Gentian" "Hyacinth" "Rhododendron" "Heather" "Freesia" "Orchis" "Kingcup" "Pimpernel" "Violet" "Woodruff" "Ranunculus" "Rose" "Spiraea" "Starwort" "Oxlip" "Pennywort" "Burdock" "Campion" "Alyssum" "Betlwort" "Borage" "Samphire" "Stonecrop" "Vetch" "Sundew" "Amaranthus" "Clover" "Coltisfoot" "Lotus" "Pink" "Coriander" "Loosestrife" "Rockrose" "Saxifrage" "Meadowsweet" "Aconite" "Acanthus" "Fleur De Lys" "La Malouine" "Nasturtium" "Abelia" "Alisma" "Anchusa" "Armeria" "Aster" "Bergamot" "Vervain" "Cowslip" "Eglantine" "Fritillary" "Genista" "Buttercup" "Bryony" "Chrysanthemum" "Monkshood" "Montbretia" "Tamarisk" "Sweetbriar" "Thyme" "Snowflake" "Potentilla" "Hyderbad" "Poppy" "Betony" "Buddlea" "Burnet" "Ceanothus" "Bugloss" "Bullrush" "Arabis" "Candytuft" "Charlock" "Puffin" "Kittiwake" "Sheldrake" "Widgeon" "Guillemot" "Pintail" "Shearwater" "Balsam" "Berkeley Castle" "Knaresborough Castle" "Hever Castle" "Launceston Castle" "Alnwick Castle" "Oakham Castle" "Carisbrooke Castle" "Dumbarton Castle" "Hurst Castle" "Farnham Castle" "Hedingham Castle" "Bamborough Castle" "Caistor Castle" "Denibigh Castle" "Amberley Castle" "LeedsCastle" "Morpeth Castle" "Nunnery Castle" "Hadleigh Castle" "Kenilworth Castle" "Sandgate Castle" "Tamworth Castle" "Walmer Castle" "Portchester Castle" "Rushen Castle" "Shrewsbury Castle" "Allington Castle" "Lancaster Castle" "Pembroke Castle" "Norham Castle" "Oxford Castle" "Pevensey Castle" "Rising Castle" "Sherbourne Castle" "Flint Castle" "Guildford Castle" "Hedingham Castle" "Tintagel Castle" "Wolvesey Castle" "Kilbirniel" "Kilbirniel" "Kilbride" "Kikhattan" "Kilchrenan" "Kildary" "Kildwick" "Kilham" "Kilkenzie" "Kilhamptor" "Kilmalcolm" "Kilmarnock" "Kilmarton" "Kilmelford" "Kilmington" "Kilmore" "Basset" "Mastiff" "Buttermere" "Ellesmere" "Grassmere" "Thirlmere" "Ullswater" "Windermere" "Acacia" "Almond" "Ash" "Bay" "Birch" "Blackthorn" "Chestnut" "Deodar" "Elm" "Fir" "Hazel" "Hickory" "Juniper" "Mangrove" "Olive" "Pine" "Rowan" "Walnut" "Whitethorn" "Wistaria" "Cotillion" "Coverley" "Fandango" "Foxtrot" "Gavotte" "Hornpipe" "Mazurka" "Minuet" "Morris Dance" "Pirouette" "Polka" "Quadrille" "Rumba" "Salterelo" "Saraband" "Sword Dance" "Tango" "Two Step" "Valse" "Veleta" "Celia" "Coriolanus" "Fluellen" "Hamlet" "Horatio" "Juliet" "Laertes" "Macbeth" "Ophelia" "Othello" "Romeo" "Rosalind" "Ailsa Craig" "Annet" "Arran" "Balta" "Bardsey" "Benbecula" "Bern" "Biggal" "Bressay" "Brora" "Bruray" "Bryher" "Burra" "Bute" "Caldy" "Calvay" "Canna" "Cava" "Coll" "Colsay" "Copinsay" "Crowlin" "Cumbrae" "Damsay" "Earraid" "Eday" "Egilsay" "Ensay" "Eriskay" "Fara" "Fame" "Fetlar" "Fiaray" "Filla" "Flatholm" "Flotta" "Foula" "Foulness" "Fuday" "Gairsay" "Ganilly" "Gillstone" "Gorregan" "Graemsay" "Grain" "Grassholm" "Gruinard" "Gulland" "Gwael" "Hannaray" "Harris" "Hascosay" "Hayling" "Hellisay" "Hermetray" "Hildasay" "Hoxa" "Hoy" "Hunda" "Imersay" "Inchcolm" "Inchkeith" "Inchmarnock" "Islay" "Jura" "Kerrera" "Killegray" "Kintyre" "Kittern" "Lindisfarne" "Lingay" "Longa" "Lundy" "Mewstone" "Minalto" "Mincarlo" "Mousa" "Mull" "Neace" "Orfasy" "Oronsay" "Orsay" "Oxna" "Pladda" "Ronaldsay" "Ronay" "Rosevean" "Rousay" "Ruskholm" "Rysa" "Sandra" "Sandray" "Scalpay" "Scaravay" "Scarba" "Shapinsay" "Sheppey" "Shiant" "Shollay" "Skokholm" "Skomer" "Skye" "Sluna" "St. Agnes" "St. Kilda" "Staffa" "Stonechat" "Steepholm" "Stroma" "Stronsay" "Sursay" "Switha" "Tahay" "Tiree" "Tocogay" "Trodday" "Trondra" "Ulva" "Unst" "Vacesay" "Vallay" "Vatersay" "Wallasea" "Westray" "Whalsay" "Whitethroat" "Wiay" "Prong" "Proof" "Property" "Prophet" "Protest" "Prowess" "Probe" "Proctor" "Prodigal" "Product" "Professor" "Promise" "Aroha" "Awatea" "Hautapu" "Hinau" "Maimai" "Manuka" "Pahau" "Rimu" "Waiho" "Waima" "Waipu" "Birdlip" "Bredon" "Butser" "Duncton" "Dunkery" "Inkpen" "Portsdown" "Yestor" "Sir Agravane" "Sir Galahad" "Sir Gareth" "Sir Geraint" "Sir Kay" "Sir Lamorak" "Sir Lancelot" "Sir Tristram" "Bonito" "Bream" "Grayling" "Grisle" "Herring" "Mullet" "Pollock" "Whiting" "Bombardier" "Coldstream" "Fusilier" "Grenadier" "Guardsman" "Home Guard" "Lancer" "Royal Marine" "Sapper" "Lawrence" "Clive" "Grey Seal" "Grey Fox" "Grey Owl" "Grey Shark" "Grey Wolf" "Grey Goose"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = "HMS"
+		generic = { "FF" }
+		unique = {
+			"Kale" "Tweed" "Helmsdale" "Meon" "Halladale" "Dart" "Balinderry" "Frome" "Torridge" "Ribble" "Jed" "Trent" "Bann" "Tavy" "Avon" "Taff" "Monnow" "Ettrick" "Exe" "Itchen" "Aire" "Dovey" "Awe" "Chelmer" "Cam" "Test" "Teviot" "Helford" "Tees" "Lochy" "Annan" "Ness" "Nith" "Derg" "Strule" "Windrush" "Wye" "Ribble" "Braid" "Rother" "Spey" "Swale" "Тау" "Waveney" "Wear" "Lagan" "Moyola" "Mourne" "Deveron" "Fal" "Nene" "Plym" "Towy" "Usk" "Odzani" "Nadder" "Теmе" "Anguilla" "Antigua" "Ascension" "Bahamas" "Barbados" "Caicos" "Cayman" "Dominica" "Labuan" "Tobago" "Montserrat" "Nyasaland" "Papua" "Pitcairn" "St. Helena" "Saraw ark" "Seychelles" "Perim" "Somaliland" "Tortola" "Zanzibar" "Loch Achanalt" "Loch Achray" "Loch Alvie" "Loch Craggie" "Loch Dunvegan" "Loch Eck" "Loch Fada" "Loch Fyne" "Loch Glendhu" "LochGorm" "Loch Insh" "Loch Katrine" "Loch Killin" "Loch Killisport" "Loch Lomond" "Loch More" "Loch Morlich" "Loch Quoich" "Loch Ruthven" "Loch Scavaig" "Loch Shin" "Loch Tarbert" "Loch Tralaig" "Natal" "Transvaal" "Good Hope" "Bigbury Bay" "St. Brides Bay" "Widemouth Bay" "Cardigan Bay" "Whitesand Bay" "St. Austell Bay" "Veryan Bay" "Bazely" "Bayntun" "Berry" "Blackwood" "Burges" "Drury" "Capel" "Cooke" "Dacres" "Domett" "Foley" "Garlies" "Gould" "Grindall" "Gardiner" "Goodall" "Goodson" "Gore" "Keats" "Kempthornel" "Kingsmiir" "Lawford" "Louis" "Lawson" "Pasley" "Loring" "Hoste" "Moorsom" "Manners" "Mounsey" "Inglis" "Inman" "Bentick" "Byard" "Calder" "Duckworth" "Duff" "Essington" "Affleck" "Aylmer" "Balfour" "Bentley" "Bickerton" "Bligh" "Brarthwarte" "Bullen" "Byron" "Conn" "Cotton" "Cranstoun" "Cubitt" "Curzon" "Dakins" "Deane" "Ekins" "Fitzroy" "Redmill" "Retalick" "Halsted" "Riou" "Rutherford" "Cosby" "Rowley" "Rupert" "Stockham" "Seymour" "Spragge" "Stayner" "Thornbrough" "Trollope" "Tyler" "Torrington" "Narbrough" "Waldegrave" "Whittaker" "Holmes" "Hargood" "Hotham"
+		}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HMS"
+		generic = { "AUX" }
+		unique = {
+			"Jervis Bay" "Worcestershire" "Wolfe" "Voltaire" "Transylvania" "Scotstoun" "Salopian" "Ranpura" "Ranchi" "Rajputana" "Queen of Bermuda" "Pretoria Castle"
+			"Patroclus" "Moreton Bay" "Mooltan" "Montclare" "Maloja" "Letitia" "Laurentic" "Laconia" "Kanimbla" "Hector" "Forfar" "Esperance Bay" "Dunvegan Castle"
+			"Dunnottar Castle" "Derbyshire" "Corfu" "Comorin" "Circassia" "Cilicia" "Chitral" "Cheshire" "Cathay" "Carthage" "Carinthia" "California" "Canton"
+			"California" "Bulolo" "Ausonia" "Aurania" "Asturias" "Ascania" "Rawalpindi" "Carnarvon Castle" "Alcantara" "Alaunia" "Andania" "Antenor" "Antonia" "Arawa" "Anterior"
+		}
+	}
+
+	mdg_monitor = {
+		prefix = "HMS"
+		generic = { "MN" }
+		unique = {}
+	}
+
+
+
 	mdg_ship_hull_auxiliary = {
-		prefix = ""
+		prefix = "HMS"
 		generic = { "AMC" }
 		unique = {
 			"Jervis Bay" "Worcestershire" "Wolfe" "Voltaire" "Transylvania" "Scotstoun" "Salopian" "Ranpura" "Ranchi" "Rajputana" "Queen of Bermuda" "Pretoria Castle"
@@ -44,5 +97,11 @@
 		unique = {
 			"Kale" "Tweed" "Helmsdale" "Meon" "Halladale" "Dart" "Balinderry" "Frome" "Torridge" "Ribble" "Jed" "Trent" "Bann" "Tavy" "Avon" "Taff" "Monnow" "Ettrick" "Exe" "Itchen" "Aire" "Dovey" "Awe" "Chelmer" "Cam" "Test" "Teviot" "Helford" "Tees" "Lochy" "Annan" "Ness" "Nith" "Derg" "Strule" "Windrush" "Wye" "Ribble" "Braid" "Rother" "Spey" "Swale" "Тау" "Waveney" "Wear" "Lagan" "Moyola" "Mourne" "Deveron" "Fal" "Nene" "Plym" "Towy" "Usk" "Odzani" "Nadder" "Теmе" "Anguilla" "Antigua" "Ascension" "Bahamas" "Barbados" "Caicos" "Cayman" "Dominica" "Labuan" "Tobago" "Montserrat" "Nyasaland" "Papua" "Pitcairn" "St. Helena" "Saraw ark" "Seychelles" "Perim" "Somaliland" "Tortola" "Zanzibar" "Loch Achanalt" "Loch Achray" "Loch Alvie" "Loch Craggie" "Loch Dunvegan" "Loch Eck" "Loch Fada" "Loch Fyne" "Loch Glendhu" "LochGorm" "Loch Insh" "Loch Katrine" "Loch Killin" "Loch Killisport" "Loch Lomond" "Loch More" "Loch Morlich" "Loch Quoich" "Loch Ruthven" "Loch Scavaig" "Loch Shin" "Loch Tarbert" "Loch Tralaig" "Natal" "Transvaal" "Good Hope" "Bigbury Bay" "St. Brides Bay" "Widemouth Bay" "Cardigan Bay" "Whitesand Bay" "St. Austell Bay" "Veryan Bay" "Bazely" "Bayntun" "Berry" "Blackwood" "Burges" "Drury" "Capel" "Cooke" "Dacres" "Domett" "Foley" "Garlies" "Gould" "Grindall" "Gardiner" "Goodall" "Goodson" "Gore" "Keats" "Kempthornel" "Kingsmiir" "Lawford" "Louis" "Lawson" "Pasley" "Loring" "Hoste" "Moorsom" "Manners" "Mounsey" "Inglis" "Inman" "Bentick" "Byard" "Calder" "Duckworth" "Duff" "Essington" "Affleck" "Aylmer" "Balfour" "Bentley" "Bickerton" "Bligh" "Brarthwarte" "Bullen" "Byron" "Conn" "Cotton" "Cranstoun" "Cubitt" "Curzon" "Dakins" "Deane" "Ekins" "Fitzroy" "Redmill" "Retalick" "Halsted" "Riou" "Rutherford" "Cosby" "Rowley" "Rupert" "Stockham" "Seymour" "Spragge" "Stayner" "Thornbrough" "Trollope" "Tyler" "Torrington" "Narbrough" "Waldegrave" "Whittaker" "Holmes" "Hargood" "Hotham"
 		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HMS"
+		generic = { "MN" }
+		unique = {}
 	}
 }

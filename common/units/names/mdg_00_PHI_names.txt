@@ -1,0 +1,96 @@
+﻿PHI = {
+	fleet_names_template = FLEET_NAME_PHI
+
+	mdg_submarine = {
+		prefix = "RPS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "RPS"
+		generic = { "O" }
+		unique = {
+			"Abra" "Agusan" "Danday" "Luzon"
+		}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "RPS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "RPS"
+		generic = { "PG" }
+		unique = {
+			"Negros Oriental"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = "RPS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "RPS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "RPS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "RPS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "RPS"
+		generic = { "SSM" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "RPS"
+		generic = { "O" }
+		unique = {
+			"Abra" "Agusan" "Danday" "Luzon"
+		}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "RPS"
+		generic = { "O" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "RPS"
+		generic = { "PG" }
+		unique = {
+			"Negros Oriental"
+		}
+	}
+	
+	mdg_ship_hull_frigate = {
+		prefix = "RPS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "RPS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

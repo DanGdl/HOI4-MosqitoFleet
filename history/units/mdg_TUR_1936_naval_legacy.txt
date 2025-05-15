@@ -1,0 +1,31 @@
+﻿units = {
+	fleet = {
+		name = "Türk Donanmasi"
+		naval_base = 4112 # Izmir
+		task_force = {
+			name = "Türk Donanmasi"
+			location = 7452
+
+			#ship = { name = "TCG Berk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			#ship = { name = "TCG Peyk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+
+			ship = { name = "TCG Sivrihisar" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Yuzbasi Hakki" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Atak" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Nusret" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Intibah" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+
+			ship = { name = "TCG Isa Reis" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Kemal Reis" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Hizir Reis" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+
+			ship = { name = "TCG Dogan" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Deniz Kusu" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Marti" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = TUR } } }
+
+			ship = { name = "TCG N-18" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG N-21" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "TCG Mulazim Hayati" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = TUR } } }
+		}
+	}
+}

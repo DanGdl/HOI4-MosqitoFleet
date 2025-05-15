@@ -1,0 +1,96 @@
+﻿FIN = {
+	fleet_names_template = FLEET_NAME_FIN
+
+	mdg_submarine = {
+		prefix = ""
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = ""
+		generic = { "MTV" }
+		unique = {
+			"J-1 Jylha" "J-2 Jyry" "J-3 Jyske" "J-4 Jymy" "H-1 Hyoky" "H-2 Hirmu" "H-3 Hurja" "H-4 Hyrsky" "H-5 Haijy" "T-1 Tarmo" "T-2 Таistо" "T-3 Tyrsky" 
+			"T-4 Tuima" "T-5 Tuisku" "T-6 Tuuli" "V-1 Vasama" "V-2 Vihuri" "V-3 Viima"
+		}
+	}
+
+	mdg_hydrofoil = {
+		prefix = ""
+		generic = { "MTV" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = ""
+		generic = { "Corvette" }
+		unique = {
+			"Pukkio" "Porkkala" "Ajonpaa" "Kallanpaa" "Narvi" "Jurmo" "Luppi"  "Ahven" "Kiiski" "Mulkku" "Sarkl" "Kuore" "Lohna" "Kuha" "Salakka" "Siika" "Harjus" 
+			"Saynas" "Karppi"
+		}
+	}
+	
+	mdg_frigate = {
+		prefix = ""
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = ""
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = ""
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = ""
+		generic = { "MTV" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = ""
+		generic = { "MTV" }
+		unique = {
+			"J-1 Jylha" "J-2 Jyry" "J-3 Jyske" "J-4 Jymy" "H-1 Hyoky" "H-2 Hirmu" "H-3 Hurja" "H-4 Hyrsky" "H-5 Haijy" "T-1 Tarmo" "T-2 Таistо" "T-3 Tyrsky" 
+			"T-4 Tuima" "T-5 Tuisku" "T-6 Tuuli" "V-1 Vasama" "V-2 Vihuri" "V-3 Viima"
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = ""
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = ""
+		generic = { "LCS" }
+
+		unique = {
+			"Pukkio" "Porkkala" "Ajonpaa" "Kallanpaa" "Narvi" "Jurmo" "Luppi"  "Ahven" "Kiiski" "Mulkku" "Sarkl" "Kuore" "Lohna" "Kuha" "Salakka" "Siika" "Harjus" 
+			"Saynas" "Karppi"
+		}
+	}
+}

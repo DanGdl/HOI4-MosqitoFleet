@@ -46,3 +46,12 @@ mio_cat_eq_all_cruiser = {
 		mdg_ship_hull_auxiliary
 	}
 }
+
+mio_cat_eq_all_battleship = { #Includes all Battleships (BB, BC, SHBB, Pre-Dreadnought)
+	equipment_type = {
+		ship_hull_heavy
+
+		# easiest way to add support of MIO for new equipment
+		mdg_ship_hull_monitor
+	}
+}

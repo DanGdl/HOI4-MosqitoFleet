@@ -1,0 +1,13 @@
+﻿units = {
+	fleet = {
+		name = "National Fleet"
+		naval_base = 6560 # Vlaanderen
+		task_force = {
+			name = "Patrol group"
+			location = 8621
+
+			ship = { name = "BNS Zinnia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BEL version_name = "Artevelde Class" } } }
+			ship = { name = "BNS Artevelde" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BEL version_name = "Artevelde Class" } } }
+		}
+	}
+}

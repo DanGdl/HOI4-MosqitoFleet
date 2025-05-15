@@ -4,12 +4,13 @@
 		naval_base = 1349 # Bombei
 		task_force = {
 			name = "1st Task Force"
-			location = 1349
-			ship = { name = "HMIS Hindustan" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Hindustan" } } }
-			ship = { name = "HMIS Indus" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Indus" } } }
+			location = 2394
+			
+			ship = { name = "HMIS Hindustan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Hindustan" } } }
+			ship = { name = "HMIS Indus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Indus" } } }
 
-			ship = { name = "HMIS Lawrence" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Escort ship" } } }
-			ship = { name = "HMIS Clive" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Escort ship" } } }
+			ship = { name = "HMIS Lawrence" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Escort ship" } } }
+			ship = { name = "HMIS Clive" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Escort ship" } } }
 		}
 	}
 }

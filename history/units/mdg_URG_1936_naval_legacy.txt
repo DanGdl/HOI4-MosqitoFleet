@@ -1,0 +1,14 @@
+﻿units = {
+	fleet = {
+		name = "Armada Nacional"
+		naval_base = 10362 # Montevideo
+		task_force = {
+			name = "Armada Nacional"
+			location = 5951
+
+			ship = { name = "ROU Paysandu" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = URG } } }
+			ship = { name = "ROU Salto" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = URG } } }
+			ship = { name = "ROU Rio Negro" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = URG } } }
+		}
+	}
+}

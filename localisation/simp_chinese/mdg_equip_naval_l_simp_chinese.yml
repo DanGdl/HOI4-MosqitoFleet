@@ -201,6 +201,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "1940年微型潜艇船体描述"
  mdg_ship_hull_midget_submarine_2_desc: "一种由少量船员操作的小型潜艇，可用于从港口破坏到袭击商船队等多种任务，其航程和武器容量有限，但生产效率高。"
 
+ mdg_monitor: "浅水重炮舰"
+ mdg_monitor_1: "浅水重炮舰 I 型"
+ mdg_monitor_2: "浅水重炮舰 II 型"
+ mdg_monitor_1_desc: "浅水重炮舰 I 型描述"
+ mdg_monitor_2_desc: "浅水重炮舰 II 型描述"
+
+ BRA_mdg_monitor_1: "伯南布哥级"
+ BRA_mdg_monitor_2: "帕拉伊巴级"
+ ENG_mdg_monitor_1: "厄勒布斯级"
+ ENG_mdg_monitor_2: "罗伯茨级"
+ SOV_mdg_monitor_2: "哈桑级"
+ YUG_mdg_monitor_1: "摩拉瓦级"
+
+ mdg_ship_hull_monitor: "浅水重炮舰"
+ mdg_ship_hull_monitor_1: "早期浅水重炮舰船体"
+ mdg_ship_hull_monitor_1_desc: "早期浅水重炮舰船体描述"
+ mdg_ship_hull_monitor_2: "1936年型浅水重炮舰船体"
+ mdg_ship_hull_monitor_2_desc: "1936年型浅水重炮舰船体描述"
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "自动火炮"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "轻型火炮"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "双用途轻型火炮"

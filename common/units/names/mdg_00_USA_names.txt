@@ -1,5 +1,57 @@
 ﻿USA = {
 	fleet_names_template = FLEET_NAME_USA
+	
+	mdg_submarine = {
+		prefix = "USS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "USS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "USS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "USS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "USS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "USS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "USS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "USS "
+		generic = { "XAP" }
+		unique = {
+			"Von Steuben" "Mount Vernon" "Buffalo" "Dixie"
+		}
+	}
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "USS "
 		generic = { "SSM" }
@@ -18,23 +70,62 @@
 		unique = {}
 	}
 
+	mdg_ship_hull_monitor = {
+		prefix = "USS"
+		generic = { "BM" }
+		unique = {}
+	}
+
 	mdg_ship_hull_corvette = {
 		prefix = "USS "
 		generic = { "PG" }
-		unique = {}
+		unique = {
+			"PG-62 Temptress" "PG-63 Surprise" "PG-64 Spry" "PG-65 Saucy" "PG-66 Restless" "PG-67 Ready" "PG-68 Impulse" "PG-69 Fury" "PG-70 Courage" 
+			"PG-71 Tenacity" "PG-86 Action" "PG-87 Alacrity" "PG-89 Brisk" "PG-92 Haste" "PG-93 Intensity" "PG-94 Might" "PG-95 Pert" "PG-96 Prudent" 
+			"Lapwing" "Heron" "Thrush" "Avocet" "Teal" "Pelican" "Swan" "Gannet" "Sandpiper" "WPG-31 Bibb" "WPG-32 Campbell" "WPG-33 Duanel" 
+			"WPG-34 Alexander Hamilton" "WPG-35 Ingham" "WPG-36 Spencer" "WPG-37 Taney" "WPG-39 Owasco" "WPG-40 Winnebago" "WPG-41 Chautaqua" 
+			"WPG-69 Mendota" "WPG-70 Ponchartrain" "AM-82 Adroit" "AM-83 Advent" "АМ-84 Annoy" "AM-85 Conflict" "AM-86 Constant" "AM-87 Daring" 
+			"AM-88 Dash" "AM-89 Despite" "AM-90 Direct" "AM-91 Dynamic" "AM-92 Effective" "AM-93 Engage" "AM-94 Excel" "AM-95 Exploit" "AM-96 Fidelity" 
+			"AM-97 Fierce" "AM-98 Firm" "AM-99 Force" "AM-55 Raven" "AM-56 Osprey" "AM-57 Auk" "AM-58 Broadbill" "AM-59 Chickadee" "AM-60 Nuthatch" 
+			"AM-61 Pheasant" "AM-62 Sheldrake" "AM-63 Skylark" "AM-64 Starling" "AM-65 Swallow" "AM-100 Heed" "AM-101 Herald" "AM-102 Motive" 
+			"AM-103 Oracle" "AM-104 Pilot" "AM-105 Pioneer" "AM-106 Portent" "AM-107 Prevail" "AM-108 Pursuit" "AM-109 Requisite" "AM-110 Revenge" 
+			"AM-111 Sage" "AM-112 Seer" "AM-113 Sentinel" "AM-114 Staff" "AM-115 Skill" "AM-116 Speed" "AM-117 Strive" "AM-118 Steady" "AM-119 Sustain" 
+			"AM-120 Sway" "AM-121 Swerve" "AM-122 Swift" "AM-123 Symbol" "AM-124 Threat" "AM-125 Tide" "AM-126 Token" "AM-127 Tumult" "AM-128 Velocity" 
+			"AM-131 Zeal" "AM-314 Champion" "AM-315 Chief" "AM-316 Competent" "AM-317 Defense" "AM-318 Devastator" "AM-319 Gladiator" 
+			"AM-320 Impeccable" "AM-322 Spear" "AM-323 Triumph" "AM-324 Vigilance" "AM-340 Ardent" "AM-341 Dextrous" "AM-371 Minivet" "AM-372 Murrelet" 
+			"AM-375 Pochard" "AM-376 Ptarmigan" "AM-377 Quail" "AM-378 Redstart" "AM-379 Roselle" "AM-380 Ruddy" "AM-381 Scoter" "AM-382 Shoveler" 
+			"AM-383 Suftbird" "AM-384 Sprig" "AM-385 Tanager" "AM-386 Tercel" "AM-387 Toucan" "AM-388 Towhee" "AM-389 Waxwing" "AM-136 Admirable" 
+			"AM-137 Adopt" "AM-148 Astute" "AM-149 Augury" "AM-150 Barrier" "AM-151 Bombard" "AM-152 Bond" "AM-153 Buoyant" "AM-154 Candid" 
+			"AM-155 Capable" "AM-156 Captivate" "AM-157 Caravan" "AM-158 Caution" "AM-159 Chance" "AM-160 Clamour" "AM-161 Climax" "AM-162 Compel" 
+			"AM-163 Concise" "AM-164 Control" "AM-165 Counsel" "AM-214 Craig" "AM-215 Cruise" "AM-216 Deft" "AM-217 Delegate" "AM-218 Density" 
+			"AM-219 Design" "AM-220 Device" "AM-221 Diploma" "AM-222 Disdain" "AM-223 Dour" "AM-224 Eager" "AM-225 Elusive" "AM-226 Embattle" 
+			"AM-232 Execute" "AM-233 Facility" "AM-234 Fancy" "AM-235 Finity" "AM-238 Garland" "AM-239 Gayety" "AM-240 Hazard" "AM-241 Hilarity" 
+			"AM-242 Inaugural" "AM-246 Implicit" "AM-247 Improve" "AM-248 Incessant" "AM-249 Incredible" "AM-250 Indicative" "AM-251 Inflict" "AM-252 Instill" "AM-253 Intrique" "AM-254 Invade" "AM-255 Jubilant" "AM-256 Knave" "AM-257 Lance" "AM-258 Logic" "AM-259 Lucid" "AM-260 Magnet" 
+			"AM-261 Mainstain" "AM-262 Marvel" "AM-263 Measure" "AM-264 Method" "AM-265 Mirth" "AM-266 Nimble" "AM-267 Notable" "AM-268 Nucleus" 
+			"AM-269 Opponent" "AM-270 Palisade" "AM-271 Penetrate" "AM-272 Peril" "AM-273 Phantom" "AM-274 Pinnacle" "AM-275 Pirate" "AM-276 Pivot" 
+			"AM-277 Pledge" "AM-278 Project" "AM-279 Prime" "AM-280 Prowess" "AM-281 Quest" "AM-282 Rampart" "AM-283 Ransom" "AM-284 Rebel" 
+			"AM-285 Recruit" "AM-286 Reform" "AM-287 Refresh" "AM-294 Salute" "AM-295 Saunter" "AM-296 Scout" "AM-297 Scrimmage" "AM-298 Scuffle" 
+			"AM-299 Sentry" "AM-300 Serene" "AM-301 Shelter" "AM-302 Signet" "AM-303 Skirmish" "AM-304 Scurry" "AM-305 Spectacle" "AM-306 Spector" 
+			"AM-307 Staunch" "AM-308 Strategy" "AM-309 Strenght" "AM-310 Success" "AM-311 Superior" "AM-361 Dunlin" "AM-362 Gadwall" "AM-363 Gavla" 
+			"AM-364 Graylag" "AM-365 Harlequin"
+		}
 	}
 	
 	mdg_ship_hull_frigate = {
 		prefix = "USS "
 		generic = { "FF" }
-		unique = {}
-	}
-
-	mdg_ship_hull_auxiliary = {
-		prefix = "USS "
-		generic = { "XAP" }
 		unique = {
-			"Von Steuben" "Mount Vernon" "Buffalo" "Dixie"
+			"PF-1 Asheville" "PF-2 Natchez" "PF-3 Tacoma" "PF-4 Sausalito" "PF-5 Hoquiam" "PF-6 Pasco" "PF-7 Albuquerque" "PF-8 Everett" 
+			"PF-9 Pocatello" "PF-10 Brownsville" "PF-11 Grand Forks" "PF-12 Casper" "PF-13 Pueblo" "PF-14 Grand Island" "PF-15 Annapolis" 
+			"PF-16 Bangor" "PF-17 Key West" "PF-18 Alexandria" "PF-19 Huron" "PF-20 Gulfport" "PF-21 Bayonne" "PF-22 Gloucester" "PF-23 Shreveport" 
+			"PF-24 Muskegon" "PF-25 Charlottesville" "PF-26 Poughkeepsie" "PF-27 New Port" "PF-28 Emporia" "PF-29 Groton" "PF-30 Hingham" 
+			"PF-31 Grand Rapids" "PF-32 Woonsocket" "PF-33 Dearborn" "PF-34 Long Beach" "PF-35 Belfast" "PF-36 Glendale" "PF-37 San Pedro" 
+			"PF-38 Coronado" "PF-39 Ogden" "PF-40 Eugene" "PF-41 El Paso" "PF-42 Van Buren" "PF-43 Orange" "PF-44 Corpus Christi" "PF-45 Hutchison" 
+			"PF-46 Bisbee" "PF-47 Gallup" "PF-48 Rockford" "PF-49 Muskogee" "PF-50 Carson City" "PF-51 Burlington" "PF-52 Allentown" "PF-53 Machias" 
+			"PF-54 Sandusky" "PF-55 Bath" "PF-56 Covington" "PF-57 Sheboygan" "PF-58 Abilene" "PF-59 Beaufort" "PF-60 Charlotte" "PF-61 Manitowoc" 
+			"PF-62 Gladwyne" "PF-63 Moberly" "PF-64 Knoxville" "PF-65 Uniontown" "PF-66 Reading" "PF-67 Peoria" "PF-68 Brunswick" "PF-69 Davenport" 
+			"PF-70 Evansville" "PF-71 New Bedford" "PF-93 Lorain" "PF-94 Milledgeville" "PF-99 Orlando" "PF-100 Racine" "PF-101 Greensboro" 
+			"PF-102 Forsyth"
 		}
 	}
 }

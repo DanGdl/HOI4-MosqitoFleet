@@ -202,6 +202,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "Beschreibung des 1940 Kleinst-U-Boot-Rumpfs"
  mdg_ship_hull_midget_submarine_2_desc: "Ein kleines U-Boot, das von einer kleinen Besatzung betrieben wird und für alles eingesetzt werden kann, von Hafen-Sabotage bis zur Konvoijagd. Seine reduzierte Reichweite und Waffenfähigkeit wird durch eine hohe Produktionsrate ausgeglichen."
 
+ mdg_monitor: "Monitor"
+ mdg_monitor_1: "Monitor I"
+ mdg_monitor_2: "Monitor II"
+ mdg_monitor_1_desc: "Ein frühes Monitor-Design mit starker Bewaffnung, aber begrenzter Seetüchtigkeit."
+ mdg_monitor_2_desc: "Ein verbessertes Monitor-Design aus den 1940er-Jahren, optimiert für Küsteneinsätze."
+
+ BRA_mdg_monitor_1: "Typ Pernambuco"
+ BRA_mdg_monitor_2: "Typ Parnaíba"
+ ENG_mdg_monitor_1: "Typ Erebus"
+ ENG_mdg_monitor_2: "Typ Roberts"
+ SOV_mdg_monitor_2: "Typ Chasan"
+ YUG_mdg_monitor_1: "Typ Morava"
+
+ mdg_ship_hull_monitor: "Monitor"
+ mdg_ship_hull_monitor_1: "Früher Monitor-Rumpf"
+ mdg_ship_hull_monitor_1_desc: "Ein einfacher Rumpf für frühe Monitore mit begrenzter Reichweite und Stabilität."
+ mdg_ship_hull_monitor_2: "Monitor-Rumpf von 1936"
+ mdg_ship_hull_monitor_2_desc: "Ein fortschrittlicher Monitor-Rumpf mit verbesserter Feuerkraft und Verteidigung."
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatische Kanonen"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Leichte Kanonen"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Zweckmäßige leichte Kanonen"

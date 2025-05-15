@@ -1,13 +1,5 @@
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "mdg_ENG_1936_naval_mtg"
-	else = {
-		set_naval_oob = "mdg_ENG_1936_naval_legacy"
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
 		name = "Acacia/Arabis Series"
@@ -25,6 +17,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+	
 	create_equipment_variant = {
 		name = "Aubretia Class"
 		type = mdg_ship_hull_corvette_1
@@ -41,6 +34,7 @@ if = {
 			rear_1_custom_slot = mdg_ship_light_cannon_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Brigewater/Hastings Class"
 		type = mdg_ship_hull_corvette_1
@@ -57,6 +51,7 @@ if = {
 			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Medusa Class"
 		type = mdg_ship_hull_corvette_1
@@ -73,6 +68,7 @@ if = {
 			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Shoreham/Grimsby Class"
 		type = mdg_ship_hull_frigate_1
@@ -90,6 +86,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Yarra/Bittern Class"
 		type = mdg_ship_hull_frigate_1
@@ -107,6 +104,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "PC Class"
 		type = mdg_ship_hull_corvette_1
@@ -140,6 +138,7 @@ if = {
 			rear_1_custom_slot = ship_mine_sweeper_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Halcyon Class"
 		type = mdg_ship_hull_corvette_2
@@ -155,6 +154,7 @@ if = {
 			rear_1_custom_slot = ship_mine_sweeper_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Kingfisher Class"
 		type = mdg_ship_hull_corvette_2
@@ -171,141 +171,26 @@ if = {
 		}
 	}
 
+	create_equipment_variant = {
+		name = "Erebus Class"
+		type = mdg_ship_hull_monitor_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_secondaries_1
+		}
+	}
+}
 
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_ENG_1936_naval_mtg"
 	else = {
-		create_equipment_variant = {
-			name = "Acacia/Arabis Series"
-			type = mdg_ship_hull_corvette_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_ASW_upgrade = 1
-			}
-		}
-		create_equipment_variant = {
-			name = "Aubretia Class"
-			type = mdg_ship_hull_corvette_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_torpedo_upgrade = 1
-			}
-		}
-		create_equipment_variant = {
-			name = "Brigewater/Hastings Class"
-			type = mdg_ship_hull_corvette_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_anti_air_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = empty
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = ship_depth_charge_1
-				rear_1_custom_slot = ship_mine_layer_1
-			}
-		}
-		create_equipment_variant = {
-			name = "Medusa Class"
-			type = mdg_ship_hull_corvette_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-			modules = {
-				fixed_ship_battery_slot = empty
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = empty
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = empty
-				rear_1_custom_slot = ship_mine_layer_1
-			}
-		}
-		create_equipment_variant = {
-			name = "Shoreham/Grimsby Class"
-			type = mdg_ship_hull_frigate_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
-		create_equipment_variant = {
-			name = "Yarra/Bittern Class"
-			type = mdg_ship_hull_frigate_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				ship_anti_air_upgrade = 1
-				ship_torpedo_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
-		create_equipment_variant = {
-			name = "PC Class"
-			type = mdg_ship_hull_corvette_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				destroyer_engine_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = empty
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = empty
-				rear_1_custom_slot = ship_depth_charge_1
-			}
-		}
-
-		create_equipment_variant = {
-			name = "Hunt Class"
-			type = mdg_ship_hull_corvette_1
-			parent_version = 0
-			obsolete = yes
-			upgrades = {
-				destroyer_engine_upgrade = 1
-				ship_anti_air_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
-		create_equipment_variant = {
-			name = "Halcyon Class"
-			type = mdg_ship_hull_corvette_2
-			parent_version = 0
-			upgrades = {
-				ship_anti_air_upgrade = 1
-			}
-			modules = {
-				fixed_ship_battery_slot = mdg_ship_light_cannon_1
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = empty
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_torpedo_slot = empty
-				rear_1_custom_slot = ship_mine_sweeper_1
-			}
-		}
-		create_equipment_variant = {
-			name = "Kingfisher Class"
-			type = mdg_ship_hull_corvette_2
-			parent_version = 0
-			upgrades = {
-				ship_anti_air_upgrade = 1
-				ship_ASW_upgrade = 1
-			}
-		}
+		load_oob = "mdg_ENG_1936_naval_legacy"
 	}
 }

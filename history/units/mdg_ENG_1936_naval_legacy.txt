@@ -4,85 +4,88 @@
 		naval_base = 9458 # Portsmouth
 		task_force = {
 			name = "Supprort Group"
-			location = 9458
+			location = 2895
 
-			ship = { name = "HMS Foxglove" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
-			ship = { name = "HMS Lupin" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
-			ship = { name = "HMS Rosemary" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
-			ship = { name = "HMS Cornwallis" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Aubretia Class" } } }
+			ship = { name = "HMS Erebus" definition = mdg_monitor equipment = { mdg_smonitor_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Terror" definition = mdg_monitor equipment = { mdg_monitor_1 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Brigewater" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
-			ship = { name = "HMS Sandwich" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
-			ship = { name = "HMS Folkestone" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
-			ship = { name = "HMS Hastings" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
-			ship = { name = "HMS Penzance" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
-			ship = { name = "HMS Scarborough" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
+			ship = { name = "HMS Foxglove" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Lupin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Rosemary" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Cornwallis" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Shoreham" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Rochester" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Bideford" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Fowey" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Dundee" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Falmouth" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Milford" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Weston" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
+			ship = { name = "HMS Brigewater" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Sandwich" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Folkestone" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Hastings" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Penzance" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Scarborough" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Grimsby" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Leith" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Lowestoft" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Wellington" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Deptford”" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Londonderry" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Aberdeen" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
-			ship = { name = "HMS Fleetwood" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Shoreham/Grimsby Class" } } }
+			ship = { name = "HMS Shoreham" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Rochester" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Bideford" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fowey" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Dundee" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Falmouth" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Milford" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Weston" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Yarra" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
-			ship = { name = "HMS Swan" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
-			ship = { name = "HMS Bittern" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
+			ship = { name = "HMS Grimsby" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Leith" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Lowestoft" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Wellington" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Deptford”" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Londonderry" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Aberdeen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fleetwood" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS РС-74" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "PC Class" } } }
-			ship = { name = "HMS Pathan" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "PC Class" } } }
+			ship = { name = "HMS Yarra" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Swan" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Bittern" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+
+			ship = { name = "HMS РС-74" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Pathan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			
-			ship = { name = "HMS Tedworth" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Aberdare" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Abingdon" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Albury" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Alresford" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Bagshot" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Derby" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Dundalk" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Dunnon" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Elgin" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Kellet" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Fareham" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Fermoy" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Harrow" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Huntley" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Lydd" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Pangbourne" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Fitzroy" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Flinders" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Ross" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Saltash" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Saltburn" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Selkirk" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Stoke" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Sutton" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
-			ship = { name = "HMS Widnes" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
+			ship = { name = "HMS Tedworth" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Aberdare" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Abingdon" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Albury" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Alresford" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Bagshot" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Derby" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Dundalk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Dunnon" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Elgin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Kellet" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fareham" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fermoy" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Harrow" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Huntley" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Lydd" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Pangbourne" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Fitzroy" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Flinders" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Ross" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Saltash" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Saltburn" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Selkirk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Stoke" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Sutton" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Widnes" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Halcyon" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Skipjack" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Harrier" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Hussar" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Speedwell" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Niger" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
-			ship = { name = "HMS Salamander" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
+			ship = { name = "HMS Halcyon" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Skipjack" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Harrier" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Hussar" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Speedwell" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Niger" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Salamander" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Puffin" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Puffin" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 
-			ship = { name = "HMS Medusa" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Medusa Class" } } }
-			ship = { name = "HMS Melpomene" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Medusa Class" } } }
-			ship = { name = "HMS Minerva" definition = destroyer equipment = { mdg_corvette_2 = { amount = 1 owner = ENG version_name = "Medusa Class" } } }
+			ship = { name = "HMS Medusa" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Melpomene" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Minerva" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 		}
 	}
 }

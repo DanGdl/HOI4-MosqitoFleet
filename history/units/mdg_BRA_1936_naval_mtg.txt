@@ -1,0 +1,20 @@
+﻿units = {
+	fleet = {
+		name = "Marinha do Brasil"
+		naval_base = 10980 # Rio de Janiero
+		task_force = {
+			name = "Marinha do Brasil"
+			location = 2694
+
+			ship = { name = "NRB Rio Branco" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Branco Class" } } }
+			ship = { name = "NRB Jaceguay" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Branco Class" } } }
+
+			ship = { name = "NRB I-1 Itapimirim”" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB I-2 Itajai" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB I-3 Itacurussa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB I-4 Iguape" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB Muniz Freire" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB Heitor Perdigao" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+		}
+	}
+}

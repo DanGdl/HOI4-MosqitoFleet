@@ -1,0 +1,217 @@
+﻿units = {
+	fleet = {
+		name = "Severniy Flot"
+		naval_base = 3134 # Murmansk
+		task_force = {
+			name = "Severnyy Flot"
+			location = 5765
+
+			ship = { name = "Uragan" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Groza" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Smerch" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Brilliant" definition = mdg_frigate equipment = { mdg_frigate_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Jemchug" definition = mdg_frigate equipment = { mdg_frigate_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Rubin" definition = mdg_frigate equipment = { mdg_frigate_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sapfir" definition = mdg_frigate equipment = { mdg_frigate_2 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Murman" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Okean" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Yushar" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Zyud" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "R-46" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-47" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-48" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-49" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-50" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-51" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-52" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-53" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-54" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-55" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-56" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-57" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-58" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-59" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-60" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+
+	fleet = {
+		name = "Baltiyskiy Flot"
+		naval_base = 3151 # Leningrad
+		task_force = {
+			name = "Baltiyskiy Flot"
+			location = 1434
+
+			ship = { name = "Vihr" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Taifun" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ciclon" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Burya" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Purga" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sneg" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Tucha" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Constructor" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Krasnoye Znamya" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Ural" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "TKA-19" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-20" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-21" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-22" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-23" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-24" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-25" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "MO-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-5" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "ZK-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-4" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-5" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-6" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-7" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-8" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-9" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-10" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-11" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-12" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-13" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-14" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "ZK-15" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "R-31" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-32" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-33" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-34" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-35" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-36" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-37" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-38" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-39" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-40" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-41" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-42" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-43" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-44" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-45" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+
+	fleet = {
+		name = "Chernomorskiy Flot"
+		naval_base = 3686 # Sevastopol
+		task_force = {
+			name = "Chernomorskiy Flot"
+			location = 8131
+
+			ship = { name = "Shkval" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Storm" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Krasnaya Abkhaziya" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Krasnaya Armeniya" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Krasnaya Gruziya" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Krasnaya Adjaristan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Ostrovskiy" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "TKA-12" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-13" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-14" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-15" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-16" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-17" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-18" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "MO-6" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-7" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-8" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "MO-9" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "GK-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "GK-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "GK-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "GK-4" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "R-16" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-17" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-18" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-19" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-20" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-21" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-22" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-23" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-24" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-25" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-26" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-27" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-28" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-29" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-30" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+
+	fleet = {
+		name = "Tikhookeanskiy Flot"
+		naval_base = 957 # Vladivostok
+		task_force = {
+			name = "Tikhookeanskiy Flot"
+			location = 7028
+
+			ship = { name = "Burun" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Vyuga" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Grom" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Metel" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Zarnitsa" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Molniya" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			
+			ship = { name = "Vorovskiy" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Dzerjinskiy" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kirov" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "Astrakhan" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Teodor Nette" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Tomsk" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Voroshilovsk" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
+
+			ship = { name = "TKA-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-4" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-5" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-6" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-7" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-8" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-9" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-10" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "TKA-11" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
+
+			
+			ship = { name = "R-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-5" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-6" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-7" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-8" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-9" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-10" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-11" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-12" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-13" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-14" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "R-15" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+}

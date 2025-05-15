@@ -201,6 +201,25 @@
  #mdg_ship_hull_midget_submarine_2_desc: "Opis kadłuba miniaturowego okrętu podwodnego z 1940 roku"
  mdg_ship_hull_midget_submarine_2_desc: "Mały okręt podwodny obsługiwany przez niewielką załogę, mogący być wykorzystywany do wszystkiego, od sabotażu portów po ataki na konwoje. Jego ograniczony zasięg i uzbrojenie rekompensuje wysoka szybkość produkcji."
 
+ mdg_monitor: "Monitor"
+ mdg_monitor_1: "Monitor I"
+ mdg_monitor_2: "Monitor II"
+ mdg_monitor_1_desc: "Opis monitora I"
+ mdg_monitor_2_desc: "Opis monitora II"
+
+ BRA_mdg_monitor_1: "Typ Pernambuco"
+ BRA_mdg_monitor_2: "Typ Parnaiba"
+ ENG_mdg_monitor_1: "Typ Erebus"
+ ENG_mdg_monitor_2: "Typ Roberts"
+ SOV_mdg_monitor_2: "Typ Chasan"
+ YUG_mdg_monitor_1: "Typ Morava"
+
+ mdg_ship_hull_monitor: "Monitor"
+ mdg_ship_hull_monitor_1: "Wczesny kadłub monitora"
+ mdg_ship_hull_monitor_1_desc: "Opis wczesnego kadłuba monitora"
+ mdg_ship_hull_monitor_2: "Kadłub monitora z 1936 r."
+ mdg_ship_hull_monitor_2_desc: "Opis kadłuba monitora z 1936 r."
+
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatyczne Działa"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Lekkie Działa"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Lekkie Działa Uniwersalne"

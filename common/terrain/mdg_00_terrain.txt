@@ -1,4 +1,4 @@
-categories =  {
+categories = {
 
 	water_fjords = {
 		mdg_boat = {
@@ -26,7 +26,15 @@ categories =  {
 			units = {
 				attack = 0.2
 				movement = 0.2
+				defence = 0.2
+			}
+		}
+
+		mdg_monitor = {
+			units = {
+				attack = 0.2
 				movement = 0.2
+				defence = 0.2
 			}
 		}
 	}
@@ -55,6 +63,13 @@ categories =  {
 		}
 		mdg_midget_submarine = {
 			navy_visibility = 0.5
+		}
+		mdg_monitor = {
+			units = {
+				attack = 0.2
+				movement = 0.2
+				defence = 0.2
+			}
 		}
 	}
 
@@ -100,6 +115,13 @@ categories =  {
 				attack = -0.1
 				movement = -0.1
 				defence = -0.1
+			}
+		}
+		mdg_monitor = {
+			units = {
+				attack = -0.4
+				movement = -0.4
+				defence = -0.4
 			}
 		}
 	}

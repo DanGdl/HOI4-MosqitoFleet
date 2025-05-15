@@ -1,0 +1,28 @@
+﻿units = {
+	fleet = {
+		name = "Eesti Sojalaevastikl"
+		naval_base = 3152  # Tallinn
+		task_force = {
+			name = "Eesti Sojalaevastikl"
+			location = 1660  # near Tallinn
+
+			ship = { name = "EML Sulev" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Laine" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+
+
+			ship = { name = "EML Ahti" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Vanemuine" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Ilmator" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Tartu" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Mardus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+
+			ship = { name = "EML Ristna" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Surop" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+			
+			ship = { name = "EML Keri" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST } } }
+			ship = { name = "EML Vaindlo" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = EST } } }
+
+			ship = { name = "EML Tahkonа" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = EST } } }
+		}
+	}
+}

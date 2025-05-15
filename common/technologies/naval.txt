@@ -610,6 +610,7 @@ technologies = {
 
 		enable_equipments = { 
 			battleship_1
+			mdg_monitor_1
 		}
 		
 		path = {
@@ -650,6 +651,7 @@ technologies = {
 
 		enable_equipments = { 
 			battleship_2
+			mdg_monitor_2
 		}
 		
 		path = {

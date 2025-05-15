@@ -1,9 +1,89 @@
 ﻿DOM = {
 	fleet_names_template = FLEET_NAME_DOM
-	
-	mdg_ship_hull_boat = {
-		prefix = ""
+
+	mdg_submarine = {
+		prefix = "ARD"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARD"
 		generic = { "GC" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARD"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARD"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARD"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARD"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARD"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+	
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARD "
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARD"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARD"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARD"
+		generic = { "GC" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_corvette = {
+		prefix = "ARD"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARD"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARD"
+		generic = { "Monitor" }
 		unique = {}
 	}
 }

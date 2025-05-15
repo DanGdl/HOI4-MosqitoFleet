@@ -1,0 +1,88 @@
+﻿NIC = {
+	fleet_names_template = FLEET_NAME_NIC
+
+	mdg_auxiliary = {
+		prefix = "ARN"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_midget_submarine = {
+		prefix = "ARN"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARN"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARN"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "ARN"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARN"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARN"
+		generic = { "Monitor" }
+		unique = {}
+	}
+	
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARN"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARN"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARN"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARN"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARN"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARN"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARN"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}
