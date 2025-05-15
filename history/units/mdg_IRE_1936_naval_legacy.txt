@@ -4,7 +4,7 @@
 		naval_base = 11293 # Dublin
 		task_force = {
 			name = "1st Task Force"
-			location = 11293
+			location = 3990
 
 			ship = { name = "LE Muirchu" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = IRE } } }
 		}

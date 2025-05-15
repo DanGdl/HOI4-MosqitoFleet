@@ -4,7 +4,7 @@
 		naval_base = 657 # Constanta
 		task_force = {
 			name = "Flota Romania de Mare"
-			location = 657
+			location = 7906
 
 			ship = { name = "NMS Capitan Dumitrescu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "C Class" } } }
 			ship = { name = "NMS Locotenent Commander Stihi Eugen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "C Class" } } }

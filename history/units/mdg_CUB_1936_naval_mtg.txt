@@ -4,7 +4,7 @@
 		naval_base = 7622 # Habana
 		task_force = {
 			name = "Armada Nacional"
-			location = 7622
+			location = 6805
 
 			ship = { name = "ARC Bogota" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Cuba Class" } } }
 

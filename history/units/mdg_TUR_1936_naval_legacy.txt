@@ -4,10 +4,10 @@
 		naval_base = 4112 # Izmir
 		task_force = {
 			name = "Türk Donanmasi"
-			location = 4112
+			location = 7452
 
-			ship = { name = "TCG Berk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
-			ship = { name = "TCG Peyk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			#ship = { name = "TCG Berk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
+			#ship = { name = "TCG Peyk" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
 
 			ship = { name = "TCG Sivrihisar" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }
 			ship = { name = "TCG Yuzbasi Hakki" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = TUR } } }

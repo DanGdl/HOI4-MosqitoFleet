@@ -4,7 +4,7 @@
 		naval_base = 6536 # Lorient
 		task_force = {
 			name = "Support Task Force"
-			location = 6536
+			location = 8546
 
 			ship = { name = "Ailette" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
 			ship = { name = "Ancre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }

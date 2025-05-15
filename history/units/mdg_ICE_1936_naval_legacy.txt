@@ -4,7 +4,7 @@
 		naval_base = 12674 # Rekjavik
 		task_force = {
 			name = "1st Task Force"
-			location = 12674
+			location = 8534
 
 			ship = { name = "ICGV Sudin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
 			ship = { name = "ICGV Aegir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }

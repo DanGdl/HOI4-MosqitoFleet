@@ -4,7 +4,7 @@
 		naval_base = 9458 # Portsmouth
 		task_force = {
 			name = "Supprort Group"
-			location = 9458
+			location = 2895
 
 			ship = { name = "HMS Erebus" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
 			ship = { name = "HMS Terror" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }

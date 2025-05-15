@@ -4,7 +4,7 @@
 		naval_base = 4076 # Alexandria
 		task_force = {
 			name = "1st Task Force"
-			location = 4076
+			location = 6011
 			ship = { name = "ERN El Amir Farouq" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "El Amir Farouq" } } }
 			ship = { name = "ERN Solium" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "Obretia" } } }
 

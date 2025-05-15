@@ -4,7 +4,7 @@
 		naval_base = 3325 # Odense
 		task_force = {
 			name = "Patrol group"
-			location = 3325
+			location = 2408
 
 			ship = { name = "HDMS R-1 Hvalrossen" definition = destroyer equipment = { light_1 = { amount = 1 owner = DEN } } }
 			

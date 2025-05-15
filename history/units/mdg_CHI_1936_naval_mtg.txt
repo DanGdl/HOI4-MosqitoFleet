@@ -4,7 +4,7 @@
 		naval_base = 7014 # Shanghai
 		task_force = {
 			name = "Di 1 Jiandui"
-			location = 7014
+			location = 8396
 
 			ship = { name = "Ming Chuan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Ming Chuan Class" } } }
 			ship = { name = "Yung Sui" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CHI version_name = "Ming Chuan Class" } } }

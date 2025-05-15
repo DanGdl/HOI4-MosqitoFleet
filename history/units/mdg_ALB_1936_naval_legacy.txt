@@ -4,7 +4,7 @@
 		naval_base = 11767 # Vlera
 		task_force = {
 			name = "1st Task Force"
-			location = 11767
+			location = 5864
 
 			ship = { name = "Tirana" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ALB } } }
 			ship = { name = "Saranda" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ALB } } }

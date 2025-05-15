@@ -4,7 +4,7 @@
 		naval_base = 7660 # Santo-Domingo
 		task_force = {
 			name = "Patrol boats"
-			location = 7660
+			location = 5607
 			ship = { name = "ARD GC-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
 			ship = { name = "ARD GC-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }
 			ship = { name = "ARD GC-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = DOM } } }

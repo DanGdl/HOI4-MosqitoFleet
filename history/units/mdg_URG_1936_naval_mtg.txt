@@ -4,7 +4,7 @@
 		naval_base = 10362 # Montevideo
 		task_force = {
 			name = "Armada Nacional"
-			location = 10362
+			location = 5951
 
 			ship = { name = "ROU Paysandu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = URG version_name = "Paysandu Class" } } }
 			ship = { name = "ROU Salto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = URG version_name = "Paysandu Class" } } }

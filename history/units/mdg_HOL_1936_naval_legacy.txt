@@ -4,7 +4,7 @@
 		naval_base = 3314  # Amsterdam
 		task_force = {
 			name = "Koninklijke Vloot"
-			location = 3314
+			location = 2752
 
 			ship = { name = "HrMs Brinio" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }
 			ship = { name = "HrMs Friso" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = HOL  } } }

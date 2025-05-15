@@ -1,12 +1,3 @@
-# replaces game's OOB
-#if = {
-#	limit = { has_dlc = "Man the Guns" }
-#		set_naval_oob = "mdg_RAJ_1936_naval_mtg"
-#	else = {
-#		set_naval_oob = "mdg_RAJ_1936_naval_legacy"
-#	}
-#}
-
 if = {
 	limit = { has_dlc = "Man the Guns" }
 
@@ -65,5 +56,13 @@ if = {
 		# enable and disable tech to create a task force if country didn't research technology yet. (Another way - create a hidden technology)
 		set_technology = { early_destroyer = 1 }
 		set_technology = { early_destroyer = 0 }
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_RAJ_1936_naval_mtg"
+	else = {
+		load_oob = "mdg_RAJ_1936_naval_legacy"
 	}
 }

@@ -5,7 +5,7 @@
 
 		task_force = {
 			name = "Squadra di Mar Rosso 2"
-			location = 12766 # Massawa, Eritrea
+			location = 2800 # near Massawa, Eritrea
 
 			ship = { name = "RCT MAS-204" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
 			ship = { name = "RCT MAS-206" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
@@ -23,7 +23,7 @@
 
 		task_force = {
 			name = "Squadra di Mar Egeo 2"
-			location = 10007 # Rhodes, Greece
+			location = 7002 # near Rhodes, Greece
 
 			ship = { name = "RCT Sebastiano Caboto" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
 			ship = { name = "RCT Bafile" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA } } }
@@ -37,7 +37,7 @@
 
 		task_force = { 
 			name = "Squadra di Libia 2" 
-			location = 1130 # Tobruk, Libya
+			location = 5961 # near Tobruk, Libya
 
 			ship = { name = "RCT Giuseppe Biglieri" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
 			ship = { name = "RCT Giovanni Bertal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA } } }
@@ -60,7 +60,7 @@
 
 		task_force = {
 			name = "Squadra di Mar Adriatico"
-			location = 925 # Ancona
+			location = 5812 # near Ancona
 
 			ship = { name = "RCT МАS-423" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }
 			ship = { name = "RCT MAS-426" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ITA } } }

@@ -1,13 +1,4 @@
-﻿# replaces game's OOB
-#if = {
-#	limit = { has_dlc = "Man the Guns" }
-#		set_naval_oob = "mdg_SIA_1936_naval_mtg"
-#	else = {
-#		set_naval_oob = "mdg_SIA_1936_naval_legacy"
-#	}
-#}
-
-if = {
+﻿if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	create_equipment_variant = {
@@ -51,5 +42,13 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			rear_1_custom_slot = empty
 		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_SIA_1936_naval_mtg"
+	else = {
+		load_oob = "mdg_SIA_1936_naval_legacy"
 	}
 }

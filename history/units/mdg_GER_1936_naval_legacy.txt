@@ -4,7 +4,7 @@
 		naval_base = 321 # Rostok
 		task_force = {
 			name = "Supprort Group"
-			location = 321
+			location = 2358
 
 			ship = { name = "М-61" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GER } } }
 			ship = { name = "М-72" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = GER } } }

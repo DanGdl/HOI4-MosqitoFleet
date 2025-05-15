@@ -1,10 +1,10 @@
 ﻿units = {
 	fleet = {
 		name = "Base Naval Cádiz"
-		naval_base = 1048  #Cádiz
+		naval_base = 1048  # Cádiz
 		task_force = {
 			name = "Escuadrón de Cádiz"
-			location = 1048  #Cádiz
+			location = 5382  # near Cádiz
 
 			ship = { name = "ARE Canovas del Castillo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SPR } } }
 			ship = { name = "ARE Canalejas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SPR } } }

@@ -4,7 +4,7 @@
 		naval_base = 11105 # Helsinki
 		task_force = {
 			name = "Rannikkolaivue"
-			location =  11105
+			location = 1660  # near Helsinki
 
 			ship = { name = "Hameenmaa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }
 			ship = { name = "Uusimaa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }

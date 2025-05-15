@@ -4,7 +4,7 @@
 		naval_base = 1136  #Kansai
 		task_force = {
 			name = "Support Task Force"
-			location = 1136
+			location = 2684
 
 			ship = { name = "Saga" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Saga Class" } } }
 			ship = { name = "Ataka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Saga Class" } } }
@@ -33,15 +33,14 @@
 			ship = { name = "W-18" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "W Class" } } }
 
 			ship = { name = "Tokiwa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
-			ship = { name = "Itsukushima" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
+			#ship = { name = "Itsukushima" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
 			ship = { name = "Okinoshima" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
 
 			ship = { name = "Katsuriki" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Katsuriki Class" } } }
 
-			ship = { name = "Shirataka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
-			ship = { name = "Yaeyama" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+			#ship = { name = "Shirataka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+			#ship = { name = "Yaeyama" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
 
-			
 			ship = { name = "Ch-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = JAP version_name = "Ch-1 Class" } } }
 			ship = { name = "Ch-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = JAP version_name = "Ch-1 Class" } } }
 			ship = { name = "Ch-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = JAP version_name = "Ch-1 Class" } } }

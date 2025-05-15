@@ -4,7 +4,7 @@
 		naval_base = 1562 # San Diego
 		task_force = {
 			name = "Support Task Force"
-			location = 1562
+			location = 2875
 
 			ship = { name = "USS Sacramento" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
 			ship = { name = "USS Asheville" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
@@ -20,7 +20,6 @@
 			ship = { name = "USS РЕ-55" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
 			ship = { name = "USS РЕ-56" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
 			ship = { name = "USS РЕ-57" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
-
 
 			ship = { name = "USS AM-2 Owl" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
 			ship = { name = "USS AM-3 Robin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }

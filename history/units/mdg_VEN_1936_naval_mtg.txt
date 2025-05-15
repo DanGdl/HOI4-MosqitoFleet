@@ -4,7 +4,7 @@
 		naval_base = 8113 # Caracas
 		task_force = {
 			name = "Armada Venezula"
-			location = 8113
+			location = 2110
 
 			ship = { name = "ARV General Soublette" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
 			ship = { name = "ARV General Urdaneta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }

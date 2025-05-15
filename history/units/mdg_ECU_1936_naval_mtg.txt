@@ -4,7 +4,7 @@
 		naval_base = 8252 # Guyakil
 		task_force = {
 			name = "1st Task Force"
-			location = 8252
+			location = 2335
 			ship = { name = "BAE Abdon Calderon" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ECU version_name = "Abdon Calderon" } } }
 			ship = { name = "BAE Atahualpa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ECU version_name = "Atahualpa" } } }
 			ship = { name = "BAE Hualtaco" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ECU version_name = "Hualtaco" } } }

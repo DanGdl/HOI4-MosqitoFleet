@@ -4,7 +4,7 @@
 		naval_base = 9340 # Riga
 		task_force = {
 			name = "Latvijas Kara Flote"
-			location =  9340 # Riga
+			location = 1885 # near Riga
 
 			ship = { name = "Imanta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
 			ship = { name = "Viesturs" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }

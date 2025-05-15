@@ -4,7 +4,7 @@
 		naval_base = 12790 # Cartegena
 		task_force = {
 			name = "Armada Nacional"
-			location = 12790
+			location = 2258
 
 			ship = { name = "ARC Bogota" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = COL version_name = "Bogota Class" } } }
 			ship = { name = "ARC Mariscal Sucre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = COL version_name = "Bogota Class" } } }

@@ -4,7 +4,7 @@
 		naval_base = 11805 # Lisbon
 		task_force = {
 			name = "Flotilha 'Viana do Castelo'"
-			location = 11805 # Lisbon
+			location = 5336 # near Lisbon
 
 			ship = { name = "NRP Charvalho Araujo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Flower Class" } } }
 			ship = { name = "NRP Republica" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Flower Class" } } }

@@ -4,7 +4,7 @@
 		naval_base = 3134 # Murmansk
 		task_force = {
 			name = "Severnyy Flot"
-			location = 3134
+			location = 5765
 
 			ship = { name = "Uragan" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Groza" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
@@ -43,7 +43,7 @@
 		naval_base = 3151 # Leningrad
 		task_force = {
 			name = "Baltiyskiy Flot"
-			location = 3151
+			location = 1434
 
 			ship = { name = "Vihr" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Taifun" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
@@ -53,7 +53,7 @@
 			ship = { name = "Sneg" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Tucha" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 
-			ship = { name = "Constructor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Constructor" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 
 			ship = { name = "Krasnoye Znamya" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
 
@@ -72,7 +72,6 @@
 			ship = { name = "MO-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "MO-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "MO-5" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
-
 
 			ship = { name = "ZK-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "ZK-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
@@ -113,7 +112,7 @@
 		naval_base = 3686 # Sevastopol
 		task_force = {
 			name = "Chernomorskiy Flot"
-			location = 3686
+			location = 8131
 
 			ship = { name = "Shkval" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Storm" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
@@ -166,7 +165,7 @@
 		naval_base = 957 # Vladivostok
 		task_force = {
 			name = "Tikhookeanskiy Flot"
-			location = 957
+			location = 7028
 
 			ship = { name = "Burun" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Vyuga" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }

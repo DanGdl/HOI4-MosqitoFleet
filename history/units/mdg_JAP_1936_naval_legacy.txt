@@ -4,7 +4,7 @@
 		naval_base = 1136  #Kansai
 		task_force = {
 			name = "Support Task Force"
-			location = 1136
+			location = 2684
 
 			ship = { name = "Saga" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Ataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
@@ -33,15 +33,14 @@
 			ship = { name = "W-18" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
 			ship = { name = "Tokiwa" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "Itsukushima" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
+			#ship = { name = "Itsukushima" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Okinoshima" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
 
 			ship = { name = "Katsuriki" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			ship = { name = "Shirataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "Yaeyama" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			#ship = { name = "Shirataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			#ship = { name = "Yaeyama" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			
 			ship = { name = "Ch-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Ch-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Ch-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = JAP } } }

@@ -1,14 +1,4 @@
-﻿# replaces game's OOB
-#if = {
-#	limit = { has_dlc = "Man the Guns" }
-#	set_naval_oob = "mdg_ITA_1936_naval_mtg"
-#
-#	else = {
-#		set_naval_oob = "mdg_ITA_1936_naval_legacy"
-#	}
-#}
-
-if = {
+﻿if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
@@ -200,5 +190,14 @@ if = {
 			fixed_ship_torpedo_slot = empty
 			rear_1_custom_slot = ship_mine_layer_1
 		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	load_oob = "mdg_ITA_1936_naval_mtg"
+
+	else = {
+		load_oob = "mdg_ITA_1936_naval_legacy"
 	}
 }

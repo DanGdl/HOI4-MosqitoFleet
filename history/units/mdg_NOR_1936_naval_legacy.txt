@@ -4,7 +4,7 @@
 		naval_base = 9296 # Kristiansand
 		task_force = {
 			name = "3. Sjøforsvarsdistrikt"
-			location =  122 # Bergen
+			location = 2506 # Bergen
 
 			ship = { name = "HNoMS Blink" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Kvik" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR } } }
@@ -60,7 +60,7 @@
 			ship = { name = "HNoMS Michael Sars" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR } } }
 
 			ship = { name = "HNoMS Froya" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
-			ship = { name = "HNoMS Olaf Tryggvason" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
+			#ship = { name = "HNoMS Olaf Tryggvason" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Glommen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Laugen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
 			

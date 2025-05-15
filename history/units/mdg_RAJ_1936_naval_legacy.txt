@@ -4,7 +4,8 @@
 		naval_base = 1349 # Bombei
 		task_force = {
 			name = "1st Task Force"
-			location = 1349
+			location = 2394
+
 			ship = { name = "HMIS Hindustan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = RAJ } } }
 			ship = { name = "HMIS Indus" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = RAJ } } }
 

@@ -4,7 +4,7 @@
 		naval_base = 3924 # Split
 		task_force = {
 			name = "Kraljevska Mornarica"
-			location = 3924
+			location = 5838
 
 			ship = { name = "KB Galeb" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
 			ship = { name = "KB Jastreb" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }

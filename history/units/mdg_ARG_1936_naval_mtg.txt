@@ -4,7 +4,7 @@
 		naval_base = 12364 # Buenos Aires
 		task_force = {
 			name = "Armada Argentina"
-			location = 12364
+			location = 5951
 
 			ship = { name = "ARA Rosario" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ARG version_name = "Rosario Class" } } }
 			ship = { name = "ARA Parana" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ARG version_name = "Rosario Class" } } }
