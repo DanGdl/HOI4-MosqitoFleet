@@ -1,0 +1,38 @@
+﻿units = {
+	fleet = {
+		name = "Marinha de Portugal"
+		naval_base = 11805 # Lisbon
+		task_force = {
+			name = "Flotilha 'Viana do Castelo'"
+			location = 5336 # near Lisbon
+
+			ship = { name = "NRP Charvalho Araujo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Flower Class" } } }
+			ship = { name = "NRP Republica" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Flower Class" } } }
+
+			ship = { name = "NRP Goncalo Velho" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Goncalo Velho Class" } } }
+			ship = { name = "NRP Honsales Zarko" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Goncalo Velho Class" } } }
+			
+			ship = { name = "NRP Alfonso de Albuquerque" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
+			ship = { name = "NRP Bartolomeu Dias" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
+			ship = { name = "NRP Pedro Nunez" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
+			ship = { name = "NRP Joao de Lisboa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
+
+			ship = { name = "NRP Beira" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Beira Class" } } }
+			ship = { name = "NRP Ibo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Beira Class" } } }
+			ship = { name = "NRP Mandovi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Beira Class" } } }
+			ship = { name = "NRP Zaire" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Beira Class" } } }
+			ship = { name = "NRP Damao" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Beira Class" } } }
+			ship = { name = "NRP Dio" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Beira Class" } } }
+
+			ship = { name = "NRP Torres Garcia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Faro" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Lagos" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Azevia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Bicurda" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Corvina" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Dourada" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Espadilha" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+			ship = { name = "NRP Fataca" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Azevia Class" } } }
+		}
+	}
+}

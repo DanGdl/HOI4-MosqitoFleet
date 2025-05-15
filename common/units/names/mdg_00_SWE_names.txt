@@ -1,0 +1,90 @@
+﻿SWE = {
+	fleet_names_template = FLEET_NAME_SWE
+
+	mdg_submarine = {
+		prefix = "HMS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HMS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HMS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HMS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "HMS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HMS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "HMS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "HMS"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HMS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HMS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HMS"
+		generic = { "T" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HMS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HMS"
+		generic = { "V" }
+		unique = {
+			"Arholma" "Landsort" "Bremon" "Holmon" "Koster" "Vinga" "Ven" "Ramskar" "Bredskar" "Kullen" "Sandon" "Gronskar" "Orskar" "Ulvon"
+		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HMS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

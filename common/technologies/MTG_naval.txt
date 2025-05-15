@@ -1279,9 +1279,11 @@ technologies = {
 
 
 	early_ship_hull_heavy = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_heavy_1
+			mdg_ship_hull_monitor_1
 		}
 
 		enable_equipment_modules = {
@@ -1302,7 +1304,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_naval_super_heavy_battleship	
+				PROJECT = sp_naval_super_heavy_battleship
 			}
 		}
 		research_cost = 1.75
@@ -1359,9 +1361,11 @@ technologies = {
 	}
 
 	basic_ship_hull_heavy = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			ship_hull_heavy_2
+			mdg_ship_hull_monitor_2
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2
@@ -1463,7 +1467,6 @@ technologies = {
 				tag = JAP
 			}
 		}
-
 
 		categories = {
 			naval_equipment

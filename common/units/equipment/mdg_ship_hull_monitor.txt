@@ -1,0 +1,156 @@
+equipments = {
+
+	mdg_ship_hull_monitor = {
+		year = 1936
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		interface_category = interface_category_capital_ships
+		alias = mdg_monitor
+		priority = 1000
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_battery ship_super_heavy_battery }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = no
+				allowed_module_categories = { ship_fire_control_system ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }	
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = { ship_light_battery ship_light_medium_battery ship_secondaries ship_dp_secondaries }
+			}
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_engine_slot = empty
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = empty
+			rear_1_custom_slot = empty
+		}
+
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 18
+		naval_speed = 12
+		reliability = 0.75
+		
+		naval_range = 2000
+		
+		max_strength = 300
+
+		fuel_consumption = 50
+
+		build_cost_ic = 1500
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+		
+		manpower = 2000
+ 		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
+		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
+		# change this from 1 at your own risk
+		naval_weather_penalty_factor = 1.0
+		naval_supremacy_factor = 2
+	}
+
+	mdg_ship_hull_monitor_1 = {
+		year = 1922
+
+		archetype = mdg_ship_hull_monitor
+		module_slots = inherit
+		priority = 2300
+		active = yes
+	}
+
+	mdg_ship_hull_monitor_2 = {
+		year = 1940
+
+		archetype = mdg_ship_hull_monitor
+		parent = mdg_ship_hull_monitor_1
+		module_slots = inherit
+		priority = 2300
+		active = yes
+
+		max_strength = 350
+		build_cost_ic = 1800
+	}
+
+	# VANILA
+	mdg_monitor_1 = {
+		year = 1922
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+		archetype = mdg_ship_hull_monitor
+		priority = 2300
+
+		default_modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_dp_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			rear_1_custom_slot = ship_dp_secondaries_1
+		}
+	}
+
+	mdg_monitor_2 = {
+		year = 1940
+
+		archetype = mdg_ship_hull_monitor
+		parent = mdg_monitor_1
+		priority = 2300
+
+		default_modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_dp_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			rear_1_custom_slot = ship_dp_secondaries_1
+		}
+	}
+}

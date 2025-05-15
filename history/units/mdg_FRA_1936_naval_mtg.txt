@@ -1,0 +1,73 @@
+﻿units = {
+	fleet = {
+		name = "Support Fleet"
+		naval_base = 6536 # Lorient
+		task_force = {
+			name = "Support Task Force"
+			location = 8546
+
+			ship = { name = "Ailette" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Ancre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Suippe" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Quentin Roosevelt" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Amiens" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Arras" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Belfort" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Calais" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Coucy" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Epinal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Lassigny" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Les Eparges" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Tahure" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Vauquois" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Ypres" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Audacieux" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Dedaigneuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Etourdi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Tapageuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "La Luronne" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Diligente" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Engageante" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Conquerante" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Dubourdieu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Enseigne Henry" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Granit" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+			ship = { name = "Meulieure" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Ailette Class" } } }
+
+			ship = { name = "Marne" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Marne Class" } } }
+			ship = { name = "Somme" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Marne Class" } } }
+			ship = { name = "Yser" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Marne Class" } } }
+
+			ship = { name = "Bougainville" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Dumont d'Urville" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Savorgnan de Brazza" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "D'Entrecasteaux" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Rigault de Genouilly" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Amiral Charner" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "D'Ibervllle" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Ville d'Ys" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Beautemps-Beaupre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "La Perouse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+
+			ship = { name = "Ch-25" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-51" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-56" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-58" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-74" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-81" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-95" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-98" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-106" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+			ship = { name = "Ch-107" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
+
+			ship = { name = "Ch-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = FRA version_name = "Ch-1 Class" } } }
+			ship = { name = "Ch-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = FRA version_name = "Ch-1 Class" } } }
+			ship = { name = "Ch-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = FRA version_name = "Ch-1 Class" } } }
+			ship = { name = "Ch-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = FRA version_name = "Ch-1 Class" } } }
+
+			ship = { name = "Castor" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
+			ship = { name = "Pollux" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
+			ship = { name = "La Gladiateur" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
+		}
+	}
+}

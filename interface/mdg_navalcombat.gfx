@@ -35,4 +35,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/navalcombat/ships/mdg_midget_submarine.dds"
 		noOfFrames = 2
 	}
+	
+	spriteType = { # "monitor"
+		name = "GFX_navalcombat_ship_icon_mdg_monitor"
+		texturefile = "gfx/interface/navalcombat/ships/mdg_monitor.dds"
+		noOfFrames = 2
+	}
 }

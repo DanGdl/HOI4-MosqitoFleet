@@ -1,0 +1,19 @@
+sub_units = {
+	mdg_monitor = {
+		sprite = mdg_monitor
+		map_icon_category = ship
+		priority = 3
+		active = yes
+		type = { capital_ship }
+		need = { mdg_ship_hull_monitor = 1 }
+		
+		max_organisation = 50
+
+		supply_consumption = 0.2
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire damaged_light_guns }
+		critical_part_damage_chance_mult = 0.9
+		
+		hit_profile_mult = 1.0
+	}
+}

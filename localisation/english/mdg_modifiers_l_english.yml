@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Midget Submarine experence gain from training"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Midget Submarine Combat Experience Gain"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "Monitor Training Experience Gain"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Monitor Combat Experience Gain"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Light guns I Design Cost"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Light guns II Design Cost"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Light guns III Design Cost"
@@ -27,24 +30,6 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Light cannon III Design Cost"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Light cannon IV Design Cost"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Boat Engine I Design Cost"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Boat Engine II Design Cost"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Boat Engine III Design Cost"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Boat Engine IV Design Cost"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Corvette Engine I Design Cost"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Corvette Engine II Design Cost"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Corvette Engine III Design Cost"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Corvette Engine IV Design Cost"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Frigate Engine I Design Cost"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Frigate Engine II Design Cost"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Frigate Engine III Design Cost"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Frigate Engine IV Design Cost"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Midget submarine Engine I Design Cost"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Midget submarine Engine II Design Cost"
-
  mdg_ship_hull_boat_design_cost_factor: "Boat Design Cost"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Hydrofoil boat Design Cost"
  mdg_ship_hull_auxiliary_design_cost_factor: "Auxiliary cruiser Design Cost"
@@ -52,6 +37,7 @@
  mdg_ship_hull_frigate_design_cost_factor: "Frigate Design Cost"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Midget Submarine Design Cost"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Mosquito Trait XP Gain"
+ mdg_ship_hull_monitor_design_cost_factor: "Monitor Design Cost"
 
  mdg_ff_tech_research: "Frigate Research Speed"
  mdg_lcs_tech_research: "Corvette Research Speed"

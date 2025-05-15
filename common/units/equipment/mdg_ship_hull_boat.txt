@@ -12,16 +12,16 @@ equipments = {
 
 		module_slots = {
 			fixed_ship_battery_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = { mdg_ship_light_guns }
 			}
 			fixed_ship_radar_slot = {
 				required = no
-				allowed_module_categories = { ship_radar }
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo ship_depth_charge }
 			}
 			fixed_ship_engine_slot = {
 				required = yes

@@ -1,0 +1,15 @@
+﻿DEN_CORVETTE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CORVETTES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { mdg_ship_hull_corvette }
+
+	prefix = "HDMS "
+	fallback_name = "M $s"
+
+	unique = {
+		"Soloven" "Sobjomen" "Soulven" "Soridderen" "Sohesten" "Sohunden"
+	}
+}

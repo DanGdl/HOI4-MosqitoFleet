@@ -11,7 +11,7 @@ JAP_AUXILIARY_HISTORICAL = {
 	fallback_name = "AUX %s"
 
 	unique = {
-		"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru" "Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru"
+		"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru" "Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru" "Masaka Maru"
 	}
 }
 
@@ -26,38 +26,7 @@ JAP_MIDGET_HISTORICAL = {
 	prefix = ""
 	fallback_name = "I %s"
 
-	unique = {
-	}
-}
-
-JAP_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { mdg_ship_hull_boat }
-
-	prefix = ""
-	fallback_name = "T %s"
-
-	unique = {
-	}
-}
-
-JAP_HYDROFOIL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_HYDROFOILS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { mdg_ship_hull_hydrofoil }
-
-	prefix = ""
-	fallback_name = "PG %s"
-
-	unique = {
-	}
+	unique = {}
 }
 
 JAP_CORVETTE_HISTORICAL = {
@@ -72,6 +41,10 @@ JAP_CORVETTE_HISTORICAL = {
 	fallback_name = "P %s"
 
 	unique = {
+		"Hashidate" "Uji" "Okitsu" "Asuga" "Atada" "Karatsu" "Tatara" "Suma" "Maiko" "Narumi" "Hatsutaka" "Aotaka" "Wakataka" "Eijo" "Mino" "Kamome" 
+		"Tsubame" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Katashima" "Kurokami" "Ento" "Enoshima" "Kurosaki" "Ninoshima" "Washizaki" "Nasami" 
+		"Natsushima" "Sarushima" "Sokuten" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Ishizaki" "Hoko" "Takashima" "Saishu" "Niizaki" 
+		"Yurishima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima"
 	}
 }
 
@@ -87,5 +60,9 @@ JAP_FRIGATE_HISTORICAL = {
 	fallback_name = "CD %s"
 
 	unique = {
+		"Shimushu" "Hachijo" "Kunashiri" "Ishigaki" "Etorofu" "Mutsure" "Hirado" "Amakusa" "Oki" "Fukue" "Kanju" "Kasado" "Sado" "Tsushima" "Matsuwa" 
+		"Wakamiya" "Manju" "Iki" "Awaji" "Yashiro" "Mikura" "Miyake" "Kurahashi" "Chiburi" "Nomi" "Kusagaki" "Ukuru" "Okinawa" "Hiburi" "Shonan" 
+		"Daito" "Kume" "Ikina" "Shinnan" "Aguni" "Amami" "Yaku" "Chikubu" "Kozu" "Hodaka" "Ikata" "Ikuno" "Urumi" "Murotsu" "Shisaka" "Sakito" 
+		"Mokuto" "Habuto" "Otsu" "Tomoshiri" "Inagi" "Habushi" "Oga" "Kanawa" "Takane" "Uku" "Kuga" "Shiga" "Iwo" "Tsugaru"
 	}
 }

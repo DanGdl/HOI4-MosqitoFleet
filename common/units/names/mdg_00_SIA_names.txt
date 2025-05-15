@@ -1,0 +1,89 @@
+﻿SIA = {
+	fleet_names_template = FLEET_NAME_SIA
+
+	mdg_submarine = {
+		prefix = "HTMS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HTMS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HTMS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HTMS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "HTMS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HTMS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "HTMS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "HTMS"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HTMS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HTMS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HTMS"
+		generic = { "MTB" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HTMS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HTMS"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HTMS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

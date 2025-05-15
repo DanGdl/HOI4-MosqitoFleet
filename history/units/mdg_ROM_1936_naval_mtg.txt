@@ -1,0 +1,23 @@
+﻿units = {
+	fleet = {
+		name = "Flota Romania de Mare"
+		naval_base = 657 # Constanta
+		task_force = {
+			name = "Flota Romania de Mare"
+			location = 7906
+
+			ship = { name = "NMS Capitan Dumitrescu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "C Class" } } }
+			ship = { name = "NMS Locotenent Commander Stihi Eugen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "C Class" } } }
+			ship = { name = "NMS Locotenent Lepri Remus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "C Class" } } }
+			ship = { name = "NMS Sublocotenent Ghikulescu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "C Class" } } }
+			
+			ship = { name = "NMS Amiral Murgescu" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ROM version_name = "Amiral Murgescu Class" } } }
+
+			ship = { name = "NMS Dacia" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ROM version_name = "Dacia Class" } } }
+			ship = { name = "NMS Regele Carol I" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ROM version_name = "Dacia Class" } } }
+			
+			ship = { name = "NMS Romania" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "Romania Class" } } }
+			ship = { name = "NMS Aurora" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ROM version_name = "Romania Class" } } }
+		}
+	}
+}

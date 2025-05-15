@@ -1,0 +1,15 @@
+﻿units = {
+	fleet = {
+		name = "Di 1 Jiandui"
+		naval_base = 964 # Liaodun
+		task_force = {
+			name = "Di 1 Jiandui"
+			location = 2734
+
+			ship = { name = "Hai Feng" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MAN } } }
+			ship = { name = "Hai Lung" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MAN } } }
+			
+			ship = { name = "Hai Van" definition = mdg_auxiliary equipment = { mdg_auxiliary_1 = { amount = 1 owner = MAN } } }
+		}
+	}
+}

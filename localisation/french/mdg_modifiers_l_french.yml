@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Gain d'expérience en entraînement des sous-marins de poche"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Gain d'expérience en combat des sous-marins de poche"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "Gain d'expérience d'entraînement du monitor"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Gain d'expérience de combat du monitor"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Coût de conception des armes légères I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Coût de conception des armes légères II"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Coût de conception des armes légères III"
@@ -27,30 +30,13 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Coût de conception des canons légers III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Coût de conception des canons légers IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Coût de conception du moteur de vedette I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Coût de conception du moteur de vedette II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Coût de conception du moteur de vedette III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Coût de conception du moteur de vedette IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Coût de conception du moteur de corvette I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Coût de conception du moteur de corvette II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Coût de conception du moteur de corvette III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Coût de conception du moteur de corvette IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Coût de conception du moteur de frégate I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Coût de conception du moteur de frégate II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Coût de conception du moteur de frégate III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Coût de conception du moteur de frégate IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Coût de conception du moteur de sous-marin de poche I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Coût de conception du moteur de sous-marin de poche II"
-
  mdg_ship_hull_boat_design_cost_factor: "Coût de conception des vedettes"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Coût de conception des bateaux hydroptères"
  mdg_ship_hull_auxiliary_design_cost_factor: "Coût de conception du croiseur auxiliaire"
  mdg_ship_hull_corvette_design_cost_factor: "Coût de conception des corvettes"
  mdg_ship_hull_frigate_design_cost_factor: "Coût de conception des frégates"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Coût de conception des sous-marins de poche"
+ mdg_ship_hull_monitor_design_cost_factor: "Coût de conception du monitor"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Gain d'expérience du trait Moustique"
 

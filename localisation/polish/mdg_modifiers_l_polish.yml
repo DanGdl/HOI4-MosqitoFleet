@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Doświadczenie z treningu miniaturowych okrętów podwodnych"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Doświadczenie bojowe miniaturowych okrętów podwodnych"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "Doświadczenie za szkolenie monitora"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Doświadczenie bojowe monitora"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Koszt projektu lekkich dział I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Koszt projektu lekkich dział II"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Koszt projektu lekkich dział III"
@@ -27,30 +30,13 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Koszt projektu lekkiej armaty III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Koszt projektu lekkiej armaty IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Koszt projektu silnika łodzi I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Koszt projektu silnika łodzi II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Koszt projektu silnika łodzi III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Koszt projektu silnika łodzi IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Koszt projektu silnika korwety I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Koszt projektu silnika korwety II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Koszt projektu silnika korwety III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Koszt projektu silnika korwety IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Koszt projektu silnika fregaty I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Koszt projektu silnika fregaty II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Koszt projektu silnika fregaty III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Koszt projektu silnika fregaty IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Koszt projektu silnika miniaturowego okrętu podwodnego I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Koszt projektu silnika miniaturowego okrętu podwodnego II"
-
  mdg_ship_hull_boat_design_cost_factor: "Koszt projektu kadłuba łodzi"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Koszt projektu kadłuba łodzi na poduszce wodnej"
  mdg_ship_hull_auxiliary_design_cost_factor: "Koszt projektu krążownika pomocniczego"
  mdg_ship_hull_corvette_design_cost_factor: "Koszt projektu kadłuba korwety"
  mdg_ship_hull_frigate_design_cost_factor: "Koszt projektu kadłuba fregaty"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Koszt projektu kadłuba miniaturowego okrętu podwodnego"
+ mdg_ship_hull_monitor_design_cost_factor: "Koszt projektu monitora"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Przyrost doświadczenia cechy „Komar”"
 

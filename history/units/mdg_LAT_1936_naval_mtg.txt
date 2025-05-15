@@ -1,0 +1,14 @@
+﻿units = {
+	fleet = {
+		name = "Latvijas Kara Flote"
+		naval_base = 9340 # Riga
+		task_force = {
+			name = "Latvijas Kara Flote"
+			location = 1885 # near Riga
+
+			ship = { name = "Imanta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = LAT version_name = "Imanta Class" } } }
+			ship = { name = "Viesturs" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = LAT version_name = "Imanta Class" } } }
+			ship = { name = "Virsaitis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = LAT version_name = "Imanta Class" } } }
+		}
+	}
+}

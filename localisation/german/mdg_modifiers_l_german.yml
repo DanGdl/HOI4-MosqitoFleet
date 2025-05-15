@@ -17,6 +17,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Erfahrungsgewinn für Kleinst-U-Boot-Ausbildung"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Erfahrungsgewinn für Kleinst-U-Boot-Kampf"
 
+ modifier_experience_gain_mdg_monitor_training_factor: "Erfahrung durch Monitor-Ausbildung"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Kampferfahrung durch Monitore"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Konstruktionskosten für leichte Geschütze I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Konstruktionskosten für leichte Geschütze II"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Konstruktionskosten für leichte Geschütze III"
@@ -27,30 +30,13 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Konstruktionskosten für leichte Kanone III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Konstruktionskosten für leichte Kanone IV"
 
- modifier_module_mdg_boat_engine_1_design_cost_factor: "Konstruktionskosten für Bootsmotor I"
- modifier_module_mdg_boat_engine_2_design_cost_factor: "Konstruktionskosten für Bootsmotor II"
- modifier_module_mdg_boat_engine_3_design_cost_factor: "Konstruktionskosten für Bootsmotor III"
- modifier_module_mdg_boat_engine_4_design_cost_factor: "Konstruktionskosten für Bootsmotor IV"
-
- modifier_module_mdg_corvette_engine_1_design_cost_factor: "Konstruktionskosten für Korvettenmotor I"
- modifier_module_mdg_corvette_engine_2_design_cost_factor: "Konstruktionskosten für Korvettenmotor II"
- modifier_module_mdg_corvette_engine_3_design_cost_factor: "Konstruktionskosten für Korvettenmotor III"
- modifier_module_mdg_corvette_engine_4_design_cost_factor: "Konstruktionskosten für Korvettenmotor IV"
-
- modifier_module_mdg_frigate_engine_1_design_cost_factor: "Konstruktionskosten für Fregattenmotor I"
- modifier_module_mdg_frigate_engine_2_design_cost_factor: "Konstruktionskosten für Fregattenmotor II"
- modifier_module_mdg_frigate_engine_3_design_cost_factor: "Konstruktionskosten für Fregattenmotor III"
- modifier_module_mdg_frigate_engine_4_design_cost_factor: "Konstruktionskosten für Fregattenmotor IV"
-
- modifier_module_mdg_midget_sub_ship_engine_1_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Motor I"
- modifier_module_mdg_midget_sub_ship_engine_2_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Motor II"
-
  mdg_ship_hull_boat_design_cost_factor: "Konstruktionskosten für Bootsrumpf"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Konstruktionskosten für Tragflügelboot-Rumpf"
  mdg_ship_hull_auxiliary_design_cost_factor: "Konstruktionskosten für Hilfskreuzer"
  mdg_ship_hull_corvette_design_cost_factor: "Konstruktionskosten für Korvettenrumpf"
  mdg_ship_hull_frigate_design_cost_factor: "Konstruktionskosten für Fregattenrumpf"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Rumpf"
+ mdg_ship_hull_monitor_design_cost_factor: "Entwurfskosten für Monitor"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Erfahrungsgewinn für „Moskito“-Eigenschaft"
 

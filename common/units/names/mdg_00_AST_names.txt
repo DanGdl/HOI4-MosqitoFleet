@@ -1,11 +1,97 @@
 ﻿AST = {
 	fleet_names_template = FLEET_NAME_AST
 	
+	mdg_submarine = {
+		prefix = "HMAS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "HMAS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "HMAS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "HMAS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+
+	mdg_frigate = {
+		prefix = "HMAS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "HMAS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "HMAS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMAS"
 		generic = { "AUX" }
 		unique = {
-			"Manoora" "Westralia"
+			"Manoora" "Westralia" "Kanimbla"
 		}
+	}
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = "HMAS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "HMAS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "HMAS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "HMAS"
+		generic = { "LCS" }
+		unique = {
+			"Bathurst" "Bendigo" "Cessnock" "Glenelg" "Goulburn" "Wollongong" "Ararat" "Broome" "Bunbury" "Bundaberg" "Fremantle" "Gympie" "Ipswich" "Kiama"
+			"Launceston" "Parkes" "Townsville" "Ballarat" "Benalla" "Castlemaine" "Echuca" "Geelong" "Horsham" "Shepparton" "Stawell" "Armidale" "Burnie" "Colac"
+			"Deloraine" "Dubbo" "Invereir" "Latrobe" "Lismore" "Lithgow" "Mildura" "Warnambool" "Wagga" "Bowen" "Cairns" "Gladstone" "Maryborough" "Rockhampton"
+			"Tamworth" "Toowoomba" "Cootamundra" "Cowra" "Geraldton" "Junee" "Kapunda" "Katoomba" "Wallaroo" "Gawler" "Kalgoorlie" "Pirie" "Whyalla" "Strahan"
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "HMAS"
+		generic = { "FF" }
+		unique = {
+			"Barwon" "Burdekin" "Diamantina" "Gascoyne" "Hawkesbury" "Lachlan"
+		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "HMAS"
+		generic = { "Monitor" }
+		unique = {}
 	}
 }

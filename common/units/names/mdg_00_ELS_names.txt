@@ -1,0 +1,89 @@
+﻿ELS = {
+	fleet_names_template = FLEET_NAME_ELS
+
+	mdg_submarine = {
+		prefix = "ARS"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARS"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARS"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARS"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARS"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARS"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARS"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARS"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARS"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARS"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARS"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARS"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARS"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

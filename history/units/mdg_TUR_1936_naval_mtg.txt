@@ -1,0 +1,31 @@
+﻿units = {
+	fleet = {
+		name = "Türk Donanmasi"
+		naval_base = 4112 # Izmir
+		task_force = {
+			name = "Türk Donanmasi"
+			location = 7452
+
+			#ship = { name = "TCG Berk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Berk Class" } } }
+			#ship = { name = "TCG Peyk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Berk Class" } } }
+
+			ship = { name = "TCG Sivrihisar" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Yuzbasi Hakki" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Atak" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Nusret" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Intibah" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+
+			ship = { name = "TCG Isa Reis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
+			ship = { name = "TCG Kemal Reis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
+			ship = { name = "TCG Hizir Reis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
+
+			ship = { name = "TCG Dogan" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = TUR version_name = "Dogan Class" } } }
+			ship = { name = "TCG Deniz Kusu" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = TUR version_name = "Dogan Class" } } }
+			ship = { name = "TCG Marti" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = TUR version_name = "Dogan Class" } } }
+
+			ship = { name = "TCG N-18" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = TUR version_name = "Thornycroft Class" } } }
+			ship = { name = "TCG N-21" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = TUR version_name = "Thornycroft Class" } } }
+			ship = { name = "TCG Mulazim Hayati" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = TUR version_name = "Thornycroft Class" } } }
+		}
+	}
+}

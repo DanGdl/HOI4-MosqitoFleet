@@ -1,0 +1,110 @@
+﻿if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	create_equipment_variant = {
+		name = "Ailette Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = FRA_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Marne Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = FRA_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Bougainville Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = FRA_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_2
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Ch-25 Class"
+		type = mdg_ship_hull_boat_1
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Ch-1 Class"
+		type = mdg_ship_hull_boat_2
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_guns_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Castor Class"
+		type = mdg_ship_hull_frigate_1
+		name_group = FRA_FRIGATE_HISTORICAL
+		parent_version = 0
+		obsolete = no
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	load_oob = "mdg_FRA_1936_naval_mtg"
+
+	else = {
+		load_oob = "mdg_FRA_1936_naval_legacy"
+	}
+}

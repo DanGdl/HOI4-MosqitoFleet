@@ -1,0 +1,91 @@
+﻿EST = {
+	fleet_names_template = FLEET_NAME_EST
+
+	mdg_submarine = {
+		prefix = "EML"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "EML"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "EML"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "EML"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "EML"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "EML"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "EML"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "EML"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "EML"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "EML"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "EML"
+		generic = { "RV" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "EML"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "EML"
+		generic = { "LCS" }
+		unique = {
+			"Pikker"		
+		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "EML"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

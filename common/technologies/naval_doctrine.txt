@@ -14,6 +14,9 @@ technologies = {
 		battle_cruiser = {
 			max_organisation = 5
 		}
+		mdg_monitor = {
+			max_organisation = 5
+		}
 		heavy_cruiser = {
 			max_organisation = 5
 		}
@@ -83,6 +86,7 @@ technologies = {
 			naval_doctrine = -1.0
 			battleship = 1.0
 			cruiser = 1.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -95,6 +99,9 @@ technologies = {
 			max_organisation = 5
 		}
 		heavy_cruiser = {
+			max_organisation = 5
+		}
+		mdg_monitor = {
 			max_organisation = 5
 		}
 		strike_force_movement_org_loss = -0.2
@@ -203,6 +210,7 @@ technologies = {
 			naval_doctrine = -1.0
 			battleship = 1.0
 			carrier = 1.5
+			mdg_monitor = 0.5
 			naval_air = 0.75
 		}
 	}
@@ -295,6 +303,9 @@ technologies = {
 		battleship = {
 			max_organisation = 20
 		}
+		mdg_monitor = {
+			max_organisation = 10
+		}
 
 		navy_capital_ship_defence_factor = 0.10
 
@@ -336,6 +347,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -405,6 +417,10 @@ technologies = {
 			max_organisation = 20
 		}
 
+		mdg_monitor = {
+			max_organisation = 15
+		}
+
 		navy_anti_air_attack_factor = 0.10
 		navy_capital_ship_attack_factor = 0.1
 		mines_planting_by_fleets_factor = 0.1
@@ -448,6 +464,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -1470,6 +1487,11 @@ technologies = {
 			surface_detection = 0.25
 		}
 
+		mdg_monitor = {
+			max_organisation = 15
+			surface_detection = 0.25
+		}
+
 		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
 		#######
 
@@ -1526,6 +1548,9 @@ technologies = {
 		heavy_cruiser = {
 			max_organisation = 10
 		}
+		mdg_monitor = {
+			max_organisation = 10
+		}
 		strike_force_movement_org_loss = -0.2
 		########
 
@@ -1565,6 +1590,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -1574,6 +1600,9 @@ technologies = {
 		# EFFECT #############
 		battleship = {
 			max_organisation = 20
+		}
+		mdg_monitor = {
+			max_organisation = 15
 		}
 		navy_capital_ship_defence_factor = 0.10
 		########
@@ -1614,6 +1643,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -1886,7 +1916,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech =  convoy_escorts_bs
+			leads_to_tech = convoy_escorts_bs
 			research_cost_coeff = 1
 		}
 
@@ -2233,6 +2263,9 @@ technologies = {
 		battleship = {
 			max_organisation = 20
 		}
+		mdg_monitor = {
+			max_organisation = 15
+		}
 		navy_capital_ship_defence_factor = 0.10
 		########
 
@@ -2286,6 +2319,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battleship = 2.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -2969,6 +3003,10 @@ technologies = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
+		mdg_monitor = {
+			max_organisation = 5
+			surface_detection = 0.05
+		}
 		refit_speed = 0.1
 		navy_visibility = -0.03
 		naval_retreat_speed = 0.2
@@ -3034,6 +3072,7 @@ technologies = {
 			mdg_frigate = 1.0
 			destroyer = 1.0
 			cruiser = 1.0
+			mdg_monitor = 1.0
 			naval_equipment = 1.0
 		}
 	}
@@ -3829,6 +3868,10 @@ technologies = {
 			convoy_raiding_coordination = 0.35
 			surface_detection = 0.15
 		}
+		mdg_monitor = {
+			max_organisation = 10
+			surface_detection = 0.15
+		}
 		naval_speed_factor = 0.1
 		xp_research_type = navy
 		xp_unlock_cost = 100
@@ -3883,6 +3926,7 @@ technologies = {
 			destroyer = 1.0
 			cruiser = 1.5
 			battlecruiser = 1.0
+			mdg_monitor = 0.5
 		}
 	}
 
@@ -3895,6 +3939,9 @@ technologies = {
 			max_organisation = 10
 		}
 		heavy_cruiser = {
+			max_organisation = 10
+		}
+		mdg_monitor = {
 			max_organisation = 10
 		}
 		strike_force_movement_org_loss = -0.2
@@ -3930,6 +3977,7 @@ technologies = {
 		ai_research_weights = {
 			naval_doctrine = -1.0
 			battlecruiser = 1.0
+			mdg_monitor = 0.5
 		}
 	}
 }

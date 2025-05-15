@@ -1,4 +1,49 @@
 ﻿generic = {
+	mdg_submarine = {
+		prefix = ""
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = ""
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = ""
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = ""
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = ""
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = ""
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "Midget submarine" }
@@ -24,14 +69,20 @@
 	}
 	
 	mdg_ship_hull_frigate = {
-        prefix = ""
-        generic = { "Frigate" }
-        unique = {}
-    }
+		prefix = ""
+		generic = { "Frigate" }
+		unique = {}
+	}
 
-    mdg_ship_hull_auxiliary = {
-        prefix = ""
-        generic = { "AUX" }
-        unique = {}
-    }
+	mdg_ship_hull_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = ""
+		generic = { "Monitor" }
+		unique = {}
+	}
 }

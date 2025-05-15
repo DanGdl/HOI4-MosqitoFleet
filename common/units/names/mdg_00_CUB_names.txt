@@ -1,0 +1,88 @@
+﻿CUB = {
+	fleet_names_template = FLEET_NAME_CUB
+
+	mdg_submarine = {
+		prefix = "ARC"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "ARC"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "ARC"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "ARC"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "ARC"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "ARC"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "ARC"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "ARC"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "ARC"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "ARC"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "ARC"
+		generic = { "SC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "ARC"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "ARC"
+		generic = { "LCS" }
+		unique = {}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "ARC"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

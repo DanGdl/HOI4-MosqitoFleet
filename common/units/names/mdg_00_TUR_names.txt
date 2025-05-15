@@ -1,0 +1,93 @@
+﻿TUR = {
+	fleet_names_template = FLEET_NAME_TUR
+
+	mdg_submarine = {
+		prefix = "TCG"
+		generic = { "Midget submarine" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = "TCG"
+		generic = { "Boat" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = "TCG"
+		generic = { "Hydrofoil" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = "TCG"
+		generic = { "Corvette" }
+		unique = {}
+	}
+	
+	mdg_frigate = {
+		prefix = "TCG"
+		generic = { "Frigate" }
+		unique = {}
+	}
+
+	mdg_auxiliary = {
+		prefix = "TCG"
+		generic = { "AUX" }
+		unique = {}
+	}
+
+	mdg_monitor = {
+		prefix = "TCG"
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+
+
+	mdg_ship_hull_auxiliary = {
+		prefix = "TCG"
+		generic = { "AUX" }
+		unique = {}
+	}
+	
+	mdg_ship_hull_midget_submarine = {
+		prefix = "TCG"
+		generic = { "X" }
+		unique = {}
+	}
+
+	mdg_ship_hull_hydrofoil = {
+		prefix = "TCG"
+		generic = { "HPC" }
+		unique = {}
+	}
+
+	mdg_ship_hull_boat = {
+		prefix = "TCG"
+		generic = { "MTB" }
+		unique = {
+			"Bora", "Kasirga" "Yildirim" "Simsek" "Tayfun"	
+		}
+	}
+
+	mdg_ship_hull_frigate = {
+		prefix = "TCG"
+		generic = { "FF" }
+		unique = {}
+	}
+
+	mdg_ship_hull_corvette = {
+		prefix = "TCG"
+		generic = { "LCS" }
+		unique = {
+			"Canak" "Kavak"
+		}
+	}
+
+	mdg_ship_hull_monitor = {
+		prefix = "TCG"
+		generic = { "Monitor" }
+		unique = {}
+	}
+}

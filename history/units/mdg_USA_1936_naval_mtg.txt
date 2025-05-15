@@ -1,0 +1,116 @@
+﻿units = {
+	fleet = {
+		name = "Pacific Support Fleet"
+		naval_base = 1562 # San Diego
+		task_force = {
+			name = "Support Task Force"
+			location = 2875
+
+			ship = { name = "USS Sacramento" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
+			ship = { name = "USS Asheville" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
+			ship = { name = "USS Tulsa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
+			ship = { name = "USS Erie" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
+			ship = { name = "USS Charleston" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Erie Class" } } }
+
+			ship = { name = "USS РЕ-19" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-27" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-32" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-38" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-48" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-55" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-56" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+			ship = { name = "USS РЕ-57" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Eagle Class" } } }
+
+			ship = { name = "USS AM-2 Owl" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-3 Robin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-5 Tanager" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-7 Oriole" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-9 Finch”" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-13 Turkey" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-14 Woodcock" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-15 Quail" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-16 Partridge" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-17 Eider" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-20 Bobolink" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-21 Lark" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-24 Brant" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-25 Kingfisher" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-26 Rail" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-30 Seagull" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-31 Tern" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-33 Penguin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-35 Whippoorwill" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-36 Bittern" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-40 Cormorant" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-43 Grebe" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+			ship = { name = "USS AM-52 Vireo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Bird Class" } } }
+
+			ship = { name = "USS CM-4 Oglala" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = USA version_name = "Terror Class" } } }
+			ship = { name = "USS CM-5 Terror" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = USA version_name = "Terror Class" } } }
+
+			ship = { name = "USS WPG-45 Haida" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-46 Modoc" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-47 Mojave" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-48 Tampa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-49 Northland" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-52 Tallapoosa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-75 Algonquin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-76 Comanche" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-77 Escanaba" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-78 Mohawk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-79 Onondaga" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+			ship = { name = "USS WPG-80 Tahoma" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+
+			ship = { name = "USS WPC-52 Active" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-126 Agassiz" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-127 Alert" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-128 Antietam" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-129 Bonham" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-130 Boutwell" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-131 Cahoone" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-132 Cartigan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-133 Colfax" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-134 Crawford" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-135 Diligence" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-136 Dix" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-137 Ewing" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-138 Faunce" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-139 Frederick Lee" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-140 General Greene" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-141 Harriet Lane" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-142 Jackson" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-143 Kimball" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-144 Legare" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-145 Marlon" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-146 McLane" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-147 Morris" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-148 Nemaha" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-149 Pulaski" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-150 Reliance" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-151 Rush" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-152 Tiger" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-153 Travis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-154 Vigilant" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-155 Woodbury" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-156 Yeaton" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-157 Cayahoga" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+
+			ship = { name = "USS WPC-100 Argo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-101 Ariadne" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-102 Atlanta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-103 Aurora" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-104 Calypso" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-105 Cyane" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-106 Daphne" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-107 Dione" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-109 Hermes" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-110 Icarus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-111 Nemesis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-112 Nike" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-113 Pandora" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-114 Perseus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-115 Thetis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+			ship = { name = "USS WPC-116 Triton" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+		}
+	}
+}

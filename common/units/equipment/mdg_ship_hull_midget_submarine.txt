@@ -33,7 +33,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_sub_snorkel
-					ship_anechoic_tile
+					ship_sub_coating
 				}
 			}
 		}
@@ -43,6 +43,10 @@ equipments = {
 			count < 2
 		}
 
+		module_count_limit = {
+			category = ship_sub_snorkel
+			count < 2
+		}
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_3
@@ -122,7 +126,7 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anechoic_tile
+					ship_sub_coating
 				}
 			}
 		}
