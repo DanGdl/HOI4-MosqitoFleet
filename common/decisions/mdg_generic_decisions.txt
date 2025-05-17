@@ -104,7 +104,7 @@ mdg_generic_refit_civilian_ships_category = {
 							rear_1_custom_slot = ship_light_medium_battery_1
 							rear_2_custom_slot = ship_mine_layer_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -130,7 +130,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_gun_upgrade = 0
 							ship_anti_air_upgrade = 0
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -243,7 +243,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_depth_charge_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -270,7 +270,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_gun_upgrade = 0
 							ship_ASW_upgrade = 0
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -369,7 +369,7 @@ mdg_generic_refit_civilian_ships_category = {
 					set_country_flag = mdg_flag_refit_to_escort_mtg
 					
 					create_equipment_variant = {	
-						name = "Refitted Escort Ship" 		
+						name = "Refitted Patrol Ship" 		
 						type = mdg_ship_hull_corvette_1
 						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
@@ -381,7 +381,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = mdg_ship_light_cannon_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -400,7 +400,7 @@ mdg_generic_refit_civilian_ships_category = {
 					set_country_flag = mdg_flag_refit_to_escort_vanila
 
 					create_equipment_variant = {
-						name = "Refitted Escort Ship"
+						name = "Refitted Patrol Ship"
 						type = mdg_corvette_1
 						upgrades = {
 							ship_reliability_upgrade = 0
@@ -408,12 +408,12 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_gun_upgrade = 0
 							ship_ASW_upgrade = 0
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
 					type = mdg_corvette_1
-					equipment_variant = "Refitted Escort Ship"
+					equipment_variant = "Refitted Patrol Ship"
 					creator = ROOT
 					name = "P"
 				}		
@@ -520,7 +520,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_mine_layer_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -547,7 +547,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_gun_upgrade = 0
 							ship_ASW_upgrade = 0
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -659,7 +659,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_mine_sweeper_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -686,7 +686,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_gun_upgrade = 0
 							ship_ASW_upgrade = 0
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
