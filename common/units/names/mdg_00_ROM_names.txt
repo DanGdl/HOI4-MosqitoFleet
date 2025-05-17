@@ -26,7 +26,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "NMS"
 		generic = { "Frigate" }
@@ -46,7 +46,7 @@
 	}
 
 
-	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "NMS"
 		generic = { "AUX" }
@@ -72,7 +72,7 @@
 			"Viforul" "Vijelia" "Viscolu"  "Vedenia" "Vantul" "Vijetia" "Viforul" "Vartejul" "Vulcanu"
 		}
 	}
-	
+
 	mdg_ship_hull_corvette = {
 		prefix = "NMS"
 		generic = { "LCS" }

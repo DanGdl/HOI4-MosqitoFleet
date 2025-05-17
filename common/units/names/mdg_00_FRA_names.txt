@@ -27,7 +27,7 @@
 			"La Surprise" "Matelot Leblanc" "Rageot dela Touche" "Amiral Senes" "Enseigne Ballande"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = ""
 		generic = { "FF" }
@@ -78,7 +78,7 @@
 			"La Surprise" "Matelot Leblanc" "Rageot dela Touche" "Amiral Senes" "Enseigne Ballande"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "FF" }

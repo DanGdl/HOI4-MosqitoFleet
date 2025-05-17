@@ -96,7 +96,7 @@ spriteTypes = {
 		name = "GFX_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
 	}
-	
+
 	# ENG
 	SpriteType = {
 		name = "GFX_ENG_mdg_boat_1_medium"
@@ -130,7 +130,7 @@ spriteTypes = {
 		name = "GFX_ENG_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/ENG_mdg_boat_4.dds"
 	}
-	
+
 	# GER
 	SpriteType = {
 		name = "GFX_GER_mdg_boat_1_medium"
@@ -164,7 +164,7 @@ spriteTypes = {
 		name = "GFX_GER_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/GER_mdg_boat_4.dds"
 	}
-	
+
 	# ITA
 	SpriteType = {
 		name = "GFX_ITA_mdg_boat_1_medium"
@@ -198,7 +198,7 @@ spriteTypes = {
 		name = "GFX_ITA_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/ITA_mdg_boat_4.dds"
 	}
-	
+
 	# JAP
 	SpriteType = {
 		name = "GFX_JAP_mdg_boat_1_medium"
@@ -232,7 +232,7 @@ spriteTypes = {
 		name = "GFX_JAP_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/JAP_mdg_boat_4.dds"
 	}
-	
+
 	# SOV
 	SpriteType = {
 		name = "GFX_SOV_mdg_boat_1_medium"
@@ -266,7 +266,7 @@ spriteTypes = {
 		name = "GFX_SOV_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/SOV_mdg_boat_4.dds"
 	}
-	
+
 	# USA
 	SpriteType = {
 		name = "GFX_USA_mdg_boat_1_medium"
@@ -300,8 +300,8 @@ spriteTypes = {
 		name = "GFX_USA_mdg_ship_hull_boat_4_medium"
 		texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
 	}
-	
-	
+
+
 	# CORVETTES
 	# GENERIC
 	SpriteType = {
@@ -370,7 +370,7 @@ spriteTypes = {
 		name = "GFX_ENG_mdg_ship_hull_corvette_4_medium"
 		texturefile = "gfx/interface/technologies/ENG_mdg_corvette_4.dds"
 	}
-	
+
 	# GER
 	SpriteType = {
 		name = "GFX_GER_mdg_corvette_1_medium"
@@ -404,7 +404,7 @@ spriteTypes = {
 		name = "GFX_GER_mdg_ship_hull_corvette_4_medium"
 		texturefile = "gfx/interface/technologies/GER_mdg_corvette_4.dds"
 	}
-	
+
 	# ITA
 	SpriteType = {
 		name = "GFX_ITA_mdg_corvette_1_medium"
@@ -438,7 +438,7 @@ spriteTypes = {
 		name = "GFX_ITA_mdg_ship_hull_corvette_4_medium"
 		texturefile = "gfx/interface/technologies/ITA_mdg_corvette_4.dds"
 	}
-	
+
 	# JAP
 	SpriteType = {
 		name = "GFX_JAP_mdg_corvette_1_medium"
@@ -472,7 +472,7 @@ spriteTypes = {
 		name = "GFX_JAP_mdg_ship_hull_corvette_4_medium"
 		texturefile = "gfx/interface/technologies/JAP_mdg_corvette_4.dds"
 	}
-	
+
 	# SOV
 	SpriteType = {
 		name = "GFX_SOV_mdg_corvette_1_medium"
@@ -506,7 +506,7 @@ spriteTypes = {
 		name = "GFX_SOV_mdg_ship_hull_corvette_4_medium"
 		texturefile = "gfx/interface/technologies/SOV_mdg_corvette_4.dds"
 	}
-	
+
 	# USA
 	SpriteType = {
 		name = "GFX_USA_mdg_corvette_1_medium"
@@ -540,8 +540,8 @@ spriteTypes = {
 		name = "GFX_USA_mdg_ship_hull_corvette_4_medium"
 		texturefile = "gfx/interface/technologies/USA_mdg_corvette_4.dds"
 	}
-	
-	
+
+
 	# FRIGATES
 	# GENERIC
 	SpriteType = {
@@ -576,7 +576,7 @@ spriteTypes = {
 		name = "GFX_mdg_ship_hull_frigate_4_medium"
 		texturefile = "gfx/interface/technologies/ENG_mdg_frigate_4.dds"
 	}
-	
+
 	# ENG
 	SpriteType = {
 		name = "GFX_ENG_mdg_frigate_1_medium"
@@ -610,7 +610,7 @@ spriteTypes = {
 		name = "GFX_ENG_mdg_ship_hull_frigate_4_medium"
 		texturefile = "gfx/interface/technologies/ENG_mdg_frigate_4.dds"
 	}
-	
+
 	# GER
 	SpriteType = {
 		name = "GFX_GER_mdg_frigate_1_medium"
@@ -644,7 +644,7 @@ spriteTypes = {
 		name = "GFX_GER_mdg_ship_hull_frigate_4_medium"
 		texturefile = "gfx/interface/technologies/GER_mdg_frigate_4.dds"
 	}
-	
+
 	# ITA
 	SpriteType = {
 		name = "GFX_ITA_mdg_frigate_1_medium"
@@ -712,7 +712,7 @@ spriteTypes = {
 		name = "GFX_JAP_mdg_ship_hull_frigate_4_medium"
 		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_4.dds"
 	}
-	
+
 	# SOV
 	SpriteType = {
 		name = "GFX_SOV_mdg_frigate_1_medium"
@@ -746,7 +746,7 @@ spriteTypes = {
 		name = "GFX_SOV_mdg_ship_hull_frigate_4_medium"
 		texturefile = "gfx/interface/technologies/SOV_mdg_frigate_4.dds"
 	}
-	
+
 	# USA
 	SpriteType = {
 		name = "GFX_USA_mdg_frigate_1_medium"
@@ -982,7 +982,7 @@ spriteTypes = {
 		name = "GFX_small_fleet_medium"
 		texturefile = "gfx/interface/technologies/mdg_small_fleet.dds"
 	}
-	
+
 	# middle branch
 	SpriteType = {
 		name = "GFX_convoy_sailing_sm_medium"

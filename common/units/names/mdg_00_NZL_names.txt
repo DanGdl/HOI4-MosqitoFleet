@@ -8,7 +8,7 @@
 			"Monowai"
 		}
 	}
-	
+
 	mdg_midget_submarine = {
 		prefix = "HMNZS"
 		generic = { "X" }
@@ -55,7 +55,7 @@
 			"Monowai"
 		}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "HMNZS"
 		generic = { "X" }

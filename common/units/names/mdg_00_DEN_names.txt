@@ -26,7 +26,7 @@
 			"Soloven" "Sobjomen" "Soulven" "Soridderen" "Sohesten" "Sohunden"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "HDMS"
 		generic = { "Frigate" }
@@ -45,7 +45,7 @@
 		unique = {}
 	}
 
-	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "HDMS "
 		generic = { "AUX" }

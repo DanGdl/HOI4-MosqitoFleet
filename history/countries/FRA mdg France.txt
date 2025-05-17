@@ -53,7 +53,7 @@
 			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
-	
+
 	create_equipment_variant = {
 		name = "Ch-25 Class"
 		type = mdg_ship_hull_boat_1

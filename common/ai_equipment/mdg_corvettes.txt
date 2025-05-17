@@ -2,17 +2,17 @@
 
 mdg_corvettes = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_corvette
 	}
-	
+
 	priority = {
 		factor = 2500
 		modifier = {
@@ -28,9 +28,9 @@ mdg_corvettes = {
 			num_of_naval_factories > 7
 		}
 	}
-	
+
 	mdg_corvette_default = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -38,12 +38,12 @@ mdg_corvettes = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 2000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = {
@@ -72,7 +72,7 @@ mdg_corvettes = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
@@ -87,7 +87,7 @@ mdg_corvettes = {
 	}
 
 	mdg_corvette_2 = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -95,12 +95,12 @@ mdg_corvettes = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 2500.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = { 
@@ -133,7 +133,7 @@ mdg_corvettes = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
@@ -148,7 +148,7 @@ mdg_corvettes = {
 	}
 
 	mdg_corvette_3 = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -156,12 +156,12 @@ mdg_corvettes = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = {
@@ -194,7 +194,7 @@ mdg_corvettes = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
@@ -211,17 +211,17 @@ mdg_corvettes = {
 
 mdg_escort_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_corvette_escort
 	}
-	
+
 	priority = {
 		factor = 800
 		modifier = {
@@ -229,9 +229,9 @@ mdg_escort_corvette = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 	}
-	
+
 	mdg_escort_corvette_default = {
-	
+
 		priority = {
 			factor = 70
 			modifier = {
@@ -241,10 +241,10 @@ mdg_escort_corvette = {
 		}
 
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette_1
 			modules = {
 				fixed_ship_battery_slot = {
@@ -271,7 +271,7 @@ mdg_escort_corvette = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			light_ship_engine
 			ship_depth_charge
@@ -285,7 +285,7 @@ mdg_escort_corvette = {
 	}
 
 	mdg_escort_corvette_upgrade = {
-	
+
 		priority = {
 			factor = 90
 			modifier = {
@@ -300,10 +300,10 @@ mdg_escort_corvette = {
 			}
 		}
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 2000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = {
@@ -341,7 +341,7 @@ mdg_escort_corvette = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			light_ship_engine
 			ship_depth_charge
@@ -357,17 +357,17 @@ mdg_escort_corvette = {
 
 mdg_naval_mine_sweeper_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_corvette_mine_sweeper
 	}
-	
+
 	priority = {
 		factor = 200
 		modifier = {
@@ -383,9 +383,9 @@ mdg_naval_mine_sweeper_corvette = {
 			num_of_naval_factories < 8 #not a major naval power
 		}
 	}
-	
+
 	mine_sweeper_corvette_early = { # base variant
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -395,10 +395,10 @@ mdg_naval_mine_sweeper_corvette = {
 		}
 		enable = { has_tech = basic_naval_mines }
 		role_icon_index = 5
-		
+
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -432,7 +432,7 @@ mdg_naval_mine_sweeper_corvette = {
 	}
 
 	mine_sweeper_corvette_late = { # improved variant for late war
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -445,12 +445,12 @@ mdg_naval_mine_sweeper_corvette = {
 			has_tech = basic_dp_light_battery
 			has_tech = improved_naval_mines
 		}
-		
+
 		role_icon_index = 5
-		
+
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -470,7 +470,7 @@ mdg_naval_mine_sweeper_corvette = {
 				}
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -488,17 +488,17 @@ mdg_naval_mine_sweeper_corvette = {
 
 mdg_naval_mine_layer_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_corvette_mine_layer
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -514,15 +514,15 @@ mdg_naval_mine_layer_corvette = {
 			num_of_naval_factories < 8 #not a major naval power
 		}
 	}
-	
+
 	mdg_mine_layer_corvette = {
-	
+
 		priority = {
 			factor = 5
 		}
-		
+
 		role_icon_index = 4
-		
+
 		target_variant = {
 			match_value = 1000.0
 			 
@@ -552,7 +552,7 @@ mdg_naval_mine_layer_corvette = {
 				}
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}
@@ -568,7 +568,7 @@ mdg_naval_mine_layer_corvette = {
 	}
 
 	mdg_mine_layer_corvette_late = { # improved variant for late war
-	
+
 		priority = {
 			factor = 5
 		}
@@ -577,12 +577,12 @@ mdg_naval_mine_layer_corvette = {
 			has_tech = basic_dp_light_battery
 			has_tech = improved_naval_mines
 		}
-		
+
 		role_icon_index = 5
-		
+
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
@@ -602,7 +602,7 @@ mdg_naval_mine_layer_corvette = {
 				}
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

@@ -7,7 +7,7 @@
 			location = 2408
 
 			ship = { name = "HDMS R-1 Hvalrossen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Hvalrossen Class" } } }
-			
+		
 			ship = { name = "HDMS R-2 Makrelen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
 			ship = { name = "HDMS R-3 Nordkaperen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
 			ship = { name = "HDMS R-4 Havkatten" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }

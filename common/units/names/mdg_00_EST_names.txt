@@ -24,7 +24,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "EML"
 		generic = { "Frigate" }
@@ -50,7 +50,7 @@
 		generic = { "AUX" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "EML"
 		generic = { "X" }
@@ -79,7 +79,7 @@
 		prefix = "EML"
 		generic = { "LCS" }
 		unique = {
-			"Pikker"		
+			"Pikker"
 		}
 	}
 

@@ -2,7 +2,7 @@ sp_naval_mdg_hydrofoil = {
 	specialization = specialization_naval 
 
 	project_tags = sp_tag_surface_ship
-	
+
 	complexity = sp_complexity.small
 	prototype_time = sp_time.prototype.short 
 	allowed = {
@@ -10,7 +10,7 @@ sp_naval_mdg_hydrofoil = {
 	}
 
 	special_project_parent = {
-		
+
 	}
 
 	available = { 
@@ -49,17 +49,17 @@ sp_naval_mdg_hydrofoil = {
 			aluminium = 2
 		}
 	}
-	
+
 	project_output = {
 		#enable_equipment_modules = {
 		#}
-		enable_equipments = {	
+		enable_equipments = {
 			limit = {
 				has_dlc = "Man the Guns"
 			}
 			mdg_ship_hull_hydrofoil_1
 		}
-		enable_equipments = {	
+		enable_equipments = {
 			limit = {
 				not = { has_dlc = "Man the Guns" }
 			}
@@ -94,7 +94,7 @@ sp_naval_mdg_hydrofoil = {
 		sp_naval_generic_reward_test_failure_2
 		sp_naval_generic_reward_test_failure_3
 	}
-	
+
 	unique_prototype_rewards = {
 		sp_naval_mdg_hydrofoil_unique_reward_a = {
 			fire_only_once = yes
@@ -110,12 +110,12 @@ sp_naval_mdg_hydrofoil = {
 
 			option = {
 				token = sp_naval_mdg_hydrofoil_preference_a
-				
+
 				iteration_output = {
 					country_effects = {
 						if = {
-							limit = { has_dlc = "Man the Guns"}							
-						
+							limit = { has_dlc = "Man the Guns"}
+
 							add_equipment_bonus = {
 								name = sp_mdg_hydrofoil_eq_bonus_speed
 								bonus = {
@@ -137,7 +137,7 @@ sp_naval_mdg_hydrofoil = {
 										build_cost_ic = 0.05
 									}
 								}
-							}						
+							}
 						}
 					}
 				}
@@ -145,12 +145,12 @@ sp_naval_mdg_hydrofoil = {
 
 			option = {
 				token = sp_naval_mdg_hydrofoil_preference_b
-				
+
 				iteration_output = {
 					country_effects = {
 						if = {
-							limit = { has_dlc = "Man the Guns"}							
-						
+							limit = { has_dlc = "Man the Guns"}		
+				
 							add_equipment_bonus = {
 								name = sp_mdg_hydrofoil_eq_bonus_cost
 								bonus = {
@@ -168,7 +168,7 @@ sp_naval_mdg_hydrofoil = {
 										build_cost_ic = -0.15
 									}
 								}
-							}						
+							}					
 						}
 					}
 				} 
@@ -180,8 +180,8 @@ sp_naval_mdg_hydrofoil = {
 				iteration_output = {
 					country_effects = {
 						if = {
-							limit = { has_dlc = "Man the Guns"}							
-						
+							limit = { has_dlc = "Man the Guns"}						
+					
 							add_equipment_bonus = {
 								name = sp_mdg_hydrofoil_eq_bonus_quality
 								bonus = {
@@ -205,7 +205,7 @@ sp_naval_mdg_hydrofoil = {
 										instant = yes
 									}
 								}
-							}						
+							}					
 						}
 					}
 				}

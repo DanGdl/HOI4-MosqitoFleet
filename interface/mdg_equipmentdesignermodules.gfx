@@ -68,7 +68,7 @@ spriteTypes = {
 		name = "GFX_SM_mdg_boat_mid_1_mine_layer@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_mid_mine_rails@highlight.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_SM_mdg_boat_rear_1_depth_charge"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_depth_charge.dds"
@@ -149,7 +149,7 @@ spriteTypes = {
 		name = "GFX_SM_mdg_hydrofoil_mid_1_mine_layer@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_mine_rails@highlight.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_SM_mdg_hydrofoil_rear_1_depth_charge"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_depth_charge.dds"
@@ -225,7 +225,7 @@ spriteTypes = {
 		name = "GFX_SM_mdg_auxiliary_mid_1_airplane_launcher@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_mid_1_airplane_launcher@highlight.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_SM_mdg_auxiliary_rear_2_mine_layer"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_rear_2_mine_rails.dds"
@@ -261,7 +261,7 @@ spriteTypes = {
 		name = "GFX_SM_mdg_auxiliary_mid_2_torpedo@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_mid_2_torpedo@highlight.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_SM_mdg_auxiliary_rear_depth_charge"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_rear_depth_charge@highlight.dds"
@@ -270,8 +270,8 @@ spriteTypes = {
 		name = "GFX_SM_mdg_auxiliary_rear_depth_charge@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/auxiliary/auxiliary_hull_rear_depth_charge@highlight.dds"
 	}
-	
-	
+
+
 	# Midget
 	spriteType = {
 		name = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo"

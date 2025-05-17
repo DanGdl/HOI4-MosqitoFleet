@@ -1,6 +1,6 @@
 ﻿YUG = {
 	fleet_names_template = FLEET_NAME_YUG
-	
+
 	mdg_submarine = {
 		prefix = "RB"
 		generic = { "Midget submarine" }
@@ -24,7 +24,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "RB"
 		generic = { "Frigate" }
@@ -69,7 +69,7 @@
 			"Orjen" "Velebit" "Dinara" "Triglav" "Suvobor" "Rudnik" "Kajmakcalan" "Durmitor"
 		}
 	}
-	
+
 	mdg_ship_hull_corvette = {
 		prefix = "KB"
 		generic = { "LCS" }

@@ -6,7 +6,7 @@
 		generic = { "AUX" }
 		unique = { }
 	}
-	
+
 	mdg_midget_submarine = {
 		prefix = "HNoMS"
 		generic = { "X" }
@@ -47,14 +47,14 @@
 		generic = { "Monitor" }
 		unique = {}
 	}
-	
+
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "HNoMS"
 		generic = { "AUX" }
 		unique = { }
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "HNoMS"
 		generic = { "X" }

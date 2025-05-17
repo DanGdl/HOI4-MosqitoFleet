@@ -80,7 +80,7 @@ technologies = {
 
 	basic_ship_hull_light = {
 		show_equipment_icon = yes
-		
+
 		enable_equipments = {
 			ship_hull_light_2
 
@@ -139,7 +139,7 @@ technologies = {
 
 	improved_ship_hull_light = {
 		show_equipment_icon = yes
-		
+
 		enable_equipments = {
 			ship_hull_light_3
 
@@ -196,7 +196,7 @@ technologies = {
 
 	advanced_ship_hull_light = {
 		show_equipment_icon = yes
-		
+
 		enable_equipments = {
 			ship_hull_light_4
 
@@ -1095,10 +1095,10 @@ technologies = {
 	}
 
 	improved_ship_hull_heavy = {
-		
+
 		enable_equipments = {
 			ship_hull_heavy_3
-			
+
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_3

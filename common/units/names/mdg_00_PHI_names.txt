@@ -28,7 +28,7 @@
 			"Negros Oriental"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "RPS"
 		generic = { "Frigate" }
@@ -47,7 +47,7 @@
 		unique = {}
 	}
 
-	
+
 	mdg_ship_hull_auxiliary = {
 		prefix = "RPS"
 		generic = { "AUX" }
@@ -81,7 +81,7 @@
 			"Negros Oriental"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = "RPS"
 		generic = { "FF" }

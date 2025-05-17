@@ -17,7 +17,7 @@
 
 			ship = { name = "EML Ristna" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Minelaying ship" } } }
 			ship = { name = "EML Surop" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EST version_name = "Minelaying ship" } } }
-			
+		
 			ship = { name = "EML Keri" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = EST version_name = "M Class" } } }
 			ship = { name = "EML Vaindlo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = EST version_name = "M Class" } } }
 

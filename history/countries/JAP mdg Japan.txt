@@ -2,7 +2,7 @@
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	
+
 	create_equipment_variant = {
 		name = "Saga Class"
 		type = mdg_ship_hull_corvette_1

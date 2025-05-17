@@ -92,7 +92,7 @@ leader_traits = {
 			}
 		}
 		custom_gain_xp_trigger_tooltip = MOSQUITO_TRIGGER_TT
-		
+
 		# navy_fleet_logistics_1
 		# navy_screen_1
 		slot = navy_chief
@@ -145,21 +145,21 @@ leader_traits = {
     cruiser_captain = { 
 		type = navy
 		modifier = {
-			
+	
 		}
 		sub_unit_modifiers = {
 			mdg_auxiliary = {
 				naval_damage_factor = 0.1
 				naval_speed_factor = 0.1
 			}
-		}	
+		}
 		ai_will_do = {
 			factor = 0
 		}
-		
+	
 		trait_type = assignable_trait
 		any_parent = { fleet_protector superior_tactician }
-		
+	
 		gui_row = 6
 		gui_column = 1
 	}

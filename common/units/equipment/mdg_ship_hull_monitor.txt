@@ -33,14 +33,14 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { ship_heavy_armor }	
+				allowed_module_categories = { ship_heavy_armor }
 			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = { ship_light_battery ship_light_medium_battery ship_secondaries ship_dp_secondaries }
 			}
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -53,15 +53,15 @@ equipments = {
 
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
 		surface_detection = 20
@@ -69,9 +69,9 @@ equipments = {
 		surface_visibility = 18
 		naval_speed = 12
 		reliability = 0.75
-		
+
 		naval_range = 2000
-		
+
 		max_strength = 300
 
 		fuel_consumption = 50
@@ -81,7 +81,7 @@ equipments = {
 			steel = 1
 			chromium = 1
 		}
-		
+
 		manpower = 2000
  		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.

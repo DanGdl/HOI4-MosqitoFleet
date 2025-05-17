@@ -1,6 +1,6 @@
 ﻿AST = {
 	fleet_names_template = FLEET_NAME_AST
-	
+
 	mdg_submarine = {
 		prefix = "HMAS"
 		generic = { "Midget submarine" }

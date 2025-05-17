@@ -79,7 +79,7 @@
 			fixed_ship_torpedo_slot = empty
 			rear_1_custom_slot = ship_mine_layer_1
 		}
-	}	
+	}
 }
 
 if = {

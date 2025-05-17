@@ -20,11 +20,11 @@ RAJ_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 
 	for_countries = { RAJ }
-	
+
 	type = ship
 	prefix = "HMIS "
 	ship_types = { mdg_ship_hull_corvette }
-	
+
 	fallback_name = "LCS %s"
 
 	unique = {

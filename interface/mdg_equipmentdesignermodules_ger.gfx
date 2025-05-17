@@ -68,7 +68,7 @@ spriteTypes = {
 		name = "GFX_SM_mdg_boat_mid_1_mine_layer@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_mid_mine_rails@highlight.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_SM_mdg_boat_rear_1_depth_charge"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_depth_charge.dds"

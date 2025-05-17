@@ -8,7 +8,7 @@
 
 			ship = { name = "Saga" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Ataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			
+		
 			ship = { name = "Toba" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Seta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 			ship = { name = "Hira" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }

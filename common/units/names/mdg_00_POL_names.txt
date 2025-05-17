@@ -28,7 +28,7 @@
 			"Czapla" "Zuraw" "General Haller" "Komendant Pilsudski" "Krakov" "Wilno" "Horodyszcze" "Pinsk" "Torun" "Warszawa"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "ORP"
 		generic = { "Frigate" }
@@ -54,7 +54,7 @@
 		generic = { "AUX" }
 		unique = { }
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ORP"
 		generic = { "X" }

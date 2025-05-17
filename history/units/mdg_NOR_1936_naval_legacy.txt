@@ -63,7 +63,7 @@
 			#ship = { name = "HNoMS Olaf Tryggvason" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Glommen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Laugen" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = NOR } } }
-			
+		
 			ship = { name = "HNoMS Vale" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Uller" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR } } }
 			ship = { name = "HNoMS Nor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = NOR } } }

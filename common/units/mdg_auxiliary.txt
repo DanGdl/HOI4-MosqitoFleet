@@ -6,14 +6,14 @@ sub_units = {
 		active = yes
 		type = { screen_ship }
 		need = { mdg_ship_hull_auxiliary = 1 }
-		
+
 		max_organisation = 40
 
 		supply_consumption = 0.01
-		
+
 		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed damaged_torpedoes damaged_light_guns }
 		critical_part_damage_chance_mult = 0.9
-		
+
 		hit_profile_mult = 1.0
 	}
 }
