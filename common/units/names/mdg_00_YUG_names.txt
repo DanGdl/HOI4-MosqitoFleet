@@ -2,43 +2,45 @@
 	fleet_names_template = FLEET_NAME_YUG
 
 	mdg_submarine = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "Midget submarine" }
 		unique = {}
 	}
 
 	mdg_boat = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "Boat" }
-		unique = {}
+		unique = {
+			"Orjen" "Velebit" "Dinara" "Triglav" "Suvobor" "Rudnik" "Kajmakcalan" "Durmitor"
+		}
 	}
 
 	mdg_hydrofoil = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "Hydrofoil" }
 		unique = {}
 	}
 
 	mdg_corvette = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "Corvette" }
 		unique = {}
 	}
 
 	mdg_frigate = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "Frigate" }
 		unique = {}
 	}
 
 	mdg_auxiliary = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "AUX" }
 		unique = {}
 	}
 
 	mdg_monitor = {
-		prefix = "RB"
+		prefix = "KB"
 		generic = { "Monitor" }
 		unique = {}
 	}

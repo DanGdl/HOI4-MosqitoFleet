@@ -36,6 +36,19 @@ equipments = {
 				allowed_module_categories = { light_ship_engine }
 			}
 			rear_1_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
+					ship_torpedo
+					ship_mine_warfare
+					ship_mine_layer
+					ship_anti_air
+					ship_depth_charge
+					ship_airplane_launcher
+				}
+			}
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					mdg_ship_light_cannon
@@ -45,10 +58,8 @@ equipments = {
 					ship_mine_layer
 					ship_anti_air
 					ship_depth_charge
-					#ship_airplane_launcher
 				}
 			}
-			mid_1_custom_slot = rear_1_custom_slot
 		}
 
 		module_count_limit = {
@@ -136,18 +147,8 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-				}
-			}
-			mid_1_custom_slot = rear_1_custom_slot
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -182,18 +183,8 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-				}
-			}
-			mid_1_custom_slot = rear_1_custom_slot
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -240,28 +231,10 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-				}
-			}
-			mid_2_custom_slot = rear_1_custom_slot
-			mid_1_custom_slot = rear_1_custom_slot
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_depth_charge
-					ship_anti_air
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-				}
-			}
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = mid_1_custom_slot
+			front_1_custom_slot = inherit
 		}
 
 		sub_detection = 4

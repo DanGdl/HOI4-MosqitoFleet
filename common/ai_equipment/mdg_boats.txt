@@ -49,6 +49,10 @@ mdg_boats = {
 					any_of = { mdg_ship_light_guns }
 					upgrade > current
 				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
 					upgrade > current
@@ -61,10 +65,6 @@ mdg_boats = {
 					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
 					upgrade > current
 				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
-					upgrade > current
-				}
 			}
 		}
 
@@ -75,6 +75,7 @@ mdg_boats = {
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
+			ship_sonar
 		}
 	}
 
@@ -104,7 +105,7 @@ mdg_boats = {
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
+					any_of = { ship_radar ship_sonar }
 					upgrade > current
 				}
 				fixed_ship_torpedo_slot = {
@@ -125,6 +126,7 @@ mdg_boats = {
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
+			ship_sonar
 		}
 	}
 
@@ -154,7 +156,7 @@ mdg_boats = {
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
+					any_of = { ship_radar ship_sonar }
 					upgrade > current
 				}
 				fixed_ship_torpedo_slot = {
@@ -179,6 +181,7 @@ mdg_boats = {
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
+			ship_sonar
 		}
 	}
 }
@@ -237,7 +240,7 @@ mdg_naval_mine_layer_boat = {
 				}
 				fixed_ship_torpedo_slot = empty
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar }
+					any_of = { ship_radar ship_sonar }
 					upgrade > current
 				}
 			}
@@ -253,6 +256,7 @@ mdg_naval_mine_layer_boat = {
 			ship_mine_layer
 			ship_torpedo
 			ship_radar
+			ship_sonar
 		}
 	}
 }
