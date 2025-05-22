@@ -40,13 +40,13 @@ if = {
 		name_group = RAJ_CORVETTE_HISTORICAL
 		parent_version = 0
 		modules = {
-			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
-			rear_1_custom_slot = empty
+			rear_1_custom_slot = mdg_ship_light_cannon_1
 		}
 	}
 	set_technology = { early_ship_hull_light = 0 }
