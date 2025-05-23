@@ -236,3 +236,9 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Lekkie Działa"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Lekkie Działa Uniwersalne"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE: "Płytki Anechoiczne"
+
+
+ # z RT56
+ modern_ship_hull_light: "Kadra niszczyciela z 1948 roku"
+ ship_hull_light_5: "Kadra niszczyciela z 1948 roku"
+ ship_hull_light_5_desc: "Aby przetrwać w szybko zmieniającym się i wrogim środowisku morskim, zaawansowane projekty niszczycieli obejmują w pełni automatyczne działa główne, ulepszone maszyny, nowoczesny sprzęt wykrywający oraz skuteczną broń przeciw okrętom podwodnym."

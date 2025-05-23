@@ -236,3 +236,9 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Cañones Ligeros"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Cañones Ligeros de Doble Propósito"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE: "Baldosas Anecoicas"
+
+
+ # from RT56  
+ modern_ship_hull_light: "Casco de destructor de 1948"  
+ ship_hull_light_5: "Casco de destructor de 1948"  
+ ship_hull_light_5_desc: "Para prosperar en un entorno marítimo en rápida evolución y hostil, los diseños avanzados de destructores incorporan cañones principales totalmente automáticos, maquinaria mejorada, equipos de detección mejorados y armas antisubmarinas eficaces."

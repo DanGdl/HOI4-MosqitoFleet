@@ -237,3 +237,9 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Leichte Kanonen"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Zweckmäßige leichte Kanonen"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE: "Anechoische Platten"
+
+
+ # from RT56
+ modern_ship_hull_light: "Zerstörer-Rumpf von 1948"
+ ship_hull_light_5: "Zerstörer-Rumpf von 1948"
+ ship_hull_light_5_desc: "Um in einer sich rasch entwickelnden und feindlichen maritimen Umgebung bestehen zu können, verfügen fortschrittliche Zerstörer über vollautomatische Hauptgeschütze, verbesserte Maschinenanlagen, fortschrittliche Ortungssysteme und wirksame U-Boot-Abwehrwaffen."

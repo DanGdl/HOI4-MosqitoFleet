@@ -235,3 +235,9 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Canons légers"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Canons légers double usage"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE: "Revêtements anéchoïques"
+
+
+ # from RT56
+ modern_ship_hull_light: "Coque de destroyer modèle 1948"
+ ship_hull_light_5: "Coque de destroyer modèle 1948"
+ ship_hull_light_5_desc: "Pour survivre dans un environnement maritime en rapide évolution et de plus en plus hostile, les destroyers modernes intègrent des canons principaux entièrement automatiques, une machinerie améliorée, des équipements de détection perfectionnés et des armes efficaces de lutte anti-sous-marine."

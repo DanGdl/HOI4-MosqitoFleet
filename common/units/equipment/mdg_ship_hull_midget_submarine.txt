@@ -92,7 +92,6 @@ equipments = {
 		naval_supremacy_factor = 0.6
 	}
 
-	# for Vanila and compatibility
 	mdg_ship_hull_midget_submarine_1 = {
 		abbreviation = "mdg_ssm_1"
 		year = 1936

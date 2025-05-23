@@ -236,3 +236,9 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "轻型火炮"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "双用途轻型火炮"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE: "消声瓦"
+
+
+ # from RT56
+ modern_ship_hull_light: "1948年型驱逐舰船体"
+ ship_hull_light_5: "1948年型驱逐舰船体"
+ ship_hull_light_5_desc: "为了在快速变化和充满敌意的海洋环境中生存，先进的驱逐舰设计采用了全自动主炮、改进的动力系统、增强的探测设备以及高效的反潜武器。"

@@ -328,7 +328,6 @@ equipments = {
 
 
 	# VANILA
-
 	mdg_frigate_1 = {
 		year = 1922
 

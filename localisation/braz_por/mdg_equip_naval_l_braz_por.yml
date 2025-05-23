@@ -236,3 +236,9 @@
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Canhões de Luz"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Canhões de luz de dupla finalidade"
  EQ_MOD_CAT_ship_anechoic_tile_TITLE: "Telhas Anecóicas"
+
+
+ # from RT56
+ modern_ship_hull_light: "Casco de Contratorpedeiro de 1948"
+ ship_hull_light_5: "Casco de Contratorpedeiro de 1948"
+ ship_hull_light_5_desc: "Para prosperar em um ambiente marítimo hostil e em rápida evolução, os projetos avançados de contratorpedeiros incorporam canhões principais totalmente automáticos, maquinário aprimorado, equipamentos de detecção avançados e armas eficazes contra submarinos."
