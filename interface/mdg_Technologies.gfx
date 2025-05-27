@@ -372,7 +372,7 @@ spriteTypes = {
 		name = "GFX_FRA_mdg_ship_hull_corvette_1_medium"
 		texturefile = "gfx/interface/technologies/FRA_mdg_corvette_1.dds"
 	}
-	
+
 	# ENG
 	SpriteType = {
 		name = "GFX_ENG_mdg_corvette_1_medium"
@@ -623,7 +623,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/FRA_mdg_frigate_1.dds"
 	}
 	
-
 	# ENG
 	SpriteType = {
 		name = "GFX_ENG_mdg_frigate_1_medium"
