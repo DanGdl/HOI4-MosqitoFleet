@@ -67,9 +67,9 @@ equipments = {
 		armor_value = 0
 
 		surface_detection = 20
-		sub_detection = 1.5
+		sub_detection = 1
 		surface_visibility = 7
-		naval_speed = 32
+		naval_speed = 26
 		reliability = 0.80
 		
 		naval_range = 500

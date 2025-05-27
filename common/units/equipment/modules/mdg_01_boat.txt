@@ -20,10 +20,6 @@ equipment_modules = {
 			build_cost_ic = 40	
 		}
 
-		multiply_stats = {
-			naval_speed = -0.01
-		}
-
 		add_average_stats = {
 			lg_armor_piercing = 0.2
 		}

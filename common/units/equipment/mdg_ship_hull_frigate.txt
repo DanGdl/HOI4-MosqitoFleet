@@ -87,9 +87,9 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 2.5
+		sub_detection = 1
 		surface_visibility = 10
-		naval_speed = 30
+		naval_speed = 23
 		reliability = 0.80
 		
 		naval_range = 1300
@@ -155,7 +155,6 @@ equipments = {
 			rear_1_custom_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
-		sub_detection = 3
 		reliability = 0.85
 		naval_range = 1500
 		max_strength = 35
@@ -211,7 +210,6 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
 
-		sub_detection = 3.5
 		surface_visibility = 10
 		reliability = 0.85
 		naval_range = 1700
@@ -264,7 +262,6 @@ equipments = {
 			}
 		}
 
-		sub_detection = 4
 		reliability = 0.9
 		naval_range = 2000
 		max_strength = 50
