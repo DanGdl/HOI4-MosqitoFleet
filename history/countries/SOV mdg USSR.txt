@@ -207,8 +207,4 @@
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	load_oob = "mdg_SOV_1936_naval_mtg"
-
-	else = {
-		load_oob = "mdg_SOV_1936_naval_legacy"
-	}
 }
