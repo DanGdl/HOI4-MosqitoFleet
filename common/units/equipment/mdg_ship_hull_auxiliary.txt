@@ -118,41 +118,4 @@ equipments = {
 			}
 		}
 	}
-
-
-	# VANILA
-	mdg_auxiliary_1 = {
-		year = 1922
-
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
-		archetype = mdg_ship_hull_auxiliary
-		priority = 2300
-		active = yes
-
-		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_secondaries_slot = empty
-			
-			rear_2_custom_slot = ship_mine_layer_1
-			rear_1_custom_slot = ship_depth_charge_1
-			mid_2_custom_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_airplane_launcher_1
-		}
-
-		can_be_produced = {
-			OR = {
-				has_country_flag = mdg_flag_refit_to_mine_layer_vanila
-				has_country_flag = mdg_flag_refit_to_escort_vanila
-				has_country_flag = mdg_flag_refit_to_cruiser_vanila
-			}
-		}
-	}
 }

@@ -114,32 +114,6 @@ mdg_generic_refit_civilian_ships_category = {
 					name = "Protector"
 				}
 			}
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_cruiser_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_cruiser_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Cruiser"
-						type = mdg_auxiliary_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_anti_air_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_auxiliary_1
-					equipment_variant = "Refitted Cruiser"
-					creator = ROOT
-					name = "Protector"
-				}
-			}
 		}
 	}
 
@@ -253,33 +227,6 @@ mdg_generic_refit_civilian_ships_category = {
 					name = "E"
 				}
 			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_escort_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Escort Ship"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Escort Ship"
-					creator = ROOT
-					name = "E"
-				}		
-			}
 		}
 	}
 
@@ -390,33 +337,6 @@ mdg_generic_refit_civilian_ships_category = {
 					creator = ROOT
 					name = "P"
 				}
-			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_escort_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Escort Ship"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Escort Ship"
-					creator = ROOT
-					name = "P"
-				}		
 			}
 		}
 	}
@@ -530,33 +450,6 @@ mdg_generic_refit_civilian_ships_category = {
 					name = "ML"
 				}
 			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Mine Layer"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Mine Layer"
-					creator = ROOT
-					name = "ML"
-				}		
-			}
 		}
 	}
 
@@ -668,33 +561,6 @@ mdg_generic_refit_civilian_ships_category = {
 					creator = ROOT
 					name = "MS"
 				}
-			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_sweeper_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Mine Sweeper"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Mine Sweeper"
-					creator = ROOT
-					name = "MS"
-				}		
 			}
 		}
 	}

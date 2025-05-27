@@ -646,58 +646,58 @@ script_enum_equipment_bonus_type = {
 	supersonic_fighter_equipment_1
 
 	mdg_boat
-	mdg_boat_1
-	mdg_boat_2
-	mdg_boat_3
-	mdg_boat_4
 	mdg_ship_hull_boat
 	mdg_ship_hull_boat_1
 	mdg_ship_hull_boat_2
 	mdg_ship_hull_boat_3
 	mdg_ship_hull_boat_4
+	mdg_ship_hull_boat_5
+	mdg_ship_hull_boat_6
+	mdg_ship_hull_boat_7
+	mdg_ship_hull_boat_8
+	mdg_ship_hull_boat_9
+	mdg_ship_hull_boat_10
 
 	mdg_corvette
-	mdg_corvette_1
-	mdg_corvette_2
-	mdg_corvette_3
-	mdg_corvette_4
 	mdg_ship_hull_corvette
 	mdg_ship_hull_corvette_1
 	mdg_ship_hull_corvette_2
 	mdg_ship_hull_corvette_3
 	mdg_ship_hull_corvette_4
+	mdg_ship_hull_corvette_5
+	mdg_ship_hull_corvette_6
+	mdg_ship_hull_corvette_7
+	mdg_ship_hull_corvette_8
+	mdg_ship_hull_corvette_9
+	mdg_ship_hull_corvette_10
 
 	mdg_frigate
-	mdg_frigate_1
-	mdg_frigate_2
-	mdg_frigate_3
-	mdg_frigate_4
 	mdg_ship_hull_frigate
 	mdg_ship_hull_frigate_1
 	mdg_ship_hull_frigate_2
 	mdg_ship_hull_frigate_3
 	mdg_ship_hull_frigate_4
+	mdg_ship_hull_frigate_5
+	mdg_ship_hull_frigate_6
+	mdg_ship_hull_frigate_7
+	mdg_ship_hull_frigate_8
+	mdg_ship_hull_frigate_9
+	mdg_ship_hull_frigate_10
 
 	mdg_midget_submarine
-	mdg_midget_submarine_1
-	mdg_midget_submarine_2
 	mdg_ship_hull_midget_submarine
 	mdg_ship_hull_midget_submarine_1
 	mdg_ship_hull_midget_submarine_2
 	
 	mdg_hydrofoil
-	mdg_hydrofoil_1
 	mdg_ship_hull_hydrofoil
 	mdg_ship_hull_hydrofoil_1
 	
 	mdg_auxiliary
-	mdg_auxiliary_1
 	mdg_ship_hull_auxiliary
 	mdg_ship_hull_auxiliary_1
 
 	mdg_monitor
-	mdg_monitor_1
-	mdg_monitor_2
 	mdg_ship_hull_monitor
 	mdg_ship_hull_monitor_1
 	mdg_ship_hull_monitor_2

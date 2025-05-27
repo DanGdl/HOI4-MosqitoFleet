@@ -111,46 +111,4 @@ equipments = {
 		max_strength = 350
 		build_cost_ic = 1800
 	}
-
-	# VANILA
-	mdg_monitor_1 = {
-		year = 1922
-
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_armor_upgrade
-			ship_gun_upgrade
-		}
-		archetype = mdg_ship_hull_monitor
-		priority = 2300
-
-		default_modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_dp_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bc_1
-			rear_1_custom_slot = ship_dp_secondaries_1
-		}
-	}
-
-	mdg_monitor_2 = {
-		year = 1940
-
-		archetype = mdg_ship_hull_monitor
-		parent = mdg_monitor_1
-		priority = 2300
-
-		default_modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_dp_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bc_1
-			rear_1_custom_slot = ship_dp_secondaries_1
-		}
-	}
 }
