@@ -171,7 +171,19 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			rear_1_custom_slot = inherit
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
+					ship_airplane_launcher
+					ship_sam_missile_battery
+					ship_light_ASM_battery
+				}
+			}
 			mid_1_custom_slot = rear_1_custom_slot
 			
 		}
@@ -210,8 +222,21 @@ equipments = {
 			fixed_ship_engine_slot = inherit
 
 			rear_1_custom_slot = inherit
-			mid_2_custom_slot = rear_1_custom_slot
 			mid_1_custom_slot = inherit
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_mine_warfare
+					ship_mine_layer
+					ship_depth_charge
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
+					ship_airplane_launcher
+					ship_sam_missile_battery
+					ship_light_ASM_battery
+					ship_ciws
+				}
+			}
 		}
 
 		fuel_consumption = -2
@@ -225,200 +250,204 @@ equipments = {
 		manpower = 300
 	}
 
-
-	# VANILA GANE
-
-	mdg_corvette_1 = {
-		year = 1922
+	mdg_ship_hull_corvette_5 = {
+		abbreviation = "hc_5"
+		year = 1950
 
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
-		module_slots = inherit
-		default_modules = {
-			fixed_ship_battery_slot = mdg_ship_light_cannon_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_depth_charge_1
-			mid_1_custom_slot = empty
+		parent = mdg_ship_hull_corvette_4
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			mid_1_custom_slot = inherit
 		}
 
-		upgrades = {
-			ship_torpedo_upgrade
-			destroyer_engine_upgrade
-			ship_ASW_upgrade
-			ship_anti_air_upgrade
-		}
-
-		lg_armor_piercing = -0.5
-		lg_attack = -0.2
-		
-		torpedo_attack = -8
-		sub_attack = 4
-		
-		anti_air_attack = -1.5
-		
-		armor_value = 0
-
-		surface_detection = 20
-		sub_detection = 10
-		surface_visibility = 9
-		naval_speed = 23
-		reliability = 0.80
-		
-		naval_range = 1100
-		
-		max_strength = 20
-		
-		fuel_consumption = 0
-		
-		build_cost_ic = 50
-		resources = {
-			steel = 1
-		}
-		
-		manpower = 150
-	}
-
-	mdg_corvette_2 = {
-		year = 1936
-
-		archetype = mdg_ship_hull_corvette
-		priority = 2200
-		parent = mdg_corvette_1
-		module_slots = inherit
-		default_modules = {
-			fixed_ship_battery_slot = mdg_ship_light_cannon_2
-			fixed_ship_anti_air_slot = ship_anti_air_2
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_2
-			rear_1_custom_slot = ship_depth_charge_2
-			mid_1_custom_slot = empty
-		}
-		lg_armor_piercing = -1
-		lg_attack = -0.3
-		torpedo_attack = -9
-		sub_attack = 3
-		
-		anti_air_attack = -1.5
-		
-		armor_value = 0
-
-		surface_detection = 30
-		sub_detection = 13
-		surface_visibility = 9
-		naval_speed = 24.5
-		reliability = 0.85
-
-		naval_range = 1200
-		
-		max_strength = 27
-		
-		type = { 
-			screen_ship
-		}
-
-		build_cost_ic = 30
-		resources = {
-			steel = 2
-		}		
-		manpower = 200
-	}
-	
-	mdg_corvette_3 = {
-		year = 1940
-
-		archetype = mdg_ship_hull_corvette
-		priority = 2200
-		parent = mdg_corvette_2
-		module_slots = inherit
-		default_modules = {
-			fixed_ship_battery_slot = mdg_ship_light_cannon_3
-			fixed_ship_anti_air_slot = ship_anti_air_3
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_3
-			fixed_ship_torpedo_slot = ship_torpedo_3
-			rear_1_custom_slot = ship_depth_charge_3
-			mid_1_custom_slot = empty
-		}
-		lg_armor_piercing = -1
-		lg_attack = -0.2
-		torpedo_attack = -10
-		sub_attack = 4
-		
-		anti_air_attack = -2
-		
-		armor_value = 0
-
-		surface_detection = 35
-		sub_detection = 13
-		surface_visibility = 9
-		naval_speed = 26
-		reliability = 0.85
-
-		naval_range = 1300
-		
-		max_strength = 35
-		
-		type = { 
-			screen_ship
-		}
-		build_cost_ic = 0
+		fuel_consumption = -2
+		reliability = 1.0
+		naval_range = 1650
+		max_strength = 50
+		build_cost_ic = 483
 		resources = {
 			steel = 2
 		}
-		manpower = 250
+		manpower = 300
 	}
-	
-	mdg_corvette_4 = {
-		year = 1944
+
+	mdg_ship_hull_corvette_6 = {
+		abbreviation = "hc_6"
+		year = 1955
 
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
-		parent = mdg_corvette_3
-		module_slots = inherit
-		default_modules = {
-			fixed_ship_battery_slot = mdg_ship_light_cannon_4
-			fixed_ship_anti_air_slot = ship_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_4
-			fixed_ship_torpedo_slot = ship_torpedo_4
-			rear_1_custom_slot = ship_depth_charge_4
-			mid_1_custom_slot = empty
-		}
-		lg_armor_piercing = -0.5
-		lg_attack = 0
-		torpedo_attack = -11
-		sub_attack = 3
+		parent = mdg_ship_hull_corvette_5
 		
-		anti_air_attack = -3.5
-		
-		armor_value = 0
-		
-		surface_detection = 40
-		sub_detection = 13
-		surface_visibility = 9
-		naval_speed = 28
-		reliability = 0.9
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
 
-		naval_range = 1400
-		
-		max_strength = 40
-		
-		type = { 
-			screen_ship
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = rear_1_custom_slot
+			mid_1_custom_slot = inherit
 		}
 
-		build_cost_ic = 0
+		fuel_consumption = -2
+		reliability = 1.10
+		naval_range = 1800
+		max_strength = 60
+		build_cost_ic = 483
 		resources = {
 			steel = 2
-		}		
+		}
+		manpower = 300
+	}
+
+	mdg_ship_hull_corvette_7 = {
+		abbreviation = "hc_7"
+		year = 1960
+
+		archetype = mdg_ship_hull_corvette
+		priority = 2200
+		parent = mdg_ship_hull_corvette_6
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_depth_charge
+					mdg_ship_light_cannon
+					mdg_ship_light_cannon_dp
+					ship_sam_missile_battery
+				}
+			}
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = rear_1_custom_slot
+			mid_1_custom_slot = inherit
+		}
+
+		fuel_consumption = -2
+		reliability = 1.15
+		naval_range = 1800
+		max_strength = 60
+		build_cost_ic = 483
+		resources = {
+			steel = 2
+		}
+		manpower = 300
+	}
+
+	mdg_ship_hull_corvette_8 = {
+		abbreviation = "hc_8"
+		year = 1970
+
+		archetype = mdg_ship_hull_corvette
+		priority = 2200
+		parent = mdg_ship_hull_corvette_7
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = rear_1_custom_slot
+			mid_1_custom_slot = inherit
+		}
+
+		fuel_consumption = -2
+		reliability = 1.17
+		naval_range = 1800
+		max_strength = 60
+		build_cost_ic = 483
+		resources = {
+			steel = 2
+		}
+		manpower = 300
+	}
+
+	mdg_ship_hull_corvette_9 = {
+		abbreviation = "hc_9"
+		year = 1980
+
+		archetype = mdg_ship_hull_corvette
+		priority = 2200
+		parent = mdg_ship_hull_corvette_8
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = rear_1_custom_slot
+			mid_1_custom_slot = inherit
+		}
+
+		fuel_consumption = -2
+		reliability = 1.21
+		naval_range = 1800
+		max_strength = 60
+		build_cost_ic = 483
+		resources = {
+			steel = 2
+		}
+		manpower = 300
+	}
+
+	mdg_ship_hull_corvette_10 = {
+		abbreviation = "hc_10"
+		year = 1990
+
+		archetype = mdg_ship_hull_corvette
+		priority = 2200
+		parent = mdg_ship_hull_corvette_9
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_2_custom_slot = rear_1_custom_slot
+			mid_1_custom_slot = inherit
+		}
+
+		fuel_consumption = -2
+		reliability = 1.21
+		naval_range = 1800
+		max_strength = 60
+		build_cost_ic = 483
+		resources = {
+			steel = 2
+		}
 		manpower = 300
 	}
 }
