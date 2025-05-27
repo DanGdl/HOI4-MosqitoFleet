@@ -66,7 +66,8 @@
 		prefix = "KB"
 		generic = { "MTB" }
 		unique = {
-			"Orjen" "Velebit" "Dinara" "Triglav" "Suvobor" "Rudnik" "Kajmakcalan" "Durmitor"
+			"Orjen" "Velebit" "Dinara" "Triglav" "Suvobor" "Rudnik" "Kajmakcalan" "Durmitor" "Partizan" "Pionir" "Proleter" "Biokovak" "Crvena Zvijezda" "Ivan" "Jadran" "Kornat" "Napredak" "Partizan-II" "Partizan-III" 
+			"Pionir-II" "Streljko" "Topcider"
 		}
 	}
 	

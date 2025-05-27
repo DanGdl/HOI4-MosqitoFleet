@@ -71,7 +71,7 @@
 		prefix = "ORP"
 		generic = { "S" }
 		unique = {
-			"S-1 Chart" "S-2 Wilczur" "S-3 Wyzel"
+			"S-1 Chart" "S-2 Wilczur" "S-3 Wyzel" "Blyskawiczny" "Bitny" "Bystry" "Dzienly" "Dziarski" "Odporny" "Odwazny" "Sprawny" "Szybki"
 		}
 	}
 
