@@ -258,6 +258,7 @@ technologies = {
 
 
 	ship_hull_light_5 = {
+		show_equipment_icon = yes
 
 		enable_equipments = { 
 			ship_hull_light_5
@@ -315,7 +316,8 @@ technologies = {
 	}
 	
 	ship_hull_light_6 = {
-
+		show_equipment_icon = yes
+		
 		enable_equipments = { 
 			ship_hull_light_6
 
@@ -372,6 +374,7 @@ technologies = {
 	}
 	
 	ship_hull_light_7 = {
+		show_equipment_icon = yes
 
 		enable_equipments = { 
 			ship_hull_light_7
@@ -427,6 +430,7 @@ technologies = {
 	}
 	
 	ship_hull_light_8 = {
+		show_equipment_icon = yes
 
 		enable_equipments = { 
 			ship_hull_light_8
@@ -482,6 +486,7 @@ technologies = {
 	}
 	
 	ship_hull_light_9 = {
+		show_equipment_icon = yes
 
 		enable_equipments = { 
 			ship_hull_light_9
@@ -537,6 +542,7 @@ technologies = {
 	}
 	
 	ship_hull_light_10 = {
+		show_equipment_icon = yes
 
 		enable_equipments = { 
 			ship_hull_light_10
