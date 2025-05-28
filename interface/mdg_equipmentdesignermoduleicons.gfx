@@ -20,6 +20,22 @@ spriteTypes = {
 		name = "GFX_SMI_mdg_ship_light_cannon_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_7"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_8"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
+	}
 
 
 	spriteType = {
@@ -42,6 +58,22 @@ spriteTypes = {
 		name = "GFX_SMI_mdg_ship_light_cannon_dp_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_4.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_7"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_8"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_4.dds"
+	}
 
 
 	spriteType = {
@@ -62,6 +94,18 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_guns_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_7"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
 	}
 }

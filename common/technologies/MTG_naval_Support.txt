@@ -415,6 +415,10 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_60_light_battery
 			ship_60_light_battery_dp
+
+			mdg_ship_light_guns_5
+			mdg_ship_light_cannon_5
+			mdg_ship_light_cannon_dp_5
 		}
 		
 		path = {
@@ -446,6 +450,9 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -459,6 +466,10 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_70_light_battery
 			ship_70_light_battery_dp
+
+			mdg_ship_light_guns_6
+			mdg_ship_light_cannon_6
+			mdg_ship_light_cannon_dp_6
 		}
 		
 		path = {
@@ -489,6 +500,9 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -501,6 +515,10 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_80_light_battery
 			ship_80_light_battery_dp
+
+			mdg_ship_light_guns_7
+			mdg_ship_light_cannon_7
+			mdg_ship_light_cannon_dp_7
 		}
 		
 		path = {
@@ -532,6 +550,9 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -544,6 +565,9 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_90_light_battery
 			ship_90_light_battery_dp
+
+			mdg_ship_light_cannon_8
+			mdg_ship_light_cannon_dp_8
 		}
 		folder = {
 			name = mtgnavalsupportfolder
@@ -569,6 +593,9 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}

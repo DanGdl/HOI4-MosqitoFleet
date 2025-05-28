@@ -134,4 +134,115 @@ equipment_modules = {
 
 		critical_parts = { damaged_light_guns }
 	}
+
+	mdg_ship_light_guns_5 = {
+		abbreviation = "lsg_5"
+		category = mdg_ship_light_guns
+		parent = mdg_ship_light_guns_4
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.0
+			anti_air_attack = 1.0
+			build_cost_ic = 80	
+		}
+
+		build_cost_resources = {
+			steel = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.04
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.5
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_guns
+			convert_cost_ic = 30
+		}
+			
+		can_convert_from = {
+			module = mdg_ship_light_guns_4
+			convert_cost_ic = 30
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_guns_6 = {
+		abbreviation = "lsg_6"
+		category = mdg_ship_light_guns
+		parent = mdg_ship_light_guns_5
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.2
+			anti_air_attack = 1.2
+			build_cost_ic = 80	
+		}
+
+		build_cost_resources = {
+			steel = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.04
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.7
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_guns
+			convert_cost_ic = 30
+		}
+			
+		can_convert_from = {
+			module = mdg_ship_light_guns_5
+			convert_cost_ic = 30
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	mdg_ship_light_guns_7 = {
+		abbreviation = "lsg_7"
+		category = mdg_ship_light_guns
+		parent = mdg_ship_light_guns_6
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.5
+			anti_air_attack = 1.5
+			build_cost_ic = 80	
+		}
+
+		build_cost_resources = {
+			steel = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.04
+		}
+
+		add_average_stats = {
+			lg_armor_piercing = 0.9
+		}
+		
+		can_convert_from = {
+			module_category = mdg_ship_light_guns
+			convert_cost_ic = 30
+		}
+			
+		can_convert_from = {
+			module = mdg_ship_light_guns_6
+			convert_cost_ic = 30
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
 }
