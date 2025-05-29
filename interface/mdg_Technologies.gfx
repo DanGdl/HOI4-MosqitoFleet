@@ -944,7 +944,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_POL_mdg_ship_hull_boat_7_medium"
-		texturefile = "gfx/interface/technologies/CHI_mdg_boat_7.dds"
+		texturefile = "gfx/interface/technologies/POL_mdg_boat_7.dds"
 	}
 	SpriteType = {
 		name = "GFX_DEN_mdg_ship_hull_boat_7_medium"
