@@ -2,12 +2,26 @@ ideas = {
 	naval_academy_spirit = {
 		instilled_aggression_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}				
 			modifier = {
 				custom_modifier_tooltip = instilled_aggression_spirit_tt
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -16,12 +30,26 @@ ideas = {
 		}
 		calculated_restraint_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				custom_modifier_tooltip = calculated_restraint_spirit_tt
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -30,12 +58,26 @@ ideas = {
 		}
 		signals_training_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				custom_modifier_tooltip = signals_training_spirit_tt
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -44,7 +86,15 @@ ideas = {
 		}
 		fleet_in_being_academy_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_tech = fleet_in_being }
 			modifier = {
 				custom_modifier_tooltip = fleet_in_being_academy_spirit_tt
@@ -55,13 +105,27 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		trade_interdiction_academy_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_tech = trade_interdiction }
 			modifier = {
 				custom_modifier_tooltip = trade_interdiction_academy_spirit_tt
@@ -72,14 +136,29 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		base_strike_academy_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
-			visible = { has_tech = base_strike }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
+			visible = { has_tech = base_strike
+					has_tech = small_fleet }
 			modifier = {
 				custom_modifier_tooltip = base_strike_academy_spirit_tt
 				trait_air_controller_xp_gain_factor = 0.2
@@ -89,13 +168,27 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		best_of_the_best_naval_academy_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				navy_leader_start_level = 2
 				navy_intel_to_others = -5.0
@@ -105,13 +198,27 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		naval_academy_scholarships_spirit = {
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_naval_academy = yes
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				navy_leader_start_level = 1
 				navy_leader_cost_factor = -0.4
@@ -119,6 +226,12 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -130,18 +243,28 @@ ideas = {
 	navy_spirit = {
 		jeune_ecole_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			research_bonus = {
 				dd_tech = 0.20
 			}
 			modifier = {
 				ship_hull_light_design_cost_factor = -0.6
-				mdg_ship_hull_boat_design_cost_factor = -0.6
-				mdg_ship_hull_frigate_design_cost_factor = -0.6
-				mdg_ship_hull_corvette_design_cost_factor = -0.6
-				mdg_ship_hull_hydrofoil_design_cost_factor = -0.6
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -170,6 +293,14 @@ ideas = {
 		#}
 		flexible_contracts_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				naval_manufacturer_cost_factor = -0.8
 				ship_hull_cruiser_design_cost_factor = -0.6
@@ -179,18 +310,39 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		integrated_designers_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_dlc = "Man the Guns" }
 			research_bonus = {
 				ship_modules_tech = 0.20
+				naval_equipment = 0.20
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -199,11 +351,25 @@ ideas = {
 		}
 		naval_reform_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				experience_gain_navy_factor = 0.15
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -212,12 +378,26 @@ ideas = {
 		}
 		naval_refit_yards_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				refit_speed = 0.25
 				repair_speed_factor = 0.15
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -231,6 +411,14 @@ ideas = {
 		#}
 		fleet_in_being_navy_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_tech = fleet_in_being }
 			research_bonus = {
 				bb_tech = 0.20
@@ -243,12 +431,26 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		trade_interdiction_navy_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_tech = trade_interdiction }
 			research_bonus = {
 				ss_tech = 0.20
@@ -261,13 +463,28 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		base_strike_navy_spirit = {
 			ledger = navy
-			visible = { has_tech = base_strike }
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
+			visible = { has_tech = base_strike
+					has_tech = small_fleet }
 			research_bonus = {
 				cv_tech = 0.20
 			}
@@ -276,6 +493,12 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1.5
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -287,6 +510,14 @@ ideas = {
 	naval_command_spirit = {
 		close_combat_navy_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier ={
 				navy_screen_attack_factor = 0.05
 				naval_torpedo_screen_penetration_factor = 0.05
@@ -295,12 +526,26 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		night_fighting_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				night_spotting_chance = 0.1
 				naval_night_attack = 0.1
@@ -310,13 +555,28 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		surprise_attacks_spirit = { 
 			ledger = navy
-			visible = { has_tech = base_strike }
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
+			visible = { has_tech = base_strike
+					has_tech = small_fleet }
 			modifier = {
 				naval_retreat_speed_after_initial_combat = 0.1
 				naval_retreat_chance_after_initial_combat = 0.1
@@ -325,17 +585,37 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		efficient_communications_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				positioning = 0.15
 			}
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -350,6 +630,14 @@ ideas = {
 		#}
 		surface_raiders_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_tech = trade_interdiction }
 			modifier = {
 				screening_without_screens = 0.2
@@ -360,12 +648,26 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		decisive_battle_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { has_tech = fleet_in_being }
 			modifier = {
 				naval_retreat_chance = -0.1
@@ -377,17 +679,37 @@ ideas = {
 				factor = 1.5
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		}
 		inclimate_weather_experience_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				navy_weather_penalty = -0.4
 			}
 			ai_will_do = {
 				factor = 1.5
+				modifier = {
+					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
@@ -396,6 +718,14 @@ ideas = {
 		}
 		brave_commanders_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				naval_critical_score_chance_factor = 0.15
 				naval_retreat_chance = -0.05
@@ -404,12 +734,26 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 0
+					has_navy_size = {
+						size = 0
+					}					
+				}
+				modifier = {
+					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
 		} 
 		bureau_of_ordnance_spirit = {
 			ledger = navy
+			available = {
+				OR = {
+					has_tech = fleet_in_being
+					has_tech = trade_interdiction
+					has_tech = base_strike
+					has_tech = small_fleet
+				}
+			}
 			visible = { tag = USA }
 			modifier = {
 				naval_torpedo_hit_chance_factor = -0.1
