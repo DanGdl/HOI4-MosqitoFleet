@@ -44,6 +44,8 @@ technologies = {
 			mdg_ship_light_cannon_1
 		}
 
+
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 1 }
@@ -363,7 +365,7 @@ technologies = {
 			mdg_ship_light_guns_4
 			mdg_ship_light_cannon_4
 		}
-		
+
 		path = {
 			leads_to_tech = ship_light_ASM_battery_1
 			research_cost_coeff = 1
@@ -372,7 +374,7 @@ technologies = {
 			leads_to_tech = light_battery60
 			research_cost_coeff = 1
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
@@ -456,7 +458,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
     light_battery70 = {
 		
 		research_cost = 1
@@ -1142,7 +1143,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
+	
 
 	basic_heavy_battery = {
 
@@ -1193,7 +1194,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	improved_heavy_battery = {
 
 		research_cost = 1
@@ -1296,7 +1296,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	basic_heavy_shell = {
 
 		research_cost = 0.5
@@ -1339,13 +1338,13 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	improved_heavy_shell = {
-
+		
 		research_cost = 1.25
 
 		start_year = 1942
-
+		
+		
 		battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -1359,7 +1358,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 16 }
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1371,7 +1370,7 @@ technologies = {
 			#DATE
 			modifier = { factor = 0 date < 1942.1.1 }
 		}
-
+		
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1379,7 +1378,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
 	ship_heavy_ASM_battery_1 = {
 		
 		research_cost = 1
@@ -1783,9 +1781,9 @@ technologies = {
 	}
 
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###
- #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #
- #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ##
- #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #
+ #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #  
+ #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ## 
+ #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #  
  #   ##  #  # #    ### ###   ##       # #  #  # #  # #  # #   #  # ###
 
 	basic_torpedo = {
@@ -2062,7 +2060,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	improved_ship_torpedo_launcher = {
 
 		research_cost = 1.5
@@ -2110,7 +2107,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	advanced_ship_torpedo_launcher = {
 
 		research_cost = 1.5
@@ -2158,7 +2154,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	modern_ship_torpedo_launcher = {
 
 		research_cost = 1.5
@@ -2200,7 +2195,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_5 = {
 		
 		research_cost = 1
@@ -2480,7 +2475,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 3
-
 			modifier = {
 				is_historical_focus_on = yes
 				tag = JAP
@@ -2968,6 +2962,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+
+
 		naval_mines_damage_factor = 0.2 # more boom for the boom box
 		folder = {
 			name = mtgnavalsupportfolder
@@ -3317,16 +3313,15 @@ technologies = {
 		transport_capacity = -0.33
 		naval_invasion_capacity = 10
 
+
 		path = {
 			leads_to_tech = mtg_landing_craft
 			research_cost_coeff = 1
 		}
-
 		path = {
 			leads_to_tech = sp_multi_product_supply_ships
 			research_cost_coeff = 1
 		}
-
 		research_cost = 1.5
 		start_year = 1922
 
@@ -3375,6 +3370,7 @@ technologies = {
 		invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.15
 		naval_invasion_capacity = 20
+
 
 		path = {
 			leads_to_tech = mtg_tank_landing_craft
@@ -3518,7 +3514,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes
+		is_special_project_tech = yes	
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.75
@@ -3532,7 +3528,7 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 10 }
-		}
+		}		
 
 		categories = {
 			naval_equipment
@@ -3551,10 +3547,10 @@ technologies = {
 		}
 
 		underway_replenishment_range = 0.25
-		underway_replenishment_convoy_cost = -0.2
-
+		underway_replenishment_convoy_cost = -0.2	
+		
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes
+		is_special_project_tech = yes		
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.5
@@ -3568,13 +3564,12 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 17 }
-		}
+		}		
 
 		categories = {
 			naval_equipment
 			tp_tech
 		}
-		special_project_specialization = { specialization_naval }
+		special_project_specialization = { specialization_naval }	
 	}
-
 }

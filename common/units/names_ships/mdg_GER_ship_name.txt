@@ -146,7 +146,7 @@ GER_FRIGATE_IMPERIAL = {
 	prefix = "SMS "
 	type = ship
 	ship_types = { mdg_ship_hull_frigate }
-	
+
 	fallback_name = "MZ %d"
 
 	unique = {}

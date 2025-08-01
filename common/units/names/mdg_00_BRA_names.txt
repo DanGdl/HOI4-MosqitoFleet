@@ -53,7 +53,7 @@
 		generic = { "AUX" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "NRB"
 		generic = { "X" }

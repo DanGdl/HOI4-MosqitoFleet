@@ -30,14 +30,14 @@
 			"Letchik" "Pilot"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = ""
 		generic = { "Frigate" }
 		unique = {
 			"Atarbekov" "Mogilevskiy" "Sobol" "Razvedchik" "Uran" "Iceberg" "Briz" "Grad" "Zarya" "Mgla" "Musson" "Passat" "Priliv" "Toros" "Tuman" 
 			"Shtil" "Partizan" "Voikov" "Mariupol" "Pervansh" "Petrash" "Sevastopol" "Shturman" "Аметист" "Laine" "Dejnev" "Litke" "Kasatka" "Ost" 
-			"Chapaev" "Shors" "Stepan Razin" "Pioner" "Ayan" "Gijiga" "Lukomskiy" "Zarya" "Doob"		
+			"Chapaev" "Shors" "Stepan Razin" "Pioner" "Ayan" "Gijiga" "Lukomskiy" "Zarya" "Doob"
 		}
 	}
 
@@ -88,7 +88,7 @@
 			"Letchik" "Pilot"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "СКР" }

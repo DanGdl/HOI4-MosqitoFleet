@@ -22,10 +22,10 @@ ENG_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 
 	for_countries = { ENG }
-	
+
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
-	
+
 	prefix = "HMS "
 	fallback_name = "LCS %s"
 
@@ -51,7 +51,7 @@ ENG_ML_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
 	for_countries = { ENG }
-	
+
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
 

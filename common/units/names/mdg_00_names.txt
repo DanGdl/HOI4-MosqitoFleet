@@ -22,7 +22,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = ""
 		generic = { "Frigate" }
@@ -67,7 +67,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "Frigate" }

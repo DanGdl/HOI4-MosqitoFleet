@@ -26,7 +26,7 @@
 		generic = { "P" }
 		unique = {}
 	}
-	
+
 	mdg_corvette = {
 		prefix = "RCT"
 		generic = { "LCS" }
@@ -35,7 +35,7 @@
 			"Gaspers" "Mazare" "Monte Gargano" "Orlando" "Partenope" "San Giorgio" "San Giusto" "Scilla"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "RCT"
 		generic = { "FF" }
@@ -53,7 +53,7 @@
 		generic = { "Monitor" }
 		unique = {}
 	}
-	
+
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "RI"
@@ -80,7 +80,7 @@
 		generic = { "P" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_corvette = {
 		prefix = "RCT"
 		generic = { "LCS" }
@@ -89,7 +89,7 @@
 			"Gaspers" "Mazare" "Monte Gargano" "Orlando" "Partenope" "San Giorgio" "San Giusto" "Scilla"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = "RCT"
 		generic = { "FF" }

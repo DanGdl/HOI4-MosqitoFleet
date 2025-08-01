@@ -1,6 +1,6 @@
 ﻿USA = {
 	fleet_names_template = FLEET_NAME_USA
-	
+
 	mdg_submarine = {
 		prefix = "USS"
 		generic = { "Midget submarine" }
@@ -24,7 +24,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "USS"
 		generic = { "Frigate" }
@@ -110,7 +110,7 @@
 			"AM-364 Graylag" "AM-365 Harlequin"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = "USS "
 		generic = { "FF" }

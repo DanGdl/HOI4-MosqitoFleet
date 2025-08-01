@@ -3,7 +3,7 @@
 
 	mdg_ship_hull_midget_submarine = {
 		prefix = ""
-		generic = { "I" }
+		generic = { "HA" }
 		unique = {}
 	}
 
@@ -29,7 +29,7 @@
 			"Niizaki" "Yurishima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "CD" }
@@ -85,7 +85,7 @@
 			"Niizaki" "Yurishima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima"
 		}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "CD" }

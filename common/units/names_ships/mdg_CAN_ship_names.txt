@@ -67,10 +67,10 @@ CAN_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 
 	for_countries = { CAN }
-	
+
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
-	
+
 	prefix = "HMCS "
 	fallback_name = "LCS %s"
 

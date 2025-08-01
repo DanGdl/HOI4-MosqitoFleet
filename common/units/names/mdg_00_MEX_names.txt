@@ -26,7 +26,7 @@
 			"Halcon" "La Paz" "Jose Rafael" "Nereida"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "ARM"
 		generic = { "Frigate" }
@@ -55,7 +55,7 @@
 			"Progresso" "Coahurta" "Jalisco" "Mexico"
 		}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ARM"
 		generic = { "X" }

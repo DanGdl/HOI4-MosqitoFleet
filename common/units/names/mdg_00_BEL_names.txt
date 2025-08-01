@@ -67,7 +67,7 @@
 		generic = { "MTB" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_corvette = {
 		prefix = "BNS"
 		generic = { "LCS" }

@@ -20,10 +20,10 @@ AST_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 
 	for_countries = { AST }
-	
+
 	type = ship
 	ship_types = { mdg_ship_hull_corvette }
-	
+
 	prefix = "HMAS "
 	fallback_name = "LCS %s"
 

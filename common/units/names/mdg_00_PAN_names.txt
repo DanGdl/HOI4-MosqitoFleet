@@ -6,7 +6,7 @@
 		generic = { "AUX" }
 		unique = {}
 	}
-	
+
 	mdg_midget_submarine = {
 		prefix = "ARP"
 		generic = { "X" }
@@ -42,14 +42,14 @@
 		generic = { "Monitor" }
 		unique = {}
 	}
-	
+
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARP"
 		generic = { "AUX" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "ARP"
 		generic = { "X" }

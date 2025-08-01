@@ -9,7 +9,7 @@ FRA_AUXILIARY_HISTORICAL = {
 
 	prefix = ""
 	fallback_name = "X %s"
-	
+
 	unique = {
 		"Х-01 Aramis" "Х-03 Cap des Palmes" "Х-04 Koutoubia" "Х-05 Ville d'Oran" "Х-06 El Mansour" "Х-07 Victor Scoelcher" "X-10 Colombie" 
 		"X-11 Charles Plumier" "Х-16 El Kantara" "Х-17 El Djezair" "Х-19 Barfleur" "Х-20 Quercy" "Х-21 Esterel" "Mexique" "Eridan" "Djenné" 

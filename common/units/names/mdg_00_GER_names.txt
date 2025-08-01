@@ -24,7 +24,7 @@
 		generic = { "PA" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = ""
 		generic = { "MZ" }
@@ -69,7 +69,7 @@
 		generic = { "PA" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_frigate = {
 		prefix = ""
 		generic = { "MZ" }

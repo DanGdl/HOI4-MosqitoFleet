@@ -30,7 +30,7 @@
 			"Saynas" "Karppi"
 		}
 	}
-	
+
 	mdg_frigate = {
 		prefix = ""
 		generic = { "Frigate" }
@@ -56,7 +56,7 @@
 		generic = { "AUX" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = ""
 		generic = { "X" }

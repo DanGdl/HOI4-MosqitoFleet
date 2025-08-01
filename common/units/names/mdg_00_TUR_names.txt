@@ -24,7 +24,7 @@
 		generic = { "Corvette" }
 		unique = {}
 	}
-	
+
 	mdg_frigate = {
 		prefix = "TCG"
 		generic = { "Frigate" }
@@ -50,7 +50,7 @@
 		generic = { "AUX" }
 		unique = {}
 	}
-	
+
 	mdg_ship_hull_midget_submarine = {
 		prefix = "TCG"
 		generic = { "X" }
@@ -67,7 +67,7 @@
 		prefix = "TCG"
 		generic = { "MTB" }
 		unique = {
-			"Bora", "Kasirga" "Yildirim" "Simsek" "Tayfun"	
+			"Bora", "Kasirga" "Yildirim" "Simsek" "Tayfun"
 		}
 	}
 
