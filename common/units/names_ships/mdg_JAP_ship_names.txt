@@ -24,7 +24,7 @@ JAP_MIDGET_HISTORICAL = {
 	ship_types = { mdg_ship_hull_midget_submarine }
 
 	prefix = ""
-	fallback_name = "I %s"
+	fallback_name = "HA %s"
 
 	unique = {}
 }
