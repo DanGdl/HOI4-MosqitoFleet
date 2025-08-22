@@ -62,7 +62,12 @@ ideas = {
 		trade_interdiction_academy_spirit = {
 			ledger = navy
 			available = { has_naval_academy = yes }
-			visible = { has_tech = trade_interdiction }
+			visible = { 
+				OR = {
+					has_tech = trade_interdiction
+					has_tech = small_fleet
+				}
+			}
 			modifier = {
 				custom_modifier_tooltip = trade_interdiction_academy_spirit_tt
 				trait_seawolf_xp_gain_factor = 0.2
