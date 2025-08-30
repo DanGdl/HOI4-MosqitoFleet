@@ -264,10 +264,10 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 19 }
 		}
-		
+
 		ai_will_do = {
 			factor = 4
-			
+
 			modifier = {
 				factor = 4
 				OR = {
@@ -289,7 +289,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}			
+			}
 		}
 
 		categories = {
@@ -353,7 +353,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}			
+			}
 		}
 
 		categories = {
@@ -371,7 +371,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	smoke_generator = {
 
 		naval_retreat_speed = 0.2
@@ -392,6 +392,7 @@ technologies = {
 				factor = 2
 				tag = ENG
 			}
+
 			modifier = {
 				factor = 0.2
 				OR = {
@@ -832,7 +833,7 @@ technologies = {
 #    ###  #  #  #   #  ##  ###   #
 #  # #  # #  #  #    # #   #  #   #
  ##  #  #  ##  ### ##  ### #  # ##
-	
+
 
 	early_ship_hull_cruiser = {
 
@@ -861,9 +862,9 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_naval_torpedo_cruiser	
+				PROJECT = sp_naval_torpedo_cruiser
 			}
-		}	
+		}
 
 		research_cost = 1.5
 
@@ -1142,7 +1143,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	improved_airplane_launcher = {
 
 
@@ -1301,7 +1302,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_naval_super_heavy_battleship	
+				PROJECT = sp_naval_super_heavy_battleship
 			}
 		}
 		research_cost = 1.75
@@ -1345,7 +1346,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}			
+			}
 		}
 
 		categories = {
@@ -1377,7 +1378,7 @@ technologies = {
 		# 	research_cost_coeff = 1
 		# 	ignore_for_layout = yes
 		# }
-		
+
 		research_cost = 1.5
 
 		start_year = 1936
@@ -1429,7 +1430,7 @@ technologies = {
 					original_tag = SOV
 					original_tag = GER
 				}
-			}		
+			}
 		}
 
 		categories = {
@@ -1450,7 +1451,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_armor_shbb
 		}
-		allow = { 
+		allow = {
 			always = no
 		}
 		research_cost = 1.5
@@ -1465,7 +1466,6 @@ technologies = {
 				tag = JAP
 			}
 		}
-
 
 		categories = {
 			naval_equipment
@@ -1529,7 +1529,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}			
+			}
 		}
 
 		categories = {
@@ -1558,9 +1558,9 @@ technologies = {
 				limit = {has_dlc = "Gotterdammerung"}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_modern_battleship	
+					PROJECT = sp_naval_modern_battleship
 				}
-			}	
+			}
 		}
 		research_cost = 1.5
 
@@ -1920,10 +1920,10 @@ early_ship_hull_carrier = {
 				limit = {has_dlc = "Gotterdammerung"}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_ice_carrier	
+					PROJECT = sp_naval_ice_carrier
 				}
 			}
-		}		
+		}
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
 			research_cost_coeff = 1
@@ -1989,19 +1989,19 @@ early_ship_hull_carrier = {
 		path = {
 			leads_to_tech = modern_ship_hull_carrier
 			research_cost_coeff = 1
-		}		
+		}
 		research_cost = 1.5
 
 		start_year = 1944
-		
+
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 19 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 8
 				OR = {
@@ -2025,7 +2025,7 @@ early_ship_hull_carrier = {
 				}
 			}					
 		}
-		
+
 		categories = {
 			naval_equipment
 			cv_tech
@@ -2038,7 +2038,7 @@ early_ship_hull_carrier = {
 		enable_equipments = {
 			ship_hull_carrier_4
 		}
-		
+
 		research_cost = 1.5
 
 		start_year = 1948
@@ -2108,12 +2108,12 @@ early_ship_hull_carrier = {
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_naval_cruiser_submarine	
+				PROJECT = sp_naval_cruiser_submarine
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_naval_midget_submarine	
-			}			
+				PROJECT = sp_naval_midget_submarine
+			}
 		}
 
 		research_cost = 1.5
@@ -2175,15 +2175,15 @@ early_ship_hull_carrier = {
 				limit = { has_dlc = "Gotterdammerung"}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_aip_engine	
+					PROJECT = sp_naval_aip_engine
 				}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_naval_anechoic_tiles
-				}				
+				}
 			}
 		}
-	
+
 		path = {
 			leads_to_tech = improved_ship_hull_submarine
 			research_cost_coeff = 1
@@ -2401,7 +2401,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				not = {
 					any_controlled_state = {
-							 
+			 
 						is_coastal = yes
 					}
 				}
@@ -2414,7 +2414,7 @@ early_ship_hull_carrier = {
 				}
 			}					
 		}
-		
+
 		categories = {
 			naval_equipment
 			ss_tech
@@ -2423,7 +2423,7 @@ early_ship_hull_carrier = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	basic_submarine_snorkel = {
 
 		enable_equipment_modules = {
@@ -2668,7 +2668,7 @@ early_ship_hull_carrier = {
 
 		allow_branch = {
 			has_dlc = "Gotterdammerung"
-		}	
+		}
 
 		allow = {
 	 		ROOT = {
@@ -2684,8 +2684,8 @@ early_ship_hull_carrier = {
 		enable_equipment_modules = {
 			ship_engine_sub_aip_2
 		}
-		
-		force_use_small_tech_layout = yes		
+
+		force_use_small_tech_layout = yes
 		is_special_project_tech = yes
 		research_cost = 2
 		start_year = 1940
@@ -2770,7 +2770,7 @@ early_ship_hull_carrier = {
 			mio_cat_tech_all_carrier_and_modules
 			pykrete_tech
 		}
-		special_project_specialization = { specialization_naval }		
+		special_project_specialization = { specialization_naval }
 	}
 
 	sp_ice_composite_runawayas = {
@@ -2786,7 +2786,7 @@ early_ship_hull_carrier = {
 		}
 
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes			
+		is_special_project_tech = yes
 		research_cost = 1
 		start_year = 1945
 		folder = {
@@ -2800,15 +2800,15 @@ early_ship_hull_carrier = {
 			mio_cat_tech_all_carrier_and_modules
 			pykrete_tech
 		}
-		special_project_specialization = { specialization_naval }	
+		special_project_specialization = { specialization_naval }
 	}
 
 	sp_naval_proximity_fuze_tech = {
-		#HIDDEN EFFECT FOR THE PROXIMITY FUZE 
+		#HIDDEN EFFECT FOR THE PROXIMITY FUZE
 		navy_anti_air_attack_factor = 0.25 #Remember to adjust sp_naval_proximity_fuze_custom_tt when changing value
 		research_cost = 1
 		start_year = 1940
-		
+
 		allow = {
 			always = no
 		}
