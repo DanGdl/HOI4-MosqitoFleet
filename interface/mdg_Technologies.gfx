@@ -293,39 +293,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/SOV_mdg_boat_4.dds"
 	}
 
-	# USA
-	SpriteType = {
-		name = "GFX_USA_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
-	}
+	# USA (same as generic)
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_boat_1_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_boat_2_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_boat_3_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_boat_4_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_ship_hull_boat_1_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_ship_hull_boat_2_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_ship_hull_boat_3_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
+	#}
+	#SpriteType = {
+	#	name = "GFX_USA_mdg_ship_hull_boat_4_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
+	#}
 
 
 	# CORVETTES

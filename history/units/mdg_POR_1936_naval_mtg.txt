@@ -11,7 +11,7 @@
 
 			ship = { name = "NRP Goncalo Velho" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Goncalo Velho Class" } } }
 			ship = { name = "NRP Honsales Zarko" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POR version_name = "Goncalo Velho Class" } } }
-		
+
 			ship = { name = "NRP Alfonso de Albuquerque" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
 			ship = { name = "NRP Bartolomeu Dias" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
 			ship = { name = "NRP Pedro Nunez" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }

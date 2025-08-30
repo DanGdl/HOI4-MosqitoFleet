@@ -8,7 +8,7 @@
 
 			ship = { name = "Saga" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Saga Class" } } }
 			ship = { name = "Ataka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Saga Class" } } }
-		
+
 			ship = { name = "Toba" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Toba Class" } } }
 			ship = { name = "Seta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Toba Class" } } }
 			ship = { name = "Hira" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Toba Class" } } }

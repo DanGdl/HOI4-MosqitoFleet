@@ -9,7 +9,7 @@
 			ship = { name = "ARE Canovas del Castillo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Canovas del Castillo Class" } } }
 			ship = { name = "ARE Canalejas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Canovas del Castillo Class" } } }
 			ship = { name = "ARE Dato" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Canovas del Castillo Class" } } }
-		
+
 			ship = { name = "ARE Virgen de la Caridad" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SPR version_name = "Virgen de la Caridad Class" } } }
 
 			ship = { name = "ARE Calvo Sotelo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SPR version_name = "Durango Class" } } }
