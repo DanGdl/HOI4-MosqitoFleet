@@ -706,6 +706,26 @@ spriteTypes = {
 		name = "GFX_JAP_mdg_ship_hull_frigate_5_medium"
 		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_5.dds"
 	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_6_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_7_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_8_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_8.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_9_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_9.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_frigate_10_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_frigate_10.dds"
+	}
 	
 	# SOV
 	SpriteType = {
