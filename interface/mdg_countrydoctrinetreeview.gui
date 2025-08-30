@@ -659,7 +659,6 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=0 y=-150 }
 				}
-
 			}
 
 			gridboxtype = {
@@ -686,7 +685,7 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }		
+					position = { x=0 y=-150 }
 				}
 			}
 
@@ -1057,7 +1056,6 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=0 y=-150 }
 				}
-
 			}
 
 			gridboxtype = {
@@ -1072,7 +1070,6 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=0 y=-150 }
 				}
-
 			}
 
 			gridboxtype = {
@@ -1087,7 +1084,6 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=0 y=-150 }
 				}
-
 			}
 
 			gridboxtype = {

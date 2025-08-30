@@ -173,7 +173,7 @@
 			ship = { name = "Metel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Uragan Class" } } }
 			ship = { name = "Zarnitsa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Uragan Class" } } }
 			ship = { name = "Molniya" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Uragan Class" } } }
-		
+
 			ship = { name = "Vorovskiy" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Vorovskiy Class" } } }
 
 			ship = { name = "Dzerjinskiy" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Dzerjinskiy Class" } } }
@@ -196,7 +196,7 @@
 			ship = { name = "TKA-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 			ship = { name = "TKA-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 
-		
+
 			ship = { name = "R-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-3" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }

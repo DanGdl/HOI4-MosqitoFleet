@@ -122,7 +122,7 @@ spriteTypes = {
 		name = "GFX_FRA_mdg_ship_hull_boat_3_medium"
 		texturefile = "gfx/interface/technologies/FRA_mdg_boat_3.dds"
 	}
-	
+
 	# ENG
 	SpriteType = {
 		name = "GFX_ENG_mdg_boat_1_medium"
