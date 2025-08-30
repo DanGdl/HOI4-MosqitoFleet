@@ -4,10 +4,12 @@
  mdg_corvette_2: "Корвет II"
  mdg_corvette_3: "Корвет III"
  mdg_corvette_4: "Корвет IV"
+ mdg_corvette_5: "Корвет V"
  mdg_corvette_1_desc: "Корвет I описание"
  mdg_corvette_2_desc: "Корвет II описание"
  mdg_corvette_3_desc: "Корвет III описание"
  mdg_corvette_4_desc: "Корвет IV описание"
+ mdg_corvette_5_desc: "Корвет V описание"
 
  ENG_mdg_corvette_1: "Тип «П»"
  ENG_mdg_corvette_2: "Тип «Кингфишер»"
@@ -52,10 +54,12 @@
  mdg_boat_2: "Катер II"
  mdg_boat_3: "Катер III"
  mdg_boat_4: "Катер IV"
+ mdg_boat_5: "Катер V"
  mdg_boat_1_desc: "Катер I описание"
  mdg_boat_2_desc: "Катер II описание"
  mdg_boat_3_desc: "Катер III описание"
  mdg_boat_4_desc: "Катер IV описание"
+ mdg_boat_5_desc: "Катер V описание"
 
  ENG_mdg_boat_2: "Тип 60"
  ENG_mdg_boat_3: "Тип 70"
@@ -94,10 +98,12 @@
  mdg_frigate_2: "Фрегат II"
  mdg_frigate_3: "Фрегат III"
  mdg_frigate_4: "Фрегат IV"
+ mdg_frigate_5: "Фрегат V"
  mdg_frigate_1_desc: "Фрегат I описание"
  mdg_frigate_2_desc: "Фрегат II описание"
  mdg_frigate_3_desc: "Фрегат III описание"
  mdg_frigate_4_desc: "Фрегат IV описание"
+ mdg_frigate_5_desc: "Фрегат V описание"
 
  ENG_mdg_frigate_2: "Тип «Ривер»"
  ENG_mdg_frigate_3: "Тип «Loch»"
@@ -168,12 +174,14 @@
  mdg_ship_hull_boat_3_desc: "Катер обр. 1940 г. описание"
  mdg_ship_hull_boat_4: "Катер обр. 1944 г."
  mdg_ship_hull_boat_4_desc: "Катер обр. 1944 г. описание"
+ mdg_ship_hull_boat_5: "Катер обр. 1948 г."
+ mdg_ship_hull_boat_5_desc: "Катер обр. 1948 г. описание"
  
  mdg_ship_hull_hydrofoil: "Катер на подводных крыльях"
  mdg_ship_hull_hydrofoil_1: "Катер на подводных крыльях"
 
  mdg_ship_hull_auxiliary: "Вспомогательный крейсер"
- mdg_ship_hull_auxiliary_1: "Вспомогательного крейсера"
+ mdg_ship_hull_auxiliary_1: "Вспомогательный крейсер"
 
  mdg_ship_hull_corvette: "Корвет"
  mdg_ship_hull_corvette_1: "Ранний корвет"
@@ -184,6 +192,8 @@
  mdg_ship_hull_corvette_3_desc: "Корвет обр. 1940 г. описание"
  mdg_ship_hull_corvette_4: "Корвет обр. 1944 г."
  mdg_ship_hull_corvette_4_desc: "Корвет обр. 1944 г. описание"
+ mdg_ship_hull_corvette_5: "Корвет обр. 1948 г."
+ mdg_ship_hull_corvette_5_desc: "Корвет обр. 1948 г. описание"
 
  mdg_ship_hull_frigate: "Фрегат"
  mdg_ship_hull_frigate_1: "Ранний фрегат"
@@ -194,6 +204,8 @@
  mdg_ship_hull_frigate_3_desc: "Фрегат обр. 1940 г. описание"
  mdg_ship_hull_frigate_4: "Фрегат обр. 1944 г."
  mdg_ship_hull_frigate_4_desc: "Фрегат обр. 1944 г. описание"
+ mdg_ship_hull_frigate_5: "Фрегат обр. 1948 г."
+ mdg_ship_hull_frigate_5_desc: "Фрегат обр. 1948 г. описание"
 
  mdg_ship_hull_midget_submarine: "Сверхмалая подводная лодка"
  mdg_ship_hull_midget_submarine_1: "Сверхмалая подводная лодка обр. 1936 г."

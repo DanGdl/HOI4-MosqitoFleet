@@ -248,6 +248,39 @@ equipments = {
 		manpower = 400
 	}
 
+	mdg_ship_hull_frigate_5 = {
+		abbreviation = "hf_5"
+		year = 1948
+
+		archetype = mdg_ship_hull_frigate
+		priority = 3000
+		parent = mdg_ship_hull_frigate_4
+
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = mid_1_custom_slot
+			front_1_custom_slot = inherit
+		}
+
+		sub_detection = 5
+		surface_detection = 25
+		reliability = 0.9
+		naval_range = 2500
+		max_strength = 50
+		build_cost_ic = 600
+		resources = {
+			steel = 3
+		}
+		manpower = 425
+	}
 
 
 	# VANILA
@@ -444,5 +477,52 @@ equipments = {
 			steel = 3
 		}
 		manpower = 500
+	}
+
+	mdg_frigate_5 = {
+		year = 1948
+
+		archetype = mdg_ship_hull_frigate
+		priority = 3000
+		parent = mdg_frigate_4
+		module_slots = inherit
+		default_modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_4
+			fixed_ship_anti_air_slot = ship_anti_air_4
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_4
+			fixed_ship_torpedo_slot = ship_torpedo_4
+			rear_1_custom_slot = ship_depth_charge_4
+			mid_1_custom_slot = empty
+		}
+		lg_armor_piercing = 0
+		lg_attack = -0.5
+		torpedo_attack = -6
+		sub_attack = 1
+
+		anti_air_attack = 0.5
+
+		armor_value = 0
+
+		surface_detection = 45
+		sub_detection = 20
+		surface_visibility = 10
+		naval_speed = 30
+		reliability = 0.9
+
+		naval_range = 2500
+
+		max_strength = 50
+
+		type = { 
+			screen_ship
+		}
+
+		build_cost_ic = 365
+		resources = {
+			steel = 3
+		}
+		manpower = 525
 	}
 }
