@@ -8,7 +8,7 @@
 
 			ship = { name = "HMS Erebus" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
 			ship = { name = "HMS Terror" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = ENG version_name = "Erebus Class" } } }
-				
+
 			ship = { name = "HMS Lupin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
 			ship = { name = "HMS Rosemary" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
 			ship = { name = "HMS Cornwallis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Aubretia Class" } } }
@@ -44,7 +44,7 @@
 
 			ship = { name = "HMS РС-74" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "PC Class" } } }
 			ship = { name = "HMS Pathan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "PC Class" } } }
-			
+
 			ship = { name = "HMS Tedworth" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
 			ship = { name = "HMS Aberdare" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
 			ship = { name = "HMS Abingdon" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Hunt Class" } } }
