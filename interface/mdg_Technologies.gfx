@@ -9,6 +9,14 @@ spriteTypes = {
 		name = "GFX_mdg_ship_hull_auxiliary_medium"
 		texturefile = "gfx/interface/technologies/mdg_auxiliary.dds"
 	}
+	SpriteType = {
+		name = "GFX_BRA_mdg_auxiliary_medium"
+		texturefile = "gfx/interface/technologies/BRA_mdg_auxiliary.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRA_mdg_ship_hull_auxiliary_medium"
+		texturefile = "gfx/interface/technologies/BRA_mdg_auxiliary.dds"
+	}
 
 	# HYDROFOILS
 	SpriteType = {
