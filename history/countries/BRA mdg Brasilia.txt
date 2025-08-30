@@ -17,6 +17,51 @@
 	}
 
 	create_equipment_variant = {
+		name = "Carioca Class"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Aberdare Class"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = mdg_ship_light_cannon_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Matias de Albuquerque Class"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
 		name = "I Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
@@ -28,6 +73,21 @@
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
 			rear_1_custom_slot = ship_mine_sweeper_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Rio Pardo/PC/SC Class"
+		type = mdg_ship_hull_corvette_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_dp_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = ship_depth_charge_2
 		}
 	}
 }

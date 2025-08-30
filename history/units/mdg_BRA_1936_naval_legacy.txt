@@ -6,15 +6,49 @@
 			name = "Marinha do Brasil"
 			location = 2694
 
-			ship = { name = "NRB Rio Branco" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
-			ship = { name = "NRB Jaceguay" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "NRB Rio Branco" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Branco Class" } } }
+			ship = { name = "NRB Jaceguay" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Branco Class" } } }
+			ship = { name = "NRB Aberdare" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Aberdare Class" } } }
 
-			ship = { name = "NRB I-1 Itapimirim”" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
-			ship = { name = "NRB I-2 Itajai" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
-			ship = { name = "NRB I-3 Itacurussa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
-			ship = { name = "NRB I-4 Iguape" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
-			ship = { name = "NRB Muniz Freire" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
-			ship = { name = "NRB Heitor Perdigao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "NRB Matias de Albuquerque" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Matias de Albuquerque Class" } } }
+			ship = { name = "NRB Fernandes Vieira" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Matias de Albuquerque Class" } } }
+			ship = { name = "NRB Felipe Camarao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Matias de Albuquerque Class" } } }
+			ship = { name = "NRB Henrique Dias" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Matias de Albuquerque Class" } } }
+			ship = { name = "NRB Vidal de Negreiros" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Matias de Albuquerque Class" } } }
+			ship = { name = "NRB Barreto de Menezes" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Matias de Albuquerque Class" } } }
+
+			ship = { name = "NRB I-1 Itapimirim”" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB I-2 Itajai" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB I-3 Itacurussa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB I-4 Iguape" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB Muniz Freire" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+			ship = { name = "NRB Heitor Perdigao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
+
+			ship = { name = "NRB Carioca" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Cananeia" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Camocim" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Cabedelo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Caravelas" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Camaqua" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+
+			ship = { name = "NRB Rio Pardo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-1 Guapore" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-2 Gurupi" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-3 Guaiba" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-4 Gurupa" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-5 Guajara" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-6 Goaina" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-7 Grajau" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB G-8 Grauna" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			
+			ship = { name = "NRB CS-51 Mavari" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-52 Jutai" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-53 Jurua" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-54 Juruena" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-55 Jaguarao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-56 Jaguaribe" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-57 Jacui" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
+			ship = { name = "NRB CS-58 Jundiai" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
 		}
 	}
 }
