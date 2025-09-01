@@ -13,4 +13,4 @@
 			ship = { name = "BACH Orompello" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHL } } }
 		}
 	}
-} 
+}
