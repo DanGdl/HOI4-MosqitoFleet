@@ -44,12 +44,12 @@ equipments = {
 				}
 			}
 		}
-		
+
 		module_count_limit = {
 			category = ship_radar
 			count < 2
 		}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -59,18 +59,18 @@ equipments = {
 			rear_1_custom_slot = empty
 			mid_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
 		surface_detection = 20
@@ -78,18 +78,18 @@ equipments = {
 		surface_visibility = 8
 		naval_speed = 30
 		reliability = 0.7
-		
+
 		naval_range = 600
-		
+
 		max_strength = 30
 
 		fuel_consumption = 3
-		
+
 		build_cost_ic = 400
 		resources = {
 			steel = 1
 		}
-		
+
 		manpower = 170
  		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
@@ -104,7 +104,7 @@ equipments = {
 
 		archetype = mdg_ship_hull_hydrofoil
 		priority = 2300
-		
+
 		module_slots = inherit
 	}
 }

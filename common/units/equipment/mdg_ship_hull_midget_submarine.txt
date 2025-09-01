@@ -1,5 +1,5 @@
 equipments = {
-	
+
 	mdg_ship_hull_midget_submarine = {
 		abbreviation = "mdg_ssm"
 		year = 1936
@@ -10,14 +10,14 @@ equipments = {
 		group_by = archetype
 		priority = 1500
 		alias = mdg_midget_submarine
-		
+
 		upgrades = {
 			ship_reliability_upgrade
 			sub_engine_upgrade
 			sub_stealth_upgrade
 			sub_torpedo_upgrade
 		}
-		
+
 		interface_category = interface_category_other_ships
 
 		module_slots = {
@@ -52,29 +52,29 @@ equipments = {
 			fixed_ship_engine_slot = sub_ship_engine_3
 			mid_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 15
 		naval_speed = 8.3
 		reliability = 0.6
-		
+
 		naval_range = 500
-		
+
 		max_strength = 5
 
 		# fuel_consumption = 1
@@ -83,7 +83,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		
+
 		manpower = 100
  		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
@@ -99,7 +99,7 @@ equipments = {
 
 		archetype = mdg_ship_hull_midget_submarine
 		priority = 1500
-		
+
 		module_slots = inherit
 	}
 
@@ -113,7 +113,7 @@ equipments = {
 		priority = 1500
 
 		module_slots = {
-			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
 			mid_1_custom_slot = {
@@ -141,7 +141,7 @@ equipments = {
 
 		naval_range = 600
 		max_strength = 7
-		
+
 		build_cost_ic = 180
 		resources = {
 			steel = 1

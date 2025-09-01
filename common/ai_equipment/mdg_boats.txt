@@ -1,17 +1,17 @@
 
 mdg_boats = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_boat
 	}
-	
+
 	priority = {
 		factor = 2500
 		modifier = {
@@ -27,9 +27,9 @@ mdg_boats = {
 			num_of_naval_factories > 5
 		}
 	}
-	
+
 	mdg_boat_default = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -37,12 +37,12 @@ mdg_boats = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 2000.0
-			
+
 			type = mdg_ship_hull_boat
 			modules = {
 				fixed_ship_battery_slot = {
@@ -67,7 +67,7 @@ mdg_boats = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
@@ -79,7 +79,7 @@ mdg_boats = {
 	}
 
 	mdg_boat_2 = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -87,12 +87,12 @@ mdg_boats = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 2500.0
-			
+
 			type = mdg_ship_hull_boat
 			modules = {
 				fixed_ship_battery_slot = {
@@ -117,7 +117,7 @@ mdg_boats = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
@@ -129,7 +129,7 @@ mdg_boats = {
 	}
 
 	mdg_boat_3 = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -137,12 +137,12 @@ mdg_boats = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_boat
 			modules = {
 				fixed_ship_battery_slot = {
@@ -161,7 +161,7 @@ mdg_boats = {
 					any_of = { ship_torpedo }
 					upgrade > current
 				}
-				rear_1_custom_slot = { 
+				rear_1_custom_slot = {
 					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
 					upgrade > current
 				}
@@ -171,7 +171,7 @@ mdg_boats = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_guns
 			ship_depth_charge
@@ -185,17 +185,17 @@ mdg_boats = {
 
 mdg_naval_mine_layer_boat = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_boat_mine_layer
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -211,21 +211,21 @@ mdg_naval_mine_layer_boat = {
 			num_of_naval_factories < 5
 		}
 	}
-	
+
 	mdg_mine_layer_boat = {
-	
+
 		priority = {
 			factor = 3
 		}
-		
+
 		role_icon_index = 4
-		
+
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_boat
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
@@ -242,7 +242,7 @@ mdg_naval_mine_layer_boat = {
 				}
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

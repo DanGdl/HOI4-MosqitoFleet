@@ -37,7 +37,7 @@
 		prefix = "HNoMS"
 		generic = { "LCS" }
 		unique = {
-			"Nordkapp" "Senja" "Andenes" "Montbretia" "Nordkyn" "Potentilla" "Rose" "Soroy" "Tungsberg" "Jeloy" "Karmoy" "Oksoy" "Tromoy" "Eday" 
+			"Nordkapp" "Senja" "Andenes" "Montbretia" "Nordkyn" "Potentilla" "Rose" "Soroy" "Tungsberg" "Jeloy" "Karmoy" "Oksoy" "Tromoy" "Eday"
 			"Tromoy" "Otra" "Rauma" "Orkla" "Vefsna"
 		}
 	}
@@ -85,7 +85,7 @@
 		prefix = "HNoMS"
 		generic = { "LCS" }
 		unique = {
-			"Nordkapp" "Senja" "Andenes" "Montbretia" "Nordkyn" "Potentilla" "Rose" "Soroy" "Tungsberg" "Jeloy" "Karmoy" "Oksoy" "Tromoy" "Eday" 
+			"Nordkapp" "Senja" "Andenes" "Montbretia" "Nordkyn" "Potentilla" "Rose" "Soroy" "Tungsberg" "Jeloy" "Karmoy" "Oksoy" "Tromoy" "Eday"
 			"Tromoy" "Otra" "Rauma" "Orkla" "Vefsna"
 		}
 	}

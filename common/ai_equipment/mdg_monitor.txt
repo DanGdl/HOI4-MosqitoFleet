@@ -1,15 +1,15 @@
 
 mdg_monitor = {
 	category = naval
-	
+
 	blocked_for = {}
-	
+
 	available_for = {}
-	
+
 	roles = {
 		mdg_naval_monitor
 	}
-	
+
 	priority = {
 		factor = 500
 		modifier = {
@@ -27,7 +27,7 @@ mdg_monitor = {
 	}
 
 	mdg_monitor_early = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -37,11 +37,11 @@ mdg_monitor = {
 		}
 
 		role_icon_index = 1
-		
+
 		history = yes
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_monitor_1
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
@@ -53,7 +53,7 @@ mdg_monitor = {
 				rear_1_custom_slot = ship_secondaries
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_heavy_battery
@@ -66,7 +66,7 @@ mdg_monitor = {
 		}
 	}
 	mdg_monitor_aa_upgrade = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -76,11 +76,11 @@ mdg_monitor = {
 		}
 
 		role_icon_index = 1
-		
+
 		history = yes
 		target_variant = {
 			match_value = 1250.0
-			
+
 			type = mdg_ship_hull_monitor_1
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
@@ -92,7 +92,7 @@ mdg_monitor = {
 				rear_1_custom_slot = ship_dp_secondaries
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_heavy_battery
@@ -106,7 +106,7 @@ mdg_monitor = {
 	}
 
 	mdg_monitor_basic = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -116,11 +116,11 @@ mdg_monitor = {
 		}
 
 		role_icon_index = 1
-		
+
 		history = yes
 		target_variant = {
 			match_value = 1500.0
-			
+
 			type = mdg_ship_hull_monitor_2
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
@@ -132,7 +132,7 @@ mdg_monitor = {
 				rear_1_custom_slot = ship_secondaries
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_heavy_battery
@@ -146,7 +146,7 @@ mdg_monitor = {
 	}
 
 	mdg_monitor_aa_upgrade = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -154,13 +154,13 @@ mdg_monitor = {
 				has_war = yes
 			}
 		}
-		
+
 		role_icon_index = 1
 
 		history = yes
 		target_variant = {
 			match_value = 1750.0
-			
+
 			type = mdg_ship_hull_monitor_2
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
@@ -172,7 +172,7 @@ mdg_monitor = {
 				rear_1_custom_slot = ship_dp_secondaries
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_heavy_battery

@@ -407,14 +407,14 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	light_battery60 = {
-		
+
 		research_cost = 1
 
 		start_year = 1960
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_60_light_battery
 			ship_60_light_battery_dp
 
@@ -422,17 +422,17 @@ technologies = {
 			mdg_ship_light_cannon_5
 			mdg_ship_light_cannon_dp_5
 		}
-		
+
 		path = {
 			leads_to_tech = light_battery70
 			research_cost_coeff = 1
 		}
-	
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 38 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -443,7 +443,7 @@ technologies = {
 			#DATE
 			modifier = { factor = 0 date < 1955.1.1 }
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -459,12 +459,12 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
     light_battery70 = {
-		
+
 		research_cost = 1
 
 		start_year = 1970
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_70_light_battery
 			ship_70_light_battery_dp
 
@@ -472,7 +472,7 @@ technologies = {
 			mdg_ship_light_cannon_6
 			mdg_ship_light_cannon_dp_6
 		}
-		
+
 		path = {
 			leads_to_tech = light_battery80
 			research_cost_coeff = 1
@@ -481,7 +481,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 44 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -492,7 +492,7 @@ technologies = {
 			#DATE
 			modifier = { factor = 0 date < 1965.1.1 }
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -508,12 +508,12 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	light_battery80 = {
-		
+
 		research_cost = 1
 
 		start_year = 1980
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_80_light_battery
 			ship_80_light_battery_dp
 
@@ -521,17 +521,17 @@ technologies = {
 			mdg_ship_light_cannon_7
 			mdg_ship_light_cannon_dp_7
 		}
-		
+
 		path = {
 			leads_to_tech = light_battery90
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 50 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -542,7 +542,7 @@ technologies = {
 			#DATE
 			modifier = { factor = 0 date < 1975.1.1 }
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -558,12 +558,12 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	light_battery90 = {
-		
+
 		research_cost = 1
 
 		start_year = 1990
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_90_light_battery
 			ship_90_light_battery_dp
 
@@ -574,7 +574,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 56 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -585,7 +585,7 @@ technologies = {
 			#DATE
 			modifier = { factor = 0 date < 1985.1.1 }
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -602,17 +602,17 @@ technologies = {
 	}
 
 	ship_light_ASM_battery_1 = {
-		
+
 		research_cost = 1
 
 		start_year = 1955
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_ASM_battery_1
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_sam_missile_battery_1
 		}
-		
+
 		path = {
 			leads_to_tech = ship_light_ASM_battery_2
 			research_cost_coeff = 0.7
@@ -621,8 +621,8 @@ technologies = {
 		path = {
 			leads_to_tech = ship_heavy_ASM_battery_1
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -631,7 +631,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -3 y = 32 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -639,7 +639,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -652,22 +652,22 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_light_ASM_battery_2 = {
-		
+
 		research_cost = 1
 
 		start_year = 1960
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_ASM_battery_2
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_sam_missile_battery_2
 		}
 		path = {
 			leads_to_tech = ship_light_ASM_battery_3
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -676,7 +676,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -3 y = 38 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -684,7 +684,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -697,22 +697,22 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_light_ASM_battery_3 = {
-		
+
 		research_cost = 1
 
 		start_year = 1970
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_ASM_battery_3
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_sam_missile_battery_3
 		}
 		path = {
 			leads_to_tech = ship_light_ASM_battery_4
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -721,7 +721,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -3 y = 44 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -729,7 +729,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -742,26 +742,26 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_light_ASM_battery_4 = {
-		
+
 		research_cost = 1
 
 		start_year = 1980
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_ASM_battery_4
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_sam_missile_battery_4
 		}
 		path = {
 			leads_to_tech = ship_light_ASM_battery_5
 			research_cost_coeff = 0.7
-		}	
+		}
 		path = {
 			leads_to_tech = ship_ciws_1
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -770,7 +770,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -3 y = 50 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -778,7 +778,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -791,20 +791,20 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_light_ASM_battery_5 = {
-		
+
 		research_cost = 1
 
 		start_year = 1990
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_ASM_battery_5
-		}	
-		enable_equipment_modules = { 
+		}
+		enable_equipment_modules = {
 			ship_depth_charge_10
-		}		
-		enable_equipment_modules = { 
+		}
+		enable_equipment_modules = {
 			ship_sam_missile_battery_5
-		}		
+		}
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -813,7 +813,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = -3 y = 56 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -821,7 +821,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -834,19 +834,19 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_ciws_1 = {
-		
+
 		research_cost = 1
 
 		start_year = 1980
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_ciws_1
 		}
 		path = {
 			leads_to_tech = ship_ciws_2
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -855,7 +855,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 50 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -863,7 +863,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -874,17 +874,17 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 		}
 		special_project_specialization = { specialization_naval }
-	}	
+	}
 	ship_ciws_2 = {
-		
+
 		research_cost = 1
 
 		start_year = 1990
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_ciws_2
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -893,7 +893,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 56 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -901,7 +901,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1143,7 +1143,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 
 	basic_heavy_battery = {
 
@@ -1339,12 +1339,12 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	improved_heavy_shell = {
-		
+
 		research_cost = 1.25
 
 		start_year = 1942
-		
-		
+
+
 		battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -1358,7 +1358,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 16 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1370,7 +1370,7 @@ technologies = {
 			#DATE
 			modifier = { factor = 0 date < 1942.1.1 }
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1379,15 +1379,15 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_heavy_ASM_battery_1 = {
-		
+
 		research_cost = 1
 
 		start_year = 1955
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_ASM_battery_1
 		}
-	
+
 		path = {
 			leads_to_tech = ship_heavy_ASM_battery_2
 			research_cost_coeff = 0.7
@@ -1396,8 +1396,8 @@ technologies = {
 		path = {
 			leads_to_tech = ship_light_ASM_battery_1
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -1406,7 +1406,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 32 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1414,7 +1414,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1422,22 +1422,22 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_heavy_ASM_battery_2 = {
-		
+
 		research_cost = 1
 
 		start_year = 1960
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_ASM_battery_2
 		}
-		
+
 		path = {
 			leads_to_tech = ship_heavy_ASM_battery_3
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -1446,7 +1446,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 38 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1454,7 +1454,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1462,22 +1462,22 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_heavy_ASM_battery_3 = {
-		
+
 		research_cost = 1
 
 		start_year = 1970
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_ASM_battery_3
 		}
-		
+
 		path = {
 			leads_to_tech = ship_heavy_ASM_battery_4
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -1486,7 +1486,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 44 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1494,7 +1494,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1502,22 +1502,22 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_heavy_ASM_battery_4 = {
-		
+
 		research_cost = 1
 
 		start_year = 1980
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_ASM_battery_4
 		}
-		
+
 		path = {
 			leads_to_tech = ship_heavy_ASM_battery_5
 			research_cost_coeff = 0.7
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -1526,7 +1526,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 50 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1534,7 +1534,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1543,15 +1543,15 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_heavy_ASM_battery_5 = {
-		
+
 		research_cost = 1
 
 		start_year = 1990
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_ASM_battery_5
-		}		
-		
+		}
+
 		dependencies = {
 			sp_rockets_dual_chamber_rocket_engine_1 = 1
 		}
@@ -1560,7 +1560,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 6 y = 56 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -1568,7 +1568,7 @@ technologies = {
 				factor = 20
 			}
 		}
-		
+
 		categories = {
 			naval_artillery
 			naval_equipment
@@ -1576,7 +1576,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 
 	basic_dp_light_battery = {
 
@@ -1781,9 +1781,9 @@ technologies = {
 	}
 
 ###  ##  ###  ###  ### ###   ##      #   #  ##  ###   ##  ### ###  ###
- #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #  
- #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ## 
- #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #  
+ #  #  # #  # #  # #   #  # #  #     #   # #  # #  # #  # #   #  # #
+ #  #  # ###  ###  ##  #  # #  #     # # # #### ###  #### ##  ###  ##
+ #  #  # #  # #    #   #  # #  #     # # # #  # #  # #  # #   #  # #
  #   ##  #  # #    ### ###   ##       # #  #  # #  # #  # #   #  # ###
 
 	basic_torpedo = {
@@ -2197,7 +2197,7 @@ technologies = {
 	}
 
 	ship_torpedo_launcher_5 = {
-		
+
 		research_cost = 1
 
 		start_year = 1950
@@ -2206,14 +2206,14 @@ technologies = {
 			leads_to_tech = ship_torpedo_launcher_6
 			research_cost_coeff = 1
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_5
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_torpedo_sub_5
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2223,7 +2223,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 26 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2231,14 +2231,14 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 		}
 	}
-	
+
 	ship_torpedo_launcher_6 = {
-		
+
 		research_cost = 1
 
 		start_year = 1955
@@ -2247,11 +2247,11 @@ technologies = {
 			leads_to_tech = ship_torpedo_launcher_7
 			research_cost_coeff = 1
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_6
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2261,7 +2261,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 32 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2269,7 +2269,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2280,21 +2280,21 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_7 = {
-		
+
 		research_cost = 1
 
 		start_year = 1960
 
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_7
 		}
 		path = {
 			leads_to_tech = ship_torpedo_launcher_8
 			research_cost_coeff = 1
-		}		
+		}
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2304,7 +2304,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 38 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2312,7 +2312,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2323,21 +2323,21 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_8 = {
-		
+
 		research_cost = 1
 
 		start_year = 1970
 
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_8
 		}
 		path = {
 			leads_to_tech = ship_torpedo_launcher_9
 			research_cost_coeff = 1
-		}		
+		}
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2347,7 +2347,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 44 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2355,7 +2355,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2366,21 +2366,21 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_9 = {
-		
+
 		research_cost = 1
 
 		start_year = 1980
 
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_9
 		}
 		path = {
 			leads_to_tech = ship_torpedo_launcher_10
 			research_cost_coeff = 1
-		}		
+		}
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2390,7 +2390,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 50 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2398,7 +2398,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2410,16 +2410,16 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 	ship_torpedo_launcher_10 = {
-		
+
 		research_cost = 1
 
 		start_year = 1990
 
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_10
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2429,7 +2429,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 56 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2437,7 +2437,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -3514,7 +3514,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes	
+		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.75
@@ -3528,7 +3528,7 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 10 }
-		}		
+		}
 
 		categories = {
 			naval_equipment
@@ -3547,10 +3547,10 @@ technologies = {
 		}
 
 		underway_replenishment_range = 0.25
-		underway_replenishment_convoy_cost = -0.2	
-		
+		underway_replenishment_convoy_cost = -0.2
+
 		force_use_small_tech_layout = yes
-		is_special_project_tech = yes		
+		is_special_project_tech = yes
 		xp_research_type = navy
 		xp_boost_cost = 75
 		xp_research_bonus = 1.5
@@ -3564,12 +3564,12 @@ technologies = {
 		folder = {
 			name = naval_folder
 			position = { x = 1 y = 17 }
-		}		
+		}
 
 		categories = {
 			naval_equipment
 			tp_tech
 		}
-		special_project_specialization = { specialization_naval }	
+		special_project_specialization = { specialization_naval }
 	}
 }

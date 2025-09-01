@@ -5,7 +5,7 @@ guiTypes = {
 	################# Equipment Archetype: mdg_ship_hull_midget_submarine #################
 	containerWindowType = {
 		name = "equipment_designer_mdg_ship_hull_midget_submarine"
-		
+
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x = 0 y = 0 }
 		size = { width = 512 height = 260 }
@@ -36,7 +36,7 @@ guiTypes = {
 					name = "ship_torpedo_sub"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_jap"
@@ -48,7 +48,7 @@ guiTypes = {
 					name = "ship_torpedo_sub@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_jap@highlight"
@@ -67,7 +67,7 @@ guiTypes = {
 					name = "sub_ship_engine"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_engine"
@@ -79,7 +79,7 @@ guiTypes = {
 					name = "sub_ship_engine@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_engine@highlight"
@@ -98,7 +98,7 @@ guiTypes = {
 					name = "ship_sub_coating"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_anechoic_tiles"
@@ -110,7 +110,7 @@ guiTypes = {
 					name = "ship_sub_coating@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_anechoic_tiles@highlight"
@@ -130,7 +130,7 @@ guiTypes = {
 					name = "ship_sub_snorkel"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_hull_snorkel"
@@ -142,7 +142,7 @@ guiTypes = {
 					name = "ship_sub_snorkel@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_hull_snorkel@highlight"
@@ -154,7 +154,7 @@ guiTypes = {
 					name = "ship_sub_coating"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_submarine_anechoic_tiles"
@@ -166,7 +166,7 @@ guiTypes = {
 					name = "ship_sub_coating@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_submarine_anechoic_tiles@highlight"

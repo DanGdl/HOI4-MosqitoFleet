@@ -2,17 +2,17 @@
 
 mdg_midget_submarine = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_midget_sub
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -26,7 +26,7 @@ mdg_midget_submarine = {
 	}
 
 	mdg_midget_sub_basic = {
-	
+
 		priority = {
 			factor = 1
 			modifier = {
@@ -35,10 +35,10 @@ mdg_midget_submarine = {
 		}
 
 		role_icon_index = 6
-		
+
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_midget_submarine
 			modules = {
 				fixed_ship_engine_slot = {
@@ -55,7 +55,7 @@ mdg_midget_submarine = {
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			sub_ship_engine
 			ship_torpedo_sub

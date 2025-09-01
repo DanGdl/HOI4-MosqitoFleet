@@ -48,12 +48,12 @@ equipments = {
 				}
 			}
 		}
-		
+
 		module_count_limit = {
 			category = ship_radar
 			count < 2
 		}
-		
+
 		module_count_limit = {
 			category = ship_sonar
 			count < 2
@@ -73,37 +73,37 @@ equipments = {
 			fixed_ship_torpedo_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 1
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
-		
+
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 9
 		naval_speed = 21
 		reliability = 0.80
-		
+
 		naval_range = 1100
-		
+
 		max_strength = 20
-		
+
 		fuel_consumption = -1.5
-		
+
 		build_cost_ic = 293
 		resources = {
 			steel = 1
 		}
-		
+
 		manpower = 150
  		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
@@ -118,7 +118,7 @@ equipments = {
 
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
-		
+
 		module_slots = inherit
 	}
 
@@ -129,7 +129,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_1
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -185,7 +185,7 @@ equipments = {
 				}
 			}
 			mid_1_custom_slot = rear_1_custom_slot
-			
+
 		}
 		default_modules = {
 			mid_1_custom_slot = empty
@@ -212,7 +212,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_3
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -257,7 +257,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_4
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -289,7 +289,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_5
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -321,7 +321,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_6
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -362,7 +362,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_7
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -394,7 +394,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_8
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -426,7 +426,7 @@ equipments = {
 		archetype = mdg_ship_hull_corvette
 		priority = 2200
 		parent = mdg_ship_hull_corvette_9
-		
+
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit

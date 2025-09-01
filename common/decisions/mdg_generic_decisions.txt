@@ -1,5 +1,5 @@
 mdg_generic_refit_civilian_ships_category = {
-	
+
 	mdg_refit_to_cruiser = {
 		cost = 30
 		icon = GFX_decision_generic_merge_plant_ship
@@ -165,10 +165,10 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 		}
 
-		available = {	
+		available = {
 			has_equipment = {
    				convoy > 40
-	  		}	
+	  		}
 	  		if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -188,7 +188,7 @@ mdg_generic_refit_civilian_ships_category = {
 
 		complete_effect = {
 			navy_experience = -20
-			add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = -40
 			}
@@ -203,9 +203,9 @@ mdg_generic_refit_civilian_ships_category = {
 						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
 					}
 					set_country_flag = mdg_flag_refit_to_escort_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Escort Ship" 		
+
+					create_equipment_variant = {
+						name = "Refitted Escort Ship"
 						type = mdg_ship_hull_corvette_1
 						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
@@ -278,10 +278,10 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 		}
 
-		available = {	
+		available = {
 			has_equipment = {
    				convoy > 20
-	  		}	
+	  		}
 	  		if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -299,7 +299,7 @@ mdg_generic_refit_civilian_ships_category = {
 
 		complete_effect = {
 			navy_experience = -15
-			add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = -20
 			}
@@ -314,9 +314,9 @@ mdg_generic_refit_civilian_ships_category = {
 						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
 					}
 					set_country_flag = mdg_flag_refit_to_escort_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Escort Ship" 		
+
+					create_equipment_variant = {
+						name = "Refitted Escort Ship"
 						type = mdg_ship_hull_corvette_1
 						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
@@ -389,10 +389,10 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 		}
 
-		available = {	
+		available = {
 			has_equipment = {
    				convoy > 20
-	  		}	
+	  		}
 	  		if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -411,7 +411,7 @@ mdg_generic_refit_civilian_ships_category = {
 
 		complete_effect = {
 			navy_experience = -10
-			add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = -20
 			}
@@ -426,9 +426,9 @@ mdg_generic_refit_civilian_ships_category = {
 						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
 					}
 					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Mine Layer" 		
+
+					create_equipment_variant = {
+						name = "Refitted Mine Layer"
 						type = mdg_ship_hull_corvette_1
 						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
@@ -501,10 +501,10 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 		}
 
-		available = {	
+		available = {
 			has_equipment = {
    				convoy > 20
-	  		}	
+	  		}
 	  		if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -523,7 +523,7 @@ mdg_generic_refit_civilian_ships_category = {
 
 		complete_effect = {
 			navy_experience = -10
-			add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = -20
 			}
@@ -538,9 +538,9 @@ mdg_generic_refit_civilian_ships_category = {
 						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
 					}
 					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
-					
-					create_equipment_variant = {	
-						name = "Refitted Mine Sweeper" 		
+
+					create_equipment_variant = {
+						name = "Refitted Mine Sweeper"
 						type = mdg_ship_hull_corvette_1
 						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0

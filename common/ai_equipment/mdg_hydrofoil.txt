@@ -1,17 +1,17 @@
 
 mdg_hydrofoils = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_hydrofoil
 	}
-	
+
 	priority = {
 		factor = 2500
 		modifier = {
@@ -27,9 +27,9 @@ mdg_hydrofoils = {
 			num_of_naval_factories > 5
 		}
 	}
-	
+
 	mdg_hydrofoil_default = {
-	
+
 		priority = {
 			factor = 250
 			modifier = {
@@ -37,12 +37,12 @@ mdg_hydrofoils = {
 				is_major = no
 			}
 		}
-		
+
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 2000.0
-			
+
 			type = mdg_ship_hull_hydrofoil
 			modules = {
 				fixed_ship_battery_slot = {
@@ -53,7 +53,7 @@ mdg_hydrofoils = {
 					any_of = { light_ship_engine }
 					upgrade > current
 				}
-				fixed_ship_torpedo_slot = { 
+				fixed_ship_torpedo_slot = {
 					any_of = { ship_torpedo }
 					upgrade > current
 				}
@@ -61,13 +61,13 @@ mdg_hydrofoils = {
 					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns }
 					upgrade > current
 				}
-				fixed_ship_radar_slot = { 
+				fixed_ship_radar_slot = {
 					any_of = { ship_radar }
 					upgrade > current
 				}
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_guns
 			mdg_ship_light_cannon
@@ -82,17 +82,17 @@ mdg_hydrofoils = {
 
 mdg_naval_mine_layer_hydrofoil = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_hydrofoil_mine_layer
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -108,21 +108,21 @@ mdg_naval_mine_layer_hydrofoil = {
 			num_of_naval_factories < 5
 		}
 	}
-	
+
 	mdg_mine_layer_hydrofoil = {
-	
+
 		priority = {
 			factor = 3
 		}
-		
+
 		role_icon_index = 4
-		
+
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_hydrofoil
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
@@ -136,7 +136,7 @@ mdg_naval_mine_layer_hydrofoil = {
 				fixed_ship_radar_slot = ship_radar
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}
