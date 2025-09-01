@@ -53,7 +53,7 @@ CHI_CORVETTE_HISTORICAL = {
 	fallback_name = "LCS %s"
 
 	unique = {
-		"Chiang Hsi" "Chiang Kun" "Fa Ku" "San Min" "Ying Hao" "Ying Shan" "Ying Teh" "Mel Yuan" "Wei Ning" "Yi Ning" "Kiang Ning" "Chung Ning" "Chang Ning" 
+		"Chiang Hsi" "Chiang Kun" "Fa Ku" "San Min" "Ying Hao" "Ying Shan" "Ying Teh" "Mel Yuan" "Wei Ning" "Yi Ning" "Kiang Ning" "Chung Ning" "Chang Ning"
 		"Sui Ning" "Hai Ning" "Wu Ning" "Suh Ning" "Cheng Nin"
 	}
 }

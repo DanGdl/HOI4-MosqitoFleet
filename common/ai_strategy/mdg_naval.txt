@@ -21,7 +21,7 @@ default_role_ratios = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_hydrofoil 
+		id = mdg_naval_hydrofoil
 		value = 90
 	}
 	ai_strategy = {
