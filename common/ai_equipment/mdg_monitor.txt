@@ -160,7 +160,7 @@ mdg_monitor = {
 		history = yes
 		target_variant = {
 			match_value = 1750.0
-	
+
 			type = mdg_ship_hull_monitor_2
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
@@ -172,7 +172,7 @@ mdg_monitor = {
 				rear_1_custom_slot = ship_dp_secondaries
 			}
 		}
-	
+
 		allowed_modules = {
 			ship_anti_air
 			ship_heavy_battery

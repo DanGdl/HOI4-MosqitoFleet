@@ -124,7 +124,7 @@ mdg_frigates = {
 					any_of = { light_ship_engine }
 					upgrade > current
 				}
-				fixed_ship_radar_slot = { 
+				fixed_ship_radar_slot = {
 					any_of = { ship_radar ship_sonar }
 					upgrade > current
 				}
@@ -629,10 +629,10 @@ mdg_naval_mine_layer_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_frigate
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
 					upgrade > current

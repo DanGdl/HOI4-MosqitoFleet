@@ -35,8 +35,8 @@
 		prefix = "RHS"
 		generic = { "LCS" }
 		unique = {
-			"Apostolis" "Kriezis" "Sachtouris" "Tombazis" "Vassilefs Georgios II" "Afroessa" "Karteria" "Paralos" "Salaminia" "Kassos" "Kos" "Leros" "Andros" 
-			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson" 
+			"Apostolis" "Kriezis" "Sachtouris" "Tombazis" "Vassilefs Georgios II" "Afroessa" "Karteria" "Paralos" "Salaminia" "Kassos" "Kos" "Leros" "Andros"
+			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson"
 			"Kalavrita" "Distomon" "Lechovon" "Anchialos"
 		}
 	}
@@ -82,8 +82,8 @@
 		prefix = "RHS"
 		generic = { "LCS" }
 		unique = {
-			"Apostolis" "Kriezis" "Sachtouris" "Tombazis" "Vassilefs Georgios II" "Afroessa" "Karteria" "Paralos" "Salaminia" "Kassos" "Kos" "Leros" "Andros" 
-			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson" 
+			"Apostolis" "Kriezis" "Sachtouris" "Tombazis" "Vassilefs Georgios II" "Afroessa" "Karteria" "Paralos" "Salaminia" "Kassos" "Kos" "Leros" "Andros"
+			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson"
 			"Kalavrita" "Distomon" "Lechovon" "Anchialos"
 		}
 	}

@@ -11,7 +11,7 @@
 		prefix = ""
 		generic = { "MTV" }
 		unique = {
-			"J-1 Jylha" "J-2 Jyry" "J-3 Jyske" "J-4 Jymy" "H-1 Hyoky" "H-2 Hirmu" "H-3 Hurja" "H-4 Hyrsky" "H-5 Haijy" "T-1 Tarmo" "T-2 Таistо" "T-3 Tyrsky" 
+			"J-1 Jylha" "J-2 Jyry" "J-3 Jyske" "J-4 Jymy" "H-1 Hyoky" "H-2 Hirmu" "H-3 Hurja" "H-4 Hyrsky" "H-5 Haijy" "T-1 Tarmo" "T-2 Таistо" "T-3 Tyrsky"
 			"T-4 Tuima" "T-5 Tuisku" "T-6 Tuuli" "V-1 Vasama" "V-2 Vihuri" "V-3 Viima"
 		}
 	}
@@ -26,7 +26,7 @@
 		prefix = ""
 		generic = { "Corvette" }
 		unique = {
-			"Pukkio" "Porkkala" "Ajonpaa" "Kallanpaa" "Narvi" "Jurmo" "Luppi"  "Ahven" "Kiiski" "Mulkku" "Sarkl" "Kuore" "Lohna" "Kuha" "Salakka" "Siika" "Harjus" 
+			"Pukkio" "Porkkala" "Ajonpaa" "Kallanpaa" "Narvi" "Jurmo" "Luppi"  "Ahven" "Kiiski" "Mulkku" "Sarkl" "Kuore" "Lohna" "Kuha" "Salakka" "Siika" "Harjus"
 			"Saynas" "Karppi"
 		}
 	}
@@ -73,7 +73,7 @@
 		prefix = ""
 		generic = { "MTV" }
 		unique = {
-			"J-1 Jylha" "J-2 Jyry" "J-3 Jyske" "J-4 Jymy" "H-1 Hyoky" "H-2 Hirmu" "H-3 Hurja" "H-4 Hyrsky" "H-5 Haijy" "T-1 Tarmo" "T-2 Таistо" "T-3 Tyrsky" 
+			"J-1 Jylha" "J-2 Jyry" "J-3 Jyske" "J-4 Jymy" "H-1 Hyoky" "H-2 Hirmu" "H-3 Hurja" "H-4 Hyrsky" "H-5 Haijy" "T-1 Tarmo" "T-2 Таistо" "T-3 Tyrsky"
 			"T-4 Tuima" "T-5 Tuisku" "T-6 Tuuli" "V-1 Vasama" "V-2 Vihuri" "V-3 Viima"
 		}
 	}
@@ -89,7 +89,7 @@
 		generic = { "LCS" }
 
 		unique = {
-			"Pukkio" "Porkkala" "Ajonpaa" "Kallanpaa" "Narvi" "Jurmo" "Luppi"  "Ahven" "Kiiski" "Mulkku" "Sarkl" "Kuore" "Lohna" "Kuha" "Salakka" "Siika" "Harjus" 
+			"Pukkio" "Porkkala" "Ajonpaa" "Kallanpaa" "Narvi" "Jurmo" "Luppi"  "Ahven" "Kiiski" "Mulkku" "Sarkl" "Kuore" "Lohna" "Kuha" "Salakka" "Siika" "Harjus"
 			"Saynas" "Karppi"
 		}
 	}

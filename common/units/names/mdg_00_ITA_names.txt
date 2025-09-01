@@ -11,8 +11,8 @@
 
 	mdg_midget_submarine = {
 		prefix = "RSmg" # Regio Sommergibile
-		generic = { "SLC" } 
-		unique = {} 
+		generic = { "SLC" }
+		unique = {}
 	}
 
 	mdg_boat = {
@@ -31,7 +31,7 @@
 		prefix = "RCT"
 		generic = { "LCS" }
 		unique = {
-			"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu" 
+			"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu"
 			"Gaspers" "Mazare" "Monte Gargano" "Orlando" "Partenope" "San Giorgio" "San Giusto" "Scilla"
 		}
 	}
@@ -40,10 +40,10 @@
 		prefix = "RCT"
 		generic = { "FF" }
 		unique = {
-			"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta" 
-			"Artemide" "Persefone" "Euterpe" "Minerva" "Driade" "Danaide" "Pomona" "Flora" "Sfinge" "Chimera" "Sibillf" "Fenice" "Urania" "Berenice" "Renna" 
-			"Colubrina" "Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta" 
-			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice" 
+			"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta"
+			"Artemide" "Persefone" "Euterpe" "Minerva" "Driade" "Danaide" "Pomona" "Flora" "Sfinge" "Chimera" "Sibillf" "Fenice" "Urania" "Berenice" "Renna"
+			"Colubrina" "Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta"
+			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice"
 			"Terpsicore"
 		}
 	}
@@ -65,8 +65,8 @@
 
 	mdg_ship_hull_midget_submarine = {
 		prefix = "RSmg" # Regio Sommergibile
-		generic = { "SLC" } 
-		unique = {} 
+		generic = { "SLC" }
+		unique = {}
 	}
 
 	mdg_ship_hull_boat = {
@@ -85,7 +85,7 @@
 		prefix = "RCT"
 		generic = { "LCS" }
 		unique = {
-			"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu" 
+			"Diana" "Eso" "Selve" "Unie" "Vergada" "Zuri" "Oriole" "Zirona" "Vigilante" "Vedetta" "Adriatico" "Barletta" "Briani" "Buffoluto" "Caralis" "Deffenu"
 			"Gaspers" "Mazare" "Monte Gargano" "Orlando" "Partenope" "San Giorgio" "San Giusto" "Scilla"
 		}
 	}
@@ -94,10 +94,10 @@
 		prefix = "RCT"
 		generic = { "FF" }
 		unique = {
-			"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta" 
-			"Artemide" "Persefone" "Euterpe" "Minerva" "Driade" "Danaide" "Pomona" "Flora" "Sfinge" "Chimera" "Sibillf" "Fenice" "Urania" "Berenice" "Renna" 
-			"Colubrina" "Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta" 
-			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice" 
+			"Gabbiano" "Procellaria" "Cormorano" "Pellicano" "Cicogna" "Folaga" "Ibis" "Gru" "Antelope" "Gazzella" "Camoscio" "Ape" "Vespa" "Scimitarra" "Baiometta"
+			"Artemide" "Persefone" "Euterpe" "Minerva" "Driade" "Danaide" "Pomona" "Flora" "Sfinge" "Chimera" "Sibillf" "Fenice" "Urania" "Berenice" "Renna"
+			"Colubrina" "Carabine" "Marangone" "Spingarda" "Melpomene" "Capriolo" "Alee" "Tuffetto" "Bombarda" "Lucciola" "Grille" "Cicala" "Calabrone" "Cavalletta"
+			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice"
 			"Terpsicore"
 		}
 	}
@@ -107,4 +107,4 @@
 		generic = { "Monitor" }
 		unique = {}
 	}
-} 
+}

@@ -40,7 +40,7 @@
 			ship = { name = "NRB G-6 Goaina" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
 			ship = { name = "NRB G-7 Grajau" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
 			ship = { name = "NRB G-8 Grauna" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
-			
+
 			ship = { name = "NRB CS-51 Mavari" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
 			ship = { name = "NRB CS-52 Jutai" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }
 			ship = { name = "NRB CS-53 Jurua" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Rio Pardo/PC/SC Class" } } }

@@ -158,7 +158,7 @@
  SOV_midget_submarine: "АПСС"
  SOV_ship_hull_midget_submarine: "АПСС"
  SOV_mdg_midget_submarine_2: "Тип «Пигмей»"
- 
+
  mdg_ship_hull_boat: "Катер"
  mdg_ship_hull_boat_1: "Ранний катер"
  mdg_ship_hull_boat_1_desc: "Ранний катер описание"
@@ -168,7 +168,7 @@
  mdg_ship_hull_boat_3_desc: "Катер обр. 1940 г. описание"
  mdg_ship_hull_boat_4: "Катер обр. 1944 г."
  mdg_ship_hull_boat_4_desc: "Катер обр. 1944 г. описание"
- 
+
  mdg_ship_hull_hydrofoil: "Катер на подводных крыльях"
  mdg_ship_hull_hydrofoil_1: "Катер на подводных крыльях"
 

@@ -104,11 +104,11 @@ mdg_corvettes = {
 
 			type = mdg_ship_hull_corvette
 			modules = {
-				fixed_ship_battery_slot = { 
+				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
-				fixed_ship_fire_control_system_slot = { 
+				fixed_ship_fire_control_system_slot = {
 					any_of = { ship_radar ship_fire_control_system }
 					upgrade > current
 				}
@@ -116,7 +116,7 @@ mdg_corvettes = {
 					any_of = { light_ship_engine }
 					upgrade > current
 				}
-				fixed_ship_radar_slot = { 
+				fixed_ship_radar_slot = {
 					any_of = { ship_radar ship_sonar }
 					upgrade > current
 				}
@@ -603,10 +603,10 @@ mdg_naval_mine_layer_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_corvette
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
 					upgrade > current

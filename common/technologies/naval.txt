@@ -191,11 +191,11 @@ technologies = {
 
 	early_light_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			light_cruiser_1
 		}
 		path = {
-			leads_to_tech = basic_light_cruiser 
+			leads_to_tech = basic_light_cruiser
 			research_cost_coeff = 1
 			ignore_for_layout = yes
 		}
@@ -247,17 +247,17 @@ technologies = {
 
 	basic_light_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			light_cruiser_2
 		}
 
 		path = {
-			leads_to_tech = improved_light_cruiser 
+			leads_to_tech = improved_light_cruiser
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = basic_heavy_cruiser 
+			leads_to_tech = basic_heavy_cruiser
 			research_cost_coeff = 0.75
 		}
 
@@ -296,16 +296,16 @@ technologies = {
 
 	improved_light_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			light_cruiser_3
 		}
 
 		path = {
-			leads_to_tech = advanced_light_cruiser 
+			leads_to_tech = advanced_light_cruiser
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_heavy_cruiser 
+			leads_to_tech = improved_heavy_cruiser
 			research_cost_coeff = 0.75
 		}
 
@@ -344,12 +344,12 @@ technologies = {
 
 	advanced_light_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			light_cruiser_4
 		}
 
 		path = {
-			leads_to_tech = advanced_heavy_cruiser 
+			leads_to_tech = advanced_heavy_cruiser
 			research_cost_coeff = 0.75
 		}
 
@@ -389,17 +389,17 @@ technologies = {
 
 	early_heavy_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			heavy_cruiser_1
 		}
 
 		path = {
-			leads_to_tech = basic_heavy_cruiser 
+			leads_to_tech = basic_heavy_cruiser
 			research_cost_coeff = 1
 		}
 
 		#path = {
-		#	leads_to_tech = early_light_cruiser 
+		#	leads_to_tech = early_light_cruiser
 		#	research_cost_coeff = 0.75
 		#}
 
@@ -428,17 +428,17 @@ technologies = {
 
 	basic_heavy_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			heavy_cruiser_2
 		}
 
 		path = {
-			leads_to_tech = improved_heavy_cruiser 
+			leads_to_tech = improved_heavy_cruiser
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = basic_light_cruiser 
+			leads_to_tech = basic_light_cruiser
 			research_cost_coeff = 0.75
 		}
 
@@ -467,16 +467,16 @@ technologies = {
 
 	improved_heavy_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			heavy_cruiser_3
 		}
 
 		path = {
-			leads_to_tech = advanced_heavy_cruiser 
+			leads_to_tech = advanced_heavy_cruiser
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_light_cruiser 
+			leads_to_tech = improved_light_cruiser
 			research_cost_coeff = 0.75
 		}
 
@@ -505,12 +505,12 @@ technologies = {
 
 	advanced_heavy_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			heavy_cruiser_4
 		}
 
 		path = {
-			leads_to_tech = advanced_light_cruiser 
+			leads_to_tech = advanced_light_cruiser
 			research_cost_coeff = 0.75
 		}
 
@@ -540,12 +540,12 @@ technologies = {
 
 	early_battlecruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			battle_cruiser_1
 		}
 
 		path = {
-			leads_to_tech = basic_battlecruiser 
+			leads_to_tech = basic_battlecruiser
 			research_cost_coeff = 1
 			ignore_for_layout = yes
 		}
@@ -575,12 +575,12 @@ technologies = {
 
 	basic_battlecruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			battle_cruiser_2
 		}
 
 		path = {
-			leads_to_tech = improved_battleship 
+			leads_to_tech = improved_battleship
 			research_cost_coeff = 0.75
 		}
 
@@ -608,13 +608,13 @@ technologies = {
 
 	early_battleship = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			battleship_1
 			mdg_monitor_1
 		}
 
 		path = {
-			leads_to_tech = basic_battleship 
+			leads_to_tech = basic_battleship
 			research_cost_coeff = 1
 		}
 
@@ -649,13 +649,13 @@ technologies = {
 
 	basic_battleship = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			battleship_2
 			mdg_monitor_2
 		}
 
 		path = {
-			leads_to_tech = improved_battleship 
+			leads_to_tech = improved_battleship
 			research_cost_coeff = 1
 		}
 
@@ -687,12 +687,12 @@ technologies = {
 
 	improved_battleship = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			battleship_3
 		}
 
 		path = {
-			leads_to_tech = advanced_battleship 
+			leads_to_tech = advanced_battleship
 			research_cost_coeff = 1
 		}
 		path = {
@@ -723,12 +723,12 @@ technologies = {
 
 	advanced_battleship = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			battleship_4
 		}
 
 		#path = {
-			#leads_to_tech = heavy_battleship2 
+			#leads_to_tech = heavy_battleship2
 			#research_cost_coeff = 0.75
 		#}
 
@@ -766,12 +766,12 @@ technologies = {
 
 	heavy_battleship = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			SH_battleship_1
 		}
 
 		#path = {
-			#leads_to_tech = heavy_battleship2 
+			#leads_to_tech = heavy_battleship2
 			#research_cost_coeff = 1
 		#}
 
@@ -805,7 +805,7 @@ technologies = {
 				is_special_project_completed = sp:sp_naval_super_heavy_battleship
 			}
 		}
-		enable_equipments = { 
+		enable_equipments = {
 			SH_battleship_2
 		}
 
@@ -841,7 +841,7 @@ technologies = {
 		naval_invasion_capacity = 10
 
 		path = {
-			leads_to_tech = landing_craft 
+			leads_to_tech = landing_craft
 			research_cost_coeff = 1
 		}
 
@@ -895,7 +895,7 @@ technologies = {
 		naval_invasion_capacity = 20
 
 		path = {
-			leads_to_tech = tank_landing_craft 
+			leads_to_tech = tank_landing_craft
 			research_cost_coeff = 1
 		}
 
@@ -937,9 +937,9 @@ technologies = {
 				tag = JAP
 				OR = {
 					has_war_with = USA
-					CHI = {  
-						OR = { 
-							has_capitulated = yes 
+					CHI = {
+						OR = {
+							has_capitulated = yes
 							exists = no
 		                    is_subject_of = JAP
 						}
@@ -1020,12 +1020,12 @@ technologies = {
 
 	early_carrier = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			carrier_1
 		}
 
 		path = {
-			leads_to_tech = basic_carrier 
+			leads_to_tech = basic_carrier
 			research_cost_coeff = 1
 		}
 
@@ -1062,12 +1062,12 @@ technologies = {
 
 	basic_carrier = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			carrier_2
 		}
 
 		path = {
-			leads_to_tech = improved_carrier 
+			leads_to_tech = improved_carrier
 			research_cost_coeff = 1
 		}
 
@@ -1103,12 +1103,12 @@ technologies = {
 
 	improved_carrier = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			carrier_3
 		}
 
 		path = {
-			leads_to_tech = advanced_carrier 
+			leads_to_tech = advanced_carrier
 			research_cost_coeff = 1
 		}
 
@@ -1116,7 +1116,7 @@ technologies = {
 		start_year = 1940
 
 		on_research_complete = {
-			if = { 
+			if = {
 				limit = { has_dlc = "Gotterdammerung"}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
@@ -1154,7 +1154,7 @@ technologies = {
 
 	advanced_carrier = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			carrier_4
 		}
 
@@ -1202,12 +1202,12 @@ technologies = {
 
 	early_submarine = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			submarine_1
 		}
 
 		path = {
-			leads_to_tech = basic_submarine 
+			leads_to_tech = basic_submarine
 			research_cost_coeff = 1
 		}
 
@@ -1351,7 +1351,7 @@ technologies = {
 
 	advanced_submarine = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			submarine_4
 		}
 
@@ -1389,7 +1389,7 @@ technologies = {
 	######## JAPAN FOCUS TREE UNLOCK ########
 	torpedo_cruiser = {
 
-		enable_equipments = { 
+		enable_equipments = {
 			torpedo_cruiser
 		}
 

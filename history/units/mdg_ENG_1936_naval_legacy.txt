@@ -45,7 +45,7 @@
 
 			ship = { name = "HMS РС-74" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Pathan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
-		
+
 			ship = { name = "HMS Tedworth" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Aberdare" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Abingdon" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
