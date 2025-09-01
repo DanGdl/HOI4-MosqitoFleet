@@ -1,29 +1,29 @@
 equipment_modules = {
 	limit = {
-		has_dlc = "Man the Guns" 
+		has_dlc = "Man the Guns"
 	}
 
-	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   # 
-	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #  
-	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #   
-	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #   
-	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #   
+	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   #
+	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #
+	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #
+	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #
+	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #
 
 	mdg_ship_light_guns_1 = {
 		abbreviation = "lsg_1"
 		category = mdg_ship_light_guns
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 0.5
 			anti_air_attack = 0.5
-			build_cost_ic = 40	
+			build_cost_ic = 40
 		}
 
 		add_average_stats = {
 			lg_armor_piercing = 0.2
 		}
-		
+
 		can_convert_from = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 20
@@ -37,7 +37,7 @@ equipment_modules = {
 		category = mdg_ship_light_guns
 		parent = mdg_ship_light_guns_1
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 0.6
 			anti_air_attack = 0.6
@@ -51,12 +51,12 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.25
 		}
-		
+
 		can_convert_from = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 25 # conversion cost from ANY ship_light_guns module
 		}
-		
+
 		can_convert_from = {
 			module = mdg_ship_light_guns_1
 			convert_cost_ic = 25 # conversion cost from that specific module
@@ -70,13 +70,13 @@ equipment_modules = {
 		category = mdg_ship_light_guns
 		parent = mdg_ship_light_guns_2
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 0.7
 			anti_air_attack = 0.7
-			build_cost_ic = 70			
+			build_cost_ic = 70
 		}
-		
+
 		add_average_stats = {
 			lg_armor_piercing = 0.3
 		}
@@ -89,7 +89,7 @@ equipment_modules = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 30
 		}
-		
+
 		can_convert_from = {
 			module = mdg_ship_light_guns_2
 			convert_cost_ic = 30
@@ -103,11 +103,11 @@ equipment_modules = {
 		category = mdg_ship_light_guns
 		parent = mdg_ship_light_guns_3
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 0.8
 			anti_air_attack = 0.8
-			build_cost_ic = 80	
+			build_cost_ic = 80
 		}
 
 		build_cost_resources = {
@@ -121,12 +121,12 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.4
 		}
-		
+
 		can_convert_from = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 30
 		}
-			
+
 		can_convert_from = {
 			module = mdg_ship_light_guns_3
 			convert_cost_ic = 30
@@ -140,11 +140,11 @@ equipment_modules = {
 		category = mdg_ship_light_guns
 		parent = mdg_ship_light_guns_4
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 1.0
 			anti_air_attack = 1.0
-			build_cost_ic = 80	
+			build_cost_ic = 80
 		}
 
 		build_cost_resources = {
@@ -158,12 +158,12 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.5
 		}
-		
+
 		can_convert_from = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 30
 		}
-			
+
 		can_convert_from = {
 			module = mdg_ship_light_guns_4
 			convert_cost_ic = 30
@@ -177,11 +177,11 @@ equipment_modules = {
 		category = mdg_ship_light_guns
 		parent = mdg_ship_light_guns_5
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 1.2
 			anti_air_attack = 1.2
-			build_cost_ic = 80	
+			build_cost_ic = 80
 		}
 
 		build_cost_resources = {
@@ -195,12 +195,12 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.7
 		}
-		
+
 		can_convert_from = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 30
 		}
-			
+
 		can_convert_from = {
 			module = mdg_ship_light_guns_5
 			convert_cost_ic = 30
@@ -214,11 +214,11 @@ equipment_modules = {
 		category = mdg_ship_light_guns
 		parent = mdg_ship_light_guns_6
 		sfx = sfx_ui_sd_module_turret
-		
+
 		add_stats = {
 			lg_attack = 1.5
 			anti_air_attack = 1.5
-			build_cost_ic = 80	
+			build_cost_ic = 80
 		}
 
 		build_cost_resources = {
@@ -232,12 +232,12 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.9
 		}
-		
+
 		can_convert_from = {
 			module_category = mdg_ship_light_guns
 			convert_cost_ic = 30
 		}
-			
+
 		can_convert_from = {
 			module = mdg_ship_light_guns_6
 			convert_cost_ic = 30

@@ -64,7 +64,7 @@ leader_traits = {
 	# naval assignable traits
 	##################################
 
-	mdg_trait_mosquito = { 
+	mdg_trait_mosquito = {
 		type = navy
 		#gain_xp = {
 		#	AND = {
@@ -92,7 +92,7 @@ leader_traits = {
 			}
 		}
 		custom_gain_xp_trigger_tooltip = MOSQUITO_TRIGGER_TT
-		
+
 		# navy_fleet_logistics_1
 		# navy_screen_1
 		slot = navy_chief
@@ -130,36 +130,36 @@ leader_traits = {
                 naval_torpedo_hit_chance_factor = 0.1
                 navy_visibility = -0.1
             }
-        }   
+        }
         ai_will_do = {
             factor = 0
         }
-        
+
         trait_type = assignable_trait
         any_parent = { fleet_protector superior_tactician }
-        
+
         gui_row = 5
         gui_column = 1
     }
 
-    cruiser_captain = { 
+    cruiser_captain = {
 		type = navy
 		modifier = {
-			
+
 		}
 		sub_unit_modifiers = {
 			mdg_auxiliary = {
 				naval_damage_factor = 0.1
 				naval_speed_factor = 0.1
 			}
-		}	
+		}
 		ai_will_do = {
 			factor = 0
 		}
-		
+
 		trait_type = assignable_trait
 		any_parent = { fleet_protector superior_tactician }
-		
+
 		gui_row = 6
 		gui_column = 1
 	}

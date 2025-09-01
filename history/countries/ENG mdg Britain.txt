@@ -17,7 +17,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
-	
+
 	create_equipment_variant = {
 		name = "Aubretia Class"
 		type = mdg_ship_hull_corvette_1
