@@ -681,7 +681,7 @@ guiTypes = {
 				size = { width = 480 height = 1000 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
-			
+
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
@@ -696,7 +696,7 @@ guiTypes = {
 				size = { width = 480 height = 1000 }
 				slotsize = { width = 60 height = 60 }
 				format = "UP"
-			
+
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"

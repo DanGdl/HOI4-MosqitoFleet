@@ -767,7 +767,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USA_mdg_frigate_5.dds"
 	}
 
-	# ENG (same as generic)	
+	# ENG (same as generic)
 	#SpriteType = {
 	#	name = "GFX_ENG_mdg_frigate_1_medium"
 	#	texturefile = "gfx/interface/technologies/ENG_mdg_frigate_1.dds"

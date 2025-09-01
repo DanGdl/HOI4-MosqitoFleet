@@ -173,7 +173,7 @@
 			ship = { name = "Metel" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Zarnitsa" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "Molniya" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
-		
+
 			ship = { name = "Vorovskiy" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
 
 			ship = { name = "Dzerjinskiy" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SOV } } }
@@ -196,7 +196,7 @@
 			ship = { name = "TKA-10" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "TKA-11" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = SOV } } }
 
-		
+
 			ship = { name = "R-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "R-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }
 			ship = { name = "R-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SOV } } }

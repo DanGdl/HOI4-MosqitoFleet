@@ -63,7 +63,7 @@ technologies = {
 			modifier = {
 				not = {
 					any_controlled_state = {
-							 
+
 						is_coastal = yes
 					}
 				}
@@ -138,12 +138,12 @@ technologies = {
 			modifier = {
 				not = {
 					any_controlled_state = {
-							 
+
 						is_coastal = yes
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 0.2
 				OR = {
@@ -253,9 +253,9 @@ technologies = {
 			light_ship_engine_4
 		}
 		path = {
-			leads_to_tech = modern_ship_hull_light 
+			leads_to_tech = modern_ship_hull_light
 			research_cost_coeff = 1
-		}		
+		}
 		research_cost = 2
 
 		start_year = 1944
@@ -281,7 +281,7 @@ technologies = {
 				has_tech_bonus = {
     					category = dd_tech
 				}
-			}			
+			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -307,23 +307,23 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	modern_ship_hull_light = {
 		show_equipment_icon = yes
 
-		enable_equipments = { 
+		enable_equipments = {
 			ship_hull_light_5
 
 			mdg_ship_hull_frigate_5
 			mdg_ship_hull_corvette_5
 			mdg_ship_hull_boat_5
 		}
-		
-		
+
+
 		research_cost = 2
 
 		start_year = 1948
-		
+
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = 25 }
@@ -345,7 +345,7 @@ technologies = {
 				has_tech_bonus = {
     					category = dd_tech
 				}
-			}			
+			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -473,7 +473,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 0.2
 				OR = {
@@ -534,7 +534,7 @@ technologies = {
 				has_war_with = GER
 				has_navy_size = {
 					size > 0
-				}					
+				}
 			}
 			modifier = {
 				factor = 2
@@ -604,7 +604,7 @@ technologies = {
 				has_war_with = GER
 				has_navy_size = {
 					size > 0
-				}					
+				}
 			}
 			modifier = {
 				factor = 2
@@ -667,7 +667,7 @@ technologies = {
 				has_war_with = GER
 				has_navy_size = {
 					size > 0
-				}	
+				}
 			}
 			modifier = {
 				factor = 2
@@ -729,7 +729,7 @@ technologies = {
 				has_war_with = GER
 				has_navy_size = {
 					size > 0
-				}					
+				}
 			}
 			modifier = {
 				factor = 4
@@ -794,7 +794,7 @@ technologies = {
 				has_war_with = GER
 				has_navy_size = {
 					size > 0
-				}					
+				}
 			}
 			modifier = {
 				factor = 4
@@ -1073,7 +1073,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
@@ -1101,14 +1101,14 @@ technologies = {
 		research_cost = 1.5
 
 		start_year = 1948
-		
+
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 25 }
 		}
 		ai_will_do = {
 			factor = 4
-			
+
 			modifier = {
 				factor = 2
 				OR = {
@@ -1129,9 +1129,9 @@ technologies = {
 				has_tech_bonus = {
     				category = cl_tech
 				}
-			}						
+			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			cl_tech
@@ -1186,7 +1186,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}			
+			}
 			modifier = {
 				factor = 0.2
 				OR = {
@@ -1338,7 +1338,7 @@ technologies = {
 				has_tech_bonus = {
     					category = bb_tech
 				}
-			}			
+			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -1415,7 +1415,7 @@ technologies = {
 				has_tech_bonus = {
     					category = bb_tech
 				}
-			}			
+			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -1423,7 +1423,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 0.2
 				OR = {
@@ -1521,7 +1521,7 @@ technologies = {
 				has_tech_bonus = {
     					category = bb_tech
 				}
-			}			
+			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -1588,7 +1588,7 @@ technologies = {
 				has_tech_bonus = {
     					category = bb_tech
 				}
-			}			
+			}
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -1596,7 +1596,7 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}			
+			}
 		}
 
 		categories = {
@@ -1732,15 +1732,15 @@ technologies = {
 		research_cost = 1.5
 
 		start_year = 1948
-		
+
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 25 }
 		}
-		
+
 		ai_will_do = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 5
 				tag = USA
@@ -1750,7 +1750,7 @@ technologies = {
 				has_tech_bonus = {
     				category = bb_tech
 				}
-			}			
+			}
 			modifier = {
 				is_major = no
 				factor = 0
@@ -1758,14 +1758,14 @@ technologies = {
 			modifier = {
 				not = {
 					any_controlled_state = {
-							 
+
 						is_coastal = yes
 					}
 				}
 				factor = 0.2
-			}			
+			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			bb_tech
@@ -1883,7 +1883,7 @@ early_ship_hull_carrier = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
@@ -2017,13 +2017,13 @@ early_ship_hull_carrier = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
     					category = cv_tech
 				}
-			}					
+			}
 		}
 
 		categories = {
@@ -2066,7 +2066,7 @@ early_ship_hull_carrier = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
@@ -2224,7 +2224,7 @@ early_ship_hull_carrier = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
@@ -2295,7 +2295,7 @@ early_ship_hull_carrier = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
@@ -2353,7 +2353,7 @@ early_ship_hull_carrier = {
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
@@ -2378,19 +2378,19 @@ early_ship_hull_carrier = {
 		enable_equipments = {
 			ship_hull_submarine_5
 		}
-		
+
 		research_cost = 2.0
 
 		start_year = 1948
-		
+
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -2 y = 25 }
 		}
-		
+
 		ai_will_do = {
 			factor = 6
-			
+
 			modifier = {
 				factor = 7
 				OR = {
@@ -2401,18 +2401,18 @@ early_ship_hull_carrier = {
 			modifier = {
 				not = {
 					any_controlled_state = {
-			 
+
 						is_coastal = yes
 					}
 				}
 				factor = 0.2
-			}	
+			}
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
     				category = ss_tech
 				}
-			}					
+			}
 		}
 
 		categories = {

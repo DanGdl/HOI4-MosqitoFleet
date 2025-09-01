@@ -10,7 +10,7 @@ ideas = {
 					has_tech = base_strike
 					has_tech = small_fleet
 				}
-			}				
+			}
 			modifier = {
 				custom_modifier_tooltip = instilled_aggression_spirit_tt
 			}
@@ -20,7 +20,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -48,7 +48,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -76,7 +76,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -107,7 +107,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -138,7 +138,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -170,7 +170,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -200,7 +200,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -230,7 +230,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -263,7 +263,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -312,7 +312,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -341,7 +341,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -368,7 +368,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -396,7 +396,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -422,7 +422,7 @@ ideas = {
 			visible = { has_tech = fleet_in_being }
 			research_bonus = {
 				bb_tech = 0.20
-				ca_tech = 0.20 
+				ca_tech = 0.20
 			}
 			modifier = {
 				ship_hull_heavy_design_cost_factor = -0.6
@@ -433,7 +433,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -465,7 +465,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -497,7 +497,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -528,7 +528,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -557,7 +557,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -565,7 +565,7 @@ ideas = {
 				}
 			}
 		}
-		surprise_attacks_spirit = { 
+		surprise_attacks_spirit = {
 			ledger = navy
 			available = {
 				OR = {
@@ -587,7 +587,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -614,7 +614,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -650,7 +650,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -681,7 +681,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -708,7 +708,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -736,14 +736,14 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
 					NOT = { has_dlc = "No Step Back" }
 				}
 			}
-		} 
+		}
 		bureau_of_ordnance_spirit = {
 			ledger = navy
 			available = {

@@ -33,7 +33,7 @@
 		}
 	}
 	create_equipment_variant = {
-		name = "Hualtaco"			
+		name = "Hualtaco"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
 		modules = {

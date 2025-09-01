@@ -375,7 +375,7 @@ equipments = {
 
 		max_strength = 35
 
-		type = { 
+		type = {
 			screen_ship
 		}
 
@@ -422,7 +422,7 @@ equipments = {
 
 		max_strength = 45
 
-		type = { 
+		type = {
 			screen_ship
 		}
 		build_cost_ic = 300
@@ -468,7 +468,7 @@ equipments = {
 
 		max_strength = 50
 
-		type = { 
+		type = {
 			screen_ship
 		}
 
@@ -515,7 +515,7 @@ equipments = {
 
 		max_strength = 50
 
-		type = { 
+		type = {
 			screen_ship
 		}
 

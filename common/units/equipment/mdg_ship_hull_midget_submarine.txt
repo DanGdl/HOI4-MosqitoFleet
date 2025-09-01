@@ -113,7 +113,7 @@ equipments = {
 		priority = 1500
 
 		module_slots = {
-			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
 			mid_1_custom_slot = {

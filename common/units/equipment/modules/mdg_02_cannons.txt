@@ -1,13 +1,13 @@
 equipment_modules = {
 	limit = {
-		has_dlc = "Man the Guns" 
+		has_dlc = "Man the Guns"
 	}
 
-	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   # 
-	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #  
-	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #   
-	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #   
-	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #   
+	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   #
+	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #
+	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #
+	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #
+	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #
 
 	mdg_ship_light_cannon_1 = {
 		abbreviation = "lsc_1"
@@ -85,9 +85,9 @@ equipment_modules = {
 
 		add_stats = {
 			lg_attack = 1.7
-			build_cost_ic = 120	
+			build_cost_ic = 120
 		}
-	
+
 		add_average_stats = {
 			lg_armor_piercing = 2.5
 		}
@@ -114,7 +114,7 @@ equipment_modules = {
 		category = mdg_ship_light_cannon
 		parent = mdg_ship_light_cannon_3
 		sfx = sfx_ui_sd_module_turret
-	
+
 		add_stats = {
 			lg_attack = 2.5
 			build_cost_ic = 150
@@ -131,7 +131,7 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 2.5
 		}
-	
+
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon
 			convert_cost_ic = 150
@@ -151,7 +151,7 @@ equipment_modules = {
 		abbreviation = "lscd_1"
 		category = mdg_ship_light_cannon_dp
 		sfx = sfx_ui_sd_module_turret
-	
+
 		add_stats = {
 			lg_attack = 0.8
 			anti_air_attack = 0.8
@@ -165,12 +165,12 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.4
 		}
-	
+
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon
 			convert_cost_ic = 80
 		}
-	
+
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon_dp
 			convert_cost_ic = 60
@@ -184,7 +184,7 @@ equipment_modules = {
 		category = mdg_ship_light_cannon_dp
 		parent = mdg_ship_light_cannon_dp_1
 		sfx = sfx_ui_sd_module_turret
-	
+
 		add_stats = {
 			lg_attack = 1.3
 			anti_air_attack = 1.8
@@ -198,7 +198,7 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 0.8
 		}
-	
+
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon
 			convert_cost_ic = 70
@@ -208,7 +208,7 @@ equipment_modules = {
 			module_category = mdg_ship_light_cannon_dp
 			convert_cost_ic = 40 # conversion cost from ANY ship_light_guns module
 		}
-	
+
 		can_convert_from = {
 			module = mdg_ship_light_cannon_dp_1
 			convert_cost_ic = 40 # conversion cost from that specific module
@@ -222,13 +222,13 @@ equipment_modules = {
 		category = mdg_ship_light_cannon_dp
 		parent = mdg_ship_light_cannon_dp_2
 		sfx = sfx_ui_sd_module_turret
-	
+
 		add_stats = {
 			lg_attack = 1.9
 			anti_air_attack = 2.9
-			build_cost_ic = 130		
+			build_cost_ic = 130
 		}
-	
+
 		add_average_stats = {
 			lg_armor_piercing = 1.65
 		}
@@ -246,7 +246,7 @@ equipment_modules = {
 			module_category = mdg_ship_light_cannon_dp
 			convert_cost_ic = 45
 		}
-	
+
 		can_convert_from = {
 			module = mdg_ship_light_cannon_dp_2
 			convert_cost_ic = 45
@@ -260,7 +260,7 @@ equipment_modules = {
 		category = mdg_ship_light_cannon_dp
 		parent = mdg_ship_light_cannon_dp_3
 		sfx = sfx_ui_sd_module_turret
-	
+
 		add_stats = {
 			lg_attack = 2.2
 			anti_air_attack = 3.5
@@ -278,7 +278,7 @@ equipment_modules = {
 		add_average_stats = {
 			lg_armor_piercing = 1.65
 		}
-	
+
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon
 			convert_cost_ic = 170
@@ -288,7 +288,7 @@ equipment_modules = {
 			module_category = mdg_ship_light_cannon_dp
 			convert_cost_ic = 120
 		}
-		
+
 		can_convert_from = {
 			module = mdg_ship_light_cannon_dp_3
 			convert_cost_ic = 120
