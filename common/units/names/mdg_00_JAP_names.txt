@@ -1,9 +1,71 @@
 ﻿JAP = {
 	fleet_names_template = FLEET_NAME_JAP
 
-	mdg_ship_hull_midget_submarine = {
+	mdg_midget_submarine = {
 		prefix = ""
 		generic = { "HA" }
+		unique = {}
+	}
+
+	mdg_boat = {
+		prefix = ""
+		generic = { "T" }
+		unique = {}
+	}
+
+	mdg_hydrofoil = {
+		prefix = ""
+		generic = { "PG" }
+		unique = {}
+	}
+
+	mdg_corvette = {
+		prefix = ""
+		generic = { "P" }
+		unique = {
+			"Hashidate" "Uji" "Okitsu" "Asuga" "Atada" "Karatsu" "Tatara" "Suma" "Maiko" "Narumi" "Hatsutaka" "Aotaka" "Wakataka" "Eijo" "Mino"
+			"Kamome" "Tsubame" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Katashima" "Kurokami" "Ento" "Enoshima" "Kurosaki" "Ninoshima" "Washizaki"
+			"Nasami" "Natsushima" "Sarushima" "Sokuten" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Ishizaki" "Hoko" "Takashima" "Saishu"
+			"Niizaki" "Yurishima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima"
+		}
+	}
+
+	mdg_frigate = {
+		prefix = ""
+		generic = { "CD" }
+		unique = {
+			"Shimushu" "Hachijo" "Kunashiri" "Ishigaki" "Etorofu" "Mutsure" "Hirado" "Amakusa" "Oki" "Fukue" "Kanju" "Kasado" "Sado" "Tsushima"
+			"Matsuwa" "Wakamiya" "Manju" "Iki" "Awaji" "Yashiro" "Mikura" "Miyake" "Kurahashi" "Chiburi" "Nomi" "Kusagaki" "Ukuru" "Okinawa" "Hiburi"
+			"Shonan" "Daito" "Kume" "Ikina" "Shinnan" "Aguni" "Amami" "Yaku" "Chikubu" "Kozu" "Hodaka" "Ikata" "Ikuno" "Urumi" "Murotsu" "Shisaka"
+			"Sakito" "Mokuto" "Habuto" "Otsu" "Tomoshiri" "Inagi" "Habushi" "Oga" "Kanawa" "Takane" "Uku" "Kuga" "Shiga" "Iwo" "Tsugaru"
+		}
+	}
+
+	mdg_auxiliary = {
+		prefix = ""
+		generic = { "AUX" }
+		unique = {
+			"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru"
+			"Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru" "Masaka Maru"
+		}
+	}
+
+	mdg_monitor = {
+		prefix = ""
+		generic = { "Monitor" }
+		unique = {}
+	}
+
+	mdg_mac = {
+		prefix = ""
+		generic = { "AVG" }
+		unique = { "Taiyo" "Shinyo" "Unyo" }
+	}
+
+
+	mdg_ship_hull_midget_submarine = {
+		prefix = ""
+		generic = { "I" }
 		unique = {}
 	}
 
@@ -56,53 +118,9 @@
 		unique = {}
 	}
 
-
-	mdg_ship_hull_midget_submarine = {
+	mdg_ship_hull_mac = {
 		prefix = ""
-		generic = { "I" }
-		unique = {}
-	}
-
-	mdg_ship_hull_boat = {
-		prefix = ""
-		generic = { "T" }
-		unique = {}
-	}
-
-	mdg_ship_hull_hydrofoil = {
-		prefix = ""
-		generic = { "PG" }
-		unique = {}
-	}
-
-	mdg_ship_hull_corvette = {
-		prefix = ""
-		generic = { "P" }
-		unique = {
-			"Hashidate" "Uji" "Okitsu" "Asuga" "Atada" "Karatsu" "Tatara" "Suma" "Maiko" "Narumi" "Hatsutaka" "Aotaka" "Wakataka" "Eijo" "Mino"
-			"Kamome" "Tsubame" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Katashima" "Kurokami" "Ento" "Enoshima" "Kurosaki" "Ninoshima" "Washizaki"
-			"Nasami" "Natsushima" "Sarushima" "Sokuten" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Ishizaki" "Hoko" "Takashima" "Saishu"
-			"Niizaki" "Yurishima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima"
-		}
-	}
-
-	mdg_ship_hull_frigate = {
-		prefix = ""
-		generic = { "CD" }
-		unique = {
-			"Shimushu" "Hachijo" "Kunashiri" "Ishigaki" "Etorofu" "Mutsure" "Hirado" "Amakusa" "Oki" "Fukue" "Kanju" "Kasado" "Sado" "Tsushima"
-			"Matsuwa" "Wakamiya" "Manju" "Iki" "Awaji" "Yashiro" "Mikura" "Miyake" "Kurahashi" "Chiburi" "Nomi" "Kusagaki" "Ukuru" "Okinawa" "Hiburi"
-			"Shonan" "Daito" "Kume" "Ikina" "Shinnan" "Aguni" "Amami" "Yaku" "Chikubu" "Kozu" "Hodaka" "Ikata" "Ikuno" "Urumi" "Murotsu" "Shisaka"
-			"Sakito" "Mokuto" "Habuto" "Otsu" "Tomoshiri" "Inagi" "Habushi" "Oga" "Kanawa" "Takane" "Uku" "Kuga" "Shiga" "Iwo" "Tsugaru"
-		}
-	}
-
-	mdg_ship_hull_auxiliary = {
-		prefix = ""
-		generic = { "AUX" }
-		unique = {
-			"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru"
-			"Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru" "Masaka Maru"
-		}
+		generic = { "AVG" }
+		unique = { "Taiyo" "Shinyo" "Unyo" }
 	}
 }

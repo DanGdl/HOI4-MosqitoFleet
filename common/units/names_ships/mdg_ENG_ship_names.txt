@@ -18,6 +18,22 @@ ENG_AUXILIARY_HISTORICAL = {
 	}
 }
 
+ENG_MAC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MACS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_mac }
+
+	prefix = "HMS "
+	fallback_name = "AVG %s"
+
+	unique = {
+		"Audacity" "Attacker" "Ruler" "Escort"
+	}
+}
+
 ENG_MS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINESWEEPERS
 

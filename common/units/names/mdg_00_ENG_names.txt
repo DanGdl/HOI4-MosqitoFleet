@@ -52,6 +52,11 @@
 		unique = {}
 	}
 
+	mdg_mac = {
+		prefix = "HMS"
+		generic = { "AVG" }
+		unique = { "Audacity" "Attacker" "Ruler" "Escort" }
+	}
 
 
 	mdg_ship_hull_auxiliary = {
@@ -103,5 +108,11 @@
 		prefix = "HMS"
 		generic = { "MN" }
 		unique = {}
+	}
+
+	mdg_ship_hull_mac = {
+		prefix = "HMS"
+		generic = { "AVG" }
+		unique = { "Audacity" "Attacker" "Ruler" "Escort" }
 	}
 }

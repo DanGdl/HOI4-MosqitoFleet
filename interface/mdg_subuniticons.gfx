@@ -3,6 +3,7 @@ spriteTypes = {
 	#################################
 	### On-map-counters for SHIPS ###
 
+	spriteType = { name = "GFX_unit_mdg_mac_icon_medium_white"				texturefile = "gfx/interface/counters/ships_small/onmap_mdg_mac.dds" }
 	spriteType = { name = "GFX_unit_mdg_monitor_icon_medium_white"			texturefile = "gfx/interface/counters/ships_small/onmap_mdg_monitor.dds" }
 	spriteType = { name = "GFX_unit_mdg_hydrofoil_icon_medium_white"		texturefile = "gfx/interface/counters/ships_small/onmap_mdg_hydrofoil.dds" }
 	spriteType = { name = "GFX_unit_mdg_auxiliary_icon_medium_white"		texturefile = "gfx/interface/counters/ships_small/onmap_mdg_auxiliary.dds" }
@@ -14,6 +15,7 @@ spriteTypes = {
 	############################################
 	### On-map-counters for SHIPS - Inverted ###
 
+	spriteType = { name = "GFX_unit_mdg_mac_icon_medium_black"				texturefile = "gfx/interface/counters/ships_small/onmap_mdg_mac_inverted.dds" }
 	spriteType = { name = "GFX_unit_mdg_monitor_icon_medium_black"			texturefile = "gfx/interface/counters/ships_small/onmap_mdg_monitor_inverted.dds" }
 	spriteType = { name = "GFX_unit_mdg_hydrofoil_icon_medium_black"		texturefile = "gfx/interface/counters/ships_small/onmap_mdg_hydrofoil_inverted.dds" }
 	spriteType = { name = "GFX_unit_mdg_auxiliary_icon_medium_black"		texturefile = "gfx/interface/counters/ships_small/onmap_mdg_auxiliary_inverted.dds" }
@@ -56,4 +58,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_mdg_boat_2_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_boat_II.dds"			noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_boat_3_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_boat_III.dds"		noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_boat_4_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_boat_IV.dds"			noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_mdg_mac_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_mac.dds"				noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mdg_mac_1_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_mac_I.dds"			noOfFrames = 2 }
 }

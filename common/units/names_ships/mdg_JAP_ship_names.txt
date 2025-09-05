@@ -15,6 +15,22 @@ JAP_AUXILIARY_HISTORICAL = {
 	}
 }
 
+JAP_MAC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MACS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { mdg_ship_hull_mac }
+
+	prefix = ""
+	fallback_name = "AVG %s"
+
+	unique = {
+		"Taiyo" "Shinyo" "Unyo"
+	}
+}
+
 JAP_MIDGET_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MIDGETS
 

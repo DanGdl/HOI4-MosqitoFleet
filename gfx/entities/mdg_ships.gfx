@@ -101,4 +101,12 @@ objectTypes = {
 		animation = { id = "damaged_defend"		type = "generic_submarine_defend_animation" }
 		animation = { id = "death"				type = "generic_submarine_death_animation" }
 	}
+	pdxmesh = {
+		name = "mdg_mac_mesh"
+		file = "gfx/models/units/ships/generic_carrier.mesh"
+		
+		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+		animation = { id = "death"			type = "generic_carrier_death_animation" }
+		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+	}
 }

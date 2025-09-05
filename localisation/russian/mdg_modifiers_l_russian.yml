@@ -20,6 +20,9 @@
  modifier_experience_gain_mdg_monitor_training_factor: "Получаемый опыт за подготовку монитора"
  modifier_experience_gain_mdg_monitor_combat_factor: "Получаемый боевой опыт монитора"
 
+ modifier_experience_gain_mdg_mac_training_factor: "Получаемый опыт за подготовку вспомогательного авианосца"
+ modifier_experience_gain_mdg_mac_combat_factor: "Получаемый боевой опыт вспомогательного авианосца"
+
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Прирост опыта от черты «Москит»"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Стоимость проекта вооружения катеров I"
@@ -39,6 +42,7 @@
  mdg_ship_hull_frigate_design_cost_factor: "Стоимость проекта фрегата"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Стоимость проекта сверхмалой субмарины"
  mdg_ship_hull_monitor_design_cost_factor: "Стоимость проекта монитора"
+ mdg_ship_hull_mac_design_cost_factor: "Стоимость проекта вспомогательного авианосца"
 
  mdg_ff_tech_research: "Темпы исследований фрегатов"
  mdg_lcs_tech_research: "Темпы исследований корветов"

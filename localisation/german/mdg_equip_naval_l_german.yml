@@ -47,6 +47,10 @@
  mdg_auxiliary_1: "Hilfskreuzer"
  mdg_auxiliary_1_desc: "Beschreibung des Hilfskreuzers"
 
+ mdg_mac_1: "Hilfsflugzeugträger"
+ mdg_mac_1: "Hilfsflugzeugträger"
+ mdg_mac_1_desc: "Beschreibung des Hilfsflugzeugträgers"
+
  mdg_boat: "Boot"
  mdg_boat_1: "Boot I"
  mdg_boat_2: "Boot II"
@@ -174,6 +178,9 @@
 
  mdg_ship_hull_auxiliary: "Hilfskreuzer"
  mdg_ship_hull_auxiliary_1: "Hilfskreuzer"
+
+ mdg_ship_hull_mac_1: "Hilfsflugzeugträger"
+ mdg_ship_hull_mac_1_desc: "Beschreibung des Hilfsflugzeugträgers"
 
  mdg_ship_hull_corvette: "Korvette"
  mdg_ship_hull_corvette_1: "Früher Korvette"

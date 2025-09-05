@@ -47,6 +47,10 @@
  mdg_auxiliary_1: "補助巡洋艦"
  mdg_auxiliary_1_desc: "補助巡洋艦の説明"
 
+ mdg_mac_1: "補助空母"
+ mdg_mac_1: "補助空母"
+ mdg_mac_1_desc: "補助空母の説明"
+
  mdg_boat: "小型艇"
  mdg_boat_1: "小型艇 I"
  mdg_boat_2: "小型艇 II"
@@ -173,6 +177,9 @@
 
  mdg_ship_hull_auxiliary: "補助巡洋艦"
  mdg_ship_hull_auxiliary_1: "補助巡洋艦"
+
+ mdg_ship_hull_mac_1: "補助空母"
+ mdg_ship_hull_mac_1_desc: "補助空母の説明"
 
  mdg_ship_hull_corvette: "コルベット"
  mdg_ship_hull_corvette_1: "初期型コルベット"

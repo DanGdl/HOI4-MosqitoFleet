@@ -55,3 +55,12 @@ mio_cat_eq_all_battleship = { #Includes all Battleships (BB, BC, SHBB, Pre-Dread
 		mdg_ship_hull_monitor
 	}
 }
+
+mio_cat_eq_all_carrier = { #Includes all CV --- Used due to custom loc capabilities
+	equipment_type = {
+		ship_hull_carrier
+
+		# easiest way to add support of MIO for new equipment
+		mdg_ship_hull_mac
+	}
+}

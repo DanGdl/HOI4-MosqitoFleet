@@ -47,6 +47,10 @@
  mdg_auxiliary_1: "Auxiliary cruiser"
  mdg_auxiliary_1_desc: "Auxiliary cruiser description"
 
+ mdg_mac_1: "Auxiliary carrier"
+ mdg_mac_1: "Auxiliary carrier"
+ mdg_mac_1_desc: "Auxiliary carrier description"
+
  mdg_boat: "Boat"
  mdg_boat_1: "Boat I"
  mdg_boat_2: "Boat II"
@@ -173,6 +177,9 @@
 
  mdg_ship_hull_auxiliary: "Auxiliary cruiser"
  mdg_ship_hull_auxiliary_1: "Auxiliary Cruiser"
+
+ mdg_ship_hull_mac_1: "Auxiliary carrier"
+ mdg_ship_hull_mac_1_desc: "Auxiliary carrier description"
 
  mdg_ship_hull_corvette: "Corvette"
  mdg_ship_hull_corvette_1: "Early Corvette"
