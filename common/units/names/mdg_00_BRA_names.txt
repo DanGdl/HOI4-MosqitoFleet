@@ -47,6 +47,12 @@
 		unique = {}
 	}
 
+	mdg_mac = {
+		prefix = ""
+		generic = { "AVG" }
+		unique = { "Minas Gerais" }
+	}
+
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "NRB"
@@ -92,5 +98,11 @@
 		prefix = "NRB"
 		generic = { "Monitor" }
 		unique = {}
+	}
+
+	mdg_ship_hull_mac = {
+		prefix = ""
+		generic = { "AVG" }
+		unique = { "Minas Gerais" }
 	}
 }

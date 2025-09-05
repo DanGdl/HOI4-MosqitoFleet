@@ -76,4 +76,15 @@ spriteTypes = {
 		texturefile = "gfx/texticons/ship_mdg_monitor_icon_small.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_ship_mdg_mac_icon_small"
+		texturefile = "gfx/texticons/ship_mdg_mac_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "unit_mdg_mac_icon_small"
+		texturefile = "gfx/texticons/ship_mdg_mac_icon_small.dds"
+		legacy_lazy_load = no
+	}
 }

@@ -1,5 +1,15 @@
 spriteTypes = {
 	### NAVAL TECH ###
+	# Merchant Air Carriers
+	SpriteType = {
+		name = "GFX_mdg_mac_medium"
+		texturefile = "gfx/interface/technologies/mdg_mac.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_mac_medium"
+		texturefile = "gfx/interface/technologies/mdg_mac.dds"
+	}
+
 	# AUXILIARIES
 	SpriteType = {
 		name = "GFX_mdg_auxiliary_medium"

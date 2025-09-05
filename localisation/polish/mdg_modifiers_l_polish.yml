@@ -20,6 +20,9 @@
  modifier_experience_gain_mdg_monitor_training_factor: "Doświadczenie za szkolenie monitora"
  modifier_experience_gain_mdg_monitor_combat_factor: "Doświadczenie bojowe monitora"
 
+ modifier_experience_gain_mdg_mac_training_factor: "Doświadczenie za szkolenie pomocniczego lotniskowca"
+ modifier_experience_gain_mdg_mac_combat_factor: "Doświadczenie bojowe pomocniczego lotniskowca"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Koszt projektu lekkich dział I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Koszt projektu lekkich dział II"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Koszt projektu lekkich dział III"
@@ -37,6 +40,7 @@
  mdg_ship_hull_frigate_design_cost_factor: "Koszt projektu kadłuba fregaty"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Koszt projektu kadłuba miniaturowego okrętu podwodnego"
  mdg_ship_hull_monitor_design_cost_factor: "Koszt projektu monitora"
+ mdg_ship_hull_mac_design_cost_factor: "Koszt projektu pomocniczego lotniskowca"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Przyrost doświadczenia cechy „Komar”"
 

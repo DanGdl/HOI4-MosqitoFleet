@@ -52,6 +52,12 @@
 		unique = {}
 	}
 
+	mdg_mac = {
+		prefix = ""
+		generic = { "AVG" }
+		unique = { "Bearn" }
+	}
+
 
 
 	mdg_ship_hull_auxiliary = {
@@ -85,5 +91,11 @@
 		unique = {
 			"L'Aventure" "Croixde Lorraine" "La Decouverte" "L'Escarmouche" "La Surprise" "Tonkinois"
 		}
+	}
+
+	mdg_ship_hull_mac = {
+		prefix = ""
+		generic = { "AVG" }
+		unique = { "Bearn" }
 	}
 }

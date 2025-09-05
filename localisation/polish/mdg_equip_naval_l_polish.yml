@@ -2,6 +2,7 @@
  mdg_corvette: "Korweta"
  mdg_hydrofoil: "Łódź na poduszce wodnej"
  mdg_auxiliary: "Krążownik pomocniczy"
+ mdg_mac_1: "Pomocniczy lotniskowiec"
  mdg_boat: "Łódź"
  mdg_frigate: "Fregata"
  mdg_midget_submarine: "Miniaturowa łódź podwodna"
@@ -33,6 +34,9 @@
 
  mdg_ship_hull_auxiliary: "Krążownik pomocniczy"
  mdg_ship_hull_auxiliary_1: "Krążownik pomocniczy"
+
+ mdg_ship_hull_mac_1: "Pomocniczy lotniskowiec"
+ mdg_ship_hull_mac_1_desc: "Opis pomocniczego lotniskowca"
 
  mdg_ship_hull_corvette: "Korweta"
  mdg_ship_hull_corvette_1: "Wczesna korweta"

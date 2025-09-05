@@ -2,6 +2,7 @@
  mdg_corvette: "Corvette"
  mdg_hydrofoil: "Bateau hydroptère"
  mdg_auxiliary: "Croiseur auxiliaire"
+ mdg_mac_1: "Porte-avions auxiliaire"
  mdg_boat: "Vedette"
  mdg_frigate: "Frégate"
  mdg_midget_submarine: "Sous-marin de poche"
@@ -33,6 +34,9 @@
 
  mdg_ship_hull_auxiliary: "Croiseur auxiliaire"
  mdg_ship_hull_auxiliary_1: "Croiseur auxiliaire"
+
+ mdg_ship_hull_mac_1: "Porte-avions auxiliaire"
+ mdg_ship_hull_mac_1_desc: "Description du porte-avions auxiliaire"
 
  mdg_ship_hull_corvette: "Corvette"
  mdg_ship_hull_corvette_1: "Corvette rudimentaire"

@@ -2,6 +2,7 @@
  mdg_corvette: "轻型护卫舰"
  mdg_hydrofoil: "水翼船"
  mdg_auxiliary: "辅助巡洋舰"
+ mdg_mac_1: "辅助航空母舰"
  mdg_boat: "小型舰艇"
  mdg_frigate: "护卫舰"
  mdg_midget_submarine: "微型潜艇"
@@ -33,6 +34,9 @@
 
  mdg_ship_hull_auxiliary: "辅助巡洋舰"
  mdg_ship_hull_auxiliary_1: "辅助巡洋舰"
+
+ mdg_ship_hull_mac_1: "辅助航空母舰"
+ mdg_ship_hull_mac_1_desc: "辅助航空母舰描述"
 
  mdg_ship_hull_corvette: "轻型护卫舰"
  mdg_ship_hull_corvette_1: "早期轻型护卫舰"

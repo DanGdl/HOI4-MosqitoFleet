@@ -2,6 +2,7 @@
  mdg_corvette: "Corbeta"
  mdg_hydrofoil: "Embarcación con hidroalas"
  mdg_auxiliary: "Crucero auxiliar"
+ mdg_mac_1: "Portaaviones auxiliar"
  mdg_boat: "Bote"
  mdg_frigate: "Fragata"
  mdg_midget_submarine: "Submarino enano"
@@ -33,6 +34,9 @@
 
  mdg_ship_hull_auxiliary: "Crucero auxiliar"
  mdg_ship_hull_auxiliary_1: "Crucero Auxiliar"
+
+ mdg_ship_hull_mac_1: "Portaaviones auxiliar"
+ mdg_ship_hull_mac_1_desc: "Descripción del portaaviones auxiliar"
 
  mdg_ship_hull_corvette: "Corbeta"
  mdg_ship_hull_corvette_1: "Corbeta de preguerra"

@@ -51,6 +51,12 @@
 		unique = {}
 	}
 
+	mdg_mac = {
+		prefix = "HrMs"
+		generic = { "AVG" }
+		unique = { "Karel Doorman" }
+	}
+
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "HrMs"
@@ -100,5 +106,11 @@
 		prefix = "HrMs"
 		generic = { "Monitor" }
 		unique = {}
+	}
+
+	mdg_ship_hull_mac = {
+		prefix = "HrMs"
+		generic = { "AVG" }
+		unique = { "Karel Doorman" }
 	}
 }

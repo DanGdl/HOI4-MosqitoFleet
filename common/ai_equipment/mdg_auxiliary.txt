@@ -1,5 +1,5 @@
 
-mdg_auxiliarys = {
+mdg_auxiliaries = {
 	category = naval
 
 	blocked_for = {

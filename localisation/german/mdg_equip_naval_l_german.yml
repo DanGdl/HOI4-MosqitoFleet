@@ -2,6 +2,7 @@
  mdg_corvette: "Korvette"
  mdg_hydrofoil: "Tragflügelboot"
  mdg_auxiliary: "Hilfskreuzer"
+ mdg_mac_1: "Hilfsflugzeugträger"
  mdg_boat: "Boot"
  mdg_frigate: "Fregatte"
  mdg_midget_submarine: "Kleinst-U-Boot"
@@ -33,6 +34,9 @@
 
  mdg_ship_hull_auxiliary: "Hilfskreuzer"
  mdg_ship_hull_auxiliary_1: "Hilfskreuzer"
+
+ mdg_ship_hull_mac_1: "Hilfsflugzeugträger"
+ mdg_ship_hull_mac_1_desc: "Beschreibung des Hilfsflugzeugträgers"
 
  mdg_ship_hull_corvette: "Korvette"
  mdg_ship_hull_corvette_1: "Früher Korvette"

@@ -37,6 +37,15 @@ categories = {
 				defence = 0.2
 			}
 		}
+
+		mdg_mac = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
 	}
 
 	water_shallow_sea = {

@@ -2,6 +2,7 @@
  mdg_corvette: "Корвет"
  mdg_hydrofoil: "Катер на подводных крыльях"
  mdg_auxiliary: "Вспомогательный крейсер"
+ mdg_mac: "Вспомогательный авианосец"
  mdg_boat: "Катер"
  mdg_frigate: "Фрегат"
  mdg_midget_submarine: "Сверхмалая подводная лодка"
@@ -33,6 +34,9 @@
 
  mdg_ship_hull_auxiliary: "Вспомогательный крейсер"
  mdg_ship_hull_auxiliary_1: "Вспомогательный крейсер"
+
+ mdg_ship_hull_mac_1: "Вспомогательный авианосец"
+ mdg_ship_hull_mac_1_desc: "Вспомогательный авианосец описание"
 
  mdg_ship_hull_corvette: "Корвет"
  mdg_ship_hull_corvette_1: "Ранний корвет"
