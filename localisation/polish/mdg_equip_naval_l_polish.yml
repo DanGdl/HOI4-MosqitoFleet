@@ -49,6 +49,10 @@
  mdg_auxiliary_1: "Krążownik pomocniczy"
  mdg_auxiliary_1_desc: "Opis krążownika pomocniczego"
 
+ mdg_mac_1: "Pomocniczy lotniskowiec"
+ mdg_mac_1: "Pomocniczy lotniskowiec"
+ mdg_mac_1_desc: "Opis pomocniczego lotniskowca"
+
  mdg_boat: "Łódź"
  mdg_boat_1: "Łódź I"
  mdg_boat_2: "Łódź II"
@@ -181,6 +185,9 @@
 
  mdg_ship_hull_auxiliary: "Krążownik pomocniczy"
  mdg_ship_hull_auxiliary_1: "Krążownik pomocniczy"
+
+ mdg_ship_hull_mac_1: "Pomocniczy lotniskowiec"
+ mdg_ship_hull_mac_1_desc: "Opis pomocniczego lotniskowca"
 
  mdg_ship_hull_corvette: "Korweta"
  mdg_ship_hull_corvette_1: "Wczesna korweta"

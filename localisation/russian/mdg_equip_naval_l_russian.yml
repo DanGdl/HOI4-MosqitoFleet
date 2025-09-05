@@ -49,6 +49,10 @@
  mdg_auxiliary_1: "Вспомогательный крейсер"
  mdg_auxiliary_1_desc: "Вспомогательный крейсер описание"
 
+ mdg_mac: "Вспомогательный авианосец"
+ mdg_mac_1: "Вспомогательный авианосец"
+ mdg_mac_1_desc: "Вспомогательный авианосец описание"
+
  mdg_boat: "Катер"
  mdg_boat_1: "Катер I"
  mdg_boat_2: "Катер II"
@@ -182,6 +186,9 @@
 
  mdg_ship_hull_auxiliary: "Вспомогательный крейсер"
  mdg_ship_hull_auxiliary_1: "Вспомогательный крейсер"
+
+ mdg_ship_hull_mac_1: "Вспомогательный авианосец"
+ mdg_ship_hull_mac_1_desc: "Вспомогательный авианосец описание"
 
  mdg_ship_hull_corvette: "Корвет"
  mdg_ship_hull_corvette_1: "Ранний корвет"

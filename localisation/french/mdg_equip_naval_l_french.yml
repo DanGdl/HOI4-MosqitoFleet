@@ -49,6 +49,10 @@
  mdg_auxiliary_1: "Croiseur auxiliaire"
  mdg_auxiliary_1_desc: "Description du croiseur auxiliaire"
 
+ mdg_mac_1: "Porte-avions auxiliaire"
+ mdg_mac_1: "Porte-avions auxiliaire"
+ mdg_mac_1_desc: "Description du porte-avions auxiliaire"
+
  mdg_boat: "Vedette"
  mdg_boat_1: "Vedette I"
  mdg_boat_2: "Vedette II"
@@ -180,6 +184,9 @@
 
  mdg_ship_hull_auxiliary: "Croiseur auxiliaire"
  mdg_ship_hull_auxiliary_1: "Croiseur auxiliaire"
+
+ mdg_ship_hull_mac_1: "Porte-avions auxiliaire"
+ mdg_ship_hull_mac_1_desc: "Description du porte-avions auxiliaire"
 
  mdg_ship_hull_corvette: "Corvette"
  mdg_ship_hull_corvette_1: "Corvette rudimentaire"

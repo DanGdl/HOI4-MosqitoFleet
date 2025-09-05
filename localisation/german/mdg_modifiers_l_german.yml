@@ -20,6 +20,9 @@
  modifier_experience_gain_mdg_monitor_training_factor: "Erfahrung durch Monitor-Ausbildung"
  modifier_experience_gain_mdg_monitor_combat_factor: "Kampferfahrung durch Monitore"
 
+ modifier_experience_gain_mdg_mac_training_factor: "Erfahrungszuwachs durch Ausbildung von Hilfsflugzeugträgern"
+ modifier_experience_gain_mdg_mac_combat_factor: "Erfahrungszuwachs durch Gefechte von Hilfsflugzeugträgern"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Konstruktionskosten für leichte Geschütze I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Konstruktionskosten für leichte Geschütze II"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Konstruktionskosten für leichte Geschütze III"
@@ -37,6 +40,7 @@
  mdg_ship_hull_frigate_design_cost_factor: "Konstruktionskosten für Fregattenrumpf"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Rumpf"
  mdg_ship_hull_monitor_design_cost_factor: "Entwurfskosten für Monitor"
+ mdg_ship_hull_mac_design_cost_factor: "Entwurfskosten für Hilfsflugzeugträger"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Erfahrungsgewinn für „Moskito“-Eigenschaft"
 

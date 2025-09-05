@@ -158,6 +158,9 @@ technologies = {
 		carrier = {
 			max_organisation = 10
 		}
+		mdg_mac = {
+			max_organisation = 10
+		}
 		sortie_efficiency = 0.1
 		########
 
@@ -356,6 +359,9 @@ technologies = {
 
 		# EFFECT #############
 		carrier = {
+			max_organisation = 20
+		}
+		mdg_mac = {
 			max_organisation = 20
 		}
 		sortie_efficiency = 0.2
@@ -628,6 +634,9 @@ technologies = {
 		carrier = {
 			sub_detection = 0.25
 		}
+		mdg_mac = {
+			sub_detection = 0.25
+		}
 		convoy_escort_efficiency = 0.15
 		####
 
@@ -709,6 +718,9 @@ technologies = {
 			sub_detection = 0.15
 		}
 		carrier = {
+			sub_detection = 0.25
+		}
+		mdg_mac = {
 			sub_detection = 0.25
 		}
 		convoy_escort_efficiency = 0.10
@@ -1654,6 +1666,9 @@ technologies = {
 		carrier = {
 			max_organisation = 20
 		}
+		mdg_mac = {
+			max_organisation = 20
+		}
 		sortie_efficiency = 0.2
 		########
 
@@ -1697,6 +1712,9 @@ technologies = {
 
 		# EFFECT #############
 		carrier = {
+			max_organisation = 20
+		}
+		mdg_mac = {
 			max_organisation = 20
 		}
 		modifier = {
@@ -1811,6 +1829,9 @@ technologies = {
 		carrier = {
 			max_organisation = 10
 		}
+		mdg_mac = {
+			max_organisation = 10
+		}
 		sortie_efficiency = 0.1
 		########
 
@@ -1851,6 +1872,9 @@ technologies = {
 
 		# EFFECT #############
 		carrier = {
+			max_organisation = 10
+		}
+		mdg_mac = {
 			max_organisation = 10
 		}
 		modifier = {
@@ -1898,6 +1922,9 @@ technologies = {
 
 		# EFFECT ##############
 		carrier = {
+			max_organisation = 20
+		}
+		mdg_mac = {
 			max_organisation = 20
 		}
 		port_strike = 0.5
@@ -1966,6 +1993,9 @@ technologies = {
 		carrier = {
 			max_organisation = 20
 		}
+		mdg_mac = {
+			max_organisation = 20
+		}
 		sortie_efficiency = 0.1
 
 		modifier = {
@@ -2032,6 +2062,9 @@ technologies = {
 		#Task forces are based around carrier flagship
 		# EFFECT ##############
 		carrier = {
+			max_organisation = 20
+		}
+		mdg_mac = {
 			max_organisation = 20
 		}
 		light_cruiser = {
@@ -2112,6 +2145,9 @@ technologies = {
 		carrier = {
 			max_organisation = 20
 		}
+		mdg_mac = {
+			max_organisation = 20
+		}
 		sortie_efficiency = 0.2
 		########
 
@@ -2182,6 +2218,9 @@ technologies = {
 		#CAGs are larger and more effort is made to have all planes arrive at the target at the same time, even when launched from multiple CVs
 		# EFFECT #############
 		carrier = {
+			max_organisation = 20
+		}
+		mdg_mac = {
 			max_organisation = 20
 		}
 		carrier_capacity_penalty_reduction = -0.2
@@ -2328,6 +2367,9 @@ technologies = {
 
 		# EFFECT ##############
 		carrier = {
+			max_organisation = 20
+		}
+		mdg_mac = {
 			max_organisation = 20
 		}
 		light_cruiser = {
@@ -2914,6 +2956,9 @@ technologies = {
 		carrier = {
 			sub_detection = 0.25
 		}
+		mdg_mac = {
+			sub_detection = 0.25
+		}
 		convoy_escort_efficiency = 0.1
 		#####
 
@@ -3320,6 +3365,11 @@ technologies = {
 		# EFFECT #############
 		carrier = {
 			max_organisation = 20
+			sub_detection = 0.25
+		}
+		mdg_mac = {
+			max_organisation = 20
+			sub_detection = 0.25
 		}
 		sortie_efficiency = 0.2
 		########

@@ -26,3 +26,8 @@
  mdg_decision_cost_30_convoy_30_NavXP: "£GFX_topbar_convoys §Y30§! £navy_experience §Y30§!"
  mdg_decision_cost_30_convoy_30_NavXP_blocked: "£GFX_topbar_convoys §R30§! £navy_experience §R30§!"
  mdg_decision_cost_30_convoy_30_NavXP_tooltip: "Koszt decyzji: £GFX_topbar_convoys §Y30§! £navy_experience §Y30§!"
+
+ mdg_refit_to_mac: "Przebuduj statek na pomocniczy lotniskowiec"
+ mdg_decision_cost_80_convoy_45_NavXP: "£GFX_topbar_convoys §Y80§! £navy_experience §Y45§!"
+ mdg_decision_cost_80_convoy_45_NavXP_blocked: "£GFX_topbar_convoys §R80§! £navy_experience §R45§!"
+ mdg_decision_cost_80_convoy_45_NavXP_tooltip: "Koszt podjęcia decyzji: £GFX_topbar_convoys §Y80§! £navy_experience §Y45§!"

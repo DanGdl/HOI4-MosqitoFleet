@@ -1,0 +1,52 @@
+mdg_macs = {
+	category = naval
+	
+	blocked_for = {
+	}
+	
+	available_for = {
+	}
+	
+	roles = {
+		mdg_naval_mac
+	}
+
+	mdg_merchant_carrier_default = {
+
+		priority = {
+			factor = 250
+			modifier = {
+				factor = 10
+				is_major = no
+			}
+		}
+
+		role_icon_index = 7
+	
+		priority = {
+			factor = 100 
+		}
+		
+		history = yes
+		target_variant = {
+			match_value = 1000.0
+			
+			type = mdg_ship_hull_mac
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+			}
+		}
+		
+		allowed_modules = {
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_anti_air
+			carrier_ship_engine
+			ship_radar
+			ship_deck_space
+		}
+	}
+}

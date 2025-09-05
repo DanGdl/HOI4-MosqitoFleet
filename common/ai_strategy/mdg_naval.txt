@@ -39,6 +39,11 @@ default_role_ratios = {
 		id = mdg_naval_monitor
 		value = 5
 	}
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_mac
+		value = 10
+	}
 }
 
 default_role_ratios = {
@@ -124,6 +129,12 @@ default_role_ratios = {
 		type = role_ratio
 		id = mdg_naval_monitor
 		value = -90
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_mac
+		value = 5
 	}
 }
 

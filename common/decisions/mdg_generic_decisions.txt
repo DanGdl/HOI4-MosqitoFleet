@@ -33,12 +33,19 @@ mdg_generic_refit_civilian_ships_category = {
 				is_coastal = yes
 			}
 		}
-		allowed = {
-			always = yes
+		allowed = { # Add tags here with first an OR then an AND
+			NOT = {
+				OR = {
+					original_tag = DEN
+					original_tag = FIN
+					original_tag = ICE
+				}
+			}
+			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#    cancel_if_not_visible = yes
+		#}
 
 		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
 		custom_cost_trigger = {
@@ -176,8 +183,15 @@ mdg_generic_refit_civilian_ships_category = {
 				is_coastal = yes
 			}
 		}
-		allowed = {
-			always = yes
+		allowed = { # Add tags here with first an OR then an AND
+			NOT = {
+				OR = {
+					original_tag = DEN
+					original_tag = FIN
+					original_tag = ICE
+				}
+			}
+			# always = yes
 		}
 		#cancel_trigger = {
 	    #    cancel_if_not_visible = yes
@@ -316,8 +330,15 @@ mdg_generic_refit_civilian_ships_category = {
 				is_coastal = yes
 			}
 		}
-		allowed = {
-			always = yes
+		allowed = { # Add tags here with first an OR then an AND
+			NOT = {
+				OR = {
+					original_tag = DEN
+					original_tag = FIN
+					original_tag = ICE
+				}
+			}
+			# always = yes
 		}
 		#cancel_trigger = {
 	    #    cancel_if_not_visible = yes
@@ -454,8 +475,15 @@ mdg_generic_refit_civilian_ships_category = {
 				is_coastal = yes
 			}
 		}
-		allowed = {
-			always = yes
+		allowed = { # Add tags here with first an OR then an AND
+			NOT = {
+				OR = {
+					original_tag = DEN
+					original_tag = FIN
+					original_tag = ICE
+				}
+			}
+			# always = yes
 		}
 		#cancel_trigger = {
 	    #    cancel_if_not_visible = yes
@@ -593,8 +621,15 @@ mdg_generic_refit_civilian_ships_category = {
 				is_coastal = yes
 			}
 		}
-		allowed = {
-			always = yes
+		allowed = { # Add tags here with first an OR then an AND
+			NOT = {
+				OR = {
+					original_tag = DEN
+					original_tag = FIN
+					original_tag = ICE
+				}
+			}
+			# always = yes
 		}
 		#cancel_trigger = {
 	    #    cancel_if_not_visible = yes
@@ -694,6 +729,141 @@ mdg_generic_refit_civilian_ships_category = {
 					equipment_variant = "Refitted Mine Sweeper"
 					creator = ROOT
 					name = "MS"
+				}
+			}
+		}
+	}
+
+	mdg_refit_to_mac = {
+		cost = 30
+		icon = GFX_decision_generic_merge_plant_ship
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 1.5
+				has_equipment = {
+	   				convoy > 200
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 300
+		  		}
+			}
+			modifier = {
+				factor = 2
+				has_equipment = {
+	   				convoy > 500
+		  		}
+			}
+		}
+
+		visible = {
+			has_war = yes
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+		allowed = {
+			always = yes
+		}
+		#cancel_trigger = {
+		#    cancel_if_not_visible = yes
+		#}
+
+		custom_cost_text = mdg_decision_cost_80_convoy_45_NavXP
+		custom_cost_trigger = {
+			has_navy_experience > 45
+			has_equipment = {
+				convoy > 80
+			}
+		}
+
+		available = {
+			has_equipment = {
+   				convoy > 80
+	  		}
+	  		if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				AND = {
+					has_tech = early_ship_hull_carrier
+					has_tech = basic_battery
+				}
+			}
+			else = {
+				has_tech = early_carrier
+			}
+		}
+		days_remove = 120
+
+		complete_effect = {
+			navy_experience = -45
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -80
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
+					}
+					set_country_flag = mdg_flag_refit_to_mac_mtg
+
+					create_equipment_variant = {
+						name = "Merchant Aircraft Carrier"
+						type = mdg_ship_hull_mac_1
+						name_group = ENG_MAC_HISTORICAL #Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_deck_space
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = carrier_ship_engine_1
+							fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+						}
+						obsolete = yes
+					}
+				}
+				create_ship = {
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "Merchant Aircraft Carrier"
+					creator = ROOT
+					name = "AVG"
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mac_vanila }
+					}
+					set_country_flag = mdg_flag_refit_to_mac_vanila
+
+					create_equipment_variant = {
+						name = "Merchant Aircraft Carrier"
+						type = mdg_mac_1
+						upgrades = {
+							ship_deckspace_upgrade = 0
+							ship_engine_upgrade = 0
+							ship_reliability_upgrade = 0
+						}
+						obsolete = yes
+					}
+				}
+				create_ship = {
+					type = mdg_mac_1
+					equipment_variant = "Merchant Aircraft Carrier"
+					creator = ROOT
+					name = "AVG"
 				}
 			}
 		}

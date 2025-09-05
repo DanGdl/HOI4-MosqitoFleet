@@ -3,13 +3,6 @@ mdg_generic_refit_civilian_ships_category = {
 	picture = GFX_decision_cat_picture_generic_shipbuilding
 
 	allowed = { # Add tags here with first an OR then an AND
-        NOT = {
-            OR = {
-                original_tag = DEN
-                original_tag = FIN
-                original_tag = ICE
-            }
-		}
 	}
 	priority = {
 		base = 8

@@ -20,6 +20,9 @@
  modifier_experience_gain_mdg_monitor_training_factor: "Monitor Training Experience Gain"
  modifier_experience_gain_mdg_monitor_combat_factor: "Monitor Combat Experience Gain"
 
+ modifier_experience_gain_mdg_mac_training_factor: "Auxiliary Carrier Training Experience Gain"
+ modifier_experience_gain_mdg_mac_combat_factor: "Auxiliary Carrier Combat Experience Gain"
+
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Light guns I Design Cost"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Light guns II Design Cost"
  modifier_module_mdg_ship_light_guns_3_design_cost_factor: "Light guns III Design Cost"
@@ -38,6 +41,7 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Midget Submarine Design Cost"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Mosquito Trait XP Gain"
  mdg_ship_hull_monitor_design_cost_factor: "Monitor Design Cost"
+ mdg_ship_hull_mac_design_cost_factor: "Auxiliary carrier Design Cost"
 
  mdg_ff_tech_research: "Frigate Research Speed"
  mdg_lcs_tech_research: "Corvette Research Speed"

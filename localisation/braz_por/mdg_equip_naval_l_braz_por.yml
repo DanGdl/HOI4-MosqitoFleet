@@ -49,6 +49,10 @@
  mdg_auxiliary_1: "Cruzador Auxiliar"
  mdg_auxiliary_1_desc: "Descrição do Cruzador Auxiliar"
 
+ mdg_mac: "Porta-aviões Auxiliar"
+ mdg_mac_1: "Porta-aviões Auxiliar"
+ mdg_mac_1_desc: "Descrição do Porta-aviões Auxiliar"
+
  mdg_boat: "Barco"
  mdg_boat_1: "Barco I"
  mdg_boat_2: "Barco II"
@@ -181,6 +185,9 @@
 
  mdg_ship_hull_auxiliary: "Cruzador Auxiliar"
  mdg_ship_hull_auxiliary_1: "Cruzador Auxiliar"
+
+ mdg_ship_hull_mac_1: "Porta-aviões Auxiliar"
+ mdg_ship_hull_mac_1_desc: "Descrição do Porta-aviões Auxiliar"
 
  mdg_ship_hull_corvette: "Corveta"
  mdg_ship_hull_corvette_1: "Corveta antigo"

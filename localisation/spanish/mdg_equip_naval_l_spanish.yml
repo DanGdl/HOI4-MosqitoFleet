@@ -49,6 +49,10 @@
  mdg_auxiliary_1: "Crucero auxiliar"
  mdg_auxiliary_1_desc: "Descripción de crucero auxiliar"
 
+ mdg_mac_1: "Portaaviones auxiliar"
+ mdg_mac_1: "Portaaviones auxiliar"
+ mdg_mac_1_desc: "Descripción del portaaviones auxiliar"
+
  mdg_boat: "Bote"
  mdg_boat_1: "Bote I"
  mdg_boat_2: "Bote II"
@@ -181,6 +185,9 @@
 
  mdg_ship_hull_auxiliary: "Crucero auxiliar"
  mdg_ship_hull_auxiliary_1: "Crucero Auxiliar"
+
+ mdg_ship_hull_mac_1: "Portaaviones auxiliar"
+ mdg_ship_hull_mac_1_desc: "Descripción del portaaviones auxiliar"
 
  mdg_ship_hull_corvette: "Corbeta"
  mdg_ship_hull_corvette_1: "Corbeta de preguerra"
