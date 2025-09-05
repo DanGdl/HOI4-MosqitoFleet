@@ -125,7 +125,7 @@
 	}
 
 	create_equipment_variant = {
-		name = "Type 6"
+		name = "Type G"
 		type = mdg_ship_hull_corvette_1
 		name_group = ITA_CORVETTE_HISTORICAL
 		parent_version = 0
