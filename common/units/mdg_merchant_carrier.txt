@@ -1,6 +1,6 @@
 sub_units = {
 	mdg_mac = {
-		sprite = carrier # mdg_mac # TODO: impl custom?
+		sprite = mdg_mac
 		map_icon_category = ship
 		priority = 10
 		active = yes
