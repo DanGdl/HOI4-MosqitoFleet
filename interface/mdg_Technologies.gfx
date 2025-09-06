@@ -6,8 +6,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_mac.dds"
 	}
 	SpriteType = {
+		name = "GFX_mdg_mac_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_mac_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_mdg_ship_hull_mac_medium"
 		texturefile = "gfx/interface/technologies/mdg_mac.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_mac_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_mac_1.dds"
 	}
 
 	SpriteType = {
@@ -15,8 +23,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USA_mdg_mac.dds"
 	}
 	SpriteType = {
+		name = "GFX_USA_mdg_mac_1_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_mac_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_USA_mdg_ship_hull_mac_medium"
 		texturefile = "gfx/interface/technologies/USA_mdg_mac.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mdg_ship_hull_mac_1_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_mac_1.dds"
 	}
 	
 	SpriteType = {
@@ -24,8 +40,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/HOL_mdg_mac.dds"
 	}
 	SpriteType = {
+		name = "GFX_HOL_mdg_mac_1_medium"
+		texturefile = "gfx/interface/technologies/HOL_mdg_mac_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_HOL_mdg_ship_hull_mac_medium"
 		texturefile = "gfx/interface/technologies/HOL_mdg_mac.dds"
+	}
+	SpriteType = {
+		name = "GFX_HOL_mdg_ship_hull_mac_1_medium"
+		texturefile = "gfx/interface/technologies/HOL_mdg_mac_1.dds"
 	}
 	
 	# AUXILIARIES
@@ -34,16 +58,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_auxiliary.dds"
 	}
 	SpriteType = {
+		name = "GFX_mdg_auxiliary_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_auxiliary_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_mdg_ship_hull_auxiliary_medium"
 		texturefile = "gfx/interface/technologies/mdg_auxiliary.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_auxiliary_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_auxiliary_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_BRA_mdg_auxiliary_medium"
 		texturefile = "gfx/interface/technologies/BRA_mdg_auxiliary.dds"
 	}
 	SpriteType = {
+		name = "GFX_BRA_mdg_auxiliary_1_medium"
+		texturefile = "gfx/interface/technologies/BRA_mdg_auxiliary_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_BRA_mdg_ship_hull_auxiliary_medium"
 		texturefile = "gfx/interface/technologies/BRA_mdg_auxiliary.dds"
+	}
+	SpriteType = {
+		name = "GFX_BRA_mdg_ship_hull_auxiliary_1_medium"
+		texturefile = "gfx/interface/technologies/BRA_mdg_auxiliary_1.dds"
 	}
 
 	# HYDROFOILS
@@ -52,8 +92,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_hydrofoil.dds"
 	}
 	SpriteType = {
+		name = "GFX_mdg_hydrofoil_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_hydrofoil_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_mdg_ship_hull_hydrofoil_medium"
 		texturefile = "gfx/interface/technologies/mdg_hydrofoil.dds"
+	}
+	SpriteType = {
+		name = "GFX_mdg_ship_hull_hydrofoil_1_medium"
+		texturefile = "gfx/interface/technologies/mdg_hydrofoil_1.dds"
 	}
 
 	# MONITORS
