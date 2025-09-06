@@ -186,6 +186,7 @@
  mdg_ship_hull_auxiliary: "Auxiliary cruiser"
  mdg_ship_hull_auxiliary_1: "Auxiliary Cruiser"
 
+ mdg_ship_hull_mac: "Auxiliary carrier"
  mdg_ship_hull_mac_1: "Auxiliary carrier"
  mdg_ship_hull_mac_1_desc: "Auxiliary carrier description"
 

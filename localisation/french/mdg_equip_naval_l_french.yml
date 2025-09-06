@@ -185,6 +185,7 @@
  mdg_ship_hull_auxiliary: "Croiseur auxiliaire"
  mdg_ship_hull_auxiliary_1: "Croiseur auxiliaire"
 
+ mdg_ship_hull_mac: "Porte-avions auxiliaire"
  mdg_ship_hull_mac_1: "Porte-avions auxiliaire"
  mdg_ship_hull_mac_1_desc: "Description du porte-avions auxiliaire"
 
