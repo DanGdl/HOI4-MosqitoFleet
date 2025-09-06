@@ -47,7 +47,7 @@
  mdg_auxiliary_1: "Auxiliary cruiser"
  mdg_auxiliary_1_desc: "Auxiliary cruiser description"
 
- mdg_mac_1: "Auxiliary carrier"
+ mdg_mac: "Auxiliary carrier"
  mdg_mac_1: "Auxiliary carrier"
  mdg_mac_1_desc: "Auxiliary carrier description"
 

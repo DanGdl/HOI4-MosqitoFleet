@@ -47,7 +47,7 @@
  mdg_auxiliary_1: "辅助巡洋舰"
  mdg_auxiliary_1_desc: "辅助巡洋舰描述"
 
- mdg_mac_1: "辅助航空母舰"
+ mdg_mac: "辅助航空母舰"
  mdg_mac_1: "辅助航空母舰"
  mdg_mac_1_desc: "辅助航空母舰描述"
 

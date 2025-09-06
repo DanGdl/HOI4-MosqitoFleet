@@ -47,7 +47,7 @@
  mdg_auxiliary_1: "補助巡洋艦"
  mdg_auxiliary_1_desc: "補助巡洋艦の説明"
 
- mdg_mac_1: "補助空母"
+ mdg_mac: "補助空母"
  mdg_mac_1: "補助空母"
  mdg_mac_1_desc: "補助空母の説明"
 
