@@ -2,7 +2,7 @@
  mdg_corvette: "コルベット"
  mdg_hydrofoil: "水中翼船"
  mdg_auxiliary: "補助巡洋艦"
- mdg_mac_1: "補助空母"
+ mdg_mac: "補助空母"
  mdg_boat: "小型艇"
  mdg_frigate: "フリゲート"
  mdg_midget_submarine: "小型潜水艦"

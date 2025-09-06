@@ -2,7 +2,7 @@
  mdg_corvette: "Corvette"
  mdg_hydrofoil: "Hydrofoil boat"
  mdg_auxiliary: "Auxiliary cruiser"
- mdg_mac_1: "Auxiliary carrier"
+ mdg_mac: "Auxiliary carrier"
  mdg_boat: "Boat"
  mdg_frigate: "Frigate"
  mdg_midget_submarine: "Midget submarine"
