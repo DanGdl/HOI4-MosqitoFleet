@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_carrier"
+			spriteType = "GFX_SD_tv_mac"
 			position = { x=0 y=0 }
 		}
 
@@ -39,8 +39,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_carrier_hull_fixed_anti_air"
-						position = { x=247 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_anti_air"
+						position = { x=37 y=72 }
 					}
 				}
 
@@ -51,8 +51,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_fixed_anti_air@highlight"
-						position = { x=247 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_anti_air@highlight"
+						position = { x=37 y=72 }
 					}
 				}
 			}
@@ -133,8 +133,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_carrier_hull_fixed_secondaries"
-						position = { x=400 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries"
+						position = { x=37 y=72 }
 					}
 				}
 
@@ -145,8 +145,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_fixed_secondaries@highlight"
-						position = { x=400 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries@highlight"
+						position = { x=37 y=72 }
 					}
 				}
 
@@ -157,8 +157,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_carrier_hull_fixed_secondaries"
-						position = { x=400 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries"
+						position = { x=37 y=72 }
 					}
 				}
 
@@ -169,8 +169,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_fixed_secondaries@highlight"
-						position = { x=400 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries@highlight"
+						position = { x=37 y=72 }
 					}
 				}
 			}
@@ -188,8 +188,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_carrier_hull_fixed_deck_space"
-						position = { x=345 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_deck_space"
+						position = { x=37 y=72 }
 					}
 				}
 
@@ -200,8 +200,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_fixed_deck_space@highlight"
-						position = { x=345 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_deck_space@highlight"
+						position = { x=37 y=72 }
 					}
 				}
 				containerWindowType = {
@@ -211,8 +211,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_carrier_hull_fixed_deck_space"
-						position = { x=345 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_deck_space"
+						position = { x=37 y=72 }
 					}
 				}
 				containerWindowType = {
@@ -222,8 +222,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_fixed_deck_space@highlight"
-						position = { x=345 y=0 }
+						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_deck_space@highlight"
+						position = { x=37 y=72 }
 					}
 				}				
 			}		
