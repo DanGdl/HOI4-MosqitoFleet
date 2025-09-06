@@ -178,6 +178,7 @@
  mdg_ship_hull_auxiliary: "Krążownik pomocniczy"
  mdg_ship_hull_auxiliary_1: "Krążownik pomocniczy"
 
+ mdg_ship_hull_mac: "Pomocniczy lotniskowiec"
  mdg_ship_hull_mac_1: "Pomocniczy lotniskowiec"
  mdg_ship_hull_mac_1_desc: "Opis pomocniczego lotniskowca"
 

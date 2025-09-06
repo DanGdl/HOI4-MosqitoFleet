@@ -179,6 +179,7 @@
  mdg_ship_hull_auxiliary: "Hilfskreuzer"
  mdg_ship_hull_auxiliary_1: "Hilfskreuzer"
 
+ mdg_ship_hull_mac: "Hilfsflugzeugträger"
  mdg_ship_hull_mac_1: "Hilfsflugzeugträger"
  mdg_ship_hull_mac_1_desc: "Beschreibung des Hilfsflugzeugträgers"
 
