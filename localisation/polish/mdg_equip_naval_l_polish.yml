@@ -49,7 +49,7 @@
  mdg_auxiliary_1: "Krążownik pomocniczy"
  mdg_auxiliary_1_desc: "Opis krążownika pomocniczego"
 
- mdg_mac_1: "Pomocniczy lotniskowiec"
+ mdg_mac: "Pomocniczy lotniskowiec"
  mdg_mac_1: "Pomocniczy lotniskowiec"
  mdg_mac_1_desc: "Opis pomocniczego lotniskowca"
 

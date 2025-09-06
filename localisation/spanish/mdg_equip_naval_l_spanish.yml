@@ -49,7 +49,7 @@
  mdg_auxiliary_1: "Crucero auxiliar"
  mdg_auxiliary_1_desc: "Descripción de crucero auxiliar"
 
- mdg_mac_1: "Portaaviones auxiliar"
+ mdg_mac: "Portaaviones auxiliar"
  mdg_mac_1: "Portaaviones auxiliar"
  mdg_mac_1_desc: "Descripción del portaaviones auxiliar"
 
