@@ -1,0 +1,25 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+
+	mdg_ship_deck_space = {
+		abbreviation = "sda"
+		category = mdg_ship_deck_space
+		gfx = ship_deck_space
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 1
+			build_cost_ic = 7500
+		}
+		manpower = 500 # outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 700
+	}
+}
