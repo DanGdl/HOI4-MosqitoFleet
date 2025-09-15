@@ -43,9 +43,17 @@ technologies = {
 		}
 		mines_planting_by_fleets_factor = 0.1
 		#####
+		on_research_complete = {
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_underway_replenishment
+				}
+			}
+		}
 
-
-		xor = { trade_interdiction base_strike small_fleet }
+		xor = { trade_interdiction base_strike }
 
 		path = {
 			leads_to_tech = battlefleet_concentration
@@ -499,7 +507,6 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
-		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -993,6 +1000,8 @@ technologies = {
 
 		# This tree is focused on sinking convoys, and boosting Subs and all types of Cruiser. It has some boosts for CVs and Battleships, but the CVs should be a bit worse and the BBs a lot worse than Fleet in being's.
 
+		xp_research_type = navy
+
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
@@ -1017,7 +1026,7 @@ technologies = {
 		}
 		#######
 
-		xor = { fleet_in_being base_strike small_fleet }
+		xor = { fleet_in_being base_strike }
 
 		path = {
 			leads_to_tech = convoy_interdiction_ti
@@ -1786,7 +1795,6 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
-		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -1930,7 +1938,7 @@ technologies = {
 		port_strike = 0.5
 		#####
 
-		xor = { fleet_in_being trade_interdiction small_fleet }
+		xor = { fleet_in_being trade_interdiction }
 
 		path = {
 			leads_to_tech = carrier_primacy
@@ -1946,7 +1954,16 @@ technologies = {
 			leads_to_tech = convoy_escorts_bs
 			research_cost_coeff = 1
 		}
-
+		on_research_complete = {
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_naval_underway_replenishment
+				}
+			}
+		}
+		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
@@ -2469,7 +2486,6 @@ technologies = {
 		categories = {
 			naval_doctrine
 			cat_base_strike
-			submarine_doctrine
 		}
 
 		folder = {
@@ -2869,7 +2885,6 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
-		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -3011,10 +3026,6 @@ technologies = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
-		submarine = {
-			max_organisation = 5
-			surface_detection = 0.05
-		}
 		mdg_boat = {
 			max_organisation = 5
 			surface_detection = 0.05
@@ -3035,41 +3046,16 @@ technologies = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
-		destroyer = {
-			max_organisation = 5
-			surface_detection = 0.05
-		}
-		light_cruiser = {
-			max_organisation = 5
-			surface_detection = 0.05
-		}
-		heavy_cruiser = {
-			max_organisation = 5
-			surface_detection = 0.05
-		}
-		mdg_monitor = {
-			max_organisation = 5
-			surface_detection = 0.05
-		}
+
 		refit_speed = 0.1
 		navy_visibility = -0.03
 		naval_retreat_speed = 0.2
-		naval_mines_damage_factor = 1
+		naval_mines_damage_factor = 0.5
 		mines_planting_by_fleets_factor = 0.2
 		naval_torpedo_hit_chance_factor = 0.05
 
-		xor = { fleet_in_being trade_interdiction base_strike }
-
 		path = {
 			leads_to_tech = torpedo_boat_operations_sm
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = convoy_sailing_sm
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = submarine_operations_sm
 			research_cost_coeff = 1
 		}
 		# on_research_complete = {
@@ -3121,534 +3107,7 @@ technologies = {
 		}
 	}
 
-	# Convoy escort. Middle branch
-	convoy_sailing_sm = {
-
-		mdg_boat = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		mdg_hydrofoil = {
-			max_organisation = 5
-			surface_detection = 0.05
-		}
-		mdg_corvette = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		mdg_frigate = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-
-		convoy_escort_efficiency = 0.05
-		convoy_retreat_speed = 0.05
-
-		path = {
-			leads_to_tech = convoy_escorts_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			small_fleet_tree
-			cat_small_fleet
-			convoy_defense_tree
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 0 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			mdg_boat = 1.0
-			mdg_hydrofoil = 1.0
-			mdg_corvette = 1.0
-			mdg_frigate = 1.0
-			destroyer = 1.0
-			naval_equipment = 1.0
-		}
-	}
-
-	convoy_escorts_sm = {
-		#Assigning dedicated convoy escorts to keep them safe
-
-		# EFFECT #############
-		mdg_boat = {
-			max_organisation = 5
-		}
-		mdg_hydrofoil = {
-			max_organisation = 5
-		}
-		mdg_corvette = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		mdg_frigate = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		convoy_escort_efficiency = 0.1
-		#####
-
-		path = {
-			leads_to_tech = escort_patrols_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			convoy_defense_tree
-			small_fleet_tree
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 0 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			mdg_boat = 1.0
-			mdg_hydrofoil = 1.0
-			mdg_corvette = 1.0
-			mdg_frigate = 1.0
-			destroyer = 1.0
-			naval_equipment = 1.0
-		}
-	}
-
-	escort_patrols_sm = {
-		# Lesser version of hunter-killer groups
-
-		# EFFECT ##############
-		mdg_boat = {
-			max_organisation = 5
-		}
-		mdg_hydrofoil = {
-			max_organisation = 5
-		}
-		mdg_corvette = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		mdg_frigate = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		mdg_auxiliary = {
-			max_organisation = 5
-		}
-		destroyer = {
-			max_organisation = 5
-			sub_detection = 0.05
-		}
-		light_cruiser = {
-			max_organisation = 5
-			sub_detection = 0.1
-		}
-
-		convoy_escort_efficiency = 0.05
-
-		path = {
-			leads_to_tech = floating_airfield_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			convoy_defense_tree
-			small_fleet_tree
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 0 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			mdg_boat = 1.0
-			mdg_hydrofoil = 1.0
-			mdg_corvette = 1.0
-			mdg_frigate = 1.0
-			destroyer = 1.0
-			cruiser = 1.0
-			naval_equipment = 1.0
-		}
-	}
-
-	floating_airfield_sm = {
-
-		#same as floating_airfield
-		# EFFECT #############
-		carrier = {
-			max_organisation = 20
-			sub_detection = 0.25
-		}
-		mdg_mac = {
-			max_organisation = 20
-			sub_detection = 0.25
-		}
-		sortie_efficiency = 0.2
-		########
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		path = {
-			leads_to_tech = combined_operations_sm
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			naval_doctrine
-			convoy_defense_tree
-			small_fleet_tree
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 0 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			carrier = 2.0
-			naval_air = 0.75
-		}
-	}
-
-	# Submarines. Right branch
-	submarine_operations_sm = {
-
-		# same as submarine_operations
-		# EFFECT ##############
-		submarine = {
-			max_organisation = 10
-			surface_detection = 0.05
-		}
-		mdg_midget_submarine = {
-			max_organisation = 10
-			surface_detection = 0.05
-		}
-		naval_torpedo_reveal_chance_factor = -0.05
-		#######
-
-		path = {
-			leads_to_tech = undersea_blockade_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			submarine_doctrine
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 2 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			submarine = 1.0
-			mdg_midget_submarine = 1.0
-		}
-	}
-
-	undersea_blockade_sm = {
-
-		# same as undersea_blockade
-		submarine = {
-			max_organisation = 10
-			surface_detection = 0.1
-		}
-		mdg_midget_submarine = {
-			max_organisation = 10
-			surface_detection = 0.1
-		}
-
-		path = {
-			leads_to_tech = convoy_interdiction_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			small_fleet_tree
-			submarine_doctrine
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 2 y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			submarine = 1.0
-			mdg_midget_submarine = 1.0
-		}
-	}
-
-	convoy_interdiction_sm = {
-		# Sub boost
-		submarine = {
-			max_organisation = 10
-			surface_detection = 0.05
-			convoy_raiding_coordination = 0.05
-		}
-		mdg_midget_submarine = {
-			max_organisation = 10
-			surface_detection = 0.05
-			convoy_raiding_coordination = 0.05
-		}
-		naval_torpedo_reveal_chance_factor = -0.10
-
-		path = {
-			leads_to_tech = submarine_offensive_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			small_fleet_tree
-			submarine_doctrine
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 2 y = 6 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			submarine = 2.0
-		}
-	}
-
-	submarine_offensive_sm = {
-		# same as submarine_offensive
-		submarine = {
-			max_organisation = 10
-			surface_detection = 0.05
-			convoy_raiding_coordination = 0.10
-		}
-		mdg_midget_submarine = {
-			max_organisation = 10
-			surface_detection = 0.05
-			convoy_raiding_coordination = 0.10
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		path = {
-			leads_to_tech = combined_operations_sm
-			research_cost_coeff = 1
-		}
-
-		categories = {
-			naval_doctrine
-			small_fleet_tree
-			submarine_doctrine
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 2 y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			submarine = 1.0
-			mdg_midget_submarine = 1.0
-		}
-	}
-
-	# Torpedo boats etc. Left branch
+	# Torpedo boats etc. Middle branch
 	torpedo_boat_operations_sm = {
 		mdg_boat = {
 			max_organisation = 5
@@ -3658,64 +3117,7 @@ technologies = {
 			max_organisation = 5
 			surface_detection = 0.05
 		}
-		path = {
-			leads_to_tech = raider_patrols_sm
-			research_cost_coeff = 1
-		}
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			small_fleet_tree
-			surface_ships_sm
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = -2 y = 2 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 5
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 2
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
-			mdg_boat = 1.0
-			mdg_hydrofoil = 1.0
-		}
-	}
-
-	raider_patrols_sm = {
-		light_cruiser = {
-			max_organisation = 10
-			convoy_raiding_coordination = 0.15
-			surface_detection = 0.10
-		}
-		heavy_cruiser = {
-			max_organisation = 10
-			convoy_raiding_coordination = 0.15
-			surface_detection = 0.10
-		}
-		mdg_auxiliary = {
-			max_organisation = 10
-			convoy_raiding_coordination = 0.15
-			surface_detection = 0.10
-		}
-
+		convoy_escort_efficiency = 0.05
 		path = {
 			leads_to_tech = patrol_and_ambush_sm
 			research_cost_coeff = 1
@@ -3735,17 +3137,25 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -2 y = 4 }
+			position = { x = 0 y = 2 }
 		}
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 5
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 2
+			}
 		}
 
 		ai_research_weights = {
 			naval_doctrine = -1.0
-			cruiser = 1.5
-			battleship = 1.0
+			mdg_boat = 1.0
+			mdg_hydrofoil = 1.0
 		}
 	}
 
@@ -3779,7 +3189,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = 0 y = 4 }
 		}
 
 		ai_will_do = {
@@ -3830,7 +3240,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = 0 y = 6 }
 		}
 
 		ai_will_do = {
@@ -3905,33 +3315,31 @@ technologies = {
 		}
 		light_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.35
-			surface_detection = 0.15
+			convoy_raiding_coordination = 0.05
+			surface_detection = 0.1
 		}
 		heavy_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.35
-			surface_detection = 0.15
+			convoy_raiding_coordination = 0.05
+			surface_detection = 0.1
 		}
 		battle_cruiser = {
 			max_organisation = 10
-			convoy_raiding_coordination = 0.35
-			surface_detection = 0.15
+			convoy_raiding_coordination = 0.05
+			surface_detection = 0.1
 		}
 		mdg_monitor = {
 			max_organisation = 10
-			surface_detection = 0.15
+			surface_detection = 0.1
+		}
+		modifier = {
+			naval_strike_targetting_factor = 0.05
 		}
 		naval_speed_factor = 0.1
 		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes
 		research_cost = 3
-
-		path = {
-			leads_to_tech = battlefleet_concentration_sm
-			research_cost_coeff = 1
-		}
 
 		categories = {
 			naval_doctrine
@@ -3941,7 +3349,7 @@ technologies = {
 
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 8 }
 		}
 
 		ai_will_do = {
@@ -3975,57 +3383,6 @@ technologies = {
 			mdg_frigate = 1.0
 			destroyer = 1.0
 			cruiser = 1.5
-			battlecruiser = 1.0
-			mdg_monitor = 0.5
-		}
-	}
-
-	battlefleet_concentration_sm = {
-		# same as battlefleet_concentration
-		battleship = {
-			max_organisation = 10
-		}
-		battle_cruiser = {
-			max_organisation = 10
-		}
-		heavy_cruiser = {
-			max_organisation = 10
-		}
-		mdg_monitor = {
-			max_organisation = 10
-		}
-		strike_force_movement_org_loss = -0.2
-
-		xp_research_type = navy
-		xp_unlock_cost = 100
-		doctrine = yes
-		research_cost = 3
-
-		categories = {
-			naval_doctrine
-			small_fleet_tree
-			cat_small_fleet
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = 0 y = 12 }
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				not = { ai_air_doctrine_tier_1_trigger = yes }
-				factor = 0.5
-			}
-			modifier = {
-				not = { ai_air_doctrine_tier_2_trigger = yes }
-				factor = 0.75
-			}
-		}
-
-		ai_research_weights = {
-			naval_doctrine = -1.0
 			battlecruiser = 1.0
 			mdg_monitor = 0.5
 		}
