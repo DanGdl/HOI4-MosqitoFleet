@@ -21,6 +21,10 @@
  mdg_ship_light_guns_7_short: "舰艇武器 IV"
  mdg_ship_light_guns_7_desc: "双联自动小口径火炮"
 
+ EQ_MOD_CAT_mdg_ship_deck_space_TITLE: "机库"
+ mdg_ship_deck_space: "机库"
+ mdg_ship_deck_space_desc: "船舱内一块巨大开放的区域，可以为着舰的飞机进行维护和后勤。为船上增加更多的机库会使得造价飙升。"
+
  ENG_mdg_ship_light_guns_1: "12.7毫米柯尔特-勃朗宁"
  ENG_mdg_ship_light_guns_2: "12.7毫米双联柯尔特-勃朗宁"
  ENG_mdg_ship_light_guns_3: "20毫米厄利孔"

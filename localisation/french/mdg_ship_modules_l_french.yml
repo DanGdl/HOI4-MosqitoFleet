@@ -21,6 +21,10 @@
  mdg_ship_light_guns_7_short: "Armement de bateau IV"
  mdg_ship_light_guns_7_desc: "Canon automatique double de petit calibre"
 
+ EQ_MOD_CAT_mdg_ship_deck_space_TITLE: "Hangars"
+ mdg_ship_deck_space: "Hangar"
+ mdg_ship_deck_space_desc: "Une vaste zone ouverte à l'intérieur du navire permet de travailler sur les avions et de les armer. Ajouter de nouveaux hangars accroît toutefois notablement le coût du bâtiment."
+
  ENG_mdg_ship_light_guns_1: "Colt-Browning 12,7 mm"
  ENG_mdg_ship_light_guns_2: "Colt-Browning jumelé 12,7 mm"
  ENG_mdg_ship_light_guns_3: "Oerlikon 20 mm"

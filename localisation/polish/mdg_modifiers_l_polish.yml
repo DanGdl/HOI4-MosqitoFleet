@@ -41,6 +41,7 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Koszt projektu kadłuba miniaturowego okrętu podwodnego"
  mdg_ship_hull_monitor_design_cost_factor: "Koszt projektu monitora"
  mdg_ship_hull_mac_design_cost_factor: "Koszt projektu pomocniczego lotniskowca"
+ modifier_module_mdg_ship_deck_space_design_cost_factor: "Koszt projektu okrętowej przestrzeni hangarowej"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Przyrost doświadczenia cechy „Komar”"
 
