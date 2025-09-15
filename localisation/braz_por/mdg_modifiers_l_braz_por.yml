@@ -42,6 +42,7 @@
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Ganho de XP do Traço Mosquito"
  mdg_ship_hull_monitor_design_cost_factor: "Custo de projeto do monitor"
  mdg_ship_hull_mac_design_cost_factor: "Custo do Projeto de Porta-aviões Auxiliar"
+ modifier_module_mdg_ship_deck_space_design_cost_factor: "Custo do projeto de espaço de hangar para navio"
 
  mdg_ff_tech_research: "Velocidade de Pesquisa de Fragatas"
  mdg_lcs_tech_research: "Velocidade de Pesquisa de Corvetas"

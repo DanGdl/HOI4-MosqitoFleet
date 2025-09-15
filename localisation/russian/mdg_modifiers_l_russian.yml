@@ -43,6 +43,7 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Стоимость проекта сверхмалой субмарины"
  mdg_ship_hull_monitor_design_cost_factor: "Стоимость проекта монитора"
  mdg_ship_hull_mac_design_cost_factor: "Стоимость проекта вспомогательного авианосца"
+ modifier_module_mdg_ship_deck_space_design_cost_factor: "Стоимость проекта корабельных ангаров"
 
  mdg_ff_tech_research: "Темпы исследований фрегатов"
  mdg_lcs_tech_research: "Темпы исследований корветов"

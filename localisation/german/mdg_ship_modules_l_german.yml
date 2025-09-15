@@ -12,6 +12,10 @@
  mdg_ship_light_guns_4_short: "Bootsbewaffnung IV"
  mdg_ship_light_guns_4_desc: "Doppelläufige automatische Kleinkaliberkanone"
 
+ mdg_ship_deck_space: "Hangarplatz"
+ mdg_ship_deck_space_desc: "Eine große, offene Fläche innerhalb des Schiffs, die die Wartung und Bewaffnung von Flugzeugen mit Rollen ermöglicht. Die Erweiterung des Hangarraums treibt die Kosten für den Bau eines Schiffs dramatisch in die Höhe."
+ EQ_MOD_CAT_mdg_ship_deck_space_TITLE: "Hangarplatz"
+
  ENG_mdg_ship_light_guns_1: "12,7 mm Colt-Browning"
  ENG_mdg_ship_light_guns_2: "12,7 mm Doppel-Colt-Browning"
  ENG_mdg_ship_light_guns_3: "20 mm Oerlikon"
