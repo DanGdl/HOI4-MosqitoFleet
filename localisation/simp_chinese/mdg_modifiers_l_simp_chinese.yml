@@ -41,6 +41,7 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "微型潜艇设计成本"
  mdg_ship_hull_monitor_design_cost_factor: "浅水重炮舰设计花费"
  mdg_ship_hull_mac_design_cost_factor: "辅助航空母舰设计花费"
+ modifier_module_mdg_ship_deck_space_design_cost_factor: "舰艇机库花费"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "“蚊子”特性经验获取"
 

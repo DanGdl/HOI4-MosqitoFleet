@@ -12,6 +12,10 @@
  mdg_ship_light_guns_4_short: "Uzbrojenie łodzi IV"
  mdg_ship_light_guns_4_desc: "Podwójna automatyczna armata małego kalibru"
 
+ mdg_ship_deck_space: "Przestrzeń hangarowa"
+ mdg_ship_deck_space_desc: "Duża otwarta przestrzeń wewnątrz okrętu pozwala na obsługę i uzbrajanie samolotów z podwoziem kołowym. Przeznaczenie dodatkowego miejsca na hangary to jednak również znaczne podniesienie kosztów."
+ EQ_MOD_CAT_mdg_ship_deck_space_TITLE: "Przestrzeń hangarowa"
+
  ENG_mdg_ship_light_guns_1: "12,7 mm Colt-Browning"
  ENG_mdg_ship_light_guns_2: "12,7 mm Podwójny Colt-Browning"
  ENG_mdg_ship_light_guns_3: "20 mm Oerlikon"

@@ -12,6 +12,10 @@
  mdg_ship_light_guns_4_short: "小型艦兵装 IV"
  mdg_ship_light_guns_4_desc: "連装自動小口径砲"
 
+ mdg_ship_deck_space: "格納庫"
+ mdg_ship_deck_space_desc: "航空機の整備、武装を可能とする艦内の大型開放空間。さらに格納庫を追加するとコストも劇的に上がる。"
+ EQ_MOD_CAT_mdg_ship_deck_space_TITLE: "格納庫"
+
  ENG_mdg_ship_light_guns_1: "12.7 mm コルト・ブローニング"
  ENG_mdg_ship_light_guns_2: "12.7 mm 連装コルト・ブローニング"
  ENG_mdg_ship_light_guns_3: "20 mm エリコン"

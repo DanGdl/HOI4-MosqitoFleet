@@ -41,6 +41,7 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "小型潜水艦設計コスト"
  mdg_ship_hull_monitor_design_cost_factor: "モニター艦設計コスト"
  mdg_ship_hull_mac_design_cost_factor: "補助空母設計コスト"
+ modifier_module_mdg_ship_deck_space_design_cost_factor: "艦艇用格納庫設計コスト"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "「モスキート」特性経験値獲得"
 

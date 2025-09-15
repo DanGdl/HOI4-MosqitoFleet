@@ -41,6 +41,7 @@
  mdg_ship_hull_midget_submarine_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Rumpf"
  mdg_ship_hull_monitor_design_cost_factor: "Entwurfskosten für Monitor"
  mdg_ship_hull_mac_design_cost_factor: "Entwurfskosten für Hilfsflugzeugträger"
+ modifier_module_mdg_ship_deck_space_design_cost_factor: "Schiff - Hangarplatz-Musterkosten"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Erfahrungsgewinn für „Moskito“-Eigenschaft"
 

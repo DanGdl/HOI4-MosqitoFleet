@@ -1,4 +1,4 @@
-version="0"
+version="1.5"
 picture="thumbnail.png"
 tags={
 	"Technologies"
