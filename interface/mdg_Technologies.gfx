@@ -1137,50 +1137,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mdg_small_fleet.dds"
 	}
 
-	# middle branch
-	SpriteType = {
-		name = "GFX_convoy_sailing_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_convoy_sailing_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_convoy_escorts_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_convoy_escorts_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_escort_patrols_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_escort_patrols_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_floating_airfield_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_floating_airfield_sm.dds"
-	}
-
-	# right branch
-	SpriteType = {
-		name = "GFX_submarine_operations_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_submarine_operations_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_undersea_blockade_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_undersea_blockade_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_convoy_interdiction_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_convoy_interdiction_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_submarine_offensive_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_submarine_offensive_sm.dds"
-	}
-
 	# left branch
 	SpriteType = {
 		name = "GFX_torpedo_boat_operations_sm_medium"
 		texturefile = "gfx/interface/technologies/mdg_torpedo_boats_operations_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_raider_patrols_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_raider_patrols_sm.dds"
 	}
 	SpriteType = {
 		name = "GFX_patrol_and_ambush_sm_medium"
@@ -1195,9 +1155,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_combined_operations_sm_medium"
 		texturefile = "gfx/interface/technologies/mdg_combined_operations_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_battlefleet_concentration_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_battlefleet_concentration_sm.dds"
 	}
 }
