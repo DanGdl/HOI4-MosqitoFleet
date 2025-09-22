@@ -1,0 +1,53 @@
+
+ITA_baglietto_organization = {
+	include = generic_small_ship_organization
+	icon = GFX_idea_baglietto
+	
+	allowed = {	
+		original_tag = ITA
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = ITA } }
+			}
+			FROM = { NOT = { has_war_with = ITA } }
+		}
+		ELSE = { # original_tag = ITA
+			FROM = { controls_state = 162 } # La Specia
+		}
+
+		# IF = {
+		# 	custom_trigger_tooltip = {
+		# 		tooltip = has_invited_mio_tt
+		# 		FROM = {
+		# 			has_country_flag = has_invited_crda_mio_flag
+		# 		}
+		# 	}
+		# }
+	}
+	add_trait = {
+		token = generic_mio_trait_fast_boats
+		name = generic_mio_trait_fast_boats
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		special_trait_background = yes
+
+		position = { x=8 y=0 }		
+		production_bonus = {
+			production_cost_factor = -0.15
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+			naval_speed = 0.15
+			max_strength = -0.15
+			naval_weather_penalty_factor = 0.2
+			naval_range = -0.1
+			patrol_coordination = 0.05
+		}
+		ai_will_do = {
+			base = 2
+		}
+	}
+}

@@ -1,0 +1,87 @@
+spriteTypes = {
+	# TODO: fix icons
+	
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_midget_submarine"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_submarine.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_midget_submarine"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_submarine.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_mio_cat_eq_all_mdg_boat"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_boat"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_boat"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_hydrofoil"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_hydrofoil"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_corvette"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_corvette"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_frigate"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_frigate"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_auxiliary"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_light_cruiser_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_auxiliary"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_light_cruiser_ship.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_monitor"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_capital_ship.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_monitor"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_capital_ship.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_mac"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_carrier.dds"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_mdg_ship_hull_mac"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_carrier.dds"
+	}
+}
