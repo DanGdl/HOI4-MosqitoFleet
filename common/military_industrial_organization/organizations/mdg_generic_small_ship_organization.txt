@@ -10,6 +10,7 @@ generic_small_ship_organization = {
 		# mdg_boat
 		# mdg_ship_hull_hydrofoil
 		mio_cat_eq_all_mdg_boat
+		mdg_ship_hull_corvette
 	}
 	research_categories = {
 		mio_cat_eq_all_mdg_boat_and_modules
