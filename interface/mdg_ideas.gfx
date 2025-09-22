@@ -11,12 +11,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_fairmile"
+		name = "GFX_idea_ENG_fairmile"
 		texturefile = "gfx/interface/ideas/idea_ENG_fairmile.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_vosper"
+		name = "GFX_idea_ENG_vosper"
 		texturefile = "gfx/interface/ideas/idea_ENG_vosper.dds"
 	}
 
@@ -31,7 +31,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_USA_higgins"
-		texturefile = "gfx/interface/ideas/idea_USA_higgins.dds"
+		name = "GFX_idea_USA_elco_mdg"
+		texturefile = "gfx/interface/ideas/idea_USA_elco_mdg.dds"
 	}
 }

@@ -1,7 +1,7 @@
 
 ENG_vosper_organization = {
 	include = generic_small_ship_organization
-	icon = GFX_idea_vosper
+	icon = GFX_idea_ENG_vosper
 
 	allowed = {
 		original_tag = ENG
@@ -51,7 +51,7 @@ ENG_vosper_organization = {
 
 ENG_fairmile_organization = {
 	include = generic_small_ship_organization
-	icon = GFX_idea_fairmile
+	icon = GFX_idea_ENG_fairmile
 
 	allowed = {
 		OR = {

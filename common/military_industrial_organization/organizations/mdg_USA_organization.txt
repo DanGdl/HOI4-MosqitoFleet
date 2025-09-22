@@ -1,7 +1,8 @@
 
-USA_higgins_naval_yard_organization = {
+USA_elco_naval_yard_organization = {
 	include = generic_small_ship_organization
-	icon = GFX_idea_USA_higgins
+	icon = GFX_idea_USA_elco_mdg
+	
 	allowed = {	
 		original_tag = USA 
 	}
