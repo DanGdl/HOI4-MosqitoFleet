@@ -8,6 +8,7 @@
 		name = "75-feet boat"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
+		design_team = mio:generic_small_ship_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_guns_2
 			fixed_ship_radar_slot = empty

@@ -5,6 +5,7 @@
 		name = "Canovas del Castillo Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:SPR_euskalduna_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -20,6 +21,7 @@
 		name = "Virgen de la Caridad Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:SPR_euskalduna_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -35,6 +37,7 @@
 		name = "Durango Class"
 		type = mdg_ship_hull_frigate_1
 		parent_version = 0
+		design_team = mio:SPR_euskalduna_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -51,6 +54,7 @@
 		name = "Jupiter Class"
 		type = mdg_ship_hull_frigate_1
 		parent_version = 0
+		design_team = mio:SPR_euskalduna_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -67,6 +71,7 @@
 		name = "Castle/Harsey/Biscard Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:SPR_euskalduna_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty

@@ -6,6 +6,7 @@
 		type = mdg_ship_hull_corvette_1
 		name_group = HOL_CORVETTE_HISTORICAL
 		parent_version = 0
+		design_team = mio:HOL_nsm_amsterdam_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -22,6 +23,7 @@
 		type = mdg_ship_hull_corvette_1
 		name_group = HOL_CORVETTE_HISTORICAL
 		parent_version = 0
+		design_team = mio:HOL_nsm_amsterdam_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -38,6 +40,7 @@
 		type = mdg_ship_hull_corvette_1
 		name_group = HOL_CORVETTE_HISTORICAL
 		parent_version = 0
+		design_team = mio:HOL_nsm_amsterdam_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -54,6 +57,7 @@
 		type = mdg_ship_hull_corvette_1
 		name_group = HOL_CORVETTE_HISTORICAL
 		parent_version = 0
+		design_team = mio:HOL_nsm_amsterdam_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -70,6 +74,7 @@
 		type = mdg_ship_hull_corvette_1
 		name_group = HOL_CORVETTE_HISTORICAL
 		parent_version = 0
+		design_team = mio:HOL_nsm_amsterdam_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty

@@ -9,6 +9,7 @@
 		name_group = USA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:USA_norfolk_naval_yard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -26,6 +27,7 @@
 		name_group = USA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:USA_norfolk_naval_yard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -43,6 +45,7 @@
 		name_group = USA_MS_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:USA_norfolk_naval_yard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -60,6 +63,7 @@
 		name_group = USA_MS_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:USA_norfolk_naval_yard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -78,6 +82,7 @@
 		name_group = USA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:USA_norfolk_naval_yard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -95,6 +100,7 @@
 		name_group = USA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:USA_norfolk_naval_yard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
