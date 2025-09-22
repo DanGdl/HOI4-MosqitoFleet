@@ -5,6 +5,7 @@
 		name = "Hameenmaa Class"
 		type = mdg_ship_hull_frigate_1
 		parent_version = 0
+		design_team = mio:FIN_crichton_vulcan_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -21,6 +22,7 @@
 		name = "Karjala Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:FIN_crichton_vulcan_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -36,6 +38,7 @@
 		name = "Aunus Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:FIN_crichton_vulcan_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -51,6 +54,7 @@
 		name = "Louhi Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:FIN_crichton_vulcan_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -66,6 +70,7 @@
 		name = "Rautu Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:FIN_crichton_vulcan_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -81,6 +86,7 @@
 		name = "Sisu Class"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
+		design_team = mio:generic_small_ship_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -94,6 +100,7 @@
 		name = "Isku Class"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
+		design_team = mio:generic_small_ship_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -107,6 +114,7 @@
 		name = "Syoksy Class"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
+		design_team = mio:generic_small_ship_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_guns_1
 			fixed_ship_radar_slot = empty

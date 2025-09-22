@@ -8,6 +8,7 @@
 		name = "Imanta Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:LAT_lkod_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty

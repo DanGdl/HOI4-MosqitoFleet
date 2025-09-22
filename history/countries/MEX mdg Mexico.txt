@@ -5,6 +5,7 @@
 		name = "Nicolas Bravo Class"
 		type = mdg_ship_hull_frigate_1
 		parent_version = 0
+		design_team = mio:MEX_astimar_pacific_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -20,6 +21,7 @@
 		name = "Durango Class"
 		type = mdg_ship_hull_frigate_1
 		parent_version = 0
+		design_team = mio:MEX_astimar_pacific_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -35,6 +37,7 @@
 		name = "Guanajuato Class"
 		type = mdg_ship_hull_frigate_1
 		parent_version = 0
+		design_team = mio:MEX_astimar_pacific_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_2
 			fixed_ship_anti_air_slot = empty
@@ -50,6 +53,7 @@
 		name = "G Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:MEX_astimar_pacific_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -65,6 +69,7 @@
 		name = "Mazatlan Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:MEX_astimar_pacific_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -80,6 +85,7 @@
 		name = "SC Class"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
+		design_team = mio:generic_small_ship_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_guns_1
 			fixed_ship_radar_slot = empty

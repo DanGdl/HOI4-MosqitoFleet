@@ -5,6 +5,7 @@
 		name = "Ming Chuan Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:CHI_jiangnan_shipyard_group_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -20,6 +21,7 @@
 		name = "Chu Tung Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
+		design_team = mio:CHI_jiangnan_shipyard_group_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_2
 			fixed_ship_anti_air_slot = empty
