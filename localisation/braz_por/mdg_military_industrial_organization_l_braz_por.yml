@@ -1,0 +1,16 @@
+﻿l_braz_por:
+ generic_small_ship_organization: "Fabricante de Pequenas Lanchas"
+ generic_mio_initial_trait_small_fleet: "Frota Mosquito"
+ ENG_vosper_organization: "Vosper"
+ ENG_fairmile_organization: "Fairmile"
+ FRA_cmn_organization: "CMN"
+ GER_lurssen_organization: "Lurssen"
+ ITA_baglietto_organization: "Baglietto"
+ SOV_ccb5_organization: "ECC-5" # Escritório Central de Construção-5
+ SOV_tupolev_design_bureau_organization_boat: "$SOV_tupolev_design_bureau_organization$"
+ USA_elco_naval_yard_organization: "ELCO"
+ generic_mio_trait_fast_boats: "Lanchas Rápidas"
+ generic_mio_trait_wooden_hulls: "Cascos de Madeira"
+ generic_mio_trait_lurssens_effect: "Efeito Lürssen"
+ generic_mio_trait_section_production: "Produção Seccional"
+ generic_mio_trait_combined_materials: "Materiais Combinados para o Casco"

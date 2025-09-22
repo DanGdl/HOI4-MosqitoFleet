@@ -1,0 +1,16 @@
+﻿l_french:
+ generic_small_ship_organization: "Fabricant de petites vedettes"
+ generic_mio_initial_trait_small_fleet: "Flotte moustique"
+ ENG_vosper_organization: "Vosper"
+ ENG_fairmile_organization: "Fairmile"
+ FRA_cmn_organization: "CMN"
+ GER_lurssen_organization: "Lurssen"
+ ITA_baglietto_organization: "Baglietto"
+ SOV_ccb5_organization: "BCC-5" # Bureau central de construction-5
+ SOV_tupolev_design_bureau_organization_boat: "$SOV_tupolev_design_bureau_organization$"
+ USA_elco_naval_yard_organization: "ELCO"
+ generic_mio_trait_fast_boats: "Vedettes rapides"
+ generic_mio_trait_wooden_hulls: "Coques en bois"
+ generic_mio_trait_lurssens_effect: "Effet Lürssen"
+ generic_mio_trait_section_production: "Production par sections"
+ generic_mio_trait_combined_materials: "Matériaux composites pour coques"
