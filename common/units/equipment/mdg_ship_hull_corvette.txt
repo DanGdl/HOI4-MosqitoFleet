@@ -99,7 +99,7 @@ equipments = {
 
 		fuel_consumption = -1.5
 
-		build_cost_ic = 293
+		build_cost_ic = 280
 		resources = {
 			steel = 1
 		}
@@ -148,7 +148,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1200
 		max_strength = 25
-		build_cost_ic = 387
+		build_cost_ic = 370
 		resources = {
 			steel = 1
 		}
@@ -197,7 +197,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1300
 		max_strength = 35
-		build_cost_ic = 435
+		build_cost_ic = 420
 
 		resources = {
 			steel = 1
@@ -243,7 +243,7 @@ equipments = {
 		reliability = 0.9
 		naval_range = 1400
 		max_strength = 40
-		build_cost_ic = 483
+		build_cost_ic = 460
 		resources = {
 			steel = 1
 		}
