@@ -9,6 +9,7 @@
 		name_group = FRA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:FRA_fcm_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -26,6 +27,7 @@
 		name_group = FRA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:FRA_fcm_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -43,6 +45,7 @@
 		name_group = FRA_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:FRA_fcm_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_2
 			fixed_ship_anti_air_slot = empty
@@ -59,6 +62,7 @@
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
 		obsolete = no
+		design_team = mio:FRA_cmn_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_guns_1
 			fixed_ship_radar_slot = empty
@@ -73,6 +77,7 @@
 		type = mdg_ship_hull_boat_2
 		parent_version = 0
 		obsolete = no
+		design_team = mio:FRA_cmn_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_guns_1
 			fixed_ship_radar_slot = empty
@@ -88,6 +93,7 @@
 		name_group = FRA_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:FRA_fcm_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty

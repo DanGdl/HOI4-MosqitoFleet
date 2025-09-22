@@ -9,6 +9,7 @@
 		name_group = SOV_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -27,6 +28,7 @@
 		name_group = SOV_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -44,6 +46,7 @@
 		name_group = SOV_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -61,6 +64,7 @@
 		name_group = SOV_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -78,6 +82,7 @@
 		name_group = SOV_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -95,6 +100,7 @@
 		name_group = SOV_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -112,6 +118,7 @@
 		name_group = SOV_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_2
 			fixed_ship_anti_air_slot = ship_anti_air_1
@@ -129,6 +136,7 @@
 		name_group = SOV_FRIGATE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -146,6 +154,7 @@
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_tupolev_design_bureau_organization_boat
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -161,6 +170,7 @@
 		name_group = SOV_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -177,6 +187,7 @@
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
 		obsolete = yes
+		design_team = mio:SOV_tupolev_design_bureau_organization_boat
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -192,6 +203,7 @@
 		name_group = SOV_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = no
+		design_team = mio:SOV_black_sea_shipyard_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty

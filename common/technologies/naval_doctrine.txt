@@ -1795,6 +1795,7 @@ technologies = {
 			sub_detection = 0.05
 		}
 		convoy_escort_efficiency = 0.05
+		convoy_retreat_speed = 0.05
 		#####
 
 		path = {
@@ -2486,6 +2487,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 			cat_base_strike
+			submarine_doctrine
 		}
 
 		folder = {
@@ -2542,6 +2544,7 @@ technologies = {
 		categories = {
 			naval_doctrine
 			cat_base_strike
+			submarine_doctrine
 		}
 
 		folder = {
