@@ -1,0 +1,86 @@
+
+ENG_vosper_organization = {
+	include = generic_small_ship_organization
+	icon = GFX_idea_vosper
+
+	allowed = {
+		original_tag = ENG
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = ENG } }
+			}
+			FROM = { NOT = { has_war_with = ENG } }
+		}
+		ELSE = { # original_tag = ENG
+			FROM = { controls_state = 127 } # Portsmouth
+		}
+
+		# IF = {
+		# 	custom_trigger_tooltip = {
+		# 		tooltip = has_invited_mio_tt
+		# 		FROM = {
+		# 			has_country_flag = has_invited_crda_mio_flag
+		# 		}
+		# 	}
+		# }
+	}
+
+	add_trait = {
+		token = generic_mio_trait_combined_materials
+		name = generic_mio_trait_combined_materials
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+		special_trait_background = yes
+
+		position = { x=8 y=0 }		
+		equipment_bonus = {
+			build_cost_ic = 0.15
+			naval_speed = 0.1
+			max_strength = 0.1
+			naval_weather_penalty_factor = -0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
+
+ENG_fairmile_organization = {
+	include = generic_small_ship_organization
+	icon = GFX_idea_fairmile
+
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = NZL
+			original_tag = SAF
+			original_tag = CAN
+		}
+	}
+
+	add_trait = {
+		token = generic_mio_trait_section_production
+		name = generic_mio_trait_section_production
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		position = { x=8 y=0 }		
+		production_bonus = {
+			production_cost_factor = -0.15
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.1
+			naval_speed = -0.04
+			max_strength = 0.15
+			naval_weather_penalty_factor = -0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}

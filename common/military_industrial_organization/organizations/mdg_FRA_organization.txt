@@ -1,0 +1,50 @@
+
+FRA_cmn_organization = {
+	include = generic_small_ship_organization
+	icon = GFX_idea_cmn
+
+	allowed = {
+		original_tag = FRA
+	}
+	
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = FRA } }
+			}
+			FROM = { NOT = { has_war_with = FRA } }
+		}
+		ELSE = { # original_tag = FRA
+			FROM = { controls_state = 15 } # Sherbur
+		}
+
+		# IF = {
+		# 	custom_trigger_tooltip = {
+		# 		tooltip = has_invited_mio_tt
+		# 		FROM = {
+		# 			has_country_flag = has_invited_crda_mio_flag
+		# 		}
+		# 	}
+		# }
+	}
+	
+	add_trait = {
+		token = generic_mio_trait_combined_materials
+		name = generic_mio_trait_combined_materials
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+		special_trait_background = yes
+
+		position = { x=8 y=0 }		
+		equipment_bonus = {
+			build_cost_ic = 0.15
+			naval_speed = 0.1
+			max_strength = 0.1
+			naval_weather_penalty_factor = -0.2
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+}
