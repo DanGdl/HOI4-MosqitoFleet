@@ -33,8 +33,6 @@ mio_cat_eq_all_destroyer = {
 		# easiest way to add support of MIO for new equipment
 		mdg_ship_hull_frigate
 		mdg_ship_hull_corvette
-		mdg_ship_hull_hydrofoil
-		mdg_ship_hull_boat
 	}
 }
 

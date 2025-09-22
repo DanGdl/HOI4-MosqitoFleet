@@ -1,0 +1,37 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_idea_GER_lurssen"
+		texturefile = "gfx/interface/ideas/idea_GER_lurssen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_baglietto"
+		texturefile = "gfx/interface/ideas/idea_ITA_baglietto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_fairmile"
+		texturefile = "gfx/interface/ideas/idea_ENG_fairmile.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_vosper"
+		texturefile = "gfx/interface/ideas/idea_ENG_vosper.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_ccb5"
+		texturefile = "gfx/interface/ideas/idea_SOV_ccb5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_cmn"
+		texturefile = "gfx/interface/ideas/idea_FRA_cmn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_higgins"
+		texturefile = "gfx/interface/ideas/idea_USA_higgins.dds"
+	}
+}

@@ -1,0 +1,144 @@
+
+generic_small_ship_organization = {
+	icon = GFX_idea_generic_naval_manufacturer_3
+
+	allowed = {
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = USA tag = NZL tag = SAF tag = CAN } }
+	}
+
+	equipment_type = {
+		# mdg_boat
+		# mdg_ship_hull_hydrofoil
+		mio_cat_eq_all_mdg_boat
+	}
+	research_categories = {
+		mio_cat_eq_all_mdg_boat_and_modules
+	}
+	
+	tree_header_text = {
+		text = mio_header_systems
+		x = 1
+	}
+
+	tree_header_text = {
+		text = mio_header_weapons
+		x = 5
+	}
+
+	initial_trait = {
+		name = generic_mio_initial_trait_small_fleet
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_advanced_hydrodynamic_design
+		name = generic_mio_trait_advanced_hydrodynamic_design
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=1 y=0 }
+		equipment_bonus = {
+			naval_speed = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_wooden_hulls
+		name = generic_mio_trait_wooden_hulls
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+
+		position = { x=1 y=1 }
+		any_parent = { generic_mio_trait_advanced_hydrodynamic_design }
+
+		equipment_bonus = {
+			reliability = 0.1
+			max_strength = -0.1
+			build_cost_ic = -0.1
+			fuel_consumption = -0.1
+		}
+
+		production_bonus = {
+			production_cost_factor = -0.1
+			production_resource_need_factor = -0.15
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_efficient_patrolling_scheme
+		name = generic_mio_trait_efficient_patrolling_scheme
+		icon = GFX_generic_mio_trait_icon_detection # GFX_generic_mio_trait_icon_surface_detection
+
+		position = { x=1 y=2 }
+		all_parents = { generic_mio_trait_wooden_hulls }
+		
+		equipment_bonus = {
+			patrol_coordination = 0.1
+			surface_detection = 0.05
+			sub_detection = 0.05
+			naval_range = -0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_spotting_tops
+		name = generic_mio_trait_spotting_tops
+		icon = GFX_generic_mio_trait_icon_surface_visibility
+
+		position = { x=1 y=3 }
+		any_parent = { generic_mio_trait_efficient_patrolling_scheme }
+
+		equipment_bonus = {
+			surface_visibility = -0.05
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+	}
+
+	
+	# Second column
+	trait = {
+		token = generic_mio_trait_rapid_fire_guns
+		name = generic_mio_trait_rapid_fire_guns
+		icon = GFX_generic_mio_trait_icon_lg_attack # GFX_generic_mio_department_icon_ship_general_offense
+
+		position = { x=5 y=0 }
+		equipment_bonus = {
+			anti_air_attack = 0.05
+			lg_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_gyro_stabilized_mounts
+		name = generic_mio_trait_gyro_stabilized_mounts
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
+
+		position = { x=5 y=1 }
+		any_parent = { generic_mio_trait_rapid_fire_guns }
+
+		equipment_bonus = {
+			naval_light_gun_hit_chance_factor = 0.05
+			anti_air_attack = 0.05
+			lg_attack = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_large_torpedo_banks
+		name = generic_mio_trait_large_torpedo_banks
+		icon = GFX_generic_mio_trait_icon_torpedo_attack
+
+		position = { x=5 y=2 }
+		any_parent = { generic_mio_trait_gyro_stabilized_mounts }
+
+		equipment_bonus = {
+			torpedo_attack = 0.05
+			mines_planting = 0.1
+			sub_attack = 0.1
+		}
+	}
+}

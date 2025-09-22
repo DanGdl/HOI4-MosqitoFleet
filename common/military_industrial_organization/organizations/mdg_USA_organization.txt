@@ -1,0 +1,38 @@
+
+USA_higgins_naval_yard_organization = {
+	include = generic_small_ship_organization
+	icon = GFX_idea_USA_higgins
+	allowed = {	
+		original_tag = USA 
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = USA } }
+			}
+			FROM = { NOT = { has_war_with = USA } }
+		}
+		ELSE = { # original_tag = USA
+			FROM = { controls_state = 371 } # New Orlean
+		}
+
+		# IF = {
+		# 	custom_trigger_tooltip = {
+		# 		tooltip = has_invited_mio_tt
+		# 		FROM = {
+		# 			has_country_flag = has_invited_crda_mio_flag
+		# 		}
+		# 	}
+		# }
+	}
+# Nothing special, all stuff is generic
+
+# Очень лёгкие — высокая максимальная скорость и манёвренность.
+# Деревянный корпус легко ремонтируется «в поле»; быстрая серийная сборка (меньше стали, меньше формовки). 
+
+# Дерево уязвимо к пожару (бензиновые двигатели, боеприпасы) и к пожарообразованию при попадании.
+# Меньшая общая прочность и живучесть по сравнению со стальными корпусами — сильные повреждения могли быстро вывести лодку из строя.
+# Ограниченная дальность и мореходность; лучше для прибрежных/операций в спокойном море. 
+}
