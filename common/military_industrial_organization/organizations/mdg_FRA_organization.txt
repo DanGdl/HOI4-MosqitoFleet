@@ -1,7 +1,7 @@
 
 FRA_cmn_organization = {
 	include = generic_small_ship_organization
-	icon = GFX_idea_cmn
+	icon = GFX_idea_FRA_cmn
 
 	allowed = {
 		original_tag = FRA
