@@ -109,7 +109,7 @@ equipments = {
 
 		fuel_consumption = -1
 
-		build_cost_ic = 348
+		build_cost_ic = 330
 		resources = {
 			steel = 1
 		}
@@ -160,7 +160,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1500
 		max_strength = 35
-		build_cost_ic = 445
+		build_cost_ic = 430
 		resources = {
 			steel = 2
 		}
@@ -207,7 +207,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1700
 		max_strength = 45
-		build_cost_ic = 540
+		build_cost_ic = 530
 		manpower = 350
 
 		resources = {
@@ -241,7 +241,7 @@ equipments = {
 		reliability = 0.9
 		naval_range = 2000
 		max_strength = 50
-		build_cost_ic = 540
+		build_cost_ic = 530
 		resources = {
 			steel = 3
 		}
@@ -298,7 +298,7 @@ equipments = {
 
 		fuel_consumption = 3
 
-		build_cost_ic = 300
+		build_cost_ic = 280
 		resources = {
 			steel = 1
 		}
@@ -346,7 +346,7 @@ equipments = {
 			screen_ship
 		}
 
-		build_cost_ic = 350
+		build_cost_ic = 330
 		resources = {
 			steel = 2
 		}

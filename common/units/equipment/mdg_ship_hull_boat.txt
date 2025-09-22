@@ -78,7 +78,7 @@ equipments = {
 
 		fuel_consumption = -1
 
-		build_cost_ic = 244
+		build_cost_ic = 220
 		resources = {
 			steel = 1
 		}
@@ -87,7 +87,7 @@ equipments = {
  		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
-		naval_weather_penalty_factor = 1.3
+		naval_weather_penalty_factor = 1.4
 		naval_supremacy_factor = 0.7
 	}
 
@@ -127,7 +127,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 600
 		max_strength = 20
-		build_cost_ic = 285
+		build_cost_ic = 250
 		resources = {
 			steel = 1
 		}
@@ -168,7 +168,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 700
 		max_strength = 25
-		build_cost_ic = 338
+		build_cost_ic = 300
 		manpower = 200
 
 		resources = {
@@ -197,7 +197,7 @@ equipments = {
 		reliability = 0.9
 		naval_range = 800
 		max_strength = 30
-		build_cost_ic = 385
+		build_cost_ic = 340
 		resources = {
 			steel = 2
 		}
@@ -250,7 +250,7 @@ equipments = {
 
 		fuel_consumption = -2
 
-		build_cost_ic = 210
+		build_cost_ic = 200
 		resources = {
 			steel = 1
 		}
