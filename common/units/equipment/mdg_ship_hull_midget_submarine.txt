@@ -109,7 +109,7 @@ equipments = {
 
 		archetype = mdg_ship_hull_midget_submarine
 		parent = mdg_ship_hull_midget_submarine_1
-		#model = ship_hull_cruiser_submarine
+		#model = mdg_midget_submarine
 		priority = 1500
 
 		module_slots = {
