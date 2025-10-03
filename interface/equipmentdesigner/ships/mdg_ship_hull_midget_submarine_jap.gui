@@ -1,10 +1,9 @@
 ################# Equipment Designer Window layouts: Midget submarine (new format examples) #################
-# English midget is used as generic too
 guiTypes = {
 
 	################# Equipment Archetype: mdg_ship_hull_midget_submarine #################
 	containerWindowType = {
-		name = "equipment_designer_mdg_ship_hull_midget_submarine"
+		name = "equipment_designer_mdg_ship_hull_midget_submarine_jap"
 
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x = 0 y = 0 }
