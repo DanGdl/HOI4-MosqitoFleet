@@ -1,0 +1,178 @@
+################# Equipment Designer Window layouts: Midget submarine (new format examples) #################
+guiTypes = {
+
+	################# Equipment Archetype: mdg_ship_hull_midget_submarine #################
+	containerWindowType = {
+		name = "equipment_designer_mdg_ship_hull_midget_submarine_ger"
+
+		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
+		position = { x = 0 y = 0 }
+		size = { width = 512 height = 260 }
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name = "equipment_image"
+			spriteType = "GFX_SD_tv_midget_submarine_ger" # from file "interface/mdg_equipmentdesignerview_ger.gfx"
+			position = { x = 0 y = 0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			################# MODULE SLOT: Torpedo #################
+			containerWindowType = {
+				name = "fixed_ship_torpedo_slot"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
+
+				containerWindowType = {
+					name = "ship_torpedo_sub"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ger"
+						position = { x = 141 y = 121 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_torpedo_sub@highlight"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ger@highlight"
+						position = { x = 141 y = 121 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Engine #################
+			containerWindowType = {
+				name = "fixed_ship_engine_slot"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
+
+				containerWindowType = {
+					name = "sub_ship_engine"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_engine"
+						position = { x = 0 y = 0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "sub_ship_engine@highlight"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_engine@highlight"
+						position = { x = 0 y = 0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Custom, Front #1 #################
+			containerWindowType = {
+				name = "front_1_custom_slot"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
+
+				containerWindowType = {
+					name = "ship_sub_coating"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_anechoic_tiles"
+						position = { x=224 y=-22 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sub_coating@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_anechoic_tiles@highlight"
+						position = { x=224 y=-22 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Custom, Middle #1 #################
+			containerWindowType = {
+				name = "mid_1_custom_slot"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = 100% }
+
+				#### MODULE: Snorkel ####
+				containerWindowType = {
+					name = "ship_sub_snorkel"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_hull_snorkel"
+						position = { x = 0 y = 0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sub_snorkel@highlight"
+					position = { x = 0 y = 0 }
+					size = { width = 100% height = 100% }
+
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_hull_snorkel@highlight"
+						position = { x = 0 y = 0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sub_coating"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_anechoic_tiles"
+						position = { x=224 y=-22 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sub_coating@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_anechoic_tiles@highlight"
+						position = { x=224 y=-22 }
+					}
+				}
+			}
+		}
+	}
+}
