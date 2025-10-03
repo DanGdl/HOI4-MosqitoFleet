@@ -283,6 +283,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/midget/midget_hull_fixed_torpedos@highlight.dds"
 	}
 
+
 	# Merchant aircraft carrier
 	spriteType = {
 		name = "GFX_SM_mdg_ship_hull_mac_fixed_anti_air"
