@@ -99,86 +99,68 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_torpedo@highlight.dds"
 	}
 
+
 	# Hydrofoil
 	spriteType = {
 		name = "GFX_SM_mdg_hydrofoil_light_battery"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_fixed_guns.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_fixed_guns.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SM_mdg_hydrofoil_light_battery@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_fixed_guns@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_fixed_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_rear_1_light_battery"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_guns.dds"
+		name = "GFX_SM_mdg_hydrofoil_rear_guns"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_rear_guns.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_rear_1_light_battery@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_guns@highlight.dds"
+		name = "GFX_SM_mdg_hydrofoil_rear_guns@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_rear_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_mid_1_light_battery"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_guns.dds"
+		name = "GFX_SM_mdg_hydrofoil_mid_guns"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_mid_guns.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_mid_1_light_battery@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_guns@highlight.dds"
+		name = "GFX_SM_mdg_hydrofoil_mid_guns@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_mid_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_mid_1_depth_charge"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_depth_charge.dds"
+		name = "GFX_SM_mdg_hydrofoil_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_depth_charge.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_mid_1_depth_charge@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_depth_charge@highlight.dds"
+		name = "GFX_SM_mdg_hydrofoil_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_depth_charge@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_mid_1_mine_layer"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_mine_rails.dds"
+		name = "GFX_SM_mdg_hydrofoil_mine_layer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_mine_rails.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_mid_1_mine_layer@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_mid_mine_rails@highlight.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_rear_1_depth_charge"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_depth_charge.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_rear_1_depth_charge@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_depth_charge@highlight.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_rear_1_mine_layer"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_mine_rails.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_rear_1_mine_layer@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_rear_mine_rails@highlight.dds"
+		name = "GFX_SM_mdg_hydrofoil_mine_layer@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_mine_rails@highlight.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SM_mdg_hydrofoil_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_torpedo.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_fixed_torpedo.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SM_mdg_hydrofoil_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_hydrofoil_torpedo@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_fixed_torpedo@highlight.dds"
 	}
+
 
 	# Auxiliary
 	spriteType = {
