@@ -39,7 +39,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ita"
-						position = { x = 220 y = 103 }
+						position = { x = 220 y = 0 }
 					}
 				}
 
@@ -51,7 +51,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_ita@highlight"
-						position = { x = 220 y = 103 }
+						position = { x = 220 y = 0 }
 					}
 				}
 			}
