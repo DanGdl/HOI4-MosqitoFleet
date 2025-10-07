@@ -51,12 +51,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_SM_mdg_boat_rear_depth_charge_eng"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_depth_charge.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/eng_mdg_boat_rear_depth_charge.dds"
 	}
 
 	spriteType = {
 		name = "GFX_SM_mdg_boat_rear_depth_charge_eng@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/mdg_boat_rear_depth_charge@highlight.dds"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/eng_mdg_boat_rear_depth_charge@highlight.dds"
 	}
 
 	spriteType = {
