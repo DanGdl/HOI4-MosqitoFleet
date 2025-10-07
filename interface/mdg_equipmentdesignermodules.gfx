@@ -131,15 +131,15 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_mid_guns@highlight.dds"
 	}
 
-	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_depth_charge"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_depth_charge.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_SM_mdg_hydrofoil_depth_charge"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_depth_charge.dds"
+	#}
 
-	spriteType = {
-		name = "GFX_SM_mdg_hydrofoil_depth_charge@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_depth_charge@highlight.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_SM_mdg_hydrofoil_depth_charge@highlight"
+	#	textureFile = "gfx/interface/equipmentdesigner/naval/topviews/hydrofoil/mdg_hydrofoil_depth_charge@highlight.dds"
+	#}
 
 	spriteType = {
 		name = "GFX_SM_mdg_hydrofoil_mine_layer"
