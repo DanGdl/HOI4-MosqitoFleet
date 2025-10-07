@@ -48,7 +48,7 @@ spriteTypes = {
 		name = "GFX_SM_mdg_boat_torpedo_jap@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_fixed_torpedo@highlight.dds"
 	}
-
+	
 
 	# Midget
 	spriteType = {
