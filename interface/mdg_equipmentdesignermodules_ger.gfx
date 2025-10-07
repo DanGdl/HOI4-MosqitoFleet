@@ -50,22 +50,22 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_depth_charge"
+		name = "GFX_SM_mdg_boat_depth_charge_ger"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/ger_mdg_boat_rear_depth_charge.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_depth_charge@highlight"
+		name = "GFX_SM_mdg_boat_depth_charge_ger@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/ger_mdg_boat_rear_depth_charge@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mine_layer"
+		name = "GFX_SM_mdg_boat_mine_layer_ger"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/ger_mdg_boat_rear_mine_rails.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mine_layer@highlight"
+		name = "GFX_SM_mdg_boat_mine_layer_ger@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/ger_mdg_boat_rear_mine_rails@highlight.dds"
 	}
 
