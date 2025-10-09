@@ -2164,6 +2164,11 @@ technologies = {
 			ship_torpedo_4
 		}
 
+		path = {
+			leads_to_tech = ship_torpedo_launcher_5
+			research_cost_coeff = 1
+		}
+
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
