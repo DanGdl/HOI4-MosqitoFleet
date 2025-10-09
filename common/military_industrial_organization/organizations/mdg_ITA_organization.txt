@@ -1,7 +1,7 @@
 
 ITA_baglietto_organization = {
 	include = generic_small_ship_organization
-	icon = GFX_idea_baglietto
+	icon = GFX_idea_ITA_baglietto
 	
 	allowed = {	
 		original_tag = ITA
