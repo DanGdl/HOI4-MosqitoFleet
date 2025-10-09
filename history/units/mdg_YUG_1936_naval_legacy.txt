@@ -6,13 +6,13 @@
 			name = "Kraljevska Mornarica"
 			location = 5838
 
-			ship = { name = "KB Galeb" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
-			ship = { name = "KB Jastreb" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
-			ship = { name = "KB Kobac" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
-			ship = { name = "KB Labud" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
-			ship = { name = "KB Orao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
-			ship = { name = "KB Sokol" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
+			#ship = { name = "KB Galeb" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
+			#ship = { name = "KB Jastreb" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
+			#ship = { name = "KB Kobac" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
+			#ship = { name = "KB Orao" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
+			#ship = { name = "KB Sokol" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
 
+			ship = { name = "KB Labud" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
 			ship = { name = "KB Malinska" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
 			ship = { name = "KB Marjan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
 			ship = { name = "KB Meljine" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = YUG } } }
