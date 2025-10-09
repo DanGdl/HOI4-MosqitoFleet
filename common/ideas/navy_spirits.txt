@@ -157,8 +157,7 @@ ideas = {
 					has_tech = small_fleet
 				}
 			}
-			visible = { has_tech = base_strike
-					has_tech = small_fleet }
+			visible = { has_tech = base_strike has_tech = small_fleet }
 			modifier = {
 				custom_modifier_tooltip = base_strike_academy_spirit_tt
 				trait_air_controller_xp_gain_factor = 0.2
@@ -483,8 +482,7 @@ ideas = {
 					has_tech = small_fleet
 				}
 			}
-			visible = { has_tech = base_strike
-					has_tech = small_fleet }
+			visible = { has_tech = base_strike has_tech = small_fleet }
 			research_bonus = {
 				cv_tech = 0.20
 			}
@@ -575,8 +573,7 @@ ideas = {
 					has_tech = small_fleet
 				}
 			}
-			visible = { has_tech = base_strike
-					has_tech = small_fleet }
+			visible = { has_tech = base_strike has_tech = small_fleet }
 			modifier = {
 				naval_retreat_speed_after_initial_combat = 0.1
 				naval_retreat_chance_after_initial_combat = 0.1
