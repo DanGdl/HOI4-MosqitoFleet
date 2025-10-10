@@ -1,4 +1,4 @@
-version="1.5.1"
+version="1.6"
 picture="thumbnail.png"
 tags={
 	"Technologies"
@@ -8,5 +8,5 @@ dependencies={
 	"UTTNH_2.0"
 }
 name="MosquitoFleetUTTNH2"
-supported_version="1.16.5"
+supported_version="1.16.*"
 remote_file_id="3474956619"
