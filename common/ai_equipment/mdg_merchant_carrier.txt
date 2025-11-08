@@ -33,10 +33,10 @@ mdg_macs = {
 			
 			type = mdg_ship_hull_mac
 			modules = {
-				fixed_ship_deck_slot_1 = mdg_ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_deck_slot_1 = { any_of = { mdg_ship_deck_space } upgrade > current }
+				fixed_ship_anti_air_slot = { any_of = { ship_anti_air_1 } upgrade > current }
 				fixed_ship_engine_slot = carrier_ship_engine_1
-				fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+				fixed_ship_secondaries_slot = { any_of = { mdg_ship_light_cannon_1 } upgrade > current }
 			}
 		}
 		

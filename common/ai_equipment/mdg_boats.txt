@@ -43,7 +43,7 @@ mdg_boats = {
 		target_variant = {
 			match_value = 2000.0
 
-			type = mdg_ship_hull_boat
+			type = mdg_ship_hull_boat_1
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -87,6 +87,10 @@ mdg_boats = {
 				factor = 10
 				is_major = no
 			}
+			modifier = {
+				add = 2
+				has_tech = basic_ship_hull_light
+			}
 		}
 
 		role_icon_index = 2
@@ -94,7 +98,7 @@ mdg_boats = {
 		target_variant = {
 			match_value = 2500.0
 
-			type = mdg_ship_hull_boat
+			type = mdg_ship_hull_boat_2
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -138,6 +142,10 @@ mdg_boats = {
 				factor = 10
 				is_major = no
 			}
+			modifier = {
+				add = 4
+				has_tech = improved_ship_hull_light
+			}
 		}
 
 		role_icon_index = 2
@@ -145,7 +153,66 @@ mdg_boats = {
 		target_variant = {
 			match_value = 3500.0
 
-			type = mdg_ship_hull_boat
+			type = mdg_ship_hull_boat_3
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { ship_mine_layer mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			mdg_ship_light_guns
+			ship_depth_charge
+			light_ship_engine
+			ship_mine_layer
+			ship_torpedo
+			ship_radar
+			ship_sonar
+		}
+	}
+
+	mdg_boat_4 = {
+
+		priority = {
+			factor = 250
+			modifier = {
+				factor = 10
+				is_major = no
+			}
+			modifier = {
+				add = 6
+				has_tech = advanced_ship_hull_light
+			}
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 3500.0
+
+			type = mdg_ship_hull_boat_4
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }

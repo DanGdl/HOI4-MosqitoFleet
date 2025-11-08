@@ -39,6 +39,49 @@ mdg_midget_submarine = {
 		target_variant = {
 			match_value = 1000.0
 
+			type = mdg_ship_hull_midget_submarine_1
+			modules = {
+				fixed_ship_engine_slot = {
+					any_of = { sub_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo_sub }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { ship_sub_snorkel ship_sub_coating }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			sub_ship_engine
+			ship_torpedo_sub
+			ship_sub_snorkel
+			ship_sub_coating
+		}
+	}
+
+	mdg_midget_sub_2 = {
+
+		priority = {
+			factor = 1
+			modifier = {
+				factor = 1
+			}
+			modifier = {
+				add = 2
+				has_tech = mdg_improved_midget_submarine
+			}
+		}
+
+		role_icon_index = 6
+
+		target_variant = {
+			match_value = 1000.0
+
 			type = mdg_ship_hull_midget_submarine
 			modules = {
 				fixed_ship_engine_slot = {
@@ -50,7 +93,7 @@ mdg_midget_submarine = {
 					upgrade > current
 				}
 				mid_1_custom_slot = {
-					any_of = { ship_sub_snorkel }
+					any_of = { ship_sub_snorkel ship_sub_coating }
 					upgrade > current
 				}
 			}
@@ -60,6 +103,7 @@ mdg_midget_submarine = {
 			sub_ship_engine
 			ship_torpedo_sub
 			ship_sub_snorkel
+			ship_sub_coating
 		}
 	}
 }

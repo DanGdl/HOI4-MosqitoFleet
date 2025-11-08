@@ -45,15 +45,15 @@ mdg_auxiliaries = {
 
 			type = mdg_ship_hull_auxiliary
 			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_1
+				fixed_ship_battery_slot = { module = ship_light_medium_battery_1 upgrade > current }
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_engine_slot = light_ship_engine_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_anti_air_slot = { module = ship_anti_air_1 upgrade > current }
+				fixed_ship_secondaries_slot = { module = ship_secondaries_1 upgrade > current }
 
-				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_light_medium_battery_1
+				mid_1_custom_slot = { module = ship_airplane_launcher_1 upgrade > current }
+				mid_2_custom_slot = { module = ship_torpedo_1 upgrade > current }
+				rear_1_custom_slot = { module = ship_light_medium_battery_1 upgrade > current }
 				rear_2_custom_slot = ship_mine_layer_1
 			}
 		}

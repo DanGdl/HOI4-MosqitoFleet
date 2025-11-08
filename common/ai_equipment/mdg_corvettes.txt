@@ -95,6 +95,10 @@ mdg_corvettes = {
 				factor = 10
 				is_major = no
 			}
+			modifier = {
+				add = 2
+				has_tech = basic_ship_hull_light
+			}
 		}
 
 		role_icon_index = 2
@@ -102,7 +106,7 @@ mdg_corvettes = {
 		target_variant = {
 			match_value = 2500.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_2
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
@@ -157,6 +161,10 @@ mdg_corvettes = {
 				factor = 10
 				is_major = no
 			}
+			modifier = {
+				add = 4
+				has_tech = improved_ship_hull_light
+			}
 		}
 
 		role_icon_index = 2
@@ -164,7 +172,7 @@ mdg_corvettes = {
 		target_variant = {
 			match_value = 3500.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
@@ -223,6 +231,10 @@ mdg_corvettes = {
 				factor = 10
 				is_major = no
 			}
+			modifier = {
+				add = 6
+				has_tech = advanced_ship_hull_light
+			}
 		}
 
 		role_icon_index = 2
@@ -230,7 +242,7 @@ mdg_corvettes = {
 		target_variant = {
 			match_value = 3500.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_4
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
