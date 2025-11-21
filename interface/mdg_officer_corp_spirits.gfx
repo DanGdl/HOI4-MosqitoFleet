@@ -1,10 +1,6 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_idea_small_fleet_academy_spirit"
-		texturefile = "gfx/interface/officer_corp/spirits/mdg_spirit_idea_small_fleet.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_mosquitos_navy_spirit"
 		texturefile = "gfx/interface/officer_corp/spirits/mdg_spirit_idea_mosquitos.dds"
 	}

@@ -1,27 +1,35 @@
 ﻿l_german:
- modifier_experience_gain_mdg_boat_training_factor: "Erfahrungsgewinn für Bootsausbildung"
- modifier_experience_gain_mdg_boat_combat_factor: "Erfahrungsgewinn für Bootskampf"
+ modifier_experience_gain_mdg_boat_mission_factor: "Erlangte Erfahrung für Boots durch Einsätze"
+ modifier_experience_gain_mdg_boat_training_factor: "Erlangte Erfahrung für Boot durch Übung"
+ modifier_experience_gain_mdg_boat_combat_factor: "Erlangte Erfahrung für Boot durch Gefechte"
 
- modifier_experience_gain_mdg_hydrofoil_training_factor: "Erfahrungsgewinn für Tragflügelboot-Ausbildung"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "Erfahrungsgewinn für Tragflügelboot-Kampf"
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "Erlangte Erfahrung für Tragflügelboot durch Einsätze"
+ modifier_experience_gain_mdg_hydrofoil_training_factor: "Erlangte Erfahrung für Tragflügelboot durch Übung"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "Erlangte Erfahrung für Tragflügelboot durch Gefechte"
 
- modifier_experience_gain_mdg_auxiliary_training_factor: "Erfahrungsgewinn für Hilfskreuzer-Ausbildung"
- modifier_experience_gain_mdg_auxiliary_combat_factor: "Erfahrungsgewinn für Hilfskreuzer-Kampf"
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "Erlangte Erfahrung für Hilfskreuzer durch Einsätze"
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Erlangte Erfahrung für Hilfskreuzer durch Übung"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Erlangte Erfahrung für Hilfskreuzer durch Gefechte"
 
- modifier_experience_gain_mdg_corvette_training_factor: "Erfahrungsgewinn für Korvetten-Ausbildung"
- modifier_experience_gain_mdg_corvette_combat_factor: "Erfahrungsgewinn für Korvetten-Kampf"
+ modifier_experience_gain_mdg_corvette_mission_factor: "Erlangte Erfahrung für Korvetten durch Einsätze"
+ modifier_experience_gain_mdg_corvette_training_factor: "Erlangte Erfahrung für Korvetten durch Übung"
+ modifier_experience_gain_mdg_corvette_combat_factor: "Erlangte Erfahrung für Korvetten durch Gefechte"
 
- modifier_experience_gain_mdg_frigate_training_factor: "Erfahrungsgewinn für Fregatten-Ausbildung"
- modifier_experience_gain_mdg_frigate_combat_factor: "Erfahrungsgewinn für Fregatten-Kampf"
+ modifier_experience_gain_mdg_frigate_mission_factor: "Erlangte Erfahrung für Fregatten durch Einsätze"
+ modifier_experience_gain_mdg_frigate_training_factor: "Erlangte Erfahrung für Fregatten durch Übung"
+ modifier_experience_gain_mdg_frigate_combat_factor: "Erlangte Erfahrung für Fregatten durch Gefechte"
 
- modifier_experience_gain_mdg_midget_submarine_training_factor: "Erfahrungsgewinn für Kleinst-U-Boot-Ausbildung"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "Erfahrungsgewinn für Kleinst-U-Boot-Kampf"
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "Erlangte Erfahrung für Kleinst-U-Boot durch Einsätze"
+ modifier_experience_gain_mdg_midget_submarine_training_factor: "Erlangte Erfahrung für Kleinst-U-Boot durch Übung"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "Erlangte Erfahrung für Kleinst-U-Boot durch Gefechte"
 
- modifier_experience_gain_mdg_monitor_training_factor: "Erfahrung durch Monitor-Ausbildung"
- modifier_experience_gain_mdg_monitor_combat_factor: "Kampferfahrung durch Monitore"
+ modifier_experience_gain_mdg_monitor_mission_factor: "Erlangte Erfahrung für Monitor durch Einsätze"
+ modifier_experience_gain_mdg_monitor_submarine_training_factor: "Erlangte Erfahrung für Monitor durch Übung"
+ modifier_experience_gain_mdg_monitor_submarine_combat_factor: "Erlangte Erfahrung für Monitor durch Gefechte"
 
- modifier_experience_gain_mdg_mac_training_factor: "Erfahrungszuwachs durch Ausbildung von Hilfsflugzeugträgern"
- modifier_experience_gain_mdg_mac_combat_factor: "Erfahrungszuwachs durch Gefechte von Hilfsflugzeugträgern"
+ modifier_experience_gain_mdg_mac_mission_factor: "Erlangte Erfahrung für Hilfsflugzeugträgern durch Einsätze"
+ modifier_experience_gain_mdg_mac_submarine_training_factor: "Erlangte Erfahrung für Hilfsflugzeugträgern durch Übung"
+ modifier_experience_gain_mdg_mac_submarine_combat_factor: "Erlangte Erfahrung für Hilfsflugzeugträgern durch Gefechte"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Konstruktionskosten für leichte Geschütze I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Konstruktionskosten für leichte Geschütze II"
@@ -43,9 +51,9 @@
  mdg_ship_hull_mac_design_cost_factor: "Entwurfskosten für Hilfsflugzeugträger"
  modifier_module_mdg_ship_deck_space_design_cost_factor: "Schiff - Hangarplatz-Musterkosten"
 
- modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Erfahrungsgewinn für „Moskito“-Eigenschaft"
+ modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Eigenschaft-EP-Zugewinn: Moskito"
 
- mdg_ff_tech_research: "Forschungsgeschwindigkeit für Fregatten"
- mdg_lcs_tech_research: "Forschungsgeschwindigkeit für Korvetten"
- mdg_pt_tech_research: "Forschungsgeschwindigkeit für Schnellboote"
- mdg_ssm_tech_research: "Forschungsgeschwindigkeit für Kleinst-U-Boote"
+ mdg_ff_tech_research: "Forschungsgeschwindigkeit: Fregatten"
+ mdg_lcs_tech_research: "Forschungsgeschwindigkeit: Korvetten"
+ mdg_pt_tech_research: "Forschungsgeschwindigkeit: Schnellboote"
+ mdg_ssm_tech_research: "Forschungsgeschwindigkeit: Kleinst-U-Boote"

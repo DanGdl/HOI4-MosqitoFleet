@@ -1,25 +1,33 @@
 ﻿l_english:
+ modifier_experience_gain_mdg_boat_mission_factor: "Boat mission Experience Gain"
  modifier_experience_gain_mdg_boat_training_factor: "Boat Training Experience Gain"
  modifier_experience_gain_mdg_boat_combat_factor: "Boat Combat Experience Gain"
 
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "Hydrofoil mission Experience Gain"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Hydrofoil boat Training Experience Gain"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "Hydrofoil boat Combat Experience Gain"
 
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "Auxiliary Cruiser mission Experience Gain"
  modifier_experience_gain_mdg_auxiliary_training_factor: "Auxiliary Cruiser Training Experience Gain"
  modifier_experience_gain_mdg_auxiliary_combat_factor: "Auxiliary Cruiser Combat Experience Gain"
 
+ modifier_experience_gain_mdg_corvette_mission_factor: "Corvette mission Experience Gain"
  modifier_experience_gain_mdg_corvette_training_factor: "Corvette Training Experience Gain"
  modifier_experience_gain_mdg_corvette_combat_factor: "Corvette Combat Experience Gain"
 
+ modifier_experience_gain_mdg_frigate_mission_factor: "Frigate mission Experience Gain"
  modifier_experience_gain_mdg_frigate_training_factor: "Frigate Training Experience Gain"
  modifier_experience_gain_mdg_frigate_combat_factor: "Frigate Combat Experience Gain"
 
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "Midget Submarine mission Experience Gain"
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Midget Submarine experence gain from training"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Midget Submarine Combat Experience Gain"
 
+ modifier_experience_gain_mdg_monitor_mission_factor: "Monitor mission Experience Gain"
  modifier_experience_gain_mdg_monitor_training_factor: "Monitor Training Experience Gain"
  modifier_experience_gain_mdg_monitor_combat_factor: "Monitor Combat Experience Gain"
 
+ modifier_experience_gain_mdg_mac_mission_factor: "Auxiliary Carrier Experience Gain"
  modifier_experience_gain_mdg_mac_training_factor: "Auxiliary Carrier Training Experience Gain"
  modifier_experience_gain_mdg_mac_combat_factor: "Auxiliary Carrier Combat Experience Gain"
 

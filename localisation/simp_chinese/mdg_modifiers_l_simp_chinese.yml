@@ -1,27 +1,35 @@
 ﻿l_simp_chinese:
- modifier_experience_gain_mdg_boat_training_factor: "小型舰艇训练经验获取"
- modifier_experience_gain_mdg_boat_combat_factor: "小型舰艇战斗经验获取"
+ modifier_experience_gain_mdg_boat_mission_factor: "鱼雷艇执行任务获得的经验"
+ modifier_experience_gain_mdg_boat_training_factor: "鱼雷艇训练获得的经验"
+ modifier_experience_gain_mdg_boat_combat_factor: "鱼雷艇战斗获得的经验"
 
- modifier_experience_gain_mdg_hydrofoil_training_factor: "水翼船训练经验获取"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "水翼船战斗经验获取"
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "水翼艇执行任务获得的经验"
+ modifier_experience_gain_mdg_hydrofoil_training_factor: "水翼艇训练获得的经验"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "水翼艇战斗获得的经验"
 
- modifier_experience_gain_mdg_auxiliary_training_factor: "辅助巡洋舰训练经验获取"
- modifier_experience_gain_mdg_auxiliary_combat_factor: "辅助巡洋舰战斗经验获取"
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "辅助巡洋舰执行任务获得的经验"
+ modifier_experience_gain_mdg_auxiliary_training_factor: "辅助巡洋舰训练获得的经验"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "辅助巡洋舰战斗获得的经验"
 
- modifier_experience_gain_mdg_corvette_training_factor: "轻型护卫舰训练经验获取"
- modifier_experience_gain_mdg_corvette_combat_factor: "轻型护卫舰战斗经验获取"
+ modifier_experience_gain_mdg_corvette_mission_factor: "轻型护卫舰执行任务获得的经验"
+ modifier_experience_gain_mdg_corvette_training_factor: "轻型护卫舰训练获得的经验"
+ modifier_experience_gain_mdg_corvette_combat_factor: "轻型护卫舰战斗获得的经验"
 
- modifier_experience_gain_mdg_frigate_training_factor: "护卫舰训练经验获取"
- modifier_experience_gain_mdg_frigate_combat_factor: "护卫舰战斗经验获取"
+ modifier_experience_gain_mdg_frigate_mission_factor: "护卫舰执行任务获得的经验"
+ modifier_experience_gain_mdg_frigate_training_factor: "护卫舰训练获得的经验"
+ modifier_experience_gain_mdg_frigate_combat_factor: "护卫舰战斗获得的经验"
 
- modifier_experience_gain_mdg_midget_submarine_training_factor: "微型潜艇训练经验获取"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "微型潜艇战斗经验获取"
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "袖珍潜艇执行任务获得的经验"
+ modifier_experience_gain_mdg_midget_submarine_training_factor: "袖珍潜艇训练获得的经验"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "袖珍潜艇战斗获得的经验"
 
- modifier_experience_gain_mdg_monitor_training_factor: "浅水重炮舰训练经验获取"
- modifier_experience_gain_mdg_monitor_combat_factor: "浅水重炮舰战斗经验获取"
+ modifier_experience_gain_mdg_monitor_mission_factor: "监视舰执行任务获得的经验"
+ modifier_experience_gain_mdg_monitor_training_factor: "监视舰训练获得的经验"
+ modifier_experience_gain_mdg_monitor_combat_factor: "监视舰战斗获得的经验"
 
- modifier_experience_gain_mdg_mac_training_factor: "辅助航空母舰训练经验获取"
- modifier_experience_gain_mdg_mac_combat_factor: "辅助航空母舰战斗经验获取"
+ modifier_experience_gain_mdg_mac_mission_factor: "商船改装航母执行任务获得的经验"
+ modifier_experience_gain_mdg_mac_training_factor: "商船改装航母训练获得的经验"
+ modifier_experience_gain_mdg_mac_combat_factor: "商船改装航母战斗获得的经验"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "轻型武器 I 设计成本"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "轻型武器 II 设计成本"

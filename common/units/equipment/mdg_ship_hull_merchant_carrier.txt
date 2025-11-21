@@ -16,7 +16,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
-				allowed_module_categories = { mdg_ship_deck_space }
+				allowed_module_categories = { ship_escort_deck_space }
 				gfx = ship_deck_space_slot
 			}
 			fixed_ship_anti_air_slot = {
@@ -87,7 +87,7 @@ equipments = {
 
 		manpower = 1000
 
-		naval_supremacy_factor = 1.4
+		naval_dominance_factor = 175
 		naval_weather_penalty_factor = 1 #This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -123,7 +123,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_deck_slot_1 = mdg_ship_deck_space
+			fixed_ship_deck_slot_1 = ship_escort_deck_space
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1

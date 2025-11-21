@@ -1,27 +1,35 @@
 ﻿l_polish:
- modifier_experience_gain_mdg_boat_training_factor: "Doświadczenie z treningu łodzi"
- modifier_experience_gain_mdg_boat_combat_factor: "Doświadczenie bojowe łodzi"
+ modifier_experience_gain_mdg_boat_training_factor: "Wzrost doświadczenia łodzi podczas ćwiczeń"
+ modifier_experience_gain_mdg_boat_mission_factor: "Wzrost doświadczenia łodzi podczas misji"
+ modifier_experience_gain_mdg_boat_combat_factor: "Wzrost doświadczenia bojowego łodzi"
 
- modifier_experience_gain_mdg_hydrofoil_training_factor: "Doświadczenie z treningu łodzi na poduszce wodnej"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "Doświadczenie bojowe łodzi na poduszce wodnej"
+ modifier_experience_gain_mdg_hydrofoil_training_factor: "Wzrost doświadczenia łodzi na poduszce wodnej podczas ćwiczeń"
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "Wzrost doświadczenia łodzi na poduszce wodnej podczas misji"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "Wzrost doświadczenia bojowego łodzi na poduszce wodnej"
 
- modifier_experience_gain_mdg_auxiliary_training_factor: "Doświadczenie z treningu krążowników pomocniczych"
- modifier_experience_gain_mdg_auxiliary_combat_factor: "Doświadczenie bojowe krążowników pomocniczych"
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Wzrost doświadczenia krążowników pomocniczych podczas ćwiczeń"
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "Wzrost doświadczenia krążowników pomocniczych podczas misji"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Wzrost doświadczenia bojowego krążowników pomocniczych"
 
- modifier_experience_gain_mdg_corvette_training_factor: "Doświadczenie z treningu korwet"
- modifier_experience_gain_mdg_corvette_combat_factor: "Doświadczenie bojowe korwet"
+ modifier_experience_gain_mdg_corvette_training_factor: "Wzrost doświadczenia korwet podczas ćwiczeń"
+ modifier_experience_gain_mdg_corvette_mission_factor: "Wzrost doświadczenia korwet podczas misji"
+ modifier_experience_gain_mdg_corvette_combat_factor: "Wzrost doświadczenia bojowego korwet"
 
- modifier_experience_gain_mdg_frigate_training_factor: "Doświadczenie z treningu fregat"
- modifier_experience_gain_mdg_frigate_combat_factor: "Doświadczenie bojowe fregat"
+ modifier_experience_gain_mdg_frigate_training_factor: "Wzrost doświadczenia fregat podczas ćwiczeń"
+ modifier_experience_gain_mdg_frigate_mission_factor: "Wzrost doświadczenia fregat podczas misji"
+ modifier_experience_gain_mdg_frigate_combat_factor: "Wzrost doświadczenia bojowego fregat"
 
- modifier_experience_gain_mdg_midget_submarine_training_factor: "Doświadczenie z treningu miniaturowych okrętów podwodnych"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "Doświadczenie bojowe miniaturowych okrętów podwodnych"
+ modifier_experience_gain_mdg_midget_submarine_training_factor: "Wzrost doświadczenia miniaturowych okrętów podwodnych podczas ćwiczeń"
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "Wzrost doświadczenia miniaturowych okrętów podwodnych podczas misji"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "Wzrost doświadczenia bojowego miniaturowych okrętów podwodnych"
 
- modifier_experience_gain_mdg_monitor_training_factor: "Doświadczenie za szkolenie monitora"
- modifier_experience_gain_mdg_monitor_combat_factor: "Doświadczenie bojowe monitora"
+ modifier_experience_gain_mdg_monitor_training_factor: "Wzrost doświadczenia monitora podczas ćwiczeń"
+ modifier_experience_gain_mdg_monitor_mission_factor: "Wzrost doświadczenia monitora podczas misji"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Wzrost doświadczenia bojowego monitora"
 
- modifier_experience_gain_mdg_mac_training_factor: "Doświadczenie za szkolenie pomocniczego lotniskowca"
- modifier_experience_gain_mdg_mac_combat_factor: "Doświadczenie bojowe pomocniczego lotniskowca"
+ modifier_experience_gain_mdg_mac_training_factor: "Wzrost doświadczenia omocniczego lotniskowca podczas ćwiczeń"
+ modifier_experience_gain_mdg_mac_mission_factor: "Wzrost doświadczenia omocniczego lotniskowca podczas misji"
+ modifier_experience_gain_mdg_mac_combat_factor: "Wzrost doświadczenia bojowego omocniczego lotniskowca"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Koszt projektu lekkich dział I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Koszt projektu lekkich dział II"
