@@ -1136,24 +1136,4 @@ spriteTypes = {
 		name = "GFX_small_fleet_medium"
 		texturefile = "gfx/interface/technologies/mdg_small_fleet.dds"
 	}
-
-	# left branch
-	SpriteType = {
-		name = "GFX_torpedo_boat_operations_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_torpedo_boats_operations_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_patrol_and_ambush_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_patrol_and_ambush_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_mosquitos_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_mosquitos_sm.dds"
-	}
-
-	# central branch (end)
-	SpriteType = {
-		name = "GFX_combined_operations_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_combined_operations_sm.dds"
-	}
 }
