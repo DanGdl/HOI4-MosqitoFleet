@@ -67,23 +67,23 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
 					upgrade > current
 				}
 			}
 		}
 
 		allowed_modules = {
+			ship_depth_charge
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_torpedo
 			ship_anti_air
-			ship_depth_charge
 			light_ship_engine
-			ship_fire_control_system
-			ship_airplane_launcher
-			ship_radar
 			ship_sonar
+			ship_fire_control_system
+			ship_radar
+			ship_seaplane_tender
 		}
 	}
 
@@ -133,7 +133,7 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
 					upgrade > current
 				}
 			}
@@ -147,9 +147,9 @@ mdg_corvettes = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
 			ship_radar
 			ship_sonar
+			ship_seaplane_tender
 		}
 	}
 
@@ -199,7 +199,7 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -217,7 +217,7 @@ mdg_corvettes = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_radar
 			ship_sonar
 		}
@@ -269,7 +269,7 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -291,9 +291,9 @@ mdg_corvettes = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
 			ship_radar
 			ship_sonar
+			ship_seaplane_tender
 		}
 	}
 }
@@ -417,7 +417,7 @@ mdg_escort_corvette = {
 				}
 				fixed_ship_torpedo_slot = empty
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge ship_airplane_launcher }
+					any_of = { ship_depth_charge ship_seaplane_tender }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -439,7 +439,7 @@ mdg_escort_corvette = {
 			mdg_ship_light_cannon_dp
 			ship_sonar
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_radar
 		}
 	}

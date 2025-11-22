@@ -67,11 +67,11 @@ mdg_frigates = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher ship_torpedo ship_anti_air }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender ship_torpedo ship_anti_air }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher ship_torpedo ship_anti_air }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender ship_torpedo ship_anti_air }
 					upgrade > current
 				}
 			}
@@ -85,7 +85,7 @@ mdg_frigates = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_radar
 			ship_sonar
 		}
@@ -141,7 +141,7 @@ mdg_frigates = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher ship_torpedo ship_anti_air }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender ship_torpedo ship_anti_air }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -159,7 +159,7 @@ mdg_frigates = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_radar
 			ship_sonar
 		}
@@ -214,7 +214,7 @@ mdg_frigates = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher ship_torpedo ship_anti_air }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender ship_torpedo ship_anti_air }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -236,7 +236,7 @@ mdg_frigates = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_radar
 			ship_sonar
 		}
@@ -291,7 +291,7 @@ mdg_frigates = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_airplane_launcher ship_torpedo ship_anti_air }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender ship_torpedo ship_anti_air }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -317,7 +317,7 @@ mdg_frigates = {
 			ship_depth_charge
 			light_ship_engine
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_radar
 			ship_sonar
 		}
@@ -443,7 +443,7 @@ mdg_escort_frigate = {
 				}
 				fixed_ship_torpedo_slot = empty
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge ship_airplane_launcher }
+					any_of = { ship_depth_charge ship_seaplane_tender }
 					upgrade > current
 				}
 				mid_1_custom_slot = {
@@ -464,7 +464,7 @@ mdg_escort_frigate = {
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_fire_control_system
-			ship_airplane_launcher
+			ship_seaplane_tender
 			ship_sonar
 			ship_radar
 		}
