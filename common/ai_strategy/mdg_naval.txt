@@ -22,12 +22,12 @@ default_role_ratios = {
 	ai_strategy = {
 		type = role_ratio
 		id = mdg_naval_hydrofoil
-		value = 90
+		value = 70
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mdg_naval_midget_sub
-		value = 100
+		value = 90
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -99,6 +99,11 @@ default_role_ratios = {
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = mdg_naval_boat_escort
+		value = 20
+	}
+	ai_strategy = {
+		type = role_ratio
 		id = mdg_naval_boat_mine_layer
 		value = 15
 	}
@@ -128,7 +133,7 @@ default_role_ratios = {
 	ai_strategy = {
 		type = role_ratio
 		id = mdg_naval_monitor
-		value = -90
+		value = -100
 	}
 
 	ai_strategy = {
@@ -184,6 +189,11 @@ convoy_voy_voy_voy = {
 		id = mdg_naval_boat
 		value = 35
 	}
+	ai_strategy = {
+		type = role_ratio
+		id = mdg_naval_boat_escort
+		value = 19
+	}
 
 	ai_strategy = {
 		type = role_ratio
@@ -200,7 +210,7 @@ convoy_voy_voy_voy = {
 	ai_strategy = {
 		type = role_ratio
 		id = mdg_naval_monitor
-		value = -95
+		value = -105
 	}
 }
 
@@ -291,6 +301,3 @@ ill_show_you_mine_2 = {
 		value = -10
 	}
 }
-
-# not needed now. Those nations have a separate configurations in game. In mode there is now separate configs
-# slightly_naval_focused_nation, more_naval_focused_nation

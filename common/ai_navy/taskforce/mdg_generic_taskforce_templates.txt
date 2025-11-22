@@ -1,0 +1,422 @@
+
+ConvoySurfaceRaiding_AuxCr_1 = {
+	ai_will_do = {
+		factor = 2
+	}
+	mission = { convoy_raiding }
+	min_composition = {
+		mdg_auxiliary = {
+			amount = 1
+		}
+	}
+
+	optimal_composition = {
+		mdg_auxiliary = {
+			amount = 2
+		}
+	}
+}
+
+ConvoySurfaceRaiding_Boats_1 = {
+	ai_will_do = {
+		factor = 2
+	}
+	mission = { convoy_raiding }
+	min_composition = {
+		mdg_boat = {
+			amount = 2
+		}
+	}
+
+	optimal_composition = {
+		mdg_boat = {
+			amount = 10
+		}
+	}
+}
+
+ConvoySurfaceRaiding_Hydrofoils_1 = {
+	ai_will_do = {
+		factor = 2
+	}
+	mission = { convoy_raiding }
+	min_composition = {
+		mdg_hydrofoil = {
+			amount = 2
+		}
+	}
+
+	optimal_composition = {
+		mdg_hydrofoil = {
+			amount = 10
+		}
+	}
+}
+
+ConvoyRaiding_Midgets_1 = {
+	ai_will_do = {
+		factor = 2
+	}	
+	mission = { convoy_raiding }
+	min_composition = {
+		mdg_midget_submarine = {
+			amount = 2
+		}
+	}
+
+	optimal_composition = {
+		mdg_midget_submarine = {
+			amount = 10
+		}
+	}
+}
+
+ConvoyEscort_Cor_1 = {
+	ai_will_do = {
+		factor = 6
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_corvette = {
+			amount = 4
+			role = 3
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 8
+			role = 3
+		}
+	}
+}
+
+ConvoyEscort_Fr_1 = {
+	ai_will_do = {
+		factor = 6
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_frigate = {
+			amount = 4
+			role = 3
+		}
+	}
+	
+	optimal_composition = {
+		mdg_frigate = {
+			amount = 8
+			role = 3
+		}
+	}
+}
+
+ConvoyEscort_Boats_1 = {
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_boat = {
+			amount = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_boat = {
+			amount = 8
+		}
+	}
+}
+
+MineLaying_Boats_1 = {
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { mines_planting }
+	min_composition = {
+		mdg_boat = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_boat = {
+			amount = 2
+			role = 4
+		}
+		
+		mdg_frigate = {
+			amount = 1
+		}
+	}
+}
+
+MineLaying_Cor_1 = {
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { mines_planting }
+	min_composition = {
+		mdg_corvette = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 2
+			role = 4
+		}
+		
+		mdg_frigate = {
+			amount = 1
+			role = 4
+		}
+	}
+}
+
+MineLaying_Fr_1 = {
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { mines_planting }
+	min_composition = {
+		mdg_frigate = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_frigate = {
+			amount = 2
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 1
+			role = 4
+		}
+	}
+}
+
+
+
+mdg_StrikeForce_Fr_1 = {
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { naval_strike }
+	min_composition = {
+		mdg_frigate = {
+			amount = 8
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 2
+		}
+		battleship = {
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 4
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		mdg_frigate = {
+			amount = 28
+		}
+	}
+}
+
+mdg_StrikeForce_Cor_1 = {
+	ai_will_do = {
+		factor = 1
+	}	
+	mission = { naval_strike }
+	min_composition = {
+		mdg_corvette = {
+			amount = 8
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 2
+		}
+		battleship = {
+			amount = 4
+		}
+		heavy_cruiser = {
+			amount = 4
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		mdg_corvette = {
+			amount = 28
+		}
+	}
+}
+
+mdg_PatrolReconForce_Fr_1 = {
+	ai_will_do = {
+		factor = 4
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_frigate = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_frigate = {
+			amount = 3
+		}
+	}
+}
+
+mdg_PatrolReconForce_Cor_1 = {
+	ai_will_do = {
+		factor = 4
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_corvette = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 3
+		}
+	}
+}
+
+mdg_PatrolReconForce_Boats_1 = {
+	ai_will_do = {
+		factor = 4
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_boat = {
+			amount = 2
+		}
+	}	
+	optimal_composition = {
+		mdg_boat = {
+			amount = 8
+		}
+	}
+}
+
+mdg_PatrolDominanceForce_CA_Cor_1 = {
+	ai_will_do = {
+		factor = 4
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_corvette = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 3
+		}
+		mdg_corvette = {
+			amount = 12
+		}
+	}
+}
+
+mdg_PatrolDominanceForce_CA_Fr_1 = {
+	ai_will_do = {
+		factor = 4
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_frigate = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 3
+		}
+		mdg_frigate = {
+			amount = 12
+		}
+	}
+}
+
+mdg_PatrolDominanceForce_CA_Boats_1 = {
+	ai_will_do = {
+		factor = 3
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_boat = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 3
+		}
+		mdg_boat = {
+			amount = 12
+		}
+	}
+}
+
+mdg_PatrolDominanceForce_BC_Fr_1 = {
+	ai_will_do = {
+		factor = 4
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_frigate = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		battle_cruiser = {
+			amount = 3
+		}
+		mdg_frigate = {
+			amount = 12
+		}
+	}
+}
+
+mdg_PatrolDominanceForce_Cor_BC_1 = {
+	ai_will_do = {
+		factor = 4
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_corvette = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		battle_cruiser = {
+			amount = 3
+		}
+		mdg_corvette = {
+			amount = 12
+		}
+	}
+}

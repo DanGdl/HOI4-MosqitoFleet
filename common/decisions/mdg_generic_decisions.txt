@@ -31,6 +31,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -181,6 +182,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -328,6 +330,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -473,6 +476,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -619,6 +623,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -765,6 +770,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = {

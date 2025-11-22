@@ -253,6 +253,129 @@ mdg_boats = {
 	}
 }
 
+mdg_escort_boat = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+	}
+
+	roles = {
+		mdg_naval_boat_escort
+	}
+
+	priority = {
+		factor = 200
+		modifier = {
+			factor = 5
+			anti_submarine_strategy_required_trigger = yes
+		}
+	}
+
+	mdg_escort_boat_default = {
+
+		priority = {
+			factor = 50
+			modifier = {
+				factor = 20
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+
+		role_icon_index = 3
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_corvette_1
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			light_ship_engine
+			ship_depth_charge
+			mdg_ship_light_guns
+			ship_sonar
+			ship_radar
+		}
+	}
+
+	mdg_escort_boat_upgrade = {
+
+		priority = {
+			factor = 60
+			modifier = {
+				factor = 20
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		enable = {
+			AND = {
+				has_tech = improved_depth_charges
+				has_tech = cavity_magnatron
+			}
+		}
+		role_icon_index = 3
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_corvette
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			light_ship_engine
+			ship_depth_charge
+			mdg_ship_light_guns
+			ship_sonar
+			ship_radar
+		}
+	}
+}
+
 mdg_naval_mine_layer_boat = {
 	category = naval
 
