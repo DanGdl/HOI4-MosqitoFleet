@@ -3,7 +3,7 @@ guiTypes = {
 
 	################# Equipment Archetype: mdg_ship_hull_midget_submarine #################
 	containerWindowType = {
-		name = "equipment_designer_mdg_ship_hull_midget_submarine_1"
+		name = "equipment_designer_ship_hull_midget_submarine_jap"
 
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x = 0 y = 0 }
@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_midget_submarine"
+			spriteType = "GFX_SD_tv_midget_submarine_jap" # from file "interface/mdg_equipmentdesignerview_jap.gfx"
 			position = { x = 0 y = 0 }
 		}
 
@@ -38,7 +38,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo"
+						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_jap"
 						position = { x = 158 y = 0 }
 					}
 				}
@@ -50,7 +50,7 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo@highlight"
+						spriteType = "GFX_SM_mdg_ship_hull_midget_submarine_fixed_torpedo_jap@highlight"
 						position = { x = 158 y = 0 }
 					}
 				}

@@ -4,7 +4,7 @@
 #
 #	################# Equipment Archetype: mdg_ship_hull_midget_submarine #################
 #	containerWindowType = {
-#		name = "equipment_designer_mdg_ship_hull_midget_submarine_1_eng"
+#		name = "equipment_designer_ship_hull_midget_submarine_eng"
 #
 #		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 #		position = { x = 0 y = 0 }

@@ -694,10 +694,8 @@ script_enum_equipment_bonus_type = {
 
 	mdg_midget_submarine
 	mdg_midget_submarine_1
-	mdg_midget_submarine_2
 	mdg_ship_hull_midget_submarine
 	mdg_ship_hull_midget_submarine_1
-	mdg_ship_hull_midget_submarine_2
 
 	mdg_hydrofoil
 	mdg_hydrofoil_1
