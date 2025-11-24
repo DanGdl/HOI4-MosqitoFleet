@@ -63,7 +63,6 @@ equipments = {
 
 		armor_value = 0
 
-
 		surface_detection = 20
 		sub_detection = 5
 		surface_visibility = 20
@@ -73,7 +72,6 @@ equipments = {
 		naval_range = 3000
 
 		max_strength = 150
-
 
 		fuel_consumption = 50
 

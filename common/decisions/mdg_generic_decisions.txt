@@ -837,7 +837,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_engine_slot = carrier_ship_engine_1
 							fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
@@ -862,7 +862,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_engine_upgrade = 0
 							ship_reliability_upgrade = 0
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
