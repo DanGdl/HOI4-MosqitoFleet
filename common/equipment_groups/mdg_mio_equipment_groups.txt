@@ -72,6 +72,7 @@ mio_cat_eq_all_ships_no_convoys = { #Includes all ships except convoys
 		ship_hull_submarine
 
 		# easiest way to add support of MIO for new equipment
+		mdg_ship_hull_midget_submarine
 		mdg_ship_hull_hydrofoil
 		mdg_ship_hull_auxiliary
 		mdg_ship_hull_mac
