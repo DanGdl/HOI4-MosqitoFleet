@@ -1097,19 +1097,9 @@ spriteTypes = {
 
 
 
-
-
-
-
-
-
-
-
-
-
 	### naval doctrines	###
 	SpriteType = {
-		name = "GFX_small_fleet_medium"
-		texturefile = "gfx/interface/technologies/mdg_small_fleet.dds"
+		name = "GFX_doctrine_small_fleet_medium"
+		texturefile = "gfx/interface/doctrines/icons/mdg_small_fleet.dds"
 	}
 }

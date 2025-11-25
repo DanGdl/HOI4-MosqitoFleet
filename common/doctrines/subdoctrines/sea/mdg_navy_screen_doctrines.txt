@@ -136,6 +136,10 @@ support_integrated_operations = {
 				max_organisation = 5
 				naval_torpedo_damage_reduction_factor = -0.15
 			}
+			mdg_hydrofoil = {
+				max_organisation = 5
+				naval_torpedo_damage_reduction_factor = -0.15
+			}
 		}
 		first_line_of_attack = {
 			light_cruiser = {
@@ -177,6 +181,9 @@ support_integrated_operations = {
 				surface_detection = 0.10
 			}
 			mdg_boat = {
+				surface_detection = 0.10
+			}
+			mdg_hydrofoil = {
 				surface_detection = 0.10
 			}
 		}
@@ -276,6 +283,9 @@ hunter_killers = {
 			mdg_boat = {
 				patrol_coordination = 0.20
 			}
+			mdg_hydrofoil = {
+				patrol_coordination = 0.20
+			}
 		}
 	}
 }
@@ -319,6 +329,9 @@ torpedo_primacy = {
 			mdg_boat = {
 				torpedo_attack = 0.23
 			}
+			mdg_hydrofoil = {
+				torpedo_attack = 0.23
+			}
 		}
 		coordinated_fire_patterns = {
 			destroyer = {
@@ -331,6 +344,9 @@ torpedo_primacy = {
 				max_organisation = 20
 			}
 			mdg_boat = {
+				max_organisation = 20
+			}
+			mdg_hydrofoil = {
 				max_organisation = 20
 			}
 		}	
@@ -482,6 +498,9 @@ screen_support_focus = {
 			mdg_boat = {
 				max_organisation = 30
 			}
+			mdg_hydrofoil = {
+				max_organisation = 30
+			}
 		}
 		sustainable_task_forces = {
 			naval_general_support_factor = 0.1
@@ -514,6 +533,9 @@ screen_support_focus = {
 			mdg_boat = {
 				naval_range = 0.1
 			}
+			mdg_hydrofoil = {
+				naval_range = 0.1
+			}
 		}
 		patrol_pattern_improvements = {
 			light_cruiser = {
@@ -532,6 +554,9 @@ screen_support_focus = {
 				patrol_coordination = 0.2
 			}
 			mdg_boat = {
+				patrol_coordination = 0.2
+			}
+			mdg_hydrofoil = {
 				patrol_coordination = 0.2
 			}
 		}
@@ -610,6 +635,10 @@ jeune_ecole = {
 				naval_speed = 0.1
 				patrol_coordination = 0.1
 			}
+			mdg_hydrofoil = {
+				naval_speed = 0.1
+				patrol_coordination = 0.1
+			}
 		}
 		autonomous_cruisers = {
 			battle_cruiser = {
@@ -664,6 +693,9 @@ patrol_boats = {
 			mdg_boat = {
 				torpedo_attack = 0.23
 			}
+			mdg_hydrofoil = {
+				torpedo_attack = 0.23
+			}
 		}	
 		lie_in_wait = {		
 			destroyer = {
@@ -676,6 +708,9 @@ patrol_boats = {
 				surface_visibility = -0.2
 			}
 			mdg_boat = {
+				surface_visibility = -0.2
+			}
+			mdg_hydrofoil = {
 				surface_visibility = -0.2
 			}
 		}
@@ -691,6 +726,9 @@ patrol_boats = {
 				max_organisation = 10
 			}
 			mdg_boat = {
+				max_organisation = 10
+			}
+			mdg_hydrofoil = {
 				max_organisation = 10
 			}
 		}

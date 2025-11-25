@@ -1964,9 +1964,9 @@ early_ship_hull_carrier = {
 
 	mdg_improved_midget_submarine = {
 
-		allow_branch = {
-			has_dlc = "Gotterdammerung"
-		}
+		#allow_branch = {
+		#	has_dlc = "Gotterdammerung"
+		#}
 
 		allow = {
 	 		ROOT = {
