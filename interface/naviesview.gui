@@ -61,11 +61,11 @@ guiTypes = {
 			position = { x = 200 y = 75 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_2_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_boat"
-			position = { x = 230 y = 80 }
+			position = { x = 233 y = 80 }
 			alwaysTransparent = yes
 		}
 		buttonType = {
@@ -73,11 +73,11 @@ guiTypes = {
 			position = { x = 314 y = 75 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_3_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_corvette"
-			position = { x = 344 y = 80 }
+			position = { x = 348 y = 80 }
 			alwaysTransparent = yes
 		}
 		buttonType = {
@@ -85,11 +85,11 @@ guiTypes = {
 			position = { x = 428 y = 75 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_4_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_frigate"
-			position = { x = 448 y = 80 }
+			position = { x = 462 y = 80 }
 			alwaysTransparent = yes
 		}
 
@@ -98,7 +98,7 @@ guiTypes = {
 			position = { x = 542 y = 75 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_5_bg"
 			spriteType = "GFX_navalcombat_ship_icon_destroyer"
@@ -116,14 +116,14 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_convoy"
 			position = { x = 686 y = 80 }
 			alwaysTransparent = yes
-		}	
+		}
 
 		buttonType = {
 			name = "btn_target_mdg_auxiliary"
 			position = { x = 86 y = 104 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_7_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_auxiliary"
@@ -142,7 +142,7 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_light_cruiser"
 			position = { x = 230 y = 109 }
 			alwaysTransparent = yes
-		}		
+		}
 		buttonType = {
 			name = "btn_target_heavy_cruiser"
 			position = { x = 314 y = 104 }
@@ -154,7 +154,7 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_heavy_cruiser"
 			position = { x = 334 y = 109 }
 			alwaysTransparent = yes
-		}		
+		}
 			
 		buttonType = {
 			name = "btn_target_battle_cruiser"
@@ -167,7 +167,7 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_battle_cruiser"
 			position = { x = 438 y = 107 }
 			alwaysTransparent = yes
-		}		
+		}
 		buttonType = {
 			name = "btn_target_battleship"
 			position = { x = 542 y = 104 }
@@ -179,7 +179,7 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_battleship"
 			position = { x = 552 y = 109 }
 			alwaysTransparent = yes
-		}		
+		}
 		buttonType = {
 			name = "btn_target_sh_battleship"
 			position = { x = 656 y = 104 }
@@ -191,7 +191,7 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_sh_battleship"
 			position = { x = 666 y = 109 }
 			alwaysTransparent = yes
-		}		
+		}
 		buttonType = {
 			name = "btn_target_carrier"
 			position = { x = 86 y = 133 }
@@ -210,49 +210,37 @@ guiTypes = {
 			position = { x = 200 y = 133 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_14_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_mac"
-			position = { x = 230 y = 138 }
+			position = { x = 226 y = 138 }
 			alwaysTransparent = yes
 		}
 
 		## rare ships
 		buttonType = {
-			name = "btn_target_mdg_midget_submarine"
+			name = "btn_target_mdg_hydrofoil"
 			position = { x = 314 y = 133 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
 			name = "button_15_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_midget_submarine"
-			position = { x = 334 y = 140 }
-			alwaysTransparent = yes
-		}
-		buttonType = {
-			name = "btn_target_mdg_hydrofoil"
-			position = { x = 428 y = 133 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}						
-		iconType = {
-			name = "button_16_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_hydrofoil"
-			position = { x = 458 y = 140 }
+			position = { x = 347 y = 140 }
 			alwaysTransparent = yes
 		}
 		buttonType = {
 			name = "btn_target_mdg_monitor"
-			position = { x = 542 y = 133 }
+			position = { x = 428 y = 133 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
-		}						
+		}
 		iconType = {
-			name = "button_17_bg"
+			name = "button_16_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_monitor"
-			position = { x = 562 y = 140 }
+			position = { x = 450 y = 140 }
 			alwaysTransparent = yes
 		}
 	}
@@ -324,7 +312,7 @@ guiTypes = {
 		iconType = {
 			name = "training_will_stop_at_max_icon"
 			spriteType = "GFX_exercise_stop_at_max"
-			position = { x = 15 y = 48 }
+			position = { x = 217 y = 53 }
 			alwaystransparent = yes
 		}
 
@@ -770,7 +758,7 @@ guiTypes = {
 						name = "Background"
 						quadTextureSprite ="GFX_tiled_window_1b_border"
 						position = { x = 0 y = 0 }
-					}						
+					}
 
 					gridBoxType = {
 						name = "button_grid"
@@ -812,7 +800,7 @@ guiTypes = {
 						name = "Background"
 						quadTextureSprite ="GFX_tiled_window_1b_border"
 						position = { x = 0 y = 0 }
-					}					
+					}
 
 					gridBoxType = {
 						name = "button_grid"
