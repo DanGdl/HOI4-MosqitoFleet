@@ -37,32 +37,30 @@ equipments = {
 			}
 
 			rear_1_custom_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
-					ship_airplane_launcher
+					ship_seaplane_tender
 				}
 			}
 		}
 
-		module_count_limit = {
-			category = ship_radar
-			count < 2
-		}
-
-		module_count_limit = {
-			category = ship_sonar
-			count < 2
-		}
-
-		module_count_limit = {
-			category = ship_airplane_launcher
-			count < 2
-		}
+		#module_count_limit = {
+		#	category = ship_radar
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	category = ship_sonar
+		#	count < 2
+		#}
+		#module_count_limit = {
+		#	category = ship_seaplane_tender
+		#	count < 2
+		#}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -88,9 +86,9 @@ equipments = {
 		armor_value = 0
 
 		surface_detection = 20
-		sub_detection = 1
+		sub_detection = 2.5
 		surface_visibility = 9
-		naval_speed = 21
+		naval_speed = 28
 		reliability = 0.80
 
 		naval_range = 1100
@@ -109,7 +107,7 @@ equipments = {
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
 		naval_weather_penalty_factor = 1.2
-		naval_supremacy_factor = 0.9
+		naval_dominance_factor = 22
 	}
 
 	mdg_ship_hull_corvette_1 = {
@@ -145,14 +143,17 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 
+		sub_detection = 3
 		reliability = 0.85
 		naval_range = 1200
 		max_strength = 25
 		build_cost_ic = 370
+		manpower = 200
+		naval_dominance_factor = 27
+
 		resources = {
 			steel = 1
 		}
-		manpower = 200
 	}
 
 	mdg_ship_hull_corvette_3 = {
@@ -171,7 +172,8 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			rear_1_custom_slot = {
+			rear_1_custom_slot = inherit
+			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_mine_warfare
@@ -179,12 +181,8 @@ equipments = {
 					ship_depth_charge
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
-					ship_airplane_launcher
-					ship_sam_missile_battery
-					ship_light_ASM_battery
 				}
 			}
-			mid_1_custom_slot = rear_1_custom_slot
 
 		}
 		default_modules = {
@@ -193,16 +191,18 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_3
 		}
 
+		sub_detection = 3.5
 		fuel_consumption = -2
 		reliability = 0.85
 		naval_range = 1300
 		max_strength = 35
 		build_cost_ic = 420
+		manpower = 250
+		naval_dominance_factor = 33
 
 		resources = {
 			steel = 1
 		}
-		manpower = 250
 	}
 
 	mdg_ship_hull_corvette_4 = {
@@ -223,31 +223,21 @@ equipments = {
 
 			rear_1_custom_slot = inherit
 			mid_1_custom_slot = inherit
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-					ship_airplane_launcher
-					ship_sam_missile_battery
-					ship_light_ASM_battery
-					ship_ciws
-				}
-			}
+			mid_2_custom_slot = mid_1_custom_slot
 		}
 
+		sub_detection = 4
 		fuel_consumption = -2
 		reliability = 0.9
 		naval_range = 1400
 		max_strength = 40
 		build_cost_ic = 460
-		resources = {
-			steel = 1
-		}
 		manpower = 300
+		naval_dominance_factor = 37
+		
+		resources = {
+			steel = 2
+		}
 	}
 
 	mdg_ship_hull_corvette_5 = {

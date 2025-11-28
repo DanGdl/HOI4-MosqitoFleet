@@ -1,27 +1,35 @@
 ﻿l_spanish:
- modifier_experience_gain_mdg_boat_training_factor: "Ganancia de experiencia en entrenamiento de botes"
- modifier_experience_gain_mdg_boat_combat_factor: "Ganancia de experiencia en combate de botes"
+ modifier_experience_gain_mdg_boat_training_factor: "Experiencia de entrenamiento de botes ganada"
+ modifier_experience_gain_mdg_boat_mission_factor: "Experiencia de misión de botes ganada"
+ modifier_experience_gain_mdg_boat_combat_factor: "Experiencia de combate de botes ganada"
 
- modifier_experience_gain_mdg_hydrofoil_training_factor: "Ganancia de experiencia en entrenamiento de embarcaciones con hidroalas"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "Ganancia de experiencia en combate de embarcaciones con hidroalas"
+ modifier_experience_gain_mdg_hydrofoil_training_factor: "Experiencia de entrenamiento de embarcaciones con hidroalas ganada"
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "Experiencia de misión de embarcaciones con hidroalas ganada"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "Experiencia de combate de embarcaciones con hidroalas ganada"
 
- modifier_experience_gain_mdg_auxiliary_training_factor: "Ganancia de experiencia en entrenamiento de crucero auxiliar"
- modifier_experience_gain_mdg_auxiliary_combat_factor: "Ganancia de experiencia en combate de crucero auxiliar"
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Experiencia de entrenamiento de crucero auxiliar ganada"
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "Experiencia de misión de crucero auxiliar ganada"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Experiencia de combate de crucero auxiliar ganada"
 
- modifier_experience_gain_mdg_corvette_training_factor: "Ganancia de experiencia en entrenamiento de corbetas"
- modifier_experience_gain_mdg_corvette_combat_factor: "Ganancia de experiencia en combate de corbetas"
+ modifier_experience_gain_mdg_corvette_training_factor: "Experiencia de entrenamiento de corbetas ganada"
+ modifier_experience_gain_mdg_corvette_mission_factor: "Experiencia de misión de corbetas ganada"
+ modifier_experience_gain_mdg_corvette_combat_factor: "Experiencia de combate de corbetas ganada"
 
- modifier_experience_gain_mdg_frigate_training_factor: "Ganancia de experiencia en entrenamiento de fragatas"
- modifier_experience_gain_mdg_frigate_combat_factor: "Ganancia de experiencia en combate de fragatas"
+ modifier_experience_gain_mdg_frigate_training_factor: "Experiencia de entrenamiento de fragatas ganada"
+ modifier_experience_gain_mdg_frigate_mission_factor: "Experiencia de misión de fragatas ganada"
+ modifier_experience_gain_mdg_frigate_combat_factor: "Experiencia de combate de fragatas ganada"
 
- modifier_experience_gain_mdg_midget_submarine_training_factor: "Ganancia de experiencia en entrenamiento de submarinos enanos"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "Ganancia de experiencia en combate de submarinos enanos"
+ modifier_experience_gain_mdg_midget_submarine_training_factor: "Experiencia de entrenamiento de submarinos enanos ganada"
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "Experiencia de misión de submarinos enanos ganada"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "Experiencia de combate de submarinos enanos ganada"
 
- modifier_experience_gain_mdg_monitor_training_factor: "Ganancia de experiencia de entrenamiento de monitor"
- modifier_experience_gain_mdg_monitor_combat_factor: "Ganancia de experiencia de combate de monitor"
+ modifier_experience_gain_mdg_monitor_submarine_training_factor: "Experiencia de entrenamiento de monitor ganada"
+ modifier_experience_gain_mdg_monitor_submarine_mission_factor: "Experiencia de misión de monitor ganada"
+ modifier_experience_gain_mdg_monitor_submarine_combat_factor: "Experiencia de combate de monitor ganada"
 
- modifier_experience_gain_mdg_mac_training_factor: "Ganancia de experiencia por el entrenamiento de portaaviones auxiliar"
- modifier_experience_gain_mdg_mac_combat_factor: "Ganancia de experiencia en combate de portaaviones auxiliar"
+ modifier_experience_gain_mdg_mac_submarine_training_factor: "Experiencia de entrenamiento de portaaviones auxiliar ganada"
+ modifier_experience_gain_mdg_mac_submarine_mission_factor: "Experiencia de misión de portaaviones auxiliar ganada"
+ modifier_experience_gain_mdg_mac_submarine_combat_factor: "Experiencia de combate de portaaviones auxiliar ganada"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Costo de diseño de cañones ligeros I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Costo de diseño de cañones ligeros II"

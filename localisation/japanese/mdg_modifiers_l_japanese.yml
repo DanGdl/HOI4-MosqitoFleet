@@ -1,27 +1,35 @@
 ﻿l_japanese:
- modifier_experience_gain_mdg_boat_training_factor: "小型艇訓練経験値獲得"
- modifier_experience_gain_mdg_boat_combat_factor: "小型艇戦闘経験値獲得"
+ modifier_experience_gain_mdg_boat_mission_factor: "ボートの任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_boat_training_factor: "ボートの訓練による経験値獲得"
+ modifier_experience_gain_mdg_boat_combat_factor: "ボートの戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_hydrofoil_training_factor: "水中翼船訓練経験値獲得"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "水中翼船戦闘経験値獲得"
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "水中翼船の任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_hydrofoil_training_factor: "水中翼船の訓練による経験値獲得"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "水中翼船の戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_auxiliary_training_factor: "補助巡洋艦訓練経験値獲得"
- modifier_experience_gain_mdg_auxiliary_combat_factor: "補助巡洋艦戦闘経験値獲得"
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "補助巡洋艦の任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_auxiliary_training_factor: "補助巡洋艦の訓練による経験値獲得"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "補助巡洋艦の戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_corvette_training_factor: "コルベット訓練経験値獲得"
- modifier_experience_gain_mdg_corvette_combat_factor: "コルベット戦闘経験値獲得"
+ modifier_experience_gain_mdg_corvette_mission_factor: "コルベットの任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_corvette_training_factor: "コルベットの訓練による経験値獲得"
+ modifier_experience_gain_mdg_corvette_combat_factor: "コルベットの戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_frigate_training_factor: "フリゲート訓練経験値獲得"
- modifier_experience_gain_mdg_frigate_combat_factor: "フリゲート戦闘経験値獲得"
+ modifier_experience_gain_mdg_frigate_mission_factor: "フリゲートの任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_frigate_training_factor: "フリゲートの訓練による経験値獲得"
+ modifier_experience_gain_mdg_frigate_combat_factor: "フリゲートの戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_midget_submarine_training_factor: "小型潜水艦訓練経験値獲得"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "小型潜水艦戦闘経験値獲得"
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "小型潜水艦の任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_midget_submarine_training_factor: "小型潜水艦の訓練による経験値獲得"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "小型潜水艦の戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_monitor_training_factor: "モニター艦の訓練経験値獲得"
- modifier_experience_gain_mdg_monitor_combat_factor: "モニター艦の戦闘経験値獲得"
+ modifier_experience_gain_mdg_monitor_mission_factor: "モニターの任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_monitor_training_factor: "モニターの訓練による経験値獲得"
+ modifier_experience_gain_mdg_monitor_combat_factor: "モニターの戦闘による経験値獲得"
 
- modifier_experience_gain_mdg_mac_training_factor: "補助空母の訓練経験値獲得"
- modifier_experience_gain_mdg_mac_combat_factor: "補助空母の戦闘経験値獲得"
+ modifier_experience_gain_mdg_mac_mission_factor: "補助空母の任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_mac_training_factor: "補助空母の訓練による経験値獲得"
+ modifier_experience_gain_mdg_mac_combat_factor: "補助空母の戦闘による経験値獲得"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "軽火器 I 設計コスト"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "軽火器 II 設計コスト"

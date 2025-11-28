@@ -1,6 +1,7 @@
-equipments = {
-	# fix 3D model
-	ship_hull_midget_submarine = {
-		model = mdg_midget_submarine
-	}
-}
+# TODO: remove later
+#equipments = {
+#	# fix 3D model
+#	ship_hull_midget_submarine = {
+#		model = mdg_midget_submarine
+#	}
+#}

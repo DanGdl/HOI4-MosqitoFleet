@@ -278,16 +278,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_ship_hull_mac_fixed_deck_space"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mac/mac_hull_fixed_deck_space.png"
-	}
-
-	spriteType = {
-		name = "GFX_SM_mdg_ship_hull_mac_fixed_deck_space@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mac/mac_hull_fixed_deck_space@highlight.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mac/mac_hull_fixed_secondaries.dds"
 	}

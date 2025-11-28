@@ -52,7 +52,6 @@ sp_naval_mdg_hydrofoil = {
 
 	project_output = {
 		#enable_equipment_modules = {
-		# TODO: add hydrofoil
 		#}
 		enable_equipments = {
 			limit = {

@@ -31,6 +31,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -155,6 +156,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -275,6 +277,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -337,7 +340,7 @@ mdg_generic_refit_civilian_ships_category = {
 					set_country_flag = mdg_flag_refit_to_escort_mtg
 
 					create_equipment_variant = {
-						name = "Refitted Escort Ship"
+						name = "Refitted Patrol Ship"
 						type = mdg_ship_hull_corvette_1
 						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
@@ -393,6 +396,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -512,6 +516,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = { # Add tags here with first an OR then an AND
@@ -631,6 +636,7 @@ mdg_generic_refit_civilian_ships_category = {
 			has_war = yes
 			any_owned_state = {
 				is_coastal = yes
+				naval_base > 0
 			}
 		}
 		allowed = {
@@ -691,13 +697,13 @@ mdg_generic_refit_civilian_ships_category = {
 						name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
-							fixed_ship_deck_slot_1 = mdg_ship_deck_space
+							fixed_ship_deck_slot_1 = ship_escort_deck_space
 							fixed_ship_anti_air_slot = ship_anti_air_1
 							fixed_ship_radar_slot = empty
 							fixed_ship_engine_slot = carrier_ship_engine_1
 							fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
@@ -722,7 +728,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_engine_upgrade = 0
 							ship_reliability_upgrade = 0
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {

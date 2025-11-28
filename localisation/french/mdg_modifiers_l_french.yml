@@ -1,27 +1,35 @@
 ﻿l_french:
- modifier_experience_gain_mdg_boat_training_factor: "Gain d'expérience en entraînement des vedettes"
- modifier_experience_gain_mdg_boat_combat_factor: "Gain d'expérience en combat des vedettes"
+ modifier_experience_gain_mdg_boat_mission_factor: "Gain d'exp. des vedettes en mission"
+ modifier_experience_gain_mdg_boat_training_factor: "Gain d'exp. des vedettes à l'entraînement"
+ modifier_experience_gain_mdg_boat_combat_factor: "Gain d'exp. des vedettes à l'entraînement au combat"
 
- modifier_experience_gain_mdg_hydrofoil_training_factor: "Gain d'expérience en entraînement des bateaux hydroptères"
- modifier_experience_gain_mdg_hydrofoil_combat_factor: "Gain d'expérience en combat des bateaux hydroptères"
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "Gain d'exp. des bateaux hydroptères en mission"
+ modifier_experience_gain_mdg_hydrofoil_training_factor: "Gain d'exp. des bateaux hydroptères à l'entraînement"
+ modifier_experience_gain_mdg_hydrofoil_combat_factor: "Gain d'exp. des bateaux hydroptères à l'entraînement au combat"
 
- modifier_experience_gain_mdg_auxiliary_training_factor: "Gain d'expérience en entraînement des croiseurs auxiliaires"
- modifier_experience_gain_mdg_auxiliary_combat_factor: "Gain d'expérience en combat des croiseurs auxiliaires"
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "Gain d'exp. des croiseurs auxiliaires en mission"
+ modifier_experience_gain_mdg_auxiliary_training_factor: "Gain d'exp. des croiseurs auxiliaires à l'entraînement"
+ modifier_experience_gain_mdg_auxiliary_combat_factor: "Gain d'exp. des croiseurs auxiliaires à l'entraînement au combat"
 
- modifier_experience_gain_mdg_corvette_training_factor: "Gain d'expérience en entraînement des corvettes"
- modifier_experience_gain_mdg_corvette_combat_factor: "Gain d'expérience en combat des corvettes"
+ modifier_experience_gain_mdg_corvette_mission_factor: "Gain d'exp. des corvettes en mission"
+ modifier_experience_gain_mdg_corvette_training_factor: "Gain d'exp. des corvettes à l'entraînement"
+ modifier_experience_gain_mdg_corvette_combat_factor: "Gain d'exp. des corvettes à l'entraînement au combat"
 
- modifier_experience_gain_mdg_frigate_training_factor: "Gain d'expérience en entraînement des frégates"
- modifier_experience_gain_mdg_frigate_combat_factor: "Gain d'expérience en combat des frégates"
+ modifier_experience_gain_mdg_frigate_mission_factor: "Gain d'exp. des frégates en mission"
+ modifier_experience_gain_mdg_frigate_training_factor: "Gain d'exp. des frégates à l'entraînement"
+ modifier_experience_gain_mdg_frigate_combat_factor: "Gain d'exp. des frégates à l'entraînement au combat"
 
- modifier_experience_gain_mdg_midget_submarine_training_factor: "Gain d'expérience en entraînement des sous-marins de poche"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "Gain d'expérience en combat des sous-marins de poche"
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "Gain d'exp. des sous-marins de poche en mission"
+ modifier_experience_gain_mdg_midget_submarine_training_factor: "Gain d'exp. des sous-marins de poche à l'entraînement"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "Gain d'exp. des sous-marins de poche à l'entraînement au combat"
 
- modifier_experience_gain_mdg_monitor_training_factor: "Gain d'expérience d'entraînement du monitor"
- modifier_experience_gain_mdg_monitor_combat_factor: "Gain d'expérience de combat du monitor"
+ modifier_experience_gain_mdg_monitor_submarine_mission_factor: "Gain d'exp. des monitor en mission"
+ modifier_experience_gain_mdg_monitor_training_factor: "Gain d'exp. dws monitor à l'entraînement"
+ modifier_experience_gain_mdg_monitor_combat_factor: "Gain d'exp. des monitor à l'entraînement au combat"
 
- modifier_experience_gain_mdg_mac_training_factor: "Gain d'expérience d'entraînement du porte-avions auxiliaire"
- modifier_experience_gain_mdg_mac_combat_factor: "Gain d'expérience de combat du porte-avions auxiliaire"
+ modifier_experience_gain_mdg_mac_submarine_mission_factor: "Gain d'exp. des porte-avions auxiliaire en mission"
+ modifier_experience_gain_mdg_mac_training_factor: "Gain d'exp. des porte-avions auxiliaire à l'entraînement"
+ modifier_experience_gain_mdg_mac_combat_factor: "Gain d'exp. des porte-avions auxiliaire à l'entraînement au combat"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Coût de conception des armes légères I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Coût de conception des armes légères II"
@@ -43,7 +51,7 @@
  mdg_ship_hull_mac_design_cost_factor: "Coût de conception du porte-avions auxiliaire"
  modifier_module_mdg_ship_deck_space_design_cost_factor: "Coût concept. des hangars pour navires"
 
- modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Gain d'expérience du trait Moustique"
+ modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Gain d'exp. du trait Moustique"
 
  mdg_ff_tech_research: "Vitesse de recherche des frégates"
  mdg_lcs_tech_research: "Vitesse de recherche des corvettes"
