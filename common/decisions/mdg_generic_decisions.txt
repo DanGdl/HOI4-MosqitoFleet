@@ -112,7 +112,7 @@ mdg_generic_refit_civilian_ships_category = {
 							rear_1_custom_slot = ship_light_medium_battery_1
 							rear_2_custom_slot = ship_mine_layer_1
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
@@ -259,7 +259,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_depth_charge_1
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
@@ -552,7 +552,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_mine_layer_1
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
@@ -699,7 +699,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_mine_sweeper_1
 						}
-						obsolete = yes
+						obsolete = no
 					}
 				}
 				create_ship = {
