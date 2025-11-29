@@ -44,7 +44,7 @@ equipments = {
 					ship_depth_charge
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
-					ship_seaplane_tender
+					ship_airplane_launcher
 				}
 			}
 		}
@@ -58,7 +58,7 @@ equipments = {
 		#	count < 2
 		#}
 		#module_count_limit = {
-		#	category = ship_seaplane_tender
+		#	category = ship_airplane_launcher
 		#	count < 2
 		#}
 

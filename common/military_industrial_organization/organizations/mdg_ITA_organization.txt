@@ -34,7 +34,7 @@ ITA_baglietto_organization = {
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 		special_trait_background = yes
 
-		position = { x=8 y=0 }
+		position = { x = 8 y = 0 }
 		production_bonus = {
 			production_cost_factor = -0.15
 		}

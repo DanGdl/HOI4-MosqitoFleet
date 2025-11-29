@@ -20,6 +20,8 @@ spriteTypes = {
 		name = "GFX_SMI_mdg_ship_light_cannon_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_4.dds"
 	}
+
+
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_cannon_5"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_5.dds"
@@ -120,6 +122,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_ship_escort_deck_space"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
 	}
 }
