@@ -2194,7 +2194,7 @@ technologies = {
 	}
 
 	ship_torpedo_launcher_5 = {
-		
+
 		research_cost = 1
 
 		start_year = 1950
@@ -2203,14 +2203,14 @@ technologies = {
 			leads_to_tech = ship_torpedo_launcher_6
 			research_cost_coeff = 1
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_5
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_torpedo_sub_5
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2220,7 +2220,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 26 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2228,14 +2228,14 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 		}
 	}
-	
+
 	ship_torpedo_launcher_6 = {
-		
+
 		research_cost = 1
 
 		start_year = 1955
@@ -2244,11 +2244,11 @@ technologies = {
 			leads_to_tech = ship_torpedo_launcher_7
 			research_cost_coeff = 1
 		}
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_6
 		}
-		
+
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2258,7 +2258,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 32 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2266,7 +2266,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2277,21 +2277,21 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_7 = {
-		
+
 		research_cost = 1
 
 		start_year = 1960
 
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_7
 		}
 		path = {
 			leads_to_tech = ship_torpedo_launcher_8
 			research_cost_coeff = 1
-		}		
+		}
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2301,7 +2301,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 38 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2309,7 +2309,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2320,21 +2320,21 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_8 = {
-		
+
 		research_cost = 1
 
 		start_year = 1970
 
-		
-		enable_equipment_modules = { 
+
+		enable_equipment_modules = {
 			ship_torpedo_sub_8
 		}
 		path = {
 			leads_to_tech = ship_torpedo_launcher_9
 			research_cost_coeff = 1
-		}		
+		}
 		on_research_complete = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
@@ -2344,7 +2344,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 44 }
 		}
-		
+
 		ai_will_do = {
 			factor = 2
 			modifier = {
@@ -2352,7 +2352,7 @@ technologies = {
 				factor = 5
 			}
 		}
-		
+
 		categories = {
 			naval_equipment
 			ship_modules_tech
@@ -2363,7 +2363,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	ship_torpedo_launcher_9 = {
 
 		research_cost = 1
@@ -2562,7 +2562,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 12 }
