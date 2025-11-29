@@ -10,7 +10,7 @@ ideas = {
 					has_doctrine = new_base_strike
 					has_doctrine = small_fleet
 				}
-			}				
+			}
 			modifier = {
 				custom_modifier_tooltip = instilled_aggression_spirit_tt
 			}
@@ -20,7 +20,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -49,7 +49,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -78,7 +78,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -110,7 +110,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -142,7 +142,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -174,7 +174,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -205,7 +205,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -236,7 +236,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -273,7 +273,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -322,7 +322,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -352,7 +352,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -380,7 +380,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -409,7 +409,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -447,7 +447,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -480,7 +480,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -512,7 +512,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -543,7 +543,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -573,7 +573,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -603,7 +603,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -631,7 +631,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -667,7 +667,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -699,7 +699,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -727,7 +727,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
@@ -756,7 +756,7 @@ ideas = {
 					factor = 0
 					has_navy_size = {
 						size = 0
-					}					
+					}
 				}
 				modifier = {
 					factor = 0
