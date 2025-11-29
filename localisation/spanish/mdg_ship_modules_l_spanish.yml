@@ -12,10 +12,6 @@
  mdg_ship_light_guns_4_short: "Armamento de bote IV"
  mdg_ship_light_guns_4_desc: "Cañón automático doble de pequeño calibre"
 
- EQ_MOD_CAT_mdg_ship_deck_space_TITLE: "Hangar"
- mdg_ship_deck_space: "Hangar"
- mdg_ship_deck_space_desc: "Una zona abierta más grande dentro del barco que permite armar y revisar aviones con ruedas. Al aumentar el hangar de un barco, su coste se dispara."
-
  ENG_mdg_ship_light_guns_1: "Colt-Browning de 12.7 mm"
  ENG_mdg_ship_light_guns_2: "Colt-Browning doble de 12.7 mm"
  ENG_mdg_ship_light_guns_3: "Oerlikon de 20 mm"

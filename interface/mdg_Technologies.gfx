@@ -34,7 +34,7 @@ spriteTypes = {
 		name = "GFX_USA_mdg_ship_hull_mac_1_medium"
 		texturefile = "gfx/interface/technologies/USA_mdg_mac_1.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_HOL_mdg_mac_medium"
 		texturefile = "gfx/interface/technologies/HOL_mdg_mac.dds"
@@ -51,7 +51,7 @@ spriteTypes = {
 		name = "GFX_HOL_mdg_ship_hull_mac_1_medium"
 		texturefile = "gfx/interface/technologies/HOL_mdg_mac_1.dds"
 	}
-	
+
 	# AUXILIARIES
 	SpriteType = {
 		name = "GFX_mdg_auxiliary_medium"
@@ -1295,38 +1295,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/DEN_mdg_boat_5.dds"
 	}
 
-
-
-
-
-
-
-
-
-
 	### naval doctrines	###
 	SpriteType = {
-		name = "GFX_small_fleet_medium"
-		texturefile = "gfx/interface/technologies/mdg_small_fleet.dds"
-	}
-
-	# left branch
-	SpriteType = {
-		name = "GFX_torpedo_boat_operations_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_torpedo_boats_operations_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_patrol_and_ambush_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_patrol_and_ambush_sm.dds"
-	}
-	SpriteType = {
-		name = "GFX_mosquitos_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_mosquitos_sm.dds"
-	}
-
-	# central branch (end)
-	SpriteType = {
-		name = "GFX_combined_operations_sm_medium"
-		texturefile = "gfx/interface/technologies/mdg_combined_operations_sm.dds"
+		name = "GFX_doctrine_small_fleet_medium"
+		texturefile = "gfx/interface/doctrines/icons/mdg_small_fleet.dds"
 	}
 }

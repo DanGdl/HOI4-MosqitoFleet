@@ -1,4 +1,4 @@
-version="1.6"
+version="1.7"
 picture="thumbnail.png"
 tags={
 	"Technologies"
@@ -9,5 +9,5 @@ dependencies={
 	"The Road to 56"
 }
 name="MosquitoFleetRT56"
-supported_version="1.16.*"
+supported_version="1.17.*"
 remote_file_id="3448929820"

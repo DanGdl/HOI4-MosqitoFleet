@@ -1,0 +1,96 @@
+﻿l_korean:
+ mdg_ship_light_guns_1: "7.62mm 기관총"
+ mdg_ship_light_guns_1_short: "보트 무장 I"
+ mdg_ship_light_guns_1_desc: "일반 기관총"
+ mdg_ship_light_guns_2: "12.7mm 연장 기관총"
+ mdg_ship_light_guns_2_short: "보트 무장 II"
+ mdg_ship_light_guns_2_desc: "연장 대구경 기관총"
+ mdg_ship_light_guns_3: "20mm 자동포"
+ mdg_ship_light_guns_3_short: "보트 무장 III"
+ mdg_ship_light_guns_3_desc: "소구경 자동포"
+ mdg_ship_light_guns_4: "20mm 연장 자동포"
+ mdg_ship_light_guns_4_short: "보트 무장 IV"
+ mdg_ship_light_guns_4_desc: "연장 소구경 자동포"
+
+ ENG_mdg_ship_light_guns_1: "12.7mm ‘콜트-브라우닝’ 기관총"
+ ENG_mdg_ship_light_guns_2: "12.7mm 연장 ‘콜트-브라우닝’ 기관총"
+ ENG_mdg_ship_light_guns_3: "20mm ‘에를리콘’ 자동포"
+ ENG_mdg_ship_light_guns_4: "20mm 연장 ‘에를리콘’ 자동포"
+
+ GER_mdg_ship_light_guns_2: "20mm 자동포"
+ GER_mdg_ship_light_guns_3: "30mm 자동포"
+ GER_mdg_ship_light_guns_4: "30mm 연장 자동포"
+
+ ITA_mdg_ship_light_guns_1: "13.2mm 기관총"
+ ITA_mdg_ship_light_guns_2: "13.2mm 연장 기관총"
+
+ SOV_mdg_ship_light_guns_1: "7.62mm 기관총"
+ SOV_mdg_ship_light_guns_2: "12.7mm 연장 기관총 ‘ДШК’"
+ SOV_mdg_ship_light_guns_3: "20mm 자동포"
+
+ USA_mdg_ship_light_guns_1: "12.7mm ‘콜트-브라우닝’ 기관총"
+ USA_mdg_ship_light_guns_2: "12.7mm 연장 ‘콜트-브라우닝’ 기관총"
+ USA_mdg_ship_light_guns_3: "20mm ‘에를리콘’ 자동포"
+ USA_mdg_ship_light_guns_4: "20mm 연장 ‘에를리콘’ 자동포"
+
+
+ mdg_ship_light_cannon_1: "76mm 포"
+ mdg_ship_light_cannon_1_short: "경포 I"
+ mdg_ship_light_cannon_1_desc: "소형 함정에 사용되는 소구경 포입니다."
+ mdg_ship_light_cannon_2: "102mm 포"
+ mdg_ship_light_cannon_2_short: "경포 II"
+ mdg_ship_light_cannon_2_desc: "신속한 조준을 가능하게 하는 구동식 포대에 장착된 소구경 포입니다."
+ mdg_ship_light_cannon_3: "120mm 포"
+ mdg_ship_light_cannon_3_short: "경포 III"
+ mdg_ship_light_cannon_3_desc: "파편과 악천후로부터 포병을 보호하는 장갑 방패가 갖춰진 소구경 포입니다."
+ mdg_ship_light_cannon_4: "140mm 포"
+ mdg_ship_light_cannon_4_short: "경포 IV"
+ mdg_ship_light_cannon_4_desc: "장갑 회전 포탑에 장착된 소구경 포입니다."
+
+ GER_mdg_ship_light_cannon_1: "88mm 포"
+ GER_mdg_ship_light_cannon_2: "105mm 포"
+ GER_mdg_ship_light_cannon_3: "120mm 포"
+
+ ITA_mdg_ship_light_cannon_2: "76mm 포"
+ ITA_mdg_ship_light_cannon_3: "100mm 포"
+
+ SOV_mdg_ship_light_cannon_1: "60mm 포"
+ SOV_mdg_ship_light_cannon_2: "100mm 포"
+ SOV_mdg_ship_light_cannon_3: "102mm 포"
+
+ FRA_mdg_ship_light_cannon_2: "100mm 포"
+ FRA_mdg_ship_light_cannon_3: "130mm 포"
+
+ JAP_mdg_ship_light_cannon_2: "100mm 포"
+ JAP_mdg_ship_light_cannon_3: "120mm 포"
+
+
+ mdg_ship_light_cannon_dp_1: "76mm 다목적포"
+ mdg_ship_light_cannon_dp_1_short: "경 다목적포 I"
+ mdg_ship_light_cannon_dp_1_desc: "해상·지상 표적뿐 아니라 항공기에도 대응 사격이 가능한 소구경 다목적 포입니다."
+ mdg_ship_light_cannon_dp_2: "102mm 다목적포"
+ mdg_ship_light_cannon_dp_2_short: "경 다목적포 II"
+ mdg_ship_light_cannon_dp_2_desc: "높은 고각 사격이 가능하도록 장갑 방패가 갖춰진 소구경 포로, 항공기뿐 아니라 해상·지상 표적에도 대응할 수 있습니다."
+ mdg_ship_light_cannon_dp_3: "120mm 다목적포"
+ mdg_ship_light_cannon_dp_3_short: "경 다목적포 III"
+ mdg_ship_light_cannon_dp_3_desc: "높은 고각을 확보한 소구경 포탑식 다목적포로, 항공기와 해상·지상 표적 모두를 공격할 수 있습니다."
+ mdg_ship_light_cannon_dp_4: "140mm 다목적포"
+ mdg_ship_light_cannon_dp_4_short: "경 다목적포 IV"
+ mdg_ship_light_cannon_dp_4_desc: "높은 고각을 지원하는 조작식 포탑에 장착된 소구경 다목적포로, 해상·지상 표적과 항공기를 모두 상대할 수 있습니다."
+
+ GER_mdg_ship_light_cannon_dp_1: "88mm 포"
+ GER_mdg_ship_light_cannon_dp_2: "105mm 포"
+ GER_mdg_ship_light_cannon_dp_3: "120mm 포"
+
+ ITA_mdg_ship_light_cannon_dp_2: "76mm 포"
+ ITA_mdg_ship_light_cannon_dp_3: "100mm 포"
+
+ SOV_mdg_ship_light_cannon_dp_1: "60mm 포"
+ SOV_mdg_ship_light_cannon_dp_2: "100mm 포"
+ SOV_mdg_ship_light_cannon_dp_3: "102mm 포"
+
+ FRA_mdg_ship_light_cannon_dp_2: "100mm 포"
+ FRA_mdg_ship_light_cannon_dp_3: "130mm 포"
+
+ JAP_mdg_ship_light_cannon_dp_2: "100mm 포"
+ JAP_mdg_ship_light_cannon_dp_3: "120mm 포"

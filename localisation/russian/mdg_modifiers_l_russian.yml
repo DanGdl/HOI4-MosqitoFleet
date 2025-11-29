@@ -1,25 +1,33 @@
 ﻿l_russian:
+ modifier_experience_gain_mdg_boat_mission_factor: "Получаемый опыт от выполнения заданий катером"
  modifier_experience_gain_mdg_boat_training_factor: "Получаемый опыт за подготовку катера"
  modifier_experience_gain_mdg_boat_combat_factor: "Получаемый боевой опыт катера"
 
+ modifier_experience_gain_mdg_hydrofoil_mission_factor: "Получаемый опыт от выполнения заданий катером на подводных крыльях"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Получаемый опыт за подготовку катера на подводных крыльях"
  modifier_experience_gain_mdg_hydrofoil_combat_factor: "Получаемый боевой опыт катера на подводных крыльях"
 
+ modifier_experience_gain_mdg_auxiliary_mission_factor: "Получаемый опыт от выполнения заданий вспомогательным крейсером"
  modifier_experience_gain_mdg_auxiliary_training_factor: "Получаемый опыт за подготовку вспомогательного крейсера"
  modifier_experience_gain_mdg_auxiliary_combat_factor: "Получаемыйбоевой опыт вспомогательного крейсера"
 
+ modifier_experience_gain_mdg_corvette_mission_factor: "Получаемый опыт от выполнения заданий корветом"
  modifier_experience_gain_mdg_corvette_training_factor: "Получаемый опыт за подготовку корвета"
  modifier_experience_gain_mdg_corvette_combat_factor: "Получаемый боевой опыт корвета"
 
+ modifier_experience_gain_mdg_frigate_mission_factor: "Получаемый опыт от выполнения заданий фрегатом"
  modifier_experience_gain_mdg_frigate_training_factor: "Получаемый опыт за подготовку фрегата"
  modifier_experience_gain_mdg_frigate_combat_factor: "Получаемый боевой опыт фрегата"
 
+ modifier_experience_gain_mdg_midget_submarine_mission_factor: "Получаемый опыт от выполнения заданий мини субмариной"
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Получаемый опыт за подготовку мини субмарины"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Получаемый боевой опыт мини субмарины"
 
+ modifier_experience_gain_mdg_monitor_mission_factor: "Получаемый опыт от выполнения заданий монитором"
  modifier_experience_gain_mdg_monitor_training_factor: "Получаемый опыт за подготовку монитора"
  modifier_experience_gain_mdg_monitor_combat_factor: "Получаемый боевой опыт монитора"
 
+ modifier_experience_gain_mdg_mac_mission_factor: "Получаемый опыт от выполнения заданий вспомогательным авианосцем"
  modifier_experience_gain_mdg_mac_training_factor: "Получаемый опыт за подготовку вспомогательного авианосца"
  modifier_experience_gain_mdg_mac_combat_factor: "Получаемый боевой опыт вспомогательного авианосца"
 

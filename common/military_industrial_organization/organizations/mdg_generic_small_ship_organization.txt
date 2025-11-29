@@ -15,7 +15,7 @@ generic_small_ship_organization = {
 	research_categories = {
 		mio_cat_eq_all_mdg_boat_and_modules
 	}
-	
+
 	tree_header_text = {
 		text = mio_header_systems
 		x = 1
@@ -76,7 +76,7 @@ generic_small_ship_organization = {
 
 		position = { x=1 y=2 }
 		all_parents = { generic_mio_trait_wooden_hulls }
-		
+
 		equipment_bonus = {
 			patrol_coordination = 0.1
 			surface_detection = 0.05
@@ -99,7 +99,7 @@ generic_small_ship_organization = {
 		}
 	}
 
-	
+
 	# Second column
 	trait = {
 		token = generic_mio_trait_rapid_fire_guns

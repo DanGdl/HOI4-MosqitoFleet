@@ -1,5 +1,5 @@
-spriteTypes = {	
-	
+spriteTypes = {
+
 	spriteType = {
 		name = "GFX_idea_GER_lurssen"
 		texturefile = "gfx/interface/ideas/idea_GER_lurssen.dds"
@@ -29,7 +29,7 @@ spriteTypes = {
 		name = "GFX_idea_FRA_cmn"
 		texturefile = "gfx/interface/ideas/idea_FRA_cmn.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_USA_elco_mdg"
 		texturefile = "gfx/interface/ideas/idea_USA_elco_mdg.dds"

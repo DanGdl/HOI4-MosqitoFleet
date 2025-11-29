@@ -5,7 +5,6 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_1
-
 			mdg_frigate_1
 			mdg_corvette_1
 			mdg_boat_1
@@ -63,12 +62,10 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_2
-
 			mdg_frigate_2
 			mdg_corvette_2
 			mdg_boat_2
 		}
-
 
 		path = {
 			leads_to_tech = improved_destroyer
@@ -129,7 +126,6 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_3
-
 			mdg_frigate_3
 			mdg_corvette_3
 			mdg_boat_3
@@ -163,7 +159,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = dd_tech
+    				category = dd_tech
 				}
 			}
 		}
@@ -188,7 +184,6 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_4
-
 			mdg_frigate_4
 			mdg_corvette_4
 			mdg_boat_4
@@ -221,6 +216,13 @@ technologies = {
 			dd_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+
+			mdg_ff_tech
+			mdg_lcs_tech
+			mdg_pt_tech
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -229,7 +231,6 @@ technologies = {
 
 		enable_equipments = {
 			destroyer_5
-
 			mdg_frigate_5
 			mdg_corvette_5
 			mdg_boat_5
@@ -264,6 +265,7 @@ technologies = {
 			modifier = {
 				not = {
 					any_controlled_state = {
+
 						is_coastal = yes
 					}
 				}
@@ -276,6 +278,13 @@ technologies = {
 			dd_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+
+			mdg_ff_tech
+			mdg_lcs_tech
+			mdg_pt_tech
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -326,7 +335,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    				category = dd_tech
+    					category = cl_tech
 				}
 			}
 			modifier = {
@@ -528,6 +537,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
+
 	semi_modern_light_cruiser = {
 
 		enable_equipments = {
@@ -981,7 +991,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = bb_tech
+    				category = bb_tech
 				}
 			}
 			modifier = {
@@ -1002,7 +1012,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
 	semi_modern_battleship = {
 
 		enable_equipments = {
@@ -1031,13 +1040,12 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    				category = bb_tech
+    					category = bb_tech
 				}
 			}
 			modifier = {
 				not = {
 					any_controlled_state = {
-
 						is_coastal = yes
 					}
 				}
@@ -1577,7 +1585,6 @@ technologies = {
 			naval_equipment
 			ss_tech
 			mio_cat_tech_all_submarine_and_modules
-
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
@@ -1589,8 +1596,6 @@ technologies = {
 
 		enable_equipments = {
 			submarine_2
-
-			mdg_midget_submarine_1
 		}
 
 		path = {
@@ -1649,7 +1654,6 @@ technologies = {
 			naval_equipment
 			ss_tech
 			mio_cat_tech_all_submarine_and_modules
-
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
@@ -1661,8 +1665,7 @@ technologies = {
 
 		enable_equipments = {
 			submarine_3
-
-			mdg_midget_submarine_2
+			mdg_midget_submarine_1
 		}
 
 		path = {
@@ -1709,7 +1712,6 @@ technologies = {
 			naval_equipment
 			ss_tech
 			mio_cat_tech_all_submarine_and_modules
-
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
@@ -1765,7 +1767,6 @@ technologies = {
 			naval_equipment
 			ss_tech
 			mio_cat_tech_all_submarine_and_modules
-
 			mdg_ssm_tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
@@ -1821,7 +1822,6 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
-
 	######## JAPAN FOCUS TREE UNLOCK ########
 	torpedo_cruiser = {
 
@@ -1838,7 +1838,9 @@ technologies = {
 		}
 	}
 
-	# fleet_submarines = {}
+	# fleet_submarines = {
+
+	# }
 
 	#cruiser_submarine = {
 		#enable_equipments = {
