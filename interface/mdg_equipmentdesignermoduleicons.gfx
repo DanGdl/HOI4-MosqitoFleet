@@ -64,18 +64,4 @@ spriteTypes = {
 		name = "GFX_SMI_mdg_ship_light_guns_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
 	}
-
-
-	spriteType = {
-		name = "GFX_EMI_mdg_ship_deck_space_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_mdg_ship_deck_space_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_mdg_ship_deck_space"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
-	}
 }

@@ -1,6 +1,6 @@
 spriteTypes = {
 	# TODO: fix icons
-	
+
 	spriteType = {
 		name = "GFX_military_industrial_organization_mdg_midget_submarine"
 		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_submarine.dds"

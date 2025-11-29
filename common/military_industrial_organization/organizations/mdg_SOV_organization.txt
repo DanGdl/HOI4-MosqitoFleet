@@ -34,7 +34,7 @@ SOV_tupolev_design_bureau_organization_boat = {
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 		special_trait_background = yes
 
-		position = { x=8 y=0 }		
+		position = { x = 8 y = 0 } 
 		production_bonus = {
 			production_cost_factor = -0.15
 		}
@@ -54,8 +54,8 @@ SOV_tupolev_design_bureau_organization_boat = {
 SOV_ccb5_organization = {
 	include = generic_small_ship_organization
 	icon = GFX_idea_SOV_ccb5
-	
-	allowed = {	
+
+	allowed = {
 		original_tag = SOV
 	}
 

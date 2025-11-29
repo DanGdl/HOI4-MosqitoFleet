@@ -15,7 +15,7 @@ generic_small_ship_organization = {
 	research_categories = {
 		mio_cat_eq_all_mdg_boat_and_modules
 	}
-	
+
 	tree_header_text = {
 		text = mio_header_systems
 		x = 1
@@ -42,7 +42,7 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_advanced_hydrodynamic_design
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 
-		position = { x=1 y=0 }
+		position = { x = 1 y = 0 }
 		equipment_bonus = {
 			naval_speed = 0.05
 		}
@@ -53,7 +53,7 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_wooden_hulls
 		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
 
-		position = { x=1 y=1 }
+		position = { x = 1 y = 1 }
 		any_parent = { generic_mio_trait_advanced_hydrodynamic_design }
 
 		equipment_bonus = {
@@ -74,9 +74,9 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_efficient_patrolling_scheme
 		icon = GFX_generic_mio_trait_icon_detection # GFX_generic_mio_trait_icon_surface_detection
 
-		position = { x=1 y=2 }
+		position = { x = 1 y = 2 }
 		all_parents = { generic_mio_trait_wooden_hulls }
-		
+
 		equipment_bonus = {
 			patrol_coordination = 0.1
 			surface_detection = 0.05
@@ -90,7 +90,7 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_spotting_tops
 		icon = GFX_generic_mio_trait_icon_surface_visibility
 
-		position = { x=1 y=3 }
+		position = { x = 1 y = 3 }
 		any_parent = { generic_mio_trait_efficient_patrolling_scheme }
 
 		equipment_bonus = {
@@ -99,14 +99,14 @@ generic_small_ship_organization = {
 		}
 	}
 
-	
+
 	# Second column
 	trait = {
 		token = generic_mio_trait_rapid_fire_guns
 		name = generic_mio_trait_rapid_fire_guns
 		icon = GFX_generic_mio_trait_icon_lg_attack # GFX_generic_mio_department_icon_ship_general_offense
 
-		position = { x=5 y=0 }
+		position = { x = 5 y = 0 }
 		equipment_bonus = {
 			anti_air_attack = 0.05
 			lg_attack = 0.05
@@ -118,7 +118,7 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_gyro_stabilized_mounts
 		icon = GFX_generic_mio_department_icon_ship_screen_ship_offense
 
-		position = { x=5 y=1 }
+		position = { x = 5 y = 1 }
 		any_parent = { generic_mio_trait_rapid_fire_guns }
 
 		equipment_bonus = {
@@ -133,7 +133,7 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_large_torpedo_banks
 		icon = GFX_generic_mio_trait_icon_torpedo_attack
 
-		position = { x=5 y=2 }
+		position = { x = 5 y = 2 }
 		any_parent = { generic_mio_trait_gyro_stabilized_mounts }
 
 		equipment_bonus = {

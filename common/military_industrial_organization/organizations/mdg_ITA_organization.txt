@@ -2,11 +2,11 @@
 ITA_baglietto_organization = {
 	include = generic_small_ship_organization
 	icon = GFX_idea_ITA_baglietto
-	
-	allowed = {	
+
+	allowed = {
 		original_tag = ITA
 	}
-	
+
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
@@ -34,7 +34,7 @@ ITA_baglietto_organization = {
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 		special_trait_background = yes
 
-		position = { x=8 y=0 }		
+		position = { x = 8 y = 0 }
 		production_bonus = {
 			production_cost_factor = -0.15
 		}

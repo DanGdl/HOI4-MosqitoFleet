@@ -6,7 +6,7 @@ FRA_cmn_organization = {
 	allowed = {
 		original_tag = FRA
 	}
-	
+
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
@@ -28,14 +28,14 @@ FRA_cmn_organization = {
 		# 	}
 		# }
 	}
-	
+
 	add_trait = {
 		token = generic_mio_trait_combined_materials
 		name = generic_mio_trait_combined_materials
 		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
 		special_trait_background = yes
 
-		position = { x=8 y=0 }		
+		position = { x = 8 y = 0 }
 		equipment_bonus = {
 			build_cost_ic = 0.15
 			naval_speed = 0.1
