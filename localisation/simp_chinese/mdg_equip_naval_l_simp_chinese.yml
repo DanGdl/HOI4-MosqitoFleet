@@ -191,7 +191,7 @@
  mdg_ship_hull_corvette_3_desc: "改良型轻型护卫舰的描述。"
  mdg_ship_hull_corvette_4: "现代化轻型护卫舰"
  mdg_ship_hull_corvette_4_desc: "现代化轻型护卫舰的描述。"
- 
+
  mdg_ship_hull_frigate: "护卫舰"
  mdg_ship_hull_frigate_1: "早期护卫舰"
  mdg_ship_hull_frigate_1_desc: "早期护卫舰的描述。"
@@ -201,7 +201,7 @@
  mdg_ship_hull_frigate_3_desc: "改良型护卫舰的描述。"
  mdg_ship_hull_frigate_4: "现代化护卫舰"
  mdg_ship_hull_frigate_4_desc: "现代化护卫舰的描述."
- 
+
  mdg_ship_hull_midget_submarine: "微型潜艇"
  mdg_ship_hull_midget_submarine_1: "袖珍潜艇"
  mdg_ship_hull_midget_submarine_1_desc: "一种由少量船员操作的小型潜艇，其航程和武器容量有限，但生产效率高。"

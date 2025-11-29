@@ -191,7 +191,7 @@
  mdg_ship_hull_corvette_3_desc: "改良型コルベットの説明"
  mdg_ship_hull_corvette_4: "近代化コルベット"
  mdg_ship_hull_corvette_4_desc: "近代化コルベットの説明"
- 
+
  mdg_ship_hull_frigate: "フリゲート"
  mdg_ship_hull_frigate_1: "初期型フリゲート"
  mdg_ship_hull_frigate_1_desc: "初期型フリゲートの説明"
@@ -201,7 +201,7 @@
  mdg_ship_hull_frigate_3_desc: "改良型フリゲートの説明"
  mdg_ship_hull_frigate_4: "近代化フリゲート"
  mdg_ship_hull_frigate_4_desc: "近代化フリゲートの説明"
- 
+
  mdg_ship_hull_midget_submarine: "小型潜水艦"
  mdg_ship_hull_midget_submarine_1: "小型潜水艦"
  mdg_ship_hull_midget_submarine_1_desc: "少人数の乗組員で運用される小型潜水艦。その航続距離と武装は制限されるが、生産性は高い。"

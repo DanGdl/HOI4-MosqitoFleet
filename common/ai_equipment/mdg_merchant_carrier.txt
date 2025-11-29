@@ -1,12 +1,12 @@
 mdg_macs = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 	}
-	
+
 	roles = {
 		mdg_naval_mac
 	}
@@ -22,11 +22,11 @@ mdg_macs = {
 		}
 
 		role_icon_index = 7
-		
+
 		history = yes
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_mac
 			modules = {
 				fixed_ship_deck_slot_1 = ship_escort_deck_space
@@ -35,7 +35,7 @@ mdg_macs = {
 				fixed_ship_secondaries_slot = { any_of = { mdg_ship_light_cannon_1 } upgrade > current }
 			}
 		}
-		
+
 		allowed_modules = {
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp

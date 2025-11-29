@@ -36,7 +36,7 @@ guiTypes = {
 					name = "ship_anti_air"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_anti_air"
@@ -48,7 +48,7 @@ guiTypes = {
 					name = "ship_anti_air@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_anti_air@highlight"
@@ -68,7 +68,7 @@ guiTypes = {
 					name = "ship_radar"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_carrier_hull_radar"
@@ -80,7 +80,7 @@ guiTypes = {
 					name = "ship_radar@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_carrier_hull_radar@highlight"
@@ -99,7 +99,7 @@ guiTypes = {
 					name = "carrier_ship_engine"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_carrier_hull_engine"
@@ -111,7 +111,7 @@ guiTypes = {
 					name = "carrier_ship_engine@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint_highlight"
 						spriteType = "GFX_SM_carrier_hull_engine@highlight"
@@ -130,7 +130,7 @@ guiTypes = {
 					name = "mdg_ship_light_cannon"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries"
@@ -142,7 +142,7 @@ guiTypes = {
 					name = "mdg_ship_light_cannon@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries@highlight"
@@ -154,7 +154,7 @@ guiTypes = {
 					name = "mdg_ship_light_cannon_dp"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries"
@@ -166,7 +166,7 @@ guiTypes = {
 					name = "mdg_ship_light_cannon_dp@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_mdg_ship_hull_mac_fixed_secondaries@highlight"
@@ -174,7 +174,7 @@ guiTypes = {
 					}
 				}
 			}
-			
+
 			################# MODULE SLOT: Deck Space slot 1 #################
 			containerWindowType = {
 				name = "fixed_ship_deck_slot_1"
@@ -185,7 +185,7 @@ guiTypes = {
 					name = "ship_deck_space"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_carrier_hull_fixed_deck_space"
@@ -197,14 +197,14 @@ guiTypes = {
 					name = "ship_deck_space@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
-					
+
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_fixed_deck_space@highlight"
 						position = { x=37 y=72 }
 					}
-				}				
-			}		
+				}
+			}
 		}
 	}
 }

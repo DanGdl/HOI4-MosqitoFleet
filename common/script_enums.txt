@@ -77,7 +77,7 @@ script_enum_equipment_stat = {
 	railway_gun_hours_between_redistribution
 	max_organisation			#Cannot be used with MIOS
 	max_strength				##Cannot be used with MIOS
-	maximum_speed	
+	maximum_speed
 	armor_value
 	ap_attack
 	reliability
@@ -455,7 +455,7 @@ script_enum_equipment_bonus_type = {
 	cv_small_plane_naval_bomber_airframe_2
 	cv_small_plane_naval_bomber_airframe_3
 	cv_small_plane_naval_bomber_airframe_4
-	
+
 	small_plane_suicide_airframe_0
 	small_plane_suicide_airframe_1
 	small_plane_suicide_airframe_2

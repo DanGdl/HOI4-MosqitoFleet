@@ -632,7 +632,7 @@ technologies = {
 		path = {
 			leads_to_tech = modern_sonar
 			research_cost_coeff = 1
-		}		
+		}
 		research_cost = 1
 
 		start_year = 1939
@@ -672,7 +672,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-	
+
 	modern_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_4
@@ -1406,10 +1406,10 @@ early_ship_hull_carrier = {
 				limit = { has_dlc = "No Compromise, No Surrender" }
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_escort_carrier	
+					PROJECT = sp_naval_escort_carrier
 				}
 			}
-		}		
+		}
 
 		research_cost = 1.5
 
@@ -1467,7 +1467,7 @@ early_ship_hull_carrier = {
 				set_country_flag = PHI_did_carrier_tech
 				mark_focus_tree_layout_dirty = yes
 			}
-		}		
+		}
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier
 			research_cost_coeff = 1
@@ -2187,7 +2187,7 @@ early_ship_hull_carrier = {
 		naval_general_support_value_factor = 0.05
 		allow = {
 			always = no
-		}		
+		}
 	}
 	sp_naval_support_ships_pick_c = {
 		#HIDDEN EFFECT FOR REWARD CHOICE
@@ -2229,4 +2229,3 @@ early_ship_hull_carrier = {
 		}
 	}
 }
-

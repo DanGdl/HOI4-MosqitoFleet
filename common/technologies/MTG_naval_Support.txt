@@ -979,7 +979,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		start_year = 1942
-		
+
 		mdg_boat = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
@@ -1011,7 +1011,7 @@ technologies = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		naval_torpedo_reveal_chance_factor = -0.25
-		
+
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 16 }
@@ -1066,7 +1066,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_2
-			ship_torpedo_sub_2			
+			ship_torpedo_sub_2
 		}
 
 		folder = {
@@ -1113,7 +1113,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_3
-			ship_torpedo_sub_3			
+			ship_torpedo_sub_3
 		}
 
 		folder = {
@@ -1151,7 +1151,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_torpedo_4
-			ship_torpedo_sub_4			
+			ship_torpedo_sub_4
 		}
 
 		on_research_complete = {
@@ -1307,7 +1307,7 @@ technologies = {
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
-		
+
 		path = {
 			leads_to_tech = sp_improved_repair_ship
 			research_cost_coeff = 1
@@ -1380,7 +1380,7 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		
+
 		xp_research_type = navy
 		xp_boost_cost = 50
 		xp_research_bonus = 1.50
@@ -1499,7 +1499,7 @@ technologies = {
 			lg_attack = 0.1
 			hg_attack = 0.1
 		}
-		
+
 		mdg_auxiliary = {
 			lg_attack = 0.1
 			hg_attack = 0.1
@@ -2032,17 +2032,17 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
-	mtg_transport = { 
+	mtg_transport = {
 
 		transport_capacity = -0.33
 		naval_invasion_prep_days = -10
-		naval_invasion_division_cap = 2 
+		naval_invasion_division_cap = 2
 		naval_invasion_plan_cap = 1
 
 		on_research_complete = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_naval_support_ships	
+				PROJECT = sp_naval_support_ships
 			}
 		}
 
@@ -2104,8 +2104,8 @@ technologies = {
 		#invasion_preparation = -0.25
 		amphibious_invasion_defence = 0.15
 		naval_invasion_prep_days = -10
-		naval_invasion_division_cap = 4 
-		naval_invasion_plan_cap = 3	
+		naval_invasion_division_cap = 4
+		naval_invasion_plan_cap = 3
 		#naval_invasion_capacity = 20
 
 		path = {
@@ -2191,8 +2191,8 @@ technologies = {
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5
 		naval_invasion_prep_days = -10
-		naval_invasion_division_cap = 5 
-		naval_invasion_plan_cap = 4			
+		naval_invasion_division_cap = 5
+		naval_invasion_plan_cap = 4
 		#naval_invasion_capacity = 100
 
 		research_cost = 2

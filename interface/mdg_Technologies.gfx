@@ -34,7 +34,7 @@ spriteTypes = {
 		name = "GFX_USA_mdg_ship_hull_mac_1_medium"
 		texturefile = "gfx/interface/technologies/USA_mdg_mac_1.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_HOL_mdg_mac_medium"
 		texturefile = "gfx/interface/technologies/HOL_mdg_mac.dds"
@@ -51,7 +51,7 @@ spriteTypes = {
 		name = "GFX_HOL_mdg_ship_hull_mac_1_medium"
 		texturefile = "gfx/interface/technologies/HOL_mdg_mac_1.dds"
 	}
-	
+
 	# AUXILIARIES
 	SpriteType = {
 		name = "GFX_mdg_auxiliary_medium"
