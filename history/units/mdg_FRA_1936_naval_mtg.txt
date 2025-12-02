@@ -68,6 +68,8 @@
 			ship = { name = "Castor" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
 			ship = { name = "Pollux" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
 			ship = { name = "La Gladiateur" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
+
+			#ship = { name = "Commandant Teste" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = FRA version_name = "Commandant Teste Class" } } }
 		}
 	}
 }

@@ -2,7 +2,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 
 	# enable and disable tech to create a task force if country didn't research technology yet. (Another way - create a hidden technology)
-	set_technology = { early_ship_hull_light = 1 }
+	set_technology = { mdg_hidden_tech = 1 }
 
 	create_equipment_variant = {
 		name = "Hindustan"
@@ -20,6 +20,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Indus"
 		type = mdg_ship_hull_corvette_1
@@ -36,6 +37,7 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_2
 		}
 	}
+
 	create_equipment_variant = {
 		name = "Escort ship"
 		type = mdg_ship_hull_corvette_1
@@ -52,7 +54,25 @@ if = {
 			rear_1_custom_slot = mdg_ship_light_cannon_1
 		}
 	}
-	set_technology = { early_ship_hull_light = 0 }
+
+	create_equipment_variant = {
+		name = "Aubretia Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = ENG_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		design_team = mio:ENG_yarrow_shipbuilders_organization
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			rear_1_custom_slot = mdg_ship_light_cannon_1
+		}
+	}
+	set_technology = { mdg_hidden_tech = 0 }
 
 
 	else = {
@@ -67,5 +87,20 @@ if = {
 	load_oob = "mdg_RAJ_1936_naval_mtg"
 	else = {
 		load_oob = "mdg_RAJ_1936_naval_legacy"
+	}
+}
+
+1939.1.1 = {
+	#IF = {
+	#	limit = {
+	#		has_dlc = "Man the Guns"
+	#	}
+	#}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_RAJ_1936_naval_mtg"
+		else = {
+			load_oob = "mdg_RAJ_1936_naval_legacy"
+		}
 	}
 }

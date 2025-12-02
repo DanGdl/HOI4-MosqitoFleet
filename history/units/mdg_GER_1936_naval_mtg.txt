@@ -22,6 +22,7 @@
 			ship = { name = "М-132" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
 			ship = { name = "М-145" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
 			ship = { name = "М-157" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
+
 			ship = { name = "Hecht" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
 			ship = { name = "Stortebecker" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
 			ship = { name = "Nautilus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GER version_name = "1916/1918" } } }
@@ -79,7 +80,6 @@
 			ship = { name = "S-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
 			ship = { name = "S-12" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
 			ship = { name = "S-13" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
-
 		}
 	}
 }

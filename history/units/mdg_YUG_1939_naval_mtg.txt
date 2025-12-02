@@ -1,0 +1,36 @@
+﻿units = {
+	fleet = {
+		name = "Kraljevska Mornarica"
+		naval_base = 3924 # Split
+		task_force = {
+			name = "Kraljevska Mornarica"
+			location = 5838
+
+			ship = { name = "KB Galeb" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Jastreb" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Kobac" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Labud" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Orao" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Sokol" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+
+			ship = { name = "KB Malinska" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Marjan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Meljine" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Mljet" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+			ship = { name = "KB Mosor" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = YUG version_name = "Malinska/M Class" } } }
+
+			# 1939
+			ship = { name = "KB Orjen" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Velebit" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Dinara" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Triglav" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Suvobor" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Rudnik" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Kajmakcalan" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Durmitor" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+
+			ship = { name = "KB Uskok" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = YUG version_name = "Thornycroft Class" } } }
+			ship = { name = "KB Cetnik" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = YUG version_name = "Thornycroft Class" } } }
+		}
+	}
+}

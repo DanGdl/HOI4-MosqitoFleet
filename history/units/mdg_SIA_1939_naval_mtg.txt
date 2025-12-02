@@ -1,0 +1,48 @@
+﻿units = {
+	fleet = {
+		name = "Royal Siamese Navy"
+		naval_base = 7408 # Bangkok
+		task_force = {
+			name = "Royal Siamese Navy"
+			location = 4002
+
+			ship = { name = "HTMS Ratanakosindra" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+			ship = { name = "HTMS Sukothai" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+
+			ship = { name = "HTMS Chow Phraya" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Chow Phraya Class" } } }
+			ship = { name = "HTMS Bangrachan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Bangrachan Class" } } }
+
+			ship = { name = "HTMS N-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+			ship = { name = "HTMS N-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SIA version_name = "Thornycroft Class" } } }
+
+			# 1939
+			ship = { name = "HTMS Sri Ayuthia" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Sri Ayuthia Class" } } }
+			ship = { name = "HTMS Dhonburi" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Sri Ayuthia Class" } } }
+
+			ship = { name = "HTMS Trad" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Phuket" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Pattani" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Surasdra" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Chandaburi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Rayong" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Chumporn" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Cholburi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Songkhla" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+
+			ship = { name = "HTMS Kantang" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Kantang Class" } } }
+			ship = { name = "HTMS Klongjai" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Kantang Class" } } }
+			ship = { name = "HTMS Takbal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Kantang Class" } } }
+
+			ship = { name = "HTMS Vilun" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "Vilun Class" } } }
+			ship = { name = "HTMS Majchanu" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "Vilun Class" } } }
+			ship = { name = "HTMS Sinsamudar" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "Vilun Class" } } }
+			ship = { name = "HTMS Blajunbol" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SIA version_name = "Vilun Class" } } }
+
+			ship = { name = "HTMS Тасhin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Тасhin Class" } } }
+			ship = { name = "HTMS Maeklong" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Тасhin Class" } } }
+		}
+	}
+}

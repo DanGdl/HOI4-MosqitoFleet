@@ -3,6 +3,8 @@
 		has_dlc = "Man the Guns"
 	}
 
+	set_technology = { mdg_hidden_tech = 1 }
+
 	create_equipment_variant = {
 		name = "Erie Class"
 		type = mdg_ship_hull_corvette_1
@@ -111,6 +113,58 @@
 			rear_1_custom_slot = mdg_ship_light_cannon_1
 		}
 	}
+
+	create_equipment_variant = {
+		name = "Submarine Chaser 110-feet"
+		type = mdg_ship_hull_corvette_1
+		name_group = USA_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		design_team = mio:USA_norfolk_naval_yard_organization
+		modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_depth_charge_1
+			rear_1_custom_slot = mdg_ship_light_cannon_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Seaplane floating base"
+		type = mdg_ship_hull_mac_1
+		parent_version = 0
+		design_team = mio:USA_newport_news_shipbuilding_organization
+		modules = {
+			fixed_ship_deck_slot_1 = ship_escort_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Treasury Class"
+		type = mdg_ship_hull_corvette_1
+		name_group = USA_CORVETTE_HISTORICAL
+		parent_version = 0
+		obsolete = yes
+		design_team = mio:USA_norfolk_naval_yard_organization
+		modules = {
+			fixed_ship_battery_slot = mdg_ship_light_cannon_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_depth_charge_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	set_technology = { mdg_hidden_tech = 0 }
 }
 
 if = {
@@ -118,5 +172,21 @@ if = {
 	load_oob = "mdg_USA_1936_naval_mtg"
 	else = {
 		load_oob = "mdg_USA_1936_naval_legacy"
+	}
+}
+
+1939.1.1 = {
+	#IF = {
+	#	limit = {
+	#		has_dlc = "Man the Guns"
+	#	}
+	#}
+
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_USA_1939_naval_mtg"
+		else = {
+			load_oob = "mdg_USA_1939_naval_legacy"
+		}
 	}
 }

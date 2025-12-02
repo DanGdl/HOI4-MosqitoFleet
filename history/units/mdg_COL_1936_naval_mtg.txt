@@ -11,9 +11,6 @@
 			ship = { name = "ARC Carabobo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = COL version_name = "Bogota Class" } } }
 			ship = { name = "ARC Junin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = COL version_name = "Bogota Class" } } }
 			ship = { name = "ARC Pichincha" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = COL version_name = "Bogota Class" } } }
-
-			ship = { name = "ARC Ayacucho" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = COL version_name = "83-feet Class" } } }
-			ship = { name = "ARC Boyаса" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = COL version_name = "83-feet Class" } } }
 		}
 	}
 }

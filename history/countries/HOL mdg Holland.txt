@@ -1,6 +1,8 @@
 ﻿if = {
 	limit = { has_dlc = "Man the Guns" }
 
+	set_technology = { mdg_hidden_tech = 1 }
+
 	create_equipment_variant = {
 		name = "Brinio Class"
 		type = mdg_ship_hull_corvette_1
@@ -10,23 +12,6 @@
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = empty
-			rear_1_custom_slot = mdg_ship_light_cannon_1
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Flores Class"
-		type = mdg_ship_hull_corvette_1
-		name_group = HOL_CORVETTE_HISTORICAL
-		parent_version = 0
-		design_team = mio:HOL_nsm_amsterdam_organization
-		modules = {
-			fixed_ship_battery_slot = mdg_ship_light_cannon_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
@@ -85,6 +70,22 @@
 			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
+
+	create_equipment_variant = {
+		name = "MAC Class"
+		type = mdg_ship_hull_mac_1
+		parent_version = 0
+		design_team = mio:HOL_nsm_amsterdam_organization
+		modules = {
+			fixed_ship_deck_slot_1 = ship_escort_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+		}
+	}
+
+	set_technology = { mdg_hidden_tech = 0 }
 }
 
 if = {
@@ -92,5 +93,90 @@ if = {
 	load_oob = "mdg_HOL_1936_naval_mtg"
 	else = {
 		load_oob = "mdg_HOL_1936_naval_legacy"
+	}
+}
+
+1939.1.1 = {
+	IF = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+
+		create_equipment_variant = {
+			name = "Van Kinsbergen Class"
+			type = mdg_ship_hull_frigate_1
+			name_group = HOL_FRIGATE_HISTORICAL
+			parent_version = 0
+			design_team = mio:HOL_nsm_amsterdam_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = mdg_ship_light_cannon_2
+				rear_1_custom_slot = mdg_ship_light_cannon_2
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Jan van Brakel Class"
+			type = mdg_ship_hull_corvette_2
+			name_group = HOL_CORVETTE_HISTORICAL
+			parent_version = 0
+			design_team = mio:HOL_nsm_amsterdam_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "ABC Class"
+			type = mdg_ship_hull_corvette_2
+			name_group = HOL_CORVETTE_HISTORICAL
+			parent_version = 0
+			design_team = mio:HOL_nsm_amsterdam_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = ship_mine_sweeper_1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Jan van Amstrel Class"
+			type = mdg_ship_hull_frigate_2
+			name_group = HOL_FRIGATE_HISTORICAL
+			parent_version = 0
+			design_team = mio:HOL_nsm_amsterdam_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_mine_sweeper_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_HOL_1939_naval_mtg"
+		else = {
+			load_oob = "mdg_HOL_1939_naval_legacy"
+		}
 	}
 }

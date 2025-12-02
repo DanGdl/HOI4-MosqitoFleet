@@ -1,0 +1,18 @@
+﻿units = {
+	fleet = {
+		name = "National Fleet"
+		naval_base = 12674 # Rekjavik
+		task_force = {
+			name = "1st Task Force"
+			location = 8534
+
+			ship = { name = "ICGV Sudin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+			ship = { name = "ICGV Aegir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+			ship = { name = "ICGV Thor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+
+			# 1939
+			ship = { name = "ICGV Esja" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+			ship = { name = "ICGV Odinn" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+		}
+	}
+}

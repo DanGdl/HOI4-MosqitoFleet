@@ -27,7 +27,6 @@
 			ship = { name = "HDMS T-5 Omen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
 
 			ship = { name = "HDMS Beskytteren" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
-			ship = { name = "HDMS Freja" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
 			ship = { name = "HDMS Hejmdal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
 			ship = { name = "HDMS Hvidbjornen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
 			ship = { name = "HDMS Ingolf" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }

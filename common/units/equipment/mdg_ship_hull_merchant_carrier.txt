@@ -92,27 +92,30 @@ equipments = {
 	}
 
 	mdg_ship_hull_mac_1 = {
-		year = 800
+		year = 1922
 
 		archetype = mdg_ship_hull_mac
 		module_slots = inherit
 		priority = 2300
-		active = yes
 
-		can_be_produced = {
-			OR = {
-				has_country_flag = mdg_flag_refit_to_mac_mtg
-			}
-		}
+		#can_be_produced = {
+		#	OR = {
+		#		has_country_flag = mdg_flag_refit_to_mac_mtg
+		#		tag = FRA
+		#		tag = HOL
+		#		tag = ITA
+		#		tag = JAP
+		#		tag = USA
+		#	}
+		#}
 	}
 
 	# VANILA
 	mdg_mac_1 = {
-		year = 800
+		year = 1922
 
 		archetype = mdg_ship_hull_mac
 		priority = 2300
-		active = yes
 
 		upgrades = {
 			ship_deckspace_upgrade
@@ -129,10 +132,15 @@ equipments = {
 			front_1_custom_slot = ship_anti_air_1
 		}
 
-		can_be_produced = {
-			OR = {
-				has_country_flag = mdg_flag_refit_to_mac_vanila
-			}
-		}
+		#can_be_produced = {
+		#	OR = {
+		#		has_country_flag = mdg_flag_refit_to_mac_vanila
+		#		tag = FRA
+		#		tag = HOL
+		#		tag = ITA
+		#		tag = JAP
+		#		tag = USA
+		#	}
+		#}
 	}
 }

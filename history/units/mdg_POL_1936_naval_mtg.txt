@@ -12,6 +12,13 @@
 			ship = { name = "ORP Czajka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
 			ship = { name = "ORP Mewa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
 			ship = { name = "ORP Rybitwa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+
+			ship = { name = "ORP Krakow" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = POL version_name = "Krakow Class" } } }
+			ship = { name = "ORP Wilno" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = POL version_name = "Krakow Class" } } }
+			ship = { name = "ORP Horodyszcze" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = POL version_name = "Krakow Class" } } }
+			ship = { name = "ORP Pinsk" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = POL version_name = "Krakow Class" } } }
+			ship = { name = "ORP Torun" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = POL version_name = "Krakow Class" } } }
+			ship = { name = "ORP Warszawa" definition = mdg_monitor equipment = { mdg_ship_hull_monitor_1 = { amount = 1 owner = POL version_name = "Krakow Class" } } }
 		}
 	}
 }

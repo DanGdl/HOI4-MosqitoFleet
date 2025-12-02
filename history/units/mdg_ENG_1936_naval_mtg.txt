@@ -11,7 +11,6 @@
 
 			ship = { name = "HMS Lupin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
 			ship = { name = "HMS Rosemary" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Acacia/Arabis Series" } } }
-			ship = { name = "HMS Cornwallis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Aubretia Class" } } }
 
 			ship = { name = "HMS Brigewater" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
 			ship = { name = "HMS Sandwich" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Brigewater/Hastings Class" } } }
@@ -40,7 +39,8 @@
 
 			ship = { name = "HMS Yarra" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
 			ship = { name = "HMS Swan" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
-			ship = { name = "HMS Bittern" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
+			ship = { name = "HMS Enchantress" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
+			ship = { name = "HMS Stork" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
 
 			ship = { name = "HMS РС-74" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "PC Class" } } }
 			ship = { name = "HMS Pathan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "PC Class" } } }
@@ -80,6 +80,7 @@
 			ship = { name = "HMS Niger" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 			ship = { name = "HMS Salamander" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Halcyon Class" } } }
 
+			ship = { name = "HMS Kingfisher" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
 			ship = { name = "HMS Puffin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
 
 			ship = { name = "HMS Medusa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ENG version_name = "Medusa Class" } } }

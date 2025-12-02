@@ -38,6 +38,21 @@
 			ship = { name = "MTV-5 Nudi" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "Syoksy Class" } } }
 			ship = { name = "MTV-6 Vinha" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "Syoksy Class" } } }
 			ship = { name = "MTV-7 Raju" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "Syoksy Class" } } }
+
+			ship = { name = "VMV-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-6" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-8" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-9" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-12" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-13" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-14" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-15" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-16" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
+			ship = { name = "VMV-17" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FIN version_name = "VMV Class" } } }
 		}
 	}
 }

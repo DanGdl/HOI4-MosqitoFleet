@@ -48,6 +48,19 @@
 			ship = { name = "USS CM-4 Oglala" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = USA version_name = "Terror Class" } } }
 			ship = { name = "USS CM-5 Terror" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = USA version_name = "Terror Class" } } }
 
+			ship = { name = "USS SC-64" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-102" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-103" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-188" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-229" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-231" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-330" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-412" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-431" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-432" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-437" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+			ship = { name = "USS SC-440" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Submarine Chaser 110-feet" } } }
+
 			ship = { name = "USS WPG-45 Haida" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
 			ship = { name = "USS WPG-46 Modoc" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
 			ship = { name = "USS WPG-47 Mojave" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
@@ -60,6 +73,9 @@
 			ship = { name = "USS WPG-78 Mohawk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
 			ship = { name = "USS WPG-79 Onondaga" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
 			ship = { name = "USS WPG-80 Tahoma" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Haida Class" } } }
+
+			ship = { name = "USS WPG-32 Campbell" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Treasury Class" } } }
+			ship = { name = "USS WPG-33 Duane" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Treasury Class" } } }
 
 			ship = { name = "USS WPC-52 Active" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
 			ship = { name = "USS WPC-126 Agassiz" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
@@ -111,6 +127,9 @@
 			ship = { name = "USS WPC-114 Perseus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
 			ship = { name = "USS WPC-115 Thetis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
 			ship = { name = "USS WPC-116 Triton" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
+
+			#ship = { name = "USS AV-1 Wright" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			#ship = { name = "USS AV-3 Langley" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
 		}
 	}
 }

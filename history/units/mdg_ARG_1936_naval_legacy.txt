@@ -9,7 +9,6 @@
 			ship = { name = "ARA Tirana" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA Parana" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ARG } } }
 
-
 			ship = { name = "ARA Bathurst" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA Jorge" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA King" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
@@ -19,12 +18,7 @@
 
 			ship = { name = "ARA Bouchard" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA Drummond" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Fournier" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 			ship = { name = "ARA Granville" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Parker" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Robinson" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG  } } }
-			ship = { name = "ARA Seaver" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Spiro" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 		}
 	}
 }

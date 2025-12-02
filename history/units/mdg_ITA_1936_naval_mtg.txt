@@ -91,6 +91,42 @@
 			ship = { name = "RCT Durazzo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
 			ship = { name = "RCT Fasana" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
 			ship = { name = "RCT Pelagosa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+
+			ship = { name = "RCT RD-7" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-12" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-13" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-16" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-17" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-18" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-20" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-21" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-22" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-23" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-24" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-25" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-26" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-27" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-28" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-29" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-30" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-31" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-32" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-33" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-34" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-35" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-36" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-37" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-38" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-39" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-40" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-41" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-42" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-43" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-44" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-55" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+			ship = { name = "RCT RD-56" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ITA version_name = "Type RD" } } }
+
+			#ship = { name = "RCT Giuseppe Miraglia" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = ITA version_name = "Type Giuseppe Miraglia" } } }
 		}
 	}
 }

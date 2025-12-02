@@ -1,0 +1,22 @@
+﻿units = {
+	fleet = {
+		name = "Armada Venezula"
+		naval_base = 8113 # Caracas
+		task_force = {
+			name = "Armada Venezula"
+			location = 2110
+
+			ship = { name = "ARV General Soublette" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
+			ship = { name = "ARV General Urdaneta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
+			ship = { name = "ARV Miranda" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
+			ship = { name = "ARV General Salom" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
+			ship = { name = "ARV Mariscal Sucre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = VEN version_name = "Ostia Class" } } }
+
+			# 1939
+			ship = { name = "ARV CS-1 Antonio Diaz" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-2 Brion" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-3 Bricendo Mendez" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-4 Arismendi" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+		}
+	}
+}

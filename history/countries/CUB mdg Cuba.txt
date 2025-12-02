@@ -2,7 +2,7 @@
 	limit = { has_dlc = "Man the Guns" }
 
 	# enable and disable tech to create a task force if country didn't research technology yet. (Another way - create a hidden technology)
-	set_technology = { early_ship_hull_light = 1 }
+	set_technology = { mdg_hidden_tech = 1 }
 
 	create_equipment_variant = {
 		name = "Matanz Class"
@@ -66,7 +66,7 @@
 		}
 	}
 
-	set_technology = { early_ship_hull_light = 0 }
+	set_technology = { mdg_hidden_tech = 0 }
 
 	else = {
 		set_technology = { early_destroyer = 1 }
@@ -79,5 +79,20 @@ if = {
 	load_oob = "mdg_CUB_1936_naval_mtg"
 	else = {
 		load_oob = "mdg_CUB_1936_naval_legacy"
+	}
+}
+
+1939.1.1 = {
+	#IF = {
+	#	limit = {
+	#		has_dlc = "Man the Guns"
+	#	}
+	#}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_CUB_1936_naval_mtg"
+		else = {
+			load_oob = "mdg_CUB_1936_naval_legacy"
+		}
 	}
 }

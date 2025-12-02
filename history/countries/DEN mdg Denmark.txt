@@ -97,3 +97,36 @@ if = {
 		load_oob = "mdg_DEN_1936_naval_legacy"
 	}
 }
+
+1939.1.1 = {
+	IF = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+
+		create_equipment_variant = {
+			name = "Soloven Class"
+			type = mdg_ship_hull_frigate_1
+			name_group = DEN_FRIGATE_HISTORICAL
+			parent_version = 0
+			design_team = mio:DEN_burmeister_wain_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_depth_charge_1
+				rear_1_custom_slot = ship_mine_sweeper_1
+			}
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_DEN_1939_naval_mtg"
+		else = {
+			load_oob = "mdg_DEN_1939_naval_legacy"
+		}
+	}
+}

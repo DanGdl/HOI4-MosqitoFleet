@@ -1,0 +1,31 @@
+﻿units = {
+	fleet = {
+		name = "Vasilikó Polemikó Naftikó"
+		naval_base = 4109 # Athens
+		task_force = {
+			name = "Vasilikós Stólos"
+			location = 6801 # near Athens
+
+			ship = { name = "RHS Korgialenios" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Tenedos" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Paralos" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+			ship = { name = "RHS Plias" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = GRE version_name = "Minelaying ship" } } }
+
+			ship = { name = "RHS T-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "Thornycroft Class" } } }
+			ship = { name = "RHS T-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "Thornycroft Class" } } }
+
+			ship = { name = "RHS A-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "A-1 Class" } } }
+			ship = { name = "RHS A-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "A-1 Class" } } }
+			ship = { name = "RHS A-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "A-1 Class" } } }
+			ship = { name = "RHS A-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "A-1 Class" } } }
+			ship = { name = "RHS A-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "A-1 Class" } } }
+			ship = { name = "RHS A-6" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = GRE version_name = "A-1 Class" } } }
+			
+			# 1939
+			ship = { name = "RHS Aliakmon" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Axios" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Nestos" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Strymon" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+		}
+	}
+}

@@ -104,6 +104,11 @@
 			ship = { name = "R-43" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-44" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-45" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
+
+			ship = { name = "T-201 Zaryad" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-202 Buy" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-203 Patron" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-204 Fugas" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
 		}
 	}
 
@@ -157,6 +162,11 @@
 			ship = { name = "R-28" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-29" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-30" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
+
+			ship = { name = "T-401 Tral" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-402 Minrep" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-403 Gruz" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-404 Shyt" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
 		}
 	}
 
@@ -195,7 +205,6 @@
 			ship = { name = "TKA-9" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 			ship = { name = "TKA-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 			ship = { name = "TKA-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-
 
 			ship = { name = "R-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }

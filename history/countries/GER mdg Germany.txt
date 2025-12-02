@@ -76,3 +76,85 @@ if = {
 		load_oob = "mdg_GER_1936_naval_legacy"
 	}
 }
+
+1939.1.1 = {
+	IF = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+
+		create_equipment_variant = {
+			name = "Type 1935"
+			type = mdg_ship_hull_corvette_2
+			parent_version = 0
+			obsolete = yes
+			design_team = mio:GER_deschimag_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_depth_charge_1
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Type 1938"
+			type = mdg_ship_hull_corvette_2
+			parent_version = 0
+			obsolete = yes
+			design_team = mio:GER_deschimag_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = ship_depth_charge_2
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Type 1939"
+			type = mdg_ship_hull_corvette_3
+			parent_version = 0
+			obsolete = yes
+			design_team = mio:GER_deschimag_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = ship_depth_charge_3
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Type MR"
+			type = mdg_ship_hull_corvette_2
+			parent_version = 0
+			obsolete = yes
+			design_team = mio:GER_deschimag_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_1
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = ship_mine_sweeper_1
+			}
+		}
+	}
+
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_GER_1939_naval_mtg"
+		else = {
+			load_oob = "mdg_GER_1939_naval_legacy"
+		}
+	}
+}

@@ -41,9 +41,27 @@
 			#ship = { name = "Shirataka" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
 			#ship = { name = "Yaeyama" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
 
+			ship = { name = "Tsubame" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+			ship = { name = "Kamome" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+			ship = { name = "Nasami" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+			ship = { name = "Natsushima" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+			ship = { name = "Sarushima" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Shirataka Class" } } }
+
 			ship = { name = "Ch-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = JAP version_name = "Ch-1 Class" } } }
 			ship = { name = "Ch-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = JAP version_name = "Ch-1 Class" } } }
 			ship = { name = "Ch-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = JAP version_name = "Ch-1 Class" } } }
+
+			#ship = { name = "Chitose Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+
+			ship = { name = "Р-101" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-102" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-103" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-104" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-105" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-106" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-107" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-108" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
+			ship = { name = "Р-109" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = JAP version_name = "Patrol ship" } } }
 		}
 	}
 }

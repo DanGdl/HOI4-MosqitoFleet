@@ -3,6 +3,8 @@
 		has_dlc = "Man the Guns"
 	}
 
+	set_technology = { mdg_hidden_tech = 1 }
+
 	create_equipment_variant = {
 		name = "Ailette Class"
 		type = mdg_ship_hull_corvette_1
@@ -104,6 +106,22 @@
 			rear_1_custom_slot = ship_mine_layer_1
 		}
 	}
+
+	create_equipment_variant = {
+		name = "Commandant Teste Class"
+		type = mdg_ship_hull_mac_1
+		parent_version = 0
+		design_team = mio:FRA_aeb_organization
+		modules = {
+			fixed_ship_deck_slot_1 = ship_escort_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+		}
+	}
+
+	set_technology = { mdg_hidden_tech = 0 }
 }
 
 if = {
@@ -111,5 +129,72 @@ if = {
 	load_oob = "mdg_FRA_1936_naval_mtg"
 	else = {
 		load_oob = "mdg_FRA_1936_naval_legacy"
+	}
+}
+
+1939.1.1 = {
+	IF = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+
+		create_equipment_variant = {
+			name = "Elan Class"
+			type = mdg_ship_hull_corvette_2
+			name_group = FRA_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			design_team = mio:FRA_fcm_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = ship_mine_sweeper_1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Shamois Class"
+			type = mdg_ship_hull_corvette_2
+			name_group = FRA_CORVETTE_HISTORICAL
+			parent_version = 0
+			obsolete = no
+			design_team = mio:FRA_fcm_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = ship_mine_sweeper_1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "VTB-8 Class"
+			type = mdg_ship_hull_boat_2
+			parent_version = 0
+			obsolete = no
+			design_team = mio:FRA_cmn_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_guns_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+	}
+
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_FRA_1939_naval_mtg"
+		else = {
+			load_oob = "mdg_FRA_1939_naval_legacy"
+		}
 	}
 }

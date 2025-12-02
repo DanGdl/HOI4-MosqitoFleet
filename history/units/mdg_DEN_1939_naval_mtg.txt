@@ -1,0 +1,50 @@
+﻿units = {
+	fleet = {
+		name = "National Fleet"
+		naval_base = 3325 # Odense
+		task_force = {
+			name = "Patrol group"
+			location = 2408
+
+			ship = { name = "HDMS R-1 Hvalrossen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Hvalrossen Class" } } }
+
+			ship = { name = "HDMS R-2 Makrelen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS R-3 Nordkaperen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS R-4 Havkatten" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS R-5 Saelen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS S-1 Springeren" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS S-2 Storen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS S-3 Soridderen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS S-4 Sohunden" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS S-5 Havornen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+			ship = { name = "HDMS S-6 Narhvalen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Springeren Class" } } }
+
+			ship = { name = "HDMS T-1 Dragen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
+			ship = { name = "HDMS T-2 Hvalen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
+			ship = { name = "HDMS T-3 Laxen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
+			ship = { name = "HDMS T-4 Glenten" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
+			ship = { name = "HDMS T-5 Hogen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
+			ship = { name = "HDMS T-5 Omen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
+
+			ship = { name = "HDMS Beskytteren" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Hejmdal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Hvidbjornen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Ingolf" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Islands Falk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+
+			ship = { name = "HDMS Henrik Gerner" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Laaland" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Lougen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Lindormen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Lossen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Kvintus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Sixtus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+
+			# 1939
+			ship = { name = "HDMS Freja" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Soloven" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = DEN version_name = "Soloven Class" } } }
+			ship = { name = "HDMS Sobjomen" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = DEN version_name = "Soloven Class" } } }
+			ship = { name = "HDMS Soulven" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = DEN version_name = "Soloven Class" } } }
+		}
+	}
+}

@@ -205,3 +205,37 @@ if = {
 		load_oob = "mdg_ENG_1936_naval_legacy"
 	}
 }
+
+1939.1.1 = {
+	IF = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+
+		create_equipment_variant = {
+			name = "Egret Class"
+			type = mdg_ship_hull_frigate_2
+			name_group = ENG_FRIGATE_HISTORICAL
+			parent_version = 0
+			obsolete = yes
+			design_team = mio:ENG_yarrow_shipbuilders_organization
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = mdg_ship_light_cannon_1
+				rear_1_custom_slot = ship_depth_charge_2
+			}
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		load_oob = "mdg_ENG_1939_naval_mtg"
+		else = {
+			load_oob = "mdg_ENG_1939_naval_legacy"
+		}
+	}
+}

@@ -12,7 +12,6 @@
 			ship = { name = "HMS Foxglove" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Lupin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Rosemary" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
-			ship = { name = "HMS Cornwallis" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 
 			ship = { name = "HMS Brigewater" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Sandwich" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
@@ -41,7 +40,8 @@
 
 			ship = { name = "HMS Yarra" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Swan" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
-			ship = { name = "HMS Bittern" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Enchantress" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Stork" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ENG } } }
 
 			ship = { name = "HMS РС-74" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Pathan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ENG } } }
@@ -81,6 +81,7 @@
 			ship = { name = "HMS Niger" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Salamander" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 
+			ship = { name = "HMS Kingfisher" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 			ship = { name = "HMS Puffin" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
 
 			ship = { name = "HMS Medusa" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ENG } } }
