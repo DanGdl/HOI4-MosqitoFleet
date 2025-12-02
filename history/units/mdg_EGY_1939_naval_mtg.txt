@@ -5,16 +5,6 @@
 		task_force = {
 			name = "1st Task Force"
 			location = 6011
-			ship = { name = "ERN El Amir Farouq" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "El Amir Farouq" } } }
-			ship = { name = "ERN Solium" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "Obretia" } } }
-
-			ship = { name = "ERN El Zafir" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "Nile cannon boat" } } }
-			ship = { name = "ERN El Fateh" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "Nile cannon boat" } } }
-			ship = { name = "ERN Hafir" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = EGY version_name = "Nile cannon boat" } } }
-
-			ship = { name = "ERN Darfeel" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }
-			ship = { name = "ERN Noor El Bahr" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }
-			ship = { name = "ERN Al Sarea" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }
 
 			# 1939
 			ship = { name = "ERN Raqib" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }

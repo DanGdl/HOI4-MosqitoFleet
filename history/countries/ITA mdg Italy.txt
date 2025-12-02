@@ -225,7 +225,7 @@
 	}
 
 	create_equipment_variant = {
-		name = "Type Giuseppe Miraglia"
+		name = "Giuseppe Miraglia Class"
 		type = mdg_ship_hull_mac_1
 		parent_version = 0
 		design_team = mio:ITA_navalmeccanica_organization
@@ -326,8 +326,5 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_ITA_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_ITA_1939_naval_legacy"
-		}
 	}
 }

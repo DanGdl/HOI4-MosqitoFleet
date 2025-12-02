@@ -234,7 +234,6 @@ if = {
 		create_equipment_variant = {
 			name = "Ch-51 Class"
 			type = mdg_ship_hull_boat_2
-			name_group = JAP_BOAT_HISTORICAL
 			parent_version = 0
 			obsolete = yes
 			design_team = mio:generic_small_ship_organization
@@ -251,8 +250,5 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_JAP_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_JAP_1939_naval_legacy"
-		}
 	}
 }

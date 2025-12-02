@@ -6,10 +6,6 @@
 			name = "1st Task Force"
 			location = 8534
 
-			ship = { name = "ICGV Sudin" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
-			ship = { name = "ICGV Aegir" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
-			ship = { name = "ICGV Thor" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
-
 			# 1939
 			ship = { name = "ICGV Esja" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
 			ship = { name = "ICGV Odinn" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }

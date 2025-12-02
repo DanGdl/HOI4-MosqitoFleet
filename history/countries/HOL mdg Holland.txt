@@ -98,9 +98,7 @@ if = {
 
 1939.1.1 = {
 	IF = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
+		limit = { has_dlc = "Man the Guns" }
 
 		create_equipment_variant = {
 			name = "Van Kinsbergen Class"
@@ -175,8 +173,5 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_HOL_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_HOL_1939_naval_legacy"
-		}
 	}
 }

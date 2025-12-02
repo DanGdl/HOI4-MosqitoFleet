@@ -107,7 +107,6 @@ if = {
 		create_equipment_variant = {
 			name = "Soloven Class"
 			type = mdg_ship_hull_frigate_1
-			name_group = DEN_FRIGATE_HISTORICAL
 			parent_version = 0
 			design_team = mio:DEN_burmeister_wain_organization
 			modules = {
@@ -125,8 +124,5 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_DEN_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_DEN_1939_naval_legacy"
-		}
 	}
 }

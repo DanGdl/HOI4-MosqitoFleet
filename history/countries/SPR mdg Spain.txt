@@ -120,7 +120,7 @@ if = {
 			type = mdg_ship_hull_boat_1
 			parent_version = 0
 			obsolete = no
-			design_team = mio:GER_lurssen_organization
+			design_team = mio:SPR_euskalduna_organization
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_guns_1
 				fixed_ship_radar_slot = empty
@@ -135,7 +135,7 @@ if = {
 			type = mdg_ship_hull_boat_1
 			parent_version = 0
 			obsolete = no
-			design_team = mio:ITA_baglietto_organization
+			design_team = mio:SPR_euskalduna_organization
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_guns_2
 				fixed_ship_radar_slot = ship_sonar_1
@@ -150,7 +150,7 @@ if = {
 			type = mdg_ship_hull_boat_1
 			parent_version = 0
 			obsolete = yes
-			design_team = mio:SOV_tupolev_design_bureau_organization_boat
+			design_team = mio:SPR_euskalduna_organization
 			modules = {
 				fixed_ship_battery_slot = empty
 				fixed_ship_radar_slot = empty
@@ -163,8 +163,5 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_SPR_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_SPR_1939_naval_legacy"
-		}
 	}
 }

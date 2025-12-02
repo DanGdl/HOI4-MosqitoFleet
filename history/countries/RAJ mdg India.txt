@@ -61,7 +61,7 @@ if = {
 		name_group = ENG_CORVETTE_HISTORICAL
 		parent_version = 0
 		obsolete = yes
-		design_team = mio:ENG_yarrow_shipbuilders_organization
+		design_team = mio:RAJ_mazagon_dock_limited_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -87,20 +87,5 @@ if = {
 	load_oob = "mdg_RAJ_1936_naval_mtg"
 	else = {
 		load_oob = "mdg_RAJ_1936_naval_legacy"
-	}
-}
-
-1939.1.1 = {
-	#IF = {
-	#	limit = {
-	#		has_dlc = "Man the Guns"
-	#	}
-	#}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_RAJ_1936_naval_mtg"
-		else = {
-			load_oob = "mdg_RAJ_1936_naval_legacy"
-		}
 	}
 }

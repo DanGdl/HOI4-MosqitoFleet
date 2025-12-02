@@ -181,12 +181,8 @@ if = {
 	#		has_dlc = "Man the Guns"
 	#	}
 	#}
-
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_USA_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_USA_1939_naval_legacy"
-		}
 	}
 }

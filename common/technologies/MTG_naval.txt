@@ -18,11 +18,6 @@ technologies = {
 
 			ship_airplane_launcher_1
 			ship_seaplane_tender_1
-
-			#mdg_ship_light_guns_1
-			#mdg_ship_light_cannon_1
-
-			#ship_escort_deck_space
 		}
 		research_cost = 1
 		start_year = 1922

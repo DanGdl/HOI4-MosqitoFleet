@@ -99,7 +99,6 @@ if = {
 			design_team = mio:SWE_gotaverken_organization
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_2
-				fixed_ship_anti_air_slot = empty
 				fixed_ship_fire_control_system_slot = empty
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = light_ship_engine_2
@@ -115,8 +114,6 @@ if = {
 			design_team = mio:SWE_gotaverken_organization
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_guns_2
-				fixed_ship_anti_air_slot = empty
-				fixed_ship_fire_control_system_slot = empty
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = light_ship_engine_2
 				fixed_ship_torpedo_slot = ship_torpedo_2
@@ -127,8 +124,5 @@ if = {
 	if = {
 		limit = { has_dlc = "Man the Guns" }
 		load_oob = "mdg_SWE_1939_naval_mtg"
-		else = {
-			load_oob = "mdg_SWE_1939_naval_legacy"
-		}
 	}
 }
