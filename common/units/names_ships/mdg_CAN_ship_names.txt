@@ -6,7 +6,7 @@ CAN_AUXILIARY_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = "HMCS "
 	fallback_name = "AUX %s"
@@ -22,7 +22,7 @@ CAN_FRIGATE_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = "HMCS "
 	fallback_name = "FF %s"
@@ -43,7 +43,7 @@ CAN_CORVETTE_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMCS "
 	fallback_name = "LCS %s"
@@ -69,7 +69,7 @@ CAN_MS_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMCS "
 	fallback_name = "LCS %s"

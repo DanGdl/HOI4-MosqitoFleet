@@ -99,16 +99,16 @@ equipments = {
 
 		module_slots = inherit
 
-		#can_be_produced = {
-		#	OR = {
-		#		has_country_flag = mdg_flag_refit_to_mac_mtg
-		#		tag = FRA
-		#		tag = HOL
-		#		tag = ITA
-		#		tag = JAP
-		#		tag = USA
-		#	}
-		#}
+		can_be_produced = {
+			OR = {
+				has_country_flag = mdg_flag_refit_to_mac_mtg
+				tag = FRA
+				tag = HOL
+				tag = ITA
+				tag = JAP
+				tag = USA
+			}
+		}
 	}
 
 	# VANILA
@@ -134,15 +134,15 @@ equipments = {
 			front_1_custom_slot = ship_anti_air_1
 		}
 
-		#can_be_produced = {
-		#	OR = {
-		#		has_country_flag = mdg_flag_refit_to_mac_vanila
-		#		tag = FRA
-		#		tag = HOL
-		#		tag = ITA
-		#		tag = JAP
-		#		tag = USA
-		#	}
-		#}
+		can_be_produced = {
+			OR = {
+				has_country_flag = mdg_flag_refit_to_mac_vanila
+				tag = FRA
+				tag = HOL
+				tag = ITA
+				tag = JAP
+				tag = USA
+			}
+		}
 	}
 }

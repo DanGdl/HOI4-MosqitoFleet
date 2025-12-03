@@ -4,7 +4,7 @@
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HrMs"
 	fallback_name = "K %s"
@@ -24,7 +24,7 @@ HOL_FRIGATE_HISTORICAL = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = "HrMs"
 	fallback_name = "FF %s"

@@ -4,7 +4,7 @@
 	for_countries = { NZL }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = "HMNZS "
 	fallback_name = "AUX %s"
@@ -20,7 +20,7 @@ NZL_CORVETTE_HISTORICAL = {
 	for_countries = { NZL }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMNZS "
 	fallback_name = "LCS %s"

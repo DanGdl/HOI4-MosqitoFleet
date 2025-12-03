@@ -6,7 +6,7 @@ RAJ_CORVETTE_HISTORICAL = {
 	for_countries = { RAJ }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMIS "
 	fallback_name = "LCS %s"
@@ -23,7 +23,7 @@ RAJ_MS_HISTORICAL = {
 
 	type = ship
 	prefix = "HMIS "
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	fallback_name = "LCS %s"
 

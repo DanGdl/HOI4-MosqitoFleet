@@ -6,25 +6,45 @@ technologies = {
 			mdg_ship_hull_mac_1
 			mdg_ship_hull_auxiliary_1
 
+			ship_hull_carrier_1
+
 			mdg_ship_hull_frigate_1
 			mdg_ship_hull_corvette_1
+			mdg_ship_hull_corvette_2
 			mdg_ship_hull_boat_1
 			mdg_ship_hull_monitor_1
 		}
+		
 		enable_equipment_modules = {
 			carrier_ship_engine_1
+			carrier_ship_engine_2
 			cruiser_ship_engine_1
 			light_ship_engine_1
 
 			ship_airplane_launcher_1
 			ship_seaplane_tender_1
+
+			ship_anti_air_1
+			ship_light_battery_1
+			ship_medium_battery_1
+			ship_light_medium_battery_1
+			ship_heavy_battery_1
+			ship_secondaries_1
+			mdg_ship_light_guns_1
+			mdg_ship_light_cannon_1
+
+			ship_depth_charge_1
+			ship_mine_layer_1
+			ship_mine_sweeper_1
+
+			ship_escort_deck_space
+			ship_deck_space
 		}
 		research_cost = 1
 		start_year = 1922
+
 		# set at gamestart
-		allow = {
-			always = no
-		}
+		allow = { always = no }
 	}
 
 #   ###  ##  #  # ###      ## #  # ### ###   ##

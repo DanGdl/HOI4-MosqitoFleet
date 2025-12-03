@@ -5,7 +5,7 @@ JAP_AUXILIARY_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = ""
 	fallback_name = "AUX %s"
@@ -21,7 +21,7 @@ JAP_MAC_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { mdg_ship_hull_mac }
+	ship_types = { mdg_ship_hull_mac mdg_mac }
 
 	prefix = ""
 	fallback_name = "AVG %s"
@@ -51,7 +51,7 @@ JAP_CORVETTE_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = ""
 	fallback_name = "P %s"
@@ -70,7 +70,7 @@ JAP_FRIGATE_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = ""
 	fallback_name = "CD %s"

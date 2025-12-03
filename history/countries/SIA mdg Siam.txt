@@ -79,6 +79,7 @@ if = {
 1939.1.1 = {
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
+		set_technology = { mdg_hidden_tech = 1 }
 
 		create_equipment_variant = {
 			name = "Sri Ayuthia Class"
@@ -133,18 +134,6 @@ if = {
 		}
 
 		create_equipment_variant = {
-			name = "Vilun Class"				
-			type = ship_hull_submarine_1
-			name_group = SIA_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_2
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = ship_torpedo_sub_1
-			}
-		}
-
-		create_equipment_variant = {
 			name = "Тасhin Class"
 			type = mdg_ship_hull_corvette_1
 			parent_version = 0
@@ -159,6 +148,8 @@ if = {
 				rear_1_custom_slot = ship_seaplane_tender_1
 			}
 		}
+
+		set_technology = { mdg_hidden_tech = 0 }
 	}
 	if = {
 		limit = { has_dlc = "Man the Guns" }

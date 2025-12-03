@@ -4,7 +4,7 @@
 	for_countries = { GER }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = ""
 	fallback_name = "HSK %s"
@@ -13,10 +13,6 @@
 		"Orion" "Atlantis" "Widder" "Thor" "Pinguin" "Stier" "Komet" "Kormoran" "Michel" "Coronel" "Hansa"
 	}
 }
-
-
-
-
 
 GER_AUXILIARY_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_AUXILIARIES
@@ -32,7 +28,7 @@ GER_AUXILIARY_IMPERIAL = {
 	}
 	prefix = "SMS "
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = ""
 	fallback_name = "HSK %s"
@@ -78,7 +74,7 @@ GER_BOAT_IMPERIAL = {
 	}
 	prefix = "SMS "
 	type = ship
-	ship_types = { mdg_ship_hull_boat }
+	ship_types = { mdg_ship_hull_boat mdg_boat }
 
 	prefix = ""
 	fallback_name = "S %s"
@@ -122,7 +118,7 @@ GER_CORVETTE_IMPERIAL = {
 	}
 	prefix = "SMS "
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = ""
 	fallback_name = "PA %s"
@@ -145,7 +141,7 @@ GER_FRIGATE_IMPERIAL = {
 	}
 	prefix = "SMS "
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	fallback_name = "MZ %d"
 
