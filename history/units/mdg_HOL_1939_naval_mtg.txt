@@ -10,7 +10,7 @@
 			ship = { name = "HrMs Van Kinsbergen" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = HOL version_name = "Van Kinsbergen Class" } } }
 
 			ship = { name = "HrMs Jan van Brakel" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "Jan van Brakel Class" } } }
-			ship = { name = "HrMs Willem van der Zaan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "Jan van Brake Class" } } }
+			ship = { name = "HrMs Willem van der Zaan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "Jan van Brakel Class" } } }
 
 			ship = { name = "HrMs Jan van Amstrel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
 			ship = { name = "HrMs Pieter de Bitter" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }

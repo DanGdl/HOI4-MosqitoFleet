@@ -7,10 +7,10 @@
 			location = 2875
 
 			# 1939
-			ship = { name = "USS AV-4 Curtiss" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
-			ship = { name = "USS AV-5 Albemarle" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
-			ship = { name = "USS AV-8 Tangier" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
-			ship = { name = "USS AV-9 Pocomoke" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			#ship = { name = "USS AV-4 Curtiss" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			#ship = { name = "USS AV-5 Albemarle" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			#ship = { name = "USS AV-8 Tangier" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			#ship = { name = "USS AV-9 Pocomoke" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
 
 			ship = { name = "USS WPG-31 Bibb" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Treasury Class" } } }
 			ship = { name = "USS WPG-34 Alexander Hamilton" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Treasury Class" } } }

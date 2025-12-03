@@ -187,7 +187,7 @@
 			ship = { name = "Vorovskiy" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Vorovskiy Class" } } }
 
 			ship = { name = "Dzerjinskiy" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Dzerjinskiy Class" } } }
-			ship = { name = "Kirov" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Dzerjinskiy Class" } } }
+			ship = { name = "Kirov " definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Dzerjinskiy Class" } } }
 
 			ship = { name = "Astrakhan" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Okean Class" } } }
 			ship = { name = "Teodor Nette" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Okean Class" } } }

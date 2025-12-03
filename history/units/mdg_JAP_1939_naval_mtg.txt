@@ -7,16 +7,16 @@
 			location = 2684
 
 			# 1939
-			ship = { name = "Akitsu Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
-			ship = { name = "Mizuho" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
-			ship = { name = "Nisshin" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
-			ship = { name = "Akitsushima" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Akitsu Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Mizuho" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Nisshin" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Akitsushima" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
 
-			ship = { name = "Kamikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
-			ship = { name = "Kimikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
-			ship = { name = "Kiyokawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
-			ship = { name = "Kumikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
-			ship = { name = "Chiyoda Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kamikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kimikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kiyokawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kumikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Chiyoda Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
 
 			ship = { name = "Shimushu" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = JAP version_name = "Shimushu Class" } } }
 
@@ -33,7 +33,7 @@
 
 			ship = { name = "Ch-51" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
 			ship = { name = "Ch-52" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
-			ship = { name = "Ch-52" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
+			ship = { name = "Ch-53" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
 		}
 	}
 }

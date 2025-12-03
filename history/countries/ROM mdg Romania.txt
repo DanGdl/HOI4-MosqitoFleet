@@ -61,9 +61,8 @@ if = {
 
 1939.1.1 = {
 	IF = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
+		limit = { has_dlc = "Man the Guns" }
+
 		create_equipment_variant = {
 			name = "Amiral Murgescu Class"
 			type = mdg_ship_hull_frigate_1

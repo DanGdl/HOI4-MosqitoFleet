@@ -1,7 +1,5 @@
 ﻿if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
+	limit = { has_dlc = "Man the Guns" }
 
 	set_technology = { mdg_hidden_tech = 1 }
 
@@ -175,9 +173,7 @@ if = {
 
 1939.1.1 = {
 	IF = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
+		limit = { has_dlc = "Man the Guns" }
 
 		create_equipment_variant = {
 			name = "Akitsu Маru Class"
