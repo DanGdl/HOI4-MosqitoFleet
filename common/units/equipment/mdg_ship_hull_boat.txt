@@ -72,7 +72,7 @@ equipments = {
 		naval_speed = 32
 		reliability = 0.80
 
-		naval_range = 500
+		naval_range = 600
 
 		max_strength = 15
 
@@ -125,7 +125,7 @@ equipments = {
 
 		naval_speed = 33
 		reliability = 0.85
-		naval_range = 600
+		naval_range = 800
 		max_strength = 20
 		build_cost_ic = 250
 		manpower = 150
@@ -168,7 +168,7 @@ equipments = {
 		}
 
 		reliability = 0.85
-		naval_range = 700
+		naval_range = 1000
 		max_strength = 25
 		build_cost_ic = 300
 		manpower = 200
@@ -198,7 +198,7 @@ equipments = {
 		}
 
 		reliability = 0.9
-		naval_range = 800
+		naval_range = 1200
 		max_strength = 30
 		build_cost_ic = 340
 		manpower = 200
