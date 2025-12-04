@@ -592,7 +592,7 @@ jeune_ecole = {
 				torpedo_attack = 0.1
 			}
 			equipment_bonus = {
-				torpedo_cruiser = {
+				ship_hull_torpedo_cruiser = {
 					torpedo_attack = 0.1
 					lg_attack = 0.1
 					instant = yes
@@ -699,19 +699,19 @@ patrol_boats = {
 		}	
 		lie_in_wait = {		
 			destroyer = {
-				surface_visibility = -0.2
+				surface_visibility = -0.05
 			}
 			mdg_frigate = {
-				surface_visibility = -0.2
+				surface_visibility = -0.05
 			}
 			mdg_corvette = {
-				surface_visibility = -0.2
+				surface_visibility = -0.05
 			}
 			mdg_boat = {
-				surface_visibility = -0.2
+				surface_visibility = -0.05
 			}
 			mdg_hydrofoil = {
-				surface_visibility = -0.2
+				surface_visibility = -0.05
 			}
 		}
 		fast_sortie_turnaround = {
