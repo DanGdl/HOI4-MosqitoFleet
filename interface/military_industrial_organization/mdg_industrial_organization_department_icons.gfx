@@ -75,7 +75,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_capital_ship.dds"
 	}
 
-	
+
 	spriteType = {
 		name = "GFX_military_industrial_organization_mdg_mac"
 		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_carrier.dds"

@@ -109,6 +109,7 @@ equipments = {
 		module_slots = inherit
 		priority = 2300
 
+		naval_dominance_factor = 90
 		can_be_produced = {
 			OR = {
 				has_country_flag = mdg_flag_refit_to_mine_layer_mtg
