@@ -21,7 +21,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { ship_fire_control_system }
+				allowed_module_categories = { ship_fire_control_system ship_radar }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -109,6 +109,7 @@ equipments = {
 		module_slots = inherit
 		priority = 2300
 
+		naval_dominance_factor = 90
 		can_be_produced = {
 			OR = {
 				has_country_flag = mdg_flag_refit_to_mine_layer_mtg

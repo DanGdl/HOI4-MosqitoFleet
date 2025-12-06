@@ -80,7 +80,7 @@ equipments = {
 
 		fuel_consumption = 3
 
-		build_cost_ic = 380
+		build_cost_ic = 80
 		resources = {
 			steel = 1
 		}
@@ -101,5 +101,6 @@ equipments = {
 		priority = 2300
 
 		module_slots = inherit
+		naval_dominance_factor = 30
 	}
 }

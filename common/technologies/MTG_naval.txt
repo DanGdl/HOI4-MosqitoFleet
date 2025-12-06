@@ -3032,7 +3032,6 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			ship_torpedo_sub_1
 			sub_ship_engine_1
 		}
 
@@ -3087,7 +3086,6 @@ technologies = {
 			ship_hull_submarine_2
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_2
 			sub_ship_engine_2
 		}
 		on_research_complete = {
@@ -3148,7 +3146,6 @@ technologies = {
 			ship_hull_submarine_3
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_3
 			sub_ship_engine_3
 		}
 
@@ -3204,7 +3201,6 @@ technologies = {
 			ship_hull_submarine_4
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_4
 			sub_ship_engine_4
 		}
 
@@ -3251,7 +3247,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			sub_ship_engine_5
-			ship_torpedo_sub_5
 		}
 
 		path = {

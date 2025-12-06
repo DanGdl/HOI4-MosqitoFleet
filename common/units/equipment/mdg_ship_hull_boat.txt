@@ -39,10 +39,10 @@ equipments = {
 			}
 		}
 
-		#module_count_limit = {
-		#	category = ship_radar
-		#	count < 2
-		#}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -69,7 +69,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 1.5
 		surface_visibility = 7
-		naval_speed = 32
+		naval_speed = 33
 		reliability = 0.80
 
 		naval_range = 600
@@ -78,7 +78,7 @@ equipments = {
 
 		fuel_consumption = -1
 
-		build_cost_ic = 220
+		build_cost_ic = 40
 		resources = {
 			steel = 1
 		}
@@ -99,6 +99,7 @@ equipments = {
 		priority = 2300
 
 		module_slots = inherit
+		naval_dominance_factor = 19
 	}
 
 	mdg_ship_hull_boat_2 = {
@@ -123,11 +124,11 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 
-		naval_speed = 33
+		naval_speed = 34
 		reliability = 0.85
 		naval_range = 800
 		max_strength = 20
-		build_cost_ic = 250
+		build_cost_ic = 50
 		manpower = 150
 		naval_dominance_factor = 25
 
@@ -170,7 +171,7 @@ equipments = {
 		reliability = 0.85
 		naval_range = 1000
 		max_strength = 25
-		build_cost_ic = 300
+		build_cost_ic = 55
 		manpower = 200
 		naval_dominance_factor = 30
 
@@ -200,7 +201,7 @@ equipments = {
 		reliability = 0.9
 		naval_range = 1200
 		max_strength = 30
-		build_cost_ic = 340
+		build_cost_ic = 60
 		manpower = 200
 		naval_dominance_factor = 35
 

@@ -21,11 +21,11 @@ mdg_corvettes = {
 		}
 		modifier = {
 			factor = 3
-			num_of_naval_factories < 8
+			num_of_naval_factories < 10
 		}
 		modifier = {
 			factor = 2
-			num_of_naval_factories > 7
+			num_of_naval_factories > 9
 		}
 	}
 
@@ -185,7 +185,7 @@ mdg_escort_corvette = {
 			}
 		}
 
-		role_icon_index = 2
+		role_icon_index = 3
 
 		target_variant = {
 			match_value = 1000.0
@@ -244,7 +244,7 @@ mdg_escort_corvette = {
 				has_tech = cavity_magnatron
 			}
 		}
-		role_icon_index = 2
+		role_icon_index = 3
 
 		target_variant = {
 			match_value = 2000.0

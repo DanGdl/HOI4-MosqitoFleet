@@ -49,18 +49,18 @@ equipments = {
 			}
 		}
 
-		#module_count_limit = {
-		#	category = ship_radar
-		#	count < 2
-		#}
-		#module_count_limit = {
-		#	category = ship_sonar
-		#	count < 2
-		#}
-		#module_count_limit = {
-		#	category = ship_airplane_launcher
-		#	count < 2
-		#}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_seaplane_tender
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -88,7 +88,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 2.5
 		surface_visibility = 9
-		naval_speed = 28
+		naval_speed = 16
 		reliability = 0.80
 
 		naval_range = 1000
@@ -97,7 +97,7 @@ equipments = {
 
 		fuel_consumption = -1.5
 
-		build_cost_ic = 280
+		build_cost_ic = 80
 		resources = {
 			steel = 1
 		}
@@ -118,6 +118,7 @@ equipments = {
 		priority = 2200
 
 		module_slots = inherit
+		naval_dominance_factor = 22
 	}
 
 	mdg_ship_hull_corvette_2 = {
@@ -144,10 +145,11 @@ equipments = {
 		}
 
 		sub_detection = 3
+		naval_speed = 17
 		reliability = 0.85
 		naval_range = 1300
 		max_strength = 25
-		build_cost_ic = 370
+		build_cost_ic = 100
 		manpower = 200
 		naval_dominance_factor = 27
 
@@ -193,10 +195,11 @@ equipments = {
 
 		sub_detection = 3.5
 		fuel_consumption = -2
+		naval_speed = 18
 		reliability = 0.85
 		naval_range = 1500
 		max_strength = 35
-		build_cost_ic = 420
+		build_cost_ic = 110
 		manpower = 250
 		naval_dominance_factor = 33
 
@@ -228,10 +231,11 @@ equipments = {
 
 		sub_detection = 4
 		fuel_consumption = -2
+		naval_speed = 19
 		reliability = 0.9
 		naval_range = 1900
 		max_strength = 40
-		build_cost_ic = 460
+		build_cost_ic = 120
 		manpower = 300
 		naval_dominance_factor = 37
 
