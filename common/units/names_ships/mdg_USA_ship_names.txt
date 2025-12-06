@@ -5,7 +5,7 @@ USA_AUXILIARY_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = "USS "
 	fallback_name = "XAP %s"
@@ -21,7 +21,7 @@ USA_CORVETTE_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "USS "
 	fallback_name = "PG %s"
@@ -41,7 +41,7 @@ USA_MS_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "USS "
 	fallback_name = "AM %s"
@@ -78,7 +78,7 @@ USA_FRIGATE_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = "USS "
 	fallback_name = "FF %s"

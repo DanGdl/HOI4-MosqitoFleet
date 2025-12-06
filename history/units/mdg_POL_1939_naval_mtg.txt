@@ -1,0 +1,14 @@
+﻿units = {
+	fleet = {
+		name = "Polska Flota Niszczycieli"
+		naval_base = 362 # Danzig
+		task_force = {
+			name = "Polska Flota Niszczycieli"
+			location = 2309
+
+			# 1939
+			ship = { name = "ORP Czapla" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+			ship = { name = "ORP Zuraw" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = POL version_name = "Jaskolka Class" } } }
+		}
+	}
+}

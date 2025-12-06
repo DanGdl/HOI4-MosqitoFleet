@@ -1,0 +1,16 @@
+﻿units = {
+	fleet = {
+		name = "National Fleet"
+		naval_base = 3325 # Odense
+		task_force = {
+			name = "Patrol group"
+			location = 2408
+
+			# 1939
+			ship = { name = "HDMS Freja" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Soloven" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = DEN version_name = "Soloven Class" } } }
+			ship = { name = "HDMS Sobjomen" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = DEN version_name = "Soloven Class" } } }
+			ship = { name = "HDMS Soulven" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = DEN version_name = "Soloven Class" } } }
+		}
+	}
+}

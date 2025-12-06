@@ -1,0 +1,13 @@
+﻿units = {
+	fleet = {
+		name = "Flota Romania de Mare"
+		naval_base = 657 # Constanta
+		task_force = {
+			name = "Flota Romania de Mare"
+			location = 7906
+
+			# 1939
+			ship = { name = "NMS Amiral Murgescu" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ROM version_name = "Amiral Murgescu Class" } } }
+		}
+	}
+}

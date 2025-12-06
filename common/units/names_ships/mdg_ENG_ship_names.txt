@@ -5,7 +5,7 @@ ENG_AUXILIARY_HISTORICAL = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = "HMS "
 	fallback_name = "AMC %s"
@@ -21,16 +21,18 @@ ENG_AUXILIARY_HISTORICAL = {
 ENG_MAC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MACS
 
-	for_countries = { JAP }
+	for_countries = { ENG }
 
 	type = ship
-	ship_types = { mdg_ship_hull_mac }
+	ship_types = { mdg_ship_hull_mac mdg_mac }
 
 	prefix = "HMS "
 	fallback_name = "AVG %s"
 
 	unique = {
-		"Audacity" "Attacker" "Ruler" "Escort"
+		"Audacity" "Attacker" "Ruler" "Escort" "Empire MacAlpine" "Empire MacKendrick" "Empire MacAndrew" "Empire MacDermott"
+			"Empire MacRae" "Empire MacCallun" "Ancylus" "Avacus" "Amastra" "Alexia" "Rapana" "Miralda" "Adula" "Macoma" "Gadila"
+			"Empire МасКау" "Empire МасСоll" "Empire MacMahon" "Empire MacCabe"
 	}
 }
 
@@ -40,7 +42,7 @@ ENG_MS_HISTORICAL = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMS "
 	fallback_name = "LCS %s"
@@ -69,7 +71,7 @@ ENG_ML_HISTORICAL = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMS "
 	fallback_name = "LCS %s"
@@ -87,7 +89,7 @@ ENG_CORVETTE_HISTORICAL = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMS "
 	fallback_name = "LCS %s"
@@ -144,7 +146,7 @@ ENG_FRIGATE_HISTORICAL = {
 	for_countries = { ENG }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = "HMS "
 	fallback_name = "FF %s"

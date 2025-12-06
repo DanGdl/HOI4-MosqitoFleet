@@ -1,0 +1,30 @@
+﻿units = {
+	fleet = {
+		name = "Koninklijke Marine"
+		naval_base = 3314  # Amsterdam
+		task_force = {
+			name = "Koninklijke Vloot"
+			location = 2752
+
+			# 1939
+			ship = { name = "HrMs Van Kinsbergen" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = HOL version_name = "Van Kinsbergen Class" } } }
+
+			ship = { name = "HrMs Jan van Brakel" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "Jan van Brakel Class" } } }
+			ship = { name = "HrMs Willem van der Zaan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "Jan van Brakel Class" } } }
+
+			ship = { name = "HrMs Jan van Amstrel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
+			ship = { name = "HrMs Pieter de Bitter" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
+			ship = { name = "HrMs Eland Dubois" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
+			ship = { name = "HrMs Willem van Ewijck" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
+			ship = { name = "HrMs Jan van Gekler" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
+			ship = { name = "HrMs Abraham van der Hulst" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = HOL version_name = "Jan van Amstrel Class" } } }
+
+			ship = { name = "HrMs Alor" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "ABC Class" } } }
+			ship = { name = "HrMs Aroe" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "ABC Class" } } }
+			ship = { name = "HrMs Bantam" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "ABC Class" } } }
+			ship = { name = "HrMs Bogor" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "ABC Class" } } }
+			ship = { name = "HrMs Ceram" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "ABC Class" } } }
+			ship = { name = "HrMs Cheribon" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = HOL version_name = "ABC Class" } } }
+		}
+	}
+}

@@ -4,7 +4,7 @@
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = ""
 	fallback_name = "AUX %s"
@@ -18,7 +18,7 @@ CHI_BOAT_HISTORICAL = {
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { mdg_ship_hull_boat }
+	ship_types = { mdg_ship_hull_boat mdg_boat }
 
 	prefix = ""
 	fallback_name = "Kuai %s"
@@ -47,7 +47,7 @@ CHI_CORVETTE_HISTORICAL = {
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = ""
 	fallback_name = "LCS %s"
@@ -64,7 +64,7 @@ CHI_FRIGATE_HISTORICAL = {
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = ""
 	fallback_name = "FF %s"

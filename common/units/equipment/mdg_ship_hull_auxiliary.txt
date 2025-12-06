@@ -108,7 +108,6 @@ equipments = {
 		archetype = mdg_ship_hull_auxiliary
 		module_slots = inherit
 		priority = 2300
-		active = yes
 
 		can_be_produced = {
 			OR = {

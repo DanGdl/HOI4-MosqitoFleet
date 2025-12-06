@@ -24,7 +24,6 @@
 			ship = { name = "HrMs Nautilus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs Prince van Oranje" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs GouHOL Leeuw" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
-			ship = { name = "HrMs Jan van Вrакеl" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs Bangkalan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs Soemenep" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs Rigel" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
@@ -38,6 +37,9 @@
 			ship = { name = "HrMs B" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs C" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs D" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
+
+			#ship = { name = "HrMs Gadila" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = HOL version_name = "MAC Class" } } }
+			#ship = { name = "HrMs Macoma" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = HOL version_name = "MAC Class" } } }
 		}
 	}
 }

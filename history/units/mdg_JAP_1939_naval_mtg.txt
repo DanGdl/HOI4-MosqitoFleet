@@ -1,0 +1,39 @@
+﻿units = {
+	fleet = {
+		name = "Support Fleet"
+		naval_base = 1136  #Kansai
+		task_force = {
+			name = "Support Task Force"
+			location = 2684
+
+			# 1939
+			#ship = { name = "Akitsu Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Mizuho" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Nisshin" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+			#ship = { name = "Akitsushima" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Akitsu Маru Class" } } }
+
+			#ship = { name = "Kamikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kimikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kiyokawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Kumikawa Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+			#ship = { name = "Chiyoda Maru" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = JAP version_name = "Refited Aircraft Transport" } } }
+
+			ship = { name = "Shimushu" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = JAP version_name = "Shimushu Class" } } }
+
+			ship = { name = "W-7" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = JAP version_name = "W-7 Class" } } }
+			ship = { name = "W-8" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = JAP version_name = "W-7 Class" } } }
+			ship = { name = "W-9" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = JAP version_name = "W-7 Class" } } }
+			ship = { name = "W-10" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = JAP version_name = "W-7 Class" } } }
+			ship = { name = "W-11" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = JAP version_name = "W-7 Class" } } }
+			ship = { name = "W-12" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = JAP version_name = "W-7 Class" } } }
+
+			ship = { name = "Hatsutaka" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
+			ship = { name = "Aotaka" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
+			ship = { name = "Wakataka" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = JAP version_name = "Tokiwa Class" } } }
+
+			ship = { name = "Ch-51" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
+			ship = { name = "Ch-52" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
+			ship = { name = "Ch-53" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = JAP version_name = "Ch-51 Class" } } }
+		}
+	}
+}

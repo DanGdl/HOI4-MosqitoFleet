@@ -11,6 +11,8 @@
 
 			ship = { name = "HMIS Lawrence" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Escort ship" } } }
 			ship = { name = "HMIS Clive" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Escort ship" } } }
+
+			ship = { name = "HMIS Cornwallis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = RAJ version_name = "Aubretia Class" } } }
 		}
 	}
 }

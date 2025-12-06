@@ -9,7 +9,6 @@
 			ship = { name = "ARA Rosario" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ARG version_name = "Rosario Class" } } }
 			ship = { name = "ARA Parana" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ARG version_name = "Rosario Class" } } }
 
-
 			ship = { name = "ARA Bathurst" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bathurst Class" } } }
 			ship = { name = "ARA Jorge" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bathurst Class" } } }
 			ship = { name = "ARA King" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bathurst Class" } } }
@@ -19,12 +18,7 @@
 
 			ship = { name = "ARA Bouchard" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
 			ship = { name = "ARA Drummond" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Fournier" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
 			ship = { name = "ARA Granville" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Parker" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Robinson" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Seaver" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Spiro" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
 		}
 	}
 }

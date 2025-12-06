@@ -4,7 +4,7 @@
 	for_countries = { DOM }
 
 	type = ship
-	ship_types = { mdg_ship_hull_boat }
+	ship_types = { mdg_ship_hull_boat mdg_boat }
 
 	prefix = ""
 	fallback_name = "GC $s"

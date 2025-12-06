@@ -6,7 +6,7 @@ AST_AUXILIARY_HISTORICAL = {
 	for_countries = { AST }
 
 	type = ship
-	ship_types = { mdg_ship_hull_auxiliary }
+	ship_types = { mdg_ship_hull_auxiliary mdg_auxiliary }
 
 	prefix = "HMAS "
 	fallback_name = "AUX %s"
@@ -22,7 +22,7 @@ AST_MS_HISTORICAL = {
 	for_countries = { AST }
 
 	type = ship
-	ship_types = { mdg_ship_hull_corvette }
+	ship_types = { mdg_ship_hull_corvette mdg_corvette }
 
 	prefix = "HMAS "
 	fallback_name = "LCS %s"
@@ -41,7 +41,7 @@ AST_FRIGATE_HISTORICAL = {
 	for_countries = { AST }
 
 	type = ship
-	ship_types = { mdg_ship_hull_frigate }
+	ship_types = { mdg_ship_hull_frigate mdg_frigate }
 
 	prefix = "HMAS "
 	fallback_name = "FF %s"
