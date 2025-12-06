@@ -55,7 +55,11 @@
 	mdg_mac = {
 		prefix = "HMS"
 		generic = { "AVG" }
-		unique = { "Audacity" "Attacker" "Ruler" "Escort" }
+		unique = {
+			"Audacity" "Attacker" "Ruler" "Escort" "Empire MacAlpine" "Empire MacKendrick" "Empire MacAndrew" "Empire MacDermott"
+			"Empire MacRae" "Empire MacCallun" "Ancylus" "Avacus" "Amastra" "Alexia" "Rapana" "Miralda" "Adula" "Macoma" "Gadila"
+			"Empire МасКау" "Empire МасСоll" "Empire MacMahon" "Empire MacCabe"
+		}
 	}
 
 

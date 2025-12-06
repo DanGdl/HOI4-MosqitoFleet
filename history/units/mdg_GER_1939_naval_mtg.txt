@@ -1,0 +1,58 @@
+﻿units = {
+	fleet = {
+		name = "Support Fleet"
+		naval_base = 321 # Rostok
+		task_force = {
+			name = "Supprort Group"
+			location = 2358
+
+			# 1939
+			ship = { name = "M-13" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
+			ship = { name = "M-14" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
+			ship = { name = "M-15" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
+
+			ship = { name = "R-17" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-18" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-19" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-20" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-21" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-22" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-23" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-24" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-25" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-26" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-27" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-28" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-29" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-30" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-31" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-32" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-33" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-34" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-35" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-36" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-37" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-38" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-39" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+			ship = { name = "R-40" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "R" } } }
+
+			ship = { name = "MR-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-3" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-4" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+
+			ship = { name = "S-14" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-15" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-16" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-17" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-18" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-19" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-20" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-21" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-22" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-23" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-24" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-25" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+		}
+	}
+}

@@ -11,9 +11,6 @@
 			ship = { name = "ARC Carabobo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = COL } } }
 			ship = { name = "ARC Junin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = COL } } }
 			ship = { name = "ARC Pichincha" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = COL } } }
-
-			ship = { name = "ARC Ayacucho" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = COL } } }
-			ship = { name = "ARC Boyаса" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = COL } } }
 		}
 	}
 }

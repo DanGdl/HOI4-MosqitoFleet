@@ -15,8 +15,8 @@
 			ship = { name = "ARE Calvo Sotelo" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
 
 			ship = { name = "ARE Jupiter" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
-			ship = { name = "ARE Vulcano" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
-			ship = { name = "ARE Marte" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "ARE Vulcano " definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "ARE Marte " definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
 			ship = { name = "ARE Neptuno" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = SPR } } }
 
 			ship = { name = "ARE Uad Martin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = SPR } } }

@@ -825,26 +825,97 @@ mdg_generic_refit_civilian_ships_category = {
 					}
 					set_country_flag = mdg_flag_refit_to_mac_mtg
 
-					create_equipment_variant = {
-						name = "Merchant Aircraft Carrier"
-						type = mdg_ship_hull_mac_1
-						name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_escort_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_1
-							fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+					if = {
+						limit = {
+							NOT = {
+								OR = {
+									tag = FRA
+									tag = HOL
+									tag = ITA
+									tag = JAP
+									tag = USA
+								}
+							}
 						}
-						obsolete = no
+						create_equipment_variant = {
+							name = "Merchant Aircraft Carrier"
+							type = mdg_ship_hull_mac_1
+							name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+							parent_version = 0
+							modules = {
+								fixed_ship_deck_slot_1 = ship_escort_deck_space
+								fixed_ship_anti_air_slot = ship_anti_air_1
+								fixed_ship_radar_slot = empty
+								fixed_ship_engine_slot = carrier_ship_engine_1
+								fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+							}
+							obsolete = no
+						}
 					}
 				}
-				create_ship = {
-					type = mdg_ship_hull_mac_1
-					equipment_variant = "Merchant Aircraft Carrier"
-					creator = ROOT
-					name = "AVG"
+				if = {
+					limit = { tag = FRA }
+					create_ship = {
+						type = mdg_ship_hull_mac_1
+						equipment_variant = "Commandant Teste Class"
+						creator = ROOT
+						name = "AVG"
+					}
+				}
+				if = {
+					limit = { tag = HOL }
+					create_ship = {
+						type = mdg_ship_hull_mac_1
+						equipment_variant = "MAC Class"
+						creator = ROOT
+						name = "AVG"
+					}
+				}
+				if = {
+					limit = { tag = ITA }
+					create_ship = {
+						type = mdg_ship_hull_mac_1
+						equipment_variant = "Giuseppe Miraglia Class"
+						creator = ROOT
+						name = "AVG"
+					}
+				}
+				if = {
+					limit = { tag = JAP }
+					create_ship = {
+						type = mdg_ship_hull_mac_1
+						equipment_variant = "Refited Aircraft Transport"
+						creator = ROOT
+						name = "AVG"
+					}
+				}
+				if = {
+					limit = { tag = USA }
+					create_ship = {
+						type = mdg_ship_hull_mac_1
+						equipment_variant = "Seaplane floating base"
+						creator = ROOT
+						name = "AVG"
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							OR = {
+								tag = FRA
+								tag = HOL
+								tag = ITA
+								tag = JAP
+								tag = USA
+							}
+						}
+					}
+					create_ship = {
+						type = mdg_ship_hull_mac_1
+						equipment_variant = "Merchant Aircraft Carrier"
+						creator = ROOT
+						name = "AVG"
+					}
 				}
 			}
 			else = {

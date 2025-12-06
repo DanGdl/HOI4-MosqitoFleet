@@ -1,0 +1,55 @@
+﻿units = {
+	fleet = {
+		name = "Support Fleet"
+		naval_base = 9458 # Portsmouth
+		task_force = {
+			name = "Supprort Group"
+			location = 13006
+
+			# 1939
+			ship = { name = "HMS Parramatta" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
+			ship = { name = "HMS Warrego" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
+			ship = { name = "HMS Bittern" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ENG version_name = "Yarra/Bittern Class" } } }
+
+			ship = { name = "HMS Auckland" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = ENG version_name = "Egret Class" } } }
+			ship = { name = "HMS Egret" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = ENG version_name = "Egret Class" } } }
+			ship = { name = "HMS Pelican" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = ENG version_name = "Egret Class" } } }
+			ship = { name = "HMS Black Swan" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = ENG version_name = "Egret Class" } } }
+			ship = { name = "HMS Flamingo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = ENG version_name = "Egret Class" } } }
+
+			ship = { name = "HMS Mallard" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Kittiwake" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Sheldrake" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Widgeon" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Guillemot" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Pintail" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+			ship = { name = "HMS Shearwater" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ENG version_name = "Kingfisher Class" } } }
+
+			ship = { name = "HMS MTB-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-6" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-7" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-8" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-9" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-12" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-14" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-15" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-16" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-17" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-18" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+			ship = { name = "HMS MTB-19" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat" } } }
+
+			ship = { name = "HMS MA/SB-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat ASW" } } }
+			ship = { name = "HMS MA/SB-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat ASW" } } }
+			ship = { name = "HMS MA/SB-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat ASW" } } }
+			ship = { name = "HMS MA/SB-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat ASW" } } }
+			ship = { name = "HMS MA/SB-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = ENG version_name = "60-feet boat ASW" } } }
+
+		}
+	}
+}

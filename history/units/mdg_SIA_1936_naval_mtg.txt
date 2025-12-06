@@ -6,6 +6,9 @@
 			name = "Royal Siamese Navy"
 			location = 4002
 
+			ship = { name = "HTMS Ratanakosindra" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+			ship = { name = "HTMS Sukothai" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+
 			ship = { name = "HTMS Chow Phraya" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Chow Phraya Class" } } }
 			ship = { name = "HTMS Bangrachan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SIA version_name = "Bangrachan Class" } } }
 

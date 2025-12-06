@@ -1,0 +1,13 @@
+﻿units = {
+	fleet = {
+		name = "National Navy"
+		naval_base = 4076 # Alexandria
+		task_force = {
+			name = "1st Task Force"
+			location = 6011
+
+			# 1939
+			ship = { name = "ERN Raqib" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }
+		}
+	}
+}

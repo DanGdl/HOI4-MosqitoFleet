@@ -96,7 +96,6 @@ equipments = {
 		archetype = mdg_ship_hull_monitor
 		module_slots = inherit
 		priority = 2300
-		active = yes
 	}
 
 	mdg_ship_hull_monitor_2 = {
@@ -106,7 +105,6 @@ equipments = {
 		parent = mdg_ship_hull_monitor_1
 		module_slots = inherit
 		priority = 2300
-		active = yes
 
 		max_strength = 350
 		build_cost_ic = 1800

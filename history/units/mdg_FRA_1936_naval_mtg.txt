@@ -45,8 +45,6 @@
 			ship = { name = "Rigault de Genouilly" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
 			ship = { name = "Amiral Charner" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
 			ship = { name = "D'Ibervllle" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
-			ship = { name = "Ville d'Ys" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
-			ship = { name = "Beautemps-Beaupre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
 			ship = { name = "La Perouse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
 
 			ship = { name = "Ch-25" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = FRA version_name = "Ch-25 Class" } } }
@@ -68,6 +66,8 @@
 			ship = { name = "Castor" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
 			ship = { name = "Pollux" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
 			ship = { name = "La Gladiateur" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FRA version_name = "Castor Class" } } }
+
+			#ship = { name = "Commandant Teste" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = FRA version_name = "Commandant Teste Class" } } }
 		}
 	}
 }

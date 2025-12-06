@@ -6,7 +6,7 @@
 			name = "Polska Flota Niszczycieli"
 			location = 2309
 
-			ship = { name = "ORP Gryf" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL } } }
+			ship = { name = "ORP Gryf " definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL } } }
 
 			ship = { name = "ORP Jaskolka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL } } }
 			ship = { name = "ORP Czajka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = POL } } }

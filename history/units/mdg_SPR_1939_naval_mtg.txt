@@ -1,0 +1,26 @@
+﻿units = {
+	fleet = {
+		name = "Base Naval Cádiz"
+		naval_base = 1048  # Cádiz
+		task_force = {
+			name = "Escuadrón de Cádiz"
+			location = 5382  # near Cádiz
+
+			# 1939
+			ship = { name = "ARE Eolo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SPR version_name = "Eolo Class" } } }
+			ship = { name = "ARE Triton" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SPR version_name = "Eolo Class" } } }
+
+			ship = { name = "ARE LT-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "S-1 Class" } } }
+			ship = { name = "ARE LT-12" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "S-1 Class" } } }
+			ship = { name = "ARE LT-13" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "S-1 Class" } } }
+			ship = { name = "ARE LT-14" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "S-1 Class" } } }
+
+			ship = { name = "ARE LT-17" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "ARE LT-18" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "ARE LT-19" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "Baglietto (SVAN) 14-tons" } } }
+
+			ship = { name = "ARE LT-15" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "G-5 Class" } } }
+			ship = { name = "ARE LT-16" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SPR version_name = "G-5 Class" } } }
+		}
+	}
+}

@@ -1,0 +1,16 @@
+﻿units = {
+	fleet = {
+		name = "Vasilikó Polemikó Naftikó"
+		naval_base = 4109 # Athens
+		task_force = {
+			name = "Vasilikós Stólos"
+			location = 6801 # near Athens
+
+			# 1939
+			ship = { name = "RHS Aliakmon" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Axios" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Nestos" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+			ship = { name = "RHS Strymon" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = GRE version_name = "Aliakmon Class" } } }
+		}
+	}
+}
