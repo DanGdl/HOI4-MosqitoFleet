@@ -21,11 +21,11 @@ mdg_corvettes = {
 		}
 		modifier = {
 			factor = 3
-			num_of_naval_factories < 8
+			num_of_naval_factories < 10
 		}
 		modifier = {
 			factor = 2
-			num_of_naval_factories > 7
+			num_of_naval_factories > 9
 		}
 	}
 

@@ -176,14 +176,14 @@ equipments = {
 			}
 		}
 
-		#module_count_limit = {
-		#	category = ship_anechoic_tile
-		#	count < 2
-		#}
-		#module_count_limit = {
-		#	category = ship_sub_snorkel
-		#	count < 2
-		#}
+		module_count_limit = {
+			category = ship_anechoic_tile
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_sub_snorkel
+			count < 2
+		}
 		default_modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_3
@@ -240,13 +240,6 @@ equipments = {
 		model = mdg_midget_submarine
 		#alias = mdg_midget_submarine
 		priority = 1500
-
-		upgrades = {
-			ship_reliability_upgrade
-			sub_engine_upgrade
-			sub_stealth_upgrade
-			sub_torpedo_upgrade
-		}
 
 		interface_category = interface_category_other_ships
 

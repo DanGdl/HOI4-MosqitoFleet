@@ -1,31 +1,31 @@
 ﻿if = {
 	limit = { has_dlc = "Man the Guns" }
 
-	create_equipment_variant = {
-		name = "Ratanakosindra Class"
-		type = ship_hull_cruiser_coastal_defense_ship
-		parent_version = 0
-		design_team = empty
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_cruiser_1
-			front_1_custom_slot = empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_medium_battery_1
-		}
-	}
+	#create_equipment_variant = {
+	#	name = "Ratanakosindra Class"
+	#	type = ship_hull_cruiser_coastal_defense_ship
+	#	parent_version = 0
+	#	design_team = empty
+	#	modules = {
+	#		fixed_ship_battery_slot = ship_heavy_battery_1
+	#		fixed_ship_anti_air_slot = empty
+	#		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+	#		fixed_ship_radar_slot = empty
+	#		fixed_ship_engine_slot = cruiser_ship_engine_1
+	#		fixed_ship_secondaries_slot = ship_secondaries_1
+	#		fixed_ship_armor_slot = ship_armor_cruiser_1
+	#		front_1_custom_slot = empty
+	#		mid_1_custom_slot = empty
+	#		mid_2_custom_slot = empty
+	#		rear_1_custom_slot = ship_medium_battery_1
+	#	}
+	#}
 	
 	create_equipment_variant = {
 		name = "Chow Phraya Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
-		design_team = mio:generic_escort_ship_organization
+		design_team = mio:SIA_bangkok_dock_co_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -41,7 +41,7 @@
 		name = "Bangrachan Class"
 		type = mdg_ship_hull_corvette_1
 		parent_version = 0
-		design_team = mio:generic_escort_ship_organization
+		design_team = mio:SIA_bangkok_dock_co_organization
 		modules = {
 			fixed_ship_battery_slot = mdg_ship_light_cannon_1
 			fixed_ship_anti_air_slot = empty
@@ -57,7 +57,7 @@
 		name = "Thornycroft Class"
 		type = mdg_ship_hull_boat_1
 		parent_version = 0
-		design_team = mio:generic_small_ship_organization
+		design_team = mio:SIA_bangkok_dock_co_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -85,7 +85,7 @@ if = {
 			name = "Sri Ayuthia Class"
 			type = ship_hull_cruiser_coastal_defense_ship
 			parent_version = 0
-			design_team = empty
+			design_team = mio:SIA_bangkok_dock_co_organization
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
 				fixed_ship_anti_air_slot = ship_anti_air_1
@@ -105,7 +105,7 @@ if = {
 			name = "Trad Class"
 			type = mdg_ship_hull_corvette_2
 			parent_version = 0
-			design_team = mio:generic_small_ship_organization
+			design_team = mio:SIA_bangkok_dock_co_organization
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_2
 				fixed_ship_anti_air_slot = ship_anti_air_1
@@ -121,7 +121,7 @@ if = {
 			name = "Kantang Class"
 			type = mdg_ship_hull_corvette_1
 			parent_version = 0
-			design_team = mio:generic_small_ship_organization
+			design_team = mio:SIA_bangkok_dock_co_organization
 			modules = {
 				fixed_ship_battery_slot = empty
 				fixed_ship_anti_air_slot = empty
@@ -137,7 +137,7 @@ if = {
 			name = "Тасhin Class"
 			type = mdg_ship_hull_corvette_1
 			parent_version = 0
-			design_team = mio:generic_small_ship_organization
+			design_team = mio:SIA_bangkok_dock_co_organization
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_1
 				fixed_ship_anti_air_slot = ship_anti_air_1
@@ -145,7 +145,7 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_torpedo_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_seaplane_tender_1
+				rear_1_custom_slot = ship_airplane_launcher_1
 			}
 		}
 

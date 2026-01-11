@@ -98,6 +98,7 @@ equipments = {
 		priority = 2300
 
 		module_slots = inherit
+		naval_dominance_factor = 175
 
 		can_be_produced = {
 			OR = {

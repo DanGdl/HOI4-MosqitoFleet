@@ -46,6 +46,7 @@ equipments = {
 					ship_anti_air
 					ship_depth_charge
 					ship_airplane_launcher
+					ship_seaplane_tender
 				}
 			}
 			mid_1_custom_slot = {
@@ -62,18 +63,22 @@ equipments = {
 			}
 		}
 
-		#module_count_limit = {
-		#	category = ship_radar
-		#	count < 2
-		#}
-		#module_count_limit = {
-		#	category = ship_sonar
-		#	count < 2
-		#}
-		#module_count_limit = {
-		#	category = ship_airplane_launcher
-		#	count < 2
-		#}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_seaplane_tender
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_airplane_launcher
+			count < 2
+		}
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -103,7 +108,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 2.5
 		surface_visibility = 10
-		naval_speed = 30
+		naval_speed = 18
 		reliability = 0.80
 
 		naval_range = 2000
@@ -112,7 +117,7 @@ equipments = {
 
 		fuel_consumption = -1
 
-		build_cost_ic = 330
+		build_cost_ic = 134
 		resources = {
 			steel = 1
 		}
@@ -132,6 +137,7 @@ equipments = {
 		priority = 2100
 
 		module_slots = inherit
+		naval_dominance_factor = 22
 	}
 
 	mdg_ship_hull_frigate_2 = {
@@ -160,10 +166,11 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 		sub_detection = 3
+		naval_speed = 19
 		reliability = 0.85
 		naval_range = 2300
 		max_strength = 35
-		build_cost_ic = 430
+		build_cost_ic = 167
 		manpower = 300
 		naval_dominance_factor = 27
 
@@ -208,11 +215,11 @@ equipments = {
 		}
 
 		sub_detection = 3.5
-		surface_visibility = 10
+		naval_speed = 19
 		reliability = 0.85
 		naval_range = 2500
 		max_strength = 45
-		build_cost_ic = 530
+		build_cost_ic = 184
 		manpower = 350
 		naval_dominance_factor = 33
 
@@ -244,10 +251,11 @@ equipments = {
 		}
 
 		sub_detection = 4
+		naval_speed = 20
 		reliability = 0.9
 		naval_range = 3000
 		max_strength = 50
-		build_cost_ic = 530
+		build_cost_ic = 200
 		manpower = 400
 		naval_dominance_factor = 37
 
@@ -279,11 +287,12 @@ equipments = {
 		}
 
 		sub_detection = 5
+		naval_speed = 20
 		surface_detection = 25
 		reliability = 0.9
 		naval_range = 3200
 		max_strength = 50
-		build_cost_ic = 600
+		build_cost_ic = 250
 		manpower = 425
 		naval_dominance_factor = 37
 		resources = {
