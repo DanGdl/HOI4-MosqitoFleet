@@ -972,7 +972,6 @@ script_enum_equipment_bonus_type = {
 	mdg_ship_hull_monitor_2
 
 	mdg_mac
-	mdg_mac_1
 	mdg_ship_hull_mac
 	mdg_ship_hull_mac_1
 }

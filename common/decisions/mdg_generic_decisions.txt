@@ -784,31 +784,6 @@ mdg_generic_refit_civilian_ships_category = {
 					}
 				}
 			}
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mac_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mac_vanila
-
-					create_equipment_variant = {
-						name = "Merchant Aircraft Carrier"
-						type = mdg_mac_1
-						upgrades = {
-							ship_deckspace_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_reliability_upgrade = 0
-						}
-						obsolete = no
-					}
-				}
-				create_ship = {
-					type = mdg_mac_1
-					equipment_variant = "Merchant Aircraft Carrier"
-					creator = ROOT
-					name = "AVG"
-				}
-			}
 		}
 	}
 }
