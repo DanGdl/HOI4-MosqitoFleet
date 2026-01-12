@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "Alguns o consideram uma relíquia das guerras navais de eras passadas. Outros o consideram como o navio mais impressionante já construído. Ninguém pode negar que os vestígios da corrida armamentista de encouraçados deram origem a alguns dos navios mais fortemente armados e blindados."
  basic_ship_hull_heavy_desc: "Os designs da nova geração de encouraçados possibilitam que eles tenham estabilidade e alcance melhorados se mantendo dentro dos limites do tratado naval."

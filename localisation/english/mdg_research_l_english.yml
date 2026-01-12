@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "Considered by some to be a relic of a bygone era of naval warfare, by others as the most impressive ships ever built, no one can deny that these remnants of the battleship arms race constitute some of the most heavily armed and armored vessels ever built."
  basic_ship_hull_heavy_desc: "With improved stability and range, a new generation of battleships improve upon previous designs while remaining within limits stipulated by naval treaties."

@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "Пережиток прошлых эпох для одних, величайшие корабли в мире для других — как ни крути, это самые бронированные и тяжеловооруженные корабли из когда-либо построенных, вершина гонки вооружений на море."
  basic_ship_hull_heavy_desc: "Новое поколение линкоров остается в рамках ограничений и отличается улучшенными стабильностью и дальностью."

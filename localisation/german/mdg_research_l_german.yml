@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "Manche sehen in diesen Schiffen Relikte aus einer längst vergangenen Ära der Seekriegsführung. Andere halten sie für die eindrucksvollsten Schiffe, die je gebaut wurden. Nicht leugnen lässt sich jedenfalls, dass diese Überbleibsel des Schlachtschiff-Wettrüstens zu den am schwersten bewaffneten und gepanzerten Schiffen der Menschheitsgeschichte zählen."
  basic_ship_hull_heavy_desc: "Eine neue Generation von Schlachtschiffen weist eine bessere Stabilität und eine höhere Reichweite auf als ihre Vorgänger ... bleibt aber innerhalb der Grenzen, die in den Flottenverträgen festgelegt sind."

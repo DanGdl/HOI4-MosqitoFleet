@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "Jedni uważają je za relikt przeszłości, a inni za najwspanialsze okręty, jakie pływały po morzach. Wszyscy są jednak zgodni, że dalszy rozwój pancerników zaowocuje stworzeniem najsilniej uzbrojonych i opancerzonych okrętów wszech czasów."
  basic_ship_hull_heavy_desc: "Dzięki lepszej stabilności i większemu zasięgowi nowe pancerniki to krok naprzód w stosunku do starszych jednostek, a przy tym nadal są zgodne z ograniczeniami wynikającymi z traktatów."

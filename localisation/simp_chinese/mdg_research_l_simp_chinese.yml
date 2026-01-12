@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "虽然有些人认为战列舰是属于过去的海战的古董，但是另一些人认为它们是人类有史以来最令人印象深刻的舰船。没有人会否认这些战列舰竞赛的遗物是人们建造过的火力最强大、装甲最坚实的军舰。"
  basic_ship_hull_heavy_desc: "在不打破海军条约限制的前提下，新一代的战列舰与之前的设计相比拥有更好的稳定性以及更远的航程。"

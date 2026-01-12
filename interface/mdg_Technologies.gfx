@@ -1,4 +1,10 @@
 spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_improved_seaplane_tender_medium"
+		texturefile = "gfx/interface/technologies/improved_seaplane_tender.dds"
+	}
+
 	### NAVAL TECH ###
 	# Merchant Air Carriers
 	SpriteType = {

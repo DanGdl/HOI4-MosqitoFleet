@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "어떤 사람은 전함을 구시대의 유물이라고 폄하하고, 어떤 사람은 해전 역사상 가장 웅장한 함선이라고 칭송합니다. 그러나 군비 경쟁의 결과인 이 전함들이 지금까지 존재했던 그 어떤 함선보다 더 두꺼운 장갑과 더 강력한 무기를 갖췄다는 건 아무도 부정할 수 없는 사실입니다."
  basic_ship_hull_heavy_desc: "차세대 전함은 안정성과 항속거리를 개선함으로써 해군군축조약이 규정한 제한 내에서 기존 설계보다 뛰어난 성능을 갖출 수 있었습니다."

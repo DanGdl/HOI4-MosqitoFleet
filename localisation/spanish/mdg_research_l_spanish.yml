@@ -586,6 +586,7 @@
  basic_ship_hull_light: "$ship_hull_light_2$"
  improved_ship_hull_light: "$ship_hull_light_3$"
  advanced_ship_hull_light: "$ship_hull_light_4$"
+ modern_ship_hull_light: "$ship_hull_light_5$"
 
  early_ship_hull_heavy_desc: "Algunos creen que son una reliquia del pasado de la guerra naval, otros creen que son los barcos más impresionantes que se han construido nunca, pero nadie puede negar que los remanentes de la carrera armamentística de los acorazados han dado como resultado unos de los buques mejor armados y blindados que se han fabricado."
  basic_ship_hull_heavy_desc: "Una nueva generación de acorazados, con estabilidad y alcance mejorados, supera los diseños anteriores sin alejarse de los límites estipulados por los tratados navales."
