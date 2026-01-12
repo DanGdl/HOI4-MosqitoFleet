@@ -1,4 +1,4 @@
-version="1.7.2"
+version="1.7.21"
 picture="thumbnail.png"
 tags={
 	"Technologies"
