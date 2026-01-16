@@ -134,7 +134,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon
-			convert_cost_ic = 150
+			convert_cost_ic = 100
 		}
 
 		can_convert_from = {

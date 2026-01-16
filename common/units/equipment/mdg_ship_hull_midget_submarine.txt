@@ -285,7 +285,7 @@ equipments = {
 		lg_attack = 0
 		anti_air_attack = 0
 
-		surface_detection = 50
+		surface_detection = 25
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 13
