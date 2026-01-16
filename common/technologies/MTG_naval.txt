@@ -258,7 +258,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-					category = dd_tech
+						category = dd_tech
 				}
 			}
 			modifier = {
@@ -326,7 +326,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = dd_tech
+						category = dd_tech
 				}
 			}
 			modifier = {
@@ -390,7 +390,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = dd_tech
+						category = dd_tech
 				}
 			}
 			modifier = {
@@ -470,7 +470,6 @@ technologies = {
 #### # ##  #   #       #  #  # ###  # # # #### ###   #  # ## ##
 #  # #  #  #   #        # #  # #  # #   # #  # #  #  #  #  # #
 #  # #  #  #  ###     ##   ##  ###  #   # #  # #  # ### #  # ###
-
 
 	basic_depth_charges = {
 
@@ -919,6 +918,13 @@ technologies = {
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+
+			mdg_ff_tech
+			mdg_lcs_tech
+			mdg_pt_tech
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}	
@@ -959,6 +965,13 @@ technologies = {
 			ship_modules_tech
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+
+			mdg_ff_tech
+			mdg_lcs_tech
+			mdg_pt_tech
+			mio_cat_tech_all_mdg_frigate_and_modules
+			mio_cat_tech_all_mdg_corvette_and_modules
+			mio_cat_tech_all_mdg_boat_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -968,7 +981,6 @@ technologies = {
 #    ###  #  #  #   #  ##  ###   #
 #  # #  # #  #  #    # #   #  #   #
  ##  #  #  ##  ### ##  ### #  # ##
-
 
 	early_ship_hull_cruiser = {
 
@@ -1032,7 +1044,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cl_tech
+						category = cl_tech
 				}
 			}
 		}
@@ -1094,7 +1106,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cl_tech
+						category = cl_tech
 				}
 			}
 		}
@@ -1154,7 +1166,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cl_tech
+						category = cl_tech
 				}
 			}
 		}
@@ -1212,7 +1224,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cl_tech
+						category = cl_tech
 				}
 			}
 		}
@@ -1262,7 +1274,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    				category = cl_tech
+					category = cl_tech
 				}
 			}
 		}
@@ -1343,6 +1355,7 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
+
 	basic_cruiser_armor_scheme = {
 
 		enable_equipment_modules = {
@@ -1403,13 +1416,11 @@ technologies = {
 		special_project_specialization = { specialization_naval }
 	}
 
-
 #  # ###  ##  #   # #   #      ## #  # ### ###   ##
 #  # #   #  # #   #  # #      #   #  #  #  #  # #
 #### ##  ####  # #    #        #  ####  #  ###   #
 #  # #   #  #  # #    #         # #  #  #  #      #
 #  # ### #  #   #     #       ##  #  # ### #    ##
-
 
 	early_ship_hull_heavy = {
 		show_equipment_icon = yes
@@ -1471,7 +1482,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = bb_tech
+						category = bb_tech
 				}
 			}
 			modifier = {
@@ -1548,7 +1559,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = bb_tech
+						category = bb_tech
 				}
 			}
 			modifier = {
@@ -1654,7 +1665,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = bb_tech
+						category = bb_tech
 				}
 			}
 			modifier = {
@@ -1721,7 +1732,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = bb_tech
+						category = bb_tech
 				}
 			}
 			modifier = {
@@ -1883,7 +1894,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    				category = bb_tech
+					category = bb_tech
 				}
 			}
 			modifier = {
@@ -1916,7 +1927,7 @@ technologies = {
 #  # #  # #  # #  #  #  #   #  #   #
  ##  #  # #  # #  # ### ### #  # ##
 
-early_ship_hull_carrier = {
+	early_ship_hull_carrier = {
 
 		enable_equipments = {
 			ship_hull_carrier_conversion_bb
@@ -1965,7 +1976,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cv_tech
+						category = cv_tech
 				}
 			}
 		}
@@ -2031,7 +2042,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cv_tech
+						category = cv_tech
 				}
 			}
 			modifier = {
@@ -2109,7 +2120,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cv_tech
+						category = cv_tech
 				}
 			}
 		}
@@ -2165,7 +2176,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cv_tech
+						category = cv_tech
 				}
 			}
 		}
@@ -2177,6 +2188,7 @@ early_ship_hull_carrier = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
+
 	modern_ship_hull_carrier = {
 
 		enable_equipments = {
@@ -2214,7 +2226,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = cv_tech
+						category = cv_tech
 				}
 			}
 		}
@@ -2290,7 +2302,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = ss_tech
+						category = ss_tech
 				}
 			}
 		}
@@ -2372,7 +2384,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = ss_tech
+						category = ss_tech
 				}
 			}
 		}
@@ -2396,7 +2408,6 @@ early_ship_hull_carrier = {
 			ship_torpedo_sub_3
 			sub_ship_engine_3
 		}
-
 
 		path = {
 			leads_to_tech = advanced_ship_hull_submarine
@@ -2443,7 +2454,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = ss_tech
+						category = ss_tech
 				}
 			}
 		}
@@ -2501,7 +2512,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    					category = ss_tech
+						category = ss_tech
 				}
 			}
 		}
@@ -2554,7 +2565,7 @@ early_ship_hull_carrier = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-    				category = ss_tech
+					category = ss_tech
 				}
 			}
 		}

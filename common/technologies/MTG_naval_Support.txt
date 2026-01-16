@@ -6,7 +6,6 @@ technologies = {
 	#  # #  # #   # #  # #   # #   #  #  #    #
 	#  # #  # #   # #  # #   # ### #  #  #  ##
 
-
 	basic_battery = {
 
 		research_cost = 1
@@ -100,7 +99,6 @@ technologies = {
 			mdg_ship_light_guns_2
 			mdg_ship_light_cannon_2
 		}
-
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -246,8 +244,6 @@ technologies = {
 			mdg_ship_light_cannon_3
 		}
 
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 11 }
@@ -375,7 +371,6 @@ technologies = {
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = -6 y = 19 }
@@ -410,7 +405,6 @@ technologies = {
 
 		start_year = 1936
 
-
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 			custom_effect_tooltip = secondary_battery_advice_tt
@@ -426,8 +420,6 @@ technologies = {
 			ship_light_medium_battery_2
 			ship_secondaries_2
 		}
-
-
 
 		folder = {
 			name = mtgnavalsupportfolder
@@ -526,8 +518,6 @@ technologies = {
 			ship_light_medium_battery_3
 		}
 
-
-
 		folder = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 11 }
@@ -618,7 +608,6 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
 		}
-
 
 		folder = {
 			name = mtgnavalsupportfolder

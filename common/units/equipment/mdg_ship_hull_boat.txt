@@ -233,11 +233,10 @@ equipments = {
 		max_strength = 30
 		build_cost_ic = 100
 		manpower = 210
-		naval_dominance_factor = 35
+		naval_dominance_factor = 39
 		resources = {
 			steel = 2
 		}
-
 	}
 
 
