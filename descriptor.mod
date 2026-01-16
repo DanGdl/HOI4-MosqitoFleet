@@ -1,10 +1,12 @@
-version="1.7.2"
+version="1"
 picture="thumbnail.png"
 tags={
 	"Technologies"
 	"Graphics"
 	"Military"
 }
-name="MosquitoFleet"
+dependencies={
+	"Add Technologies"
+}
+name="MosquitoFleetAddTech"
 supported_version="1.17.*"
-remote_file_id="3167195673"

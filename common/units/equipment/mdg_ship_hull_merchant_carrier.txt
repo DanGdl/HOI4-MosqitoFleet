@@ -21,7 +21,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air ship_sam }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -103,41 +103,6 @@ equipments = {
 		can_be_produced = {
 			OR = {
 				has_country_flag = mdg_flag_refit_to_mac_mtg
-				tag = FRA
-				tag = HOL
-				tag = ITA
-				tag = JAP
-				tag = USA
-			}
-		}
-	}
-
-	# VANILA
-	mdg_mac_1 = {
-		year = 1922
-
-		archetype = mdg_ship_hull_mac
-		priority = 2300
-		module_slots = inherit
-
-		upgrades = {
-			ship_deckspace_upgrade
-			ship_engine_upgrade
-			ship_reliability_upgrade
-		}
-
-		default_modules = {
-			fixed_ship_deck_slot_1 = ship_escort_deck_space
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = carrier_ship_engine_1
-			fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
-			front_1_custom_slot = ship_anti_air_1
-		}
-
-		can_be_produced = {
-			OR = {
-				has_country_flag = mdg_flag_refit_to_mac_vanila
 				tag = FRA
 				tag = HOL
 				tag = ITA

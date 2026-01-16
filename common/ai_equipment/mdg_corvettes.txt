@@ -14,7 +14,7 @@ mdg_corvettes = {
 	}
 
 	priority = {
-		factor = 2500
+		factor = 2400
 		modifier = {
 			factor = 2
 			is_major = no
@@ -32,7 +32,7 @@ mdg_corvettes = {
 	mdg_corvette_default = {
 
 		priority = {
-			factor = 250
+			factor = 400
 			modifier = {
 				factor = 10
 				is_major = no
@@ -47,253 +47,49 @@ mdg_corvettes = {
 			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
-					upgrade > current
-				}
-				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
-					upgrade > current
-				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = {
-					any_of = { ship_torpedo }
-					upgrade > current
-				}
-				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
-					upgrade > current
-				}
-			}
-		}
-
-		allowed_modules = {
-			ship_depth_charge
-			mdg_ship_light_cannon
-			mdg_ship_light_cannon_dp
-			ship_torpedo
-			ship_anti_air
-			light_ship_engine
-			ship_sonar
-			ship_fire_control_system
-			ship_radar
-			ship_seaplane_tender
-		}
-	}
-
-	mdg_corvette_2 = {
-
-		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-			modifier = {
-				add = 2
-				has_tech = basic_ship_hull_light
-			}
-		}
-
-		role_icon_index = 2
-
-		target_variant = {
-			match_value = 2500.0
-
-			type = mdg_ship_hull_corvette_2
-			modules = {
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
-					upgrade > current
-				}
-				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
-					upgrade > current
-				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = {
-					any_of = { ship_torpedo }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
-					upgrade > current
-				}
-				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
-					upgrade > current
-				}
-			}
-		}
-
-		allowed_modules = {
-			mdg_ship_light_cannon
-			mdg_ship_light_cannon_dp
-			ship_torpedo
-			ship_anti_air
-			ship_depth_charge
-			light_ship_engine
-			ship_fire_control_system
-			ship_radar
-			ship_sonar
-			ship_seaplane_tender
-		}
-	}
-
-	mdg_corvette_3 = {
-
-		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-			modifier = {
-				add = 4
-				has_tech = improved_ship_hull_light
-			}
-		}
-
-		role_icon_index = 2
-
-		target_variant = {
-			match_value = 3500.0
-
-			type = mdg_ship_hull_corvette_3
-			modules = {
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
 					any_of = { ship_radar ship_fire_control_system }
 					upgrade > current
 				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
 				fixed_ship_radar_slot = {
 					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = {
-					any_of = { ship_torpedo }
-					upgrade > current
-				}
-				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
-					upgrade > current
-				}
-				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
-					upgrade > current
-				}
-				mid_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp }
-					upgrade > current
-				}
-			}
-		}
-
-		allowed_modules = {
-			mdg_ship_light_cannon
-			mdg_ship_light_cannon_dp
-			ship_torpedo
-			ship_anti_air
-			ship_depth_charge
-			light_ship_engine
-			ship_fire_control_system
-			ship_seaplane_tender
-			ship_radar
-			ship_sonar
-		}
-	}
-
-	mdg_corvette_4 = {
-
-		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-			modifier = {
-				add = 6
-				has_tech = advanced_ship_hull_light
-			}
-		}
-
-		role_icon_index = 2
-
-		target_variant = {
-			match_value = 3500.0
-
-			type = mdg_ship_hull_corvette_4
-			modules = {
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
-					upgrade > current
-				}
-				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
 					upgrade > current
 				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
 				fixed_ship_torpedo_slot = {
 					any_of = { ship_torpedo }
 					upgrade > current
 				}
-				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
-					upgrade > current
-				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
-					upgrade > current
-				}
-				mid_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp }
-					upgrade > current
-				}
-				mid_2_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender ship_ssm ship_sam }
 					upgrade > current
 				}
 			}
 		}
 
 		allowed_modules = {
+			ship_depth_charge
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_torpedo
 			ship_anti_air
-			ship_depth_charge
 			light_ship_engine
+			ship_sonar
 			ship_fire_control_system
 			ship_radar
-			ship_sonar
 			ship_seaplane_tender
+			ship_ssm
+			ship_sam
 		}
 	}
 }
@@ -334,14 +130,14 @@ mdg_escort_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette_1
+			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = empty
@@ -370,6 +166,8 @@ mdg_escort_corvette = {
 			ship_sonar
 			ship_fire_control_system
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 
@@ -396,11 +194,11 @@ mdg_escort_corvette = {
 			type = mdg_ship_hull_corvette
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
@@ -441,6 +239,8 @@ mdg_escort_corvette = {
 			ship_fire_control_system
 			ship_seaplane_tender
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 }
@@ -493,7 +293,7 @@ mdg_naval_mine_sweeper_corvette = {
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -502,7 +302,7 @@ mdg_naval_mine_sweeper_corvette = {
 				}
 				fixed_ship_torpedo_slot = empty
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 			}
@@ -518,6 +318,8 @@ mdg_naval_mine_sweeper_corvette = {
 			ship_fire_control_system
 			light_ship_engine
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 
@@ -546,7 +348,7 @@ mdg_naval_mine_sweeper_corvette = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -555,7 +357,7 @@ mdg_naval_mine_sweeper_corvette = {
 				}
 				fixed_ship_torpedo_slot = empty
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 			}
@@ -572,6 +374,8 @@ mdg_naval_mine_sweeper_corvette = {
 			ship_fire_control_system
 			light_ship_engine
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 }
@@ -601,7 +405,7 @@ mdg_naval_mine_layer_corvette = {
 		}
 		modifier = {
 			factor = 3
-			num_of_naval_factories < 8 #not a major naval power
+			num_of_naval_factories < 8 # not a major naval power
 		}
 	}
 
@@ -624,7 +428,7 @@ mdg_naval_mine_layer_corvette = {
 					upgrade > current
 				}
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_torpedo_slot = empty
@@ -637,7 +441,7 @@ mdg_naval_mine_layer_corvette = {
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 			}
@@ -654,6 +458,8 @@ mdg_naval_mine_layer_corvette = {
 			ship_fire_control_system
 			light_ship_engine
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 
@@ -678,7 +484,7 @@ mdg_naval_mine_layer_corvette = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_ssm }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -687,7 +493,7 @@ mdg_naval_mine_layer_corvette = {
 				}
 				fixed_ship_torpedo_slot = empty
 				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
+					any_of = { ship_anti_air ship_sam }
 					upgrade > current
 				}
 			}
@@ -704,6 +510,8 @@ mdg_naval_mine_layer_corvette = {
 			ship_fire_control_system
 			light_ship_engine
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 }

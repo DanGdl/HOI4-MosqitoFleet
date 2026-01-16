@@ -23,6 +23,24 @@ spriteTypes = {
 
 
 	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_7"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_8"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_icn_8.dds"
+	}
+
+
+	spriteType = {
 		name = "GFX_EMI_mdg_ship_light_cannon_dp"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn.dds"
 	}
@@ -41,6 +59,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_cannon_dp_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_7"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_cannon_dp_8"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_secondary_battery_dp_icn_8.dds"
 	}
 
 
@@ -63,5 +97,40 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_mdg_ship_light_guns_4"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_7"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_light_guns_8"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/mdg_light_gun_7.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_EMI_mdg_ship_deck_space_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_mdg_ship_deck_space_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mdg_ship_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SMI_ship_escort_deck_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
 	}
 }

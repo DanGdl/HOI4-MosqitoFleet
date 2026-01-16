@@ -31,7 +31,7 @@ mdg_boats = {
 	mdg_boat_default = {
 
 		priority = {
-			factor = 250
+			factor = 350
 			modifier = {
 				factor = 10
 				is_major = no
@@ -43,7 +43,7 @@ mdg_boats = {
 		target_variant = {
 			match_value = 2000.0
 
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_boat
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -62,7 +62,7 @@ mdg_boats = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
+					any_of = { ship_torpedo mdg_ship_light_guns ship_ssm ship_sam }
 					upgrade > current
 				}
 			}
@@ -70,187 +70,15 @@ mdg_boats = {
 
 		allowed_modules = {
 			mdg_ship_light_guns
-			ship_depth_charge
 			light_ship_engine
-			ship_mine_layer
 			ship_torpedo
 			ship_radar
 			ship_sonar
+			ship_ssm
+			ship_sam
 		}
 	}
 
-	mdg_boat_2 = {
-
-		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-			modifier = {
-				add = 2
-				has_tech = basic_ship_hull_light
-			}
-		}
-
-		role_icon_index = 2
-
-		target_variant = {
-			match_value = 2500.0
-
-			type = mdg_ship_hull_boat_2
-			modules = {
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_guns }
-					upgrade > current
-				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = {
-					any_of = { ship_torpedo }
-					upgrade > current
-				}
-				rear_1_custom_slot = {
-					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
-					upgrade > current
-				}
-			}
-		}
-
-		allowed_modules = {
-			mdg_ship_light_guns
-			ship_depth_charge
-			light_ship_engine
-			ship_mine_layer
-			ship_torpedo
-			ship_radar
-			ship_sonar
-		}
-	}
-
-	mdg_boat_3 = {
-
-		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-			modifier = {
-				add = 4
-				has_tech = improved_ship_hull_light
-			}
-		}
-
-		role_icon_index = 2
-
-		target_variant = {
-			match_value = 3500.0
-
-			type = mdg_ship_hull_boat_3
-			modules = {
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_guns }
-					upgrade > current
-				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = {
-					any_of = { ship_torpedo }
-					upgrade > current
-				}
-				rear_1_custom_slot = {
-					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
-					upgrade > current
-				}
-				mid_1_custom_slot = {
-					any_of = { ship_mine_layer mdg_ship_light_guns ship_depth_charge }
-					upgrade > current
-				}
-			}
-		}
-
-		allowed_modules = {
-			mdg_ship_light_guns
-			ship_depth_charge
-			light_ship_engine
-			ship_mine_layer
-			ship_torpedo
-			ship_radar
-			ship_sonar
-		}
-	}
-
-	mdg_boat_4 = {
-
-		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-			modifier = {
-				add = 6
-				has_tech = advanced_ship_hull_light
-			}
-		}
-
-		role_icon_index = 2
-
-		target_variant = {
-			match_value = 3500.0
-
-			type = mdg_ship_hull_boat_4
-			modules = {
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_guns }
-					upgrade > current
-				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
-				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = {
-					any_of = { ship_torpedo }
-					upgrade > current
-				}
-				rear_1_custom_slot = {
-					any_of = { ship_torpedo ship_mine_layer mdg_ship_light_guns ship_depth_charge }
-					upgrade > current
-				}
-				mid_1_custom_slot = {
-					any_of = { ship_mine_layer mdg_ship_light_guns ship_depth_charge }
-					upgrade > current
-				}
-			}
-		}
-
-		allowed_modules = {
-			mdg_ship_light_guns
-			ship_depth_charge
-			light_ship_engine
-			ship_mine_layer
-			ship_torpedo
-			ship_radar
-			ship_sonar
-		}
-	}
 }
 
 mdg_escort_boat = {
@@ -267,7 +95,7 @@ mdg_escort_boat = {
 	}
 
 	priority = {
-		factor = 200
+		factor = 700
 		modifier = {
 			factor = 5
 			anti_submarine_strategy_required_trigger = yes
@@ -317,13 +145,15 @@ mdg_escort_boat = {
 			mdg_ship_light_guns
 			ship_sonar
 			ship_radar
+			ship_ssm
+			ship_sam
 		}
 	}
 
 	mdg_escort_boat_upgrade = {
 
 		priority = {
-			factor = 60
+			factor = 90
 			modifier = {
 				factor = 20
 				anti_submarine_strategy_required_trigger = yes
@@ -447,6 +277,8 @@ mdg_naval_mine_layer_boat = {
 			ship_torpedo
 			ship_radar
 			ship_sonar
+			ship_ssm
+			ship_sam
 		}
 	}
 }

@@ -280,7 +280,6 @@ ideas = {
 				has_doctrine = new_convoy_raiding
 				has_doctrine = small_fleet
 			}
-			visible = { has_dlc = "Man the Guns" }
 			research_bonus = {
 				ship_modules_tech = 0.20
 			}

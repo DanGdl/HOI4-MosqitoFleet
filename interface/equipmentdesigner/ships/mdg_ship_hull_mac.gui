@@ -55,6 +55,30 @@ guiTypes = {
 						position = { x=37 y=72 }
 					}
 				}
+
+				#### MODULE: SAM ####
+				containerWindowType = {
+					name = "ship_sam"
+					position = { x = 0 y = 0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_equipmentdesigner_missile_front1"
+						position = { x = 385 y = 1 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_sam@highlight"
+					position = { x = 0 y = 0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_equipmentdesigner_missile_front1@highlight"
+						position = { x = 385 y = 1 }
+					}
+				}
 			}
 
 			################# MODULE SLOT: Radar/Sonar #################

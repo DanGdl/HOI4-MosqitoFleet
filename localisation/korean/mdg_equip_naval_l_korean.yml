@@ -1,168 +1,11 @@
 ﻿l_korean:
  mdg_corvette: "코르벳"
- mdg_corvette_1: "코르벳 I"
- mdg_corvette_2: "코르벳 II"
- mdg_corvette_3: "코르벳 III"
- mdg_corvette_4: "코르벳 IV"
- mdg_corvette_1_desc: "코르벳 I 설명"
- mdg_corvette_2_desc: "코르벳 II 설명"
- mdg_corvette_3_desc: "코르벳 III 설명"
- mdg_corvette_4_desc: "코르벳 IV 설명"
-
- ENG_mdg_corvette_1: "‘P’형"
- ENG_mdg_corvette_2: "‘킹피셔’형"
- ENG_mdg_corvette_3: "‘플라워’형"
- ENG_mdg_corvette_4: "‘캐슬’형"
-
- GER_mdg_corvette_2: "‘K’형"
- GER_mdg_corvette_3: "‘KUj’형"
- GER_mdg_corvette_4: "‘MZ’형"
-
- ITA_mdg_corvette_1: "‘Bafile’형"
- ITA_mdg_corvette_2: "‘Bigfieri’형"
-
- SOV_mdg_corvette_1: "‘MO’형"
- SOV_mdg_corvette_2: "‘БMO’형"
- SOV_mdg_corvette_3: "프로젝트 122"
- SOV_mdg_corvette_4: "프로젝트 122-б"
-
- USA_mdg_corvette_1: "‘Eagle’형"
- USA_mdg_corvette_2: "‘Erie’형"
- USA_mdg_corvette_3: "‘Flower’형"
- USA_mdg_corvette_4: "‘PC’형"
-
- FRA_mdg_corvette_1: "‘Conquerante’형"
- FRA_mdg_corvette_2: "‘샤무아’형"
-
- JAP_mdg_corvette_1: "‘P’형"
- JAP_mdg_corvette_2: "‘Sh-1’형"
- JAP_mdg_corvette_3: "‘Sh-13’형"
- JAP_mdg_corvette_4: "‘Sh-51’형"
-
  mdg_hydrofoil: "수중익정"
- mdg_hydrofoil_1: "수중익정"
- mdg_hydrofoil_1_desc: "수중익정 설명"
-
  mdg_auxiliary: "보조 순양함"
- mdg_auxiliary_1: "보조 순양함"
- mdg_auxiliary_1_desc: "보조 순양함 설명"
-
  mdg_mac: "보조 항공모함"
- mdg_mac_1: "보조 항공모함"
- mdg_mac_1_desc: "보조 항공모함 설명"
-
  mdg_boat: "정"
- mdg_boat_1: "정 I"
- mdg_boat_2: "정 II"
- mdg_boat_3: "정 III"
- mdg_boat_4: "정 IV"
- mdg_boat_1_desc: "정 I 설명"
- mdg_boat_2_desc: "정 II 설명"
- mdg_boat_3_desc: "정 III 설명"
- mdg_boat_4_desc: "정 IV 설명"
-
- ENG_mdg_boat_2: "60형"
- ENG_mdg_boat_3: "70형"
- ENG_mdg_boat_4: "117형"
-
- GER_mdg_boat_1: "23형 ‘라웁포겔’"
- GER_mdg_boat_2: "1935형"
- GER_mdg_boat_3: "1940형"
- GER_mdg_boat_4: "1944형"
-
- ITA_mdg_boat_1: "‘Baglietto 6’형"
- ITA_mdg_boat_2: "‘Baglietto 1934’형"
- ITA_mdg_boat_3: "‘Baglietto 500’형"
- ITA_mdg_boat_4: "II형"
-
- SOV_mdg_boat_1: "‘Sh-4’"
- SOV_mdg_boat_2: "‘G-5’"
- SOV_mdg_boat_3: "‘D-3’"
- SOV_mdg_boat_4: "프로젝트 123 ‘콤소몰레츠’"
-
- USA_mdg_boat_1: "110형"
- USA_mdg_boat_2: "77형"
- USA_mdg_boat_3: "78형"
- USA_mdg_boat_4: "80형"
-
- FRA_mdg_boat_1: "‘С-25’"
- FRA_mdg_boat_2: "‘С-1’"
- FRA_mdg_boat_3: "‘VTB-8’"
-
- JAP_mdg_boat_3: "A형 ‘Ko-Gata’"
- JAP_mdg_boat_4: "B형 ‘Otsu-Gata’"
-
-
  mdg_frigate: "프리깃"
- mdg_frigate_1: "프리깃 I"
- mdg_frigate_2: "프리깃 II"
- mdg_frigate_3: "프리깃 III"
- mdg_frigate_4: "프리깃 IV"
- mdg_frigate_1_desc: "프리깃 I 설명"
- mdg_frigate_2_desc: "프리깃 II 설명"
- mdg_frigate_3_desc: "프리깃 III 설명"
- mdg_frigate_4_desc: "프리깃 IV 설명"
-
- ENG_mdg_frigate_2: "‘리버’형"
- ENG_mdg_frigate_3: "‘Loch’형"
- ENG_mdg_frigate_4: "‘베이’형"
-
- GER_mdg_frigate_2: "‘F’형"
- GER_mdg_frigate_3: "‘SG’형"
-
- ITA_mdg_frigate_3: "‘Are’형"
-
- SOV_mdg_frigate_1: "‘우라간’형"
- SOV_mdg_frigate_2: "‘루빈’형"
- SOV_mdg_frigate_3: "‘야스트렙’형"
-
- USA_mdg_frigate_3: "‘애쉬빌’형"
- USA_mdg_frigate_4: "‘타코마’형"
-
- FRA_mdg_frigate_1: "‘Marne’형"
- FRA_mdg_frigate_2: "‘Bougainville’형"
-
- JAP_mdg_frigate_2: "A형 ‘Shimushu’"
- JAP_mdg_frigate_3: "B형 ‘Mikura’"
- JAP_mdg_frigate_4: "‘C’형"
-
-
  mdg_midget_submarine: "초소형 잠수함"
- mdg_midget_submarine_1: "초소형 잠수함 I"
- mdg_midget_submarine_2: "초소형 잠수함 II"
- mdg_midget_submarine_1_desc: "초소형 잠수함 I 설명"
- mdg_midget_submarine_2_desc: "초소형 잠수함 II 설명"
-
- ENG_mdg_midget_submarine_1: "‘X’형"
- ENG_midget_submarine_1: "‘X’형"
- ENG_midget_submarine: "‘X’형"
- ENG_ship_hull_midget_submarine: "‘X’형"
- ENG_mdg_midget_submarine_2: "‘XE’형"
-
- GER_mdg_midget_submarine_1: "‘비버’형"
- GER_midget_submarine_1: "‘비버’형"
- GER_midget_submarine: "‘비버’형"
- GER_ship_hull_midget_submarine: "‘비버’형"
- GER_mdg_midget_submarine_2: "‘제에훈트’형"
-
- ITA_mdg_midget_submarine_1: "‘CA’형"
- ITA_midget_submarine_1: "‘CA’형"
- ITA_midget_submarine: "‘CA’형"
- ITA_ship_hull_midget_submarine: "‘CA’형"
- ITA_mdg_midget_submarine_2: "‘CB’형"
-
- JAP_mdg_midget_submarine_1: "‘A’형"
- JAP_midget_submarine_1: "‘A’형"
- JAP_midget_submarine: "‘A’형"
- JAP_ship_hull_midget_submarine: "‘A’형"
- JAP_mdg_midget_submarine_2: "‘카이류’형"
-
- SOV_mdg_midget_submarine_1: "APCC"
- SOV_midget_submarine_1: "APCC"
- SOV_midget_submarine: "APCC"
- SOV_ship_hull_midget_submarine: "APCC"
- SOV_mdg_midget_submarine_2: "‘피그메이’형"
-
  mdg_ship_hull_boat: "정"
  mdg_ship_hull_boat_1: "초기형 정"
  mdg_ship_hull_boat_1_desc: "초기형 정 설명"
@@ -172,6 +15,14 @@
  mdg_ship_hull_boat_3_desc: "개량형 정 설명"
  mdg_ship_hull_boat_4: "현대화된 정"
  mdg_ship_hull_boat_4_desc: "현대화된 정 설명"
+ mdg_ship_hull_boat_5: "1948년형 소형정"
+ mdg_ship_hull_boat_5_desc: "1948년형 고속정 설명"
+ mdg_ship_hull_boat_6: "1953년형 고속정"
+ mdg_ship_hull_boat_6_desc: "1953년형 소형정 설명"
+ mdg_ship_hull_boat_7: "1958년형 고속정"
+ mdg_ship_hull_boat_7_desc: "1958년형 고속정 설명"
+ mdg_ship_hull_boat_8: "1964년형 고속정"
+ mdg_ship_hull_boat_8_desc: "1964년형 고속정 설명"
 
  mdg_ship_hull_hydrofoil: "수중익정"
  mdg_ship_hull_hydrofoil_1: "수중익정"
@@ -192,6 +43,14 @@
  mdg_ship_hull_corvette_3_desc: "개량형 코르벳 설명"
  mdg_ship_hull_corvette_4: "현대화된 코르벳"
  mdg_ship_hull_corvette_4_desc: "현대화된 코르벳 설명"
+ mdg_ship_hull_corvette_5: "1948년형 코르벳"
+ mdg_ship_hull_corvette_5_desc: "1948년형 코르벳 설명"
+ mdg_ship_hull_corvette_6: "1953년형 코르벳"
+ mdg_ship_hull_corvette_6_desc: "1953년형 코르벳 설명"
+ mdg_ship_hull_corvette_7: "1958년형 코르벳"
+ mdg_ship_hull_corvette_7_desc: "1958년형 코르벳 설명"
+ mdg_ship_hull_corvette_8: "1964년형 코르벳"
+ mdg_ship_hull_corvette_8_desc: "1964년형 코르벳 설명"
 
  mdg_ship_hull_frigate: "프리깃"
  mdg_ship_hull_frigate_1: "초기형 프리깃"
@@ -202,6 +61,14 @@
  mdg_ship_hull_frigate_3_desc: "개량형 프리깃 설명"
  mdg_ship_hull_frigate_4: "현대화된 프리깃"
  mdg_ship_hull_frigate_4_desc: "현대화된 프리깃 설명"
+ mdg_ship_hull_frigate_5: "1948년형 프리깃"
+ mdg_ship_hull_frigate_5_desc: "1948년형 프리깃 설명"
+ mdg_ship_hull_frigate_6: "1953년형 프리깃"
+ mdg_ship_hull_frigate_6_desc: "1953년형 프리깃 설명"
+ mdg_ship_hull_frigate_7: "1958년형 프리깃"
+ mdg_ship_hull_frigate_7_desc: "1958년형 프리깃 설명"
+ mdg_ship_hull_frigate_8: "1964년형 프리깃"
+ mdg_ship_hull_frigate_8_desc: "1964년형 프리깃 설명"
 
  mdg_ship_hull_midget_submarine: "초소형 잠수함"
  mdg_ship_hull_midget_submarine_1: "기본 초소형 잠수함"
@@ -210,18 +77,6 @@
  mdg_ship_hull_midget_submarine_2_desc: "항구 기습 또는 경호송 공격에 사용되는 소형 잠수함입니다. 짧은 작전 거리와 제한된 무장은 높은 생산 속도로 보완됩니다."
 
  mdg_monitor: "모니터함"
- mdg_monitor_1: "모니터함 I"
- mdg_monitor_2: "모니터함 II"
- mdg_monitor_1_desc: "모니터함 I 설명"
- mdg_monitor_2_desc: "모니터함 II 설명"
-
- BRA_mdg_monitor_1: "‘Pernambuco’형"
- BRA_mdg_monitor_2: "‘Parnaiba’형"
- ENG_mdg_monitor_1: "‘Erebus’형"
- ENG_mdg_monitor_2: "‘Roberts’형"
- SOV_mdg_monitor_2: "‘하산’형"
- YUG_mdg_monitor_1: "‘모라바’형"
-
  mdg_ship_hull_monitor: "모니터함"
  mdg_ship_hull_monitor_1: "모니터함"
  mdg_ship_hull_monitor_1_desc: "초기형 모니터함 설명"

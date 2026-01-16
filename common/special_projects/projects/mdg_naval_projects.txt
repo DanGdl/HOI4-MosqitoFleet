@@ -16,13 +16,7 @@ sp_naval_mdg_hydrofoil = {
 	available = {
 		FROM = {
 			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
 				has_tech = basic_ship_hull_light
-			}
-			else = {
-				has_tech = basic_destroyer
 			}
 		}
 	}
@@ -54,22 +48,10 @@ sp_naval_mdg_hydrofoil = {
 		#enable_equipment_modules = {
 		#}
 		enable_equipments = {
-			limit = {
-				has_dlc = "Man the Guns"
-			}
 			mdg_ship_hull_hydrofoil_1
-		}
-		enable_equipments = {
-			limit = {
-				not = { has_dlc = "Man the Guns" }
-			}
-			mdg_hydrofoil_1
 		}
 		country_effects = {
 			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
 				add_design_template_bonus = {
 					name = sp_naval_mdg_hydrofoil_free_design
 					uses = 1
@@ -113,29 +95,13 @@ sp_naval_mdg_hydrofoil = {
 
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}
-
-							add_equipment_bonus = {
-								name = sp_mdg_hydrofoil_eq_bonus_speed
-								bonus = {
-									mdg_ship_hull_hydrofoil_1 = {
-										naval_speed = 0.1
-										fuel_consumption = 0.1
-										build_cost_ic = 0.05
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_mdg_hydrofoil_eq_bonus_speed
-								bonus = {
-									mdg_hydrofoil_1 = {
-										naval_speed = 0.1
-										fuel_consumption = 0.1
-										build_cost_ic = 0.05
-									}
+						add_equipment_bonus = {
+							name = sp_mdg_hydrofoil_eq_bonus_speed
+							bonus = {
+								mdg_ship_hull_hydrofoil_1 = {
+									naval_speed = 0.1
+									fuel_consumption = 0.1
+									build_cost_ic = 0.05
 								}
 							}
 						}
@@ -148,25 +114,11 @@ sp_naval_mdg_hydrofoil = {
 
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}
-
-							add_equipment_bonus = {
-								name = sp_mdg_hydrofoil_eq_bonus_cost
-								bonus = {
-									mdg_ship_hull_hydrofoil_1 = {
-										build_cost_ic = -0.15
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_mdg_hydrofoil_eq_bonus_cost
-								bonus = {
-									mdg_hydrofoil_1 = {
-										build_cost_ic = -0.15
-									}
+						add_equipment_bonus = {
+							name = sp_mdg_hydrofoil_eq_bonus_cost
+							bonus = {
+								mdg_ship_hull_hydrofoil_1 = {
+									build_cost_ic = -0.15
 								}
 							}
 						}
@@ -179,31 +131,14 @@ sp_naval_mdg_hydrofoil = {
 				default = yes
 				iteration_output = {
 					country_effects = {
-						if = {
-							limit = { has_dlc = "Man the Guns"}
-
-							add_equipment_bonus = {
-								name = sp_mdg_hydrofoil_eq_bonus_quality
-								bonus = {
-									mdg_ship_hull_hydrofoil_1 = {
-										reliability = 0.1
-										build_cost_ic = 0.05
-										naval_weather_penalty_factor = -0.1
-										instant = yes
-									}
-								}
-							}
-						}
-						else = {
-							add_equipment_bonus = {
-								name = sp_mdg_hydrofoil_eq_bonus_quality
-								bonus = {
-									mdg_hydrofoil_1 = {
-										reliability = 0.1
-										build_cost_ic = 0.05
-										naval_weather_penalty_factor = -0.1
-										instant = yes
-									}
+						add_equipment_bonus = {
+							name = sp_mdg_hydrofoil_eq_bonus_quality
+							bonus = {
+								mdg_ship_hull_hydrofoil_1 = {
+									reliability = 0.1
+									build_cost_ic = 0.05
+									naval_weather_penalty_factor = -0.1
+									instant = yes
 								}
 							}
 						}

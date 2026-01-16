@@ -1,166 +1,11 @@
 ﻿l_japanese:
  mdg_corvette: "コルベット"
- mdg_corvette_1: "コルベット I"
- mdg_corvette_2: "コルベット II"
- mdg_corvette_3: "コルベット III"
- mdg_corvette_4: "コルベット IV"
- mdg_corvette_1_desc: "コルベット I の説明"
- mdg_corvette_2_desc: "コルベット II の説明"
- mdg_corvette_3_desc: "コルベット III の説明"
- mdg_corvette_4_desc: "コルベット IV の説明"
-
- GER_mdg_corvette_2: "タイプ K"
- GER_mdg_corvette_3: "タイプ KUj"
- GER_mdg_corvette_4: "タイプ MZ"
-
- SOV_mdg_corvette_1: "タイプ MO"
- SOV_mdg_corvette_2: "タイプ BMO"
- SOV_mdg_corvette_3: "プロジェクト 122"
- SOV_mdg_corvette_4: "プロジェクト 122-b"
-
- ENG_mdg_corvette_1: "タイプ P"
- ENG_mdg_corvette_2: "タイプ キングフィッシャー"
- ENG_mdg_corvette_3: "タイプ フラワー"
- ENG_mdg_corvette_4: "タイプ キャッスル"
-
- ITA_mdg_corvette_1: "タイプ バフィーレ"
- ITA_mdg_corvette_2: "タイプ ビグフィエリ"
-
- USA_mdg_corvette_1: "タイプ イーグル"
- USA_mdg_corvette_2: "タイプ エリー"
- USA_mdg_corvette_3: "タイプ フラワー"
- USA_mdg_corvette_4: "タイプ PC"
-
- FRA_mdg_corvette_1: "タイプ コンケラント"
- FRA_mdg_corvette_2: "タイプ シャモア"
-
- JAP_mdg_corvette_1: "タイプ P"
- JAP_mdg_corvette_2: "タイプ Ch-1"
- JAP_mdg_corvette_3: "タイプ Ch-13"
- JAP_mdg_corvette_4: "タイプ Ch-51"
-
  mdg_hydrofoil: "水中翼船"
- mdg_hydrofoil_1: "水中翼船"
- mdg_hydrofoil_1_desc: "水中翼船 の説明"
-
  mdg_auxiliary: "補助巡洋艦"
- mdg_auxiliary_1: "補助巡洋艦"
- mdg_auxiliary_1_desc: "補助巡洋艦の説明"
-
  mdg_mac: "補助空母"
- mdg_mac_1: "補助空母"
- mdg_mac_1_desc: "補助空母の説明"
-
  mdg_boat: "小型艇"
- mdg_boat_1: "小型艇 I"
- mdg_boat_2: "小型艇 II"
- mdg_boat_3: "小型艇 III"
- mdg_boat_4: "小型艇 IV"
- mdg_boat_1_desc: "小型艇 I の説明"
- mdg_boat_2_desc: "小型艇 II の説明"
- mdg_boat_3_desc: "小型艇 III の説明"
- mdg_boat_4_desc: "小型艇 IV の説明"
-
- GER_mdg_boat_1: "タイプ 23 ラウブフォーゲル"
- GER_mdg_boat_2: "タイプ 1935"
- GER_mdg_boat_3: "タイプ 1940"
- GER_mdg_boat_4: "タイプ 1944"
-
- SOV_mdg_boat_1: "SH-4"
- SOV_mdg_boat_2: "G-5"
- SOV_mdg_boat_3: "D-3"
- SOV_mdg_boat_4: "プロジェクト 123 コムソモレツ"
-
- ENG_mdg_boat_2: "タイプ 60"
- ENG_mdg_boat_3: "タイプ 70"
- ENG_mdg_boat_4: "タイプ 117"
-
- ITA_mdg_boat_1: "タイプ バリエット 6"
- ITA_mdg_boat_2: "タイプ バリエット 1934"
- ITA_mdg_boat_3: "タイプ バリエット 500"
- ITA_mdg_boat_4: "タイプ II"
-
- USA_mdg_boat_1: "タイプ 110"
- USA_mdg_boat_2: "タイプ 77"
- USA_mdg_boat_3: "タイプ 78"
- USA_mdg_boat_4: "タイプ 80"
-
- FRA_mdg_boat_1: "Ch-25"
- FRA_mdg_boat_2: "Ch-1"
- FRA_mdg_boat_3: "VTB-8"
-
- JAP_mdg_boat_3: "タイプ A 甲型"
- JAP_mdg_boat_4: "タイプ B 乙型"
-
  mdg_frigate: "フリゲート"
- mdg_frigate_1: "フリゲート I"
- mdg_frigate_2: "フリゲート II"
- mdg_frigate_3: "フリゲート III"
- mdg_frigate_4: "フリゲート IV"
- mdg_frigate_1_desc: "フリゲート I の説明"
- mdg_frigate_2_desc: "フリゲート II の説明"
- mdg_frigate_3_desc: "フリゲート III の説明"
- mdg_frigate_4_desc: "フリゲート IV の説明"
-
- SOV_mdg_frigate_1: "タイプ ウラガン"
- SOV_mdg_frigate_2: "タイプ ルビン"
- SOV_mdg_frigate_3: "タイプ ヤストレブ"
-
- GER_mdg_frigate_2: "タイプ F"
- GER_mdg_frigate_3: "タイプ SG"
-
- JAP_mdg_frigate_2: "タイプ A 志摩須"
- JAP_mdg_frigate_3: "タイプ B 御蔵"
- JAP_mdg_frigate_4: "タイプ C"
-
- ENG_mdg_frigate_2: "タイプ リバー"
- ENG_mdg_frigate_3: "タイプ ロッホ"
- ENG_mdg_frigate_4: "タイプ ベイ"
-
- ITA_mdg_frigate_3: "タイプ アレ"
-
- USA_mdg_frigate_3: "タイプ アッシュビル"
- USA_mdg_frigate_4: "タイプ タコマ"
-
- FRA_mdg_frigate_1: "タイプ マルヌ"
- FRA_mdg_frigate_2: "タイプ ブーゲンビル"
-
-
  mdg_midget_submarine: "小型潜水艦"
- mdg_midget_submarine_1: "小型潜水艦 I"
- mdg_midget_submarine_2: "小型潜水艦 II"
- mdg_midget_submarine_1_desc: "小型潜水艦 I の説明"
- mdg_midget_submarine_2_desc: "小型潜水艦 II の説明"
-
- ENG_mdg_midget_submarine_1: "タイプ X"
- ENG_midget_submarine_1: "タイプ X"
- ENG_midget_submarine: "タイプ X"
- ENG_ship_hull_midget_submarine: "タイプ X"
- ENG_mdg_midget_submarine_2: "タイプ XE"
-
- GER_mdg_midget_submarine_1: "タイプ ビーバー"
- GER_midget_submarine_1: "タイプ ビーバー"
- GER_midget_submarine: "タイプ ビーバー"
- GER_ship_hull_midget_submarine: "タイプ ビーバー"
- GER_mdg_midget_submarine_2: "タイプ ゼーハウント"
-
- ITA_mdg_midget_submarine_1: "タイプ CA"
- ITA_midget_submarine_1: "タイプ CA"
- ITA_midget_submarine: "タイプ CA"
- ITA_ship_hull_midget_submarine: "タイプ CA"
- ITA_mdg_midget_submarine_2: "タイプ CB"
-
- JAP_mdg_midget_submarine_1: "タイプ A"
- JAP_midget_submarine_1: "タイプ A"
- JAP_midget_submarine: "タイプ A"
- JAP_ship_hull_midget_submarine: "タイプ A"
- JAP_mdg_midget_submarine_2: "タイプ 海龍"
-
- SOV_mdg_midget_submarine_1: "APSS"
- SOV_midget_submarine_1: "APSS"
- SOV_midget_submarine: "APSS"
- SOV_ship_hull_midget_submarine: "APSS"
- SOV_mdg_midget_submarine_2: "タイプ ピグミー"
 
  mdg_ship_hull_boat: "ボート"
  mdg_ship_hull_boat_1: "初期型ボート"
@@ -171,6 +16,14 @@
  mdg_ship_hull_boat_3_desc: "改良型ボートの説明"
  mdg_ship_hull_boat_4: "近代化ボート"
  mdg_ship_hull_boat_4_desc: "近代化ボートの説明"
+ mdg_ship_hull_boat_5: "1948年式小型艇"
+ mdg_ship_hull_boat_5_desc: "1948年式小型艇の説明"
+ mdg_ship_hull_boat_6: "1953年式小型艇"
+ mdg_ship_hull_boat_6_desc: "1953年式小型艇の説明"
+ mdg_ship_hull_boat_7: "1958年式小型艇"
+ mdg_ship_hull_boat_7_desc: "1958年式小型艇の説明"
+ mdg_ship_hull_boat_8: "1964年式小型艇"
+ mdg_ship_hull_boat_8_desc: "1964年式小型艇の説明"
 
  mdg_ship_hull_hydrofoil: "水中翼船"
  mdg_ship_hull_hydrofoil_1: "水中翼船"
@@ -191,6 +44,14 @@
  mdg_ship_hull_corvette_3_desc: "改良型コルベットの説明"
  mdg_ship_hull_corvette_4: "近代化コルベット"
  mdg_ship_hull_corvette_4_desc: "近代化コルベットの説明"
+ mdg_ship_hull_corvette_5: "1948年式コルベット"
+ mdg_ship_hull_corvette_5_desc: "1948年式コルベットの説明"
+ mdg_ship_hull_corvette_6: "1953年式コルベット"
+ mdg_ship_hull_corvette_6_desc: "1953年式コルベットの説明"
+ mdg_ship_hull_corvette_7: "1958年式コルベット"
+ mdg_ship_hull_corvette_7_desc: "1958年式コルベットの説明"
+ mdg_ship_hull_corvette_8: "1964年式コルベット"
+ mdg_ship_hull_corvette_8_desc: "1964年式コルベットの説明"
 
  mdg_ship_hull_frigate: "フリゲート"
  mdg_ship_hull_frigate_1: "初期型フリゲート"
@@ -201,6 +62,14 @@
  mdg_ship_hull_frigate_3_desc: "改良型フリゲートの説明"
  mdg_ship_hull_frigate_4: "近代化フリゲート"
  mdg_ship_hull_frigate_4_desc: "近代化フリゲートの説明"
+ mdg_ship_hull_frigate_5: "1948年式フリゲート"
+ mdg_ship_hull_frigate_5_desc: "1948年式フリゲートの説明"
+ mdg_ship_hull_frigate_6: "1953年式フリゲート"
+ mdg_ship_hull_frigate_6_desc: "1953年式フリゲートの説明"
+ mdg_ship_hull_frigate_7: "1958年式フリゲート"
+ mdg_ship_hull_frigate_7_desc: "1958年式フリゲートの説明"
+ mdg_ship_hull_frigate_8: "1964年式フリゲート"
+ mdg_ship_hull_frigate_8_desc: "1964年式フリゲートの説明"
 
  mdg_ship_hull_midget_submarine: "小型潜水艦"
  mdg_ship_hull_midget_submarine_1: "小型潜水艦"
@@ -209,18 +78,6 @@
  mdg_ship_hull_midget_submarine_2_desc: "少人数の乗組員で運用される小型潜水艦で、港湾の破壊工作から護送船団襲撃まで幅広く使用できる。その航続距離と武装は制限されるが、生産性は高い。"
 
  mdg_monitor: "モニター艦"
- mdg_monitor_1: "モニター I"
- mdg_monitor_2: "モニター II"
- mdg_monitor_1_desc: "モニター I の説明"
- mdg_monitor_2_desc: "モニター II の説明"
-
- BRA_mdg_monitor_1: "ペルナンブコ型"
- BRA_mdg_monitor_2: "パルナイーバ型"
- ENG_mdg_monitor_1: "エレバス型"
- ENG_mdg_monitor_2: "ロバーツ型"
- SOV_mdg_monitor_2: "ハサン型"
- YUG_mdg_monitor_1: "モラヴァ型"
-
  mdg_ship_hull_monitor: "モニター艦"
  mdg_ship_hull_monitor_1: "初期型モニター艦"
  mdg_ship_hull_monitor_1_desc: "初期型モニター艦の説明"
