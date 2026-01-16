@@ -106,7 +106,7 @@ equipments = {
 		naval_speed = 18
 		reliability = 0.80
 
-		naval_range = 2000
+		naval_range = 2100
 
 		max_strength = 25
 
@@ -228,7 +228,7 @@ equipments = {
 		year = 1944
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_3
 
 		module_slots = {
@@ -252,7 +252,7 @@ equipments = {
 		max_strength = 50
 		build_cost_ic = 200
 		manpower = 400
-		naval_dominance_factor = 37
+		naval_dominance_factor = 47
 
 		resources = {
 			steel = 3
@@ -264,7 +264,7 @@ equipments = {
 		year = 1950
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_4
 
 		module_slots = {
@@ -284,7 +284,9 @@ equipments = {
 		reliability = 1.0
 		naval_range = 3000
 		max_strength = 60
-		build_cost_ic = 540
+		build_cost_ic = 200
+		naval_dominance_factor = 57
+
 		resources = {
 			steel = 3
 		}
@@ -296,7 +298,7 @@ equipments = {
 		year = 1955
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_5
 
 		module_slots = {
@@ -335,7 +337,9 @@ equipments = {
 		reliability = 1.10
 		naval_range = 3500
 		max_strength = 70
-		build_cost_ic = 540
+		build_cost_ic = 200
+		naval_dominance_factor = 67
+
 		resources = {
 			steel = 3
 		}
@@ -347,7 +351,7 @@ equipments = {
 		year = 1960
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_6
 
 		module_slots = {
@@ -396,7 +400,9 @@ equipments = {
 		reliability = 1.15
 		naval_range = 3500
 		max_strength = 70
-		build_cost_ic = 540
+		build_cost_ic = 200
+		naval_dominance_factor = 77
+
 		resources = {
 			steel = 3
 		}
@@ -408,7 +414,7 @@ equipments = {
 		year = 1970
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_7
 
 		module_slots = {
@@ -428,7 +434,9 @@ equipments = {
 		reliability = 1.17
 		naval_range = 3500
 		max_strength = 70
-		build_cost_ic = 540
+		build_cost_ic = 200
+		naval_dominance_factor = 77
+
 		resources = {
 			steel = 3
 		}
@@ -440,7 +448,7 @@ equipments = {
 		year = 1980
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_8
 
 		module_slots = {
@@ -460,7 +468,9 @@ equipments = {
 		reliability = 1.21
 		naval_range = 3500
 		max_strength = 70
-		build_cost_ic = 540
+		build_cost_ic = 200
+		naval_dominance_factor = 87
+
 		resources = {
 			steel = 3
 		}
@@ -472,7 +482,7 @@ equipments = {
 		year = 1990
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2000
+		priority = 2100
 		parent = mdg_ship_hull_frigate_9
 
 		module_slots = {
@@ -492,7 +502,9 @@ equipments = {
 		reliability = 1.21
 		naval_range = 3500
 		max_strength = 70
-		build_cost_ic = 540
+		build_cost_ic = 200
+		naval_dominance_factor = 97
+
 		resources = {
 			steel = 3
 		}

@@ -6,6 +6,7 @@
  mdg_boat: "정"
  mdg_frigate: "프리깃"
  mdg_midget_submarine: "초소형 잠수함"
+
  mdg_ship_hull_boat: "정"
  mdg_ship_hull_boat_1: "초기형 정"
  mdg_ship_hull_boat_1_desc: "초기형 정 설명"
@@ -15,8 +16,10 @@
  mdg_ship_hull_boat_3_desc: "개량형 정 설명"
  mdg_ship_hull_boat_4: "현대화된 정"
  mdg_ship_hull_boat_4_desc: "현대화된 정 설명"
+ mdg_ship_hull_boat_5: "1950년형 소형정"
  mdg_ship_hull_boat_5_desc: "1950년형 고속정 설명"
  mdg_ship_hull_boat_6: "1955년형 고속정"
+ mdg_ship_hull_boat_6_desc: "1955년형 소형정 설명"
  mdg_ship_hull_boat_7: "1960년형 고속정"
  mdg_ship_hull_boat_7_desc: "1960년형 고속정 설명"
  mdg_ship_hull_boat_8: "1970년형 고속정"
@@ -87,18 +90,6 @@
  mdg_ship_hull_midget_submarine_2_desc: "항구 기습 또는 경호송 공격에 사용되는 소형 잠수함입니다. 짧은 작전 거리와 제한된 무장은 높은 생산 속도로 보완됩니다."
 
  mdg_monitor: "모니터함"
- mdg_monitor_1: "모니터함 I"
- mdg_monitor_2: "모니터함 II"
- mdg_monitor_1_desc: "모니터함 I 설명"
- mdg_monitor_2_desc: "모니터함 II 설명"
-
- BRA_mdg_monitor_1: "‘Pernambuco’형"
- BRA_mdg_monitor_2: "‘Parnaiba’형"
- ENG_mdg_monitor_1: "‘Erebus’형"
- ENG_mdg_monitor_2: "‘Roberts’형"
- SOV_mdg_monitor_2: "‘하산’형"
- YUG_mdg_monitor_1: "‘모라바’형"
-
  mdg_ship_hull_monitor: "모니터함"
  mdg_ship_hull_monitor_1: "모니터함"
  mdg_ship_hull_monitor_1_desc: "초기형 모니터함 설명"
