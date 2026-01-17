@@ -5,7 +5,7 @@
  mdg_mac: "Вспомогательный авианосец"
  mdg_boat: "Катер"
  mdg_frigate: "Фрегат"
- mdg_midget_submarine: "Сверхмалая подводная лодка"
+ mdg_midget_submarine: "$ship_hull_midget_submarine$"
 
  mdg_ship_hull_boat: "Катер"
  mdg_ship_hull_boat_1: "Ранний катер"
@@ -83,11 +83,9 @@
  mdg_ship_hull_frigate_10: "Фрегат обр. 1990 г."
  mdg_ship_hull_frigate_10_desc: "Фрегат обр. 1990 г. описание"
 
- mdg_ship_hull_midget_submarine: "Сверхмалая подводная лодка"
- mdg_ship_hull_midget_submarine_1: "Базовая сверхмалая подводная лодка"
- mdg_ship_hull_midget_submarine_1_desc: "Небольшая подлодка, управляемая малым экипажем. Сниженная дальность действия и объем вооружения компенсируются высокими темпами производства."
- mdg_ship_hull_midget_submarine_2: "Улучшенная сверхмалая подводная лодка"
- mdg_ship_hull_midget_submarine_2_desc: "Небольшая подлодка, управляемая малым экипажем, предназначенна для рейдов на гавани или уничтожение легких конвоев. Сниженная дальность действия и объем вооружения компенсируются высокими темпами производства."
+ mdg_ship_hull_midget_submarine: "$ship_hull_midget_submarine$"
+ mdg_ship_hull_midget_submarine_1: "Улучшенная сверхмалая подводная лодка"
+ mdg_ship_hull_midget_submarine_1_desc: "Небольшая подлодка, управляемая малым экипажем, предназначенна для рейдов на гавани или уничтожение легких конвоев. Сниженная дальность действия и объем вооружения компенсируются высокими темпами производства."
 
  mdg_monitor: "Монитор"
  mdg_ship_hull_monitor: "Монитор"
