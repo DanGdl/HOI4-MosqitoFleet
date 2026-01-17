@@ -10,3 +10,4 @@ dependencies={
 }
 name="MosquitoFleetAddTech"
 supported_version="1.17.*"
+remote_file_id="3647598117"
