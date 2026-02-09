@@ -21,8 +21,8 @@ objectTypes = {
 		animation = { id = "idle"				type = "generic_mdg_hydrofoil_idle_animation" }
 		animation = { id = "attack"				type = "generic_mdg_hydrofoil_attack_animation" }
 		animation = { id = "defend"				type = "generic_mdg_hydrofoil_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_mdg_hydrofoil_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_mdg_hydrofoil_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_mdg_hydrofoil_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_mdg_hydrofoil_defend_animation" }
 		animation = { id = "death"				type = "generic_mdg_hydrofoil_death_animation" }
 	}
 
@@ -32,10 +32,10 @@ objectTypes = {
 		file = "gfx/models/units/ships/generic_mdg_auxiliary.mesh"
 
 		animation = { id = "idle"				type = "generic_mdg_auxiliary_idle_animation" }
-		#animation = { id = "attack"			type = "generic_mdg_auxiliary_attack_animation" }
-		#animation = { id = "defend"			type = "generic_mdg_auxiliary_defend_animation" }
-		#animation = { id = "damaged_attack"	type = "generic_mdg_auxiliary_attack_animation" }
-		#animation = { id = "damaged_defend"	type = "generic_mdg_auxiliary_defend_animation" }
+		#animation = { id = "attack"				type = "generic_mdg_auxiliary_attack_animation" }
+		#animation = { id = "defend"				type = "generic_mdg_auxiliary_defend_animation" }
+		#animation = { id = "damaged_attack"			type = "generic_mdg_auxiliary_attack_animation" }
+		#animation = { id = "damaged_defend"			type = "generic_mdg_auxiliary_defend_animation" }
 		animation = { id = "death"				type = "generic_mdg_auxiliary_death_animation" }
 	}
 
@@ -47,8 +47,8 @@ objectTypes = {
 		animation = { id = "idle"				type = "generic_mdg_corvette_idle_animation" }
 		animation = { id = "attack"				type = "generic_mdg_corvette_attack_animation" }
 		animation = { id = "defend"				type = "generic_mdg_corvette_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_mdg_corvette_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_mdg_corvette_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_mdg_corvette_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_mdg_corvette_defend_animation" }
 		animation = { id = "death"				type = "generic_mdg_corvette_death_animation" }
 	}
 
@@ -60,8 +60,8 @@ objectTypes = {
 		animation = { id = "idle"				type = "generic_mdg_frigate_idle_animation" }
 		animation = { id = "attack"				type = "generic_mdg_frigate_attack_animation" }
 		animation = { id = "defend"				type = "generic_mdg_frigate_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_mdg_frigate_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_mdg_frigate_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_mdg_frigate_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_mdg_frigate_defend_animation" }
 		animation = { id = "death"				type = "generic_mdg_frigate_death_animation" }
 	}
 
@@ -73,8 +73,8 @@ objectTypes = {
 		animation = { id = "idle"				type = "generic_battleship_idle_animation" }
 		animation = { id = "attack"				type = "generic_battleship_attack_animation" }
 		animation = { id = "defend"				type = "generic_battleship_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_battleship_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_battleship_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_battleship_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_battleship_defend_animation" }
 		animation = { id = "death"				type = "generic_battleship_death_animation" }
 	}
 
@@ -86,8 +86,8 @@ objectTypes = {
 		animation = { id = "idle"				type = "generic_submarine_idle_animation" }
 		animation = { id = "attack"				type = "generic_submarine_attack_animation" }
 		animation = { id = "defend"				type = "generic_submarine_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_submarine_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_submarine_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_submarine_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_submarine_defend_animation" }
 		animation = { id = "death"				type = "generic_submarine_death_animation" }
 	}
 	pdxmesh = {
@@ -97,16 +97,78 @@ objectTypes = {
 		animation = { id = "idle"				type = "generic_submarine_idle_animation" }
 		animation = { id = "attack"				type = "generic_submarine_attack_animation" }
 		animation = { id = "defend"				type = "generic_submarine_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_submarine_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_submarine_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_submarine_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_submarine_defend_animation" }
 		animation = { id = "death"				type = "generic_submarine_death_animation" }
 	}
+	#pdxmesh = {
+	#	name = "GER_mdg_midget_mesh"
+	#	file = "gfx/models/units/ships/mdg_ger_midget.mesh"
+	#
+	#	animation = { id = "idle"				type = "generic_submarine_idle_animation" }
+	#	animation = { id = "attack"				type = "generic_submarine_attack_animation" }
+	#	animation = { id = "defend"				type = "generic_submarine_defend_animation" }
+	#	animation = { id = "damaged_attack"			type = "generic_submarine_attack_animation" }
+	#	animation = { id = "damaged_defend"			type = "generic_submarine_defend_animation" }
+	#	animation = { id = "death"				type = "generic_submarine_death_animation" }
+	#}
+	#pdxmesh = {
+	#	name = "ITA_mdg_midget_mesh"
+	#	file = "gfx/models/units/ships/mdg_ita_midget.mesh"
+	#
+	#	animation = { id = "idle"				type = "generic_submarine_idle_animation" }
+	#	animation = { id = "attack"				type = "generic_submarine_attack_animation" }
+	#	animation = { id = "defend"				type = "generic_submarine_defend_animation" }
+	#	animation = { id = "damaged_attack"			type = "generic_submarine_attack_animation" }
+	#	animation = { id = "damaged_defend"			type = "generic_submarine_defend_animation" }
+	#	animation = { id = "death"				type = "generic_submarine_death_animation" }
+	#}
+	#pdxmesh = {
+	#	name = "SOV_mdg_midget_mesh"
+	#	file = "gfx/models/units/ships/mdg_sov_midget.mesh"
+	#
+	#	animation = { id = "idle"				type = "generic_submarine_idle_animation" }
+	#	animation = { id = "attack"				type = "generic_submarine_attack_animation" }
+	#	animation = { id = "defend"				type = "generic_submarine_defend_animation" }
+	#	animation = { id = "damaged_attack"			type = "generic_submarine_attack_animation" }
+	#	animation = { id = "damaged_defend"			type = "generic_submarine_defend_animation" }
+	#	animation = { id = "death"				type = "generic_submarine_death_animation" }
+	#}
+
+	# MAC
 	pdxmesh = {
 		name = "mdg_mac_mesh"
-		file = "gfx/models/units/ships/generic_carrier.mesh"
-		
-		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
-		animation = { id = "death"			type = "generic_carrier_death_animation" }
-		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+		file = "gfx/models/units/ships/AST_mdg_mac.mesh"
+
+		animation = { id = "idle"		type = "AST_mdg_mac_idle_animation" }
+		animation = { id = "attack"		type = "AST_mdg_mac_attack_animation" }
+		animation = { id = "defend"		type = "AST_mdg_mac_defend_animation" }
+		animation = { id = "damaged_attack"	type = "AST_mdg_mac_attack_animation" }
+		animation = { id = "damaged_defend"	type = "AST_mdg_mac_defend_animation" }
+		animation = { id = "death"		type = "AST_mdg_mac_death_animation" }
+	}
+
+	pdxmesh = {
+		name = "JAP_mdg_mac_mesh"
+		file = "gfx/models/units/ships/JAP_mdg_mac.mesh"
+
+		animation = { id = "idle"		type = "JAP_mdg_mac_idle_animation" }
+		animation = { id = "attack"		type = "JAP_mdg_mac_attack_animation" }
+		animation = { id = "defend"		type = "JAP_mdg_mac_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_mdg_mac_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_mdg_mac_defend_animation" }
+		animation = { id = "death"		type = "JAP_mdg_mac_death_animation" }
+	}
+
+	pdxmesh = {
+		name = "USA_mdg_mac_mesh"
+		file = "gfx/models/units/ships/JAP_mdg_mac.mesh"
+
+		animation = { id = "idle"		type = "JAP_mdg_mac_idle_animation" }
+		animation = { id = "attack"		type = "JAP_mdg_mac_attack_animation" }
+		animation = { id = "defend"		type = "JAP_mdg_mac_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_mdg_mac_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_mdg_mac_defend_animation" }
+		animation = { id = "death"		type = "JAP_mdg_mac_death_animation" }
 	}
 }
