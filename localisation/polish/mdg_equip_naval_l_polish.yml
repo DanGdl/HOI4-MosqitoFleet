@@ -73,7 +73,6 @@
 
  mdg_ship_hull_midget_submarine: "$ship_hull_midget_submarine$"
  mdg_ship_hull_midget_submarine_1: "Miniaturowy okręt podwodny z 1940 r."
- #mdg_ship_hull_midget_submarine_2_desc: "Opis kadłuba miniaturowego okrętu podwodnego z 1940 r."
  mdg_ship_hull_midget_submarine_1_desc: "Mały okręt podwodny obsługiwany przez niewielką załogę, mogący być wykorzystywany do wszystkiego, od sabotażu portów po ataki na konwoje. Jego ograniczony zasięg i uzbrojenie rekompensuje wysoka szybkość produkcji."
 
  mdg_monitor: "Monitor"
