@@ -362,12 +362,29 @@ small_fleet = {
 	}
 
 	# EFFECTS
+	destroyer = {
+		max_organisation = 10
+	}
+	mdg_frigate = {
+		max_organisation = 10
+	}
+	mdg_corvette = {
+		max_organisation = 10
+	}
+	mdg_boat = {
+		max_organisation = 10
+	}
+	mdg_hydrofoil = {
+		max_organisation = 10
+	}
 	refit_speed = 0.1
-	navy_visibility = -0.05
-	naval_speed_factor = 0.1
-	naval_mines_damage_factor = 0.5
-	mines_planting_by_fleets_factor = 0.2
-	naval_torpedo_hit_chance_factor = 0.05
+	#refit_ic_cost = -0.05
+	#naval_retreat_speed = 0.10
+	naval_speed_factor = 0.05
+	naval_retreat_chance_after_initial_combat = 0.1
+	naval_mines_damage_factor = 0.1
+	mines_planting_by_fleets_factor = 0.1
+	mines_sweeping_by_fleets_factor = 0.1
 	
 	milestones = {
 		{
@@ -411,7 +428,7 @@ small_fleet = {
 		{
 			# Screens
 			naval_enemy_fleet_size_ratio_penalty_factor = 0.1
-			convoy_escort_efficiency = 0.2
+			convoy_escort_efficiency = 0.15
 			naval_detection = 0.1
 			#patrol_coordination = 0.1
 
@@ -433,7 +450,7 @@ small_fleet = {
 			# Submarines
 			submarine_attack = 0.10
 			naval_torpedo_reveal_chance_factor = -0.10
-			naval_torpedo_hit_chance_factor = 0.05
+			convoy_raiding_efficiency_factor = 0.1
 
 			effect = {
 				if = {
