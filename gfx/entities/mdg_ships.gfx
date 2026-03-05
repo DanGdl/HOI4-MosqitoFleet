@@ -1,17 +1,50 @@
 objectTypes = {
 
-	# BOAT
+	# fac
 	pdxmesh = {
-		name = "generic_mdg_boat_mesh"
-		file = "gfx/models/units/ships/generic_mdg_boat.mesh"
+		name = "generic_mdg_fac_mesh"
+		file = "gfx/models/units/ships/mdg_eng_fac.mesh"
 
-		animation = { id = "idle"				type = "generic_mdg_boat_idle_animation" }
-		animation = { id = "attack"				type = "generic_mdg_boat_attack_animation" }
-		animation = { id = "defend"				type = "generic_mdg_boat_defend_animation" }
-		animation = { id = "damaged_attack"		type = "generic_mdg_boat_attack_animation" }
-		animation = { id = "damaged_defend"		type = "generic_mdg_boat_defend_animation" }
-		animation = { id = "death"				type = "generic_mdg_boat_death_animation" }
+		animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
+		animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
+		animation = { id = "defend"				type = "generic_mdg_fac_defend_animation" }
+		animation = { id = "damaged_attack"			type = "generic_mdg_fac_attack_animation" }
+		animation = { id = "damaged_defend"			type = "generic_mdg_fac_defend_animation" }
+		animation = { id = "death"				type = "generic_mdg_fac_death_animation" }
 	}
+	# pdxmesh = {
+	# 	name = "ENG_mdg_fac_mesh"
+	# 	file = "gfx/models/units/ships/mdg_eng_fac.mesh"
+
+	# 	animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
+	# 	animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
+	# 	animation = { id = "defend"				type = "generic_mdg_fac_defend_animation" }
+	# 	animation = { id = "damaged_attack"			type = "generic_mdg_fac_attack_animation" }
+	# 	animation = { id = "damaged_defend"			type = "generic_mdg_fac_defend_animation" }
+	# 	animation = { id = "death"				type = "generic_mdg_fac_death_animation" }
+	# }
+	# pdxmesh = {
+	# 	name = "JAP_mdg_fac_mesh"
+	# 	file = "gfx/models/units/ships/mdg_jap_fac.mesh"
+
+	# 	animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
+	# 	animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
+	# 	animation = { id = "defend"				type = "generic_mdg_fac_defend_animation" }
+	# 	animation = { id = "damaged_attack"			type = "generic_mdg_fac_attack_animation" }
+	# 	animation = { id = "damaged_defend"			type = "generic_mdg_fac_defend_animation" }
+	# 	animation = { id = "death"				type = "generic_mdg_fac_death_animation" }
+	# }
+	#pdxmesh = {
+	#	name = "SOV_mdg_fac_mesh"
+	#	file = "gfx/models/units/ships/mdg_sov_fac.mesh"
+	#
+	#	animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
+	#	animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
+	#	animation = { id = "defend"				type = "generic_mdg_fac_defend_animation" }
+	#	animation = { id = "damaged_attack"			type = "generic_mdg_fac_attack_animation" }
+	#	animation = { id = "damaged_defend"			type = "generic_mdg_fac_defend_animation" }
+	#	animation = { id = "death"				type = "generic_mdg_fac_death_animation" }
+	#}
 
 	# Hydrofoil
 	pdxmesh = {
