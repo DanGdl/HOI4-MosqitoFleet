@@ -1427,7 +1427,6 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_heavy_1
-			mdg_ship_hull_monitor_1
 		}
 
 		enable_equipment_modules = {
@@ -1509,7 +1508,6 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_heavy_2
-			mdg_ship_hull_monitor_2
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2

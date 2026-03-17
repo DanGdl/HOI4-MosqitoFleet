@@ -11,7 +11,7 @@ convoy_escort = {
 		always = yes
 	}
 
-	ai_will_do = { 
+	ai_will_do = {
 		base = 1
 		modifier = {
 			factor = 95
@@ -103,7 +103,7 @@ support_integrated_operations = {
 		always = yes
 	}
 
-	ai_will_do = { 
+	ai_will_do = {
 		base = 1
 		modifier = {
 			factor = 95
@@ -205,7 +205,7 @@ hunter_killers = {
 	visible = {
 		has_dlc = "No Compromise, No Surrender"
 	}
-	ai_will_do = { 
+	ai_will_do = {
 		base = 1
 		modifier = {
 			factor = 95
@@ -217,7 +217,7 @@ hunter_killers = {
 	}
 
 	# EFFECTS
-	naval_coordination = 0.10 
+	naval_coordination = 0.10
 	
 	rewards = {
 		search_and_destroy = {
@@ -299,7 +299,7 @@ torpedo_primacy = {
 	xp_cost = 100
 	xp_type = navy
 
-	ai_will_do = { 
+	ai_will_do = {
 		base = 0
 		modifier = {
 			factor = 95
@@ -349,7 +349,7 @@ torpedo_primacy = {
 			mdg_hydrofoil = {
 				max_organisation = 20
 			}
-		}	
+		}
 		dedicated_torpedo_task_forces = {
 			light_cruiser = {
 				sub_attack = 0.2
@@ -440,6 +440,14 @@ anti_aircraft_cruisers = {
 
 		air_interdiction_screening = {
 			destroyer = {
+				anti_air_attack = 0.2
+				lg_attack = 0.2
+			}
+			mdg_frigate = {
+				anti_air_attack = 0.2
+				lg_attack = 0.2
+			}
+			mdg_corvette = {
 				anti_air_attack = 0.2
 				lg_attack = 0.2
 			}
@@ -672,12 +680,12 @@ patrol_boats = {
 		naval_speed = 0.10
 		fuel_consumption = -0.25
 		supply_consumption = -0.01
-	}	
+	}
 
 	rewards = {
 
 		hit_and_run = {
-			naval_retreat_speed = 0.20	
+			naval_retreat_speed = 0.20
 		}
 		small_craft_harassment = {
 			amphibious_invasion_defence = 0.10
@@ -696,8 +704,8 @@ patrol_boats = {
 			mdg_hydrofoil = {
 				torpedo_attack = 0.23
 			}
-		}	
-		lie_in_wait = {		
+		}
+		lie_in_wait = {
 			destroyer = {
 				surface_visibility = -0.05
 			}
