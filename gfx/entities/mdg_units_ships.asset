@@ -1613,6 +1613,7 @@ entity = {
 	scale = 2.0 # must be 0.56 because 3D model 3.5 times bigger then needed
 }
 
+# MAC
 entity = {
 	name = "mdg_mac_entity"
 	pdxmesh = "mdg_mac_mesh"
