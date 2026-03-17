@@ -104,3 +104,64 @@ animation = {
 	name = "generic_mdg_frigate_idle_animation"
 	file = "generic_mdg_frigate_idle.anim"
 }
+
+# MAC
+animation = {
+	name = "AST_mdg_mac_idle_animation"
+	file = "AST_mdg_mac_idle.anim"
+}
+
+animation = {
+	name = "AST_mdg_mac_attack_animation"
+	file = "AST_mdg_mac_attack.anim"
+}
+
+animation = {
+	name = "AST_mdg_mac_defend_animation"
+	file = "AST_mdg_mac_defend.anim"
+}
+
+animation = {
+	name = "AST_mdg_mac_death_animation"
+	file = "AST_mdg_mac_death.anim"
+}
+
+animation = {
+	name = "JAP_mdg_mac_idle_animation"
+	file = "JAP_mdg_mac_idle.anim"
+}
+
+animation = {
+	name = "JAP_mdg_mac_attack_animation"
+	file = "JAP_mdg_mac_attack.anim"
+}
+
+animation = {
+	name = "JAP_mdg_mac_defend_animation"
+	file = "JAP_mdg_mac_defend.anim"
+}
+
+animation = {
+	name = "JAP_mdg_mac_death_animation"
+	file = "JAP_mdg_mac_death.anim"
+}
+
+animation = {
+	name = "USA_mdg_mac_idle_animation"
+	file = "USA_mdg_mac_idle.anim"
+}
+
+animation = {
+	name = "USA_mdg_mac_attack_animation"
+	file = "USA_mdg_mac_attack.anim"
+}
+
+animation = {
+	name = "USA_mdg_mac_defend_animation"
+	file = "USA_mdg_mac_defend.anim"
+}
+
+animation = {
+	name = "USA_mdg_mac_death_animation"
+	file = "USA_mdg_mac_death.anim"
+}
