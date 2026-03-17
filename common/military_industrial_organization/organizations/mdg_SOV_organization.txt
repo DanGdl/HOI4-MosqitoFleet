@@ -44,6 +44,7 @@ SOV_tupolev_design_bureau_organization_boat = {
 			max_strength = -0.15
 			naval_weather_penalty_factor = 0.2
 			naval_range = -0.1
+			surface_visibility = 0.02
 		}
 		ai_will_do = {
 			base = 2

@@ -24,13 +24,13 @@ ConvoySurfaceRaiding_Boats_1 = {
 	mission = { convoy_raiding }
 	min_composition = {
 		mdg_boat = {
-			amount = 2
+			amount = 3
 		}
 	}
 
 	optimal_composition = {
 		mdg_boat = {
-			amount = 10
+			amount = 6
 		}
 	}
 }
@@ -42,13 +42,13 @@ ConvoySurfaceRaiding_Hydrofoils_1 = {
 	mission = { convoy_raiding }
 	min_composition = {
 		mdg_hydrofoil = {
-			amount = 2
+			amount = 3
 		}
 	}
 
 	optimal_composition = {
 		mdg_hydrofoil = {
-			amount = 10
+			amount = 6
 		}
 	}
 }
@@ -60,13 +60,13 @@ ConvoyRaiding_Midgets_1 = {
 	mission = { convoy_raiding }
 	min_composition = {
 		mdg_midget_submarine = {
-			amount = 2
+			amount = 3
 		}
 	}
 
 	optimal_composition = {
 		mdg_midget_submarine = {
-			amount = 10
+			amount = 6
 		}
 	}
 }
