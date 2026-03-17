@@ -12,7 +12,6 @@ technologies = {
 			mdg_ship_hull_corvette_1
 			mdg_ship_hull_corvette_2
 			mdg_ship_hull_boat_1
-			mdg_ship_hull_monitor_1
 		}
 		
 		enable_equipment_modules = {
@@ -224,6 +223,16 @@ technologies = {
 					tag = USA
 				}
 			}
+			
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+
+			modifier = {
+				factor = 1.5
+				date > 1940.1.1
+			}
 		}
 
 		categories = {
@@ -318,6 +327,16 @@ technologies = {
 			modifier = {
 				factor = 4
 				tag = ENG
+			}
+			
+			modifier = {
+				factor = 2
+				date > 1938.1.1
+			}
+
+			modifier = {
+				factor = 2
+				date > 1939.1.1
 			}
 		}
 
@@ -644,8 +663,17 @@ technologies = {
 				has_war_with = GER
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				anti_submarine_strategy_required_trigger = yes
+			}
+			modifier = {
+				factor = 2
+				date > 1938.6.1
+			}
+
+			modifier = {
+				factor = 2
+				date > 1939.6.1
 			}
 		}
 
@@ -909,6 +937,15 @@ technologies = {
 				}
 				factor = 4
 			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+
+			modifier = {
+				factor = 1.5
+				date > 1940.1.1
+			}
 		}
 
 		categories = {
@@ -1022,7 +1059,6 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_heavy_1
-			mdg_ship_hull_monitor_1
 		}
 
 		enable_equipment_modules = {
@@ -1086,7 +1122,6 @@ technologies = {
 
 		enable_equipments = {
 			ship_hull_heavy_2
-			mdg_ship_hull_monitor_2
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_2
@@ -1210,6 +1245,15 @@ technologies = {
 			modifier = {
 				is_major = no
 				factor = 0
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+
+			modifier = {
+				factor = 1.5
+				date > 1940.1.1
 			}
 		}
 
@@ -1347,6 +1391,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 0
+				date < 1938.1.1
+			}
 
 			modifier = {
 				factor = 4
@@ -1534,6 +1583,15 @@ early_ship_hull_carrier = {
 					tag = JAP
 					tag = USA
 				}
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+
+			modifier = {
+				factor = 1.5
+				date > 1940.1.1
 			}
 		}
 
@@ -1760,6 +1818,15 @@ early_ship_hull_carrier = {
 					tag = GER
 					tag = USA
 				}
+			}
+			modifier = {
+				factor = 1.5
+				date > 1939.1.1
+			}
+
+			modifier = {
+				factor = 1.5
+				date > 1940.1.1
 			}
 		}
 

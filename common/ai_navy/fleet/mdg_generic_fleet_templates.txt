@@ -52,17 +52,17 @@ mdg_generic_patrol_fleet_Fr = {
 
 # Minelaying
 mdg_generic_minelaying_fleet_Boats = {
-	required_taskforces = {
+	optional_taskforces = {
 		MineLaying_Boats_1 = 1
 	}
 }
 mdg_generic_minelaying_fleet_Cor = {
-	required_taskforces = {
+	optional_taskforces = {
 		MineLaying_Cor_1 = 1
 	}
 }
 mdg_generic_minelaying_fleet_Fr = {
-	required_taskforces = {
+	optional_taskforces = {
 		MineLaying_Fr_1 = 1
 	}
 }
@@ -105,41 +105,38 @@ mdg_raiding_fleet_midgets = {
 mdg_generic_dominance_fleet_Far_1 = {
 	required_taskforces = {
 		mdg_StrikeForce_Fr_1 = 1
-		mdg_PatrolDominanceForce_CA_Fr_1 = 2
-		mdg_PatrolDominanceForce_BC_Fr_1 = 1
 		mdg_PatrolReconForce_Fr_1 = 2
 	}	
 	optional_taskforces = {
 		mdg_StrikeForce_Fr_1 = 1
 		mdg_PatrolReconForce_Fr_1 = 1
 		mdg_PatrolDominanceForce_CA_Fr_1 = 1
+		mdg_PatrolDominanceForce_BC_Fr_1 = 1
 	}
 }
 mdg_generic_dominance_fleet_Close_1 = {
 	required_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
-		mdg_PatrolDominanceForce_CA_Cor_1 = 2
-		mdg_PatrolDominanceForce_BC_Cor_1 = 1
 		mdg_PatrolReconForce_Cor_1 = 2
 	}	
 	optional_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
 		mdg_PatrolReconForce_Cor_1 = 1
 		mdg_PatrolDominanceForce_CA_Cor_1 = 1
+		mdg_PatrolDominanceForce_BC_Cor_1 = 1
 	}
 }
 
 mdg_generic_dominance_fleet_Coast_1 = {
 	required_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
-		mdg_PatrolDominanceForce_CA_Boats_1 = 2
-		mdg_PatrolDominanceForce_BC_Cor_1 = 1
 		mdg_PatrolReconForce_Boats_1 = 2
 	}	
 	optional_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
 		mdg_PatrolReconForce_Cor_1 = 1
 		mdg_PatrolDominanceForce_CA_Boats_1 = 1
+		mdg_PatrolDominanceForce_BC_Cor_1 = 1
 	}
 }
 
