@@ -231,18 +231,6 @@ guiTypes = {
 			position = { x = 347 y = 140 }
 			alwaysTransparent = yes
 		}
-		buttonType = {
-			name = "btn_target_mdg_monitor"
-			position = { x = 428 y = 133 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "button_16_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_monitor"
-			position = { x = 450 y = 140 }
-			alwaysTransparent = yes
-		}
 	}
 
 	# Action/Mission bar
