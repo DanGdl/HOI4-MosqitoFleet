@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "USS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "USS "
@@ -67,12 +61,6 @@
 	mdg_ship_hull_hydrofoil = {
 		prefix = "USS "
 		generic = { "PGH" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "USS"
-		generic = { "BM" }
 		unique = {}
 	}
 

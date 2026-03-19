@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "ARA"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 
 	mdg_ship_hull_auxiliary = {
@@ -81,11 +75,5 @@
 		unique = {
 			"Meta" "Melitta" "Margot" "Marianne" "Margarita" "Mecha" "Murature" "Py"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "ARA"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

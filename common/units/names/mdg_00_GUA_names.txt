@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "ARG"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARG"
@@ -77,12 +71,6 @@
 	mdg_ship_hull_corvette = {
 		prefix = "ARG"
 		generic = { "LCS" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "ARG"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }

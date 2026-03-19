@@ -85,13 +85,6 @@
  mdg_ship_hull_midget_submarine_1: "改良型小型潜水艦"
  mdg_ship_hull_midget_submarine_1_desc: "少人数の乗組員で運用される小型潜水艦で、港湾の破壊工作から護送船団襲撃まで幅広く使用できる。その航続距離と武装は制限されるが、生産性は高い。"
 
- mdg_monitor: "モニター艦"
- mdg_ship_hull_monitor: "モニター艦"
- mdg_ship_hull_monitor_1: "初期型モニター艦"
- mdg_ship_hull_monitor_1_desc: "初期型モニター艦の説明"
- mdg_ship_hull_monitor_2: "基本型モニター"
- mdg_ship_hull_monitor_2_desc: "基本型モニターの説明"
-
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "自動砲"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "軽砲"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "両用軽砲"

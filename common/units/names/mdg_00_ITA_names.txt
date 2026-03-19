@@ -48,12 +48,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "RI"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "RI"
@@ -100,11 +94,5 @@
 			"Libellula" "Strolaga" "Ardea" "Daino" "Cervo" "Stambecco" "Crisalide" "Farfalla" "Maggiolino" "Coccinigfia" "Scure" "Clava" "Zagaglia" "Egeria" "Euridice"
 			"Terpsicore"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "RI"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

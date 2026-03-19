@@ -21,11 +21,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SD_tv_monitor"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mdg_topview_monitor.dds"
-	}
-
-	spriteType = {
 		name = "GFX_SD_tv_mac"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/mdg_topview_mac.dds"
 	}

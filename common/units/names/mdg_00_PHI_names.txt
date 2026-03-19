@@ -41,12 +41,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "RPS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "RPS"
@@ -85,12 +79,6 @@
 	mdg_ship_hull_frigate = {
 		prefix = "RPS"
 		generic = { "FF" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "RPS"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }

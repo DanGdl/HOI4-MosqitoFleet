@@ -85,13 +85,6 @@
  mdg_ship_hull_midget_submarine_1: "Verbesserter Kleinst-U-Boot"
  mdg_ship_hull_midget_submarine_1_desc: "Ein kleines U-Boot, das von einer kleinen Besatzung betrieben wird und für alles eingesetzt werden kann, von Hafen-Sabotage bis zur Konvoijagd. Seine reduzierte Reichweite und Waffenfähigkeit wird durch eine hohe Produktionsrate ausgeglichen."
 
- mdg_monitor: "Monitor"
- mdg_ship_hull_monitor: "Monitor"
- mdg_ship_hull_monitor_1: "Früher Monitor"
- mdg_ship_hull_monitor_1_desc: "Ein einfacher Rumpf für frühe Monitore mit begrenzter Reichweite und Stabilität."
- mdg_ship_hull_monitor_2: "Einfacher Monitor"
- mdg_ship_hull_monitor_2_desc: "Ein fortschrittlicher Monitor mit verbesserter Feuerkraft und Verteidigung."
-
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatische Kanonen"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Leichte Kanonen"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Zweckmäßige leichte Kanonen"

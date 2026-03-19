@@ -42,12 +42,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "HNoMS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "HNoMS"
@@ -88,11 +82,5 @@
 			"Nordkapp" "Senja" "Andenes" "Montbretia" "Nordkyn" "Potentilla" "Rose" "Soroy" "Tungsberg" "Jeloy" "Karmoy" "Oksoy" "Tromoy" "Eday"
 			"Tromoy" "Otra" "Rauma" "Orkla" "Vefsna"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HNoMS"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

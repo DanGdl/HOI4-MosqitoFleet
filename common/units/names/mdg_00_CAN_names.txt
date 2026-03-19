@@ -37,13 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "HMCS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
-
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMCS"
 		generic = { "AUX" }
@@ -98,11 +91,5 @@
 			"Vegreville" "Border Cities" "Fort Francis" "Kapuskasing" "Middlesex" "New Liskeard" "Oshawa" "Portage" "Rockcliff" "St. Boniface" "Sault Sts. Marie"
 			"Winnipeg" "Wallaceburg"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HMCS"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

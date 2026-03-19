@@ -37,13 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "NRP"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "NRP"
@@ -78,12 +71,6 @@
 	mdg_ship_hull_corvette = {
 		prefix = "NRP"
 		generic = { "V" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "NRP"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }

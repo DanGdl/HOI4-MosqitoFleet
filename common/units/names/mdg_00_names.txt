@@ -35,12 +35,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 	mdg_mac = {
 		prefix = ""
 		generic = { "AVG" }
@@ -83,12 +77,6 @@
 	mdg_ship_hull_auxiliary = {
 		prefix = ""
 		generic = { "AUX" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
 		unique = {}
 	}
 

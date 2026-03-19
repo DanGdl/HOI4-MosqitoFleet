@@ -23,10 +23,6 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Erlangte Erfahrung für Kleinst-U-Boot durch Übung"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Erlangte Erfahrung für Kleinst-U-Boot durch Gefechte"
 
- modifier_experience_gain_mdg_monitor_mission_factor: "Erlangte Erfahrung für Monitor durch Einsätze"
- modifier_experience_gain_mdg_monitor_training_factor: "Erlangte Erfahrung für Monitor durch Übung"
- modifier_experience_gain_mdg_monitor_combat_factor: "Erlangte Erfahrung für Monitor durch Gefechte"
-
  modifier_experience_gain_mdg_mac_mission_factor: "Erlangte Erfahrung für Hilfsflugzeugträgern durch Einsätze"
  modifier_experience_gain_mdg_mac_training_factor: "Erlangte Erfahrung für Hilfsflugzeugträgern durch Übung"
  modifier_experience_gain_mdg_mac_combat_factor: "Erlangte Erfahrung für Hilfsflugzeugträgern durch Gefechte"
@@ -47,8 +43,7 @@
  mdg_ship_hull_corvette_design_cost_factor: "Konstruktionskosten für Korvettenrumpf"
  mdg_ship_hull_frigate_design_cost_factor: "Konstruktionskosten für Fregattenrumpf"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Konstruktionskosten für Kleinst-U-Boot-Rumpf"
- mdg_ship_hull_monitor_design_cost_factor: "Entwurfskosten für Monitor"
- mdg_ship_hull_mac_design_cost_factor: "Entwurfskosten für Hilfsflugzeugträger"
+ mdg_ship_hull_mac_design_cost_factor: "Konstruktionskosten für Hilfsflugzeugträger"
  modifier_module_mdg_ship_deck_space_design_cost_factor: "Schiff - Hangarplatz-Musterkosten"
 
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Eigenschaft-EP-Zugewinn: Moskito"

@@ -39,12 +39,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "KB"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "KB"
@@ -83,12 +77,6 @@
 	mdg_ship_hull_frigate = {
 		prefix = "KB"
 		generic = { "FF" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "KB"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }
