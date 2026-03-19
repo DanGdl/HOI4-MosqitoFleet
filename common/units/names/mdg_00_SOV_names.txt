@@ -49,14 +49,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
-		unique = {
-			"Khasan" "Perekop" "Sivash"
-		}
-	}
-
 
 
 	mdg_ship_hull_midget_submarine = {
@@ -104,14 +96,6 @@
 		generic = { "AUX" }
 		unique = {
 			"Kuban" "Ksenia" "Anatoliy Serov" "Ilmen" "Mikoyan"
-		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
-		unique = {
-			"Khasan" "Perekop" "Sivash"
 		}
 	}
 }

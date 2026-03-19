@@ -41,12 +41,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "RHS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "RHS"
@@ -86,11 +80,5 @@
 			"Argyrokastron" "Himarra" "Korytsa" "Mykonos" "Syros" "Tepeleni" "Tinos" "Alfios" "Pintos" "Evrotas" "Sperchios" "Acheloos" "Velestinon" "Elasson"
 			"Kalavrita" "Distomon" "Lechovon" "Anchialos"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "RHS"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

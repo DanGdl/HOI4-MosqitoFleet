@@ -41,12 +41,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "ORP"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 
 	mdg_ship_hull_auxiliary = {
@@ -87,11 +81,5 @@
 		unique = {
 			"Czapla" "Zuraw" "General Haller" "Komendant Pilsudski" "Krakov" "Wilno" "Horodyszcze" "Pinsk" "Torun" "Warszawa"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "ORP"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

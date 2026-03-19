@@ -45,12 +45,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "HrMs"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 	mdg_mac = {
 		prefix = "HrMs"
 		generic = { "AVG" }
@@ -100,12 +94,6 @@
 		unique = {
 			"Johan Maurits van Nassau"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HrMs"
-		generic = { "Monitor" }
-		unique = {}
 	}
 
 	mdg_ship_hull_mac = {

@@ -41,12 +41,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "ARM"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARM"
@@ -86,11 +80,5 @@
 		unique = {
 			"Halcon" "La Paz" "Jose Rafael" "Nereida"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "ARM"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "HMS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMS"
@@ -80,11 +74,5 @@
 		unique = {
 			"Arholma" "Landsort" "Bremon" "Holmon" "Koster" "Vinga" "Ven" "Ramskar" "Bredskar" "Kullen" "Sandon" "Gronskar" "Orskar" "Ulvon"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HMS"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

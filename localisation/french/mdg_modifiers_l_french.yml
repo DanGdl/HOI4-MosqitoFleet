@@ -23,10 +23,6 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Gain d'exp. des sous-marins de poche à l'entraînement"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Gain d'exp. des sous-marins de poche à l'entraînement au combat"
 
- modifier_experience_gain_mdg_monitor_submarine_mission_factor: "Gain d'exp. des monitor en mission"
- modifier_experience_gain_mdg_monitor_training_factor: "Gain d'exp. dws monitor à l'entraînement"
- modifier_experience_gain_mdg_monitor_combat_factor: "Gain d'exp. des monitor à l'entraînement au combat"
-
  modifier_experience_gain_mdg_mac_submarine_mission_factor: "Gain d'exp. des porte-avions auxiliaire en mission"
  modifier_experience_gain_mdg_mac_training_factor: "Gain d'exp. des porte-avions auxiliaire à l'entraînement"
  modifier_experience_gain_mdg_mac_combat_factor: "Gain d'exp. des porte-avions auxiliaire à l'entraînement au combat"
@@ -47,7 +43,6 @@
  mdg_ship_hull_corvette_design_cost_factor: "Coût de conception des corvettes"
  mdg_ship_hull_frigate_design_cost_factor: "Coût de conception des frégates"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Coût de conception des sous-marins de poche"
- mdg_ship_hull_monitor_design_cost_factor: "Coût de conception du monitor"
  mdg_ship_hull_mac_design_cost_factor: "Coût de conception du porte-avions auxiliaire"
  modifier_module_mdg_ship_deck_space_design_cost_factor: "Coût concept. des hangars pour navires"
 

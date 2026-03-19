@@ -21,11 +21,7 @@
 
  modifier_experience_gain_mdg_midget_submarine_mission_factor: "Получаемый опыт от выполнения заданий мини субмариной"
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Получаемый опыт за подготовку мини субмарины"
- modifier_experience_gain_mdg_midget_submarine_combat_factor: "Получаемый боевой опыт мини субмарины"
-
- modifier_experience_gain_mdg_monitor_mission_factor: "Получаемый опыт от выполнения заданий монитором"
- modifier_experience_gain_mdg_monitor_training_factor: "Получаемый опыт за подготовку монитора"
- modifier_experience_gain_mdg_monitor_combat_factor: "Получаемый боевой опыт монитора"
+ modifier_experience_gain_mdg_midget_submarine_combat_factor: "Получаемый боевой опыт мини субмарин
 
  modifier_experience_gain_mdg_mac_mission_factor: "Получаемый опыт от выполнения заданий вспомогательным авианосцем"
  modifier_experience_gain_mdg_mac_training_factor: "Получаемый опыт за подготовку вспомогательного авианосца"
@@ -49,7 +45,6 @@
  mdg_ship_hull_corvette_design_cost_factor: "Стоимость проекта корвета"
  mdg_ship_hull_frigate_design_cost_factor: "Стоимость проекта фрегата"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Стоимость проекта сверхмалой субмарины"
- mdg_ship_hull_monitor_design_cost_factor: "Стоимость проекта монитора"
  mdg_ship_hull_mac_design_cost_factor: "Стоимость проекта вспомогательного авианосца"
  modifier_module_mdg_ship_deck_space_design_cost_factor: "Стоимость проекта корабельных ангаров"
 

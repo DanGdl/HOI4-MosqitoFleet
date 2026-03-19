@@ -39,12 +39,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "NMS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 
 	mdg_ship_hull_auxiliary = {
@@ -82,12 +76,6 @@
 	mdg_ship_hull_frigate = {
 		prefix = "NMS"
 		generic = { "FF" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "NMS"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }

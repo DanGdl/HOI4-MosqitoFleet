@@ -43,12 +43,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 
 	mdg_ship_hull_auxiliary = {
