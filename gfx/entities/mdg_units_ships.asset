@@ -1192,7 +1192,7 @@ entity = {
 }
 
 entity = {
-	name = "mdg_midget_submarine_entity"
+	name = "ENG_mdg_midget_submarine_entity"
 	pdxmesh = "ENG_mdg_midget_mesh"
 
 	default_state = idle
