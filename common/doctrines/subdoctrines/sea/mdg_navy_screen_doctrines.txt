@@ -327,10 +327,10 @@ torpedo_primacy = {
 				torpedo_attack = 0.2
 			}
 			mdg_boat = {
-				torpedo_attack = 0.23
+				torpedo_attack = 0.2
 			}
 			mdg_hydrofoil = {
-				torpedo_attack = 0.23
+				torpedo_attack = 0.2
 			}
 		}
 		coordinated_fire_patterns = {
