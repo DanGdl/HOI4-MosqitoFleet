@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "EML"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 
 	mdg_ship_hull_auxiliary = {
@@ -81,11 +75,5 @@
 		unique = {
 			"Pikker"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "EML"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

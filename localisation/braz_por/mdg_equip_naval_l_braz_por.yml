@@ -211,25 +211,6 @@
  mdg_ship_hull_midget_submarine_1: "Submarino anão melhorado"
  mdg_ship_hull_midget_submarine_1_desc: "Um submarino de pequena dimensão operado por uma pequena tripulação, que podia ser utilizado para qualquer coisa, desde sabotagem de portos a ataques a comboios. O seu alcance reduzido e capacidade de armamento são compensados ​​por uma elevada taxa de produção."
 
- mdg_monitor: "Monitor"
- mdg_monitor_1: "Monitor I"
- mdg_monitor_2: "Monitor II"
- mdg_monitor_1_desc: "Descrição do Monitor I"
- mdg_monitor_2_desc: "Descrição do Monitor II"
-
- BRA_mdg_monitor_1: "Classe 'Pernambuco'"
- BRA_mdg_monitor_2: "Classe 'Parnaiba'"
- ENG_mdg_monitor_1: "Classe 'Erebus'"
- ENG_mdg_monitor_2: "Classe 'Roberts'"
- SOV_mdg_monitor_2: "Classe 'Khasan'"
- YUG_mdg_monitor_1: "Classe 'Morava'"
-
- mdg_ship_hull_monitor: "Monitor"
- mdg_ship_hull_monitor_1: "Monitor inicial"
- mdg_ship_hull_monitor_1_desc: "Descrição de monitor inicial"
- mdg_ship_hull_monitor_2: "Monitor básico"
- mdg_ship_hull_monitor_2_desc: "Descrição de monitor básico"
-
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Canhões automáticos"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Canhões de luz"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Canhões de luz de dupla finalidade"

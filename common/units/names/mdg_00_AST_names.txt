@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "HMAS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMAS"
@@ -87,11 +81,5 @@
 		unique = {
 			"Barwon" "Burdekin" "Diamantina" "Gascoyne" "Hawkesbury" "Lachlan"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HMAS"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

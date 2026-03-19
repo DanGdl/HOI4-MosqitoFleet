@@ -41,12 +41,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "HMNZS"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "HMNZS"
@@ -86,11 +80,5 @@
 		unique = {
 			"Kiwi" "Моа" "Tui"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HMNZS"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

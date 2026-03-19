@@ -212,25 +212,6 @@
  mdg_ship_hull_midget_submarine_1: "개량 초소형 잠수함"
  mdg_ship_hull_midget_submarine_1_desc: "항구 기습 또는 경호송 공격에 사용되는 소형 잠수함입니다. 짧은 작전 거리와 제한된 무장은 높은 생산 속도로 보완됩니다."
 
- mdg_monitor: "모니터함"
- mdg_monitor_1: "모니터함 I"
- mdg_monitor_2: "모니터함 II"
- mdg_monitor_1_desc: "모니터함 I 설명"
- mdg_monitor_2_desc: "모니터함 II 설명"
-
- BRA_mdg_monitor_1: "‘Pernambuco’형"
- BRA_mdg_monitor_2: "‘Parnaiba’형"
- ENG_mdg_monitor_1: "‘Erebus’형"
- ENG_mdg_monitor_2: "‘Roberts’형"
- SOV_mdg_monitor_2: "‘하산’형"
- YUG_mdg_monitor_1: "‘모라바’형"
-
- mdg_ship_hull_monitor: "모니터함"
- mdg_ship_hull_monitor_1: "모니터함"
- mdg_ship_hull_monitor_1_desc: "초기형 모니터함 설명"
- mdg_ship_hull_monitor_2: "기본형 모니터함"
- mdg_ship_hull_monitor_2_desc: "기본형 모니터함 설명"
-
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "기관포"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "경포"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "양용 경포"

@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "ARE"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARE"
@@ -82,11 +76,5 @@
 		unique = {
 			"Eolo" "Triton"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "ARE"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

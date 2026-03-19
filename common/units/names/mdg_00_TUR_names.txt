@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "TCG"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 
 	mdg_ship_hull_auxiliary = {
@@ -83,11 +77,5 @@
 		unique = {
 			"Canak" "Kavak"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "TCG"
-		generic = { "Monitor" }
-		unique = {}
 	}
 }

@@ -50,12 +50,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 	mdg_mac = {
 		prefix = ""
 		generic = { "AVG" }
@@ -110,12 +104,6 @@
 			"Aikoku Maru" "Akagi Maru" "Awata Maru" "Hōkoku Maru" "Kiyozumi Maru" "Asaka Maru" "Bangkok Maru" "Gokoku Maru" "Kinryu Maru"
 			"Kiyozumi Maru" "Kongō Maru" "Noshiro Maru" "Saigon Maru" "Ukishima Maru" "Masaka Maru"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = ""
-		generic = { "Monitor" }
-		unique = {}
 	}
 
 	mdg_ship_hull_mac = {

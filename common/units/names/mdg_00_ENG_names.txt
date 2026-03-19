@@ -46,12 +46,6 @@
 		}
 	}
 
-	mdg_monitor = {
-		prefix = "HMS"
-		generic = { "MN" }
-		unique = {}
-	}
-
 	mdg_mac = {
 		prefix = "HMS"
 		generic = { "AVG" }
@@ -106,12 +100,6 @@
 		unique = {
 			"Kale" "Tweed" "Helmsdale" "Meon" "Halladale" "Dart" "Balinderry" "Frome" "Torridge" "Ribble" "Jed" "Trent" "Bann" "Tavy" "Avon" "Taff" "Monnow" "Ettrick" "Exe" "Itchen" "Aire" "Dovey" "Awe" "Chelmer" "Cam" "Test" "Teviot" "Helford" "Tees" "Lochy" "Annan" "Ness" "Nith" "Derg" "Strule" "Windrush" "Wye" "Ribble" "Braid" "Rother" "Spey" "Swale" "Тау" "Waveney" "Wear" "Lagan" "Moyola" "Mourne" "Deveron" "Fal" "Nene" "Plym" "Towy" "Usk" "Odzani" "Nadder" "Теmе" "Anguilla" "Antigua" "Ascension" "Bahamas" "Barbados" "Caicos" "Cayman" "Dominica" "Labuan" "Tobago" "Montserrat" "Nyasaland" "Papua" "Pitcairn" "St. Helena" "Saraw ark" "Seychelles" "Perim" "Somaliland" "Tortola" "Zanzibar" "Loch Achanalt" "Loch Achray" "Loch Alvie" "Loch Craggie" "Loch Dunvegan" "Loch Eck" "Loch Fada" "Loch Fyne" "Loch Glendhu" "LochGorm" "Loch Insh" "Loch Katrine" "Loch Killin" "Loch Killisport" "Loch Lomond" "Loch More" "Loch Morlich" "Loch Quoich" "Loch Ruthven" "Loch Scavaig" "Loch Shin" "Loch Tarbert" "Loch Tralaig" "Natal" "Transvaal" "Good Hope" "Bigbury Bay" "St. Brides Bay" "Widemouth Bay" "Cardigan Bay" "Whitesand Bay" "St. Austell Bay" "Veryan Bay" "Bazely" "Bayntun" "Berry" "Blackwood" "Burges" "Drury" "Capel" "Cooke" "Dacres" "Domett" "Foley" "Garlies" "Gould" "Grindall" "Gardiner" "Goodall" "Goodson" "Gore" "Keats" "Kempthornel" "Kingsmiir" "Lawford" "Louis" "Lawson" "Pasley" "Loring" "Hoste" "Moorsom" "Manners" "Mounsey" "Inglis" "Inman" "Bentick" "Byard" "Calder" "Duckworth" "Duff" "Essington" "Affleck" "Aylmer" "Balfour" "Bentley" "Bickerton" "Bligh" "Brarthwarte" "Bullen" "Byron" "Conn" "Cotton" "Cranstoun" "Cubitt" "Curzon" "Dakins" "Deane" "Ekins" "Fitzroy" "Redmill" "Retalick" "Halsted" "Riou" "Rutherford" "Cosby" "Rowley" "Rupert" "Stockham" "Seymour" "Spragge" "Stayner" "Thornbrough" "Trollope" "Tyler" "Torrington" "Narbrough" "Waldegrave" "Whittaker" "Holmes" "Hargood" "Hotham"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "HMS"
-		generic = { "MN" }
-		unique = {}
 	}
 
 	mdg_ship_hull_mac = {

@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "KRI"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "KRI"
@@ -77,12 +71,6 @@
 	mdg_ship_hull_corvette = {
 		prefix = "KRI"
 		generic = { "LCS" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "KRI"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }

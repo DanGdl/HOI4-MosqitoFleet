@@ -41,12 +41,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "NRB"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 	mdg_mac = {
 		prefix = ""
 		generic = { "AVG" }
@@ -92,12 +86,6 @@
 			"Vidal de Negreiros" "Barreto de Menezes" "Rio Pardo" "Guapore" "Gurupi" "Guaiba" "Gurupa" "Guajara" "Goaina" "Grajau" "Grauna" "Jutai" "Jurua" "Juruena"
 			"Jaguarao" "Jaguaribe" "Jacui" "Jundiai"
 		}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "NRB"
-		generic = { "Monitor" }
-		unique = {}
 	}
 
 	mdg_ship_hull_mac = {

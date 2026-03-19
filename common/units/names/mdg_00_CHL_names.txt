@@ -37,12 +37,6 @@
 		unique = {}
 	}
 
-	mdg_monitor = {
-		prefix = "BACH"
-		generic = { "Monitor" }
-		unique = {}
-	}
-
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "BACH"
@@ -77,12 +71,6 @@
 	mdg_ship_hull_corvette = {
 		prefix = "BACH"
 		generic = { "LCS" }
-		unique = {}
-	}
-
-	mdg_ship_hull_monitor = {
-		prefix = "BACH"
-		generic = { "Monitor" }
 		unique = {}
 	}
 }

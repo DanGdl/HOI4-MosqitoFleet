@@ -23,13 +23,9 @@
  modifier_experience_gain_mdg_midget_submarine_training_factor: "Ganho de experiência no treinamento de submarinos anões"
  modifier_experience_gain_mdg_midget_submarine_combat_factor: "Ganho de experiência em combate de submarinos anões"
 
- modifier_experience_gain_mdg_monitor_mission_factor: "Ganho de experiência em missão com monitor"
- modifier_experience_gain_mdg_monitor_training_factor: "Ganho de experiência de treinamento do monitor"
- modifier_experience_gain_mdg_monitor_combat_factor: "Ganho de experiência de combate do monitor"
-
- modifier_experience_gain_mdg_monitor_mission_factor: "Ganho de experiência em missão com porta-aviões auxiliar"
- modifier_experience_gain_mdg_mac_training_factor: "experiência de treinamento de porta-aviões auxiliar"
- modifier_experience_gain_mdg_mac_combat_factor: "experiência de combate de porta-aviões auxiliar"
+ modifier_experience_gain_mdg_mac_mission_factor: "Ganho de experiência em missão com porta-aviões auxiliar"
+ modifier_experience_gain_mdg_mac_training_factor: "Ganho de experiência de treinamento de porta-aviões auxiliar"
+ modifier_experience_gain_mdg_mac_combat_factor: "Ganho de experiência de combate de porta-aviões auxiliar"
 
  modifier_module_mdg_ship_light_guns_1_design_cost_factor: "Custo do projeto de canhões leves I"
  modifier_module_mdg_ship_light_guns_2_design_cost_factor: "Custo do projeto de canhões leves II"
@@ -48,7 +44,6 @@
  mdg_ship_hull_frigate_design_cost_factor: "Custo de projeto de fragata"
  mdg_ship_hull_midget_submarine_design_cost_factor: "Custo de projeto de submarino anão"
  modifier_trait_mdg_trait_mosquito_xp_gain_factor: "Ganho de XP da característica mosquito"
- mdg_ship_hull_monitor_design_cost_factor: "Custo de projeto do monitor"
  mdg_ship_hull_mac_design_cost_factor: "Custo do projeto de porta-aviões auxiliar"
  modifier_module_mdg_ship_deck_space_design_cost_factor: "Custo do projeto de espaço de hangar para navio"
 

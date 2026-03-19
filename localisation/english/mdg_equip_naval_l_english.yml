@@ -211,25 +211,6 @@
  mdg_ship_hull_midget_submarine_1: "Improved midget submarine"
  mdg_ship_hull_midget_submarine_1_desc: "A small-sized submarine operated by a small crew, that could be used for anything from harbor sabotage to convoy raiding. Its reduced range and weapon capacity is offset by a high production rate."
 
- mdg_monitor: "Monitor"
- mdg_monitor_1: "Monitor I"
- mdg_monitor_2: "Monitor II"
- mdg_monitor_1_desc: "Monitor I description"
- mdg_monitor_2_desc: "Monitor II description"
-
- BRA_mdg_monitor_1: "Type Pernambuco"
- BRA_mdg_monitor_2: "Type Parnaiba"
- ENG_mdg_monitor_1: "Type Erebus"
- ENG_mdg_monitor_2: "Type Roberts"
- SOV_mdg_monitor_2: "Type Khasan"
- YUG_mdg_monitor_1: "Type Morava"
-
- mdg_ship_hull_monitor: "Monitor"
- mdg_ship_hull_monitor_1: "Early monitor"
- mdg_ship_hull_monitor_1_desc: "Early monitor description"
- mdg_ship_hull_monitor_2: "Basic monitor"
- mdg_ship_hull_monitor_2_desc: "Basic monitor description"
-
  EQ_MOD_CAT_mdg_ship_light_guns_TITLE: "Automatic cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_TITLE: "Light cannons"
  EQ_MOD_CAT_mdg_ship_light_cannon_dp_TITLE: "Double purpose light cannons"
