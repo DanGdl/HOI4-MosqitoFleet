@@ -29,22 +29,27 @@ ENG_vosper_organization = {
 		# }
 	}
 
-	add_trait = {
-		token = generic_mio_trait_combined_materials
-		name = generic_mio_trait_combined_materials
+	override_trait = {
+		token = generic_mio_trait_combined_materials_hulls
+		name = generic_mio_trait_combined_materials_hulls
 		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
-		special_trait_background = yes
 
-		position = { x = 8 y = 0 }
+		position = { x = 2 y = 1 }
+		any_parent = { generic_mio_trait_advanced_hydrodynamic_design }
+		mutually_exclusive = { generic_mio_trait_metal_hulls generic_mio_trait_wooden_hulls }
+
 		equipment_bonus = {
 			build_cost_ic = 0.15
 			naval_speed = 0.1
 			max_strength = 0.1
 			naval_weather_penalty_factor = -0.1
 		}
-
+		production_bonus = {
+			production_cost_factor = -0.1
+			production_resource_need_factor = -0.05
+		}
 		ai_will_do = {
-			base = 2
+			base = 3
 		}
 	}
 }

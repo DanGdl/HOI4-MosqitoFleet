@@ -13,4 +13,6 @@
  generic_mio_trait_wooden_hulls: "木製船体"
  generic_mio_trait_lurssens_effect: "リュルセン効果"
  generic_mio_trait_section_production: "分割生産"
- generic_mio_trait_combined_materials: "船体用複合材"
+ generic_mio_trait_metal_hulls: "金属製船体"
+ generic_mio_trait_combined_materials_hulls: "複合材船体"
+ generic_mio_trait_sneak_engines: "電動スニークモーター"

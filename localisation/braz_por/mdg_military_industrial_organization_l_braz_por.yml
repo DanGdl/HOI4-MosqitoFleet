@@ -13,4 +13,6 @@
  generic_mio_trait_wooden_hulls: "Cascos de Madeira"
  generic_mio_trait_lurssens_effect: "Efeito Lürssen"
  generic_mio_trait_section_production: "Produção Seccional"
- generic_mio_trait_combined_materials: "Materiais Combinados para o Casco"
+ generic_mio_trait_metal_hulls: "Cascos de metal"
+ generic_mio_trait_combined_materials_hulls: "Cascos de materiais combinados"
+ generic_mio_trait_sneak_engines: "Motores elétricos furtivos"

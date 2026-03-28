@@ -13,4 +13,6 @@
  generic_mio_trait_wooden_hulls: "Wooden hulls"
  generic_mio_trait_lurssens_effect: "Lürssen effect"
  generic_mio_trait_section_production: "Sectional production"
- generic_mio_trait_combined_materials: "Combined materials for hull"
+ generic_mio_trait_metal_hulls: "Metal hulls"
+ generic_mio_trait_combined_materials_hulls: "Combined-material hulls"
+ generic_mio_trait_sneak_engines: "Electric sneak motors"

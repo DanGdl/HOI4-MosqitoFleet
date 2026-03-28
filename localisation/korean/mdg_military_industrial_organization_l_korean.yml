@@ -13,4 +13,6 @@
  generic_mio_trait_wooden_hulls: "목재 선체"
  generic_mio_trait_lurssens_effect: "뤼르센 효과"
  generic_mio_trait_section_production: "구역별 생산"
- generic_mio_trait_combined_materials: "선체 재료 결합"
+ generic_mio_trait_metal_hulls: "금속 선체"
+ generic_mio_trait_combined_materials_hulls: "복합 재료 선체"
+ generic_mio_trait_sneak_engines: "전기 스니크 모터"

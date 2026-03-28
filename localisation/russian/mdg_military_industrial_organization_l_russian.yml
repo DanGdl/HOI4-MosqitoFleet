@@ -13,4 +13,6 @@
  generic_mio_trait_wooden_hulls: "Деревянные корпуса"
  generic_mio_trait_lurssens_effect: "Эффект Люрсена"
  generic_mio_trait_section_production: "Секционное производство"
- generic_mio_trait_combined_materials: "Комбинирование материалов корпуса"
+ generic_mio_trait_metal_hulls: "Корпуса из металла"
+ generic_mio_trait_combined_materials_hulls: "Корпуса из комбинированых материалов"
+ generic_mio_trait_sneak_engines: "Электродвигатели подкрадывания"

@@ -13,4 +13,6 @@
  generic_mio_trait_wooden_hulls: "Drewniane kadłuby"
  generic_mio_trait_lurssens_effect: "Efekt Lürssena"
  generic_mio_trait_section_production: "Produkcja sekcyjna"
- generic_mio_trait_combined_materials: "Łączone materiały do kadłuba"
+ generic_mio_trait_metal_hulls: "Kadłuby metalowe"
+ generic_mio_trait_combined_materials_hulls: "Kadłuby z materiałów łączonych"
+ generic_mio_trait_sneak_engines: "Silniki elektryczne"
