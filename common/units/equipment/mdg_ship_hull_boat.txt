@@ -46,7 +46,6 @@ equipments = {
 
 		default_modules = {
 			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
