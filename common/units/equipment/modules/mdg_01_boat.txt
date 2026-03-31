@@ -3,12 +3,6 @@ equipment_modules = {
 		has_dlc = "Man the Guns"
 	}
 
-	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   #
-	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #
-	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #
-	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #
-	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #
-
 	mdg_ship_light_guns_1 = {
 		abbreviation = "lsg_1"
 		category = mdg_ship_light_guns
