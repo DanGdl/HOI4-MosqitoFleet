@@ -134,7 +134,7 @@ objectTypes = {
 	#}
 	#pdxmesh = {
 	#	name = "ITA_mdg_midget_mesh"
-	#	file = "gfx/models/units/ships/mdg_ita_midget.mesh"
+	#	file = "gfx/models/units/ships/ita_mdg_midget.mesh"
 	#
 	#	animation = { id = "idle"				type = "generic_submarine_idle_animation" }
 	#	animation = { id = "attack"				type = "generic_submarine_attack_animation" }
