@@ -25,7 +25,7 @@ objectTypes = {
 	# }
 	# pdxmesh = {
 	# 	name = "JAP_mdg_fac_mesh"
-	# 	file = "gfx/models/units/ships/mdg_jap_fac.mesh"
+	# 	file = "gfx/models/units/ships/jap_mdg_fac.mesh"
 
 	# 	animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
 	# 	animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
