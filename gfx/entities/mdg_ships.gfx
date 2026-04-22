@@ -3,7 +3,7 @@ objectTypes = {
 	# FAC
 	pdxmesh = {
 		name = "generic_mdg_fac_mesh" # same as ENG
-		file = "gfx/models/units/ships/mdg_eng_fac.mesh"
+		file = "gfx/models/units/ships/eng_mdg_fac.mesh"
 
 		animation = { id = "idle"				type = "eng_mdg_fac_idle_animation" }
 		animation = { id = "attack"				type = "eng_mdg_fac_attack_animation" }
@@ -14,7 +14,7 @@ objectTypes = {
 	}
 	# pdxmesh = {
 	# 	name = "ENG_mdg_fac_mesh"
-	# 	file = "gfx/models/units/ships/mdg_eng_fac.mesh"
+	# 	file = "gfx/models/units/ships/eng_mdg_fac.mesh"
 
 	# 	animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
 	# 	animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
