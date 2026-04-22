@@ -23,6 +23,17 @@ objectTypes = {
 	# 	animation = { id = "damaged_defend"		type = "generic_mdg_fac_defend_animation" }
 	# 	animation = { id = "death"				type = "generic_mdg_fac_death_animation" }
 	# }
+	pdxmesh = {
+		name = "GER_mdg_fac_mesh"
+		file = "gfx/models/units/ships/ger_mdg_fac.mesh"
+
+		animation = { id = "idle"				type = "generic_mdg_fac_idle_animation" }
+		animation = { id = "attack"				type = "generic_mdg_fac_attack_animation" }
+		animation = { id = "defend"				type = "generic_mdg_fac_defend_animation" }
+		animation = { id = "damaged_attack"		type = "generic_mdg_fac_attack_animation" }
+		animation = { id = "damaged_defend"		type = "generic_mdg_fac_defend_animation" }
+		animation = { id = "death"				type = "generic_mdg_fac_death_animation" }
+	}
 	# pdxmesh = {
 	# 	name = "JAP_mdg_fac_mesh"
 	# 	file = "gfx/models/units/ships/jap_mdg_fac.mesh"
