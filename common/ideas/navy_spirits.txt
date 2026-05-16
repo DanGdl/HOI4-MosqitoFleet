@@ -196,8 +196,8 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = small_fleet
 					has_doctrine = screen_support_focus
+					has_doctrine = small_fleet
 				}
 			}
 
@@ -226,8 +226,8 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = small_fleet
 					has_doctrine = jeune_ecole
+					has_doctrine = small_fleet
 				}
 			}
 			research_bonus = {
@@ -412,8 +412,8 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = small_fleet
 					has_doctrine = coastal_minelaying
+					has_doctrine = small_fleet
 				}
 			}
 
@@ -581,8 +581,8 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = small_fleet
 					has_doctrine = armored_raiders
+					has_doctrine = small_fleet
 				}
 			}
 			modifier = {
@@ -697,8 +697,8 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = small_fleet
 					has_doctrine = coastal_defence_fleet
+					has_doctrine = small_fleet
 				}
 			}
 			modifier = {
@@ -834,8 +834,8 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = small_fleet
 					has_doctrine = patrol_boats
+					has_doctrine = small_fleet
 				}
 			}
 			modifier = {
