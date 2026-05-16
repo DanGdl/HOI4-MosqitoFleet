@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SD_tv_boat_fra"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fra_mdg_topview_boat.dds"
+	}
+}
