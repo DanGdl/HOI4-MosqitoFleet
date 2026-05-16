@@ -49,7 +49,6 @@ equipments = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
 			fixed_ship_torpedo_slot = empty
-			rear_1_custom_slot = empty
 		}
 
 		lg_armor_piercing = 0
