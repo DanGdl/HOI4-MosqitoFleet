@@ -35,6 +35,9 @@ generic_small_ship_organization = {
 		production_bonus = {
 			production_capacity_factor = 0.1
 		}
+		equipment_bonus = {
+			max_strength = 0.05
+		}
 	}
 
 	trait = {
