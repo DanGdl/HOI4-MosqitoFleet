@@ -1,0 +1,57 @@
+PatrolReconForce_1_AuxCr = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_auxiliary = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_auxiliary = {
+			amount = 3
+		}
+	}
+}
+
+ConvoySurfaceRaiding_1_AuxCr = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	keep_updated = yes
+	mission = { convoy_raiding }
+	min_composition = {
+		mdg_auxiliary = {
+			amount = 1
+		}
+	}
+
+	optimal_composition = {
+		mdg_auxiliary = {
+			amount = 2
+		}
+	}
+}

@@ -114,10 +114,6 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 
-		build_cost_resources = {
-			steel = 1
-		}
-
 		multiply_stats = {
 			naval_speed = -0.04
 		}
@@ -259,10 +255,6 @@ equipment_modules = {
 			lg_attack = 2.2
 			anti_air_attack = 3.5
 			build_cost_ic = 160
-		}
-
-		build_cost_resources = {
-			steel = 1
 		}
 
 		multiply_stats = {

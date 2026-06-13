@@ -9,33 +9,21 @@ mdg_auxiliaries = {
 	}
 
 	roles = {
-		mdg_naval_auxiliary
+		naval_auxiliary
 	}
 
 	priority = {
-		factor = 2500
+		factor = 1500
 		modifier = {
-			factor = 2
+			factor = 10
 			is_major = no
-		}
-		modifier = {
-			factor = 3
-			num_of_naval_factories < 6
-		}
-		modifier = {
-			factor = 2
-			num_of_naval_factories > 5
 		}
 	}
 
 	mdg_auxiliary_default = {
 
 		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
+			factor = 10
 		}
 
 		role_icon_index = 2

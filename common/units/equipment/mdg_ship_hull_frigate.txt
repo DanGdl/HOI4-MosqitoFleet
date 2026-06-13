@@ -106,7 +106,7 @@ equipments = {
 		naval_speed = 30
 		reliability = 0.80
 
-		naval_range = 2000
+		naval_range = 2300
 
 		max_strength = 25
 
@@ -163,10 +163,10 @@ equipments = {
 		sub_detection = 3
 		naval_speed = 30
 		reliability = 0.85
-		naval_range = 2300
+		naval_range = 2500
 		max_strength = 35
 		build_cost_ic = 167
-		manpower = 300
+		manpower = 250
 		naval_dominance_factor = 27
 
 		resources = {
@@ -212,10 +212,10 @@ equipments = {
 		sub_detection = 3.5
 		naval_speed = 30
 		reliability = 0.85
-		naval_range = 2500
+		naval_range = 3300
 		max_strength = 45
 		build_cost_ic = 184
-		manpower = 350
+		manpower = 300
 		naval_dominance_factor = 33
 
 		resources = {
@@ -248,14 +248,14 @@ equipments = {
 		sub_detection = 4
 		naval_speed = 30
 		reliability = 0.9
-		naval_range = 3000
+		naval_range = 3700
 		max_strength = 55
 		build_cost_ic = 200
-		manpower = 400
-		naval_dominance_factor = 37
+		manpower = 350
+		naval_dominance_factor = 40
 
 		resources = {
-			steel = 3
+			steel = 2
 		}
 	}
 

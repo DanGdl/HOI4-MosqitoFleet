@@ -10,10 +10,6 @@
 			#ship = { name = "HTMS Sri Ayuthia" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Sri Ayuthia Class" } } }
 			#ship = { name = "HTMS Dhonburi" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = SIA version_name = "Sri Ayuthia Class" } } }
 
-			ship = { name = "HTMS Trad" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
-			ship = { name = "HTMS Phuket" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
-			ship = { name = "HTMS Pattani" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
-			ship = { name = "HTMS Surasdra" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
 			ship = { name = "HTMS Chandaburi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
 			ship = { name = "HTMS Rayong" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
 			ship = { name = "HTMS Chumporn" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = SIA version_name = "Trad Class" } } }

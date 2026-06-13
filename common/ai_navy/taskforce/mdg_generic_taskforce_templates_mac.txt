@@ -1,0 +1,65 @@
+PatrolReconForce_1_MAC = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_mac = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 3
+		}
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+}
+
+PatrolReconForce_2_MAC = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}		
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_mac = {
+			amount = 1
+		}
+
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+}

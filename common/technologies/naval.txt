@@ -1417,7 +1417,9 @@ technologies = {
 		}
 	}
 
-	fleet_submarines = {}
+	fleet_submarines = {
+
+	}
 
 	#cruiser_submarine = {
 		#enable_equipments = {

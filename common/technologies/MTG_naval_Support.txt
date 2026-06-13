@@ -950,7 +950,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
-			mio_cat_tech_all_submarine_and_modules #Not really Sub but unlocks tech improving Subs torpedo stuff later
+			mio_cat_tech_all_submarine_and_modules #Not really Sub but unlocks tech improving Subs torpedo stuff later #Now it is actually really a Sub Tech
 			mio_cat_tech_all_mdg_ssm_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
@@ -1180,6 +1180,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_submarine_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
@@ -1236,6 +1237,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_submarine_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
@@ -1278,6 +1280,7 @@ technologies = {
 			mio_cat_tech_all_screen_ship_and_modules
 			mio_cat_tech_all_cruiser_and_modules
 			mio_cat_tech_all_destroyer_and_modules
+			mio_cat_tech_all_submarine_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
 			mio_cat_tech_all_mdg_boat_and_modules
@@ -1309,7 +1312,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 3
+			factor = 1
 			modifier = {
 				factor = 0
 				date < 1937.1.1
@@ -1496,7 +1499,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 3
+			factor = 1
 			modifier = {
 				has_navy_size = { size < 10 }
 				factor = 0.1
@@ -1570,7 +1573,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 3
+			factor = 1
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1665,7 +1668,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 3
+			factor = 1
 			modifier = {
 				has_war = yes
 				factor = 2
@@ -1679,6 +1682,10 @@ technologies = {
 				}
 				date > 1941.1.1
 				factor = 5
+			}
+			modifier = {
+				factor = 0.1
+				original_tag = GER				
 			}
 		}
 
@@ -1880,7 +1887,7 @@ technologies = {
 					tag = ENG
 					tag = SOV
 				}
-				factor = 6
+				factor = 4
 			}
 			modifier = {
 				has_war = yes

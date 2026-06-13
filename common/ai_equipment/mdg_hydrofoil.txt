@@ -1,3 +1,4 @@
+# AI Ship Designs for Generic Nations
 
 mdg_hydrofoils = {
 	category = naval
@@ -9,7 +10,7 @@ mdg_hydrofoils = {
 	}
 
 	roles = {
-		mdg_naval_hydrofoil
+		naval_screen_hydrofoil
 	}
 
 	priority = {
@@ -18,30 +19,18 @@ mdg_hydrofoils = {
 			factor = 2
 			is_major = no
 		}
-		modifier = {
-			factor = 3
-			num_of_naval_factories < 8
-		}
-		modifier = {
-			factor = 2
-			num_of_naval_factories > 7
-		}
 	}
 
-	mdg_hydrofoil_default = {
+	mdg_hydrofoil_early = {
 
 		priority = {
 			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
 		}
 
 		role_icon_index = 2
 
 		target_variant = {
-			match_value = 2000.0
+			match_value = 1000.0
 
 			type = mdg_ship_hull_hydrofoil
 			modules = {
@@ -80,7 +69,7 @@ mdg_hydrofoils = {
 	}
 }
 
-mdg_naval_mine_layer_hydrofoil = {
+naval_mine_layer_hydrofoil = {
 	category = naval
 
 	blocked_for = {
@@ -90,7 +79,7 @@ mdg_naval_mine_layer_hydrofoil = {
 	}
 
 	roles = {
-		mdg_naval_hydrofoil_mine_layer
+		naval_mine_layer_hydrofoil
 	}
 
 	priority = {

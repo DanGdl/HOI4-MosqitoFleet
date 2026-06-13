@@ -6,38 +6,38 @@ default_role_ratios = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate
-		value = 100
+		id = naval_mac
+		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette
-		value = 100
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_boat
-		value = 100
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_hydrofoil
-		value = 70
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_midget_sub
+		id = naval_submarine_midget
 		value = 90
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_auxiliary
+		id = naval_screen_frigate
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen_corvette
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen_fac
+		value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen_hydrofoil
 		value = 70
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_mac
-		value = 30
+		id = naval_auxiliary
+		value = 70
 	}
 }
 
@@ -47,87 +47,88 @@ default_role_ratios = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate
-		value = 50
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_frigate_escort
-		value = 45
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_frigate_mine_layer
-		value = 22
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_frigate_mine_sweeper
-		value = 17
+		id = naval_mac
+		value = -60
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette
-		value = 40
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_corvette_escort
-		value = 40
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_corvette_mine_layer
-		value = 22
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_corvette_mine_sweeper
-		value = 17
+		id = naval_submarine_midget
+		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat
-		value = 50
+		id = naval_screen_frigate
+		value = 60
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat_escort
+		id = naval_escort_frigate
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer_frigate
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat_mine_layer
+		id = naval_mine_sweeper_frigate
+		value = 14
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen_corvette
+		value = 50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort_corvette
+		value = 35
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer_corvette
+		value = 20
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_sweeper_corvette
+		value = 14
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = naval_screen_fac
+		value = 40
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_escort_fac
+		value = 20
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = naval_mine_layer_fac
 		value = 15
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_hydrofoil
-		value = 30
+		id = naval_screen_hydrofoil
+		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_hydrofoil_mine_layer
-		value = 20
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_midget_sub
+		id = naval_mine_layer_hydrofoil
 		value = 20
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_auxiliary
-		value = 30
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mdg_naval_mac
-		value = 5
+		id = naval_auxiliary
+		value = 15
 	}
 }
 
@@ -142,57 +143,57 @@ convoy_voy_voy_voy = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate
+		id = naval_screen_frigate
 		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate_escort
+		id = naval_escort_frigate
 		value = 27
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate_mine_layer
+		id = naval_mine_layer_frigate
 		value = -10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette
+		id = naval_screen_corvette
 		value = 30
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette_escort
+		id = naval_escort_corvette
 		value = 27
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette_mine_layer
+		id = naval_mine_layer_corvette
 		value = -10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat
+		id = naval_screen_fac
 		value = 35
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat_escort
+		id = naval_escort_fac
 		value = 19
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_hydrofoil
-		value = 15
+		id = naval_mine_layer_fac
+		value = -10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat_mine_layer
-		value = -10
+		id = naval_screen_hydrofoil
+		value = 15
 	}
 }
 
@@ -207,35 +208,35 @@ ill_show_you_mine = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate_mine_layer
+		id = naval_mine_layer_frigate
 		value = -10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate_mine_sweeper
+		id = naval_mine_sweeper_frigate
 		value = 22
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette_mine_layer
+		id = naval_mine_layer_corvette
 		value = -10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette_mine_sweeper
+		id = naval_mine_sweeper_corvette
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat_mine_layer
+		id = naval_mine_layer_fac
 		value = -10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_hydrofoil_mine_layer
+		id = naval_mine_layer_hydrofoil
 		value = -10
 	}
 }
@@ -251,35 +252,35 @@ ill_show_you_mine_2 = {
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate_mine_layer
+		id = naval_mine_layer_frigate
 		value = -10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_frigate_mine_sweeper
+		id = naval_mine_sweeper_frigate
 		value = 22
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette_mine_layer
+		id = naval_mine_layer_corvette
 		value = -10
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_corvette_mine_sweeper
+		id = naval_mine_sweeper_corvette
 		value = 20
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_boat_mine_layer
+		id = naval_mine_layer_fac
 		value = -10
 	}
 
 	ai_strategy = {
 		type = role_ratio
-		id = mdg_naval_hydrofoil_mine_layer
+		id = naval_mine_layer_hydrofoil
 		value = -10
 	}
 }
