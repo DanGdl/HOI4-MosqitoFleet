@@ -38,7 +38,7 @@
 
 	create_equipment_variant = {
 		name = "R"
-		type = mdg_ship_hull_boat_2
+		type = mdg_ship_hull_fac_2
 		parent_version = 0
 		obsolete = no
 		design_team = mio:GER_lurssen_organization
@@ -53,7 +53,7 @@
 
 	create_equipment_variant = {
 		name = "S-10"
-		type = mdg_ship_hull_boat_2
+		type = mdg_ship_hull_fac_2
 		parent_version = 0
 		obsolete = no
 		design_team = mio:GER_lurssen_organization

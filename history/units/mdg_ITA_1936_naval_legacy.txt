@@ -7,11 +7,11 @@
 			name = "Squadra di Mar Rosso 2"
 			location = 2800 # near Massawa, Eritrea
 
-			ship = { name = "RCT MAS-204" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
-			ship = { name = "RCT MAS-206" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
-			ship = { name = "RCT MAS-210" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
-			ship = { name = "RCT MAS-213" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
-			ship = { name = "RCT MAS-216" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "RCT MAS-204" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "RCT MAS-206" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "RCT MAS-210" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "RCT MAS-213" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "RCT MAS-216" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
 
 			ship = { name = "RCT Eritrea" definition = mdg_corvette equipment = { mdg_corvette_2 = { amount = 1 owner = ITA version_name = "Eritrea Class" } } }
 		}
@@ -62,22 +62,22 @@
 			name = "Squadra di Mar Adriatico"
 			location = 5812 # near Ancona
 
-			ship = { name = "RCT МАS-423" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
-			ship = { name = "RCT MAS-426" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
-			ship = { name = "RCT MAS-430" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
-			ship = { name = "RCT MAS-431" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "RCT МАS-423" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "RCT MAS-426" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "RCT MAS-430" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
+			ship = { name = "RCT MAS-431" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
 
-			ship = { name = "RCT МАS-432" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
-			ship = { name = "RCT MAS-433" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
-			ship = { name = "RCT MAS-434" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
-			ship = { name = "RCT MAS-437" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "RCT МАS-432" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "RCT MAS-433" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "RCT MAS-434" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "RCT MAS-437" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
 
-			ship = { name = "RCT MAS-438" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
-			ship = { name = "RCT MAS-439" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
-			ship = { name = "RCT MAS-440" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
-			ship = { name = "RCT MAS-441" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "RCT MAS-438" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "RCT MAS-439" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "RCT MAS-440" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
+			ship = { name = "RCT MAS-441" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
 
-			ship = { name = "RCT Stefano Turr" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = ITA version_name = "Stefano Turr" } } }
+			ship = { name = "RCT Stefano Turr" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = ITA version_name = "Stefano Turr" } } }
 
 			ship = { name = "RCT Vieste" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "1916/1918 Class" } } }
 			ship = { name = "RCT Cortone" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ITA version_name = "1916/1918 Class" } } }

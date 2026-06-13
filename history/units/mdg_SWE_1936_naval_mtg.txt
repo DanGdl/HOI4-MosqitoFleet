@@ -16,12 +16,12 @@
 			ship = { name = "HMS Snapphanen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
 			ship = { name = "HMS Vaktaren" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SWE version_name = "Sokaren Class" } } }
 
-			ship = { name = "HMS V-27" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
-			ship = { name = "HMS V-30" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
-			ship = { name = "HMS V-33" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
-			ship = { name = "HMS V-34" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
-			ship = { name = "HMS V-35" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
-			ship = { name = "HMS V-36" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
+			ship = { name = "HMS V-27" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
+			ship = { name = "HMS V-30" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
+			ship = { name = "HMS V-33" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
+			ship = { name = "HMS V-34" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
+			ship = { name = "HMS V-35" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
+			ship = { name = "HMS V-36" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "V-27 Class" } } }
 
 			ship = { name = "HMS V-39" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SWE version_name = "V-39 Class" } } }
 			ship = { name = "HMS V-40" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SWE version_name = "V-39 Class" } } }
@@ -39,7 +39,7 @@
 			ship = { name = "HMS V-53" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SWE version_name = "V-39 Class" } } }
 			ship = { name = "HMS V-54" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SWE version_name = "V-39 Class" } } }
 
-			ship = { name = "HMS МТВ-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "MTB Thornycroft Class" } } }
-			ship = { name = "HMS МТВ-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SWE version_name = "MTB Thornycroft Class" } } }		}
+			ship = { name = "HMS МТВ-3" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "MTB Thornycroft Class" } } }
+			ship = { name = "HMS МТВ-4" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SWE version_name = "MTB Thornycroft Class" } } }		}
 	}
 }

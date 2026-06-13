@@ -12,16 +12,16 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_mio_cat_eq_all_mdg_boat"
+		name = "GFX_mio_cat_eq_all_mdg_fac"
 		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_fac_ship.dds"
 	}
 
 	spriteType = {
-		name = "GFX_military_industrial_organization_mdg_boat"
+		name = "GFX_military_industrial_organization_mdg_fac"
 		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_fac_ship.dds"
 	}
 	spriteType = {
-		name = "GFX_military_industrial_organization_mdg_ship_hull_boat"
+		name = "GFX_military_industrial_organization_mdg_ship_hull_fac"
 		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_fac_ship.dds"
 	}
 

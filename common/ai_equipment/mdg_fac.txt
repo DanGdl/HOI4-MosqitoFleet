@@ -36,7 +36,7 @@ mdg_facs = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_fac_1
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -71,7 +71,7 @@ mdg_facs = {
 		}
 	}
 
-	mdg_boat_bacis = {
+	mdg_fac_bacis = {
 
 		priority = {
 			factor = 100
@@ -86,7 +86,7 @@ mdg_facs = {
 		target_variant = {
 			match_value = 2000.0
 
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -121,7 +121,7 @@ mdg_facs = {
 		}
 	}
 
-	mdg_boat_improved = {
+	mdg_fac_improved = {
 
 		priority = {
 			factor = 200
@@ -136,7 +136,7 @@ mdg_facs = {
 		target_variant = {
 			match_value = 3000.0
 
-			type = mdg_ship_hull_boat_3
+			type = mdg_ship_hull_fac_3
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -175,7 +175,7 @@ mdg_facs = {
 		}
 	}
 
-	mdg_boat_advanced = {
+	mdg_fac_advanced = {
 
 		priority = {
 			factor = 300
@@ -186,7 +186,7 @@ mdg_facs = {
 		target_variant = {
 			match_value = 4000.0
 
-			type = mdg_ship_hull_boat_4
+			type = mdg_ship_hull_fac_4
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -262,7 +262,7 @@ generic_escorts_fac = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_fac_1
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -313,7 +313,7 @@ generic_escorts_fac = {
 		target_variant = {
 			match_value = 2000.0
 
-			type = mdg_ship_hull_boat_3
+			type = mdg_ship_hull_fac_3
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns }
@@ -394,7 +394,7 @@ naval_mine_layer_fac = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_fac_1
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {
@@ -446,7 +446,7 @@ naval_mine_layer_fac = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_boat_3
+			type = mdg_ship_hull_fac_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {

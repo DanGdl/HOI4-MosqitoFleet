@@ -69,7 +69,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -120,7 +120,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -136,7 +136,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		mdg_boat = {
+		mdg_fac = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -229,7 +229,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -304,7 +304,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -320,7 +320,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		mdg_boat = {
+		mdg_fac = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -409,7 +409,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -454,7 +454,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -787,7 +787,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -841,7 +841,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -891,7 +891,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -954,7 +954,7 @@ technologies = {
 			mio_cat_tech_all_mdg_ssm_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -985,7 +985,7 @@ technologies = {
 		heavy_cruiser = {
 			torpedo_attack = 0.2
 		}
-		mdg_boat = {
+		mdg_fac = {
 			torpedo_attack = 0.2
 		}
 		mdg_hydrofoil = {
@@ -1040,7 +1040,7 @@ technologies = {
 			mio_cat_tech_all_mdg_ssm_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1058,7 +1058,7 @@ technologies = {
 		}
 		start_year = 1942
 
-		mdg_boat = {
+		mdg_fac = {
 			naval_torpedo_hit_chance_factor = 0.1
 		}
 		mdg_hydrofoil = {
@@ -1122,7 +1122,7 @@ technologies = {
 			mio_cat_tech_all_mdg_ssm_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1183,7 +1183,7 @@ technologies = {
 			mio_cat_tech_all_submarine_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1240,7 +1240,7 @@ technologies = {
 			mio_cat_tech_all_submarine_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1283,7 +1283,7 @@ technologies = {
 			mio_cat_tech_all_submarine_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1347,7 +1347,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
 		special_project_specialization = { specialization_naval }
@@ -1402,7 +1402,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
 		special_project_specialization = { specialization_naval }
@@ -1459,7 +1459,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
 		special_project_specialization = { specialization_naval }
@@ -1540,7 +1540,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules #Not really but for further tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1610,7 +1610,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules #Not really but for further tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1655,7 +1655,7 @@ technologies = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
-		mdg_boat = {
+		mdg_fac = {
 			lg_attack = 0.05
 			hg_attack = 0.05
 		}
@@ -1698,7 +1698,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1768,7 +1768,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1908,7 +1908,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1921,7 +1921,7 @@ technologies = {
 
 		naval_mines_effect_reduction = 0.5
 
-		mdg_boat = {
+		mdg_fac = {
 			sub_detection = 0.1
 		}
 		mdg_corvette = {
@@ -1970,7 +1970,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 			mio_cat_tech_all_mdg_ssm_and_modules
 		}
 		special_project_specialization = { specialization_naval }
@@ -2025,7 +2025,7 @@ technologies = {
 			mio_cat_tech_all_destroyer_and_modules
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}

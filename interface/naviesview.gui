@@ -149,14 +149,14 @@ guiTypes = {
 
 		# from mod
 		buttonType = {
-			name = "btn_target_mdg_boat"
+			name = "btn_target_mdg_fac"
 			position = { x = 428 y = 104 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
 		}
 		iconType = {
 			name = "button_10_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_boat"
+			spriteType = "GFX_navalcombat_ship_icon_mdg_fac"
 			position = { x = 458 y = 109 }
 			alwaysTransparent = yes
 		}

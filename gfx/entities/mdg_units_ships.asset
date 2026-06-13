@@ -1,6 +1,6 @@
 # FAC/BOAT
 entity = {
-	name = "mdg_boat_entity"
+	name = "mdg_fac_entity"
 	pdxmesh = "generic_mdg_fac_mesh"
 
 	state = {
@@ -149,7 +149,7 @@ entity = {
 }
 
 # entity = {
-# 	name = "JAP_mdg_boat_entity"
+# 	name = "JAP_mdg_fac_entity"
 # 	pdxmesh = "JAP_mdg_fac_mesh"
 
 # 	state = {
@@ -298,7 +298,7 @@ entity = {
 # }
 
 # entity = {
-# 	name = "SOV_mdg_boat_entity"
+# 	name = "SOV_mdg_fac_entity"
 # 	pdxmesh = "SOV_mdg_fac_mesh"
 
 # 	state = {

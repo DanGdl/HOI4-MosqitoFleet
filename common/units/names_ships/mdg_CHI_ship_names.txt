@@ -18,7 +18,7 @@ CHI_BOAT_HISTORICAL = {
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { mdg_ship_hull_boat mdg_boat }
+	ship_types = { mdg_ship_hull_fac mdg_fac }
 
 	prefix = ""
 	fallback_name = "Kuai %s"

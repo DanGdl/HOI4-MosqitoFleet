@@ -1,7 +1,7 @@
 categories = {
 
 	water_fjords = {
-		mdg_boat = {
+		mdg_fac = {
 			units = {
 				attack = 0.2
 				movement = 0.2
@@ -41,7 +41,7 @@ categories = {
 	}
 
 	water_shallow_sea = {
-		mdg_boat = {
+		mdg_fac = {
 			units = {
 				attack = 0.1
 				movement = 0.1
@@ -68,7 +68,7 @@ categories = {
 	}
 
 	water_deep_ocean = {
-		mdg_boat = {
+		mdg_fac = {
 			units = {
 				attack = -0.4
 				movement = -0.4

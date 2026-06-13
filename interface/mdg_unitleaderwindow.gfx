@@ -4,4 +4,10 @@ spriteTypes = {
 		name = "GFX_trait_mdg_trait_mosquito"
 		texturefile = "gfx/interface/traits/mdg_trait_mosquito.dds"
 	}
+
+	#TODO: fix
+	spriteType = {
+		name = "GFX_trait_fac_officer"
+		texturefile = "gfx/interface/traits/personal/trait_destroyer_officer.dds"
+	}
 }

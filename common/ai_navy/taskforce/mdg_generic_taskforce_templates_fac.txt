@@ -16,12 +16,12 @@ PatrolReconForce_1_FAC = {
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 2
 		}
 	}	
 	optimal_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 8
 		}
 	}
@@ -44,7 +44,7 @@ PatrolDominanceForce_CA_1_FAC = {
 	}
 	mission = { naval_patrol }
 	min_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 4
 		}
 	}
@@ -53,7 +53,7 @@ PatrolDominanceForce_CA_1_FAC = {
 		heavy_cruiser = {
 			amount = 2
 		}
-		mdg_boat = {
+		mdg_fac = {
 			amount = 12
 		}
 	}
@@ -77,13 +77,13 @@ ConvoySurfaceRaiding_1_FAC = {
 	keep_updated = yes
 	mission = { convoy_raiding }
 	min_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 3
 		}
 	}
 
 	optimal_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 6
 		}
 	}
@@ -106,13 +106,13 @@ ConvoyEscort_1_FAC = {
 	}
 	mission = { convoy_escort }
 	min_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 4
 		}
 	}
 	
 	optimal_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 8
 		}
 	}
@@ -135,14 +135,14 @@ MineLaying_1_FAC = {
 	}
 	mission = { mines_planting }
 	min_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 1
 			role = 4
 		}
 	}
 	
 	optimal_composition = {
-		mdg_boat = {
+		mdg_fac = {
 			amount = 4
 			role = 4
 		}

@@ -1,13 +1,13 @@
 equipments = {
 
-	mdg_ship_hull_boat = {
+	mdg_ship_hull_fac = {
 		year = 1922
 
 		is_archetype = yes
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
-		alias = mdg_boat
+		alias = mdg_fac
 		priority = 2300
 
 		module_slots = {
@@ -89,24 +89,24 @@ equipments = {
 		naval_dominance_factor = 19
 	}
 
-	mdg_ship_hull_boat_1 = {
+	mdg_ship_hull_fac_1 = {
 		abbreviation = "hb_1"
 		year = 1922
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
 
 		module_slots = inherit
 		naval_dominance_factor = 19
 	}
 
-	mdg_ship_hull_boat_2 = {
+	mdg_ship_hull_fac_2 = {
 		abbreviation = "hb_2"
 		year = 1936
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
-		parent = mdg_ship_hull_boat_1
+		parent = mdg_ship_hull_fac_1
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -135,13 +135,13 @@ equipments = {
 		}
 	}
 
-	mdg_ship_hull_boat_3 = {
+	mdg_ship_hull_fac_3 = {
 		abbreviation = "hb_3"
 		year = 1940
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
-		parent = mdg_ship_hull_boat_2
+		parent = mdg_ship_hull_fac_2
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -178,13 +178,13 @@ equipments = {
 		}
 	}
 
-	mdg_ship_hull_boat_4 = {
+	mdg_ship_hull_fac_4 = {
 		abbreviation = "hb_4"
 		year = 1944
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
-		parent = mdg_ship_hull_boat_3
+		parent = mdg_ship_hull_fac_3
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -211,10 +211,10 @@ equipments = {
 
 	# VANILA
 
-	mdg_boat_1 = {
+	mdg_fac_1 = {
 		year = 1922
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
 		module_slots = inherit
 		default_modules = {
@@ -262,12 +262,12 @@ equipments = {
 		manpower = 100
 	}
 
-	mdg_boat_2 = {
+	mdg_fac_2 = {
 		year = 1936
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
-		parent = mdg_boat_1
+		parent = mdg_fac_1
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -306,12 +306,12 @@ equipments = {
 		manpower = 150
 	}
 
-	mdg_boat_3 = {
+	mdg_fac_3 = {
 		year = 1940
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
-		parent = mdg_boat_2
+		parent = mdg_fac_2
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = empty
@@ -350,12 +350,12 @@ equipments = {
 		manpower = 200
 	}
 
-	mdg_boat_4 = {
+	mdg_fac_4 = {
 		year = 1944
 
-		archetype = mdg_ship_hull_boat
+		archetype = mdg_ship_hull_fac
 		priority = 2300
-		parent = mdg_boat_3
+		parent = mdg_fac_3
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = empty

@@ -77,7 +77,7 @@ leader_traits = {
 		#cost = 500
 		# also remove trait_type to make a trait receivable via actions
 		sub_unit_modifiers = {
-			mdg_boat = {
+			mdg_fac = {
 				navy_visibility = -0.1
 				naval_damage_factor = 0.1
 				naval_torpedo_hit_chance_factor = 0.1

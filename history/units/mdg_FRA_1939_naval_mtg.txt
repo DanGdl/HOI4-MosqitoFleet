@@ -29,8 +29,8 @@
 			ship = { name = "Annamite" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
 			ship = { name = "La Surprise" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
 
-			ship = { name = "VTB-9" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = FRA version_name = "VTB-8 Class" } } }
-			ship = { name = "VTB-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = FRA version_name = "VTB-8 Class" } } }
+			ship = { name = "VTB-9" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = FRA version_name = "VTB-8 Class" } } }
+			ship = { name = "VTB-10" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = FRA version_name = "VTB-8 Class" } } }
 		}
 	}
 }

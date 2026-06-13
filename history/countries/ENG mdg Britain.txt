@@ -215,7 +215,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "60-feet boat"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			design_team = mio:ENG_vosper_organization
 			modules = {
@@ -229,7 +229,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "60-feet boat ASW"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			design_team = mio:ENG_vosper_organization
 			modules = {

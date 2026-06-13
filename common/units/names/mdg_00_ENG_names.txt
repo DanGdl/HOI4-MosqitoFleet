@@ -7,7 +7,7 @@
 		unique = {}
 	}
 
-	mdg_boat = {
+	mdg_fac = {
 		prefix = "HMS"
 		generic = { "MTB" }
 		unique = {}
@@ -74,7 +74,7 @@
 		unique = {}
 	}
 
-	mdg_ship_hull_boat = {
+	mdg_ship_hull_fac = {
 		prefix = "HMS"
 		generic = { "MBT" }
 		unique = {}

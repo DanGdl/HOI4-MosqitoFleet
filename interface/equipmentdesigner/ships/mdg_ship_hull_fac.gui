@@ -1,9 +1,9 @@
 ################# Equipment Designer Window layouts: Light Ship Hulls (new format examples) #################
 guiTypes = {
 
-	################# Equipment Archetype: mdg_ship_hull_boat #################
+	################# Equipment Archetype: mdg_ship_hull_fac #################
 	containerWindowType = {
-		name = "equipment_designer_mdg_ship_hull_boat_ita"
+		name = "equipment_designer_mdg_ship_hull_fac"
 
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x = 0 y = 0 }
@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_boat_ita"
+			spriteType = "GFX_SD_tv_boat"
 			position = { x = 0 y = 0 }
 		}
 
@@ -38,8 +38,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_light_battery_ita"
-						position = { x = 390 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_light_battery"
+						position = { x = 321 y = 0 }
 					}
 				}
 
@@ -50,8 +50,8 @@ guiTypes = {
 
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_mdg_boat_light_battery_ita@highlight"
-						position = { x = 390 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_light_battery@highlight"
+						position = { x = 321 y = 0 }
 					}
 				}
 			}
@@ -126,8 +126,8 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint"
-						spriteType = "GFX_SM_mdg_boat_torpedo_ita"
-						position = { x = 297 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_torpedo"
+						position = { x = 199 y = 0 }
 					}
 				}
 
@@ -138,8 +138,8 @@ guiTypes = {
 
 					iconType = {
 						name = "blueprint_highlight"
-						spriteType = "GFX_SM_mdg_boat_torpedo_ita@highlight"
-						position = { x = 297 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_torpedo@highlight"
+						position = { x = 199 y = 0 }
 					}
 				}
 
@@ -151,8 +151,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_depth_charge_ita"
-						position = { x = 42 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_depth_charge"
+						position = { x = 155 y = 0 }
 					}
 				}
 
@@ -163,8 +163,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_depth_charge_ita@highlight"
-						position = { x = 42 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_depth_charge@highlight"
+						position = { x = 155 y = 0 }
 					}
 				}
 			}
@@ -176,7 +176,7 @@ guiTypes = {
 				size = { width = 100% height = 100% }
 
 				containerWindowType = {
-					name = "mdg_boat_engine"
+					name = "mdg_fac_engine"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 
@@ -188,7 +188,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "mdg_boat_engine@highlight"
+					name = "mdg_fac_engine@highlight"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 100% }
 
@@ -214,8 +214,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mid_torpedo_ita"
-						position = { x = 81 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_torpedo"
+						position = { x = 106 y = 0 }
 					}
 				}
 
@@ -226,8 +226,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mid_torpedo_ita@highlight"
-						position = { x = 81 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_torpedo@highlight"
+						position = { x = 106 y = 0 }
 					}
 				}
 
@@ -239,8 +239,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mine_layer_ita"
-						position = { x = 44 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mine_layer"
+						position = { x = 98 y = 0 }
 					}
 				}
 
@@ -251,8 +251,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mine_layer_ita@highlight"
-						position = { x = 44 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mine_layer@highlight"
+						position = { x = 98 y = 0 }
 					}
 				}
 
@@ -264,8 +264,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_depth_charge_ita"
-						position = { x = 42 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_depth_charge"
+						position = { x = 155 y = 0 }
 					}
 				}
 
@@ -276,8 +276,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_depth_charge_ita@highlight"
-						position = { x = 42 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_depth_charge@highlight"
+						position = { x = 155 y = 0 }
 					}
 				}
 
@@ -289,8 +289,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_rear_light_battery_ita"
-						position = { x = 133 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_light_battery"
+						position = { x = 221 y = 0 }
 					}
 				}
 
@@ -301,8 +301,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_rear_light_battery_ita@highlight"
-						position = { x = 133 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_light_battery@highlight"
+						position = { x = 221 y = 0 }
 					}
 				}
 			}
@@ -321,8 +321,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mid_torpedo_ita"
-						position = { x = 81 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_torpedo"
+						position = { x = 106 y = 0 }
 					}
 				}
 
@@ -333,8 +333,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mid_torpedo_ita@highlight"
-						position = { x = 81 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mid_torpedo@highlight"
+						position = { x = 106 y = 0 }
 					}
 				}
 
@@ -346,8 +346,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mine_layer_ita"
-						position = { x = 44 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mine_layer"
+						position = { x = 98 y = 0 }
 					}
 				}
 
@@ -358,8 +358,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_mine_layer_ita@highlight"
-						position = { x = 44 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_mine_layer@highlight"
+						position = { x = 98 y = 0 }
 					}
 				}
 
@@ -371,8 +371,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_depth_charge_ita"
-						position = { x = 42 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_rear_depth_charge"
+						position = { x = 100 y = 0 }
 					}
 				}
 
@@ -383,8 +383,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_depth_charge_ita@highlight"
-						position = { x = 42 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_rear_depth_charge@highlight"
+						position = { x = 100 y = 0 }
 					}
 				}
 
@@ -396,8 +396,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_rear_light_battery_ita"
-						position = { x = 133 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_rear_light_battery"
+						position = { x = 121 y = 0 }
 					}
 				}
 
@@ -408,8 +408,8 @@ guiTypes = {
 
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_mdg_boat_rear_light_battery_ita@highlight"
-						position = { x = 133 y = 0 }
+						spriteType = "GFX_SM_mdg_fac_rear_light_battery@highlight"
+						position = { x = 121 y = 0 }
 					}
 				}
 			}

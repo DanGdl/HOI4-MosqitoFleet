@@ -33,7 +33,7 @@ small_fleet = {
 	mdg_corvette = {
 		max_organisation = 10
 	}
-	mdg_boat = {
+	mdg_fac = {
 		max_organisation = 10
 	}
 	mdg_hydrofoil = {

@@ -35,7 +35,7 @@
 
 	create_equipment_variant = {
 		name = "V-27 Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:SWE_gotaverken_organization
 		modules = {
@@ -65,7 +65,7 @@
 
 	create_equipment_variant = {
 		name = "MTB Thornycroft Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:SWE_gotaverken_organization
 		modules = {
@@ -107,7 +107,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "MAS Class"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			design_team = mio:SWE_gotaverken_organization
 			modules = {

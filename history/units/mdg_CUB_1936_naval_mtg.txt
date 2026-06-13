@@ -24,10 +24,10 @@
 			ship = { name = "ARC Oriente" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
 			ship = { name = "ARC Саmaguey" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
 
-			ship = { name = "ARC CS-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
-			ship = { name = "ARC CS-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
-			ship = { name = "ARC CS-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
-			ship = { name = "ARC CS-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
+			ship = { name = "ARC CS-1" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
+			ship = { name = "ARC CS-2" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
+			ship = { name = "ARC CS-3" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
+			ship = { name = "ARC CS-4" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
 		}
 	}
 }

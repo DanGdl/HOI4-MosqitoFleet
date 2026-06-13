@@ -7,7 +7,7 @@ technologies = {
 			destroyer_1
 			mdg_frigate_1
 			mdg_corvette_1
-			mdg_boat_1
+			mdg_fac_1
 		}
 
 		path = {
@@ -44,7 +44,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -56,7 +56,7 @@ technologies = {
 			destroyer_2
 			mdg_frigate_2
 			mdg_corvette_2
-			mdg_boat_2
+			mdg_fac_2
 		}
 
 		path = {
@@ -93,7 +93,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -105,7 +105,7 @@ technologies = {
 			destroyer_3
 			mdg_frigate_3
 			mdg_corvette_3
-			mdg_boat_3
+			mdg_fac_3
 		}
 
 		path = {
@@ -142,7 +142,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -154,7 +154,7 @@ technologies = {
 			destroyer_4
 			mdg_frigate_4
 			mdg_corvette_4
-			mdg_boat_4
+			mdg_fac_4
 		}
 
 		research_cost = 2
@@ -186,7 +186,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}

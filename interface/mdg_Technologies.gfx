@@ -107,266 +107,266 @@ spriteTypes = {
 	# TORPEDO BOATS
 	# GENERIC
 	SpriteType = {
-		name = "GFX_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
+		name = "GFX_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
+		name = "GFX_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
+		name = "GFX_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
+		name = "GFX_mdg_fac_4_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
+		name = "GFX_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
+		name = "GFX_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
+		name = "GFX_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
+		name = "GFX_mdg_ship_hull_fac_4_medium"
+		texturefile = "gfx/interface/technologies/USA_mdg_fac_4.dds"
 	}
 
 	# France
 	SpriteType = {
-		name = "GFX_FRA_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/FRA_mdg_boat_1.dds"
+		name = "GFX_FRA_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/FRA_mdg_boat_2.dds"
+		name = "GFX_FRA_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/FRA_mdg_boat_3.dds"
+		name = "GFX_FRA_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/FRA_mdg_boat_1.dds"
+		name = "GFX_FRA_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/FRA_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/FRA_mdg_boat_2.dds"
+		name = "GFX_FRA_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/FRA_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_FRA_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/FRA_mdg_boat_3.dds"
+		name = "GFX_FRA_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/FRA_mdg_fac_3.dds"
 	}
 
 	# ENG
 	SpriteType = {
-		name = "GFX_ENG_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_1.dds"
+		name = "GFX_ENG_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_2.dds"
+		name = "GFX_ENG_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_3.dds"
+		name = "GFX_ENG_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_4.dds"
+		name = "GFX_ENG_mdg_fac_4_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_1.dds"
+		name = "GFX_ENG_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_2.dds"
+		name = "GFX_ENG_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_3.dds"
+		name = "GFX_ENG_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/ENG_mdg_boat_4.dds"
+		name = "GFX_ENG_mdg_ship_hull_fac_4_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_fac_4.dds"
 	}
 
 	# GER
 	SpriteType = {
-		name = "GFX_GER_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_1.dds"
+		name = "GFX_GER_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_2.dds"
+		name = "GFX_GER_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_3.dds"
+		name = "GFX_GER_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_4.dds"
+		name = "GFX_GER_mdg_fac_4_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_1.dds"
+		name = "GFX_GER_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_2.dds"
+		name = "GFX_GER_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_3.dds"
+		name = "GFX_GER_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/GER_mdg_boat_4.dds"
+		name = "GFX_GER_mdg_ship_hull_fac_4_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_fac_4.dds"
 	}
 
 	# ITA
 	SpriteType = {
-		name = "GFX_ITA_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_1.dds"
+		name = "GFX_ITA_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_2.dds"
+		name = "GFX_ITA_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_3.dds"
+		name = "GFX_ITA_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_4.dds"
+		name = "GFX_ITA_mdg_fac_4_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_1.dds"
+		name = "GFX_ITA_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_2.dds"
+		name = "GFX_ITA_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_3.dds"
+		name = "GFX_ITA_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ITA_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/ITA_mdg_boat_4.dds"
+		name = "GFX_ITA_mdg_ship_hull_fac_4_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_fac_4.dds"
 	}
 
 	# JAP
 	SpriteType = {
-		name = "GFX_JAP_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_1.dds"
+		name = "GFX_JAP_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_2.dds"
+		name = "GFX_JAP_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_3.dds"
+		name = "GFX_JAP_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_4.dds"
+		name = "GFX_JAP_mdg_fac_4_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_1.dds"
+		name = "GFX_JAP_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_2.dds"
+		name = "GFX_JAP_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_3.dds"
+		name = "GFX_JAP_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_JAP_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/JAP_mdg_boat_4.dds"
+		name = "GFX_JAP_mdg_ship_hull_fac_4_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_fac_4.dds"
 	}
 
 	# SOV
 	SpriteType = {
-		name = "GFX_SOV_mdg_boat_1_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_1.dds"
+		name = "GFX_SOV_mdg_fac_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_boat_2_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_2.dds"
+		name = "GFX_SOV_mdg_fac_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_boat_3_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_3.dds"
+		name = "GFX_SOV_mdg_fac_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_boat_4_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_4.dds"
+		name = "GFX_SOV_mdg_fac_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_ship_hull_boat_1_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_1.dds"
+		name = "GFX_SOV_mdg_ship_hull_fac_1_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_ship_hull_boat_2_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_2.dds"
+		name = "GFX_SOV_mdg_ship_hull_fac_2_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_ship_hull_boat_3_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_3.dds"
+		name = "GFX_SOV_mdg_ship_hull_fac_3_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_mdg_ship_hull_boat_4_medium"
-		texturefile = "gfx/interface/technologies/SOV_mdg_boat_4.dds"
+		name = "GFX_SOV_mdg_ship_hull_fac_4_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_fac_4.dds"
 	}
 
 	# USA (same as generic)
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_boat_1_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
+	#	name = "GFX_USA_mdg_fac_1_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_1.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_boat_2_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
+	#	name = "GFX_USA_mdg_fac_2_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_2.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_boat_3_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
+	#	name = "GFX_USA_mdg_fac_3_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_3.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_boat_4_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
+	#	name = "GFX_USA_mdg_fac_4_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_4.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_ship_hull_boat_1_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_1.dds"
+	#	name = "GFX_USA_mdg_ship_hull_fac_1_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_1.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_ship_hull_boat_2_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_2.dds"
+	#	name = "GFX_USA_mdg_ship_hull_fac_2_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_2.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_ship_hull_boat_3_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_3.dds"
+	#	name = "GFX_USA_mdg_ship_hull_fac_3_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_3.dds"
 	#}
 	#SpriteType = {
-	#	name = "GFX_USA_mdg_ship_hull_boat_4_medium"
-	#	texturefile = "gfx/interface/technologies/USA_mdg_boat_4.dds"
+	#	name = "GFX_USA_mdg_ship_hull_fac_4_medium"
+	#	texturefile = "gfx/interface/technologies/USA_mdg_fac_4.dds"
 	#}
 
 

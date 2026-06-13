@@ -283,7 +283,7 @@ coastal_minelaying = {
 				mines_planting = 0.25
 				lg_attack = 0.1
 			}
-			mdg_boat = {
+			mdg_fac = {
 				mines_planting = 0.25
 				lg_attack = 0.1
 			}
@@ -298,7 +298,7 @@ coastal_minelaying = {
 			mdg_corvette = {
 				anti_air_attack = 0.1
 			}
-			mdg_boat = {
+			mdg_fac = {
 				anti_air_attack = 0.1
 			}
 		}
@@ -312,7 +312,7 @@ coastal_minelaying = {
 			mdg_corvette = {
 				mines_sweeping = 0.25
 			}
-			mdg_boat = {
+			mdg_fac = {
 				mines_sweeping = 0.25
 			}
 		}

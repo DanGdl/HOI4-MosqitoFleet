@@ -5,7 +5,7 @@
 	
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 12-tons"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
 		design_team = mio:ITA_baglietto_organization
@@ -20,7 +20,7 @@
 
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 13-tons"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
 		design_team = mio:ITA_baglietto_organization
@@ -35,7 +35,7 @@
 
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 14-tons"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = no
 		design_team = mio:ITA_baglietto_organization
@@ -50,7 +50,7 @@
 
 	create_equipment_variant = {
 		name = "Baglietto AWS"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = no
 		design_team = mio:ITA_baglietto_organization
@@ -65,7 +65,7 @@
 
 	create_equipment_variant = {
 		name = "Stefano Turr"
-		type = mdg_ship_hull_boat_2
+		type = mdg_ship_hull_fac_2
 		parent_version = 0
 		obsolete = no
 		design_team = mio:ITA_baglietto_organization

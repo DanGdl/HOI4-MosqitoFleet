@@ -7,9 +7,9 @@
 		unique = {}
 	}
 
-	mdg_boat = {
+	mdg_fac = {
 		prefix = "KB"
-		generic = { "Boat" }
+		generic = { "FAC" }
 		unique = {
 			"Orjen" "Velebit" "Dinara" "Triglav" "Suvobor" "Rudnik" "Kajmakcalan" "Durmitor"
 		}
@@ -58,7 +58,7 @@
 		unique = {}
 	}
 
-	mdg_ship_hull_boat = {
+	mdg_ship_hull_fac = {
 		prefix = "KB"
 		generic = { "MTB" }
 		unique = {

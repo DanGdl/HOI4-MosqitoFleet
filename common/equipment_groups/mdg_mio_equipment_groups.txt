@@ -19,9 +19,9 @@ mio_cat_eq_all_mdg_corvette = {
 	}
 }
 
-mio_cat_eq_all_mdg_boat = {
+mio_cat_eq_all_mdg_fac = {
 	equipment_type = {
-		mdg_ship_hull_boat
+		mdg_ship_hull_fac
 		mdg_ship_hull_hydrofoil
 	}
 }
@@ -70,6 +70,6 @@ mio_cat_eq_all_ships_no_convoys = { #Includes all ships except convoys
 
 		mdg_ship_hull_frigate
 		mdg_ship_hull_corvette
-		mdg_ship_hull_boat
+		mdg_ship_hull_fac
 	}
 }

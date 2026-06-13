@@ -7,13 +7,13 @@ generic_small_ship_organization = {
 	}
 
 	equipment_type = {
-		# mdg_boat
+		# mdg_fac
 		# mdg_ship_hull_hydrofoil
-		mio_cat_eq_all_mdg_boat
+		mio_cat_eq_all_mdg_fac
 		# mdg_ship_hull_corvette
 	}
 	research_categories = {
-		mio_cat_eq_all_mdg_boat_and_modules
+		mio_cat_eq_all_mdg_fac_and_modules
 	}
 
 	tree_header_text = {
@@ -151,7 +151,7 @@ generic_small_ship_organization = {
 
 		position = { x = 1 y = 4 }
 		any_parent = { generic_mio_trait_spotting_tops }
-		limit_to_equipment_type = { mdg_ship_hull_boat }
+		limit_to_equipment_type = { mdg_ship_hull_fac }
 
 		equipment_bonus = {
 			build_cost_ic = 0.1

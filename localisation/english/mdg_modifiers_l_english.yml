@@ -1,7 +1,7 @@
 ﻿l_english:
- modifier_experience_gain_mdg_boat_mission_factor: "Boat mission Experience Gain"
- modifier_experience_gain_mdg_boat_training_factor: "Boat Training Experience Gain"
- modifier_experience_gain_mdg_boat_combat_factor: "Boat Combat Experience Gain"
+ modifier_experience_gain_mdg_fac_mission_factor: "FAC mission Experience Gain"
+ modifier_experience_gain_mdg_fac_training_factor: "FAC Training Experience Gain"
+ modifier_experience_gain_mdg_fac_combat_factor: "FAC Combat Experience Gain"
 
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "Hydrofoil mission Experience Gain"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Hydrofoil boat Training Experience Gain"
@@ -37,7 +37,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Light cannon III Design Cost"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Light cannon IV Design Cost"
 
- mdg_ship_hull_boat_design_cost_factor: "Boat Design Cost"
+ mdg_ship_hull_fac_design_cost_factor: "FAC Design Cost"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Hydrofoil boat Design Cost"
  mdg_ship_hull_auxiliary_design_cost_factor: "Auxiliary cruiser Design Cost"
  mdg_ship_hull_corvette_design_cost_factor: "Corvette Design Cost"
@@ -49,5 +49,5 @@
 
  mdg_ff_tech_research: "Frigate Research Speed"
  mdg_lcs_tech_research: "Corvette Research Speed"
- mdg_pt_tech_research: "Boat Research Speed"
+ mdg_pt_tech_research: "FAC Research Speed"
  mdg_ssm_tech_research: "Midget Submarine Research Speed"
