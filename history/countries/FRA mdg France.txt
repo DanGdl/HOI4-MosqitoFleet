@@ -124,9 +124,9 @@
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_FRA_1936_naval_mtg"
+	# load_oob = "mdg_FRA_1936_naval_mtg"
 	else = {
-		load_oob = "mdg_FRA_1936_naval_legacy"
+		# load_oob = "mdg_FRA_1936_naval_legacy"
 	}
 }
 
@@ -188,6 +188,6 @@ if = {
 
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_FRA_1939_naval_mtg"
+		# load_oob = "mdg_FRA_1939_naval_mtg"
 	}
 }
