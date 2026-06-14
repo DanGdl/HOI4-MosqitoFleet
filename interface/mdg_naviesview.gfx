@@ -1,0 +1,32 @@
+spriteTypes = {	
+
+	# TODO: fix icons
+	spriteType = {
+		name = "GFX_navy_icon_mdg_fac"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_fac.dds"
+	}
+	spriteType = {
+		name = "GFX_navy_icon_mdg_hydrofoil"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_hydrofoil.dds"
+	}
+	spriteType = {
+		name = "GFX_navy_icon_mdg_corvette"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_corvette.dds"
+	}
+	spriteType = {
+		name = "GFX_navy_icon_mdg_frigate"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_frigate.dds"
+	}
+	spriteType = {
+		name = "GFX_navy_icon_mdg_midget_submarine"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_midget_submarine.dds"
+	}
+	spriteType = {
+		name = "GFX_navy_icon_mdg_auxiliary"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_auxiliary.dds"
+	}
+	spriteType = {
+		name = "GFX_navy_icon_mdg_mac"
+		textureFile = "gfx/interface/naviesview/navy_icon_mdg_mac.dds"
+	}
+}
