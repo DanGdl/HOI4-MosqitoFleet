@@ -4,6 +4,12 @@ mdg_frigates = {
 	category = naval
 
 	blocked_for = {
+		ENG
+		FRA
+		GER
+		ITA
+		JAP
+		USA
 	}
 
 	available_for = {
@@ -296,6 +302,12 @@ generic_escorts_frigate = {
 	category = naval
 
 	blocked_for = {
+		ENG
+		FRA
+		GER
+		ITA
+		JAP
+		USA
 	}
 
 	available_for = {
@@ -348,6 +360,10 @@ generic_escorts_frigate = {
 					upgrade > current
 				}
 				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
 				rear_1_custom_slot = {
 					any_of = { ship_depth_charge }
 					upgrade > current
@@ -514,6 +530,12 @@ naval_mine_sweeper_frigate = {
 	category = naval
 
 	blocked_for = {
+		ENG
+		FRA
+		GER
+		ITA
+		JAP
+		USA
 	}
 
 	available_for = {
@@ -642,6 +664,12 @@ naval_mine_layer_frigate = {
 	category = naval
 
 	blocked_for = {
+		ENG
+		FRA
+		GER
+		ITA
+		JAP
+		USA
 	}
 
 	available_for = {

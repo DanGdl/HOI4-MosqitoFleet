@@ -41,6 +41,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_mine_warfare
 					ship_mine_layer
+					ship_anti_air
 					ship_depth_charge
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp

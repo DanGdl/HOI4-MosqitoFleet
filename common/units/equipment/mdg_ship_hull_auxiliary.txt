@@ -112,8 +112,6 @@ equipments = {
 		naval_dominance_factor = 90
 		can_be_produced = {
 			OR = {
-				has_country_flag = mdg_flag_refit_to_mine_layer_mtg
-				has_country_flag = mdg_flag_refit_to_escort_mtg
 				has_country_flag = mdg_flag_refit_to_cruiser_mtg
 			}
 		}
@@ -148,8 +146,6 @@ equipments = {
 
 		can_be_produced = {
 			OR = {
-				has_country_flag = mdg_flag_refit_to_mine_layer_vanila
-				has_country_flag = mdg_flag_refit_to_escort_vanila
 				has_country_flag = mdg_flag_refit_to_cruiser_vanila
 			}
 		}

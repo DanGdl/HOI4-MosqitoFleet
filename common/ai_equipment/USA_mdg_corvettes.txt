@@ -1,18 +1,13 @@
-# AI Ship Designs for Generic Nations
+# AI Ship Designs for USA
 
-mdg_corvettes = {
+USA_mdg_corvettes = {
 	category = naval
 
 	blocked_for = {
-		ENG
-		FRA
-		GER
-		ITA
-		JAP
-		USA
 	}
 
 	available_for = {
+		USA
 	}
 
 	roles = {
@@ -20,10 +15,9 @@ mdg_corvettes = {
 	}
 
 	priority = {
-		factor = 2550
+		factor = 500
 		modifier = {
-			factor = 2
-			is_major = no
+			factor = 1
 		}
 	}
 
@@ -31,30 +25,26 @@ mdg_corvettes = {
 
 		priority = {
 			factor = 10
-			modifier = {
-				has_tech = basic_ship_hull_light
-				factor = 0
-			}
 		}
 
 		role_icon_index = 2
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 500.0
 
 			type = mdg_ship_hull_corvette_1
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
+					any_of = { ship_fire_control_system }
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
+					any_of = { ship_radar }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -66,14 +56,13 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
+					any_of = { ship_anti_air }
 					upgrade > current
 				}
 			}
 		}
 
-		allowed_modules = {	
-			mdg_ship_light_cannon
+		allowed_modules = {
 			mdg_ship_light_cannon_dp
 			ship_anti_air
 			ship_torpedo
@@ -90,10 +79,6 @@ mdg_corvettes = {
 
 		priority = {
 			factor = 100
-			modifier = {
-				has_tech = improved_ship_hull_light
-				factor = 0
-			}
 		}
 
 		role_icon_index = 2
@@ -104,7 +89,7 @@ mdg_corvettes = {
 			type = mdg_ship_hull_corvette_2
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
@@ -112,30 +97,29 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
+					any_of = { ship_fire_control_system }
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
+					any_of = { ship_radar }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
 					any_of = { light_ship_engine }
 					upgrade > current
-				}				
+				}
 				fixed_ship_torpedo_slot = {
 					any_of = { ship_torpedo }
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
+					any_of = { ship_anti_air }
 					upgrade > current
 				}
 			}
 		}
 
 		allowed_modules = {
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_anti_air
 			ship_torpedo
@@ -151,22 +135,22 @@ mdg_corvettes = {
 	mdg_corvette_improved = {
 
 		priority = {
-			factor = 200
+			factor = 250
 			modifier = {
-				has_tech = advanced_ship_hull_light
-				factor = 0
+				factor = 2
+				has_war = yes
 			}
 		}
 
 		role_icon_index = 2
 
 		target_variant = {
-			match_value = 3000.0
+			match_value = 2800.0
 
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
@@ -174,11 +158,11 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
+					any_of = { ship_radar }
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
+					any_of = { ship_sonar }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -190,18 +174,17 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				mid_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { ship_depth_charge }
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
+					any_of = { ship_anti_air }
 					upgrade > current
 				}				
 			}
 		}
 
 		allowed_modules = {
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_anti_air
 			ship_torpedo
@@ -217,18 +200,22 @@ mdg_corvettes = {
 	mdg_corvette_advanced = {
 
 		priority = {
-			factor = 300
+			factor = 400
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
 		}
 
 		role_icon_index = 2
 
 		target_variant = {
-			match_value = 4000.0
+			match_value = 3500.0
 
 			type = mdg_ship_hull_corvette_4
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
@@ -236,11 +223,11 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar ship_fire_control_system }
+					any_of = { ship_fire_control_system }
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
-					any_of = { ship_radar ship_sonar }
+					any_of = { ship_radar }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -252,15 +239,15 @@ mdg_corvettes = {
 					upgrade > current
 				}
 				mid_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { ship_depth_charge }
 					upgrade > current
 				}
 				mid_2_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { ship_anti_air }
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge mdg_ship_light_cannon mdg_ship_light_cannon_dp ship_seaplane_tender }
+					any_of = { mdg_ship_light_cannon_dp }
 					upgrade > current
 				}
 			}
@@ -281,19 +268,14 @@ mdg_corvettes = {
 	}
 }
 
-generic_escorts_corvette = {
+USA_escorts_corvette = {
 	category = naval
 
 	blocked_for = {
-		ENG
-		FRA
-		GER
-		ITA
-		JAP
-		USA
 	}
 
 	available_for = {
+		USA
 	}
 
 	roles = {
@@ -308,35 +290,28 @@ generic_escorts_corvette = {
 		}
 	}
 
-	escort_default_corvette = {
+	escort_early_corvette = {
 
 		priority = {
-			factor = 100
-			modifier = {
-				factor = 20
-				anti_submarine_strategy_required_trigger = yes
-			}
+			factor = 10
 		}
 
-		role_icon_index = 2
+		role_icon_index = 3
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 500.0
 
 			type = mdg_ship_hull_corvette_1
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp_1 }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
 					any_of = { ship_anti_air }
 					upgrade > current
 				}
-				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar }
-					upgrade > current
-				}
+				fixed_ship_fire_control_system_slot = empty
 				fixed_ship_radar_slot = {
 					any_of = { ship_sonar }
 					upgrade > current
@@ -356,7 +331,6 @@ generic_escorts_corvette = {
 		allowed_modules = {
 			ship_depth_charge
 			ship_anti_air
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_sonar
 			ship_fire_control_system
@@ -365,26 +339,17 @@ generic_escorts_corvette = {
 		}
 	}
 
-	escort_upgrade_corvette = {
+	escort_basic_corvette = {
 
 		priority = {
-			factor = 120
+			factor = 100
 			modifier = {
-				factor = 20
-				anti_submarine_strategy_required_trigger = yes
-			}
-			modifier = {
-				has_tech = improved_ship_hull_light
-				factor = 0
+				factor = 100
+				has_war = yes
 			}
 		}
-		enable = {
-			AND = {
-				has_tech = improved_depth_charges
-				has_tech = cavity_magnatron
-			}
-		}
-		role_icon_index = 2
+
+		role_icon_index = 3
 
 		target_variant = {
 			match_value = 2000.0
@@ -392,17 +357,14 @@ generic_escorts_corvette = {
 			type = mdg_ship_hull_corvette_2
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp_1 }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
 					any_of = { ship_anti_air }
 					upgrade > current
 				}
-				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar }
-					upgrade > current
-				}
+				fixed_ship_fire_control_system_slot = empty
 				fixed_ship_radar_slot = {
 					any_of = { ship_sonar }
 					upgrade > current
@@ -413,7 +375,7 @@ generic_escorts_corvette = {
 				}
 				fixed_ship_torpedo_slot = empty
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge ship_seaplane_tender }
+					any_of = { ship_depth_charge }
 					upgrade > current
 				}
 			}
@@ -422,7 +384,6 @@ generic_escorts_corvette = {
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_sonar
 			ship_fire_control_system
@@ -431,34 +392,29 @@ generic_escorts_corvette = {
 		}
 	}
 
-	escort_upgrade_corvette_3 = {
+	escort_improved_corvette = {
 
 		priority = {
-			factor = 120
+			factor = 250
 			modifier = {
-				factor = 20
-				anti_submarine_strategy_required_trigger = yes
+				factor = 2
+				has_war = yes
 			}
 			modifier = {
-				has_tech = advanced_ship_hull_light
-				factor = 0
+				convoy_threat > 0.5
+				factor = 2
 			}
 		}
-		enable = {
-			AND = {
-				has_tech = improved_depth_charges
-				has_tech = cavity_magnatron
-			}
-		}
-		role_icon_index = 2
+
+		role_icon_index = 3
 
 		target_variant = {
-			match_value = 2000.0
+			match_value = 2800.0
 
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp_1 }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
@@ -483,7 +439,7 @@ generic_escorts_corvette = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge ship_seaplane_tender }
+					any_of = { ship_depth_charge }
 					upgrade > current
 				}
 			}
@@ -492,7 +448,6 @@ generic_escorts_corvette = {
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_sonar
 			ship_fire_control_system
@@ -501,30 +456,29 @@ generic_escorts_corvette = {
 		}
 	}
 
-	escort_upgrade_corvette_4 = {
+	escort_advanced_corvette = {
 
 		priority = {
 			factor = 120
 			modifier = {
-				factor = 20
-				anti_submarine_strategy_required_trigger = yes
+				factor = 2
+				has_war = yes
+			}
+			modifier = {
+				convoy_threat > 0.5
+				factor = 2
 			}
 		}
-		enable = {
-			AND = {
-				has_tech = improved_depth_charges
-				has_tech = cavity_magnatron
-			}
-		}
-		role_icon_index = 2
+
+		role_icon_index = 3
 
 		target_variant = {
-			match_value = 2000.0
+			match_value = 3500.0
 
 			type = mdg_ship_hull_corvette_4
 			modules = {
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp_2 }
 					upgrade > current
 				}
 				fixed_ship_anti_air_slot = {
@@ -532,7 +486,7 @@ generic_escorts_corvette = {
 					upgrade > current
 				}
 				fixed_ship_fire_control_system_slot = {
-					any_of = { ship_radar }
+					any_of = { ship_fire_control_system }
 					upgrade > current
 				}
 				fixed_ship_radar_slot = {
@@ -553,7 +507,7 @@ generic_escorts_corvette = {
 					upgrade > current
 				}
 				rear_1_custom_slot = {
-					any_of = { ship_depth_charge ship_seaplane_tender }
+					any_of = { ship_anti_air }
 					upgrade > current
 				}
 			}
@@ -562,7 +516,6 @@ generic_escorts_corvette = {
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_sonar
 			ship_fire_control_system
@@ -572,19 +525,14 @@ generic_escorts_corvette = {
 	}
 }
 
-naval_mine_sweeper_corvette = {
+USA_naval_mine_sweeper_corvette = {
 	category = naval
 
 	blocked_for = {
-		ENG
-		FRA
-		GER
-		ITA
-		JAP
-		USA
 	}
 
 	available_for = {
+		USA
 	}
 
 	roles = {
@@ -592,7 +540,7 @@ naval_mine_sweeper_corvette = {
 	}
 
 	priority = {
-		factor = 200
+		factor = 2
 		modifier = {
 			factor = 5
 			has_war = yes
@@ -602,10 +550,16 @@ naval_mine_sweeper_corvette = {
 	mine_sweeper_light_early_corvette = { # base variant
 
 		priority = {
-			factor = 100
+			factor = 10
 			modifier = {
-				factor = 10
-				is_major = no
+				factor = 1
+			}
+			modifier = { 
+				AND = {
+					has_tech = basic_dp_light_battery
+					has_tech = basic_naval_mines
+				}
+				factor = 0 #let's not waste XP here
 			}
 		}
 		enable = { has_tech = basic_naval_mines }
@@ -614,11 +568,11 @@ naval_mine_sweeper_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette_1
+			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp_2 }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -626,10 +580,6 @@ naval_mine_sweeper_corvette = {
 					upgrade > current
 				}
 				fixed_ship_torpedo_slot = empty
-				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
-					upgrade > current
-				}
 			}
 		}
 		requirements = {
@@ -637,7 +587,6 @@ naval_mine_sweeper_corvette = {
 		}
 		allowed_modules = {
 			ship_mine_warfare
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_anti_air
 			ship_depth_charge
@@ -653,8 +602,7 @@ naval_mine_sweeper_corvette = {
 		priority = {
 			factor = 100
 			modifier = {
-				factor = 10
-				is_major = no
+				factor = 1
 			}
 		}
 
@@ -666,14 +614,14 @@ naval_mine_sweeper_corvette = {
 		role_icon_index = 5
 
 		target_variant = {
-			match_value = 1000.0
+			match_value = 2000.0
 
-			type = mdg_ship_hull_corvette_3
+			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_1 mdg_ship_light_cannon_dp_1 }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = {
@@ -706,19 +654,14 @@ naval_mine_sweeper_corvette = {
 	}
 }
 
-naval_mine_layer_corvette = {
+USA_naval_mine_layer_corvette = {
 	category = naval
 
 	blocked_for = {
-		ENG
-		FRA
-		GER
-		ITA
-		JAP
-		USA
 	}
 
 	available_for = {
+		USA
 	}
 
 	roles = {
@@ -731,19 +674,14 @@ naval_mine_layer_corvette = {
 			factor = 5
 			has_war = yes
 		}
-		modifier = {
-			is_major = no
-			factor = 5
-		}
 	}
 
 	mine_layer_light_corvette = {
 
 		priority = {
-			factor = 10
+			factor = 2
 			modifier = {
 				factor = 10
-				num_of_naval_factories < 25 #not a major naval power
 			}
 		}
 
@@ -752,7 +690,7 @@ naval_mine_layer_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette_1
+			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = {
@@ -760,7 +698,7 @@ naval_mine_layer_corvette = {
 					upgrade > current
 				}
 				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					any_of = { mdg_ship_light_cannon_dp_2 }
 					upgrade > current
 				}
 				fixed_ship_torpedo_slot = empty
@@ -785,68 +723,10 @@ naval_mine_layer_corvette = {
 		allowed_modules = {
 			ship_mine_layer_1
 			ship_anti_air
-			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_fire_control_system
 			light_ship_engine
 			ship_torpedo
-			ship_radar
-			ship_sonar
-		}
-	}
-
-	mine_layer_light_late_corvette = { # improved variant for late war
-
-		priority = {
-			factor = 100
-			modifier = {
-				factor = 10
-				is_major = no
-			}
-		}
-
-		enable = {
-			has_tech = basic_dp_light_battery
-			has_tech = improved_naval_mines
-		}
-
-		role_icon_index = 5
-
-		target_variant = {
-			match_value = 1000.0
-
-			type = mdg_ship_hull_corvette_3
-			modules = {
-				rear_1_custom_slot = ship_mine_layer_1
-				mid_1_custom_slot = ship_mine_layer_1
-				fixed_ship_battery_slot = {
-					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
-					upgrade > current
-				}
-				fixed_ship_engine_slot = {
-					any_of = { light_ship_engine }
-					upgrade > current
-				}
-				fixed_ship_torpedo_slot = empty
-				fixed_ship_anti_air_slot = {
-					any_of = { ship_anti_air }
-					upgrade > current
-				}
-			}
-		}
-
-		requirements = {
-			module = ship_mine_layer_1
-		}
-		allowed_modules = {
-			ship_mine_layer_1
-			ship_mine_warfare
-			ship_anti_air
-			mdg_ship_light_cannon
-			mdg_ship_light_cannon_dp
-			ship_depth_charge
-			ship_fire_control_system
-			light_ship_engine
 			ship_radar
 			ship_sonar
 		}
