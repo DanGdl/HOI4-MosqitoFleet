@@ -249,7 +249,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {
 						name = "Refitted Escort Ship"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -388,14 +388,14 @@ mdg_generic_refit_civilian_ships_category = {
 				}
 				if = {
 					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
+						NOT = {	has_country_flag = mdg_flag_refit_to_patrol_mtg }
 					}
-					set_country_flag = mdg_flag_refit_to_escort_mtg
+					set_country_flag = mdg_flag_refit_to_patrol_mtg
 
 					create_equipment_variant = {
 						name = "Refitted Patrol Ship"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -419,9 +419,9 @@ mdg_generic_refit_civilian_ships_category = {
 			else = {
 				if = {
 					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
+						NOT = {	has_country_flag = mdg_flag_refit_to_patrol_vanila }
 					}
-					set_country_flag = mdg_flag_refit_to_escort_vanila
+					set_country_flag = mdg_flag_refit_to_patrol_vanila
 
 					create_equipment_variant = {
 						name = "Refitted Patrol Ship"
@@ -542,7 +542,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {
 						name = "Refitted Mine Layer"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_ML_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -684,12 +684,12 @@ mdg_generic_refit_civilian_ships_category = {
 					limit = {
 						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
 					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
+					set_country_flag = mdg_flag_refit_to_mine_sweeper_mtg
 
 					create_equipment_variant = {
 						name = "Refitted Mine Sweeper"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_MS_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -713,7 +713,7 @@ mdg_generic_refit_civilian_ships_category = {
 			else = {
 				if = {
 					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
+						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_vanila }
 					}
 					set_country_flag = mdg_flag_refit_to_mine_sweeper_vanila
 
