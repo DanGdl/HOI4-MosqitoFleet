@@ -1,16 +1,16 @@
-mdg_macs = {
+# AI Ship Designs for naval majors
+
+USA_naval_escort_carrier = {
+	
 	category = naval
 
 	blocked_for = {
-		ENG
-		FRA
-		GER
-		ITA
-		JAP
-		USA
 	}
 
 	available_for = {
+		ENG
+		JAP
+		USA
 	}
 
 	roles = {
@@ -24,9 +24,8 @@ mdg_macs = {
 			is_major = yes
 		}
 	}
-	
-	carrier_escort_mac = {
 
+	carrier_escort_mac = {
 		priority = {
 			factor = 10
 		}
@@ -39,8 +38,8 @@ mdg_macs = {
 			modules = {
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_deck_slot_1 = ship_escort_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_radar_slot = empty
+				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_secondaries_slot = empty
 			}
 		}
@@ -56,9 +55,8 @@ mdg_macs = {
 	}
 
 	improved_carrier_escort_mac = {
-
 		priority = {
-			factor = 10
+			factor = 15
 		}
 		role_icon_index = 3
 
@@ -67,14 +65,13 @@ mdg_macs = {
 
 			type = mdg_ship_hull_mac
 			modules = {
-				fixed_ship_deck_slot_1 = ship_escort_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_deck_slot_1 = ship_escort_deck_space
 				fixed_ship_radar_slot = ship_radar
-				fixed_ship_secondaries_slot = mdg_ship_light_cannon_dp
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_secondaries_slot = empty
 			}
 		}
-
 		allowed_modules = {
 			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
