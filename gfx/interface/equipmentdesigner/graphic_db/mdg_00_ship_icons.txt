@@ -80,6 +80,49 @@ default = {
 		}
 	}
 
+	# Merchant Carrier
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_mdg_ship_hull_mac_medium
+			}
+			models = {
+				mdg_mac_mesh
+			}
+		}
+	}
+}
+
+USA = {
+
+	# Merchant Carrier
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_USA_mdg_ship_hull_mac_medium
+			}
+			models = {
+				USA_mdg_mac_mesh
+			}
+		}
+	}
+}
+
+HOL = {
+
+	# Merchant Carrier
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_HOL_mdg_ship_hull_mac_medium
+			}
+			models = {
+			}
+		}
+	}
 }
 
 GER = {
@@ -165,6 +208,18 @@ JAP = {
 		}
 	}
 
+	# Merchant Carrier
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_mdg_ship_hull_mac_medium
+			}
+			models = {
+				JAP_mdg_mac_mesh
+			}
+		}
+	}
 }
 
 SOV = {
