@@ -62,7 +62,7 @@ default = {
 				GFX_ship_hull_midget_submarine_medium
 			}
 			models = {
-				ENG_mdg_midget_mesh
+				mdg_midget_submarine_entity
 			}
 		}
 	}
@@ -75,7 +75,7 @@ default = {
 				GFX_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
-				ENG_mdg_midget_mesh
+				mdg_midget_submarine_entity
 			}
 		}
 	}
@@ -85,10 +85,10 @@ default = {
 		pool = {
 			weight = 5500
 			icons = {
-				GFX_mdg_ship_hull_mac_medium
+				GFX_mdg_ship_hull_mac_1_medium
 			}
 			models = {
-				mdg_mac_mesh
+				mdg_mac_entity
 			}
 		}
 	}
@@ -101,10 +101,10 @@ USA = {
 		pool = {
 			weight = 5500
 			icons = {
-				GFX_USA_mdg_ship_hull_mac_medium
+				GFX_USA_mdg_ship_hull_mac_1_medium
 			}
 			models = {
-				USA_mdg_mac_mesh
+				USA_mdg_mac_entity
 			}
 		}
 	}
@@ -117,9 +117,10 @@ HOL = {
 		pool = {
 			weight = 5500
 			icons = {
-				GFX_HOL_mdg_ship_hull_mac_medium
+				GFX_HOL_mdg_ship_hull_mac_1_medium
 			}
 			models = {
+				mdg_mac_entity
 			}
 		}
 	}
@@ -190,7 +191,7 @@ JAP = {
 				GFX_JAP_ship_hull_midget_submarine_medium
 			}
 			models = {
-				JAP_mdg_midget_mesh
+				JAP_mdg_midget_submarine_entity
 			}
 		}
 	}
@@ -203,7 +204,7 @@ JAP = {
 				GFX_JAP_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
-				JAP_mdg_midget_mesh
+				JAP_mdg_midget_submarine_entity
 			}
 		}
 	}
@@ -213,10 +214,10 @@ JAP = {
 		pool = {
 			weight = 5500
 			icons = {
-				GFX_mdg_ship_hull_mac_medium
+				GFX_mdg_ship_hull_mac_1_medium
 			}
 			models = {
-				JAP_mdg_mac_mesh
+				JAP_mdg_mac_entity
 			}
 		}
 	}
