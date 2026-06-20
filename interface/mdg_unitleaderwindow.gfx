@@ -7,7 +7,7 @@ spriteTypes = {
 
 	#TODO: fix
 	spriteType = {
-		name = "GFX_trait_fac_officer"
-		texturefile = "gfx/interface/traits/personal/trait_destroyer_officer.dds"
+		name = "GFX_trait_mdg_fac_officer"
+		texturefile = "gfx/interface/traits/personal/mdg_trait_fac_officer.dds"
 	}
 }
