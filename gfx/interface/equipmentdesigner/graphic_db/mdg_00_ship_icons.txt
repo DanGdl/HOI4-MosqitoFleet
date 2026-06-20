@@ -80,6 +80,19 @@ default = {
 		}
 	}
 
+	# Auxiliary Cruiser
+	mdg_ship_hull_auxiliary_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_mdg_ship_hull_auxiliary_1_medium
+			}
+			models = {
+				mdg_auxiliary_entity
+			}
+		}
+	}
+
 	# Merchant Carrier
 	mdg_ship_hull_mac_1 = {
 		pool = {
