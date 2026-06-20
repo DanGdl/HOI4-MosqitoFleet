@@ -3,7 +3,7 @@ guiTypes = {
 	# Target bar
 	containerWindowType = {
 		name = "target_bar_window"
-		show_position = { x = -404 y = -412 }
+		show_position = { x = -404 y = -383 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 0
@@ -16,7 +16,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "navy_box_background"
-			size = { width = 586 height = 105 }
+			size = { width = 586 height = 76 }
 			position = { x = 78 y = 67 }
 
 			background = {
@@ -96,6 +96,19 @@ guiTypes = {
 		}
 
 		buttonType = {
+			name = "btn_target_convoy"
+			position = { x = 314 y = 104 }
+			spriteType = "GFX_naval_target_btn"
+			clicksound = click_default
+		}
+		iconType = {
+			name = "button_5_bg"
+			spriteType = "GFX_navalcombat_ship_icon_convoy"
+			position = { x = 344 y = 109 }
+			alwaysTransparent = yes
+		}
+
+		buttonType = {
 			name = "btn_target_battle_cruiser"
 			position = { x = 542 y = 75 }
 			spriteType = "GFX_naval_target_btn"
@@ -134,18 +147,6 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 
-		buttonType = {
-			name = "btn_target_convoy"
-			position = { x = 314 y = 104 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "button_5_bg"
-			spriteType = "GFX_navalcombat_ship_icon_convoy"
-			position = { x = 344 y = 109 }
-			alwaysTransparent = yes
-		}
 
 		# from mod
 		buttonType = {
@@ -161,68 +162,17 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 
-		buttonType = {
-			name = "btn_target_mdg_corvette"
-			position = { x = 542 y = 104 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "button_11_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_corvette"
-			position = { x = 576 y = 109 }
-			alwaysTransparent = yes
-		}
-
-		buttonType = {
-			name = "btn_target_mdg_frigate"
-			position = { x = 86 y = 133 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "button_12_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_frigate"
-			position = { x = 120 y = 138 }
-			alwaysTransparent = yes
-		}
 
 		buttonType = {
 			name = "btn_target_mdg_hydrofoil"
-			position = { x = 200 y = 133 }
+			position = { x = 542 y = 104 }
 			spriteType = "GFX_naval_target_btn"
 			clicksound = click_default
 		}
 		iconType = {
 			name = "button_13_bg"
 			spriteType = "GFX_navalcombat_ship_icon_mdg_hydrofoil"
-			position = { x = 234 y = 138 }
-			alwaysTransparent = yes
-		}
-
-		buttonType = {
-			name = "btn_target_mdg_auxiliary"
-			position = { x = 314 y = 133 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "button_14_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_auxiliary"
-			position = { x = 340 y = 138 }
-			alwaysTransparent = yes
-		}
-
-		buttonType = {
-			name = "btn_target_mdg_mac"
-			position = { x = 428 y = 133 }
-			spriteType = "GFX_naval_target_btn"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "button_15_bg"
-			spriteType = "GFX_navalcombat_ship_icon_mdg_mac"
-			position = { x = 454 y = 140 }
+			position = { x = 576 y = 109 }
 			alwaysTransparent = yes
 		}
 	}
