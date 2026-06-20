@@ -15,7 +15,7 @@ technologies = {
 
 			ship_hull_cruiser_coastal_defense_ship
 		}
-		
+
 		enable_equipment_modules = {
 			carrier_ship_engine_1
 			carrier_ship_engine_2
@@ -225,7 +225,7 @@ technologies = {
 					tag = USA
 				}
 			}
-			
+
 			modifier = {
 				factor = 1.5
 				date > 1939.1.1
@@ -330,7 +330,7 @@ technologies = {
 				factor = 4
 				tag = ENG
 			}
-			
+
 			modifier = {
 				factor = 2
 				date > 1938.1.1

@@ -2,25 +2,25 @@
 
 GER_mdg_corvettes = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		GER
 	}
-	
+
 	roles = {
 		naval_screen_corvette
 	}
-	
+
 	priority = {
 		factor = 50
 		modifier = {
 			factor = 1
 		}
 	}
-	
+
 	mdg_corvette_default = {
 		priority = {
 			factor = 1
@@ -32,7 +32,7 @@ GER_mdg_corvettes = {
 
 		target_variant = {
 			match_value = 2000.0
-			
+
 			type = mdg_ship_hull_corvette_1
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_2
@@ -44,7 +44,7 @@ GER_mdg_corvettes = {
 				rear_1_custom_slot = ship_mine_layer
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_depth_charge
 			mdg_ship_light_cannon
@@ -58,7 +58,7 @@ GER_mdg_corvettes = {
 	}
 
 	mdg_corvette_2 = {
-	
+
 		priority = {
 			factor = 50
 		}
@@ -66,7 +66,7 @@ GER_mdg_corvettes = {
 
 		target_variant = {
 			match_value = 2500.0
-			
+
 			type = mdg_ship_hull_corvette_2
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_2
@@ -78,7 +78,7 @@ GER_mdg_corvettes = {
 				rear_1_custom_slot = ship_depth_charge
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			mdg_ship_light_cannon
@@ -92,7 +92,7 @@ GER_mdg_corvettes = {
 	}
 
 	mdg_corvette_3 = {
-	
+
 		priority = {
 			factor = 5
 			modifier = {
@@ -103,7 +103,7 @@ GER_mdg_corvettes = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot > mdg_ship_light_cannon_1
@@ -116,7 +116,7 @@ GER_mdg_corvettes = {
 				rear_1_custom_slot = ship_depth_charge
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			mdg_ship_light_cannon
@@ -130,7 +130,7 @@ GER_mdg_corvettes = {
 	}
 
 	mdg_corvette_4 = {
-	
+
 		priority = {
 			factor = 1
 			modifier = {
@@ -139,10 +139,10 @@ GER_mdg_corvettes = {
 			}
 		}
 		role_icon_index = 2
-		
+
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_corvette_4
 			modules = {
 				fixed_ship_battery_slot > mdg_ship_light_cannon_1
@@ -156,7 +156,7 @@ GER_mdg_corvettes = {
 				mid_2_custom_slot = mdg_ship_light_cannon
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			mdg_ship_light_cannon
@@ -172,18 +172,18 @@ GER_mdg_corvettes = {
 
 GER_naval_mine_sweeper_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		GER
 	}
-	
+
 	roles = {
 		naval_mine_sweeper_corvette
 	}
-	
+
 	priority = {
 		factor = 2
 		modifier = {
@@ -191,9 +191,9 @@ GER_naval_mine_sweeper_corvette = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_sweeper_early_corvette = {
-	
+
 		priority = {
 			factor = 10
 			modifier = {
@@ -205,7 +205,7 @@ GER_naval_mine_sweeper_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -232,7 +232,7 @@ GER_naval_mine_sweeper_corvette = {
 	}
 
 	mine_sweeper_late_corvette = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -247,7 +247,7 @@ GER_naval_mine_sweeper_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -261,7 +261,7 @@ GER_naval_mine_sweeper_corvette = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -282,18 +282,18 @@ GER_naval_mine_sweeper_corvette = {
 
 GER_naval_mine_layer_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		GER
 	}
-	
+
 	roles = {
 		naval_mine_layer_corvette
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -302,24 +302,24 @@ GER_naval_mine_layer_corvette = {
 		}
 	}
 
-	
+
 	mine_layer_corvette = {
-	
+
 		priority = {
 			factor = 2
 			modifier = {
 				factor = 10
-				num_of_naval_factories < 20 
+				num_of_naval_factories < 20
 			}
 		}
-		role_icon_index = 4		
+		role_icon_index = 4
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_corvette
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_1
 				fixed_ship_torpedo_slot = empty
@@ -328,7 +328,7 @@ GER_naval_mine_layer_corvette = {
 				fixed_ship_anti_air_slot < ship_anti_air_3
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

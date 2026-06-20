@@ -95,7 +95,7 @@ FRA_mdg_corvettes = {
 		}
 	}
 
-	mdg_corvette_2 = { 
+	mdg_corvette_2 = {
 
 		priority = {
 			factor = 5
@@ -156,7 +156,7 @@ FRA_mdg_corvettes = {
 				rear_1_custom_slot = ship_depth_charge
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
@@ -170,7 +170,7 @@ FRA_mdg_corvettes = {
 	}
 
 	mdg_corvette_3 = {
-	
+
 		priority = {
 			factor = 5
 			modifier = {
@@ -181,7 +181,7 @@ FRA_mdg_corvettes = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -194,7 +194,7 @@ FRA_mdg_corvettes = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
@@ -208,7 +208,7 @@ FRA_mdg_corvettes = {
 	}
 
 	mdg_corvette_3_upgrade = {
-	
+
 		priority = {
 			factor = 5
 			modifier = {
@@ -220,7 +220,7 @@ FRA_mdg_corvettes = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -233,7 +233,7 @@ FRA_mdg_corvettes = {
 				rear_1_custom_slot = ship_depth_charge
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			dp_light_battery
@@ -247,7 +247,7 @@ FRA_mdg_corvettes = {
 	}
 
 	mdg_corvette_4 = {
-	
+
 		priority = {
 			factor = 50
 			modifier = {
@@ -263,7 +263,7 @@ FRA_mdg_corvettes = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_corvette_4
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -277,7 +277,7 @@ FRA_mdg_corvettes = {
 				rear_1_custom_slot = mdg_ship_light_cannon_dp_2
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
@@ -293,18 +293,18 @@ FRA_mdg_corvettes = {
 
 FRA_naval_mine_sweeper_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		FRA
 	}
-	
+
 	roles = {
 		naval_mine_sweeper_corvette
 	}
-	
+
 	priority = {
 		factor = 2
 		modifier = {
@@ -314,7 +314,7 @@ FRA_naval_mine_sweeper_corvette = {
 	}
 
 	mine_sweeper_early_corvette = {
-	
+
 		priority = {
 			factor = 10
 			modifier = {
@@ -325,7 +325,7 @@ FRA_naval_mine_sweeper_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -351,7 +351,7 @@ FRA_naval_mine_sweeper_corvette = {
 	}
 
 	mine_sweeper_late_corvette = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -366,7 +366,7 @@ FRA_naval_mine_sweeper_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -380,7 +380,7 @@ FRA_naval_mine_sweeper_corvette = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -401,18 +401,18 @@ FRA_naval_mine_sweeper_corvette = {
 
 FRA_naval_mine_layer_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		FRA
 	}
-	
+
 	roles = {
 		naval_mine_layer_corvette
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -420,9 +420,9 @@ FRA_naval_mine_layer_corvette = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_layer_corvette = {
-	
+
 		priority = {
 			factor = 2
 			modifier = {
@@ -434,10 +434,10 @@ FRA_naval_mine_layer_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_corvette
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_1
 				fixed_ship_torpedo_slot = empty
@@ -448,7 +448,7 @@ FRA_naval_mine_layer_corvette = {
 				fixed_ship_anti_air_slot < ship_anti_air_3
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

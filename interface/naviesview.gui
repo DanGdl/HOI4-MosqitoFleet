@@ -18,13 +18,13 @@ guiTypes = {
 			name = "navy_box_background"
 			size = { width = 586 height = 105 }
 			position = { x = 78 y = 67 }
-		
+
 			background = {
 				name = "Background"
 				spriteType = "GFX_tiled_window_thin_border2"
 			}
 		}
-		
+
 		#line 1 btn 075 bg 080, w 114 (inside 30) start at 86 end at 542
 		#line 2 btn 104 bg 107, w 114 (inside 30)
 		#line 3 btn 133 bg 136, w 114 (inside 30)
@@ -160,7 +160,7 @@ guiTypes = {
 			position = { x = 458 y = 109 }
 			alwaysTransparent = yes
 		}
-			
+
 		buttonType = {
 			name = "btn_target_mdg_corvette"
 			position = { x = 542 y = 104 }
@@ -665,12 +665,12 @@ guiTypes = {
 				clicksound = click_default
 				pdx_tooltip = "NAVY_REPAIR_NOW"
 			}
-			
+
 			dropDownBoxType = {
 				name = "defensive_stance_dropdown"
 				position = { x = 334 y = @nv_tb_btn_y }
 				size = { width = 37 height = 37 }
-				
+
 				expandButton = {
 					name = "defensive_stance_expand_button"
 					position = { x = 0 y = 0 }
@@ -714,7 +714,7 @@ guiTypes = {
 			dropDownBoxType = {
 				name = "repair_priority_dropdown"
 				position = { x = 424 y = @nv_tb_btn_y }
-				
+
 				expandButton = {
 					name = "repair_priority_expand_button"
 					position = { x = 0 y = 0 }
@@ -756,7 +756,7 @@ guiTypes = {
 			dropDownBoxType = {
 				name = "aggressiveness_dropdown"
 				position = { x = 454 y = @nv_tb_btn_y }
-				
+
 				expandButton = {
 					name = "aggressiveness_expand_button"
 					position = { x = 0 y = 0 }
@@ -837,7 +837,7 @@ guiTypes = {
 				spriteType = "GFX_NV_btn_aggressiveness_small"
 				alwaystransparent = yes
 			}
-			
+
 			iconType = {
 				name = "icon_defensive_stance"
 				position = { x = 334 y = @nv_tb_btn_y}
@@ -882,7 +882,7 @@ guiTypes = {
 			}
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "defensive_stand_item"
 		position = { x = 0 y = 0 }
@@ -1108,7 +1108,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "home_base_view"
 			position = { x = 200 y = 140 }
-			
+
 			buttonType = {
 				position = { x = 0 y = -5 }
 				name = "automate_home_base_button"
@@ -1116,7 +1116,7 @@ guiTypes = {
 				clicksound = click_default
 				shortcut = "shift+s"
 			}
-			
+
 			buttonType = {
 				name = "home_base_button"
 				position = { x = 30 y = -5	 }
@@ -1724,7 +1724,7 @@ guiTypes = {
 			spriteType = "GFX_unit_level"
 			position = { x = 109 y = 8 }
 		}
-		
+
 		buttonType = {
 			name = "available_medals"
 			spriteType = "GFX_assign_medal_indicator"
@@ -2524,7 +2524,7 @@ guiTypes = {
 			name = "sunk_ships_entry_divider_2"
 			spriteType = "GFX_sunk_ships_entry_divider_2"
 			position = { x = 148 y = 0 }
-			
+
 		}
 
 		instantTextboxType = {
@@ -2584,7 +2584,7 @@ guiTypes = {
 			spriteType = "GFX_small_flag_frame_thin_2"
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
-	
+
 		}
 
 		iconType = {

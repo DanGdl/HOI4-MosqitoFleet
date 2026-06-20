@@ -2,22 +2,22 @@
 
 JAP_mdg_frigates = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		JAP
 	}
-	
+
 	roles = {
 		naval_screen_frigate
 	}
-	
+
 	priority = {
 		factor = 100
 	}
-	
+
 	destroyer_early = {
 
 		priority = {
@@ -176,18 +176,18 @@ JAP_mdg_frigates = {
 
 JAP_naval_mine_sweeper_frigate = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		JAP
 	}
-	
+
 	roles = {
 		naval_mine_sweeper_frigate
 	}
-	
+
 	priority = {
 		factor = 2
 		modifier = {
@@ -195,9 +195,9 @@ JAP_naval_mine_sweeper_frigate = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_sweeper_early_frigate = {
-	
+
 		priority = {
 			factor = 10
 			modifier = {
@@ -209,7 +209,7 @@ JAP_naval_mine_sweeper_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -236,12 +236,12 @@ JAP_naval_mine_sweeper_frigate = {
 	}
 
 	mine_sweeper_late_frigate = {
-	
+
 		priority = {
 			factor = 1
 		}
 		role_icon_index = 5
-		
+
 		enable = {
 			has_tech = basic_dp_light_battery
 			has_tech = basic_naval_mines
@@ -249,7 +249,7 @@ JAP_naval_mine_sweeper_frigate = {
 
 		target_variant = {
 			match_value = 1100.0
-			
+
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -263,7 +263,7 @@ JAP_naval_mine_sweeper_frigate = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -283,18 +283,18 @@ JAP_naval_mine_sweeper_frigate = {
 
 JAP_naval_mine_layer_frigate = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		JAP
 	}
-	
+
 	roles = {
 		naval_mine_layer_frigate
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -302,9 +302,9 @@ JAP_naval_mine_layer_frigate = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_layer_light = {
-	
+
 		priority = {
 			factor = 2
 		}
@@ -312,11 +312,11 @@ JAP_naval_mine_layer_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_frigate
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
-				mid_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
+				mid_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
 				fixed_ship_torpedo_slot = empty
@@ -325,7 +325,7 @@ JAP_naval_mine_layer_frigate = {
 				fixed_ship_anti_air_slot = empty
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

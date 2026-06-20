@@ -2,13 +2,13 @@ equipments = {
 
 	mdg_ship_hull_mac = {
 		year = 1922
-		
+
 		is_archetype = yes
 		is_buildable = no
 		type = carrier
 		sprite = carrier
 		group_by = archetype
-		
+
 		alias = mdg_mac
 		priority = 800
 
@@ -18,7 +18,7 @@ equipments = {
 			ship_engine_upgrade
 			ship_reliability_upgrade
 		}
-		
+
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes

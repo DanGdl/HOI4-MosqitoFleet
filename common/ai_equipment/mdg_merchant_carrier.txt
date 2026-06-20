@@ -24,7 +24,7 @@ mdg_macs = {
 			is_major = yes
 		}
 	}
-	
+
 	carrier_escort_mac = {
 
 		priority = {

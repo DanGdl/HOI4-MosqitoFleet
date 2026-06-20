@@ -441,7 +441,7 @@ ENG_naval_mine_sweeper_frigate = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}

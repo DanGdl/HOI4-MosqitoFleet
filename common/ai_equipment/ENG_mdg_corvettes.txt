@@ -432,7 +432,7 @@ ENG_naval_mine_sweeper_corvette = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}

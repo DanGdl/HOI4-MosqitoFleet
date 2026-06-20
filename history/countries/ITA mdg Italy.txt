@@ -2,7 +2,7 @@
 	limit = { has_dlc = "Man the Guns" }
 
 	set_technology = { mdg_hidden_tech = 1 }
-	
+
 	create_equipment_variant = {
 		name = "Baglietto (SVAN) 12-tons"
 		type = mdg_ship_hull_fac_1

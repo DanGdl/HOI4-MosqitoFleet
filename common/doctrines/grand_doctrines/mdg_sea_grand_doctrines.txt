@@ -47,7 +47,7 @@ small_fleet = {
 	naval_mines_damage_factor = 0.1
 	mines_planting_by_fleets_factor = 0.1
 	mines_sweeping_by_fleets_factor = 0.1
-	
+
 	milestones = {
 		{
 			# Capital Ships

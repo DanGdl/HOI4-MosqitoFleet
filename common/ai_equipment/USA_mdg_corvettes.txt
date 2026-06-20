@@ -2,25 +2,25 @@
 
 USA_mdg_corvettes = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		USA
 	}
-	
+
 	roles = {
 		naval_screen_corvette
 	}
-	
+
 	priority = {
 		factor = 500
 		modifier = {
 			factor = 1
 		}
 	}
-	
+
 	mdg__corvette_early = {
 
 		priority = {
@@ -54,7 +54,7 @@ USA_mdg_corvettes = {
 			ship_radar
 		}
 	}
-	
+
 	mdg_corvette_basic = {
 
 		priority = {
@@ -171,18 +171,18 @@ USA_mdg_corvettes = {
 
 USA_escort_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		USA
 	}
-	
+
 	roles = {
 		naval_escort_corvette
 	}
-	
+
 	priority = {
 		factor = 1000
 		modifier = {
@@ -190,7 +190,7 @@ USA_escort_corvette = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 	}
-	
+
 	escort_early_corvette = {
 
 		priority = {
@@ -349,18 +349,18 @@ USA_escort_corvette = {
 
 USA_naval_mine_sweeper_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		USA
 	}
-	
+
 	roles = {
 		naval_mine_sweeper_corvette
 	}
-	
+
 	priority = {
 		factor = 2
 		modifier = {
@@ -368,15 +368,15 @@ USA_naval_mine_sweeper_corvette = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_sweeper_early_corvette = {
-	
+
 		priority = {
 			factor = 10
 			modifier = {
 				factor = 1
 			}
-			modifier = { 
+			modifier = {
 				AND = {
 					has_tech = basic_dp_light_battery
 					has_tech = basic_naval_mines
@@ -389,7 +389,7 @@ USA_naval_mine_sweeper_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -416,7 +416,7 @@ USA_naval_mine_sweeper_corvette = {
 	}
 
 	mine_sweeper_late_corvette = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -424,7 +424,7 @@ USA_naval_mine_sweeper_corvette = {
 			}
 		}
 		role_icon_index = 5
-		
+
 		enable = {
 			has_tech = basic_dp_light_battery
 			has_tech = basic_naval_mines
@@ -432,7 +432,7 @@ USA_naval_mine_sweeper_corvette = {
 
 		target_variant = {
 			match_value = 2000.0
-			
+
 			type = mdg_ship_hull_corvette
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -446,7 +446,7 @@ USA_naval_mine_sweeper_corvette = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -466,18 +466,18 @@ USA_naval_mine_sweeper_corvette = {
 
 USA_naval_mine_layer_corvette = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		USA
 	}
-	
+
 	roles = {
 		naval_mine_layer_corvette
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -485,9 +485,9 @@ USA_naval_mine_layer_corvette = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_layer_light = {
-	
+
 		priority = {
 			factor = 2
 			modifier = {
@@ -498,10 +498,10 @@ USA_naval_mine_layer_corvette = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_corvette
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
 				fixed_ship_torpedo_slot = empty
@@ -510,7 +510,7 @@ USA_naval_mine_layer_corvette = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

@@ -97,7 +97,7 @@ FRA_mdg_frigates = {
 		}
 	}
 
-	mdg_frigate_2 = { 
+	mdg_frigate_2 = {
 
 		priority = {
 			factor = 5
@@ -160,7 +160,7 @@ FRA_mdg_frigates = {
 				rear_1_custom_slot = ship_depth_charge
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
@@ -174,7 +174,7 @@ FRA_mdg_frigates = {
 	}
 
 	mdg_frigate_3 = {
-	
+
 		priority = {
 			factor = 5
 			modifier = {
@@ -185,7 +185,7 @@ FRA_mdg_frigates = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_frigate_3
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -198,7 +198,7 @@ FRA_mdg_frigates = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
@@ -212,7 +212,7 @@ FRA_mdg_frigates = {
 	}
 
 	mdg_frigate_3_upgrade = {
-	
+
 		priority = {
 			factor = 5
 			modifier = {
@@ -224,7 +224,7 @@ FRA_mdg_frigates = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_frigate_3
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -237,7 +237,7 @@ FRA_mdg_frigates = {
 				rear_1_custom_slot = ship_depth_charge
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			dp_light_battery
@@ -251,7 +251,7 @@ FRA_mdg_frigates = {
 	}
 
 	mdg_frigate_4 = {
-	
+
 		priority = {
 			factor = 50
 			modifier = {
@@ -267,7 +267,7 @@ FRA_mdg_frigates = {
 
 		target_variant = {
 			match_value = 3500.0
-			
+
 			type = mdg_ship_hull_frigate_4
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -282,7 +282,7 @@ FRA_mdg_frigates = {
 				rear_1_custom_slot = mdg_ship_light_cannon_dp_2
 			}
 		}
-		
+
 		allowed_modules = {
 			ship_anti_air
 			ship_depth_charge
@@ -298,18 +298,18 @@ FRA_mdg_frigates = {
 
 FRA_naval_mine_sweeper_frigate = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		FRA
 	}
-	
+
 	roles = {
 		naval_mine_sweeper_frigate
 	}
-	
+
 	priority = {
 		factor = 2
 		modifier = {
@@ -319,7 +319,7 @@ FRA_naval_mine_sweeper_frigate = {
 	}
 
 	mine_sweeper_early_frigate = {
-	
+
 		priority = {
 			factor = 10
 			modifier = {
@@ -330,7 +330,7 @@ FRA_naval_mine_sweeper_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -356,7 +356,7 @@ FRA_naval_mine_sweeper_frigate = {
 	}
 
 	mine_sweeper_late_frigate = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -371,7 +371,7 @@ FRA_naval_mine_sweeper_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -385,7 +385,7 @@ FRA_naval_mine_sweeper_frigate = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -406,18 +406,18 @@ FRA_naval_mine_sweeper_frigate = {
 
 FRA_naval_mine_layer_frigate = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		FRA
 	}
-	
+
 	roles = {
 		naval_mine_layer_frigate
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -425,9 +425,9 @@ FRA_naval_mine_layer_frigate = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_layer_frigate = {
-	
+
 		priority = {
 			factor = 2
 			modifier = {
@@ -439,10 +439,10 @@ FRA_naval_mine_layer_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_frigate
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_1
 				fixed_ship_torpedo_slot = empty
@@ -453,7 +453,7 @@ FRA_naval_mine_layer_frigate = {
 				fixed_ship_anti_air_slot < ship_anti_air_3
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

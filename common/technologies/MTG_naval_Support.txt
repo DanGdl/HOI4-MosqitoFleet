@@ -1510,7 +1510,7 @@ technologies = {
 				factor = 2
 			}
 
-			modifier = {				
+			modifier = {
 				OR = {
 					tag = USA
 					tag = ENG
@@ -1579,7 +1579,7 @@ technologies = {
 				factor = 2
 			}
 
-			modifier = {				
+			modifier = {
 				OR = {
 					tag = USA
 					tag = ENG
@@ -1673,7 +1673,7 @@ technologies = {
 				has_war = yes
 				factor = 2
 			}
-			modifier = {				
+			modifier = {
 				OR = {
 					tag = USA
 					tag = ENG
@@ -1685,7 +1685,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.1
-				original_tag = GER				
+				original_tag = GER
 			}
 		}
 

@@ -1,25 +1,25 @@
 # AI Ship Designs for Italy
 ITA_mdg_frigates = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		ITA
 	}
-	
+
 	roles = {
 		naval_screen_frigate
 	}
-	
+
 	priority = {
 		factor = 50
 		modifier = {
 			factor = 1
 		}
 	}
-	
+
 	mdg_frigate_early = {
 
 		priority = {
@@ -382,18 +382,18 @@ ITA_escorts_frigate = {
 
 ITA_naval_mine_sweeper_frigate = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		ITA
 	}
-	
+
 	roles = {
 		naval_mine_sweeper_frigate
 	}
-	
+
 	priority = {
 		factor = 2
 		modifier = {
@@ -401,9 +401,9 @@ ITA_naval_mine_sweeper_frigate = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_sweeper_early_frigate = {
-	
+
 		priority = {
 			factor = 10
 			modifier = {
@@ -415,7 +415,7 @@ ITA_naval_mine_sweeper_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -441,7 +441,7 @@ ITA_naval_mine_sweeper_frigate = {
 	}
 
 	mine_sweeper_late_frigate = {
-	
+
 		priority = {
 			factor = 100
 			modifier = {
@@ -457,7 +457,7 @@ ITA_naval_mine_sweeper_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			
+
 			type = mdg_ship_hull_frigate
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
@@ -471,7 +471,7 @@ ITA_naval_mine_sweeper_frigate = {
 				fixed_ship_anti_air_slot = ship_anti_air
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_sweeper_1
 		}
@@ -492,18 +492,18 @@ ITA_naval_mine_sweeper_frigate = {
 
 ITA_naval_mine_layer_frigate = {
 	category = naval
-	
+
 	blocked_for = {
 	}
-	
+
 	available_for = {
 		ITA
 	}
-	
+
 	roles = {
 		naval_mine_layer_frigate
 	}
-	
+
 	priority = {
 		factor = 3
 		modifier = {
@@ -511,9 +511,9 @@ ITA_naval_mine_layer_frigate = {
 			has_war = yes
 		}
 	}
-	
+
 	mine_layer_light = {
-	
+
 		priority = {
 			factor = 2
 			modifier = {
@@ -525,10 +525,10 @@ ITA_naval_mine_layer_frigate = {
 
 		target_variant = {
 			match_value = 1000.0
-			 
+
 			type = mdg_ship_hull_frigate
 			modules = {
-				rear_1_custom_slot = ship_mine_layer_1 
+				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine
 				fixed_ship_battery_slot = mdg_ship_light_cannon
 				fixed_ship_torpedo_slot = empty
@@ -539,7 +539,7 @@ ITA_naval_mine_layer_frigate = {
 				fixed_ship_anti_air_slot < ship_anti_air_3
 			}
 		}
-		
+
 		requirements = {
 			module = ship_mine_layer_1
 		}

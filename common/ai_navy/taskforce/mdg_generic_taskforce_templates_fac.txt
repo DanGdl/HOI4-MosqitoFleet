@@ -10,7 +10,7 @@ PatrolReconForce_1_FAC = {
 		mdg_fac = {
 			amount = 2
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_fac = {
 			amount = 8
@@ -74,7 +74,7 @@ ConvoyEscort_1_FAC = {
 			amount = 4
 		}
 	}
-	
+
 	optimal_composition = {
 		mdg_fac = {
 			amount = 8
@@ -95,13 +95,13 @@ MineLaying_1_FAC = {
 			role = 4
 		}
 	}
-	
+
 	optimal_composition = {
 		mdg_fac = {
 			amount = 4
 			role = 4
 		}
-		
+
 		mdg_frigate = {
 			amount = 2
 			role = 4

@@ -111,7 +111,7 @@ leader_traits = {
 
 		trait_type = assignable_trait
 		any_parent = { lancer search_pattern_expert }
-		
+
 		gui_row = 4
 		gui_column = 2
 	}

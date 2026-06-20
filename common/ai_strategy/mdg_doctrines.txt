@@ -9,7 +9,7 @@ DOCTRINE_small_fleet = {
 	abort = {
 		always = no
 	}
-	
+
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship

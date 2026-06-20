@@ -117,7 +117,7 @@ support_integrated_operations = {
 
 	# EFFECTS
 	screening_efficiency = 0.05
-	
+
 	rewards = {
 		first_line_of_defense = {
 			destroyer = {
@@ -218,7 +218,7 @@ hunter_killers = {
 
 	# EFFECTS
 	naval_coordination = 0.10
-	
+
 	rewards = {
 		search_and_destroy = {
 			destroyer = {
