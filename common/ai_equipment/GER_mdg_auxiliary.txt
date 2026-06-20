@@ -1,0 +1,97 @@
+
+mdg_auxiliaries = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+		GER
+	}
+
+	roles = {
+		naval_auxiliary
+	}
+
+	priority = {
+		factor = 1500
+		modifier = {
+			factor = 10
+			is_major = no
+		}
+	}
+
+	mdg_auxiliary_default = {
+
+		priority = {
+			factor = 10
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_auxiliary
+			modules = {
+				fixed_ship_battery_slot = { module = ship_light_medium_battery_1 upgrade > current }
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_anti_air_slot = { module = ship_anti_air_1 upgrade > current }
+				fixed_ship_secondaries_slot = { module = ship_secondaries_1 upgrade > current }
+
+				mid_1_custom_slot = { module = ship_airplane_launcher_1 upgrade > current }
+				mid_2_custom_slot = { module = ship_torpedo_1 upgrade > current }
+				rear_1_custom_slot = { module = ship_light_medium_battery_1 upgrade > current }
+				rear_2_custom_slot = ship_mine_layer_1
+			}
+		}
+
+		allowed_modules = {
+			ship_light_medium_battery
+			ship_fire_control_system
+			ship_airplane_launcher
+			light_ship_engine
+			ship_mine_layer
+			ship_anti_air
+			ship_torpedo
+		}
+	}
+
+	mdg_auxiliary_improved = {
+
+		priority = {
+			factor = 10
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2500.0
+
+			type = mdg_ship_hull_auxiliary
+			modules = {
+				fixed_ship_battery_slot = { module = ship_light_medium_battery_1 upgrade > current }
+				fixed_ship_fire_control_system_slot = { module = ship_fire_control_system_0 upgrade > current }
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_anti_air_slot = { module = ship_anti_air_1 upgrade > current }
+				fixed_ship_secondaries_slot = { module = ship_secondaries_1 upgrade > current }
+
+				mid_1_custom_slot = { module = ship_airplane_launcher_1 upgrade > current }
+				mid_2_custom_slot = { module = ship_torpedo_1 upgrade > current }
+				rear_1_custom_slot = { module = ship_light_medium_battery_1 upgrade > current }
+				rear_2_custom_slot = ship_mine_layer_1
+			}
+		}
+
+		allowed_modules = {
+			ship_light_medium_battery
+			ship_fire_control_system
+			ship_airplane_launcher
+			light_ship_engine
+			ship_mine_layer
+			ship_anti_air
+			ship_torpedo
+		}
+	}
+}
