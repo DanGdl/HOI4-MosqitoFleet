@@ -512,7 +512,7 @@ ITA_naval_mine_layer_frigate = {
 		}
 	}
 
-	mine_layer_light = {
+	mine_layer_frigate = {
 
 		priority = {
 			factor = 2

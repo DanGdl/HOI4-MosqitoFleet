@@ -599,7 +599,7 @@ naval_mine_sweeper_corvette = {
 		}
 	}
 
-	mine_sweeper_light_early_corvette = { # base variant
+	mine_sweeper_early_corvette = { # base variant
 
 		priority = {
 			factor = 100
@@ -648,7 +648,7 @@ naval_mine_sweeper_corvette = {
 		}
 	}
 
-	mine_sweeper_light_late_corvette = { # improved variant for late war
+	mine_sweeper_late_corvette = {
 
 		priority = {
 			factor = 100
@@ -737,7 +737,7 @@ naval_mine_layer_corvette = {
 		}
 	}
 
-	mine_layer_light_corvette = {
+	mine_layer_early_corvette = {
 
 		priority = {
 			factor = 10
@@ -795,7 +795,7 @@ naval_mine_layer_corvette = {
 		}
 	}
 
-	mine_layer_light_late_corvette = { # improved variant for late war
+	mine_layer_late_corvette = {
 
 		priority = {
 			factor = 100

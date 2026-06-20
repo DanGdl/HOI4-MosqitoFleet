@@ -553,7 +553,7 @@ naval_mine_sweeper_frigate = {
 		}
 	}
 
-	mine_sweeper_light_early_frigate = { # base variant
+	mine_sweeper_early_frigate = { # base variant
 
 		priority = {
 			factor = 100
@@ -602,7 +602,7 @@ naval_mine_sweeper_frigate = {
 		}
 	}
 
-	mine_sweeper_light_late_frigate = { # improved variant for late war
+	mine_sweeper_late_frigate = { # improved variant for late war
 
 		priority = {
 			factor = 100
@@ -691,7 +691,7 @@ naval_mine_layer_frigate = {
 		}
 	}
 
-	mine_layer_light_frigate = {
+	mine_layer_frigate = {
 
 		priority = {
 			factor = 10
@@ -749,7 +749,7 @@ naval_mine_layer_frigate = {
 		}
 	}
 
-	mine_layer_light_late_frigate = { # improved variant for late war
+	mine_layer_late_frigate = { # improved variant for late war
 
 		priority = {
 			factor = 100
