@@ -7,32 +7,10 @@
 ##    ## ##     ##  ##  ##           ##    ##  ##    ##  ##     ## ##     ## ##        ##    ##
  ######  ##     ## #### ##            ######   ##     ##  #######   #######  ##         ######
 
-mio_cat_eq_all_mdg_frigate = {
-	equipment_type = {
-		mdg_ship_hull_frigate
-	}
-}
-
-mio_cat_eq_all_mdg_corvette = {
-	equipment_type = {
-		mdg_ship_hull_corvette
-	}
-}
-
 mio_cat_eq_all_mdg_fac = {
 	equipment_type = {
 		mdg_ship_hull_fac
 		mdg_ship_hull_hydrofoil
-	}
-}
-
-mio_cat_eq_all_destroyer = {
-	equipment_type = {
-		ship_hull_light
-
-		# easiest way to add support of MIO for new equipment
-		mdg_ship_hull_frigate
-		mdg_ship_hull_corvette
 	}
 }
 
@@ -46,9 +24,6 @@ mio_cat_eq_all_ships_no_convoys = { #Includes all ships except convoys
 
 		# easiest way to add support of MIO for new equipment
 		mdg_ship_hull_hydrofoil
-
-		mdg_ship_hull_frigate
-		mdg_ship_hull_corvette
 		mdg_ship_hull_fac
 	}
 }
