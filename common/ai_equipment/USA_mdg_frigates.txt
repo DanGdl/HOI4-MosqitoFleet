@@ -412,7 +412,7 @@ USA_naval_mine_sweeper_frigate = {
 		}
 		allowed_modules = {
 			ship_mine_warfare
-			mdg_ship_light_cannon_d
+			mdg_ship_light_cannon
 			mdg_ship_light_cannon_dp
 			ship_anti_air
 			ship_depth_charge
