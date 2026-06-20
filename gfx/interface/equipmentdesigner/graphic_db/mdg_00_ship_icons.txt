@@ -1,0 +1,196 @@
+#MTG SHIPS to add for designer if needed:
+
+## BASE GAME ##
+#GENERICS:
+# battle_cruiser_entity
+# battleship_entity
+# carrier_entity
+# destroyer_entity
+# heavy_cruiser_entity
+# light_cruiser_entity
+# super_heavy_battleship_entity
+# submarine_entity
+
+## Battleship Pack ##
+
+# GER_battleship_entity
+# ENG_battleship_entity
+# ITA_battleship_entity
+# USA_battleship_entity
+# FRA_battleship_entity
+# SOV_battleship_entity
+# JAP_battleship_entity
+
+## Heavy Cruisers Pack ##
+
+# FRA_heavy_cruiser_entity
+# USA_heavy_cruiser_entity
+# ENG_heavy_cruiser_entity
+# SOV_heavy_cruiser_entity
+# JAP_heavy_cruiser_entity
+# GER_heavy_cruiser_entity
+# ITA_heavy_cruiser_entity
+
+## MAN THE GUNS ##
+
+#GENERICS:
+# carrier_0_entity
+# ENG_battleship_0_entity
+# ENG_destroyer_entity
+# ENG_heavy_cruiser_0_entity
+# ENG_light_cruiser_entity
+# USA_battleship_0_entity
+# USA_destroyer_0_entity
+# USA_light_cruiser_entity
+# USA_heavy_cruiser_0_entity
+
+#USA:
+#USA_battleship_0_entity #New Mexico
+#USA_destroyer_0_entity #Fletcher
+#USA_light_cruiser_entity #Brooklyn
+#USA_heavy_cruiser_0_entity #Pensacola
+
+
+
+#default carrier needs all levels to specifiy that early generic carrier comes at the bottom of the later teirs.
+default = {
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_ship_hull_midget_submarine_medium
+			}
+			models = {
+				ENG_mdg_midget_mesh
+			}
+		}
+	}
+
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_ship_hull_midget_submarine_medium
+				GFX_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				ENG_mdg_midget_mesh
+			}
+		}
+	}
+
+}
+
+GER = {
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_GER_ship_hull_midget_submarine_medium
+			}
+			models = {
+				#GER_mdg_midget_mesh
+			}
+		}
+	}
+
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_GER_ship_hull_midget_submarine_medium
+				GFX_GER_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				#GER_mdg_midget_mesh
+			}
+		}
+	}
+}
+
+ITA = {
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_ITA_ship_hull_midget_submarine_medium
+			}
+			models = {
+				#ITA_mdg_midget_mesh
+			}
+		}
+	}
+
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_ITA_ship_hull_midget_submarine_medium
+				GFX_ITA_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				#ITA_mdg_midget_mesh
+			}
+		}
+	}
+}
+
+JAP = {
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_JAP_ship_hull_midget_submarine_medium
+			}
+			models = {
+				JAP_mdg_midget_mesh
+			}
+		}
+	}
+
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_JAP_ship_hull_midget_submarine_medium
+				GFX_JAP_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				JAP_mdg_midget_mesh
+			}
+		}
+	}
+
+}
+
+SOV = {
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_SOV_ship_hull_midget_submarine_medium
+			}
+			models = {
+				#SOV_mdg_midget_mesh
+			}
+		}
+	}
+
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			icons = {
+				GFX_SOV_ship_hull_midget_submarine_medium
+				GFX_SOV_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				#SOV_mdg_midget_mesh
+			}
+		}
+	}
+}
