@@ -1,15 +1,6 @@
 
 StrikeForce_1_Cor = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
 	}
 	ai_will_do = {
 		factor = 1
@@ -46,15 +37,6 @@ StrikeForce_1_Cor = {
 
 PatrolReconForce_1_Cor = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
 	}
 	ai_will_do = {
 		factor = 5
@@ -80,15 +62,6 @@ PatrolReconForce_1_Cor = {
 
 PatrolDominanceForce_CA_1_Cor = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
 	}
 	ai_will_do = {
 		factor = 5
@@ -112,15 +85,6 @@ PatrolDominanceForce_CA_1_Cor = {
 
 PatrolDominanceForce_BC_1_Cor = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
 	}
 	ai_will_do = {
 		factor = 5
@@ -144,15 +108,6 @@ PatrolDominanceForce_BC_1_Cor = {
 
 ConvoyEscort_1_Cor = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
 	}
 	ai_will_do = {
 		factor = 5
@@ -178,15 +133,6 @@ ConvoyEscort_1_Cor = {
 
 MineLaying_1_Cor = {
 	allowed = {
-		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = SOV
-			original_tag = USA
-			original_tag = ITA
-			original_tag = GER
-			original_tag = FRA
-		}		
 	}
 	ai_will_do = {
 		factor = 1
