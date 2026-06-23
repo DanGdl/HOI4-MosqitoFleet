@@ -2301,7 +2301,7 @@ technologies = {
 						OR = {
 							has_capitulated = yes
 							exists = no
-		                    is_subject_of = JAP
+							is_subject_of = JAP
 						}
 					}
 				}
