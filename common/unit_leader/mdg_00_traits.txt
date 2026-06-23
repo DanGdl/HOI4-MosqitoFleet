@@ -168,4 +168,55 @@ leader_traits = {
 		gui_row = 6
 		gui_column = 1
 	}
+
+
+	# Personal traits
+	mdg_fac_officer = {
+		type = navy
+		trait_type = personality_trait
+
+		country_trigger = {
+			NOT = {
+				OR = {
+					has_idea = best_of_the_best_naval_academy_spirit
+					has_idea = naval_academy_scholarships_spirit
+					has_idea = SOV_purged_junior_navy_officers_3
+				}
+			}
+		}
+
+		allowed_ship_equipments = {
+			mdg_ship_hull_fac
+		}
+
+		trait_xp_factor	= {
+			blockade_runner = 0.5
+			spotter = 0.5
+		}
+
+		new_commander_weight = {
+			factor = 1
+			modifier = {
+				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
+				factor = 0
+			}
+			modifier = {
+				FROM = { has_idea = naval_academy_scholarships_spirit }
+				factor = 0
+			}
+			modifier = { #Purged Junior Navy Officers
+				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
+				factor = 0
+			}
+			modifier = {
+				FROM = {
+					has_dlc = "Thunder at Our Gates"
+				}
+				factor = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

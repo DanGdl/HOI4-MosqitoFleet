@@ -6,25 +6,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -45,7 +27,7 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-		#    cancel_if_not_visible = yes
+		#	cancel_if_not_visible = yes
 		#}
 
 		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
@@ -58,9 +40,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 30
-	  		}
-	  		if = {
+				convoy > 30
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -73,7 +55,7 @@ mdg_generic_refit_civilian_ships_category = {
 				has_tech = early_light_cruiser
 			}
 		}
-		days_remove = 90
+		days_remove = 1
 
 		complete_effect = {
 			navy_experience = -30
@@ -154,25 +136,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -193,10 +157,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
+		custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
 		custom_cost_trigger = {
 			has_navy_experience > 20
 			has_equipment = {
@@ -206,9 +170,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 40
-	  		}
-	  		if = {
+				convoy > 40
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -302,25 +266,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -341,10 +287,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
+		custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
 		custom_cost_trigger = {
 			has_navy_experience > 15
 			has_equipment = {
@@ -354,9 +300,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 20
-	  		}
-	  		if = {
+				convoy > 20
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -448,25 +394,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -487,10 +415,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
+		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
 		custom_cost_trigger = {
 			has_navy_experience > 10
 			has_equipment = {
@@ -500,9 +428,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 20
-	  		}
-	  		if = {
+				convoy > 20
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -595,25 +523,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -634,10 +544,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
+		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
 		custom_cost_trigger = {
 			has_navy_experience > 9
 			has_equipment = {
@@ -647,9 +557,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 20
-	  		}
-	  		if = {
+				convoy > 20
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -742,25 +652,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -774,7 +666,7 @@ mdg_generic_refit_civilian_ships_category = {
 			always = yes
 		}
 		#cancel_trigger = {
-		#    cancel_if_not_visible = yes
+		#	cancel_if_not_visible = yes
 		#}
 
 		custom_cost_text = mdg_decision_cost_80_convoy_45_NavXP
@@ -787,9 +679,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 80
-	  		}
-	  		if = {
+				convoy > 80
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -802,7 +694,7 @@ mdg_generic_refit_civilian_ships_category = {
 				has_tech = early_carrier
 			}
 		}
-		days_remove = 120
+		days_remove = 1
 
 		complete_effect = {
 			navy_experience = -45
