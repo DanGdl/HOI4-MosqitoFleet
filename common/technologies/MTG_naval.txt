@@ -6,14 +6,13 @@ technologies = {
 			mdg_ship_hull_mac_1
 			mdg_ship_hull_auxiliary_1
 
-			ship_hull_carrier_1
-
 			mdg_ship_hull_frigate_1
 			mdg_ship_hull_corvette_1
 			mdg_ship_hull_corvette_2
 			mdg_ship_hull_fac_1
 
 			ship_hull_cruiser_coastal_defense_ship
+			ship_hull_carrier_1
 		}
 
 		enable_equipment_modules = {

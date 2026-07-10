@@ -248,7 +248,6 @@ default = {
 	mdg_ship_hull_auxiliary_1 = {
 		pool = {
 			weight = 5500
-			#sub_units = { mdg_auxiliary }
 
 			icons = {
 				GFX_mdg_ship_hull_auxiliary_1_medium
