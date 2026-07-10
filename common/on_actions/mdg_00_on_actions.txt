@@ -1,0 +1,12 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			
+			# call once
+			random_country = {
+				country_event = { id = mdg_mosquitos.0 }
+			}
+		}
+	}
+}

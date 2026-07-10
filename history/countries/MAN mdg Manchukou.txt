@@ -59,11 +59,3 @@
 		set_technology = { early_destroyer = 0 }
 	}
 }
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# load_oob = "mdg_MAN_1936_naval_mtg"
-	else = {
-		# load_oob = "mdg_MAN_1936_naval_legacy"
-	}
-}
