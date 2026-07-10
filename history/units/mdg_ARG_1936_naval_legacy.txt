@@ -6,19 +6,19 @@
 			name = "Armada Argentina"
 			location = 5951
 
-			ship = { name = "ARA Tirana" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Parana" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Tirana" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Parana" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = ARG } } }
 
-			ship = { name = "ARA Bathurst" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Jorge" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA King" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Pinedo" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Segui" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Thorne" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Bathurst" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Jorge" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA King" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Pinedo" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Segui" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Thorne" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 
-			ship = { name = "ARA Bouchard" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Drummond" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
-			ship = { name = "ARA Granville" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Bouchard" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Drummond" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Granville" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ARG } } }
 		}
 	}
 }

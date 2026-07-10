@@ -6,8 +6,8 @@
 			name = "Patrol group"
 			location = 8621
 
-			ship = { name = "BNS Zinnia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BEL version_name = "Artevelde Class" } } }
-			ship = { name = "BNS Artevelde" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BEL version_name = "Artevelde Class" } } }
+			ship = { name = "BNS Zinnia" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BEL version_name = "Artevelde Class" } } }
+			ship = { name = "BNS Artevelde" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BEL version_name = "Artevelde Class" } } }
 		}
 	}
 }

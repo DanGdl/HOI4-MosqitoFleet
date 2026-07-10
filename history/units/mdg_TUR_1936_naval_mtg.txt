@@ -6,18 +6,18 @@
 			name = "Türk Donanmasi"
 			location = 7452
 
-			#ship = { name = "TCG Berk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Berk Class" } } }
-			#ship = { name = "TCG Peyk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Berk Class" } } }
+			#ship = { name = "TCG Berk" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Berk Class" } } }
+			#ship = { name = "TCG Peyk" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Berk Class" } } }
 
-			ship = { name = "TCG Sivrihisar" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
-			ship = { name = "TCG Yuzbasi Hakki" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
-			ship = { name = "TCG Atak" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
-			ship = { name = "TCG Nusret" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
-			ship = { name = "TCG Intibah" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Sivrihisar" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Yuzbasi Hakki" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Atak" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Nusret" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
+			ship = { name = "TCG Intibah" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Sivrihisar Class" } } }
 
-			ship = { name = "TCG Isa Reis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
-			ship = { name = "TCG Kemal Reis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
-			ship = { name = "TCG Hizir Reis" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
+			ship = { name = "TCG Isa Reis" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
+			ship = { name = "TCG Kemal Reis" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
+			ship = { name = "TCG Hizir Reis" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = TUR version_name = "Reis Class" } } }
 
 			ship = { name = "TCG Dogan" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = TUR version_name = "Dogan Class" } } }
 			ship = { name = "TCG Deniz Kusu" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = TUR version_name = "Dogan Class" } } }

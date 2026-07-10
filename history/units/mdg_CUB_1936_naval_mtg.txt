@@ -6,23 +6,23 @@
 			name = "Armada Nacional"
 			location = 6805
 
-			ship = { name = "ARC Bogota" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Cuba Class" } } }
+			ship = { name = "ARC Bogota" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Cuba Class" } } }
 
-			ship = { name = "ARC Patriа" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Patriа Class" } } }
-			ship = { name = "ARC Donativo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Patriа Class" } } }
+			ship = { name = "ARC Patriа" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Patriа Class" } } }
+			ship = { name = "ARC Donativo" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Patriа Class" } } }
 
-			ship = { name = "ARC Habana" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Pinar del Rio" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Matanzas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Las Villas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Diez de Octubre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC General Juan Bruno Zayas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Veinte de Mayo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Yara" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Baire" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Santa Clara" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Oriente" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
-			ship = { name = "ARC Саmaguey" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Habana" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Pinar del Rio" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Matanzas" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Las Villas" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Diez de Octubre" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC General Juan Bruno Zayas" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Veinte de Mayo" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Yara" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Baire" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Santa Clara" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Oriente" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
+			ship = { name = "ARC Саmaguey" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = CUB version_name = "Matanz Class" } } }
 
 			ship = { name = "ARC CS-1" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }
 			ship = { name = "ARC CS-2" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = CUB version_name = "SC Class" } } }

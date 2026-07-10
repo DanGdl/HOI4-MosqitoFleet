@@ -6,12 +6,12 @@
 			name = "Armada Argentina"
 			location = 5951
 
-			ship = { name = "ARA Py" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Fournier" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Parker" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Robinson" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Seaver" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
-			ship = { name = "ARA Spiro" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
+			ship = { name = "ARA Py" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
+			ship = { name = "ARA Fournier" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
+			ship = { name = "ARA Parker" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
+			ship = { name = "ARA Robinson" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
+			ship = { name = "ARA Seaver" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
+			ship = { name = "ARA Spiro" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ARG version_name = "Bouchard Class" } } }
 		}
 	}
 }

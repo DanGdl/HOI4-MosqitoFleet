@@ -6,28 +6,28 @@
 			name = "Rannikkolaivue"
 			location = 1660  # near Helsinki
 
-			ship = { name = "Hameenmaa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }
-			ship = { name = "Uusimaa" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }
+			ship = { name = "Hameenmaa" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }
+			ship = { name = "Uusimaa" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = FIN version_name = "Hameenmaa Class" } } }
 
 
-			ship = { name = "Karjala" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Karjala Class" } } }
-			ship = { name = "Turunmaa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Karjala Class" } } }
+			ship = { name = "Karjala" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Karjala Class" } } }
+			ship = { name = "Turunmaa" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Karjala Class" } } }
 
-			ship = { name = "Aunus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Aunus Class" } } }
-			ship = { name = "Viena" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Aunus Class" } } }
+			ship = { name = "Aunus" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Aunus Class" } } }
+			ship = { name = "Viena" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Aunus Class" } } }
 
-			ship = { name = "Louhi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
-			ship = { name = "Ruotsinsalmi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
-			ship = { name = "Riilahti" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Louhi" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Ruotsinsalmi" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Riilahti" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
 
-			ship = { name = "Pommi" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
-			ship = { name = "Miina" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
-			ship = { name = "Lieska" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
-			ship = { name = "Loimu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
-			ship = { name = "Paukku" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Pommi" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Miina" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Lieska" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Loimu" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
+			ship = { name = "Paukku" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Louhi Class" } } }
 
-			ship = { name = "Т-1 Rautu" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Rautu Class" } } }
-			ship = { name = "Т-2 Vilppula" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Rautu Class" } } }
+			ship = { name = "Т-1 Rautu" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Rautu Class" } } }
+			ship = { name = "Т-2 Vilppula" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FIN version_name = "Rautu Class" } } }
 
 			ship = { name = "MTV-1 Sisu" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = FIN version_name = "Sisu Class" } } }
 			ship = { name = "MTV-2 Hurja" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = FIN version_name = "Sisu Class" } } }

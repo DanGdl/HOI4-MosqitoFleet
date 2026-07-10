@@ -6,11 +6,11 @@
 			name = "Armada Venezula"
 			location = 2110
 
-			ship = { name = "ARV General Soublette" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
-			ship = { name = "ARV General Urdaneta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
-			ship = { name = "ARV Miranda" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
-			ship = { name = "ARV General Salom" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
-			ship = { name = "ARV Mariscal Sucre" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV General Soublette" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV General Urdaneta" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV Miranda" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV General Salom" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "ARV Mariscal Sucre" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = VEN } } }
 		}
 	}
 }

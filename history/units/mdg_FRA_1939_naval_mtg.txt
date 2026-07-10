@@ -7,27 +7,27 @@
 			location = 8546
 
 			# 1939
-			ship = { name = "Ville d'Ys" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
-			ship = { name = "Beautemps-Beaupre" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Ville d'Ys" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Beautemps-Beaupre" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
 
-			ship = { name = "Elan" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "Commandant Bory" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "Commandant Delage" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "Commandant Dominie" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "Commandant Duboc" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "Commandant Riviere" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "La Capricieuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "La Moqueuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "L'Impetueuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "La Curieuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "La Batailleuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
-			ship = { name = "La Boudeuse" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "Elan" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "Commandant Bory" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "Commandant Delage" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "Commandant Dominie" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "Commandant Duboc" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "Commandant Riviere" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "La Capricieuse" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "La Moqueuse" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "L'Impetueuse" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "La Curieuse" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "La Batailleuse" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
+			ship = { name = "La Boudeuse" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Elan Class" } } }
 
-			ship = { name = "Chamois" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
-			ship = { name = "Chevreuil" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
-			ship = { name = "Gazelle" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
-			ship = { name = "Annamite" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
-			ship = { name = "La Surprise" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
+			ship = { name = "Chamois" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
+			ship = { name = "Chevreuil" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
+			ship = { name = "Gazelle" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
+			ship = { name = "Annamite" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
+			ship = { name = "La Surprise" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = FRA version_name = "Shamois Class" } } }
 
 			ship = { name = "VTB-9" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = FRA version_name = "VTB-8 Class" } } }
 			ship = { name = "VTB-10" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = FRA version_name = "VTB-8 Class" } } }

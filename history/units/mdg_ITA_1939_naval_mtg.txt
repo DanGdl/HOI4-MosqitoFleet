@@ -57,11 +57,11 @@
 			ship = { name = "RCT MAS-549" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = ITA version_name = "Stefano Turr" } } }
 			ship = { name = "RCT MAS-550" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = ITA version_name = "Stefano Turr" } } }
 
-			ship = { name = "RCT Diana" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Eritrea Class" } } }
+			ship = { name = "RCT Diana" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Eritrea Class" } } }
 
-			ship = { name = "RCT Vigilante" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Type Vedetta" } } }
-			ship = { name = "RCT Vedetta" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Type Vedetta" } } }
-			ship = { name = "RCT D-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Type Vedetta" } } }
+			ship = { name = "RCT Vigilante" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Type Vedetta" } } }
+			ship = { name = "RCT Vedetta" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Type Vedetta" } } }
+			ship = { name = "RCT D-1" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Type Vedetta" } } }
 		}
 	}
 }

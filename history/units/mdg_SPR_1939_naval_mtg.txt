@@ -7,8 +7,8 @@
 			location = 5382  # near Cádiz
 
 			# 1939
-			ship = { name = "ARE Eolo" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SPR version_name = "Eolo Class" } } }
-			ship = { name = "ARE Triton" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SPR version_name = "Eolo Class" } } }
+			ship = { name = "ARE Eolo" definition = destroyer equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SPR version_name = "Eolo Class" } } }
+			ship = { name = "ARE Triton" definition = destroyer equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SPR version_name = "Eolo Class" } } }
 
 			ship = { name = "ARE LT-11" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SPR version_name = "S-1 Class" } } }
 			ship = { name = "ARE LT-12" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SPR version_name = "S-1 Class" } } }

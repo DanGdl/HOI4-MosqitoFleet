@@ -7,24 +7,24 @@
 			location = 5765
 
 			# 1939
-			ship = { name = "MO-38" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-39" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-40" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-41" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-42" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-43" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-44" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-45" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-46" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-47" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-48" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-49" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-50" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-51" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-52" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-53" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-54" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-55" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-38" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-39" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-40" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-41" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-42" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-43" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-44" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-45" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-46" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-47" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-48" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-49" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-50" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-51" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-52" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-53" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-54" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-55" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 		}
 	}
 
@@ -36,33 +36,33 @@
 			location = 1434
 
 			# 1939
-			ship = { name = "Yastreb" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SOV version_name = "Yastreb Class" } } }
+			ship = { name = "Yastreb" definition = destroyer equipment = { mdg_ship_hull_frigate_2 = { amount = 1 owner = SOV version_name = "Yastreb Class" } } }
 
-			ship = { name = "MO-10" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-11" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-12" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-13" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-14" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-15" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-16" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-17" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-18" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-19" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-20" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-21" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-22" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-23" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-10" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-11" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-12" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-13" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-14" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-15" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-16" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-17" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-18" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-19" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-20" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-21" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-22" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-23" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 
-			ship = { name = "T-205 Gafel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-206 Verp" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-207 Shipl" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-208 Shkiv" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-209 Kneht" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-210 Gak" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-211 Rym" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-212 Shtag" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-213 Krambol" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-214 Bugel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-205 Gafel" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-206 Verp" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-207 Shipl" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-208 Shkiv" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-209 Kneht" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-210 Gak" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-211 Rym" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-212 Shtag" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-213 Krambol" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-214 Bugel" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
 		}
 	}
 
@@ -74,30 +74,30 @@
 			location = 8131
 
 			# 1939
-			ship = { name = "MO-24" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-25" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-26" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-27" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-28" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-29" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-30" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-31" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-32" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-33" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-34" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-35" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-36" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-37" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-24" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-25" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-26" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-27" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-28" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-29" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-30" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-31" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-32" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-33" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-34" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-35" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-36" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-37" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 
-			ship = { name = "T-405 Vzrivatel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-406 Iskatel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-407 Mina" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-405 Vzrivatel" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-406 Iskatel" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-407 Mina" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
 
-			ship = { name = "T-408 Yakor" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-409 Garpun" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-410 Vzriv" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-411 Zashitnik" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-412 Arseniy Raskin" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-408 Yakor" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-409 Garpun" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-410 Vzriv" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-411 Zashitnik" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-412 Arseniy Raskin" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
 		}
 	}
 
@@ -109,33 +109,33 @@
 			location = 7028
 
 			# 1939
-			ship = { name = "MO-56" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-57" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-58" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-59" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-60" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-61" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-62" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-63" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-64" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-65" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-66" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-67" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-68" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-69" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-70" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-71" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-72" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
-			ship = { name = "MO-73" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-56" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-57" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-58" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-59" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-60" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-61" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-62" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-63" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-64" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-65" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-66" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-67" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-68" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-69" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-70" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-71" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-72" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
+			ship = { name = "MO-73" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 
-			ship = { name = "T-1 Strela" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-2 Tros" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-3 Podsekatel" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-4 Provodnik" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-5 Paravan" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-6 Kapsul" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-7 Veha" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
-			ship = { name = "T-8 Cheka" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-1 Strela" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-2 Tros" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-3 Podsekatel" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-4 Provodnik" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-5 Paravan" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-6 Kapsul" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-7 Veha" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
+			ship = { name = "T-8 Cheka" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Fugas Class" } } }
 		}
 	}
 }

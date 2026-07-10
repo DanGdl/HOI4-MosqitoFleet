@@ -7,9 +7,9 @@
 			location = 2358
 
 			# 1939
-			ship = { name = "M-13" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
-			ship = { name = "M-14" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
-			ship = { name = "M-15" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
+			ship = { name = "M-13" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
+			ship = { name = "M-14" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
+			ship = { name = "M-15" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type 1938" } } }
 
 			ship = { name = "R-17" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "R" } } }
 			ship = { name = "R-18" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "R" } } }
@@ -36,10 +36,10 @@
 			ship = { name = "R-39" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "R" } } }
 			ship = { name = "R-40" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "R" } } }
 
-			ship = { name = "MR-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
-			ship = { name = "MR-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
-			ship = { name = "MR-3" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
-			ship = { name = "MR-4" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-1" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-2" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-3" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
+			ship = { name = "MR-4" definition = destroyer equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = GER version_name = "Type MR" } } }
 
 			ship = { name = "S-14" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
 			ship = { name = "S-15" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }

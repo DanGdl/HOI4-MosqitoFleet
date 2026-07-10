@@ -6,9 +6,9 @@
 			name = "1st Task Force"
 			location = 8534
 
-			ship = { name = "ICGV Sudin" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
-			ship = { name = "ICGV Aegir" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
-			ship = { name = "ICGV Thor" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+			ship = { name = "ICGV Sudin" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+			ship = { name = "ICGV Aegir" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
+			ship = { name = "ICGV Thor" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = ICE } } }
 		}
 	}
 }

@@ -7,12 +7,12 @@
 			location = 2694
 
 			# 1939
-			ship = { name = "NRB Carioca" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
-			ship = { name = "NRB Cananeia" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
-			ship = { name = "NRB Camocim" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
-			ship = { name = "NRB Cabedelo" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
-			ship = { name = "NRB Caravelas" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
-			ship = { name = "NRB Camaqua" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Carioca" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Cananeia" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Camocim" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Cabedelo" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Caravelas" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
+			ship = { name = "NRB Camaqua" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "Carioca Class" } } }
 		}
 	}
 }

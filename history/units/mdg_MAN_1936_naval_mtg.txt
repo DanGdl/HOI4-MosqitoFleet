@@ -6,8 +6,8 @@
 			name = "Di 1 Jiandui"
 			location = 2734
 
-			ship = { name = "Hai Feng" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MAN version_name = "Hai Wei Class" } } }
-			ship = { name = "Hai Lung" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MAN version_name = "Hai Wei Class" } } }
+			ship = { name = "Hai Feng" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MAN version_name = "Hai Wei Class" } } }
+			ship = { name = "Hai Lung" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = MAN version_name = "Hai Wei Class" } } }
 
 			ship = { name = "Hai Van" definition = mdg_auxiliary equipment = { mdg_ship_hull_auxiliary_1 = { amount = 1 owner = MAN version_name = "Auxiliary Cruiser" } } }
 		}
