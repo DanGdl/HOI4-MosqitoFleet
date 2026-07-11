@@ -1,4 +1,4 @@
-Radd_namespace = mdg_mosquitos
+add_namespace = mdg_mosquitos
 
 # load starting naval designs and fleet and techs
 country_event = {

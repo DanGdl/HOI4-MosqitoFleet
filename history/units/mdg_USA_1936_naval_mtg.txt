@@ -128,8 +128,8 @@
 			ship = { name = "USS WPC-115 Thetis" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
 			ship = { name = "USS WPC-116 Triton" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = USA version_name = "Active Class" } } }
 
-			#ship = { name = "USS AV-1 Wright" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
-			#ship = { name = "USS AV-3 Langley" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			ship = { name = "USS AV-1 Wright" definition = carrier equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
+			ship = { name = "USS AV-3 Langley" definition = carrier equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = USA version_name = "Seaplane floating base" } } }
 		}
 	}
 }

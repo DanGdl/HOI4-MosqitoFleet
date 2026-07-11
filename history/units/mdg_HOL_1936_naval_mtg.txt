@@ -38,8 +38,8 @@
 			ship = { name = "HrMs C" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 			ship = { name = "HrMs D" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = HOL version_name = "Hydra Class" } } }
 
-			#ship = { name = "HrMs Gadila" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = HOL version_name = "MAC Class" } } }
-			#ship = { name = "HrMs Macoma" definition = mdg_mac equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = HOL version_name = "MAC Class" } } }
+			ship = { name = "HrMs Gadila" definition = carrier equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = HOL version_name = "MAC Class" } } }
+			ship = { name = "HrMs Macoma" definition = carrier equipment = { mdg_ship_hull_mac_1 = { amount = 1 owner = HOL version_name = "MAC Class" } } }
 		}
 	}
 }
