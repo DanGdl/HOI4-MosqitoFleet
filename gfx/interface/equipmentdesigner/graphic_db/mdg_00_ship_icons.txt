@@ -75,7 +75,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_mdg_corvette_1_medium
 			}
@@ -88,7 +88,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_mdg_corvette_1_medium
 				GFX_mdg_corvette_2_medium
@@ -102,7 +102,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_mdg_corvette_1_medium
 				GFX_mdg_corvette_2_medium
@@ -117,7 +117,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_mdg_corvette_1_medium
 				GFX_mdg_corvette_2_medium
@@ -149,7 +149,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_mdg_frigate_1_medium
 			}
@@ -162,7 +162,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_mdg_frigate_1_medium
 				GFX_mdg_frigate_2_medium
@@ -176,7 +176,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_mdg_frigate_1_medium
 				GFX_mdg_frigate_2_medium
@@ -191,7 +191,7 @@ default = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_mdg_frigate_1_medium
 				GFX_mdg_frigate_2_medium
@@ -371,7 +371,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_FRA_mdg_corvette_1_medium
 			}
@@ -384,7 +384,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-			
+
 			icons = {
 				GFX_FRA_mdg_corvette_1_medium
 				GFX_FRA_mdg_corvette_2_medium
@@ -398,7 +398,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_FRA_mdg_corvette_1_medium
 				GFX_FRA_mdg_corvette_2_medium
@@ -413,7 +413,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_FRA_mdg_corvette_1_medium
 				GFX_FRA_mdg_corvette_2_medium
@@ -445,7 +445,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_FRA_mdg_frigate_1_medium
 			}
@@ -458,7 +458,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_FRA_mdg_frigate_1_medium
 				GFX_mdg_frigate_2_medium
@@ -472,7 +472,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_FRA_mdg_frigate_1_medium
 				GFX_mdg_frigate_2_medium
@@ -487,7 +487,7 @@ FRA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_FRA_mdg_frigate_1_medium
 				GFX_mdg_frigate_2_medium
@@ -522,7 +522,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_GER_mdg_corvette_1_medium
 			}
@@ -535,7 +535,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_GER_mdg_corvette_1_medium
 				GFX_GER_mdg_corvette_2_medium
@@ -549,7 +549,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_GER_mdg_corvette_1_medium
 				GFX_GER_mdg_corvette_2_medium
@@ -564,7 +564,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_GER_mdg_corvette_1_medium
 				GFX_GER_mdg_corvette_2_medium
@@ -596,7 +596,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_GER_mdg_frigate_1_medium
 			}
@@ -609,7 +609,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_GER_mdg_frigate_1_medium
 				GFX_GER_mdg_frigate_2_medium
@@ -623,7 +623,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_GER_mdg_frigate_1_medium
 				GFX_GER_mdg_frigate_2_medium
@@ -638,7 +638,7 @@ GER = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_GER_mdg_frigate_1_medium
 				GFX_GER_mdg_frigate_2_medium
@@ -701,7 +701,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_ITA_mdg_corvette_1_medium
 			}
@@ -714,7 +714,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_ITA_mdg_corvette_1_medium
 				GFX_ITA_mdg_corvette_2_medium
@@ -728,7 +728,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_ITA_mdg_corvette_1_medium
 				GFX_ITA_mdg_corvette_2_medium
@@ -743,7 +743,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_ITA_mdg_corvette_1_medium
 				GFX_ITA_mdg_corvette_2_medium
@@ -775,7 +775,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_ITA_mdg_frigate_1_medium
 			}
@@ -788,7 +788,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_ITA_mdg_frigate_1_medium
 				GFX_ITA_mdg_frigate_2_medium
@@ -802,7 +802,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_ITA_mdg_frigate_1_medium
 				GFX_ITA_mdg_frigate_2_medium
@@ -817,7 +817,7 @@ ITA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_ITA_mdg_frigate_1_medium
 				GFX_ITA_mdg_frigate_2_medium
@@ -880,7 +880,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_JAP_mdg_corvette_1_medium
 			}
@@ -893,7 +893,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_JAP_mdg_corvette_1_medium
 				GFX_JAP_mdg_corvette_2_medium
@@ -907,7 +907,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_JAP_mdg_corvette_1_medium
 				GFX_JAP_mdg_corvette_2_medium
@@ -922,7 +922,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_JAP_mdg_corvette_1_medium
 				GFX_JAP_mdg_corvette_2_medium
@@ -954,7 +954,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_JAP_mdg_frigate_1_medium
 			}
@@ -967,7 +967,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_JAP_mdg_frigate_1_medium
 				GFX_JAP_mdg_frigate_2_medium
@@ -981,7 +981,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_JAP_mdg_frigate_1_medium
 				GFX_JAP_mdg_frigate_2_medium
@@ -996,7 +996,7 @@ JAP = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_JAP_mdg_frigate_1_medium
 				GFX_JAP_mdg_frigate_2_medium
@@ -1087,7 +1087,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_SOV_mdg_corvette_1_medium
 			}
@@ -1100,7 +1100,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_SOV_mdg_corvette_1_medium
 				GFX_SOV_mdg_corvette_2_medium
@@ -1114,7 +1114,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_SOV_mdg_corvette_1_medium
 				GFX_SOV_mdg_corvette_2_medium
@@ -1129,7 +1129,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_SOV_mdg_corvette_1_medium
 				GFX_SOV_mdg_corvette_2_medium
@@ -1161,7 +1161,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_SOV_mdg_frigate_1_medium
 			}
@@ -1174,7 +1174,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_SOV_mdg_frigate_1_medium
 				GFX_SOV_mdg_frigate_2_medium
@@ -1188,7 +1188,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_SOV_mdg_frigate_1_medium
 				GFX_SOV_mdg_frigate_2_medium
@@ -1203,7 +1203,7 @@ SOV = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_SOV_mdg_frigate_1_medium
 				GFX_SOV_mdg_frigate_2_medium
@@ -1267,7 +1267,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_USA_mdg_corvette_1_medium
 			}
@@ -1280,7 +1280,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_USA_mdg_corvette_1_medium
 				GFX_USA_mdg_corvette_2_medium
@@ -1309,7 +1309,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_corvette }
-		
+
 			icons = {
 				GFX_USA_mdg_corvette_1_medium
 				GFX_USA_mdg_corvette_2_medium
@@ -1341,7 +1341,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_USA_mdg_frigate_1_medium
 			}
@@ -1354,7 +1354,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_USA_mdg_frigate_1_medium
 				GFX_USA_mdg_frigate_2_medium
@@ -1368,7 +1368,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_USA_mdg_frigate_1_medium
 				GFX_USA_mdg_frigate_2_medium
@@ -1383,7 +1383,7 @@ USA = {
 			icons_weight = 5001.2
 			models_weight = 0.1
 			sub_units = { mdg_frigate }
-		
+
 			icons = {
 				GFX_USA_mdg_frigate_1_medium
 				GFX_USA_mdg_frigate_2_medium
@@ -1413,7 +1413,7 @@ USA = {
 		pool = {
 			weight = 5500
 			#sub_units = { mdg_mac }
-			
+
 			icons = {
 				GFX_USA_mdg_ship_hull_mac_1_medium
 			}
