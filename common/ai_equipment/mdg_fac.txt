@@ -1,0 +1,480 @@
+# AI Ship Designs for Generic Nations
+
+mdg_facs = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+	}
+
+	roles = {
+		naval_screen_fac
+	}
+
+	priority = {
+		factor = 2650
+		modifier = {
+			factor = 2
+			is_major = no
+		}
+	}
+
+	mdg_fac_early = {
+
+		priority = {
+			factor = 10
+			modifier = {
+				has_tech = basic_ship_hull_light
+				factor = 0
+			}
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_fac_1
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_torpedo mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			mdg_ship_light_guns
+			ship_torpedo
+			ship_depth_charge
+			light_ship_engine
+			ship_radar
+			ship_sonar
+		}
+	}
+
+	mdg_fac_bacis = {
+
+		priority = {
+			factor = 100
+			modifier = {
+				has_tech = improved_ship_hull_light
+				factor = 0
+			}
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_fac_2
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_torpedo mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			mdg_ship_light_guns
+			ship_torpedo
+			ship_depth_charge
+			light_ship_engine
+			ship_radar
+			ship_sonar
+		}
+	}
+
+	mdg_fac_improved = {
+
+		priority = {
+			factor = 200
+			modifier = {
+				has_tech = advanced_ship_hull_light
+				factor = 0
+			}
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 3000.0
+
+			type = mdg_ship_hull_fac_3
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_torpedo mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			mdg_ship_light_guns
+			ship_torpedo
+			ship_depth_charge
+			light_ship_engine
+			ship_radar
+			ship_sonar
+		}
+	}
+
+	mdg_fac_advanced = {
+
+		priority = {
+			factor = 300
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 4000.0
+
+			type = mdg_ship_hull_fac_4
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = {
+					any_of = { ship_torpedo }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_torpedo mdg_ship_light_guns ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			mdg_ship_light_guns
+			ship_torpedo
+			ship_depth_charge
+			light_ship_engine
+			ship_radar
+			ship_sonar
+		}
+	}
+}
+
+generic_escorts_fac = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+	}
+
+	roles = {
+		naval_escort_fac
+	}
+
+	priority = {
+		factor = 1000
+		modifier = {
+			factor = 5
+			anti_submarine_strategy_required_trigger = yes
+		}
+	}
+
+	escort_default_fac = {
+
+		priority = {
+			factor = 100
+			modifier = {
+				factor = 20
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_fac_1
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			ship_depth_charge
+			mdg_ship_light_guns
+			ship_sonar
+			ship_radar
+			light_ship_engine
+		}
+	}
+
+	escort_upgrade_fac = {
+
+		priority = {
+			factor = 120
+			modifier = {
+				factor = 20
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		enable = {
+			AND = {
+				has_tech = improved_depth_charges
+				has_tech = cavity_magnatron
+			}
+		}
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_fac_3
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+				mid_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			ship_depth_charge
+			mdg_ship_light_guns
+			ship_sonar
+			ship_radar
+			light_ship_engine
+		}
+	}
+}
+
+naval_mine_layer_fac = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+	}
+
+	roles = {
+		naval_mine_layer_fac
+	}
+
+	priority = {
+		factor = 3
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+		modifier = {
+			is_major = no
+			factor = 5
+		}
+	}
+
+	mine_layer_light_fac = {
+
+		priority = {
+			factor = 10
+			modifier = {
+				factor = 10
+				num_of_naval_factories < 25 #not a major naval power
+			}
+		}
+
+		role_icon_index = 4
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_fac_1
+			modules = {
+				rear_1_custom_slot = ship_mine_layer_1
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar }
+					upgrade > current
+				}
+			}
+		}
+
+		requirements = {
+			module = ship_mine_layer_1
+		}
+		allowed_modules = {
+			ship_mine_layer_1
+			mdg_ship_light_guns
+			light_ship_engine
+			ship_torpedo
+			ship_radar
+			ship_sonar
+		}
+	}
+
+	mine_layer_light_late_fac = { # improved variant for late war
+
+		priority = {
+			factor = 100
+			modifier = {
+				factor = 10
+				is_major = no
+			}
+		}
+
+		enable = {
+			has_tech = basic_dp_light_battery
+			has_tech = improved_naval_mines
+		}
+
+		role_icon_index = 5
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_fac_3
+			modules = {
+				rear_1_custom_slot = ship_mine_layer_1
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_guns }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				fixed_ship_radar_slot = {
+					any_of = { ship_radar }
+					upgrade > current
+				}
+			}
+		}
+
+		requirements = {
+			module = ship_mine_layer_1
+		}
+		allowed_modules = {
+			ship_mine_layer_1
+			mdg_ship_light_guns
+			light_ship_engine
+			ship_torpedo
+			ship_radar
+			ship_sonar
+		}
+	}
+}

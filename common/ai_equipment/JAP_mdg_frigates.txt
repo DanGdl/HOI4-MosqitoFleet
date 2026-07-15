@@ -1,0 +1,345 @@
+# AI Ship Designs for GLORIOUS NIPPON STEEL FOLDED 1000 TIMES
+
+JAP_mdg_frigates = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+		JAP
+	}
+
+	roles = {
+		naval_screen_frigate
+	}
+
+	priority = {
+		factor = 100
+	}
+
+	destroyer_early = {
+
+		priority = {
+			factor = 10
+		}
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 500.0
+
+			type = mdg_ship_hull_frigate_1
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo
+				mid_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_anti_air
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			ship_torpedo
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+
+	mdg_frigate_basic = {
+
+		priority = {
+			factor = 100
+			modifier = {
+				factor = 100
+				has_war = yes
+			}
+		}
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_frigate_2
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo
+				mid_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_anti_air
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			ship_torpedo
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+
+	mdg_frigate_improved = {
+
+		priority = {
+			factor = 250
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2800.0
+
+			type = mdg_ship_hull_frigate_3
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo
+				front_1_custom_slot = ship_anti_air
+				mid_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_anti_air
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			ship_torpedo
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+
+	mdg_frigate_advanced = {
+
+		priority = {
+			factor = 400
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 3500.0
+
+			type = mdg_ship_hull_frigate_4
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = ship_torpedo
+				front_1_custom_slot = ship_anti_air
+				mid_1_custom_slot = ship_depth_charge
+				mid_2_custom_slot = ship_anti_air
+				rear_1_custom_slot = ship_anti_air
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			ship_torpedo
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+}
+
+JAP_naval_mine_sweeper_frigate = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+		JAP
+	}
+
+	roles = {
+		naval_mine_sweeper_frigate
+	}
+
+	priority = {
+		factor = 2
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+	}
+
+	mine_sweeper_early_frigate = {
+
+		priority = {
+			factor = 10
+			modifier = {
+				factor = 1
+			}
+		}
+		role_icon_index = 5
+		enable = { has_tech = basic_naval_mines }
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_frigate
+			modules = {
+				rear_1_custom_slot = ship_mine_sweeper_1
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+			}
+		}
+		requirements = {
+			module = ship_mine_sweeper_1
+		}
+		allowed_modules = {
+			ship_mine_warfare
+			mdg_ship_light_cannon_dp
+			ship_anti_air
+			ship_depth_charge
+			ship_fire_control_system
+			light_ship_engine
+			ship_radar
+			ship_sonar
+		}
+	}
+
+	mine_sweeper_late_frigate = {
+
+		priority = {
+			factor = 1
+		}
+		role_icon_index = 5
+
+		enable = {
+			has_tech = basic_dp_light_battery
+			has_tech = basic_naval_mines
+		}
+
+		target_variant = {
+			match_value = 1100.0
+
+			type = mdg_ship_hull_frigate
+			modules = {
+				rear_1_custom_slot = ship_mine_sweeper_1
+				mid_1_custom_slot = ship_mine_sweeper_1
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon_dp_1 mdg_ship_light_cannon_1 }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				fixed_ship_anti_air_slot = ship_anti_air
+			}
+		}
+
+		requirements = {
+			module = ship_mine_sweeper_1
+		}
+		allowed_modules = {
+			ship_mine_sweeper_1
+			ship_mine_warfare
+			ship_anti_air
+			mdg_ship_light_cannon
+			ship_depth_charge
+			ship_fire_control_system
+			light_ship_engine
+			ship_radar
+			ship_sonar
+		}
+	}
+}
+
+JAP_naval_mine_layer_frigate = {
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+		JAP
+	}
+
+	roles = {
+		naval_mine_layer_frigate
+	}
+
+	priority = {
+		factor = 3
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+	}
+
+	mine_layer_frigate = {
+
+		priority = {
+			factor = 2
+		}
+		role_icon_index = 4
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_frigate
+			modules = {
+				rear_1_custom_slot = ship_mine_layer_1
+				mid_1_custom_slot = ship_mine_layer_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
+				fixed_ship_torpedo_slot = empty
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_anti_air_slot = empty
+			}
+		}
+
+		requirements = {
+			module = ship_mine_layer_1
+		}
+		allowed_modules = {
+			ship_mine_layer_1
+			ship_anti_air
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_fire_control_system
+			light_ship_engine
+			ship_torpedo
+			ship_radar
+			ship_sonar
+			ship_depth_charge
+		}
+	}
+}

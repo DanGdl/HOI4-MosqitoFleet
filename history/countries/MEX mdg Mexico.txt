@@ -83,7 +83,7 @@
 
 	create_equipment_variant = {
 		name = "SC Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:generic_small_ship_organization
 		modules = {
@@ -93,13 +93,5 @@
 			fixed_ship_torpedo_slot = empty
 			rear_1_custom_slot = ship_depth_charge_1
 		}
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_MEX_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_MEX_1936_naval_legacy"
 	}
 }

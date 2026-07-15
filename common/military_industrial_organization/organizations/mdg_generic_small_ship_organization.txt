@@ -3,17 +3,17 @@ generic_small_ship_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_3
 
 	allowed = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = USA tag = NZL tag = SAF tag = CAN } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = USA } }
 	}
 
 	equipment_type = {
-		# mdg_boat
+		# mdg_fac
 		# mdg_ship_hull_hydrofoil
-		mio_cat_eq_all_mdg_boat
+		mio_cat_eq_all_mdg_fac
 		# mdg_ship_hull_corvette
 	}
 	research_categories = {
-		mio_cat_eq_all_mdg_boat_and_modules
+		mio_cat_eq_all_mdg_fac_and_modules
 	}
 
 	tree_header_text = {
@@ -35,6 +35,9 @@ generic_small_ship_organization = {
 		production_bonus = {
 			production_capacity_factor = 0.1
 		}
+		equipment_bonus = {
+			max_strength = 0.05
+		}
 	}
 
 	trait = {
@@ -53,8 +56,9 @@ generic_small_ship_organization = {
 		name = generic_mio_trait_wooden_hulls
 		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
 
-		position = { x = 1 y = 1 }
+		position = { x = 0 y = 1 }
 		any_parent = { generic_mio_trait_advanced_hydrodynamic_design }
+		mutually_exclusive = { generic_mio_trait_metal_hulls generic_mio_trait_combined_materials_hulls }
 
 		equipment_bonus = {
 			reliability = 0.1
@@ -70,12 +74,53 @@ generic_small_ship_organization = {
 	}
 
 	trait = {
+		token = generic_mio_trait_metal_hulls
+		name = generic_mio_trait_metal_hulls
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+
+		position = { x = 1 y = 1 }
+		any_parent = { generic_mio_trait_advanced_hydrodynamic_design }
+		mutually_exclusive = { generic_mio_trait_wooden_hulls generic_mio_trait_combined_materials_hulls }
+
+		equipment_bonus = {
+			build_cost_ic = 0.05
+			reliability = 0.1
+			max_strength = 0.1
+		}
+
+		production_bonus = {
+			production_cost_factor = -0.1
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_combined_materials_hulls
+		name = generic_mio_trait_combined_materials_hulls
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+
+		position = { x = 2 y = 1 }
+		any_parent = { generic_mio_trait_advanced_hydrodynamic_design }
+		mutually_exclusive = { generic_mio_trait_metal_hulls generic_mio_trait_wooden_hulls }
+
+		equipment_bonus = {
+			build_cost_ic = 0.15
+			naval_speed = 0.1
+			max_strength = 0.1
+			naval_weather_penalty_factor = -0.1
+		}
+		production_bonus = {
+			production_cost_factor = -0.1
+			production_resource_need_factor = -0.05
+		}
+	}
+
+	trait = {
 		token = generic_mio_trait_efficient_patrolling_scheme
 		name = generic_mio_trait_efficient_patrolling_scheme
 		icon = GFX_generic_mio_trait_icon_detection # GFX_generic_mio_trait_icon_surface_detection
 
 		position = { x = 1 y = 2 }
-		all_parents = { generic_mio_trait_wooden_hulls }
+		any_parent = { generic_mio_trait_wooden_hulls generic_mio_trait_metal_hulls generic_mio_trait_combined_materials_hulls }
 
 		equipment_bonus = {
 			patrol_coordination = 0.1
@@ -94,6 +139,22 @@ generic_small_ship_organization = {
 		any_parent = { generic_mio_trait_efficient_patrolling_scheme }
 
 		equipment_bonus = {
+			surface_visibility = -0.05
+			naval_torpedo_hit_chance_factor = 0.05
+		}
+	}
+
+	trait = {
+		token = generic_mio_trait_sneak_engines
+		name = generic_mio_trait_sneak_engines
+		icon = GFX_generic_mio_department_icon_ship_screen_ship_engine
+
+		position = { x = 1 y = 4 }
+		any_parent = { generic_mio_trait_spotting_tops }
+		limit_to_equipment_type = { mdg_ship_hull_fac }
+
+		equipment_bonus = {
+			build_cost_ic = 0.1
 			surface_visibility = -0.05
 			naval_torpedo_hit_chance_factor = 0.05
 		}

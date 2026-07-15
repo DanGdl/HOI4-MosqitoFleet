@@ -1,6 +1,6 @@
 # AI Ship Designs for Generic Nations
 
-mdg_midget_submarine = {
+naval_submarine_midget = {
 	category = naval
 
 	blocked_for = {
@@ -10,7 +10,7 @@ mdg_midget_submarine = {
 	}
 
 	roles = {
-		mdg_naval_midget_sub
+		naval_submarine_midget
 	}
 
 	priority = {
@@ -25,17 +25,10 @@ mdg_midget_submarine = {
 		}
 	}
 
-	mdg_midget_sub_basic = {
+	midget_improved = {
 
 		priority = {
-			factor = 1
-			modifier = {
-				factor = 1
-			}
-			modifier = {
-				add = 2
-				has_tech = mdg_improved_midget_submarine
-			}
+			factor = 50
 		}
 
 		role_icon_index = 6
@@ -65,8 +58,8 @@ mdg_midget_submarine = {
 		}
 
 		allowed_modules = {
-			sub_ship_engine
 			ship_torpedo_sub
+			sub_ship_engine
 			ship_sub_snorkel
 			ship_sub_coating
 		}

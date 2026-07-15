@@ -7,7 +7,7 @@
 			location = 6011
 
 			# 1939
-			ship = { name = "ERN Raqib" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }
+			ship = { name = "ERN Raqib" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = EGY version_name = "Patrol boat" } } }
 		}
 	}
 }

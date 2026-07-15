@@ -6,25 +6,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -45,7 +27,7 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-		#    cancel_if_not_visible = yes
+		#	cancel_if_not_visible = yes
 		#}
 
 		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
@@ -58,9 +40,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 30
-	  		}
-	  		if = {
+				convoy > 30
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -104,15 +86,15 @@ mdg_generic_refit_civilian_ships_category = {
 						modules = {
 							fixed_ship_battery_slot = ship_light_medium_battery_1
 							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+							fixed_ship_fire_control_system_slot = empty
 							fixed_ship_engine_slot = light_ship_engine_1
 							fixed_ship_secondaries_slot = dp_ship_secondaries_1
-							mid_1_custom_slot = ship_airplane_launcher_1
-							mid_2_custom_slot = ship_torpedo_1
+							mid_1_custom_slot = empty
+							mid_2_custom_slot = empty
 							rear_1_custom_slot = ship_light_medium_battery_1
-							rear_2_custom_slot = ship_mine_layer_1
+							rear_2_custom_slot = empty
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -157,25 +139,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -196,10 +160,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
+		custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
 		custom_cost_trigger = {
 			has_navy_experience > 20
 			has_equipment = {
@@ -209,9 +173,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 40
-	  		}
-	  		if = {
+				convoy > 40
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -249,7 +213,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {
 						name = "Refitted Escort Ship"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -259,7 +223,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_depth_charge_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -305,25 +269,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -344,10 +290,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
+		custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
 		custom_cost_trigger = {
 			has_navy_experience > 15
 			has_equipment = {
@@ -357,9 +303,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 20
-	  		}
-	  		if = {
+				convoy > 20
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -388,14 +334,14 @@ mdg_generic_refit_civilian_ships_category = {
 				}
 				if = {
 					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
+						NOT = {	has_country_flag = mdg_flag_refit_to_patrol_mtg }
 					}
-					set_country_flag = mdg_flag_refit_to_escort_mtg
+					set_country_flag = mdg_flag_refit_to_patrol_mtg
 
 					create_equipment_variant = {
 						name = "Refitted Patrol Ship"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -419,9 +365,9 @@ mdg_generic_refit_civilian_ships_category = {
 			else = {
 				if = {
 					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
+						NOT = {	has_country_flag = mdg_flag_refit_to_patrol_vanila }
 					}
-					set_country_flag = mdg_flag_refit_to_escort_vanila
+					set_country_flag = mdg_flag_refit_to_patrol_vanila
 
 					create_equipment_variant = {
 						name = "Refitted Patrol Ship"
@@ -451,25 +397,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -490,10 +418,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
+		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
 		custom_cost_trigger = {
 			has_navy_experience > 10
 			has_equipment = {
@@ -503,9 +431,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 20
-	  		}
-	  		if = {
+				convoy > 20
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -542,7 +470,7 @@ mdg_generic_refit_civilian_ships_category = {
 					create_equipment_variant = {
 						name = "Refitted Mine Layer"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_ML_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -552,7 +480,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_mine_layer_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -598,25 +526,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -637,10 +547,10 @@ mdg_generic_refit_civilian_ships_category = {
 			# always = yes
 		}
 		#cancel_trigger = {
-	    #    cancel_if_not_visible = yes
-	    #}
+		#	cancel_if_not_visible = yes
+		#}
 
-	    custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
+		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
 		custom_cost_trigger = {
 			has_navy_experience > 9
 			has_equipment = {
@@ -650,9 +560,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 20
-	  		}
-	  		if = {
+				convoy > 20
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -684,12 +594,12 @@ mdg_generic_refit_civilian_ships_category = {
 					limit = {
 						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
 					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
+					set_country_flag = mdg_flag_refit_to_mine_sweeper_mtg
 
 					create_equipment_variant = {
 						name = "Refitted Mine Sweeper"
 						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_AUXILIARY_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						name_group = "ENG_MS_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
 						parent_version = 0
 						modules = {
 							fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -699,7 +609,7 @@ mdg_generic_refit_civilian_ships_category = {
 							fixed_ship_torpedo_slot = empty
 							rear_1_custom_slot = ship_mine_sweeper_1
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {
@@ -713,7 +623,7 @@ mdg_generic_refit_civilian_ships_category = {
 			else = {
 				if = {
 					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
+						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_vanila }
 					}
 					set_country_flag = mdg_flag_refit_to_mine_sweeper_vanila
 
@@ -745,25 +655,7 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 1.5
-				has_equipment = {
-	   				convoy > 200
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 300
-		  		}
-			}
-			modifier = {
-				factor = 2
-				has_equipment = {
-	   				convoy > 500
-		  		}
-			}
+			base = 1.5
 		}
 
 		visible = {
@@ -777,7 +669,7 @@ mdg_generic_refit_civilian_ships_category = {
 			always = yes
 		}
 		#cancel_trigger = {
-		#    cancel_if_not_visible = yes
+		#	cancel_if_not_visible = yes
 		#}
 
 		custom_cost_text = mdg_decision_cost_80_convoy_45_NavXP
@@ -790,9 +682,9 @@ mdg_generic_refit_civilian_ships_category = {
 
 		available = {
 			has_equipment = {
-   				convoy > 80
-	  		}
-	  		if = {
+				convoy > 80
+			}
+			if = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
@@ -847,9 +739,9 @@ mdg_generic_refit_civilian_ships_category = {
 								fixed_ship_anti_air_slot = ship_anti_air_1
 								fixed_ship_radar_slot = empty
 								fixed_ship_engine_slot = carrier_ship_engine_1
-								fixed_ship_secondaries_slot = mdg_ship_light_cannon_1
+								fixed_ship_secondaries_slot = empty
 							}
-							obsolete = no
+							obsolete = yes
 						}
 					}
 				}
@@ -933,7 +825,7 @@ mdg_generic_refit_civilian_ships_category = {
 							ship_engine_upgrade = 0
 							ship_reliability_upgrade = 0
 						}
-						obsolete = no
+						obsolete = yes
 					}
 				}
 				create_ship = {

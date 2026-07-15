@@ -7,7 +7,7 @@
 			location = 7906
 
 			# 1939
-			ship = { name = "NMS Amiral Murgescu" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ROM version_name = "Amiral Murgescu Class" } } }
+			ship = { name = "NMS Amiral Murgescu" definition = destroyer equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = ROM version_name = "Amiral Murgescu Class" } } }
 		}
 	}
 }

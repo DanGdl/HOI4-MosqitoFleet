@@ -1,0 +1,33 @@
+# Raiding
+mdg_raiding_fleet_auxilary_cruisers = {
+	required_taskforces = {
+		ConvoySurfaceRaiding_1_AuxCr = 1
+	}	
+	optional_taskforces = {
+		ConvoySurfaceRaiding_1_AuxCr = 2
+	}
+}
+mdg_raiding_fleet_FAC = {
+	required_taskforces = {
+		ConvoySurfaceRaiding_1_FAC = 2
+	}	
+	optional_taskforces = {
+		ConvoySurfaceRaiding_1_FAC = 2
+	}
+}
+mdg_raiding_fleet_Hydrofoils = {
+	required_taskforces = {
+		ConvoySurfaceRaiding_1_Hydrofoils = 2
+	}	
+	optional_taskforces = {
+		ConvoySurfaceRaiding_1_Hydrofoils = 2
+	}
+}
+mdg_raiding_fleet_midgets = {
+	required_taskforces = {
+		ConvoyRaiding_1_Midgets = 2
+	}	
+	optional_taskforces = {
+		ConvoyRaiding_1_Midgets = 2
+	}
+}

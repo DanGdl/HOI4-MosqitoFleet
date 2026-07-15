@@ -1,0 +1,493 @@
+add_namespace = mdg_mosquitos
+
+# load starting naval designs and fleet and techs
+country_event = {
+	id = mdg_mosquitos.0
+
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		ALB = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ALB_1936_naval_mtg
+				else = {
+					load_oob = mdg_ALB_1936_naval_legacy
+				}
+			}
+		}
+		ARG = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ARG_1936_naval_mtg
+				else = {
+					load_oob = mdg_ARG_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_ARG_1939_naval_mtg
+			}
+		}
+		BEL = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_BEL_1936_naval_mtg
+				else = {
+					load_oob = mdg_BEL_1936_naval_legacy
+				}
+			}
+		}
+		BRA = {
+			if = {
+			limit = { has_dlc = "Man the Guns" }
+			load_oob = "mdg_BRA_1936_naval_mtg"
+			else = {
+				load_oob = "mdg_BRA_1936_naval_legacy"
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_BRA_1939_naval_mtg
+			}
+		}
+		CHI = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_CHI_1936_naval_mtg
+				else = {
+					load_oob = mdg_CHI_1936_naval_legacy
+				}
+			}
+		}
+		CHL = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_CHL_1936_naval_mtg
+				else = {
+					load_oob = mdg_CHL_1936_naval_legacy
+				}
+			}
+		}
+		COL = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_COL_1936_naval_mtg
+				else = {
+					load_oob = mdg_COL_1936_naval_legacy
+				}
+			}
+		}
+		CUB = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_CUB_1936_naval_mtg
+				else = {
+					load_oob = mdg_CUB_1936_naval_legacy
+				}
+			}
+		}
+		DEN = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_DEN_1936_naval_mtg
+				else = {
+					load_oob = mdg_DEN_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_DEN_1939_naval_mtg
+			}
+		}
+		DOM = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_DOM_1936_naval_mtg
+				else = {
+					load_oob = mdg_DOM_1936_naval_legacy
+				}
+			}
+		}
+		ECU = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ECU_1936_naval_mtg
+				else = {
+					load_oob = mdg_ECU_1936_naval_legacy
+				}
+			}
+		}
+		EGY = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_EGY_1936_naval_mtg
+				else = {
+					load_oob = mdg_EGY_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_EGY_1939_naval_mtg
+			}
+		}
+		ENG = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ENG_1936_naval_mtg
+				else = {
+					load_oob = mdg_ENG_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_ENG_1939_naval_mtg
+			}
+		}
+		EST = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_EST_1936_naval_mtg
+				else = {
+					load_oob = mdg_EST_1936_naval_legacy
+				}
+			}
+		}
+		FIN = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_FIN_1936_naval_mtg
+				else = {
+					load_oob = mdg_FIN_1936_naval_legacy
+				}
+			}
+		}
+		FRA = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_FRA_1936_naval_mtg
+				else = {
+					load_oob = mdg_FRA_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_FRA_1939_naval_mtg
+			}
+		}
+		GER = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_GER_1936_naval_mtg
+				else = {
+					load_oob = mdg_GER_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_GER_1939_naval_mtg
+			}
+		}
+		GRE = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_GRE_1936_naval_mtg
+				else = {
+					load_oob = mdg_GRE_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_GRE_1939_naval_mtg
+			}
+		}
+		HOL = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_HOL_1936_naval_mtg
+				else = {
+					load_oob = mdg_HOL_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_HOL_1939_naval_mtg
+			}
+		}
+		ICE = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ICE_1936_naval_mtg
+				else = {
+					load_oob = mdg_ICE_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_ICE_1939_naval_mtg
+			}
+		}
+		IRE = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_IRE_1936_naval_mtg
+				else = {
+					load_oob = mdg_IRE_1936_naval_legacy
+				}
+			}
+		}
+		ITA = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ITA_1936_naval_mtg
+				else = {
+					load_oob = mdg_ITA_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_ITA_1939_naval_mtg
+			}
+		}
+		JAP = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_JAP_1936_naval_mtg
+				else = {
+					load_oob = mdg_JAP_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_JAP_1939_naval_mtg
+			}
+		}
+		LAT = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_LAT_1936_naval_mtg
+				else = {
+					load_oob = mdg_LAT_1936_naval_legacy
+				}
+			}
+		}
+		LIT = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_LIT_1936_naval_mtg
+				else = {
+					load_oob = mdg_LIT_1936_naval_legacy
+				}
+			}
+		}
+		MAN = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_MAN_1936_naval_mtg
+				else = {
+					load_oob = mdg_MAN_1936_naval_legacy
+				}
+			}
+		}
+		MEX = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_MEX_1936_naval_mtg
+				else = {
+					load_oob = mdg_MEX_1936_naval_legacy
+				}
+			}
+		}
+		NOR = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_NOR_1936_naval_mtg
+				else = {
+					load_oob = mdg_NOR_1936_naval_legacy
+				}
+			}
+		}
+		PER = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_PER_1936_naval_mtg
+				else = {
+					load_oob = mdg_PER_1936_naval_legacy
+				}
+			}
+		}
+		POL = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_POL_1936_naval_mtg
+				else = {
+					load_oob = mdg_POL_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_POL_1939_naval_mtg
+			}
+		}
+		POR = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_POR_1936_naval_mtg
+				else = {
+					load_oob = mdg_POR_1936_naval_legacy
+				}
+			}
+		}
+		RAJ = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_RAJ_1936_naval_mtg
+				else = {
+					load_oob = mdg_RAJ_1936_naval_legacy
+				}
+			}
+		}
+		ROM = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_ROM_1936_naval_mtg
+				else = {
+					load_oob = mdg_ROM_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_ROM_1939_naval_mtg
+			}
+		}
+		SIA = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_SIA_1936_naval_mtg
+				else = {
+					load_oob = mdg_SIA_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_SIA_1939_naval_mtg
+			}
+		}
+		SOV = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_SOV_1936_naval_mtg
+				else = {
+					load_oob = mdg_SOV_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_SOV_1939_naval_mtg
+			}
+		}
+		SPR = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_SPR_1936_naval_mtg
+				else = {
+					load_oob = mdg_SPR_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_SPR_1939_naval_mtg
+			}
+		}
+		SWE = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_SWE_1936_naval_mtg
+				else = {
+					load_oob = mdg_SWE_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_SWE_1939_naval_mtg
+			}
+		}
+		TUR = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_TUR_1936_naval_mtg
+				else = {
+					load_oob = mdg_TUR_1936_naval_legacy
+				}
+			}
+		}
+		URG = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_URG_1936_naval_mtg
+				else = {
+					load_oob = mdg_URG_1936_naval_legacy
+				}
+			}
+		}
+		USA = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_USA_1936_naval_mtg
+				else = {
+					load_oob = mdg_USA_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_USA_1939_naval_mtg
+			}
+		}
+		VEN = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_VEN_1936_naval_mtg
+				else = {
+					load_oob = mdg_VEN_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_USA_1939_naval_mtg
+			}
+		}
+		YUG = {
+			if = {
+				limit = { has_dlc = "Man the Guns" }
+				load_oob = mdg_YUG_1936_naval_mtg
+				else = {
+					load_oob = mdg_YUG_1936_naval_legacy
+				}
+			}
+
+			if = {
+				limit = { date > 1939.01.01 }
+				load_oob = mdg_YUG_1939_naval_mtg
+			}
+		}
+	}
+}

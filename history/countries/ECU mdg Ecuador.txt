@@ -34,7 +34,7 @@
 	}
 	create_equipment_variant = {
 		name = "Hualtaco"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:generic_small_ship_organization
 		modules = {
@@ -52,13 +52,5 @@
 		# enable and disable tech to create a task force if country didn't research technology yet. (Another way - create a hidden technology)
 		set_technology = { early_destroyer = 1 }
 		set_technology = { early_destroyer = 0 }
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_ECU_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_ECU_1936_naval_legacy"
 	}
 }

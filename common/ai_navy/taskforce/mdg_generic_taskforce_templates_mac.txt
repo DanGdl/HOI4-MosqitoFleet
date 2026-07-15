@@ -1,0 +1,74 @@
+PatrolReconForce_1_MAC = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_mac = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 2
+		}
+		destroyer = {
+			amount = 6
+		}
+	}
+}
+
+PatrolReconForce_1_MAC_Fr = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_mac = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 2
+		}
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+}
+
+PatrolReconForce_1_MAC_Cor = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		mdg_mac = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 2
+		}
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+}

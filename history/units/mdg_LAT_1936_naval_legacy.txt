@@ -6,9 +6,9 @@
 			name = "Latvijas Kara Flote"
 			location = 1885 # near Riga
 
-			ship = { name = "Imanta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
-			ship = { name = "Viesturs" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
-			ship = { name = "Virsaitis" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
+			ship = { name = "Imanta" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
+			ship = { name = "Viesturs" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
+			ship = { name = "Virsaitis" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = LAT } } }
 		}
 	}
 }

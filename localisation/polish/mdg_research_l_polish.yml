@@ -420,7 +420,7 @@
 
  mio_cat_tech_all_mdg_frigate_and_modules: "Wszystkie technologie fregat"
  mio_cat_tech_all_mdg_corvette_and_modules: "Wszystkie technologie korwet"
- mio_cat_tech_all_mdg_boat_and_modules: "Wszystkie technologie łodzi"
+ mio_cat_tech_all_mdg_fac_and_modules: "Wszystkie technologie łodzi"
  mio_cat_tech_all_mdg_ssm_and_modules: "Wszystkie technologie miniaturowych okrętów podwodnych"
 
  mdg_ff_tech: "Modele fregat"

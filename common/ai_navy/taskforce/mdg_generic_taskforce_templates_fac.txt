@@ -1,0 +1,110 @@
+
+PatrolReconForce_1_FAC = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_fac = {
+			amount = 2
+		}
+	}
+	optimal_composition = {
+		mdg_fac = {
+			amount = 8
+		}
+	}
+}
+
+PatrolDominanceForce_CA_1_FAC = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_fac = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 2
+		}
+		mdg_fac = {
+			amount = 12
+		}
+	}
+}
+
+ConvoySurfaceRaiding_1_FAC = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	keep_updated = yes
+	mission = { convoy_raiding }
+	min_composition = {
+		mdg_fac = {
+			amount = 3
+		}
+	}
+
+	optimal_composition = {
+		mdg_fac = {
+			amount = 6
+		}
+	}
+}
+
+ConvoyEscort_1_FAC = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_fac = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		mdg_fac = {
+			amount = 8
+		}
+	}
+}
+
+MineLaying_1_FAC = {
+	allowed = {
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_fac = {
+			amount = 1
+			role = 4
+		}
+	}
+
+	optimal_composition = {
+		mdg_fac = {
+			amount = 4
+			role = 4
+		}
+
+		mdg_frigate = {
+			amount = 2
+			role = 4
+		}
+	}
+}

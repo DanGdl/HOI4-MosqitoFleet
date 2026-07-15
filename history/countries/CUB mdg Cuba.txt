@@ -54,7 +54,7 @@
 
 	create_equipment_variant = {
 		name = "SC Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:generic_small_ship_organization
 		modules = {
@@ -71,13 +71,5 @@
 	else = {
 		set_technology = { early_destroyer = 1 }
 		set_technology = { early_destroyer = 0 }
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_CUB_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_CUB_1936_naval_legacy"
 	}
 }

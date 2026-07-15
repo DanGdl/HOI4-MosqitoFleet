@@ -7,17 +7,17 @@
 			location = 5838
 
 			# 1939
-			ship = { name = "KB Orjen" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Velebit" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Dinara" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Triglav" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Suvobor" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Rudnik" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Kajmakcalan" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
-			ship = { name = "KB Durmitor" definition = mdg_boat equipment = { mdg_ship_hull_boat_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Orjen" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Velebit" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Dinara" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Triglav" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Suvobor" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Rudnik" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Kajmakcalan" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
+			ship = { name = "KB Durmitor" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = YUG version_name = "S-2 Class" } } }
 
-			ship = { name = "KB Uskok" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = YUG version_name = "Thornycroft Class" } } }
-			ship = { name = "KB Cetnik" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = YUG version_name = "Thornycroft Class" } } }
+			ship = { name = "KB Uskok" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = YUG version_name = "Thornycroft Class" } } }
+			ship = { name = "KB Cetnik" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = YUG version_name = "Thornycroft Class" } } }
 		}
 	}
 }

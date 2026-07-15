@@ -250,9 +250,9 @@ ideas = {
 		ship_to_shore_navy_spirit = {
 			ledger = navy
 			visible = { has_dlc = "No Compromise, No Surrender" }
-			available = { 
+			available = {
 				OR = {
-					has_doctrine = new_base_strike 
+					has_doctrine = new_base_strike
 					has_doctrine = naval_gunfire_support
 					has_doctrine = small_fleet
 				}
@@ -279,9 +279,9 @@ ideas = {
 		stay_at_your_posts_navy_spirit = {
 			ledger = navy
 			visible = { has_dlc = "No Compromise, No Surrender" }
-			available = { 
+			available = {
 				OR = {
-					has_doctrine = new_convoy_raiding 
+					has_doctrine = new_convoy_raiding
 					has_doctrine = screen_support_focus
 					has_doctrine = small_fleet
 				}
@@ -324,7 +324,7 @@ ideas = {
 				ship_hull_light_design_cost_factor = -0.6
 				mdg_ship_hull_frigate_design_cost_factor = -0.6
 				mdg_ship_hull_corvette_design_cost_factor = -0.6
-				mdg_ship_hull_boat_design_cost_factor = -0.6
+				mdg_ship_hull_fac_design_cost_factor = -0.6
 				mdg_ship_hull_hydrofoil_design_cost_factor = -0.6
 			}
 			ai_will_do = {
@@ -401,7 +401,6 @@ ideas = {
 					has_doctrine = small_fleet
 				}
 			}
-			visible = { has_dlc = "Man the Guns" }
 			research_bonus = {
 				ship_modules_tech = 0.20
 				naval_equipment = 0.20
@@ -585,14 +584,14 @@ ideas = {
 		sea_lane_denial_navy_spirit = {
 			ledger = navy
 			visible = { has_dlc = "No Compromise, No Surrender" }
-			available = { 
+			available = {
 				OR = {
-					has_doctrine = new_convoy_raiding 
+					has_doctrine = new_convoy_raiding
 					has_doctrine = coastal_minelaying
 					has_doctrine = small_fleet
 				}
 			}
-			
+
 			research_bonus = {
 				naval_minelaying = 0.30
 			}
@@ -777,7 +776,7 @@ ideas = {
 					has_doctrine = small_fleet
 				}
 			}
-			visible = { 
+			visible = {
 				has_doctrine = new_convoy_raiding
 				has_doctrine = small_fleet
 			}
@@ -912,7 +911,7 @@ ideas = {
 		naval_tripwire_navy_spirit = {
 			ledger = navy
 			visible = { has_dlc = "No Compromise, No Surrender" }
-			available = { 
+			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
 					has_doctrine = coastal_defence_fleet
@@ -1022,9 +1021,9 @@ ideas = {
 					has_doctrine = battleship_antiair_screen
 				}
 			}
-				
+
 			modifier = {
-				navy_anti_air_attack_factor = 0.15	
+				navy_anti_air_attack_factor = 0.15
 			}
 
 			ai_will_do = {
@@ -1035,7 +1034,7 @@ ideas = {
 				}
 				modifier = {
 					factor = 2
-					OR = { 
+					OR = {
 						has_doctrine = anti_aircraft_cruisers
 						has_doctrine = battleship_antiair_screen
 					}
@@ -1045,7 +1044,7 @@ ideas = {
 		selective_engagement_navy_spirit = {
 			ledger = navy
 			visible = { has_dlc = "No Compromise, No Surrender" }
-			available = { 
+			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
 					has_doctrine = patrol_boats

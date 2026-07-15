@@ -1,0 +1,1425 @@
+#MTG SHIPS to add for designer if needed:
+
+## BASE GAME ##
+#GENERICS:
+# battle_cruiser_entity
+# battleship_entity
+# carrier_entity
+# destroyer_entity
+# heavy_cruiser_entity
+# light_cruiser_entity
+# super_heavy_battleship_entity
+# submarine_entity
+
+## Battleship Pack ##
+
+# GER_battleship_entity
+# ENG_battleship_entity
+# ITA_battleship_entity
+# USA_battleship_entity
+# FRA_battleship_entity
+# SOV_battleship_entity
+# JAP_battleship_entity
+
+## Heavy Cruisers Pack ##
+
+# FRA_heavy_cruiser_entity
+# USA_heavy_cruiser_entity
+# ENG_heavy_cruiser_entity
+# SOV_heavy_cruiser_entity
+# JAP_heavy_cruiser_entity
+# GER_heavy_cruiser_entity
+# ITA_heavy_cruiser_entity
+
+## MAN THE GUNS ##
+
+#GENERICS:
+# carrier_0_entity
+# ENG_battleship_0_entity
+# ENG_destroyer_entity
+# ENG_heavy_cruiser_0_entity
+# ENG_light_cruiser_entity
+# USA_battleship_0_entity
+# USA_destroyer_0_entity
+# USA_light_cruiser_entity
+# USA_heavy_cruiser_0_entity
+
+#USA:
+#USA_battleship_0_entity #New Mexico
+#USA_destroyer_0_entity #Fletcher
+#USA_light_cruiser_entity #Brooklyn
+#USA_heavy_cruiser_0_entity #Pensacola
+
+
+
+#default carrier needs all levels to specifiy that early generic carrier comes at the bottom of the later teirs.
+default = {
+
+	# Corvettes (Generic is same as ENG)
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_mdg_corvette_1_medium
+				GFX_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_mdg_corvette_1_medium
+				GFX_mdg_corvette_2_medium
+				GFX_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_mdg_corvette_1_medium
+				GFX_mdg_corvette_2_medium
+				GFX_mdg_corvette_3_medium
+				GFX_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates (Generic is same as ENG)
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_mdg_frigate_1_medium
+				GFX_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_mdg_frigate_1_medium
+				GFX_mdg_frigate_2_medium
+				GFX_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_mdg_frigate_1_medium
+				GFX_mdg_frigate_2_medium
+				GFX_mdg_frigate_3_medium
+				GFX_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Midget Submarines (Generic is same as ENG)
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+
+			icons = {
+				GFX_ship_hull_midget_submarine_medium
+			}
+			models = {
+				mdg_midget_submarine_entity
+			}
+		}
+	}
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			sub_units = { mdg_midget_submarine }
+
+			icons = {
+				GFX_ship_hull_midget_submarine_medium
+				GFX_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				mdg_midget_submarine_entity
+			}
+		}
+	}
+
+	# Auxiliary Cruiser
+	mdg_ship_hull_auxiliary = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_auxiliary } # TODO: check battle cruiser
+
+			icons = {
+				GFX_mdg_ship_hull_auxiliary_medium
+			}
+			models = {
+				mdg_auxiliary_entity
+			}
+		}
+	}
+	mdg_ship_hull_auxiliary_1 = {
+		pool = {
+			weight = 5500
+
+			icons = {
+				GFX_mdg_ship_hull_auxiliary_1_medium
+			}
+			models = {
+				mdg_auxiliary_entity
+			}
+		}
+	}
+
+	# Merchant Carrier
+	mdg_ship_hull_mac = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_mdg_ship_hull_mac_medium
+			}
+			models = {
+				mdg_mac_entity
+			}
+		}
+	}
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_mdg_ship_hull_mac_1_medium
+			}
+			models = {
+				mdg_mac_entity
+			}
+		}
+	}
+}
+
+BRA = {
+
+	# Auxiliary Cruiser
+	mdg_ship_hull_auxiliary = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_auxiliary }
+
+			icons = {
+				GFX_BRA_mdg_ship_hull_auxiliary_medium
+			}
+			models = {
+				mdg_auxiliary_entity
+			}
+		}
+	}
+	mdg_ship_hull_auxiliary_1 = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_auxiliary }
+
+			icons = {
+				GFX_BRA_mdg_ship_hull_auxiliary_1_medium
+			}
+			models = {
+				mdg_auxiliary_entity
+			}
+		}
+	}
+}
+
+HOL = {
+
+	# Merchant Carrier
+	mdg_ship_hull_mac = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_HOL_mdg_ship_hull_mac_medium
+			}
+			models = {
+				mdg_mac_entity
+			}
+		}
+	}
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_HOL_mdg_ship_hull_mac_1_medium
+			}
+			models = {
+				mdg_mac_entity
+			}
+		}
+	}
+}
+
+FRA = {
+
+	# Corvettes
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_FRA_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_FRA_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+			
+			icons = {
+				GFX_FRA_mdg_corvette_1_medium
+				GFX_FRA_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_FRA_mdg_corvette_1_medium
+				GFX_FRA_mdg_corvette_2_medium
+				GFX_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_FRA_mdg_corvette_1_medium
+				GFX_FRA_mdg_corvette_2_medium
+				GFX_mdg_corvette_3_medium
+				GFX_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_FRA_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_FRA_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_FRA_mdg_frigate_1_medium
+				GFX_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_FRA_mdg_frigate_1_medium
+				GFX_mdg_frigate_2_medium
+				GFX_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_FRA_mdg_frigate_1_medium
+				GFX_mdg_frigate_2_medium
+				GFX_mdg_frigate_3_medium
+				GFX_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+}
+
+GER = {
+
+	# Corvettes
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_GER_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_GER_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_GER_mdg_corvette_1_medium
+				GFX_GER_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_GER_mdg_corvette_1_medium
+				GFX_GER_mdg_corvette_2_medium
+				GFX_GER_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_GER_mdg_corvette_1_medium
+				GFX_GER_mdg_corvette_2_medium
+				GFX_GER_mdg_corvette_3_medium
+				GFX_GER_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_GER_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_GER_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_GER_mdg_frigate_1_medium
+				GFX_GER_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_GER_mdg_frigate_1_medium
+				GFX_GER_mdg_frigate_2_medium
+				GFX_GER_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_GER_mdg_frigate_1_medium
+				GFX_GER_mdg_frigate_2_medium
+				GFX_GER_mdg_frigate_3_medium
+				GFX_GER_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+
+			icons = {
+				GFX_GER_ship_hull_midget_submarine_medium
+			}
+			models = {
+				#GER_mdg_midget_mesh
+			}
+		}
+	}
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			sub_units = { mdg_midget_submarine }
+
+			icons = {
+				GFX_GER_ship_hull_midget_submarine_medium
+				GFX_GER_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				#GER_mdg_midget_mesh
+			}
+		}
+	}
+}
+
+ITA = {
+
+	# Corvettes
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_ITA_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_ITA_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_ITA_mdg_corvette_1_medium
+				GFX_ITA_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_ITA_mdg_corvette_1_medium
+				GFX_ITA_mdg_corvette_2_medium
+				GFX_ITA_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_ITA_mdg_corvette_1_medium
+				GFX_ITA_mdg_corvette_2_medium
+				GFX_ITA_mdg_corvette_3_medium
+				GFX_ITA_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_ITA_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_ITA_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_ITA_mdg_frigate_1_medium
+				GFX_ITA_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_ITA_mdg_frigate_1_medium
+				GFX_ITA_mdg_frigate_2_medium
+				GFX_ITA_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_ITA_mdg_frigate_1_medium
+				GFX_ITA_mdg_frigate_2_medium
+				GFX_ITA_mdg_frigate_3_medium
+				GFX_ITA_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+
+			icons = {
+				GFX_ITA_ship_hull_midget_submarine_medium
+			}
+			models = {
+				#ITA_mdg_midget_mesh
+			}
+		}
+	}
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			sub_units = { mdg_midget_submarine }
+
+			icons = {
+				GFX_ITA_ship_hull_midget_submarine_medium
+				GFX_ITA_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				#ITA_mdg_midget_mesh
+			}
+		}
+	}
+}
+
+JAP = {
+
+	# Corvettes
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_JAP_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_JAP_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_JAP_mdg_corvette_1_medium
+				GFX_JAP_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_JAP_mdg_corvette_1_medium
+				GFX_JAP_mdg_corvette_2_medium
+				GFX_JAP_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_JAP_mdg_corvette_1_medium
+				GFX_JAP_mdg_corvette_2_medium
+				GFX_JAP_mdg_corvette_3_medium
+				GFX_JAP_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_JAP_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_JAP_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_JAP_mdg_frigate_1_medium
+				GFX_JAP_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_JAP_mdg_frigate_1_medium
+				GFX_JAP_mdg_frigate_2_medium
+				GFX_JAP_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_JAP_mdg_frigate_1_medium
+				GFX_JAP_mdg_frigate_2_medium
+				GFX_JAP_mdg_frigate_3_medium
+				GFX_JAP_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+
+			icons = {
+				GFX_JAP_ship_hull_midget_submarine_medium
+			}
+			models = {
+				JAP_mdg_midget_submarine_entity
+			}
+		}
+	}
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			sub_units = { mdg_midget_submarine }
+
+			icons = {
+				GFX_JAP_ship_hull_midget_submarine_medium
+				GFX_JAP_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				JAP_mdg_midget_submarine_entity
+			}
+		}
+	}
+
+	# Merchant Carrier
+	mdg_ship_hull_mac = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_mdg_ship_hull_mac_medium
+			}
+			models = {
+				JAP_mdg_mac_entity
+			}
+		}
+	}
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_mdg_ship_hull_mac_1_medium
+			}
+			models = {
+				JAP_mdg_mac_entity
+			}
+		}
+	}
+}
+
+SOV = {
+
+	# Corvettes
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_SOV_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_SOV_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_SOV_mdg_corvette_1_medium
+				GFX_SOV_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_SOV_mdg_corvette_1_medium
+				GFX_SOV_mdg_corvette_2_medium
+				GFX_SOV_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_SOV_mdg_corvette_1_medium
+				GFX_SOV_mdg_corvette_2_medium
+				GFX_SOV_mdg_corvette_3_medium
+				GFX_SOV_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_SOV_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_SOV_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_SOV_mdg_frigate_1_medium
+				GFX_SOV_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_SOV_mdg_frigate_1_medium
+				GFX_SOV_mdg_frigate_2_medium
+				GFX_SOV_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_SOV_mdg_frigate_1_medium
+				GFX_SOV_mdg_frigate_2_medium
+				GFX_SOV_mdg_frigate_3_medium
+				GFX_SOV_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Midget Submarines
+	ship_hull_midget_submarine = {
+		pool = {
+			weight = 5500
+
+			icons = {
+				GFX_SOV_ship_hull_midget_submarine_medium
+			}
+			models = {
+				#SOV_mdg_midget_mesh
+			}
+		}
+	}
+
+	mdg_ship_hull_midget_submarine_1 = {
+		pool = {
+			weight = 5500
+			sub_units = { mdg_midget_submarine }
+
+			icons = {
+				GFX_SOV_ship_hull_midget_submarine_medium
+				GFX_SOV_mdg_ship_hull_midget_submarine_1_medium
+			}
+			models = {
+				#SOV_mdg_midget_mesh
+			}
+		}
+	}
+}
+
+USA = {
+
+	# Corvettes
+	mdg_ship_hull_corvette = {
+		pool = {
+			icons_weight = 5001.1
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_USA_mdg_corvette_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_corvette_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_USA_mdg_corvette_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_USA_mdg_corvette_1_medium
+				GFX_USA_mdg_corvette_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+
+			icons = {
+				GFX_USA_mdg_corvette_1_medium
+				GFX_USA_mdg_corvette_2_medium
+				GFX_USA_mdg_corvette_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_corvette_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_corvette }
+		
+			icons = {
+				GFX_USA_mdg_corvette_1_medium
+				GFX_USA_mdg_corvette_2_medium
+				GFX_USA_mdg_corvette_3_medium
+				GFX_USA_mdg_corvette_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Frigates
+	mdg_ship_hull_frigate = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+
+			icons = {
+				GFX_USA_mdg_frigate_1_medium
+			}
+			models = {
+				destroyer_entity
+			}
+		}
+	}
+	mdg_ship_hull_frigate_1 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_USA_mdg_frigate_1_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_2 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_USA_mdg_frigate_1_medium
+				GFX_USA_mdg_frigate_2_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_3 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_USA_mdg_frigate_1_medium
+				GFX_USA_mdg_frigate_2_medium
+				GFX_USA_mdg_frigate_3_medium
+			}
+			models = {
+			}
+		}
+	}
+	mdg_ship_hull_frigate_4 = {
+		pool = {
+			icons_weight = 5001.2
+			models_weight = 0.1
+			sub_units = { mdg_frigate }
+		
+			icons = {
+				GFX_USA_mdg_frigate_1_medium
+				GFX_USA_mdg_frigate_2_medium
+				GFX_USA_mdg_frigate_3_medium
+				GFX_USA_mdg_frigate_4_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	# Merchant Carrier
+	mdg_ship_hull_mac = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+
+			icons = {
+				GFX_USA_mdg_ship_hull_mac_medium
+			}
+			models = {
+				USA_mdg_mac_entity
+			}
+		}
+	}
+	mdg_ship_hull_mac_1 = {
+		pool = {
+			weight = 5500
+			#sub_units = { mdg_mac }
+			
+			icons = {
+				GFX_USA_mdg_ship_hull_mac_1_medium
+			}
+			models = {
+				USA_mdg_mac_entity
+			}
+		}
+	}
+}

@@ -26,19 +26,19 @@
 			ship = { name = "HDMS T-5 Hogen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
 			ship = { name = "HDMS T-5 Omen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Dragen/Glenten Class" } } }
 
-			ship = { name = "HDMS Beskytteren" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
-			ship = { name = "HDMS Hejmdal" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
-			ship = { name = "HDMS Hvidbjornen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
-			ship = { name = "HDMS Ingolf" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
-			ship = { name = "HDMS Islands Falk" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Beskytteren" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Hejmdal" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Hvidbjornen" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Ingolf" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
+			ship = { name = "HDMS Islands Falk" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Patrol ship" } } }
 
-			ship = { name = "HDMS Henrik Gerner" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
-			ship = { name = "HDMS Laaland" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
-			ship = { name = "HDMS Lougen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
-			ship = { name = "HDMS Lindormen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
-			ship = { name = "HDMS Lossen" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
-			ship = { name = "HDMS Kvintus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
-			ship = { name = "HDMS Sixtus" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Henrik Gerner" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Laaland" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Lougen" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Lindormen" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Lossen" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Kvintus" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
+			ship = { name = "HDMS Sixtus" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = DEN version_name = "Henrik Gerner Class" } } }
 		}
 	}
 }

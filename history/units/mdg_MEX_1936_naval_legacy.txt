@@ -6,31 +6,31 @@
 			name = "Armada Nacional"
 			location = 5915
 
-			#ship = { name = "ARM Durango" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
+			#ship = { name = "ARM Durango" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
 
-			ship = { name = "ARM Nicolas Bravo" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Nicolas Bravo" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
 
-			ship = { name = "ARM Potosi" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
-			#ship = { name = "ARM Guanajuato" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM Queretaro" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Potosi" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
+			#ship = { name = "ARM Guanajuato" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Queretaro" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = MEX } } }
 
-			ship = { name = "ARM G-20" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-21" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-22" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-23" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-24" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-26" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-27" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-28" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM G-29" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-20" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-21" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-22" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-23" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-24" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-26" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-27" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-28" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM G-29" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
 
-			ship = { name = "ARM Acapulco" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM Mazatlan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM Tampico" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM Veracruz" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Acapulco" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Mazatlan" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Tampico" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Veracruz" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = MEX } } }
 
-			ship = { name = "ARM Mayo" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = MEX } } }
-			ship = { name = "ARM Yagul" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Mayo" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "ARM Yagul" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = MEX } } }
 		}
 	}
 }

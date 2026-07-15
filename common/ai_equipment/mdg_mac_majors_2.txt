@@ -1,0 +1,84 @@
+# AI Ship Designs for naval majors
+
+USA_naval_escort_carrier = {
+
+	category = naval
+
+	blocked_for = {
+	}
+
+	available_for = {
+		ENG
+		JAP
+		USA
+	}
+
+	roles = {
+		naval_mac
+	}
+
+	priority = {
+		factor = 1
+		modifier = {
+			factor = 10
+			is_major = yes
+		}
+	}
+
+	carrier_escort_mac = {
+		priority = {
+			factor = 10
+		}
+		role_icon_index = 3
+
+		target_variant = {
+			match_value = 1000.0
+
+			type = mdg_ship_hull_mac
+			modules = {
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_deck_slot_1 = ship_escort_deck_space
+				fixed_ship_radar_slot = empty
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_secondaries_slot = empty
+			}
+		}
+
+		allowed_modules = {
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_anti_air
+			carrier_ship_engine
+			ship_radar
+			ship_escort_deck_space
+		}
+	}
+
+	improved_carrier_escort_mac = {
+		priority = {
+			factor = 15
+		}
+		role_icon_index = 3
+
+		target_variant = {
+			match_value = 1500.0
+
+			type = mdg_ship_hull_mac
+			modules = {
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_deck_slot_1 = ship_escort_deck_space
+				fixed_ship_radar_slot = ship_radar
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_secondaries_slot = empty
+			}
+		}
+		allowed_modules = {
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_anti_air
+			carrier_ship_engine
+			ship_radar
+			ship_escort_deck_space
+		}
+	}
+}

@@ -6,10 +6,10 @@
 			name = "1st Task Force"
 			location = 5864
 
-			ship = { name = "Tirana" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
-			ship = { name = "Saranda" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
-			ship = { name = "Durres" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
-			ship = { name = "Shengjin" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
+			ship = { name = "Tirana" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
+			ship = { name = "Saranda" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
+			ship = { name = "Durres" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
+			ship = { name = "Shengjin" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ALB version_name = "Tirana Class" } } }
 		}
 	}
 }

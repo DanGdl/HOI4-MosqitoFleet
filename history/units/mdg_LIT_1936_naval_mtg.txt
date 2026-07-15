@@ -6,12 +6,12 @@
 			name = "1st Task Force"
 			location = 2256
 
-			ship = { name = "Prezidentas Smetona" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = LIT version_name = "Prezidentas Smetona Class" } } }
+			ship = { name = "Prezidentas Smetona" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = LIT version_name = "Prezidentas Smetona Class" } } }
 
-			ship = { name = "Zaibas" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
-			ship = { name = "Aitvaras" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
-			ship = { name = "Saulis" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
-			ship = { name = "Partizanas" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Zaibas" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Aitvaras" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Saulis" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
+			ship = { name = "Partizanas" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = LIT version_name = "Zaibas Class" } } }
 		}
 	}
 }

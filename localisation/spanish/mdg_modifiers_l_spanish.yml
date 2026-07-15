@@ -1,7 +1,7 @@
 ﻿l_spanish:
- modifier_experience_gain_mdg_boat_training_factor: "Experiencia de entrenamiento de botes ganada"
- modifier_experience_gain_mdg_boat_mission_factor: "Experiencia de misión de botes ganada"
- modifier_experience_gain_mdg_boat_combat_factor: "Experiencia de combate de botes ganada"
+ modifier_experience_gain_mdg_fac_training_factor: "Experiencia de entrenamiento de botes ganada"
+ modifier_experience_gain_mdg_fac_mission_factor: "Experiencia de misión de botes ganada"
+ modifier_experience_gain_mdg_fac_combat_factor: "Experiencia de combate de botes ganada"
 
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Experiencia de entrenamiento de embarcaciones con hidroalas ganada"
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "Experiencia de misión de embarcaciones con hidroalas ganada"
@@ -37,7 +37,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Costo de diseño de cañón ligero III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Costo de diseño de cañón ligero IV"
 
- mdg_ship_hull_boat_design_cost_factor: "Costo de diseño de bote"
+ mdg_ship_hull_fac_design_cost_factor: "Costo de diseño de bote"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Costo de diseño de embarcación con hidroalas"
  mdg_ship_hull_auxiliary_design_cost_factor: "Costo de diseño de crucero auxiliar"
  mdg_ship_hull_corvette_design_cost_factor: "Costo de diseño de corbeta"

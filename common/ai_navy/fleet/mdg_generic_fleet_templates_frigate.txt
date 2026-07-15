@@ -1,0 +1,59 @@
+# Escort
+mdg_generic_escort_fleet_3_Fr = {
+	required_taskforces = {
+		ConvoyEscort_1_Fr = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_Fr = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_Fr = {
+	required_taskforces = {
+		ConvoyEscort_1_Fr = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_Fr = 1
+		PatrolReconForce_1_MAC_Fr = 1
+	}
+}
+
+# Patrol
+mdg_generic_patrol_fleet_2_Fr = {
+	required_taskforces = {
+		PatrolReconForce_1_Fr = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_Fr = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_Fr = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_Fr = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_Fr = 1
+	}
+}
+
+# Minelaying
+mdg_generic_minelaying_fleet_4_Fr = {
+	optional_taskforces = {
+		MineLaying_1_Fr = 1
+	}
+}
+
+# Battle fleet
+mdg_generic_dominance_fleet_1_Fr = {
+	required_taskforces = {
+		StrikeForce_1_Fr = 1
+		PatrolReconForce_1_Fr = 2
+	}	
+	optional_taskforces = {
+		StrikeForce_1_Fr = 1
+		PatrolReconForce_1_Fr = 1
+		PatrolDominanceForce_CA_1_Fr = 1
+		PatrolDominanceForce_BC_1_Fr = 1
+	}
+}

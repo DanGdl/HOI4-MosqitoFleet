@@ -6,44 +6,44 @@
 			name = "Support Task Force"
 			location = 2684
 
-			ship = { name = "IJN Saga" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Ataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Saga" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Ataka" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			ship = { name = "IJN Toba" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Seta" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Hira" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Hozu" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Kataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Atami" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Futami" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Fushimi" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Sumida" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Toba" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Seta" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Hira" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Hozu" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Kataka" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Atami" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Futami" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Fushimi" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Sumida" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			ship = { name = "IJN W-1" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-2" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-3" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-4" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-5" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-6" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-13" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-14" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-15" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-16" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-17" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN W-18" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-1" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-2" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-3" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-4" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-5" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-6" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-13" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-14" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-15" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-16" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-17" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN W-18" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			ship = { name = "IJN Tokiwa" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
-			#ship = { name = "IJN Itsukushima" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Okinoshima" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Tokiwa" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
+			#ship = { name = "IJN Itsukushima" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Okinoshima" definition = destroyer equipment = { mdg_frigate_1 = { amount = 1 owner = JAP } } }
 
-			ship = { name = "IJN Katsuriki" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Katsuriki" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			#ship = { name = "IJN Shirataka" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
-			#ship = { name = "IJN Yaeyama" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			#ship = { name = "IJN Shirataka" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
+			#ship = { name = "IJN Yaeyama" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = JAP } } }
 
-			ship = { name = "IJN Ch-1" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Ch-2" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = JAP } } }
-			ship = { name = "IJN Ch-3" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Ch-1" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Ch-2" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN Ch-3" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = JAP } } }
 		}
 	}
 }

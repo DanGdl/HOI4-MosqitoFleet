@@ -1,0 +1,20 @@
+# Escort
+mdg_generic_escort_fleet_3_MAC_destroyer = {
+	required_taskforces = {
+		ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+		PatrolReconForce_1_MAC = 1
+	}
+}
+
+# Patrol
+mdg_generic_patrol_fleet_2_MAC_destroyer = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+}

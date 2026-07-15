@@ -71,7 +71,7 @@ mdg_generic_minelaying_fleet_Fr = {
 mdg_raiding_fleet_auxilary_cruisers = {
 	required_taskforces = {
 		ConvoySurfaceRaidingAuxCr_1 = 1
-	}	
+	}
 	optional_taskforces = {
 		ConvoySurfaceRaidingAuxCr_1 = 2
 	}
@@ -79,7 +79,7 @@ mdg_raiding_fleet_auxilary_cruisers = {
 mdg_raiding_fleet_Boats = {
 	required_taskforces = {
 		ConvoySurfaceRaiding_Boats_1 = 1
-	}	
+	}
 	optional_taskforces = {
 		ConvoySurfaceRaiding_Boats_1 = 2
 	}
@@ -87,7 +87,7 @@ mdg_raiding_fleet_Boats = {
 mdg_raiding_fleet_Hydrofoils = {
 	required_taskforces = {
 		ConvoySurfaceRaiding_Hydrofoils_1 = 1
-	}	
+	}
 	optional_taskforces = {
 		ConvoySurfaceRaiding_Hydrofoils_1 = 2
 	}
@@ -95,7 +95,7 @@ mdg_raiding_fleet_Hydrofoils = {
 mdg_raiding_fleet_midgets = {
 	required_taskforces = {
 		ConvoyRaiding_Midgets_1 = 1
-	}	
+	}
 	optional_taskforces = {
 		ConvoyRaiding_Midgets_1 = 2
 	}
@@ -106,7 +106,7 @@ mdg_generic_dominance_fleet_Far_1 = {
 	required_taskforces = {
 		mdg_StrikeForce_Fr_1 = 1
 		mdg_PatrolReconForce_Fr_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		mdg_StrikeForce_Fr_1 = 1
 		mdg_PatrolReconForce_Fr_1 = 1
@@ -118,7 +118,7 @@ mdg_generic_dominance_fleet_Close_1 = {
 	required_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
 		mdg_PatrolReconForce_Cor_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
 		mdg_PatrolReconForce_Cor_1 = 1
@@ -131,7 +131,7 @@ mdg_generic_dominance_fleet_Coast_1 = {
 	required_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
 		mdg_PatrolReconForce_Boats_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		mdg_StrikeForce_Cor_1 = 1
 		mdg_PatrolReconForce_Cor_1 = 1

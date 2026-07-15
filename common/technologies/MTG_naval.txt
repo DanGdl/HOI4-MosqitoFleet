@@ -6,16 +6,15 @@ technologies = {
 			mdg_ship_hull_mac_1
 			mdg_ship_hull_auxiliary_1
 
-			ship_hull_carrier_1
-
 			mdg_ship_hull_frigate_1
 			mdg_ship_hull_corvette_1
 			mdg_ship_hull_corvette_2
-			mdg_ship_hull_boat_1
+			mdg_ship_hull_fac_1
 
 			ship_hull_cruiser_coastal_defense_ship
+			ship_hull_carrier_1
 		}
-		
+
 		enable_equipment_modules = {
 			carrier_ship_engine_1
 			carrier_ship_engine_2
@@ -54,7 +53,6 @@ technologies = {
 #    #  #  # #  #  #        # #  #  #  #      #
 ### ###  ##  #  #  #      ##  #  # ### #    ##
 
-
 	early_ship_hull_light = {
 		show_equipment_icon = yes
 
@@ -63,7 +61,7 @@ technologies = {
 
 			mdg_ship_hull_frigate_1
 			mdg_ship_hull_corvette_1
-			mdg_ship_hull_boat_1
+			mdg_ship_hull_fac_1
 		}
 		enable_equipment_modules = {
 			light_ship_engine_1
@@ -87,10 +85,6 @@ technologies = {
 		path = {
 			leads_to_tech = sonar
 			research_cost_coeff = 1
-		}
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
 		}
 
 		research_cost = 1.5
@@ -137,7 +131,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -150,7 +144,7 @@ technologies = {
 
 			mdg_ship_hull_frigate_2
 			mdg_ship_hull_corvette_2
-			mdg_ship_hull_boat_2
+			mdg_ship_hull_fac_2
 		}
 		enable_equipment_modules = {
 			light_ship_engine_2
@@ -212,7 +206,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -225,7 +219,7 @@ technologies = {
 
 			mdg_ship_hull_frigate_3
 			mdg_ship_hull_corvette_3
-			mdg_ship_hull_boat_3
+			mdg_ship_hull_fac_3
 		}
 		enable_equipment_modules = {
 			light_ship_engine_3
@@ -282,7 +276,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -295,7 +289,7 @@ technologies = {
 
 			mdg_ship_hull_frigate_4
 			mdg_ship_hull_corvette_4
-			mdg_ship_hull_boat_4
+			mdg_ship_hull_fac_4
 		}
 		enable_equipment_modules = {
 			light_ship_engine_4
@@ -351,7 +345,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -364,7 +358,7 @@ technologies = {
 
 			mdg_ship_hull_frigate_5
 			mdg_ship_hull_corvette_5
-			mdg_ship_hull_boat_5
+			mdg_ship_hull_fac_5
 		}
 
 		research_cost = 2
@@ -414,7 +408,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -460,7 +454,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -542,7 +536,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -613,7 +607,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -679,7 +673,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -742,7 +736,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -811,7 +805,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -873,7 +867,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -888,7 +882,7 @@ technologies = {
 		path = {
 			leads_to_tech = modern_sonar
 			research_cost_coeff = 1
-		}		
+		}
 		research_cost = 1
 
 		start_year = 1939
@@ -924,11 +918,11 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
-	}	
-	
+	}
+
 	modern_sonar = {
 		enable_equipment_modules = {
 			ship_sonar_4
@@ -971,7 +965,7 @@ technologies = {
 			mdg_pt_tech
 			mio_cat_tech_all_mdg_frigate_and_modules
 			mio_cat_tech_all_mdg_corvette_and_modules
-			mio_cat_tech_all_mdg_boat_and_modules
+			mio_cat_tech_all_mdg_fac_and_modules
 		}
 		special_project_specialization = { specialization_naval }
 	}
@@ -1000,10 +994,6 @@ technologies = {
 		path = {
 			leads_to_tech = improved_airplane_launcher
 			research_cost_coeff = 1
-		}
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
 		}
 
 		on_research_complete = {
@@ -2003,7 +1993,7 @@ technologies = {
 				limit = { has_dlc = "No Compromise, No Surrender" }
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
-					PROJECT = sp_naval_escort_carrier	
+					PROJECT = sp_naval_escort_carrier
 				}
 			}
 		}
@@ -2249,7 +2239,6 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			ship_torpedo_sub_1
 			sub_ship_engine_1
 		}
 
@@ -2320,7 +2309,6 @@ technologies = {
 			ship_hull_submarine_2
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_2
 			sub_ship_engine_2
 		}
 		on_research_complete = {
@@ -2402,7 +2390,6 @@ technologies = {
 			ship_hull_submarine_3
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_3
 			sub_ship_engine_3
 		}
 
@@ -2472,7 +2459,6 @@ technologies = {
 			ship_hull_submarine_4
 		}
 		enable_equipment_modules = {
-			ship_torpedo_sub_4
 			sub_ship_engine_4
 		}
 		path = {
@@ -3005,7 +2991,7 @@ technologies = {
 		naval_general_support_value_factor = 0.05
 		allow = {
 			always = no
-		}		
+		}
 	}
 	sp_naval_support_ships_pick_c = {
 		#HIDDEN EFFECT FOR REWARD CHOICE

@@ -283,7 +283,7 @@ coastal_minelaying = {
 				mines_planting = 0.25
 				lg_attack = 0.1
 			}
-			mdg_boat = {
+			mdg_fac = {
 				mines_planting = 0.25
 				lg_attack = 0.1
 			}
@@ -292,31 +292,28 @@ coastal_minelaying = {
 			destroyer = {
 				anti_air_attack = 0.1
 			}
-            mdg_frigate = {
+			mdg_frigate = {
 				anti_air_attack = 0.1
 			}
 			mdg_corvette = {
 				anti_air_attack = 0.1
 			}
-			mdg_boat = {
+			mdg_fac = {
 				anti_air_attack = 0.1
 			}
 		}
 		clearing_procedures = {
-			submarine = {
-				mines_sweeping = 0.2
-			}
 			destroyer = {
-				mines_sweeping = 0.2
+				mines_sweeping = 0.25
 			}
-            mdg_frigate = {
-				mines_sweeping = 0.2
+			mdg_frigate = {
+				mines_sweeping = 0.25
 			}
 			mdg_corvette = {
-				mines_sweeping = 0.2
+				mines_sweeping = 0.25
 			}
-			mdg_boat = {
-				mines_sweeping = 0.2
+			mdg_fac = {
+				mines_sweeping = 0.25
 			}
 		}
 	}
@@ -355,6 +352,10 @@ long_range_submarines = {
 					surface_detection = 0.1
 					instant = yes
 				}
+				ship_hull_nuclear_submarine = {
+					surface_detection = 0.1
+					instant = yes
+				}
 			}
 			submarine = {
 				max_organisation = 10
@@ -373,7 +374,10 @@ long_range_submarines = {
 				ship_hull_carrier_submarine = {
 					surface_visibility = -0.1
 					instant = yes
-
+						}
+						ship_hull_nuclear_submarine = {
+							surface_visibility = -0.05
+							instant = yes
 				}
 			}
 		}
@@ -391,6 +395,11 @@ long_range_submarines = {
 				}
 				ship_hull_carrier_submarine = {
 					naval_speed = 0.2
+							instant = yes
+						}
+						ship_hull_nuclear_submarine = {
+							naval_speed = 0.1
+							torpedo_attack = 0.1
 					instant = yes
 				}
 			}

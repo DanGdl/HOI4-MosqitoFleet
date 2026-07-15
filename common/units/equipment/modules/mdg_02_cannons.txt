@@ -3,12 +3,6 @@ equipment_modules = {
 		has_dlc = "Man the Guns"
 	}
 
-	#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   #
-	#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #
-	#    #  # ## ####  #      ###  ####  #   #  ##  ###    #
-	#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #
-	### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #
-
 	mdg_ship_light_cannon_1 = {
 		abbreviation = "lsc_1"
 		category = mdg_ship_light_cannon
@@ -120,10 +114,6 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 
-		build_cost_resources = {
-			steel = 1
-		}
-
 		multiply_stats = {
 			naval_speed = -0.04
 		}
@@ -134,7 +124,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = mdg_ship_light_cannon
-			convert_cost_ic = 150
+			convert_cost_ic = 100
 		}
 
 		can_convert_from = {
@@ -265,10 +255,6 @@ equipment_modules = {
 			lg_attack = 2.2
 			anti_air_attack = 3.5
 			build_cost_ic = 160
-		}
-
-		build_cost_resources = {
-			steel = 1
 		}
 
 		multiply_stats = {

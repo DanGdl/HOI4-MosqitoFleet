@@ -3,39 +3,28 @@ mdg_auxiliaries = {
 	category = naval
 
 	blocked_for = {
+		GER
 	}
 
 	available_for = {
 	}
 
 	roles = {
-		mdg_naval_auxiliary
+		naval_auxiliary
 	}
 
 	priority = {
-		factor = 2500
+		factor = 1500
 		modifier = {
-			factor = 2
+			factor = 10
 			is_major = no
-		}
-		modifier = {
-			factor = 3
-			num_of_naval_factories < 6
-		}
-		modifier = {
-			factor = 2
-			num_of_naval_factories > 5
 		}
 	}
 
 	mdg_auxiliary_default = {
 
 		priority = {
-			factor = 250
-			modifier = {
-				factor = 10
-				is_major = no
-			}
+			factor = 10
 		}
 
 		role_icon_index = 2
@@ -46,15 +35,15 @@ mdg_auxiliaries = {
 			type = mdg_ship_hull_auxiliary
 			modules = {
 				fixed_ship_battery_slot = { module = ship_light_medium_battery_1 upgrade > current }
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_fire_control_system_slot = empty
 				fixed_ship_engine_slot = light_ship_engine_1
 				fixed_ship_anti_air_slot = { module = ship_anti_air_1 upgrade > current }
 				fixed_ship_secondaries_slot = { module = ship_secondaries_1 upgrade > current }
 
-				mid_1_custom_slot = { module = ship_airplane_launcher_1 upgrade > current }
-				mid_2_custom_slot = { module = ship_torpedo_1 upgrade > current }
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
 				rear_1_custom_slot = { module = ship_light_medium_battery_1 upgrade > current }
-				rear_2_custom_slot = ship_mine_layer_1
+				rear_2_custom_slot = empty
 			}
 		}
 

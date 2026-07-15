@@ -7,8 +7,8 @@
 			location = 8534
 
 			# 1939
-			ship = { name = "ICGV Esja" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
-			ship = { name = "ICGV Odinn" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
+			ship = { name = "ICGV Esja" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
+			ship = { name = "ICGV Odinn" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = ICE version_name = "Patrol ship" } } }
 		}
 	}
 }

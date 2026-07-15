@@ -6,17 +6,17 @@
 			name = "Di 1 Jiandui"
 			location = 8396
 
-			ship = { name = "Ming Chuan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
-			ship = { name = "Yung Sui" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Ming Chuan" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Yung Sui" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
 
-			ship = { name = "Chu Tung" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
-			ship = { name = "Chu Chien" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
-			ship = { name = "Chu Tai" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
-			ship = { name = "Chu Kuan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Chu Tung" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Chu Chien" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Chu Tai" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Chu Kuan" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
 
-			ship = { name = "Kiang Yuan" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
-			ship = { name = "Kiang Chen" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
-			ship = { name = "Kiang Li" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Kiang Yuan" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Kiang Chen" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Kiang Li" definition = destroyer equipment = { mdg_corvette_1 = { amount = 1 owner = CHI } } }
 		}
 	}
 }

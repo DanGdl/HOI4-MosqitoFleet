@@ -6,16 +6,16 @@
 			name = "1st Task Force"
 			location = 2919
 
-			ship = { name = "IIS Babr" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Babr Class" } } }
+			ship = { name = "IIS Babr" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Babr Class" } } }
 
-			ship = { name = "IIS Chahrokh" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
-			ship = { name = "IIS Chahbaaz" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
-			ship = { name = "IIS Karkass" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
-			ship = { name = "IIS Simorgh" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
+			ship = { name = "IIS Chahrokh" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
+			ship = { name = "IIS Chahbaaz" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
+			ship = { name = "IIS Karkass" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
+			ship = { name = "IIS Simorgh" definition = destroyer equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = PER version_name = "Chahrokh Class" } } }
 
-			ship = { name = "IIS Azerbaijan" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
-			ship = { name = "IIS Gehlani" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
-			ship = { name = "IIS Mazenderan" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
+			ship = { name = "IIS Azerbaijan" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
+			ship = { name = "IIS Gehlani" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
+			ship = { name = "IIS Mazenderan" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = PER version_name = "Babolsar Class" } } }
 		}
 	}
 }

@@ -1,0 +1,26 @@
+# Escort
+mdg_generic_escort_fleet_3_AuxCr = {
+	required_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+}
+
+# Patrol
+mdg_generic_patrol_fleet_2_AuxCr = {
+	required_taskforces = {
+		PatrolReconForce_1_AuxCr = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+}
+
+# Minelaying
+mdg_generic_minelaying_fleet_4_AuxCr = {
+	optional_taskforces = {
+		MineLaying_1_AuxCr = 1
+	}
+}
