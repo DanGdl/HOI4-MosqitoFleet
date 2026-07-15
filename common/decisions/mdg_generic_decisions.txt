@@ -47,15 +47,18 @@ mdg_generic_refit_civilian_ships_category = {
 					has_dlc = "Man the Guns"
 				}
 				AND = {
+					has_tech = electronic_mechanical_engineering
 					has_tech = early_ship_hull_cruiser
+					has_tech = basic_naval_mines
 					has_tech = basic_battery
+					has_tech = basic_torpedo
 				}
 			}
 			else = {
 				has_tech = early_light_cruiser
 			}
 		}
-		days_remove = 1
+		days_remove = 90
 
 		complete_effect = {
 			navy_experience = -30
@@ -694,7 +697,7 @@ mdg_generic_refit_civilian_ships_category = {
 				has_tech = early_carrier
 			}
 		}
-		days_remove = 1
+		days_remove = 120
 
 		complete_effect = {
 			navy_experience = -45

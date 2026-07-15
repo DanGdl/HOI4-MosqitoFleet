@@ -16,7 +16,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_boat_fra"
+			spriteType = "GFX_SD_tv_fac_fra"
 			position = { x = 0 y = 0 }
 		}
 

@@ -17,7 +17,7 @@
 #
 #		iconType = {
 #			name = "equipment_image"
-#			spriteType = "GFX_SD_tv_boat_usa"
+#			spriteType = "GFX_SD_tv_fac_usa"
 #			position = { x = 0 y = 0 }
 #		}
 #

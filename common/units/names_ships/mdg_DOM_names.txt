@@ -1,5 +1,5 @@
 ﻿DOM_BOAT_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BOATS
+	name = NAME_THEME_HISTORICAL_FACS
 
 	for_countries = { DOM }
 

@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_SD_tv_boat_usa"
+		name = "GFX_SD_tv_fac_usa"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/usa_mdg_topview_fac.dds"
 	}
 }

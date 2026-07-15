@@ -29,8 +29,8 @@ ITA_baglietto_organization = {
 		# }
 	}
 	add_trait = {
-		token = generic_mio_trait_fast_boats
-		name = generic_mio_trait_fast_boats
+		token = generic_mio_trait_fast_facs
+		name = generic_mio_trait_fast_facs
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 		special_trait_background = yes
 

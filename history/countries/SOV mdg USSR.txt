@@ -152,7 +152,7 @@
 		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
-		design_team = mio:SOV_tupolev_design_bureau_organization_boat
+		design_team = mio:SOV_tupolev_design_bureau_organization_fac
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -185,7 +185,7 @@
 		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
-		design_team = mio:SOV_tupolev_design_bureau_organization_boat
+		design_team = mio:SOV_tupolev_design_bureau_organization_fac
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty

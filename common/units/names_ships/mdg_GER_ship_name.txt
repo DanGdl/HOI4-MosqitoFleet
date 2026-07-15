@@ -60,7 +60,7 @@ GER_MIDGET_IMPERIAL = {
 	unique = {}
 }
 
-GER_BOAT_IMPERIAL = {
+GER_FAC_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BOATS
 
 	for_countries = { GER }
