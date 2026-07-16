@@ -25,14 +25,14 @@ equipments = {
 		type = submarine
 		group_by = archetype
 		priority = 2500
-		
+
 		upgrades = {
 			ship_reliability_upgrade
 			sub_engine_upgrade
 			sub_stealth_upgrade
 			sub_torpedo_upgrade
 		}
-		
+
 		interface_category = interface_category_other_ships
 
 		module_slots = {
@@ -52,46 +52,51 @@ equipments = {
 				}
 			}
 		}
-		
+
+		#module_count_limit = {
+		#	category = ship_radar
+		#	count < 2
+		#}
+
 		default_modules = {
 			fixed_ship_torpedo_slot = empty
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
-		
+
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
 		sub_visibility = 22
 		naval_speed = 13
 		reliability = 0.60
-		
+
 		naval_range = 2000
-		
+
 		max_strength = 15
-		
+
 
 		fuel_consumption = 1
-		
+
 		build_cost_ic = 320
 		resources = {
 			#oil = 1
 			steel = 1
 		}
-		
+
 		manpower = 200
 
 		naval_dominance_factor = 9
@@ -114,21 +119,21 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 		}
-		
+
 		sub_visibility = 15
 		naval_speed = 8.3
 		reliability = 0.60
-		
+
 		naval_range = 500
-		
+
 		max_strength = 5
 
 		manpower = 100
 		naval_dominance_factor = 7
-		
+
 		build_cost_ic = 150
 		resources = {
 			steel = 1

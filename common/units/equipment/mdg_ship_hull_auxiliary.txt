@@ -54,7 +54,7 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { ship_cruiser_armor }
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -86,17 +86,17 @@ equipments = {
 				}
 			}
 		}
-		
+
 		#module_count_limit = {
 		#	category = ship_radar
 		#	count < 2
 		#}
-		
+
 		#module_count_limit = {
 		#	category = ship_sonar
 		#	count < 2
 		#}
-		
+
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -107,39 +107,39 @@ equipments = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		
+
 		lg_armor_piercing = 0
 		lg_attack = 0
-		
+
 		hg_armor_piercing = 0
 		hg_attack = 0
-		
+
 		torpedo_attack = 0
 		sub_attack = 0
-		
+
 		anti_air_attack = 0
-		
+
 		armor_value = 0
 
-		
+
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 15
 		naval_speed = 27
 		reliability = 0.80
-		
+
 		naval_range = 2500
-		
-		max_strength = 100		
-		
+
+		max_strength = 100
+
 
 		fuel_consumption = 20
-		
+
 		build_cost_ic = 1800
 		resources = {
 			steel = 2
 		}
-		
+
 		manpower = 600
 
 		naval_dominance_factor = 100
@@ -154,7 +154,7 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_cruiser
 		priority = 1900
-		
+
 		naval_dominance_factor = 100
 		module_slots = inherit
 	}
@@ -195,7 +195,7 @@ equipments = {
 					ship_anti_air
 				}
 			}
-			
+
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -270,7 +270,7 @@ equipments = {
 					ship_medium_battery
 				}
 			}
-			
+
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -358,7 +358,7 @@ equipments = {
 					ship_medium_battery
 				}
 			}
-			
+
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
