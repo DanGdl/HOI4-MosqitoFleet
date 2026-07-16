@@ -42,20 +42,12 @@ mdg_generic_refit_civilian_ships_category = {
 			has_equipment = {
 				convoy > 30
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = electronic_mechanical_engineering
-					has_tech = early_ship_hull_cruiser
-					has_tech = basic_naval_mines
-					has_tech = basic_battery
-					has_tech = basic_torpedo
-				}
-			}
-			else = {
-				has_tech = early_light_cruiser
+			AND = {
+				has_tech = electronic_mechanical_engineering
+				has_tech = early_ship_hull_cruiser
+				has_tech = basic_naval_mines
+				has_tech = basic_battery
+				has_tech = basic_torpedo
 			}
 		}
 		days_remove = 90
@@ -70,65 +62,34 @@ mdg_generic_refit_civilian_ships_category = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_dlc = "Man the Guns"
+					NOT = {	has_country_flag = mdg_flag_refit_to_cruiser_mtg } #FIN gets flag along with Ship variants via the focus that unlocks these decisions
 				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_cruiser_mtg } #FIN gets flag along with Ship variants via the focus that unlocks these decisions
-					}
-					set_country_flag = mdg_flag_refit_to_cruiser_mtg
+				set_country_flag = mdg_flag_refit_to_cruiser_mtg
 
-					create_equipment_variant = {
-						name = "Refitted Cruiser"
-						type = mdg_ship_hull_auxiliary_1
-						name_group = ENG_AUXILIARY_HISTORICAL #Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = ship_light_medium_battery_1
-							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_fire_control_system_slot = empty
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_secondaries_slot = dp_ship_secondaries_1
-							mid_1_custom_slot = empty
-							mid_2_custom_slot = empty
-							rear_1_custom_slot = ship_light_medium_battery_1
-							rear_2_custom_slot = empty
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
+				create_equipment_variant = {
+					name = "Refitted Cruiser"
 					type = mdg_ship_hull_auxiliary_1
-					equipment_variant = "Refitted Cruiser"
-					creator = ROOT
-					name = "Protector"
+					name_group = ENG_AUXILIARY_HISTORICAL #Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = ship_light_medium_battery_1
+						fixed_ship_anti_air_slot = ship_anti_air_1
+						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_engine_slot = light_ship_engine_1
+						fixed_ship_secondaries_slot = dp_ship_secondaries_1
+						mid_1_custom_slot = empty
+						mid_2_custom_slot = empty
+						rear_1_custom_slot = ship_light_medium_battery_1
+						rear_2_custom_slot = empty
+					}
+					obsolete = yes
 				}
 			}
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_cruiser_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_cruiser_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Cruiser"
-						type = mdg_auxiliary_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_anti_air_upgrade = 0
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
-					type = mdg_auxiliary_1
-					equipment_variant = "Refitted Cruiser"
-					creator = ROOT
-					name = "Protector"
-				}
+			create_ship = {
+				type = mdg_ship_hull_auxiliary_1
+				equipment_variant = "Refitted Cruiser"
+				creator = ROOT
+				name = "Protector"
 			}
 		}
 	}
@@ -175,19 +136,11 @@ mdg_generic_refit_civilian_ships_category = {
 			has_equipment = {
 				convoy > 40
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_depth_charges
-					has_tech = basic_battery
-					has_tech = sonar
-				}
-			}
-			else = {
-				has_tech = early_destroyer
+			AND = {
+				has_tech = early_ship_hull_light
+				has_tech = basic_depth_charges
+				has_tech = basic_battery
+				has_tech = sonar
 			}
 		}
 		days_remove = 60
@@ -202,63 +155,31 @@ mdg_generic_refit_civilian_ships_category = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_dlc = "Man the Guns"
+					NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
 				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_escort_mtg
+				set_country_flag = mdg_flag_refit_to_escort_mtg
 
-					create_equipment_variant = {
-						name = "Refitted Escort Ship"
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = ship_sonar_1
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_depth_charge_1
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
+				create_equipment_variant = {
+					name = "Refitted Escort Ship"
 					type = mdg_ship_hull_corvette_1
-					equipment_variant = "Refitted Escort Ship"
-					creator = ROOT
-					name = "E"
+					name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = mdg_ship_light_cannon_1
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = ship_sonar_1
+						fixed_ship_engine_slot = light_ship_engine_1
+						fixed_ship_torpedo_slot = empty
+						rear_1_custom_slot = ship_depth_charge_1
+					}
+					obsolete = yes
 				}
 			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_escort_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_escort_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Escort Ship"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Escort Ship"
-					creator = ROOT
-					name = "E"
-				}
+			create_ship = {
+				type = mdg_ship_hull_corvette_1
+				equipment_variant = "Refitted Escort Ship"
+				creator = ROOT
+				name = "E"
 			}
 		}
 	}
@@ -305,17 +226,9 @@ mdg_generic_refit_civilian_ships_category = {
 			has_equipment = {
 				convoy > 20
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_battery
-				}
-			}
-			else = {
-				has_tech = early_destroyer
+			AND = {
+				has_tech = early_ship_hull_light
+				has_tech = basic_battery
 			}
 		}
 		days_remove = 60
@@ -330,63 +243,31 @@ mdg_generic_refit_civilian_ships_category = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_dlc = "Man the Guns"
+					NOT = {	has_country_flag = mdg_flag_refit_to_patrol_mtg }
 				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_patrol_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_patrol_mtg
+				set_country_flag = mdg_flag_refit_to_patrol_mtg
 
-					create_equipment_variant = {
-						name = "Refitted Patrol Ship"
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = empty
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = mdg_ship_light_cannon_1
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
+				create_equipment_variant = {
+					name = "Refitted Patrol Ship"
 					type = mdg_ship_hull_corvette_1
-					equipment_variant = "Refitted Patrol Ship"
-					creator = ROOT
-					name = "P"
+					name_group = "ENG_CORVETTE_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = mdg_ship_light_cannon_1
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_engine_slot = light_ship_engine_1
+						fixed_ship_torpedo_slot = empty
+						rear_1_custom_slot = mdg_ship_light_cannon_1
+					}
+					obsolete = yes
 				}
 			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_patrol_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_patrol_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Patrol Ship"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Patrol Ship"
-					creator = ROOT
-					name = "P"
-				}
+			create_ship = {
+				type = mdg_ship_hull_corvette_1
+				equipment_variant = "Refitted Patrol Ship"
+				creator = ROOT
+				name = "P"
 			}
 		}
 	}
@@ -433,18 +314,10 @@ mdg_generic_refit_civilian_ships_category = {
 			has_equipment = {
 				convoy > 20
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_naval_mines
-					has_tech = basic_battery
-				}
-			}
-			else = {
-				has_tech = early_destroyer
+			AND = {
+				has_tech = early_ship_hull_light
+				has_tech = basic_naval_mines
+				has_tech = basic_battery
 			}
 		}
 		days_remove = 30
@@ -459,63 +332,31 @@ mdg_generic_refit_civilian_ships_category = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_dlc = "Man the Guns"
+					NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
 				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_mtg
+				set_country_flag = mdg_flag_refit_to_mine_layer_mtg
 
-					create_equipment_variant = {
-						name = "Refitted Mine Layer"
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_ML_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = empty
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_mine_layer_1
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
+				create_equipment_variant = {
+					name = "Refitted Mine Layer"
 					type = mdg_ship_hull_corvette_1
-					equipment_variant = "Refitted Mine Layer"
-					creator = ROOT
-					name = "ML"
+					name_group = "ENG_ML_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = mdg_ship_light_cannon_1
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_engine_slot = light_ship_engine_1
+						fixed_ship_torpedo_slot = empty
+						rear_1_custom_slot = ship_mine_layer_1
+					}
+					obsolete = yes
 				}
 			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_layer_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_layer_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Mine Layer"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Mine Layer"
-					creator = ROOT
-					name = "ML"
-				}
+			create_ship = {
+				type = mdg_ship_hull_corvette_1
+				equipment_variant = "Refitted Mine Layer"
+				creator = ROOT
+				name = "ML"
 			}
 		}
 	}
@@ -562,18 +403,10 @@ mdg_generic_refit_civilian_ships_category = {
 			has_equipment = {
 				convoy > 20
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_light
-					has_tech = basic_naval_mines
-					has_tech = basic_battery
-				}
-			}
-			else = {
-				has_tech = early_destroyer
+			AND = {
+				has_tech = early_ship_hull_light
+				has_tech = basic_naval_mines
+				has_tech = basic_battery
 			}
 		}
 		days_remove = 30
@@ -588,63 +421,31 @@ mdg_generic_refit_civilian_ships_category = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_dlc = "Man the Guns"
+					NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
 				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_sweeper_mtg
+				set_country_flag = mdg_flag_refit_to_mine_sweeper_mtg
 
-					create_equipment_variant = {
-						name = "Refitted Mine Sweeper"
-						type = mdg_ship_hull_corvette_1
-						name_group = "ENG_MS_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_battery_slot = mdg_ship_light_cannon_1
-							fixed_ship_anti_air_slot = empty
-							fixed_ship_fire_control_system_slot = empty
-							fixed_ship_engine_slot = light_ship_engine_1
-							fixed_ship_torpedo_slot = empty
-							rear_1_custom_slot = ship_mine_sweeper_1
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
+				create_equipment_variant = {
+					name = "Refitted Mine Sweeper"
 					type = mdg_ship_hull_corvette_1
-					equipment_variant = "Refitted Mine Sweeper"
-					creator = ROOT
-					name = "MS"
+					name_group = "ENG_MS_HISTORICAL" # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+					parent_version = 0
+					modules = {
+						fixed_ship_battery_slot = mdg_ship_light_cannon_1
+						fixed_ship_anti_air_slot = empty
+						fixed_ship_fire_control_system_slot = empty
+						fixed_ship_engine_slot = light_ship_engine_1
+						fixed_ship_torpedo_slot = empty
+						rear_1_custom_slot = ship_mine_sweeper_1
+					}
+					obsolete = yes
 				}
 			}
-			# NO MTG
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mine_sweeper_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mine_sweeper_vanila
-
-					create_equipment_variant = {
-						name = "Refitted Mine Sweeper"
-						type = mdg_corvette_1
-						upgrades = {
-							ship_reliability_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_gun_upgrade = 0
-							ship_ASW_upgrade = 0
-						}
-						obsolete = yes
-					}
-				}
-				create_ship = {
-					type = mdg_corvette_1
-					equipment_variant = "Refitted Mine Sweeper"
-					creator = ROOT
-					name = "MS"
-				}
+			create_ship = {
+				type = mdg_ship_hull_corvette_1
+				equipment_variant = "Refitted Mine Sweeper"
+				creator = ROOT
+				name = "MS"
 			}
 		}
 	}
@@ -684,17 +485,9 @@ mdg_generic_refit_civilian_ships_category = {
 			has_equipment = {
 				convoy > 80
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				AND = {
-					has_tech = early_ship_hull_carrier
-					has_tech = basic_battery
-				}
-			}
-			else = {
-				has_tech = early_carrier
+			AND = {
+				has_tech = early_ship_hull_carrier
+				has_tech = basic_battery
 			}
 		}
 		days_remove = 120
@@ -709,87 +502,10 @@ mdg_generic_refit_civilian_ships_category = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_dlc = "Man the Guns"
+					NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
 				}
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
-					}
-					set_country_flag = mdg_flag_refit_to_mac_mtg
+				set_country_flag = mdg_flag_refit_to_mac_mtg
 
-					if = {
-						limit = {
-							NOT = {
-								OR = {
-									tag = FRA
-									tag = HOL
-									tag = ITA
-									tag = JAP
-									tag = USA
-								}
-							}
-						}
-						create_equipment_variant = {
-							name = "Merchant Aircraft Carrier"
-							type = mdg_ship_hull_mac_1
-							name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-							parent_version = 0
-							modules = {
-								fixed_ship_deck_slot_1 = ship_escort_deck_space
-								fixed_ship_anti_air_slot = ship_anti_air_1
-								fixed_ship_radar_slot = empty
-								fixed_ship_engine_slot = carrier_ship_engine_1
-								fixed_ship_secondaries_slot = empty
-							}
-							obsolete = yes
-						}
-					}
-				}
-				if = {
-					limit = { tag = FRA }
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "Commandant Teste Class"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
-				if = {
-					limit = { tag = HOL }
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "MAC Class"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
-				if = {
-					limit = { tag = ITA }
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "Giuseppe Miraglia Class"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
-				if = {
-					limit = { tag = JAP }
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "Refited Aircraft Transport"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
-				if = {
-					limit = { tag = USA }
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "Seaplane floating base"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
 				if = {
 					limit = {
 						NOT = {
@@ -802,34 +518,81 @@ mdg_generic_refit_civilian_ships_category = {
 							}
 						}
 					}
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "Merchant Aircraft Carrier"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
-			}
-			else = {
-				if = {
-					limit = {
-						NOT = {	has_country_flag = mdg_flag_refit_to_mac_vanila }
-					}
-					set_country_flag = mdg_flag_refit_to_mac_vanila
-
 					create_equipment_variant = {
 						name = "Merchant Aircraft Carrier"
-						type = mdg_mac_1
-						upgrades = {
-							ship_deckspace_upgrade = 0
-							ship_engine_upgrade = 0
-							ship_reliability_upgrade = 0
+						type = mdg_ship_hull_mac_1
+						name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_escort_deck_space
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = carrier_ship_engine_1
+							fixed_ship_secondaries_slot = empty
 						}
 						obsolete = yes
 					}
 				}
+			}
+			if = {
+				limit = { tag = FRA }
 				create_ship = {
-					type = mdg_mac_1
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "Commandant Teste Class"
+					creator = ROOT
+					name = "AVG"
+				}
+			}
+			if = {
+				limit = { tag = HOL }
+				create_ship = {
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "MAC Class"
+					creator = ROOT
+					name = "AVG"
+				}
+			}
+			if = {
+				limit = { tag = ITA }
+				create_ship = {
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "Giuseppe Miraglia Class"
+					creator = ROOT
+					name = "AVG"
+				}
+			}
+			if = {
+				limit = { tag = JAP }
+				create_ship = {
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "Refited Aircraft Transport"
+					creator = ROOT
+					name = "AVG"
+				}
+			}
+			if = {
+				limit = { tag = USA }
+				create_ship = {
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "Seaplane floating base"
+					creator = ROOT
+					name = "AVG"
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							tag = FRA
+							tag = HOL
+							tag = ITA
+							tag = JAP
+							tag = USA
+						}
+					}
+				}
+				create_ship = {
+					type = mdg_ship_hull_mac_1
 					equipment_variant = "Merchant Aircraft Carrier"
 					creator = ROOT
 					name = "AVG"
