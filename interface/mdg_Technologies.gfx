@@ -897,10 +897,14 @@ spriteTypes = {
 	# MIDGET SUBMARINES
 	# GENERIC
 	SpriteType = {
+		name = "GFX_mdg_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/technologies/mdg_midget_submarine_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_midget_submarine_medium"
 		texturefile = "gfx/interface/technologies/mdg_midget_submarine_1.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_mdg_midget_submarine_1_medium"
 		texturefile = "gfx/interface/technologies/mdg_midget_submarine_2.dds"
 	}
@@ -914,6 +918,10 @@ spriteTypes = {
 	}
 
 	# ENG
+	SpriteType = {
+		name = "GFX_ENG_mdg_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_mdg_midget_submarine_1.dds"
+	}
 	SpriteType = {
 		name = "GFX_ENG_midget_submarine_medium"
 		texturefile = "gfx/interface/technologies/ENG_mdg_midget_submarine_1.dds"
@@ -933,6 +941,10 @@ spriteTypes = {
 
 	# GER
 	SpriteType = {
+		name = "GFX_GER_mdg_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/technologies/GER_mdg_midget_submarine_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_GER_midget_submarine_medium"
 		texturefile = "gfx/interface/technologies/GER_mdg_midget_submarine_1.dds"
 	}
@@ -950,6 +962,10 @@ spriteTypes = {
 	}
 
 	# ITA
+	SpriteType = {
+		name = "GFX_ITA_mdg_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/technologies/ITA_mdg_midget_submarine_1.dds"
+	}
 	SpriteType = {
 		name = "GFX_ITA_midget_submarine_medium"
 		texturefile = "gfx/interface/technologies/ITA_mdg_midget_submarine_1.dds"
@@ -969,6 +985,10 @@ spriteTypes = {
 
 	# JAP
 	SpriteType = {
+		name = "GFX_JAP_mdg_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/technologies/JAP_mdg_midget_submarine_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_JAP_midget_submarine_medium"
 		texturefile = "gfx/interface/technologies/JAP_mdg_midget_submarine_1.dds"
 	}
@@ -986,6 +1006,10 @@ spriteTypes = {
 	}
 
 	# SOV
+	SpriteType = {
+		name = "GFX_SOV_mdg_ship_hull_midget_submarine_medium"
+		texturefile = "gfx/interface/technologies/SOV_mdg_midget_submarine_1.dds"
+	}
 	SpriteType = {
 		name = "GFX_SOV_midget_submarine_medium"
 		texturefile = "gfx/interface/technologies/SOV_mdg_midget_submarine_1.dds"

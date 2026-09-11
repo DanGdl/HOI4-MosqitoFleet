@@ -206,7 +206,7 @@ default = {
 	# Midget Submarines (Generic is same as ENG)
 	ship_hull_midget_submarine = {
 		pool = {
-			weight = 5500
+			weight = 5500.1
 
 			icons = {
 				GFX_ship_hull_midget_submarine_medium
@@ -218,11 +218,10 @@ default = {
 	}
 	mdg_ship_hull_midget_submarine_1 = {
 		pool = {
-			weight = 5500
+			weight = 5500.2
 			sub_units = { mdg_midget_submarine }
 
 			icons = {
-				GFX_ship_hull_midget_submarine_medium
 				GFX_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
@@ -653,27 +652,26 @@ GER = {
 	# Midget Submarines
 	ship_hull_midget_submarine = {
 		pool = {
-			weight = 5500
+			weight = 5500.2
 
 			icons = {
 				GFX_GER_ship_hull_midget_submarine_medium
 			}
 			models = {
-				#GER_mdg_midget_mesh
+				GER_mdg_midget_submarine_entity
 			}
 		}
 	}
 	mdg_ship_hull_midget_submarine_1 = {
 		pool = {
-			weight = 5500
+			weight = 5500.3
 			sub_units = { mdg_midget_submarine }
 
 			icons = {
-				GFX_GER_ship_hull_midget_submarine_medium
 				GFX_GER_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
-				#GER_mdg_midget_mesh
+				GER_mdg_midget_submarine_entity
 			}
 		}
 	}
@@ -832,27 +830,26 @@ ITA = {
 	# Midget Submarines
 	ship_hull_midget_submarine = {
 		pool = {
-			weight = 5500
+			weight = 5500.2
 
 			icons = {
 				GFX_ITA_ship_hull_midget_submarine_medium
 			}
 			models = {
-				#ITA_mdg_midget_mesh
+				ITA_mdg_midget_submarine_entity
 			}
 		}
 	}
 	mdg_ship_hull_midget_submarine_1 = {
 		pool = {
-			weight = 5500
+			weight = 5500.3
 			sub_units = { mdg_midget_submarine }
 
 			icons = {
-				GFX_ITA_ship_hull_midget_submarine_medium
 				GFX_ITA_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
-				#ITA_mdg_midget_mesh
+				ITA_mdg_midget_submarine_entity
 			}
 		}
 	}
@@ -1011,7 +1008,7 @@ JAP = {
 	# Midget Submarines
 	ship_hull_midget_submarine = {
 		pool = {
-			weight = 5500
+			weight = 5500.2
 
 			icons = {
 				GFX_JAP_ship_hull_midget_submarine_medium
@@ -1023,11 +1020,10 @@ JAP = {
 	}
 	mdg_ship_hull_midget_submarine_1 = {
 		pool = {
-			weight = 5500
+			weight = 5500.3
 			sub_units = { mdg_midget_submarine }
 
 			icons = {
-				GFX_JAP_ship_hull_midget_submarine_medium
 				GFX_JAP_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
@@ -1218,28 +1214,27 @@ SOV = {
 	# Midget Submarines
 	ship_hull_midget_submarine = {
 		pool = {
-			weight = 5500
+			weight = 5500.2
 
 			icons = {
 				GFX_SOV_ship_hull_midget_submarine_medium
 			}
 			models = {
-				#SOV_mdg_midget_mesh
+				SOV_mdg_midget_submarine_entity
 			}
 		}
 	}
 
 	mdg_ship_hull_midget_submarine_1 = {
 		pool = {
-			weight = 5500
+			weight = 5500.3
 			sub_units = { mdg_midget_submarine }
 
 			icons = {
-				GFX_SOV_ship_hull_midget_submarine_medium
 				GFX_SOV_mdg_ship_hull_midget_submarine_1_medium
 			}
 			models = {
-				#SOV_mdg_midget_mesh
+				SOV_mdg_midget_submarine_entity
 			}
 		}
 	}
