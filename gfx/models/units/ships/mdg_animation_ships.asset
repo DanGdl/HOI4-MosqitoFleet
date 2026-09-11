@@ -2,6 +2,26 @@
 
 # fac
 animation = {
+	name = "generic_mdg_fac_death_animation"
+	file = "generic_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_fac_attack_animation"
+	file = "generic_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_fac_defend_animation"
+	file = "generic_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_fac_idle_animation"
+	file = "generic_mdg_fac_idle.anim"
+}
+
+animation = {
 	name = "eng_mdg_fac_death_animation"
 	file = "eng_mdg_fac_death.anim"
 }
