@@ -22,4 +22,16 @@ spriteTypes = {
 		name = "GFX_trait_mdg_frigate_officer"
 		texturefile = "gfx/interface/traits/personal/trait_destroyer_officer.dds"
 	}
+
+    #TODO: fix
+	spriteType = {
+		name = "GFX_trait_mdg_aux_officer"
+		texturefile = "gfx/interface/traits/personal/trait_cruiser_officer.dds"
+	}
+
+    #TODO: fix
+	spriteType = {
+		name = "GFX_trait_mdg_mac_officer"
+		texturefile = "gfx/interface/traits/personal/trait_carrier_officer.dds"
+	}
 }
