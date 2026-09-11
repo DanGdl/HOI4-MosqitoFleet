@@ -101,7 +101,6 @@ categories = {
 			units = {
 				attack = -0.3
 				movement = -0.3
-				movement = -0.3
 			}
 		}
 		mdg_auxiliary = {
