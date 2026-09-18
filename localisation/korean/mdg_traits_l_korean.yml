@@ -8,3 +8,5 @@
  mdg_frigate_officer_desc: "§L이 장교는 프리깃의 함장으로 복무했습니다.§!"
  mdg_corvette_officer: "코르벳 함장"
  mdg_corvette_officer_desc: "§L이 장교는 코르벳의 함장으로 복무했습니다.§!"
+ mdg_aux_officer: "보조 순양함 함장"
+ mdg_aux_officer_desc: "§L이 장교는 보조 순양함의 함장으로 복무했습니다.§!"

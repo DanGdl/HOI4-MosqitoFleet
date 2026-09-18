@@ -8,3 +8,5 @@
  mdg_frigate_officer_desc: "§Lこの士官はフリゲートの艦長を務めた§!"
  mdg_corvette_officer: "コルベット艦長"
  mdg_corvette_officer_desc: "§Lこの士官はコルベットの艦長を務めた§!"
+ mdg_aux_officer: "補助巡洋艦長"
+ mdg_aux_officer_desc: "§Lこの士官は補助巡洋艦の艦長を務めた§!"

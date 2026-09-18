@@ -8,3 +8,5 @@
  mdg_frigate_officer_desc: "§LThis officer served as the captain of a frigate§!"
  mdg_corvette_officer: "Corvette Captain"
  mdg_corvette_officer_desc: "§LThis officer served as the captain of a corvette§!"
+ mdg_aux_officer: "Auxiliary Cruiser Captain"
+ mdg_aux_officer_desc: "§LThis officer served as the captain of an auxiliary cruiser§!"

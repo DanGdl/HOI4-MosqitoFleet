@@ -8,3 +8,5 @@
  mdg_frigate_officer_desc: "§LЭтот персонаж служил капитаном фрегата.§!"
  mdg_corvette_officer: "Капитан корвета"
  mdg_corvette_officer_desc: "§LЭтот персонаж служил капитаном корвета.§!"
+ mdg_aux_officer: "Капитан вспомогательного крейсера"
+ mdg_aux_officer_desc: "§LЭтот персонаж служил капитаном вспомогательного крейсера.§!"
