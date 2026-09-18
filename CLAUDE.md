@@ -23,7 +23,7 @@ The game reloads most script files on a new game start; entity/GFX assets requir
 
 ### File naming convention
 - Files inside `common/` that belong to this mod are prefixed `mdg_`
-- Country-specific AI equipment files use the country tag prefix: `ENG_naval.txt`, `GER_naval.txt`, etc.
+- Country-specific AI equipment/AI navy files use the pattern `TAG_mdg_<shiptype>.txt`, e.g. `ENG_mdg_corvettes.txt`, `USA_mdg_frigates.txt`, `GER_mdg_auxiliary.txt` (not to be confused with vanilla's own `TAG_naval.txt` / `TAG_taskforce_templates.txt`, which this mod's files sit alongside and mirror the structure of, per ship type)
 - History files follow the vanilla pattern: `TAG mdg CountryName.txt`
 
 ### Ship types added by this mod
@@ -32,11 +32,13 @@ The game reloads most script files on a new game start; entity/GFX assets requir
 |------|---------------|-----------|----------|
 | FAC (Fast Attack Craft) | `mdg_ship_hull_fac` | `mdg_fac` | `naval_screen_fac`, `naval_escort_fac`, `naval_mine_layer_fac` |
 | Corvette | `mdg_ship_hull_corvette` | `mdg_corvette` | `naval_screen_corvette`, `naval_escort_corvette`, `naval_mine_sweeper_corvette`, `naval_mine_layer_corvette` |
-| Frigate | `mdg_ship_hull_frigate` | `mdg_frigate` | `naval_screen_frigate` |
+| Frigate | `mdg_ship_hull_frigate` | `mdg_frigate` | `naval_screen_frigate`, `naval_escort_frigate`, `naval_mine_sweeper_frigate`, `naval_mine_layer_frigate` |
 | Midget Submarine | `mdg_ship_hull_midget_submarine` | `mdg_midget_submarine` | `naval_submarine_midget` |
-| Hydrofoil | `mdg_ship_hull_hydrofoil` | `mdg_hydrofoil` | `naval_screen_hydrofoil` |
+| Hydrofoil | `mdg_ship_hull_hydrofoil` | `mdg_hydrofoil` | `naval_screen_hydrofoil`, `naval_mine_layer_hydrofoil` |
 | Auxiliary | `mdg_ship_hull_auxiliary` | `mdg_auxiliary` | `naval_auxiliary` |
-| Merchant Carrier (MAC) | `mdg_ship_hull_mac` | `mdg_mac` | `naval_mac` |
+| Merchant Carrier (MAC) | `mdg_ship_hull_mac` (defined in `mdg_ship_hull_merchant_carrier.txt`) | `mdg_mac` | `naval_mac` |
+
+Every role above must have a matching `role_ratio` weight in `common/ai_strategy/mdg_naval.txt`, or the AI will never budget production for it. Base hull archetypes (`mdg_ship_hull_corvette`, `mdg_ship_hull_frigate`, `mdg_ship_hull_fac`, `mdg_ship_hull_hydrofoil`, `mdg_ship_hull_auxiliary`, `mdg_ship_hull_mac`) all have `is_buildable = no` — AI equipment designs (`ai_equipment/*.txt`) and any other code must target a concrete tier (`_1`, `_2`, `_3`, `_4`, or just `_1` for the single-tier types) instead of the bare archetype name, or the design silently targets a non-buildable variant.
 
 Each ship type has 1–4 hull variants (`_1` through `_4`) that gate off vanilla tech milestones: `early_ship_hull_light` → `basic_ship_hull_light` → `improved_ship_hull_light` → `advanced_ship_hull_light`.
 Ships of types `mdg_mac`, `mdg_auxiliary` are created via decisions in game, `mdg_hydrofoil` - from special project. They have single sub-type (not 4 like others).

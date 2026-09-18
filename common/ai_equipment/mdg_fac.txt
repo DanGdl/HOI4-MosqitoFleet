@@ -332,11 +332,6 @@ generic_escorts_fac = {
 					any_of = { ship_depth_charge }
 					upgrade > current
 				}
-				fixed_ship_torpedo_slot = empty
-				rear_1_custom_slot = {
-					any_of = { ship_depth_charge }
-					upgrade > current
-				}
 				mid_1_custom_slot = {
 					any_of = { ship_depth_charge }
 					upgrade > current

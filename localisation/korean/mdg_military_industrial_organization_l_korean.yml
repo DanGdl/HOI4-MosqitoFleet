@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "금속 선체"
  generic_mio_trait_combined_materials_hulls: "복합 재료 선체"
  generic_mio_trait_sneak_engines: "전기 스니크 모터"
+ mio_cat_eq_all_mdg_frigate: "모든 프리깃"
+ mio_cat_eq_all_mdg_corvette: "모든 코르벳"
+ mio_cat_eq_all_mdg_fac: "모든 고속공격정"

@@ -167,9 +167,11 @@
 
  mdg_ship_hull_hydrofoil: "Barco de hidrofolha"
  mdg_ship_hull_hydrofoil_1: "Barco de hidrofolha"
+ mdg_ship_hull_hydrofoil_1_desc: "Descrição do barco de hidrofolha"
 
  mdg_ship_hull_auxiliary: "Cruzador auxiliar"
  mdg_ship_hull_auxiliary_1: "Cruzador auxiliar"
+ mdg_ship_hull_auxiliary_1_desc: "Descrição do cruzador auxiliar"
 
  mdg_ship_hull_mac: "Porta-aviões auxiliar"
  mdg_ship_hull_mac_1: "Porta-aviões auxiliar"

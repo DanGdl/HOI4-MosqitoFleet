@@ -167,9 +167,11 @@
 
  mdg_ship_hull_hydrofoil: "Hydrofoil boat"
  mdg_ship_hull_hydrofoil_1: "Hydrofoil boat"
+ mdg_ship_hull_hydrofoil_1_desc: "Hydrofoil boat description"
 
  mdg_ship_hull_auxiliary: "Auxiliary cruiser"
  mdg_ship_hull_auxiliary_1: "Auxiliary cruiser"
+ mdg_ship_hull_auxiliary_1_desc: "Auxiliary cruiser description"
 
  mdg_ship_hull_mac: "Auxiliary carrier"
  mdg_ship_hull_mac_1: "Auxiliary carrier"

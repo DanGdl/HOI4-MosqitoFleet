@@ -53,7 +53,6 @@ ENG_mdg_frigates = {
 			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
-			light_ship_engine
 			ship_radar
 		}
 	}
@@ -93,7 +92,6 @@ ENG_mdg_frigates = {
 			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
-			light_ship_engine
 			ship_radar
 		}
 	}
@@ -134,7 +132,6 @@ ENG_mdg_frigates = {
 			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
-			light_ship_engine
 			ship_radar
 		}
 	}
@@ -176,7 +173,6 @@ ENG_mdg_frigates = {
 			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
-			light_ship_engine
 			ship_radar
 		}
 	}
@@ -235,10 +231,10 @@ ENG_escorts_frigate = {
 			ship_anti_air
 			ship_depth_charge
 			mdg_ship_light_cannon_dp
+			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
 			ship_radar
-			light_ship_engine
 		}
 	}
 
@@ -269,10 +265,10 @@ ENG_escorts_frigate = {
 			ship_anti_air
 			ship_depth_charge
 			mdg_ship_light_cannon_dp
+			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
 			ship_radar
-			light_ship_engine
 		}
 	}
 
@@ -304,10 +300,10 @@ ENG_escorts_frigate = {
 			ship_anti_air
 			ship_depth_charge
 			mdg_ship_light_cannon_dp
+			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
 			ship_radar
-			light_ship_engine
 		}
 	}
 
@@ -340,15 +336,15 @@ ENG_escorts_frigate = {
 			ship_anti_air
 			ship_depth_charge
 			mdg_ship_light_cannon_dp
+			light_ship_engine
 			ship_sonar
 			ship_fire_control_system
 			ship_radar
-			light_ship_engine
 		}
 	}
 }
 
-ENG_naval_mine_sweeper_frigate = {
+naval_mine_sweeper_frigate = {
 	category = naval
 
 	blocked_for = {
@@ -370,7 +366,7 @@ ENG_naval_mine_sweeper_frigate = {
 		}
 	}
 
-	mine_sweeper_early_frigate = {
+	mine_sweeper_light_early_frigate = {
 
 		priority = {
 			factor = 100
@@ -408,7 +404,7 @@ ENG_naval_mine_sweeper_frigate = {
 		}
 	}
 
-	mine_sweeper_late_frigate = {
+	mine_sweeper_light_late_frigate = {
 
 		priority = {
 			factor = 120
@@ -426,7 +422,7 @@ ENG_naval_mine_sweeper_frigate = {
 		target_variant = {
 			match_value = 2000.0
 
-			type = mdg_ship_hull_frigate
+			type = mdg_ship_hull_frigate_3
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
@@ -460,7 +456,7 @@ ENG_naval_mine_sweeper_frigate = {
 	}
 }
 
-ENG_naval_mine_layer_frigate = {
+naval_mine_layer_frigate = {
 	category = naval
 
 	blocked_for = {
@@ -482,7 +478,7 @@ ENG_naval_mine_layer_frigate = {
 		}
 	}
 
-	mine_layer_frigate = {
+	mine_layer_light_frigate = {
 
 		priority = {
 			factor = 20
@@ -495,7 +491,7 @@ ENG_naval_mine_layer_frigate = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_frigate
+			type = mdg_ship_hull_frigate_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1

@@ -1,0 +1,60 @@
+ENG_home_fleet_1_frigate = {
+	required_taskforces = {
+		ENG_StrikeForce_1_frigate = 1
+		ENG_PatrolReconForce_1_frigate = 3
+	}	
+	optional_taskforces = {
+		ENG_StrikeForce_1_frigate = 1
+		ENG_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ENG_home_fleet_2_frigate = {
+	required_taskforces = {
+		ENG_StrikeForce_1_frigate = 1
+		ENG_PatrolReconForce_1 = 3
+	}	
+	optional_taskforces = {
+		ENG_StrikeForce_1_frigate = 1
+		ENG_PatrolReconForce_1 = 2
+	}
+}
+
+ENG_home_fleet_3_frigate = {
+	required_taskforces = {
+		ENG_StrikeForce_1 = 1
+		ENG_PatrolReconForce_1_frigate = 3
+	}	
+	optional_taskforces = {
+		ENG_StrikeForce_1 = 1
+		ENG_PatrolReconForce_1_frigate = 2
+	}
+}
+
+
+
+
+ENG_home_fleet_1_corvette = {
+	required_taskforces = {
+		ENG_StrikeForce_1 = 1
+		ENG_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		ENG_StrikeForce_1 = 1
+		ENG_PatrolReconForce_1_corvette = 2
+	}
+}
+
+
+# Mixed corvette/frigate combinations (contains at least one _frigate and one _corvette taskforce)
+
+ENG_home_fleet_1_mixed = { # Strike: frigate, Recon: corvette
+	required_taskforces = {
+		ENG_StrikeForce_1_frigate = 1
+		ENG_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		ENG_StrikeForce_1_frigate = 1
+		ENG_PatrolReconForce_1_corvette = 2
+	}
+}

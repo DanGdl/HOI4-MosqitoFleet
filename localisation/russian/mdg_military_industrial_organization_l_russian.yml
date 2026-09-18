@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "Корпуса из металла"
  generic_mio_trait_combined_materials_hulls: "Корпуса из комбинированых материалов"
  generic_mio_trait_sneak_engines: "Электродвигатели подкрадывания"
+ mio_cat_eq_all_mdg_frigate: "Все фрегаты"
+ mio_cat_eq_all_mdg_corvette: "Все корветы"
+ mio_cat_eq_all_mdg_fac: "Все катера"

@@ -23,7 +23,7 @@ PatrolReconForce_1_MAC = {
 	}
 }
 
-PatrolReconForce_1_MAC_Fr = {
+PatrolReconForce_1_MAC_frigate = {
 	allowed = {
 	}
 	ai_will_do = {
@@ -48,7 +48,7 @@ PatrolReconForce_1_MAC_Fr = {
 	}
 }
 
-PatrolReconForce_1_MAC_Cor = {
+PatrolReconForce_1_MAC_corvette = {
 	allowed = {
 	}
 	ai_will_do = {
@@ -67,7 +67,7 @@ PatrolReconForce_1_MAC_Cor = {
 		light_cruiser = {
 			amount = 2
 		}
-		mdg_frigate = {
+		mdg_corvette = {
 			amount = 6
 		}
 	}

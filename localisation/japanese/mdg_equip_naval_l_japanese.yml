@@ -167,9 +167,11 @@
 
  mdg_ship_hull_hydrofoil: "水中翼船"
  mdg_ship_hull_hydrofoil_1: "水中翼船"
+ mdg_ship_hull_hydrofoil_1_desc: "水中翼船 の説明"
 
  mdg_ship_hull_auxiliary: "補助巡洋艦"
  mdg_ship_hull_auxiliary_1: "補助巡洋艦"
+ mdg_ship_hull_auxiliary_1_desc: "補助巡洋艦の説明"
 
  mdg_ship_hull_mac: "補助空母"
  mdg_ship_hull_mac_1: "補助空母"

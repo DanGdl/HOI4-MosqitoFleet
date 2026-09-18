@@ -1,0 +1,247 @@
+SOV_dominance_fleet_1_frigate = {
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+}
+
+SOV_dominance_fleet_2_frigate = { # Recon: base, Dominance: frigate
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+}
+
+SOV_dominance_fleet_3_frigate = { # Recon: frigate, Dominance: base
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+}
+
+SOV_dominance_fleet_4_frigate = { # Strike: base, Recon: frigate, Dominance: frigate
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+}
+
+SOV_dominance_fleet_5_frigate = { # Strike: base, Recon: base, Dominance: frigate
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+}
+
+SOV_dominance_fleet_6_frigate = { # Strike: base, Recon: frigate, Dominance: base
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+}
+
+
+SOV_dominance_fleet_1_corvette = {
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+}
+
+SOV_dominance_fleet_2_corvette = {
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+}
+
+SOV_dominance_fleet_3_corvette = {
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+}
+
+
+# Mixed corvette/frigate combinations (Recon and Dominance use different hull types)
+
+# Strike: frigate
+SOV_dominance_fleet_1_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+}
+
+SOV_dominance_fleet_2_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+}
+
+SOV_dominance_fleet_3_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+}
+
+SOV_dominance_fleet_4_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1 = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+}
+
+SOV_dominance_fleet_5_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1_frigate = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1 = 3
+	}
+}
+
+# Strike: base
+SOV_dominance_fleet_6_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_corvette = 3
+		SOV_PatrolReconForce_1_frigate = 3
+	}
+}
+
+SOV_dominance_fleet_7_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+	optional_taskforces = {
+		SOV_StrikeForce_1 = 1
+		SOV_PatrolDominanceForce_1_frigate = 3
+		SOV_PatrolReconForce_1_corvette = 3
+	}
+}
+
+
+
+SOV_escort_fleet_3_frigate = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_frigate = 2
+	}
+}
+
+SOV_minelaying_fleet_4_frigate = {
+	optional_taskforces = {
+		SOV_MineLaying_1_frigate = 1
+	}
+}
+
+
+
+SOV_escort_fleet_3_corvette = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+}
+
+SOV_minelaying_fleet_4_corvette = {
+	optional_taskforces = {
+		SOV_MineLaying_1_corvette = 1
+	}
+}

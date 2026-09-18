@@ -21,7 +21,7 @@ USA_mdg_corvettes = {
 		}
 	}
 
-	mdg__corvette_early = {
+	mdg_corvette_early = {
 
 		priority = {
 			factor = 10
@@ -169,7 +169,7 @@ USA_mdg_corvettes = {
 	}
 }
 
-USA_escort_corvette = {
+USA_escorts_corvette = {
 	category = naval
 
 	blocked_for = {
@@ -369,7 +369,7 @@ USA_naval_mine_sweeper_corvette = {
 		}
 	}
 
-	mine_sweeper_early_corvette = {
+	mine_sweeper_light_early_corvette = {
 
 		priority = {
 			factor = 10
@@ -390,7 +390,7 @@ USA_naval_mine_sweeper_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -415,7 +415,7 @@ USA_naval_mine_sweeper_corvette = {
 		}
 	}
 
-	mine_sweeper_late_corvette = {
+	mine_sweeper_light_late_corvette = {
 
 		priority = {
 			factor = 100
@@ -486,7 +486,7 @@ USA_naval_mine_layer_corvette = {
 		}
 	}
 
-	mine_layer_corvette = {
+	mine_layer_light_corvette = {
 
 		priority = {
 			factor = 2
@@ -499,7 +499,7 @@ USA_naval_mine_layer_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
