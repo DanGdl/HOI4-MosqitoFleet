@@ -350,7 +350,10 @@ generic_escorts_frigate = {
 					any_of = { ship_anti_air }
 					upgrade > current
 				}
-				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_fire_control_system_slot = {
+					any_of = { ship_radar }
+					upgrade > current
+				}
 				fixed_ship_radar_slot = {
 					any_of = { ship_sonar }
 					upgrade > current
@@ -392,8 +395,8 @@ generic_escorts_frigate = {
 				anti_submarine_strategy_required_trigger = yes
 			}
 			modifier = {
-				has_tech = advanced_ship_hull_light
-				add = -60
+				has_tech = improved_ship_hull_light
+				factor = 0
 			}
 		}
 		enable = {
@@ -451,6 +454,76 @@ generic_escorts_frigate = {
 			ship_radar
 			light_ship_engine
 			ship_seaplane_tender
+		}
+	}
+
+	escort_upgrade_frigate_3 = {
+
+		priority = {
+			factor = 120
+			modifier = {
+				factor = 20
+				anti_submarine_strategy_required_trigger = yes
+			}
+			modifier = {
+				has_tech = advanced_ship_hull_light
+				factor = 0
+			}
+		}
+		enable = {
+			AND = {
+				has_tech = improved_depth_charges
+				has_tech = cavity_magnatron
+			}
+		}
+		role_icon_index = 2
+
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_frigate_3
+			modules = {
+				fixed_ship_battery_slot = {
+					any_of = { mdg_ship_light_cannon mdg_ship_light_cannon_dp }
+					upgrade > current
+				}
+				fixed_ship_anti_air_slot = {
+					any_of = { ship_anti_air }
+					upgrade > current
+				}
+				fixed_ship_fire_control_system_slot = {
+					any_of = { ship_radar }
+					upgrade > current
+				}
+				fixed_ship_radar_slot = {
+					any_of = { ship_sonar }
+					upgrade > current
+				}
+				fixed_ship_engine_slot = {
+					any_of = { light_ship_engine }
+					upgrade > current
+				}
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = {
+					any_of = { ship_depth_charge }
+					upgrade > current
+				}
+				rear_1_custom_slot = {
+					any_of = { ship_depth_charge ship_seaplane_tender }
+					upgrade > current
+				}
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon
+			mdg_ship_light_cannon_dp
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+			light_ship_engine
 		}
 	}
 
@@ -764,7 +837,7 @@ naval_mine_layer_frigate = {
 			has_tech = improved_naval_mines
 		}
 
-		role_icon_index = 5
+		role_icon_index = 4
 
 		target_variant = {
 			match_value = 1000.0

@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "金属船体"
  generic_mio_trait_combined_materials_hulls: "复合材料船体"
  generic_mio_trait_sneak_engines: "电动隐形马达"
+ mio_cat_eq_all_mdg_frigate: "所有护卫舰"
+ mio_cat_eq_all_mdg_corvette: "所有轻型护卫舰"
+ mio_cat_eq_all_mdg_fac: "所有快速攻击艇"

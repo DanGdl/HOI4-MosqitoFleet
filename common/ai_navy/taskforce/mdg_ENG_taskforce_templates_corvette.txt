@@ -1,0 +1,108 @@
+ENG_PatrolReconForce_1_corvette = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+		mdg_corvette = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		#we add CA so that the patrols can stay longer in battle for the strikeforce to show up
+		heavy_cruiser = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 3
+		}
+		mdg_corvette = {
+			amount = 6
+		}
+	}
+}
+
+ENG_NavalInvasionSupport_1_corvette = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { naval_invasion_support }
+	min_composition = {
+		battleship = {
+			amount = 1
+		}
+		mdg_corvette = {
+			amount = 3
+		}
+	}
+
+	optimal_composition = {
+		battleship = {
+			amount = 3
+		}
+		mdg_corvette = {
+			amount = 6
+		}
+	}
+}
+
+ENG_ConvoyEscort_1_corvette = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_corvette = {
+			amount = 5
+		}
+	}
+	
+	optimal_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+		mdg_corvette = {
+			amount = 12
+		}
+	}
+}
+
+ENG_MineLaying_1_corvette = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_corvette = {
+			amount = 2
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 1
+			role = 4
+		}
+	}
+}

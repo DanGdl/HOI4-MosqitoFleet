@@ -1,0 +1,104 @@
+ITA_PatrolReconForce_1_corvette = {
+	allowed = {
+		original_tag = ITA
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_corvette = {
+			amount = 2
+		}
+	}	
+	optimal_composition = {
+		light_cruiser = {
+			amount = 2
+		}
+		mdg_corvette = {
+			amount = 5
+		}
+	}
+}
+
+ITA_PatrolDominanceForce_1_corvette = {
+	allowed = {
+		original_tag = ITA
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		heavy_cruiser = {
+			amount = 1
+		}
+		mdg_corvette = {
+			amount = 2
+		}
+	}
+
+	optimal_composition = {
+		battleship = {
+			amount = 1
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 3
+		}
+		mdg_corvette = {
+			amount = 12
+		}
+	}
+}
+
+ITA_ConvoyEscort_1_corvette = {
+	allowed = {
+		original_tag = ITA
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_corvette = {
+			amount = 3
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 10
+		}
+	}
+}
+
+ITA_MineLaying_1_corvette = {
+	allowed = {
+		original_tag = ITA
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_corvette = {
+			amount = 2
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 1
+			role = 4
+		}
+	}
+}

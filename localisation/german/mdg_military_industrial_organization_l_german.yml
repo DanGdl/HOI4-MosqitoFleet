@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "Metallrümpfe"
  generic_mio_trait_combined_materials_hulls: "Rümpfe aus kombinierten Materialien"
  generic_mio_trait_sneak_engines: "Elektrische Laufmotoren"
+ mio_cat_eq_all_mdg_frigate: "Alle Fregatten"
+ mio_cat_eq_all_mdg_corvette: "Alle Korvetten"
+ mio_cat_eq_all_mdg_fac: "Alle Schnellboote"

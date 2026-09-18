@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "Coques en métal"
  generic_mio_trait_combined_materials_hulls: "Coques en matériaux composites"
  generic_mio_trait_sneak_engines: "Moteurs électriques furtifs"
+ mio_cat_eq_all_mdg_frigate: "Toutes les frégates"
+ mio_cat_eq_all_mdg_corvette: "Toutes les corvettes"
+ mio_cat_eq_all_mdg_fac: "Toutes les vedettes d'attaque rapide"

@@ -1,0 +1,171 @@
+ENG_StrikeForce_1_frigate = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	keep_updated = yes
+	mission = { naval_strike }
+	min_composition = {
+		carrier = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 1
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 3
+		}
+		battleship = {
+			amount = 4
+		}
+		battle_cruiser = {
+			amount = 1
+		}
+		heavy_cruiser = {
+			amount = 3
+		}
+		light_cruiser = {
+			amount = 8
+		}
+		mdg_frigate = {
+			amount = 30
+		}
+	}
+}
+
+ENG_PatrolReconForce_1_frigate = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 1
+		}
+	}	
+	optimal_composition = {
+		#we add CA so that the patrols can stay longer in battle for the strikeforce to show up
+		heavy_cruiser = {
+			amount = 1
+		}
+		light_cruiser = {
+			amount = 3
+		}
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+}
+
+ENG_PatrolDominanceForce_BC_1_frigate = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_frigate = {
+			amount = 4
+		}
+	}
+	optimal_composition = {
+		battle_cruiser = {
+			amount = 2
+		}
+		mdg_frigate = {
+			amount = 12
+		}
+	}
+}
+
+ENG_NavalInvasionSupport_1_frigate = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { naval_invasion_support }
+	min_composition = {
+		battleship = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 3
+		}
+	}
+
+	optimal_composition = {
+		battleship = {
+			amount = 3
+		}
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+}
+
+ENG_ConvoyEscort_1_frigate = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_frigate = {
+			amount = 5
+		}
+	}
+	
+	optimal_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 12
+		}
+	}
+}
+
+ENG_MineLaying_1_frigate = {
+	allowed = {
+		original_tag = ENG
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_frigate = {
+			amount = 2
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_frigate = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 1
+			role = 4
+		}
+	}
+}

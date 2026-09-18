@@ -166,9 +166,11 @@
 
  mdg_ship_hull_hydrofoil: "Bateau hydroptère"
  mdg_ship_hull_hydrofoil_1: "Bateau hydroptère"
+ mdg_ship_hull_hydrofoil_1_desc: "Description du bateau hydroptère"
 
  mdg_ship_hull_auxiliary: "Croiseur auxiliaire"
  mdg_ship_hull_auxiliary_1: "Croiseur auxiliaire"
+ mdg_ship_hull_auxiliary_1_desc: "Description du croiseur auxiliaire"
 
  mdg_ship_hull_mac: "Porte-avions auxiliaire"
  mdg_ship_hull_mac_1: "Porte-avions auxiliaire"

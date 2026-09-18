@@ -168,9 +168,11 @@
 
  mdg_ship_hull_hydrofoil: "Tragflügelboot"
  mdg_ship_hull_hydrofoil_1: "Tragflügelboot"
+ mdg_ship_hull_hydrofoil_1_desc: "Tragflügelboot Beschreibung"
 
  mdg_ship_hull_auxiliary: "Hilfskreuzer"
  mdg_ship_hull_auxiliary_1: "Hilfskreuzer"
+ mdg_ship_hull_auxiliary_1_desc: "Beschreibung des Hilfskreuzers"
 
  mdg_ship_hull_mac: "Hilfsflugzeugträger"
  mdg_ship_hull_mac_1: "Hilfsflugzeugträger"

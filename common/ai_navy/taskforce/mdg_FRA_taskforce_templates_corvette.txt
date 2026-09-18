@@ -1,0 +1,72 @@
+FRA_PatrolDominanceForce_1_corvette = {
+	allowed = {
+		original_tag = FRA
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { naval_patrol }
+	min_composition = {
+		mdg_corvette = {
+			amount = 4
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 3
+		}
+		mdg_corvette = {
+			amount = 12
+		}
+	}
+}
+
+FRA_ConvoyEscort_1_corvette = {
+	allowed = {
+		original_tag = FRA
+	}
+	ai_will_do = {
+		factor = 5
+	}	
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_corvette = {
+			amount = 5
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 10
+		}
+	}
+}
+
+FRA_MineLaying_1_corvette = {
+	allowed = {
+		original_tag = FRA
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_corvette = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 1
+			role = 4
+		}
+	}
+}

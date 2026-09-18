@@ -222,7 +222,7 @@ ITA_escorts_corvette = {
 		target_variant = {
 			match_value = 500.0
 
-			type = ship_hull_light_1
+			type = mdg_ship_hull_corvette_1
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -265,7 +265,7 @@ ITA_escorts_corvette = {
 		target_variant = {
 			match_value = 1500.0
 
-			type = ship_hull_light_2
+			type = mdg_ship_hull_corvette_2
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -307,7 +307,7 @@ ITA_escorts_corvette = {
 		target_variant = {
 			match_value = 2500.0
 
-			type = ship_hull_light_3
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -346,7 +346,7 @@ ITA_escorts_corvette = {
 		target_variant = {
 			match_value = 3500.0
 
-			type = ship_hull_light_4
+			type = mdg_ship_hull_corvette_4
 			modules = {
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp
 				fixed_ship_anti_air_slot = ship_anti_air
@@ -394,7 +394,7 @@ ITA_naval_mine_sweeper_corvette = {
 		}
 	}
 
-	mine_sweeper_early_corvette = {
+	mine_sweeper_light_early_corvette = {
 
 		priority = {
 			factor = 10
@@ -408,7 +408,7 @@ ITA_naval_mine_sweeper_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon
@@ -432,7 +432,7 @@ ITA_naval_mine_sweeper_corvette = {
 		}
 	}
 
-	mine_sweeper_late_corvette = {
+	mine_sweeper_light_late_corvette = {
 
 		priority = {
 			factor = 100
@@ -504,7 +504,7 @@ ITA_naval_mine_layer_corvette = {
 		}
 	}
 
-	mine_layer_corvette = {
+	mine_layer_light_corvette = {
 
 		priority = {
 			factor = 2
@@ -518,7 +518,7 @@ ITA_naval_mine_layer_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine

@@ -174,6 +174,196 @@ JAP_mdg_frigates = {
 	}
 }
 
+JAP_escorts_frigate = {
+	category = naval
+	
+	blocked_for = {
+	}
+	
+	available_for = {
+		JAP
+	}
+	
+	roles = {
+		naval_escort_frigate
+	}
+	
+	priority = {
+		factor = 200
+		modifier = {
+			anti_submarine_strategy_required_trigger = yes
+			factor = 10
+		}
+		modifier = {
+			convoy_threat > 0.5
+			factor = 20
+		}
+	}
+	
+	escort_early_frigate = {
+
+		priority = {
+			factor = 10
+		}
+		role_icon_index = 3
+
+		history = yes
+		target_variant = {
+			match_value = 500.0
+
+			type = mdg_ship_hull_frigate_1
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_1
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_depth_charge
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+
+	escort_basic_frigate = {
+
+		priority = {
+			factor = 100
+			modifier = {
+				factor = 100
+				has_war = yes
+			}
+		}
+		role_icon_index = 3
+
+		history = yes
+		target_variant = {
+			match_value = 2000.0
+
+			type = mdg_ship_hull_frigate_2
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_1
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_depth_charge
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+
+	escort_improved_frigate = {
+
+		priority = {
+			factor = 250
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+			modifier = {
+				convoy_threat > 0.5
+				factor = 2
+			}
+		}
+		role_icon_index = 3
+
+		history = yes
+		target_variant = {
+			match_value = 2800.0
+
+			type = mdg_ship_hull_frigate_3
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_1
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = empty
+				front_1_custom_slot = ship_anti_air
+				mid_1_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_depth_charge
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+
+	escort_advanced_frigate = {
+
+		priority = {
+			factor = 400
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+			modifier = {
+				convoy_threat > 0.5
+				factor = 2
+			}
+		}
+		role_icon_index = 3
+
+		history = yes
+		target_variant = {
+			match_value = 3500.0
+
+			type = mdg_ship_hull_frigate_4
+			modules = {
+				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
+				fixed_ship_anti_air_slot = ship_anti_air
+				fixed_ship_fire_control_system_slot = ship_fire_control_system
+				fixed_ship_radar_slot = ship_sonar
+				fixed_ship_engine_slot = light_ship_engine
+				fixed_ship_torpedo_slot = empty
+				front_1_custom_slot = ship_anti_air
+				mid_1_custom_slot = ship_depth_charge
+				mid_2_custom_slot = ship_depth_charge
+				rear_1_custom_slot = ship_anti_air
+			}
+		}
+
+		allowed_modules = {
+			ship_anti_air
+			ship_depth_charge
+			mdg_ship_light_cannon_dp
+			light_ship_engine
+			ship_sonar
+			ship_fire_control_system
+			ship_radar
+		}
+	}
+}
+
 JAP_naval_mine_sweeper_frigate = {
 	category = naval
 
@@ -196,7 +386,7 @@ JAP_naval_mine_sweeper_frigate = {
 		}
 	}
 
-	mine_sweeper_early_frigate = {
+	mine_sweeper_light_early_frigate = {
 
 		priority = {
 			factor = 10
@@ -210,7 +400,7 @@ JAP_naval_mine_sweeper_frigate = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_frigate
+			type = mdg_ship_hull_frigate_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_dp_2
@@ -235,7 +425,7 @@ JAP_naval_mine_sweeper_frigate = {
 		}
 	}
 
-	mine_sweeper_late_frigate = {
+	mine_sweeper_light_late_frigate = {
 
 		priority = {
 			factor = 1
@@ -250,7 +440,7 @@ JAP_naval_mine_sweeper_frigate = {
 		target_variant = {
 			match_value = 1100.0
 
-			type = mdg_ship_hull_frigate
+			type = mdg_ship_hull_frigate_3
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
@@ -271,6 +461,7 @@ JAP_naval_mine_sweeper_frigate = {
 			ship_mine_sweeper_1
 			ship_mine_warfare
 			ship_anti_air
+			mdg_ship_light_cannon_dp
 			mdg_ship_light_cannon
 			ship_depth_charge
 			ship_fire_control_system
@@ -303,7 +494,7 @@ JAP_naval_mine_layer_frigate = {
 		}
 	}
 
-	mine_layer_frigate = {
+	mine_layer_light_frigate = {
 
 		priority = {
 			factor = 2
@@ -313,7 +504,7 @@ JAP_naval_mine_layer_frigate = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_frigate
+			type = mdg_ship_hull_frigate_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1

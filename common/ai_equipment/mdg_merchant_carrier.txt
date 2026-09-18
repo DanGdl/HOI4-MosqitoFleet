@@ -35,7 +35,7 @@ mdg_macs = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_mac
+			type = mdg_ship_hull_mac_1
 			modules = {
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_deck_slot_1 = ship_escort_deck_space
@@ -65,7 +65,7 @@ mdg_macs = {
 		target_variant = {
 			match_value = 1500.0
 
-			type = mdg_ship_hull_mac
+			type = mdg_ship_hull_mac_1
 			modules = {
 				fixed_ship_deck_slot_1 = ship_escort_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air

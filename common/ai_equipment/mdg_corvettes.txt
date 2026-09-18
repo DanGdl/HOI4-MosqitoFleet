@@ -354,6 +354,7 @@ generic_escorts_corvette = {
 		}
 
 		allowed_modules = {
+			light_ship_engine
 			ship_depth_charge
 			ship_anti_air
 			mdg_ship_light_cannon
@@ -361,7 +362,6 @@ generic_escorts_corvette = {
 			ship_sonar
 			ship_fire_control_system
 			ship_radar
-			light_ship_engine
 		}
 	}
 
@@ -428,6 +428,7 @@ generic_escorts_corvette = {
 			ship_fire_control_system
 			ship_radar
 			light_ship_engine
+			ship_seaplane_tender
 		}
 	}
 
@@ -498,6 +499,7 @@ generic_escorts_corvette = {
 			ship_fire_control_system
 			ship_radar
 			light_ship_engine
+			ship_seaplane_tender
 		}
 	}
 
@@ -668,7 +670,7 @@ naval_mine_sweeper_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette_3
+			type = mdg_ship_hull_corvette_2
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
@@ -810,12 +812,12 @@ naval_mine_layer_corvette = {
 			has_tech = improved_naval_mines
 		}
 
-		role_icon_index = 5
+		role_icon_index = 4
 
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette_3
+			type = mdg_ship_hull_corvette_2
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1

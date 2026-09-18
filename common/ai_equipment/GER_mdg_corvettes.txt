@@ -206,7 +206,7 @@ GER_naval_mine_sweeper_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_1
 			modules = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = mdg_ship_light_cannon_1
@@ -317,7 +317,7 @@ GER_naval_mine_layer_corvette = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_corvette
+			type = mdg_ship_hull_corvette_3
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				fixed_ship_engine_slot = light_ship_engine_1
