@@ -331,7 +331,7 @@ USA_dominance_fleet_17_mixed = { # Recon: corvette, Dominance: frigate
 }
 
 
-USA_escort_fleet_1_frigate = {
+USA_escort_fleet_1_frigate_1 = {
 	required_taskforces = {
 		USA_ConvoyEscort_1_frigate = 6
 	}
@@ -340,18 +340,73 @@ USA_escort_fleet_1_frigate = {
 	}
 }
 
-USA_minelaying_fleet_4_frigate = {
+USA_escort_fleet_1_frigate_2 = {
+	required_taskforces = {
+		USA_ConvoyEscort_1 = 6
+	}
 	optional_taskforces = {
-		USA_MineLaying_1_frigate = 1
+		USA_ConvoyEscort_1_frigate = 4
 	}
 }
 
-USA_escort_fleet_1_corvette = {
+USA_escort_fleet_1_frigate_3 = {
+	required_taskforces = {
+		USA_ConvoyEscort_1_frigate = 6
+	}
+	optional_taskforces = {
+		USA_ConvoyEscort_1 = 4
+	}
+}
+
+USA_escort_fleet_1_corvette_1 = {
 	required_taskforces = {
 		USA_ConvoyEscort_1_corvette = 6
 	}
 	optional_taskforces = {
 		USA_ConvoyEscort_1_corvette = 4
+	}
+}
+
+USA_escort_fleet_1_corvette_2 = {
+	required_taskforces = {
+		USA_ConvoyEscort_1 = 6
+	}
+	optional_taskforces = {
+		USA_ConvoyEscort_1_corvette = 4
+	}
+}
+
+USA_escort_fleet_1_corvette_3 = {
+	required_taskforces = {
+		USA_ConvoyEscort_1_corvette = 6
+	}
+	optional_taskforces = {
+		USA_ConvoyEscort_1 = 4
+	}
+}
+
+USA_escort_fleet_1_mixed_1 = {
+	required_taskforces = {
+		USA_ConvoyEscort_1_corvette = 6
+	}
+	optional_taskforces = {
+		USA_ConvoyEscort_1_frigate = 4
+	}
+}
+
+USA_escort_fleet_1_mixed_2 = {
+	required_taskforces = {
+        USA_ConvoyEscort_1_frigate = 6
+	}
+	optional_taskforces = {
+		USA_ConvoyEscort_1_corvette = 4
+	}
+}
+
+
+USA_minelaying_fleet_4_frigate = {
+	optional_taskforces = {
+		USA_MineLaying_1_frigate = 1
 	}
 }
 

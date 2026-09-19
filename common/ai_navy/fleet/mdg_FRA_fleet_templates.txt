@@ -161,7 +161,7 @@ FRA_dominance_fleet_5_mixed = { # Strike: frigate, Recon: base, Dominance: corve
 
 
 
-FRA_escort_fleet_3_frigate = {
+FRA_escort_fleet_3_frigate_1 = {
 	required_taskforces = {
 		FRA_ConvoyEscort_1_frigate = 2
 	}
@@ -169,25 +169,74 @@ FRA_escort_fleet_3_frigate = {
 		FRA_ConvoyEscort_1_frigate = 2
 	}
 }
+
+FRA_escort_fleet_3_frigate_2 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1 = 2
+	}
+}
+
+FRA_escort_fleet_3_frigate_3 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1_frigate = 2
+	}
+}
+
+FRA_escort_fleet_3_corvette_1 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1_corvette = 2
+	}
+}
+
+FRA_escort_fleet_3_corvette_2 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1_corvette = 2
+	}
+}
+
+FRA_escort_fleet_3_corvette_3 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1 = 2
+	}
+}
+
+FRA_escort_fleet_3_mixed_1 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1_corvette = 2
+	}
+}
+
+FRA_escort_fleet_3_mixed_2 = {
+	required_taskforces = {
+		FRA_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		FRA_ConvoyEscort_1_frigate = 2
+	}
+}
+
 
 FRA_minelaying_fleet_4_frigate = {
 	optional_taskforces = {
 		FRA_MineLaying_1_frigate = 1
-	}
-}
-
-
-
-
-
-
-
-FRA_escort_fleet_3_corvette = {
-	required_taskforces = {
-		FRA_ConvoyEscort_1_corvette = 2
-	}
-	optional_taskforces = {
-		FRA_ConvoyEscort_1_corvette = 2
 	}
 }
 

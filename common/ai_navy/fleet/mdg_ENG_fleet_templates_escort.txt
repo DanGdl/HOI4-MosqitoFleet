@@ -1,4 +1,4 @@
-ENG_escort_fleet_3_frigate = {
+ENG_escort_fleet_3_frigate_1 = {
 	required_taskforces = {
 		ENG_ConvoyEscort_1_frigate = 6
 	}
@@ -7,9 +7,63 @@ ENG_escort_fleet_3_frigate = {
 	}
 }
 
-ENG_escort_fleet_3_corvette = {
+ENG_escort_fleet_3_frigate_2 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_1 = 6
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_1_frigate = 4
+	}
+}
+
+ENG_escort_fleet_3_frigate_3 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_1_frigate = 6
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_1 = 4
+	}
+}
+
+ENG_escort_fleet_3_corvette_1 = {
 	required_taskforces = {
 		ENG_ConvoyEscort_1_corvette = 6
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_1_corvette = 4
+	}
+}
+
+ENG_escort_fleet_3_corvette_2 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_1 = 6
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_1_corvette = 4
+	}
+}
+
+ENG_escort_fleet_3_corvette_3 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_1_corvette = 6
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_1 = 4
+	}
+}
+
+ENG_escort_fleet_3_mixed_1 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_1_corvette = 6
+	}
+	optional_taskforces = {
+		ENG_ConvoyEscort_1_frigate = 4
+	}
+}
+
+ENG_escort_fleet_3_mixed_2 = {
+	required_taskforces = {
+		ENG_ConvoyEscort_1_frigate = 6
 	}
 	optional_taskforces = {
 		ENG_ConvoyEscort_1_corvette = 4

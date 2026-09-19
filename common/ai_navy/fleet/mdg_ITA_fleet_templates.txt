@@ -377,15 +377,16 @@ ITA_escort_fleet_3_frigate = {
 	}
 }
 
-ITA_minelaying_fleet_4_frigate = {
-	optional_taskforces = {
-		ITA_MineLaying_1_frigate = 1
-	}
-}
-
 ITA_escort_fleet_3_corvette = {
 	optional_taskforces = {
 		ITA_ConvoyEscort_1_corvette = 4
+	}
+}
+
+
+ITA_minelaying_fleet_4_frigate = {
+	optional_taskforces = {
+		ITA_MineLaying_1_frigate = 1
 	}
 }
 

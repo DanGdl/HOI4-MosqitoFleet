@@ -214,7 +214,7 @@ SOV_dominance_fleet_7_mixed = { # Recon: corvette, Dominance: frigate
 
 
 
-SOV_escort_fleet_3_frigate = {
+SOV_escort_fleet_3_frigate_1 = {
 	required_taskforces = {
 		SOV_ConvoyEscort_1_frigate = 2
 	}
@@ -222,21 +222,74 @@ SOV_escort_fleet_3_frigate = {
 		SOV_ConvoyEscort_1_frigate = 2
 	}
 }
+
+SOV_escort_fleet_3_frigate_2 = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1 = 2
+	}
+}
+
+SOV_escort_fleet_3_frigate_3 = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_frigate = 2
+	}
+}
+
+SOV_escort_fleet_3_corvette_1 = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+}
+
+SOV_escort_fleet_3_corvette_2 = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+}
+
+SOV_escort_fleet_3_corvette_3 = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1 = 2
+	}
+}
+
+SOV_escort_fleet_3_mixed_1 = {
+	required_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_frigate = 2
+	}
+}
+
+SOV_escort_fleet_3_mixed_2 = {
+	required_taskforces = {
+        SOV_ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		SOV_ConvoyEscort_1_corvette = 2
+	}
+}
+
 
 SOV_minelaying_fleet_4_frigate = {
 	optional_taskforces = {
 		SOV_MineLaying_1_frigate = 1
-	}
-}
-
-
-
-SOV_escort_fleet_3_corvette = {
-	required_taskforces = {
-		SOV_ConvoyEscort_1_corvette = 2
-	}
-	optional_taskforces = {
-		SOV_ConvoyEscort_1_corvette = 2
 	}
 }
 

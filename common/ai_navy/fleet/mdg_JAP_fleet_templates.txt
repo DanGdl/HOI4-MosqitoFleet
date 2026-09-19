@@ -671,18 +671,74 @@ JAP_escort_fleet_3_frigate = {
 	}
 }
 
-JAP_minelaying_fleet_4_frigate = {
+JAP_escort_fleet_3_frigate_2 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 4
+	}
 	optional_taskforces = {
-		JAP_MineLaying_1_frigate = 1
+		JAP_ConvoyEscort_1 = 2
 	}
 }
 
-JAP_escort_fleet_3_corvette = {
+JAP_escort_fleet_3_frigate_3 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1 = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 2
+	}
+}
+
+JAP_escort_fleet_3_corvette_1 = {
 	required_taskforces = {
 		JAP_ConvoyEscort_1_corvette = 4
 	}
 	optional_taskforces = {
 		JAP_ConvoyEscort_1_corvette = 2
+	}
+}
+
+JAP_escort_fleet_3_corvette_2 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1 = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 2
+	}
+}
+
+JAP_escort_fleet_3_corvette_3 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1 = 2
+	}
+}
+
+JAP_escort_fleet_3_mixed_1 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 2
+	}
+}
+
+JAP_escort_fleet_3_mixed_2 = {
+	required_taskforces = {
+        JAP_ConvoyEscort_1_frigate = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 2
+	}
+}
+
+
+
+JAP_minelaying_fleet_4_frigate = {
+	optional_taskforces = {
+		JAP_MineLaying_1_frigate = 1
 	}
 }
 

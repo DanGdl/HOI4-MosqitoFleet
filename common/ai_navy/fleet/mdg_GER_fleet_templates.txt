@@ -161,7 +161,7 @@ GER_dominance_fleet_5_mixed = { # Strike: frigate, Recon: base, Dominance: corve
 
 
 
-GER_escort_fleet_3_frigate = {
+GER_escort_fleet_3_frigate_1 = {
 	required_taskforces = {
 		GER_ConvoyEscort_1_frigate = 1
 	}
@@ -169,19 +169,74 @@ GER_escort_fleet_3_frigate = {
 		GER_ConvoyEscort_1_frigate = 1
 	}
 }
+
+GER_escort_fleet_3_frigate_2 = {
+	required_taskforces = {
+		GER_ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_ = 1
+	}
+}
+
+GER_escort_fleet_3_frigate_3 = {
+	required_taskforces = {
+		GER_ConvoyEscort_1 = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_1_frigate = 1
+	}
+}
+
+GER_escort_fleet_3_corvette_1 = {
+	required_taskforces = {
+		GER_ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_1_corvette = 1
+	}
+}
+
+GER_escort_fleet_3_corvette_2 = {
+	required_taskforces = {
+		GER_ConvoyEscort_1 = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_1_corvette = 1
+	}
+}
+
+GER_escort_fleet_3_corvette_3 = {
+	required_taskforces = {
+		GER_ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_1 = 1
+	}
+}
+
+GER_escort_fleet_1_mixed_1 = {
+	required_taskforces = {
+		GER_ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_1_frigate = 1
+	}
+}
+
+GER_escort_fleet_1_mixed_2 = {
+	required_taskforces = {
+        GER_ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		GER_ConvoyEscort_1_corvette = 1
+	}
+}
+
 
 GER_minelaying_fleet_4_frigate = {
 	optional_taskforces = {
 		GER_MineLaying_1_frigate = 1
-	}
-}
-
-GER_escort_fleet_3_corvette = {
-	required_taskforces = {
-		GER_ConvoyEscort_1_corvette = 1
-	}
-	optional_taskforces = {
-		GER_ConvoyEscort_1_corvette = 1
 	}
 }
 
