@@ -116,7 +116,7 @@ leader_traits = {
 		gui_column = 2
 	}
 
- 	destroyer_leader = {
+	destroyer_leader = {
 		type = navy
 		sub_unit_modifiers = {
 			# exist in original game
@@ -187,6 +187,7 @@ leader_traits = {
 
 		allowed_ship_equipments = {
 			mdg_ship_hull_fac
+			mdg_ship_hull_hydrofoil
 		}
 
 		trait_xp_factor	= {
@@ -210,6 +211,199 @@ leader_traits = {
 			}
 			modifier = {
 				FROM = {
+					has_dlc = "Thunder at Our Gates"
+				}
+				factor = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mdg_corvette_officer = {
+		type = navy
+		trait_type = personality_trait
+
+		country_trigger = {
+			NOT = {
+				OR = {
+					has_idea = best_of_the_best_naval_academy_spirit
+					has_idea = naval_academy_scholarships_spirit
+					has_idea = SOV_purged_junior_navy_officers_3 
+				}
+			}
+		}
+
+		allowed_ship_equipments = {
+			mdg_ship_hull_corvette
+		}
+
+		trait_xp_factor	= {
+			blockade_runner = 0.5
+			fleet_protector = 0.5
+		}
+		new_commander_weight = {
+			factor = 1  
+			modifier = {
+				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
+				factor = 0
+			}
+			modifier = {
+				FROM = { has_idea = naval_academy_scholarships_spirit }
+				factor = 0
+			}
+			modifier = { #Purged Junior Navy Officers
+				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
+				factor = 0
+			}
+			modifier = {
+				FROM = { 
+					has_dlc = "Thunder at Our Gates"
+				}
+				factor = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mdg_frigate_officer = {
+		type = navy
+		trait_type = personality_trait
+
+		country_trigger = {
+			NOT = {
+				OR = {
+					has_idea = best_of_the_best_naval_academy_spirit
+					has_idea = naval_academy_scholarships_spirit
+					has_idea = SOV_purged_junior_navy_officers_3 
+				}
+			}
+		}
+
+		allowed_ship_equipments = {
+			mdg_ship_hull_frigate
+		}
+
+		trait_xp_factor	= {
+			blockade_runner = 0.5
+			fleet_protector = 0.5
+		}
+		new_commander_weight = {
+			factor = 1  
+			modifier = {
+				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
+				factor = 0
+			}
+			modifier = {
+				FROM = { has_idea = naval_academy_scholarships_spirit }
+				factor = 0
+			}
+			modifier = { #Purged Junior Navy Officers
+				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
+				factor = 0
+			}
+			modifier = {
+				FROM = { 
+					has_dlc = "Thunder at Our Gates"
+				}
+				factor = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mdg_aux_officer = {
+		type = navy
+		trait_type = personality_trait
+
+		country_trigger = {
+			NOT = {
+				OR = {
+					has_idea = best_of_the_best_naval_academy_spirit
+					has_idea = naval_academy_scholarships_spirit
+					has_idea = SOV_purged_junior_navy_officers_3 
+				}
+			}
+		}
+
+		allowed_ship_equipments = {
+			mdg_ship_hull_auxiliary
+		}
+
+		trait_xp_factor	= {
+			superior_tactician = 0.5
+			fleet_protector = 0.5
+		}
+		new_commander_weight = {
+			factor = 1  
+			modifier = {
+				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
+				factor = 0
+			}
+			modifier = {
+				FROM = { has_idea = naval_academy_scholarships_spirit }
+				factor = 0
+			}
+			modifier = { #Purged Junior Navy Officers
+				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
+				factor = 0
+			}
+			modifier = {
+				FROM = { 
+					has_dlc = "Thunder at Our Gates"
+				}
+				factor = 0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	mdg_mac_officer = {
+		type = navy
+		trait_type = personality_trait
+
+		country_trigger = {
+			NOT = {
+				OR = {
+					has_idea = best_of_the_best_naval_academy_spirit
+					has_idea = naval_academy_scholarships_spirit
+					has_idea = SOV_purged_junior_navy_officers_3 
+				}
+			}
+		}
+
+		allowed_ship_equipments = {
+			mdg_ship_hull_mac
+		}
+
+		trait_xp_factor	= {
+			air_controller = 0.5
+			spotter = 0.5
+		}
+		new_commander_weight = {
+			factor = 1  
+			modifier = {
+				FROM = { has_idea = best_of_the_best_naval_academy_spirit }
+				factor = 0
+			}
+			modifier = {
+				FROM = { has_idea = naval_academy_scholarships_spirit }
+				factor = 0
+			}
+			modifier = { #Purged Junior Navy Officers
+				FROM = { has_idea = SOV_purged_junior_navy_officers_3 }
+				factor = 0
+			}
+			modifier = {
+				FROM = { 
 					has_dlc = "Thunder at Our Gates"
 				}
 				factor = 0

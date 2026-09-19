@@ -176,9 +176,11 @@
 
  mdg_ship_hull_hydrofoil: "수중익정"
  mdg_ship_hull_hydrofoil_1: "수중익정"
+ mdg_ship_hull_hydrofoil_1_desc: "수중익정 설명"
 
  mdg_ship_hull_auxiliary: "보조 순양함"
  mdg_ship_hull_auxiliary_1: "보조 순양함"
+ mdg_ship_hull_auxiliary_1_desc: "보조 순양함 설명"
 
  mdg_ship_hull_mac: "보조 항공모함"
  mdg_ship_hull_mac_1: "보조 항공모함"

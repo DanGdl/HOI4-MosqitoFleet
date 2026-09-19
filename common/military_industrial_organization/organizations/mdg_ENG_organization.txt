@@ -20,12 +20,12 @@ ENG_vosper_organization = {
 		}
 
 		# IF = {
-		# 	custom_trigger_tooltip = {
-		# 		tooltip = has_invited_mio_tt
-		# 		FROM = {
-		# 			has_country_flag = has_invited_crda_mio_flag
-		# 		}
-		# 	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = has_invited_mio_tt
+		#		FROM = {
+		#			has_country_flag = has_invited_crda_mio_flag
+		#		}
+		#	}
 		# }
 	}
 

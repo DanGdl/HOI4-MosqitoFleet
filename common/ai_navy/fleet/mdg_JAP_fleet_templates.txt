@@ -1,0 +1,749 @@
+JAP_dominance_fleet_1_frigate = {
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_2_frigate = { # Strike: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_3_frigate = { # Recon: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_4_frigate = { # NavalInvasion: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_5_frigate = { # Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_6_frigate = { # KidoButai: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_7_frigate = { # KidoButai: base, Strike: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_8_frigate = { # KidoButai: base, Recon: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_9_frigate = { # KidoButai: base, NavalInvasion: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_10_frigate = { # KidoButai: base, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+
+JAP_dominance_fleet_1_corvette = { # Recon: corvette, Dominance: corvette (KidoButai/Strike/NavalInvasion have no corvette variant)
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_2_corvette = { # Recon: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_3_corvette = { # Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+
+# Mixed corvette/frigate combinations (contains at least one _frigate and one _corvette taskforce)
+
+# KidoButai: frigate, Strike: frigate, NavalInvasion: frigate
+JAP_dominance_fleet_1_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_2_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_3_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_4_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_5_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: frigate, Strike: frigate, NavalInvasion: base
+JAP_dominance_fleet_6_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_7_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_8_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_9_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_10_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: frigate, Strike: base, NavalInvasion: frigate
+JAP_dominance_fleet_11_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_12_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_13_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_14_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_15_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: frigate, Strike: base, NavalInvasion: base
+JAP_dominance_fleet_16_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_17_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_18_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_19_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_20_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: base, Strike: frigate, NavalInvasion: frigate
+JAP_dominance_fleet_21_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_22_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_23_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_24_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_25_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: base, Strike: frigate, NavalInvasion: base
+JAP_dominance_fleet_26_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_27_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_28_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_29_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_30_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1_frigate = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: base, Strike: base, NavalInvasion: frigate
+JAP_dominance_fleet_31_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_32_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+JAP_dominance_fleet_33_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_34_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1 = 1
+	}
+}
+
+JAP_dominance_fleet_35_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1 = 6
+		JAP_NavalInvasionSupport_1_frigate = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+# KidoButai: base, Strike: base, NavalInvasion: base (only F+C crossing between Recon and Dominance themselves)
+JAP_dominance_fleet_36_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+		JAP_PatrolReconForce_1_frigate = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_corvette = 1
+	}
+}
+
+JAP_dominance_fleet_37_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		JAP_KidoButai_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+		JAP_PatrolReconForce_1_corvette = 6
+		JAP_NavalInvasionSupport_1 = 1
+	}
+	optional_taskforces = {
+		JAP_StrikeForce_1 = 1
+		JAP_PatrolDominanceForce_1_frigate = 1
+	}
+}
+
+
+
+JAP_escort_fleet_3_frigate = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 2
+	}
+}
+
+JAP_escort_fleet_3_frigate_2 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1 = 2
+	}
+}
+
+JAP_escort_fleet_3_frigate_3 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1 = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 2
+	}
+}
+
+JAP_escort_fleet_3_corvette_1 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 2
+	}
+}
+
+JAP_escort_fleet_3_corvette_2 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1 = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 2
+	}
+}
+
+JAP_escort_fleet_3_corvette_3 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1 = 2
+	}
+}
+
+JAP_escort_fleet_3_mixed_1 = {
+	required_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_frigate = 2
+	}
+}
+
+JAP_escort_fleet_3_mixed_2 = {
+	required_taskforces = {
+        JAP_ConvoyEscort_1_frigate = 4
+	}
+	optional_taskforces = {
+		JAP_ConvoyEscort_1_corvette = 2
+	}
+}
+
+
+
+JAP_minelaying_fleet_4_frigate = {
+	optional_taskforces = {
+		JAP_MineLaying_1_frigate = 1
+	}
+}
+
+JAP_minelaying_fleet_4_corvette = {
+	optional_taskforces = {
+		JAP_MineLaying_1_corvette = 1
+	}
+}

@@ -1,42 +1,14 @@
-
-StrikeForce_1_Cor = {
+PatrolReconForce_1_corvette = {
 	allowed = {
-	}
-	ai_will_do = {
-		factor = 1
-	}
-	keep_updated = yes
-	mission = { naval_strike }
-	min_composition = {
-		light_cruiser = {
-			amount = 2
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
 		}
-	}
-	
-	optimal_composition = {
-		carrier = {
-			amount = 2
-		}
-		battleship = {
-			amount = 3
-		}
-		battle_cruiser = {
-			amount = 3
-		}
-		heavy_cruiser = {
-			amount = 3
-		}
-		light_cruiser = {
-			amount = 4
-		}
-		mdg_corvette = {
-			amount = 16
-		}
-	}
-}
-
-PatrolReconForce_1_Cor = {
-	allowed = {
 	}
 	ai_will_do = {
 		factor = 5
@@ -60,8 +32,17 @@ PatrolReconForce_1_Cor = {
 	}
 }
 
-PatrolDominanceForce_CA_1_Cor = {
+PatrolDominanceForce_CA_1_corvette = {
 	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}
 	}
 	ai_will_do = {
 		factor = 5
@@ -83,8 +64,17 @@ PatrolDominanceForce_CA_1_Cor = {
 	}
 }
 
-PatrolDominanceForce_BC_1_Cor = {
+PatrolDominanceForce_BC_1_corvette = {
 	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}
 	}
 	ai_will_do = {
 		factor = 5
@@ -106,8 +96,17 @@ PatrolDominanceForce_BC_1_Cor = {
 	}
 }
 
-ConvoyEscort_1_Cor = {
+ConvoyEscort_1_corvette = {
 	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}
 	}
 	ai_will_do = {
 		factor = 5
@@ -131,8 +130,53 @@ ConvoyEscort_1_Cor = {
 	}
 }
 
-MineLaying_1_Cor = {
+MineLaying_1_corvette = {
 	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_corvette = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_corvette = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 2
+			role = 4
+		}
+	}
+}
+
+MineLaying_2_corvette = {
+	allowed = {
+		NOT = {
+			original_tag = JAP
+			original_tag = ENG
+			original_tag = SOV
+			original_tag = USA
+			original_tag = ITA
+			original_tag = GER
+			original_tag = FRA
+		}
 	}
 	ai_will_do = {
 		factor = 1

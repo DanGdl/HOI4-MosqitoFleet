@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "金属製船体"
  generic_mio_trait_combined_materials_hulls: "複合材船体"
  generic_mio_trait_sneak_engines: "電動スニークモーター"
+ mio_cat_eq_all_mdg_frigate: "全てのフリゲート"
+ mio_cat_eq_all_mdg_corvette: "全てのコルベット"
+ mio_cat_eq_all_mdg_fac: "全ての高速攻撃艇"

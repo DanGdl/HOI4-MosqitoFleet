@@ -9,7 +9,7 @@ PatrolReconForce_1_AuxCr = {
 		mdg_auxiliary = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_auxiliary = {
 			amount = 3
@@ -49,12 +49,14 @@ MineLaying_1_AuxCr = {
 	min_composition = {
 		mdg_auxiliary = {
 			amount = 1
+			role = 4
 		}
 	}
 
 	optimal_composition = {
 		mdg_auxiliary = {
 			amount = 2
+			role = 4
 		}
 	}
 }

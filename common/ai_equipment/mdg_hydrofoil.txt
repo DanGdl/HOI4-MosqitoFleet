@@ -14,7 +14,7 @@ mdg_hydrofoils = {
 	}
 
 	priority = {
-		factor = 2500
+		factor = 2000 # special project, low priority
 		modifier = {
 			factor = 2
 			is_major = no
@@ -32,7 +32,7 @@ mdg_hydrofoils = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_hydrofoil
+			type = mdg_ship_hull_hydrofoil_1
 			modules = {
 				fixed_ship_battery_slot = {
 					any_of = { mdg_ship_light_guns mdg_ship_light_cannon mdg_ship_light_cannon_dp }
@@ -109,7 +109,7 @@ naval_mine_layer_hydrofoil = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_hydrofoil
+			type = mdg_ship_hull_hydrofoil_1
 			modules = {
 				rear_1_custom_slot = ship_mine_layer_1
 				mid_1_custom_slot = ship_mine_layer_1

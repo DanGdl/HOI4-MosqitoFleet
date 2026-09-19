@@ -2,6 +2,26 @@
 
 # fac
 animation = {
+	name = "generic_mdg_fac_death_animation"
+	file = "generic_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "generic_mdg_fac_attack_animation"
+	file = "generic_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "generic_mdg_fac_defend_animation"
+	file = "generic_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "generic_mdg_fac_idle_animation"
+	file = "generic_mdg_fac_idle.anim"
+}
+
+animation = {
 	name = "eng_mdg_fac_death_animation"
 	file = "eng_mdg_fac_death.anim"
 }
@@ -19,6 +39,126 @@ animation = {
 animation = {
 	name = "eng_mdg_fac_idle_animation"
 	file = "eng_mdg_fac_idle.anim"
+}
+
+animation = {
+	name = "fra_mdg_fac_death_animation"
+	file = "fra_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "fra_mdg_fac_attack_animation"
+	file = "fra_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "fra_mdg_fac_defend_animation"
+	file = "fra_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "fra_mdg_fac_idle_animation"
+	file = "fra_mdg_fac_idle.anim"
+}
+
+animation = {
+	name = "ger_mdg_fac_death_animation"
+	file = "ger_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "ger_mdg_fac_attack_animation"
+	file = "ger_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "ger_mdg_fac_defend_animation"
+	file = "ger_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "ger_mdg_fac_idle_animation"
+	file = "ger_mdg_fac_idle.anim"
+}
+
+animation = {
+	name = "ita_mdg_fac_death_animation"
+	file = "ita_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "ita_mdg_fac_attack_animation"
+	file = "ita_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "ita_mdg_fac_defend_animation"
+	file = "ita_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "ita_mdg_fac_idle_animation"
+	file = "ita_mdg_fac_idle.anim"
+}
+
+animation = {
+	name = "jap_mdg_fac_death_animation"
+	file = "jap_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "jap_mdg_fac_attack_animation"
+	file = "jap_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "jap_mdg_fac_defend_animation"
+	file = "jap_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "jap_mdg_fac_idle_animation"
+	file = "jap_mdg_fac_idle.anim"
+}
+
+animation = {
+	name = "sov_mdg_fac_death_animation"
+	file = "sov_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "sov_mdg_fac_attack_animation"
+	file = "sov_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "sov_mdg_fac_defend_animation"
+	file = "sov_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "sov_mdg_fac_idle_animation"
+	file = "sov_mdg_fac_idle.anim"
+}
+
+animation = {
+	name = "usa_mdg_fac_death_animation"
+	file = "usa_mdg_fac_death.anim"
+}
+
+animation = {
+	name = "usa_mdg_fac_attack_animation"
+	file = "usa_mdg_fac_attack.anim"
+}
+
+animation = {
+	name = "usa_mdg_fac_defend_animation"
+	file = "usa_mdg_fac_defend.anim"
+}
+
+animation = {
+	name = "usa_mdg_fac_idle_animation"
+	file = "usa_mdg_fac_idle.anim"
 }
 
 # HYDROFOIL

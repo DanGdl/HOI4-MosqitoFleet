@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "Cascos de metal"
  generic_mio_trait_combined_materials_hulls: "Cascos de materiais combinados"
  generic_mio_trait_sneak_engines: "Motores elétricos furtivos"
+ mio_cat_eq_all_mdg_frigate: "Todas as fragatas"
+ mio_cat_eq_all_mdg_corvette: "Todas as corvetas"
+ mio_cat_eq_all_mdg_fac: "Todas as embarcações de ataque rápido"

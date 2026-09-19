@@ -1,6 +1,6 @@
 # AI Ship Designs for naval majors (second line)
 
-ITA_naval_escort_carrier = {
+naval_escort_carrier_mac_1 = {
 
 	category = naval
 
@@ -35,7 +35,7 @@ ITA_naval_escort_carrier = {
 		target_variant = {
 			match_value = 1000.0
 
-			type = mdg_ship_hull_mac
+			type = mdg_ship_hull_mac_1
 			modules = {
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_deck_slot_1 = ship_escort_deck_space

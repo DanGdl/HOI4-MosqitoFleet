@@ -1,0 +1,403 @@
+# Battle fleet
+mdg_generic_dominance_fleet_1_mixed_1 = { # Strike: destroyer, Recon: destroyer, CA: frigate, BC: corvette
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_2 = { # Strike: destroyer, Recon: destroyer, CA: corvette, BC: frigate
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_3 = { # Strike: destroyer, Recon: frigate, CA: destroyer, BC: corvette
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_4 = { # Strike: destroyer, Recon: frigate, CA: frigate, BC: corvette
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_5 = { # Strike: destroyer, Recon: frigate, CA: corvette, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_6 = { # Strike: destroyer, Recon: frigate, CA: corvette, BC: frigate
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_7 = { # Strike: destroyer, Recon: frigate, CA: corvette, BC: corvette
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_8 = { # Strike: destroyer, Recon: corvette, CA: destroyer, BC: frigate
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_9 = { # Strike: destroyer, Recon: corvette, CA: frigate, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_10 = { # Strike: destroyer, Recon: corvette, CA: frigate, BC: frigate
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_11 = { # Strike: destroyer, Recon: corvette, CA: frigate, BC: corvette
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_12 = { # Strike: destroyer, Recon: corvette, CA: corvette, BC: frigate
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_13 = { # Strike: frigate, Recon: destroyer, CA: destroyer, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_14 = { # Strike: frigate, Recon: destroyer, CA: frigate, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_15 = { # Strike: frigate, Recon: destroyer, CA: corvette, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_16 = { # Strike: frigate, Recon: destroyer, CA: corvette, BC: frigate
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_17 = { # Strike: frigate, Recon: destroyer, CA: corvette, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_18 = { # Strike: frigate, Recon: frigate, CA: destroyer, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_19 = { # Strike: frigate, Recon: frigate, CA: frigate, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_20 = { # Strike: frigate, Recon: frigate, CA: corvette, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_21 = { # Strike: frigate, Recon: frigate, CA: corvette, BC: frigate
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_22 = { # Strike: frigate, Recon: frigate, CA: corvette, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_frigate = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_23 = { # Strike: frigate, Recon: corvette, CA: destroyer, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_24 = { # Strike: frigate, Recon: corvette, CA: destroyer, BC: frigate
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_25 = { # Strike: frigate, Recon: corvette, CA: destroyer, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_26 = { # Strike: frigate, Recon: corvette, CA: frigate, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_27 = { # Strike: frigate, Recon: corvette, CA: frigate, BC: frigate
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_28 = { # Strike: frigate, Recon: corvette, CA: frigate, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_frigate = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_29 = { # Strike: frigate, Recon: corvette, CA: corvette, BC: destroyer
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1 = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_30 = { # Strike: frigate, Recon: corvette, CA: corvette, BC: frigate
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_frigate = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_mixed_31 = { # Strike: frigate, Recon: corvette, CA: corvette, BC: corvette
+	required_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1_frigate = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}

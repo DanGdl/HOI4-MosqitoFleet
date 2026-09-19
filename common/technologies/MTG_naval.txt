@@ -2787,7 +2787,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 16 }
+			position = { x = 0 y = 15 }
 		}
 
 		categories = {

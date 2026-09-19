@@ -18,28 +18,29 @@ PatrolReconForce_1_FAC = {
 	}
 }
 
-PatrolDominanceForce_CA_1_FAC = {
-	allowed = {
-	}
-	ai_will_do = {
-		factor = 5
-	}
-	mission = { naval_patrol }
-	min_composition = {
-		mdg_fac = {
-			amount = 4
-		}
-	}
+# not used in mod
+# PatrolDominanceForce_CA_1_FAC = {
+#	allowed = {
+#	}
+#	ai_will_do = {
+#		factor = 5
+#	}
+#	mission = { naval_patrol }
+#	min_composition = {
+#		mdg_fac = {
+#			amount = 4
+#		}
+#	}
 
-	optimal_composition = {
-		heavy_cruiser = {
-			amount = 2
-		}
-		mdg_fac = {
-			amount = 12
-		}
-	}
-}
+#	optimal_composition = {
+#		heavy_cruiser = {
+#			amount = 2
+#		}
+#		mdg_fac = {
+#			amount = 12
+#		}
+#	}
+# }
 
 ConvoySurfaceRaiding_1_FAC = {
 	allowed = {

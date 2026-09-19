@@ -1,0 +1,172 @@
+# Escort
+mdg_generic_escort_fleet_3_MAC_destroyer = {
+	required_taskforces = {
+		ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+		PatrolReconForce_1_MAC = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_frigate = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_frigate = 1
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_corvette = {
+	required_taskforces = {
+		ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+
+# Escort (mixed)
+mdg_generic_escort_fleet_3_MAC_mixed_1 = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_mixed_2 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_mixed_3 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_mixed_4 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_MAC_mixed_5 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+}
+
+
+# Patrol
+mdg_generic_patrol_fleet_2_MAC_destroyer = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_frigate = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_corvette = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+
+
+mdg_generic_patrol_fleet_2_MAC_mixed_1 = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_mixed_2 = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_mixed_3 = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_mixed_4 = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_frigate = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_mixed_5 = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_MAC_mixed_6 = {
+	required_taskforces = {
+		PatrolReconForce_1_MAC_corvette = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_MAC = 1
+	}
+}

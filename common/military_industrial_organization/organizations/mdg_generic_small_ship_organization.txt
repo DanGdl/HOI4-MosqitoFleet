@@ -13,7 +13,7 @@ generic_small_ship_organization = {
 		# mdg_ship_hull_corvette
 	}
 	research_categories = {
-		mio_cat_eq_all_mdg_fac_and_modules
+		mio_cat_tech_all_mdg_fac_and_modules
 	}
 
 	tree_header_text = {

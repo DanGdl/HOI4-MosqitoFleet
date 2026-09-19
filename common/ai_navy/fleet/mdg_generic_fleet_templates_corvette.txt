@@ -1,59 +1,85 @@
 # Escort
-mdg_generic_escort_fleet_3_Cor = {
+mdg_generic_escort_fleet_3_corvette = {
 	required_taskforces = {
-		ConvoyEscort_1_Cor = 2
+		ConvoyEscort_1_corvette = 2
 	}
 	optional_taskforces = {
-		ConvoyEscort_1_Cor = 1
-	}
-}
-
-mdg_generic_escort_fleet_3_MAC_Cor = {
-	required_taskforces = {
-		ConvoyEscort_1_Cor = 1
-	}
-	optional_taskforces = {
-		ConvoyEscort_1_Cor = 1
-		PatrolReconForce_1_MAC_Cor = 1
-	}
-}
-
-# Patrol
-mdg_generic_patrol_fleet_2_Cor = {
-	required_taskforces = {
-		PatrolReconForce_1_Cor = 2
-	}
-	optional_taskforces = {
-		PatrolReconForce_1_Cor = 1
-	}
-}
-
-mdg_generic_patrol_fleet_2_MAC_Cor = {
-	required_taskforces = {
-		PatrolReconForce_1_MAC_Cor = 1
-	}
-	optional_taskforces = {
-		PatrolReconForce_1_MAC_Cor = 1
+		ConvoyEscort_1_corvette = 1
 	}
 }
 
 # Minelaying
-mdg_generic_minelaying_fleet_4_Cor = {
+mdg_generic_minelaying_fleet_4_corvette = {
 	optional_taskforces = {
-		MineLaying_1_Cor = 1
+		MineLaying_1_corvette = 1
+	}
+}
+
+mdg_generic_minelaying_fleet_5_corvette = {
+	optional_taskforces = {
+		MineLaying_2_corvette = 1
+	}
+}
+
+# Patrol
+mdg_generic_patrol_fleet_2_corvette = {
+	required_taskforces = {
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_corvette = 1
 	}
 }
 
 # Battle fleet
-mdg_generic_dominance_fleet_1_Cor = {
+mdg_generic_dominance_fleet_1_corvette_1 = {
 	required_taskforces = {
-		StrikeForce_1_Cor = 1
-		PatrolReconForce_1_Cor = 2
-	}	
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
 	optional_taskforces = {
-		StrikeForce_1_Cor = 1
-		PatrolReconForce_1_Cor = 1
-		PatrolDominanceForce_CA_1_Cor = 1
-		PatrolDominanceForce_BC_1_Cor = 1
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_corvette_2 = {
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1 = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_corvette_3 = {
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1 = 1
+		PatrolDominanceForce_BC_1_corvette = 1
+	}
+}
+
+mdg_generic_dominance_fleet_1_corvette_4 = {
+	required_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		StrikeForce_1 = 1
+		PatrolReconForce_1_corvette = 1
+		PatrolDominanceForce_CA_1_corvette = 1
+		PatrolDominanceForce_BC_1 = 1
 	}
 }

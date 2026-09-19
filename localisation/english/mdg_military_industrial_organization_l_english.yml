@@ -16,3 +16,6 @@
  generic_mio_trait_metal_hulls: "Metal hulls"
  generic_mio_trait_combined_materials_hulls: "Combined-material hulls"
  generic_mio_trait_sneak_engines: "Electric sneak motors"
+ mio_cat_eq_all_mdg_frigate: "All Frigates"
+ mio_cat_eq_all_mdg_corvette: "All Corvettes"
+ mio_cat_eq_all_mdg_fac: "All Fast Attack Craft"

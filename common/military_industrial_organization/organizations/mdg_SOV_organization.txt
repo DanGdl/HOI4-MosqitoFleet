@@ -19,12 +19,12 @@ SOV_tupolev_design_bureau_organization_fac = {
 		}
 
 		# IF = {
-		# 	custom_trigger_tooltip = {
-		# 		tooltip = has_invited_mio_tt
-		# 		FROM = {
-		# 			has_country_flag = has_invited_crda_mio_flag
-		# 		}
-		# 	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = has_invited_mio_tt
+		#		FROM = {
+		#			has_country_flag = has_invited_crda_mio_flag
+		#		}
+		#	}
 		# }
 	}
 
@@ -73,12 +73,12 @@ SOV_ccb5_organization = {
 		}
 
 		# IF = {
-		# 	custom_trigger_tooltip = {
-		# 		tooltip = has_invited_mio_tt
-		# 		FROM = {
-		# 			has_country_flag = has_invited_crda_mio_flag
-		# 		}
-		# 	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = has_invited_mio_tt
+		#		FROM = {
+		#			has_country_flag = has_invited_crda_mio_flag
+		#		}
+		#	}
 		# }
 	}
 	# Nothing special, all stuff is generic
