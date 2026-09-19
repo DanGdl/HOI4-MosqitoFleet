@@ -15,6 +15,6 @@
 			ship = { name = "NRB I-3 Itacurussa" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
 			ship = { name = "NRB I-4 Iguape" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
 			ship = { name = "NRB Muniz Freire" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }
-			ship = { name = "NRB Heitor Perdigao" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } }		}
+			ship = { name = "NRB Heitor Perdigao" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = BRA version_name = "I Class" } } } }
 	}
 }

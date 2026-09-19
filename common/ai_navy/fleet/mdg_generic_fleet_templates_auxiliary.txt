@@ -1,10 +1,10 @@
-# Escort
-mdg_generic_escort_fleet_3_AuxCr = {
+# Raiding
+mdg_raiding_fleet_auxilary_cruisers = {
 	required_taskforces = {
-		PatrolReconForce_1_AuxCr = 1
+		ConvoySurfaceRaiding_1_AuxCr = 1
 	}
 	optional_taskforces = {
-		PatrolReconForce_1_AuxCr = 1
+		ConvoySurfaceRaiding_1_AuxCr = 2
 	}
 }
 
@@ -12,6 +12,16 @@ mdg_generic_escort_fleet_3_AuxCr = {
 mdg_generic_patrol_fleet_2_AuxCr = {
 	required_taskforces = {
 		PatrolReconForce_1_AuxCr = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+}
+
+# Escort
+mdg_generic_escort_fleet_3_AuxCr = {
+	required_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
 	}
 	optional_taskforces = {
 		PatrolReconForce_1_AuxCr = 1

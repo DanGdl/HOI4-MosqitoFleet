@@ -79,7 +79,7 @@ GER_PatrolDominanceForce_1_frigate = {
 	}
 	ai_will_do = {
 		factor = 10
-	}		
+	}
 	mission = { naval_patrol }
 	min_composition = {
 		mdg_frigate = {
@@ -103,7 +103,7 @@ GER_ConvoyEscort_1_frigate = {
 	}
 	ai_will_do = {
 		factor = 5
-	}		
+	}
 	mission = { convoy_escort }
 	min_composition = {
 		mdg_frigate = {
@@ -124,7 +124,7 @@ GER_MineLaying_1_frigate = {
 	}
 	ai_will_do = {
 		factor = 1
-	}	
+	}
 	mission = { mines_planting }
 	min_composition = {
 		mdg_frigate = {

@@ -10,7 +10,7 @@ PatrolReconForce_1_Hydrofoil = {
 		mdg_hydrofoil = {
 			amount = 2
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_hydrofoil = {
 			amount = 8

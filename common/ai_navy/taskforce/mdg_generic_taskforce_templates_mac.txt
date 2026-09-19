@@ -9,7 +9,7 @@ PatrolReconForce_1_MAC = {
 		light_cruiser = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_mac = {
 			amount = 1
@@ -34,7 +34,7 @@ PatrolReconForce_1_MAC_frigate = {
 		light_cruiser = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_mac = {
 			amount = 1
@@ -59,7 +59,7 @@ PatrolReconForce_1_MAC_corvette = {
 		light_cruiser = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_mac = {
 			amount = 1

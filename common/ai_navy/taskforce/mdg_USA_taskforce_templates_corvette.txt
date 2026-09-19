@@ -10,7 +10,7 @@ USA_PatrolReconForce_1_corvette = {
 		mdg_corvette = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		heavy_cruiser = {
 			amount = 1
@@ -30,7 +30,7 @@ USA_PatrolDominanceForce_1_corvette = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { naval_patrol }
 	min_composition = {
 		mdg_corvette = {
@@ -60,7 +60,7 @@ USA_ConvoyEscort_1_corvette = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { convoy_escort }
 	min_composition = {
 		mdg_corvette = {

@@ -86,7 +86,7 @@ JAP_PatrolReconForce_1_frigate = {
 		light_cruiser = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		light_cruiser = {
 			amount = 3
@@ -133,12 +133,12 @@ JAP_NavalInvasionSupport_1_frigate = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { naval_invasion_support }
 	min_composition = {
 		battleship = {
 			amount = 1
-		}		
+		}
 	}
 
 	optimal_composition = {

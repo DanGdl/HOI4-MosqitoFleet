@@ -2,7 +2,7 @@ ENG_home_fleet_1_frigate = {
 	required_taskforces = {
 		ENG_StrikeForce_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 3
-	}	
+	}
 	optional_taskforces = {
 		ENG_StrikeForce_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 2
@@ -13,7 +13,7 @@ ENG_home_fleet_2_frigate = {
 	required_taskforces = {
 		ENG_StrikeForce_1_frigate = 1
 		ENG_PatrolReconForce_1 = 3
-	}	
+	}
 	optional_taskforces = {
 		ENG_StrikeForce_1_frigate = 1
 		ENG_PatrolReconForce_1 = 2
@@ -24,7 +24,7 @@ ENG_home_fleet_3_frigate = {
 	required_taskforces = {
 		ENG_StrikeForce_1 = 1
 		ENG_PatrolReconForce_1_frigate = 3
-	}	
+	}
 	optional_taskforces = {
 		ENG_StrikeForce_1 = 1
 		ENG_PatrolReconForce_1_frigate = 2

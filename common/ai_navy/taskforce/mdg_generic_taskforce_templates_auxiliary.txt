@@ -9,7 +9,7 @@ PatrolReconForce_1_AuxCr = {
 		mdg_auxiliary = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		mdg_auxiliary = {
 			amount = 3

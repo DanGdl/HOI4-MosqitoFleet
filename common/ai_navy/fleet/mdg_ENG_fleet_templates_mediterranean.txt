@@ -3,7 +3,7 @@ ENG_mediterranean_fleet_1_frigate = {
 		ENG_StrikeForce_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 3
 		ENG_NavalInvasionSupport_1_frigate = 1
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 2
@@ -15,7 +15,7 @@ ENG_mediterranean_fleet_2_frigate = {
 		ENG_StrikeForce_1_frigate = 2
 		ENG_PatrolReconForce_1 = 10
 		ENG_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1_frigate = 1
 		ENG_PatrolReconForce_1 = 2		
@@ -27,7 +27,7 @@ ENG_mediterranean_fleet_3_frigate = {
 		ENG_StrikeForce_1_frigate = 2
 		ENG_PatrolReconForce_1_frigate = 10
 		ENG_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1 = 1
 		ENG_PatrolReconForce_1_frigate = 2		
@@ -39,7 +39,7 @@ ENG_mediterranean_fleet_4_frigate = {
 		ENG_StrikeForce_1_frigate = 2
 		ENG_PatrolReconForce_1_frigate = 10
 		ENG_NavalInvasionSupport_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 2		
@@ -51,7 +51,7 @@ ENG_mediterranean_fleet_5_frigate = {
 		ENG_StrikeForce_1 = 2
 		ENG_PatrolReconForce_1_frigate = 10
 		ENG_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 2		
@@ -63,7 +63,7 @@ ENG_mediterranean_fleet_6_frigate = {
 		ENG_StrikeForce_1 = 2
 		ENG_PatrolReconForce_1 = 10
 		ENG_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1_frigate = 1
 		ENG_PatrolReconForce_1 = 2		
@@ -75,7 +75,7 @@ ENG_mediterranean_fleet_7_frigate = {
 		ENG_StrikeForce_1 = 2
 		ENG_PatrolReconForce_1_frigate = 10
 		ENG_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1 = 1
 		ENG_PatrolReconForce_1_frigate = 2		
@@ -87,7 +87,7 @@ ENG_mediterranean_fleet_8_frigate = {
 		ENG_StrikeForce_1 = 2
 		ENG_PatrolReconForce_1_frigate = 10
 		ENG_NavalInvasionSupport_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		ENG_PatrolDominanceForce_BC_1_frigate = 1
 		ENG_PatrolReconForce_1_frigate = 2		

@@ -20,7 +20,7 @@ GER_dominance_fleet_2_frigate = { # Strike: frigate, Dominance: base
 	optional_taskforces = {
 		GER_StrikeForce_1_frigate = 1
 		GER_PatrolReconForce_1 = 3
-        GER_PatrolDominanceForce_1 = 3
+		GER_PatrolDominanceForce_1 = 3
 	}
 }
 
@@ -33,7 +33,7 @@ GER_dominance_fleet_3_frigate = { # Strike: base, Dominance: frigate
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1
 		GER_PatrolReconForce_1 = 3
-        GER_PatrolDominanceForce_1_frigate = 3
+		GER_PatrolDominanceForce_1_frigate = 3
 	}
 }
 
@@ -46,7 +46,7 @@ GER_dominance_fleet_4_frigate = { # Strike: base, Dominance: base
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1
 		GER_PatrolReconForce_1 = 3
-        GER_PatrolDominanceForce_1 = 3
+		GER_PatrolDominanceForce_1 = 3
 	}
 }
 
@@ -60,7 +60,7 @@ GER_dominance_fleet_1_corvette = {
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1
 		GER_PatrolReconForce_1_corvette = 3
-        GER_PatrolDominanceForce_1_corvette = 3
+		GER_PatrolDominanceForce_1_corvette = 3
 	}
 }
 
@@ -73,7 +73,7 @@ GER_dominance_fleet_2_corvette = {
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1
 		GER_PatrolReconForce_1 = 3
-        GER_PatrolDominanceForce_1_corvette = 3
+		GER_PatrolDominanceForce_1_corvette = 3
 	}
 }
 
@@ -86,7 +86,7 @@ GER_dominance_fleet_3_corvette = {
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1
 		GER_PatrolReconForce_1_corvette = 3
-        GER_PatrolDominanceForce_1 = 3
+		GER_PatrolDominanceForce_1 = 3
 	}
 }
 
@@ -102,7 +102,7 @@ GER_dominance_fleet_1_mixed = { # Strike: frigate, Recon: corvette, Dominance: f
 	optional_taskforces = {
 		GER_StrikeForce_1_frigate = 1
 		GER_PatrolReconForce_1_corvette = 3
-        GER_PatrolDominanceForce_1_frigate = 3
+		GER_PatrolDominanceForce_1_frigate = 3
 	}
 }
 
@@ -115,7 +115,7 @@ GER_dominance_fleet_2_mixed = { # Strike: frigate, Recon: corvette, Dominance: c
 	optional_taskforces = {
 		GER_StrikeForce_1_frigate = 1
 		GER_PatrolReconForce_1_corvette = 3
-        GER_PatrolDominanceForce_1_corvette = 3
+		GER_PatrolDominanceForce_1_corvette = 3
 	}
 }
 
@@ -128,7 +128,7 @@ GER_dominance_fleet_3_mixed = { # Strike: frigate, Recon: corvette, Dominance: b
 	optional_taskforces = {
 		GER_StrikeForce_1_frigate = 1
 		GER_PatrolReconForce_1_corvette = 3
-        GER_PatrolDominanceForce_1 = 3
+		GER_PatrolDominanceForce_1 = 3
 	}
 }
 
@@ -141,7 +141,7 @@ GER_dominance_fleet_4_mixed = { # Strike: base, Recon: corvette, Dominance: frig
 	optional_taskforces = {
 		GER_StrikeForce_1 = 1
 		GER_PatrolReconForce_1_corvette = 3
-        GER_PatrolDominanceForce_1_frigate = 3
+		GER_PatrolDominanceForce_1_frigate = 3
 	}
 }
 
@@ -154,7 +154,7 @@ GER_dominance_fleet_5_mixed = { # Strike: frigate, Recon: base, Dominance: corve
 	optional_taskforces = {
 		GER_StrikeForce_1_frigate = 1
 		GER_PatrolReconForce_1 = 3
-        GER_PatrolDominanceForce_1_corvette = 3
+		GER_PatrolDominanceForce_1_corvette = 3
 	}
 }
 

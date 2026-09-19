@@ -8,35 +8,6 @@ mdg_generic_escort_fleet_3_corvette = {
 	}
 }
 
-mdg_generic_escort_fleet_3_MAC_corvette = {
-	required_taskforces = {
-		ConvoyEscort_1_corvette = 1
-	}
-	optional_taskforces = {
-		ConvoyEscort_1_corvette = 1
-		PatrolReconForce_1_MAC_corvette = 1
-	}
-}
-
-# Patrol
-mdg_generic_patrol_fleet_2_corvette = {
-	required_taskforces = {
-		PatrolReconForce_1_corvette = 2
-	}
-	optional_taskforces = {
-		PatrolReconForce_1_corvette = 1
-	}
-}
-
-mdg_generic_patrol_fleet_2_MAC_corvette = {
-	required_taskforces = {
-		PatrolReconForce_1_MAC_corvette = 1
-	}
-	optional_taskforces = {
-		PatrolReconForce_1_MAC_corvette = 1
-	}
-}
-
 # Minelaying
 mdg_generic_minelaying_fleet_4_corvette = {
 	optional_taskforces = {
@@ -50,12 +21,22 @@ mdg_generic_minelaying_fleet_5_corvette = {
 	}
 }
 
+# Patrol
+mdg_generic_patrol_fleet_2_corvette = {
+	required_taskforces = {
+		PatrolReconForce_1_corvette = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_corvette = 1
+	}
+}
+
 # Battle fleet
 mdg_generic_dominance_fleet_1_corvette = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
-	}	
+	}
 	optional_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 1
@@ -68,7 +49,7 @@ mdg_generic_dominance_fleet_2_corvette = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
-	}	
+	}
 	optional_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1 = 1
@@ -81,7 +62,7 @@ mdg_generic_dominance_fleet_3_corvette = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
-	}	
+	}
 	optional_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 1
@@ -94,7 +75,7 @@ mdg_generic_dominance_fleet_4_corvette = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
-	}	
+	}
 	optional_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 1

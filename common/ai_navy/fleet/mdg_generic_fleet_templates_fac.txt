@@ -1,10 +1,10 @@
-# Escort
-mdg_generic_escort_fleet_3_FAC = {
+# Raiding
+mdg_raiding_fleet_FAC = {
 	required_taskforces = {
-		ConvoyEscort_1_FAC = 2
+		ConvoySurfaceRaiding_1_FAC = 2
 	}
 	optional_taskforces = {
-		ConvoyEscort_1_FAC = 1
+		ConvoySurfaceRaiding_1_FAC = 2
 	}
 }
 
@@ -18,10 +18,19 @@ mdg_generic_patrol_fleet_FAC = {
 	}
 }
 
+# Escort
+mdg_generic_escort_fleet_3_FAC = {
+	required_taskforces = {
+		ConvoyEscort_1_FAC = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_FAC = 1
+	}
+}
+
 # Minelaying
 mdg_generic_minelaying_fleet_4_FAC = {
 	optional_taskforces = {
 		MineLaying_1_FAC = 1
 	}
 }
-

@@ -4,7 +4,7 @@ FRA_PatrolDominanceForce_1_corvette = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { naval_patrol }
 	min_composition = {
 		mdg_corvette = {
@@ -28,7 +28,7 @@ FRA_ConvoyEscort_1_corvette = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { convoy_escort }
 	min_composition = {
 		mdg_corvette = {

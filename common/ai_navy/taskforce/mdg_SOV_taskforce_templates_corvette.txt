@@ -10,7 +10,7 @@ SOV_PatrolReconForce_1_corvette = {
 		light_cruiser = {
 			amount = 1
 		}
-	}	
+	}
 	optimal_composition = {
 		light_cruiser = {
 			amount = 3
@@ -24,7 +24,7 @@ SOV_PatrolDominanceForce_1_corvette = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { naval_patrol }
 	min_composition = {
 		mdg_corvette = {

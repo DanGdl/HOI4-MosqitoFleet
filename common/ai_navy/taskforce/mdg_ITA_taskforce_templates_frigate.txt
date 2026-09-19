@@ -84,7 +84,7 @@ ITA_PatrolReconForce_1_frigate = {
 		mdg_frigate = {
 			amount = 2
 		}
-	}	
+	}
 	optimal_composition = {
 		light_cruiser = {
 			amount = 2
@@ -101,7 +101,7 @@ ITA_PatrolDominanceForce_1_frigate = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { naval_patrol }
 	min_composition = {
 		heavy_cruiser = {
@@ -134,7 +134,7 @@ ITA_ConvoyEscort_1_frigate = {
 	}
 	ai_will_do = {
 		factor = 5
-	}	
+	}
 	mission = { convoy_escort }
 	min_composition = {
 		mdg_frigate = {

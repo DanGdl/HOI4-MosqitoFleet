@@ -3,7 +3,7 @@ USA_dominance_fleet_1_frigate = {
 		USA_StrikeForce_1_frigate = 2
 		USA_PatrolReconForce_1_frigate = 10
 		USA_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1_frigate = 1
 		USA_PatrolReconForce_1_frigate = 2		
@@ -15,7 +15,7 @@ USA_dominance_fleet_2_frigate = {
 		USA_StrikeForce_1_frigate = 2
 		USA_PatrolReconForce_1 = 10
 		USA_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1_frigate = 1
 		USA_PatrolReconForce_1 = 2		
@@ -27,7 +27,7 @@ USA_dominance_fleet_3_frigate = {
 		USA_StrikeForce_1_frigate = 2
 		USA_PatrolReconForce_1_frigate = 10
 		USA_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1 = 1
 		USA_PatrolReconForce_1_frigate = 2		
@@ -39,7 +39,7 @@ USA_dominance_fleet_4_frigate = {
 		USA_StrikeForce_1_frigate = 2
 		USA_PatrolReconForce_1_frigate = 10
 		USA_NavalInvasionSupport_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1_frigate = 1
 		USA_PatrolReconForce_1_frigate = 2		
@@ -51,7 +51,7 @@ USA_dominance_fleet_5_frigate = {
 		USA_StrikeForce_1 = 2
 		USA_PatrolReconForce_1_frigate = 10
 		USA_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1_frigate = 1
 		USA_PatrolReconForce_1_frigate = 2		
@@ -63,7 +63,7 @@ USA_dominance_fleet_6_frigate = {
 		USA_StrikeForce_1 = 2
 		USA_PatrolReconForce_1 = 10
 		USA_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1_frigate = 1
 		USA_PatrolReconForce_1 = 2		
@@ -75,7 +75,7 @@ USA_dominance_fleet_7_frigate = {
 		USA_StrikeForce_1 = 2
 		USA_PatrolReconForce_1_frigate = 10
 		USA_NavalInvasionSupport_1_frigate = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1 = 1
 		USA_PatrolReconForce_1_frigate = 2		
@@ -87,7 +87,7 @@ USA_dominance_fleet_8_frigate = {
 		USA_StrikeForce_1 = 2
 		USA_PatrolReconForce_1_frigate = 10
 		USA_NavalInvasionSupport_1 = 2
-	}	
+	}
 	optional_taskforces = {
 		USA_PatrolDominanceForce_1_frigate = 1
 		USA_PatrolReconForce_1_frigate = 2		
