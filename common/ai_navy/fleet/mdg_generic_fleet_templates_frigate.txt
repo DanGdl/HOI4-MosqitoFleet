@@ -26,7 +26,7 @@ mdg_generic_patrol_fleet_2_frigate = {
 }
 
 # Battle fleet
-mdg_generic_dominance_fleet_1_frigate = {
+mdg_generic_dominance_fleet_1_frigate_1 = {
 	required_taskforces = {
 		StrikeForce_1_frigate = 1
 		PatrolReconForce_1_frigate = 2
@@ -39,7 +39,7 @@ mdg_generic_dominance_fleet_1_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_2_frigate = {
+mdg_generic_dominance_fleet_1_frigate_2 = {
 	required_taskforces = {
 		StrikeForce_1_frigate = 1
 		PatrolReconForce_1_frigate = 2
@@ -52,7 +52,7 @@ mdg_generic_dominance_fleet_2_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_3_frigate = {
+mdg_generic_dominance_fleet_1_frigate_3 = {
 	required_taskforces = {
 		StrikeForce_1_frigate = 1
 		PatrolReconForce_1_frigate = 2
@@ -65,7 +65,7 @@ mdg_generic_dominance_fleet_3_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_4_frigate = {
+mdg_generic_dominance_fleet_1_frigate_4 = {
 	required_taskforces = {
 		StrikeForce_1_frigate = 1
 		PatrolReconForce_1_frigate = 2
@@ -78,7 +78,7 @@ mdg_generic_dominance_fleet_4_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_5_frigate = {
+mdg_generic_dominance_fleet_1_frigate_5 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_frigate = 2
@@ -91,7 +91,7 @@ mdg_generic_dominance_fleet_5_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_6_frigate = {
+mdg_generic_dominance_fleet_1_frigate_6 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_frigate = 2
@@ -104,7 +104,7 @@ mdg_generic_dominance_fleet_6_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_7_frigate = {
+mdg_generic_dominance_fleet_1_frigate_7 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_frigate = 2
@@ -117,7 +117,7 @@ mdg_generic_dominance_fleet_7_frigate = {
 	}
 }
 
-mdg_generic_dominance_fleet_8_frigate = {
+mdg_generic_dominance_fleet_1_frigate_8 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_frigate = 2

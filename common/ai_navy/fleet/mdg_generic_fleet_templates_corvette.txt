@@ -32,7 +32,7 @@ mdg_generic_patrol_fleet_2_corvette = {
 }
 
 # Battle fleet
-mdg_generic_dominance_fleet_1_corvette = {
+mdg_generic_dominance_fleet_1_corvette_1 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
@@ -45,7 +45,7 @@ mdg_generic_dominance_fleet_1_corvette = {
 	}
 }
 
-mdg_generic_dominance_fleet_2_corvette = {
+mdg_generic_dominance_fleet_1_corvette_2 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
@@ -58,7 +58,7 @@ mdg_generic_dominance_fleet_2_corvette = {
 	}
 }
 
-mdg_generic_dominance_fleet_3_corvette = {
+mdg_generic_dominance_fleet_1_corvette_3 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2
@@ -71,7 +71,7 @@ mdg_generic_dominance_fleet_3_corvette = {
 	}
 }
 
-mdg_generic_dominance_fleet_4_corvette = {
+mdg_generic_dominance_fleet_1_corvette_4 = {
 	required_taskforces = {
 		StrikeForce_1 = 1
 		PatrolReconForce_1_corvette = 2

@@ -9,7 +9,7 @@ mdg_raiding_fleet_auxilary_cruisers = {
 }
 
 # Patrol
-mdg_generic_patrol_fleet_2_AuxCr = {
+mdg_generic_patrol_fleet_2_AuxCr_1 = {
 	required_taskforces = {
 		PatrolReconForce_1_AuxCr = 2
 	}
@@ -18,8 +18,48 @@ mdg_generic_patrol_fleet_2_AuxCr = {
 	}
 }
 
+mdg_generic_patrol_fleet_2_AuxCr_2 = {
+	required_taskforces = {
+		PatrolReconForce_1_AuxCr = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1 = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_AuxCr_3 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_AuxCr_4 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 1
+		PatrolReconForce_1_AuxCr = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+}
+
+mdg_generic_patrol_fleet_2_AuxCr_5 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 1
+		PatrolReconForce_1_AuxCr = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1 = 1
+	}
+}
+
+
+
 # Escort
-mdg_generic_escort_fleet_3_AuxCr = {
+mdg_generic_escort_fleet_3_AuxCr_1 = {
 	required_taskforces = {
 		PatrolReconForce_1_AuxCr = 1
 	}
@@ -27,6 +67,25 @@ mdg_generic_escort_fleet_3_AuxCr = {
 		PatrolReconForce_1_AuxCr = 1
 	}
 }
+
+mdg_generic_escort_fleet_3_AuxCr_2 = {
+	required_taskforces = {
+		PatrolReconForce_1 = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_AuxCr_3 = {
+	required_taskforces = {
+		PatrolReconForce_1_AuxCr = 1
+	}
+	optional_taskforces = {
+		PatrolReconForce_1 = 1
+	}
+}
+
 
 # Minelaying
 mdg_generic_minelaying_fleet_4_AuxCr = {

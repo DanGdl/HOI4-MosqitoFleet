@@ -1,0 +1,144 @@
+# Escort
+mdg_generic_escort_fleet_3_mixed_1 = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_2 = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_3 = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_4 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_5 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_6 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_7 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_8 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_frigate = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_9 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 1
+		ConvoyEscort_1_corvette = 1
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_10 = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_11 = {
+	required_taskforces = {
+		ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_12 = {
+	required_taskforces = {
+		ConvoyEscort_1_frigate = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_13 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_frigate = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_14 = {
+	required_taskforces = {
+		ConvoyEscort_1_corvette = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1 = 1
+	}
+}
+
+mdg_generic_escort_fleet_3_mixed_15 = {
+	required_taskforces = {
+		ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		ConvoyEscort_1_corvette = 1
+	}
+}
