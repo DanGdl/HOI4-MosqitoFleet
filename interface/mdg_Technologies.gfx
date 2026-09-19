@@ -718,10 +718,6 @@ spriteTypes = {
 	#	name = "GFX_ENG_mdg_ship_hull_frigate_5_medium"
 	#	texturefile = "gfx/interface/technologies/ENG_mdg_frigate_5.dds"
 	#}
-	#SpriteType = {
-	#	name = "GFX_ENG_mdg_ship_hull_frigate_6_medium"
-	#	texturefile = "gfx/interface/technologies/ENG_mdg_frigate_6.dds"
-	#}
 
 	# GER
 	SpriteType = {

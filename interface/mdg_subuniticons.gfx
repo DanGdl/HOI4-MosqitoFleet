@@ -52,7 +52,6 @@ spriteTypes = {
 
 	spriteType = { name = "GFX_unit_mdg_auxiliary_icon_medium"				texturefile = "gfx/interface/navalcombat/ships/mdg_auxiliary.dds"		noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_auxiliary_1_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/mdg_auxiliary_I.dds"		noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium"			texturefile = "gfx/interface/navalcombat/ships/mdg_auxiliary_I.dds"		noOfFrames = 2 }
 
 	spriteType = { name = "GFX_unit_mdg_mac_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_mac.dds"				noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mdg_mac_1_icon_medium"					texturefile = "gfx/interface/navalcombat/ships/mdg_mac_I.dds"			noOfFrames = 2 }

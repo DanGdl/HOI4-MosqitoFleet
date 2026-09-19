@@ -1,5 +1,6 @@
 spriteTypes = {
 
+	# TODO: fix icons
 	spriteType = {
 		name = "GFX_navy_icon_mdg_fac"
 		textureFile = "gfx/interface/naviesview/navy_icon_mdg_fac.dds"
