@@ -37,40 +37,40 @@ GER_StrikeForce_1_frigate = {
 
 # vanila version is not used
 # GER_StrikeForceCarrier_1_frigate = {
-# 	allowed = {
-# 		original_tag = GER
-# 	}
-# 	ai_will_do = {
-# 		factor = 1
-# 	}
-# 	keep_updated = yes
-# 	mission = { naval_strike }
-# 	min_composition = {
-# 		carrier = {
-# 			amount = 1
-# 		}
-# 		battleship = {
-# 			amount = 1
-# 		}
-# 	}
+#	allowed = {
+#		original_tag = GER
+#	}
+#	ai_will_do = {
+#		factor = 1
+#	}
+#	keep_updated = yes
+#	mission = { naval_strike }
+#	min_composition = {
+#		carrier = {
+#			amount = 1
+#		}
+#		battleship = {
+#			amount = 1
+#		}
+#	}
 
-# 	optimal_composition = {
-# 		carrier = {
-# 			amount = 2
-# 		}
-# 		battleship = {
-# 			amount = 4
-# 		}
-# 		heavy_cruiser = {
-# 			amount = 4
-# 		}
-# 		light_cruiser = {
-# 			amount = 4
-# 		}
-# 		mdg_frigate = {
-# 			amount = 28
-# 		}
-# 	}
+#	optimal_composition = {
+#		carrier = {
+#			amount = 2
+#		}
+#		battleship = {
+#			amount = 4
+#		}
+#		heavy_cruiser = {
+#			amount = 4
+#		}
+#		light_cruiser = {
+#			amount = 4
+#		}
+#		mdg_frigate = {
+#			amount = 28
+#		}
+#	}
 # }
 
 GER_PatrolDominanceForce_1_frigate = {

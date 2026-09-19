@@ -2077,7 +2077,7 @@ early_ship_hull_carrier = {
 		#}
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_midget_submarine
 			}
 		}
@@ -2112,7 +2112,7 @@ early_ship_hull_carrier = {
 		}
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_aip_engine
 			}
 		}
@@ -2148,7 +2148,7 @@ early_ship_hull_carrier = {
 	sp_aip_engine_advanced_tech = {
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_aip_engine
 			}
 		}
@@ -2187,7 +2187,7 @@ early_ship_hull_carrier = {
 		}
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_ice_carrier
 			}
 		}
@@ -2221,7 +2221,7 @@ early_ship_hull_carrier = {
 		}
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_ice_carrier
 			}
 		}

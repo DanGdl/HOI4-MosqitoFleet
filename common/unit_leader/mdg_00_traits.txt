@@ -1,6 +1,6 @@
 # leader_traits contain a list of UnitLeaderTrait with the following structure:
 # trait_key = {
-# 	type = all # or either of field_marshal, corps_commander, navy
+#	type = all # or either of field_marshal, corps_commander, navy
 #	trait_type = basic_trait # or either of status_trait, personality_trait, assignable_trait, basic_terrain_trait, assignable_terrain_trait, exile
 #	attack_skill = 0 # integer
 #	defense_skill = 0 # integer
@@ -116,7 +116,7 @@ leader_traits = {
 		gui_column = 2
 	}
 
- 	destroyer_leader = {
+	destroyer_leader = {
 		type = navy
 		sub_unit_modifiers = {
 			# exist in original game
@@ -187,7 +187,7 @@ leader_traits = {
 
 		allowed_ship_equipments = {
 			mdg_ship_hull_fac
-            mdg_ship_hull_hydrofoil
+			mdg_ship_hull_hydrofoil
 		}
 
 		trait_xp_factor	= {
@@ -221,7 +221,7 @@ leader_traits = {
 		}
 	}
 
-    mdg_corvette_officer = {
+	mdg_corvette_officer = {
 		type = navy
 		trait_type = personality_trait
 
@@ -269,7 +269,7 @@ leader_traits = {
 		}
 	}
 
-    mdg_frigate_officer = {
+	mdg_frigate_officer = {
 		type = navy
 		trait_type = personality_trait
 
@@ -317,7 +317,7 @@ leader_traits = {
 		}
 	}
 
-    mdg_aux_officer = {
+	mdg_aux_officer = {
 		type = navy
 		trait_type = personality_trait
 

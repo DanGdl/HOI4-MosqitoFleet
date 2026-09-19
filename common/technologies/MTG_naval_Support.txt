@@ -2369,7 +2369,7 @@ technologies = {
 		}
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_underway_replenishment
 			}
 		}
@@ -2405,7 +2405,7 @@ technologies = {
 	sp_standard_tenshioned_replenishment_alongside_method = {
 
 		allow = {
-	 		ROOT = {
+			ROOT = {
 				is_special_project_completed = sp:sp_naval_underway_replenishment
 			}
 		}

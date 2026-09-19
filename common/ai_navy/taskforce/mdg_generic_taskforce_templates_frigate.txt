@@ -1,6 +1,6 @@
 StrikeForce_1_frigate = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -45,7 +45,7 @@ StrikeForce_1_frigate = {
 
 PatrolReconForce_1_frigate = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -79,7 +79,7 @@ PatrolReconForce_1_frigate = {
 
 PatrolDominanceForce_CA_1_frigate = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -111,7 +111,7 @@ PatrolDominanceForce_CA_1_frigate = {
 
 PatrolDominanceForce_BC_1_frigate = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -143,7 +143,7 @@ PatrolDominanceForce_BC_1_frigate = {
 
 ConvoyEscort_1_frigate = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -177,7 +177,7 @@ ConvoyEscort_1_frigate = {
 
 MineLaying_1_frigate = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV

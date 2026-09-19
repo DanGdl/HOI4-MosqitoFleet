@@ -1,6 +1,6 @@
 PatrolReconForce_1_corvette = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -34,7 +34,7 @@ PatrolReconForce_1_corvette = {
 
 PatrolDominanceForce_CA_1_corvette = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -66,7 +66,7 @@ PatrolDominanceForce_CA_1_corvette = {
 
 PatrolDominanceForce_BC_1_corvette = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -98,7 +98,7 @@ PatrolDominanceForce_BC_1_corvette = {
 
 ConvoyEscort_1_corvette = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -132,7 +132,7 @@ ConvoyEscort_1_corvette = {
 
 MineLaying_1_corvette = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
@@ -168,7 +168,7 @@ MineLaying_1_corvette = {
 
 MineLaying_2_corvette = {
 	allowed = {
-        NOT = {
+		NOT = {
 			original_tag = JAP
 			original_tag = ENG
 			original_tag = SOV
