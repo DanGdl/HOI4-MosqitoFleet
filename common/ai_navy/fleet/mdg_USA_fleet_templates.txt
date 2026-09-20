@@ -396,7 +396,7 @@ USA_escort_fleet_1_mixed_1 = {
 
 USA_escort_fleet_1_mixed_2 = {
 	required_taskforces = {
-        USA_ConvoyEscort_1_frigate = 6
+		USA_ConvoyEscort_1_frigate = 6
 	}
 	optional_taskforces = {
 		USA_ConvoyEscort_1_corvette = 4

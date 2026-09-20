@@ -727,7 +727,7 @@ JAP_escort_fleet_3_mixed_1 = {
 
 JAP_escort_fleet_3_mixed_2 = {
 	required_taskforces = {
-        JAP_ConvoyEscort_1_frigate = 4
+		JAP_ConvoyEscort_1_frigate = 4
 	}
 	optional_taskforces = {
 		JAP_ConvoyEscort_1_corvette = 2

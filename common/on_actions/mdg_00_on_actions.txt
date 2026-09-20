@@ -14,19 +14,19 @@ on_actions = {
 		}
 	}
 
-    # ROOT = nation being liberated, FROM = leader of the liberators
+	# ROOT = nation being liberated, FROM = leader of the liberators
 	on_liberate = {
 		effect = {
 			# if basic setup failed for some reason - country file not loaded
 			if = { limit = { NOT = { country_exists = ROOT } }
-                ROOT = {
-                    mdg_startup_nations_effect = yes
-                }
+				ROOT = {
+					mdg_startup_nations_effect = yes
+				}
 			}
 		}
 	}
 
-    #ROOT is free nation FROM is releaser
+	#ROOT is free nation FROM is releaser
 	on_release_as_free = {
 		effect = {
 			FROM = {
@@ -37,15 +37,15 @@ on_actions = {
 		}
 	}
 
-    #used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
 	#ROOT = nation being released, FROM = overlord
 	on_release_as_puppet = {
 		effect = {
 			FROM = {
 				ROOT = {
-                    mdg_startup_nations_effect = yes
-                }
-            }
-        }
-    }
+					mdg_startup_nations_effect = yes
+				}
+			}
+		}
+	}
 }

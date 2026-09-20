@@ -488,41 +488,41 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 		}
 		remove_effect = {
-            if = {
-                limit = {
-                    NOT = {
-                        OR = {
-                            tag = FRA
-                            tag = HOL
-                            tag = ITA
-                            tag = JAP
-                            tag = USA
-                        }
-                    }
-                }
-                if = {
-                    limit = {
-                        NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
-                    }
-                    set_country_flag = mdg_flag_refit_to_mac_mtg
-
-
-                    create_equipment_variant = {
-                        name = "Merchant Aircraft Carrier"
-                        type = mdg_ship_hull_mac_1
-                        name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-                        parent_version = 0
-                        modules = {
-                            fixed_ship_deck_slot_1 = ship_escort_deck_space
-                            fixed_ship_anti_air_slot = ship_anti_air_1
-                            fixed_ship_radar_slot = empty
-                            fixed_ship_engine_slot = carrier_ship_engine_1
-                            fixed_ship_secondaries_slot = empty
-                        }
-                        obsolete = yes
-                    }
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							tag = FRA
+							tag = HOL
+							tag = ITA
+							tag = JAP
+							tag = USA
+						}
+					}
 				}
-                create_ship = {
+				if = {
+					limit = {
+						NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
+					}
+					set_country_flag = mdg_flag_refit_to_mac_mtg
+
+
+					create_equipment_variant = {
+						name = "Merchant Aircraft Carrier"
+						type = mdg_ship_hull_mac_1
+						name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+						parent_version = 0
+						modules = {
+							fixed_ship_deck_slot_1 = ship_escort_deck_space
+							fixed_ship_anti_air_slot = ship_anti_air_1
+							fixed_ship_radar_slot = empty
+							fixed_ship_engine_slot = carrier_ship_engine_1
+							fixed_ship_secondaries_slot = empty
+						}
+						obsolete = yes
+					}
+				}
+				create_ship = {
 					type = mdg_ship_hull_mac_1
 					equipment_variant = "Merchant Aircraft Carrier"
 					creator = ROOT
