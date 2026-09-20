@@ -1,6 +1,19 @@
 technologies = {
 
 	# hidden technology
+	mdg_hidden_tech_hulls = {
+		enable_equipments = {
+			mdg_ship_hull_mac_1
+			mdg_ship_hull_auxiliary_1
+		}
+
+		research_cost = 1
+		start_year = 1922
+
+		# set at gamestart
+		allow = { always = no }
+	}
+
 	mdg_hidden_tech = {
 		enable_equipments = {
 			mdg_ship_hull_mac_1

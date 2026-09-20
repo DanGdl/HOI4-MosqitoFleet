@@ -26,9 +26,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
 		custom_cost_trigger = {
@@ -159,9 +157,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
 		custom_cost_trigger = {
@@ -289,9 +285,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
 		custom_cost_trigger = {
@@ -417,9 +411,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
 		custom_cost_trigger = {
@@ -546,9 +538,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
 		custom_cost_trigger = {
@@ -668,9 +658,7 @@ mdg_generic_refit_civilian_ships_category = {
 		allowed = {
 			always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_80_convoy_45_NavXP
 		custom_cost_trigger = {
@@ -721,7 +709,6 @@ mdg_generic_refit_civilian_ships_category = {
 						limit = {
 							NOT = {
 								OR = {
-									tag = FRA
 									tag = HOL
 									tag = ITA
 									tag = JAP
@@ -744,12 +731,9 @@ mdg_generic_refit_civilian_ships_category = {
 							obsolete = yes
 						}
 					}
-				}
-				if = {
-					limit = { tag = FRA }
 					create_ship = {
 						type = mdg_ship_hull_mac_1
-						equipment_variant = "Commandant Teste Class"
+						equipment_variant = "Merchant Aircraft Carrier"
 						creator = ROOT
 						name = "AVG"
 					}
@@ -786,25 +770,6 @@ mdg_generic_refit_civilian_ships_category = {
 					create_ship = {
 						type = mdg_ship_hull_mac_1
 						equipment_variant = "Seaplane floating base"
-						creator = ROOT
-						name = "AVG"
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							OR = {
-								tag = FRA
-								tag = HOL
-								tag = ITA
-								tag = JAP
-								tag = USA
-							}
-						}
-					}
-					create_ship = {
-						type = mdg_ship_hull_mac_1
-						equipment_variant = "Merchant Aircraft Carrier"
 						creator = ROOT
 						name = "AVG"
 					}
