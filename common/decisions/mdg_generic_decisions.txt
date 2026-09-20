@@ -26,9 +26,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
 		custom_cost_trigger = {
@@ -120,9 +118,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
 		custom_cost_trigger = {
@@ -210,9 +206,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
 		custom_cost_trigger = {
@@ -298,9 +292,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
 		custom_cost_trigger = {
@@ -387,9 +379,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
 		custom_cost_trigger = {
@@ -469,9 +459,7 @@ mdg_generic_refit_civilian_ships_category = {
 		allowed = {
 			always = yes
 		}
-		#cancel_trigger = {
-		#	cancel_if_not_visible = yes
-		#}
+		cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_80_convoy_45_NavXP
 		custom_cost_trigger = {
@@ -500,38 +488,45 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 		}
 		remove_effect = {
-			if = {
-				limit = {
-					NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
-				}
-				set_country_flag = mdg_flag_refit_to_mac_mtg
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            tag = FRA
+                            tag = HOL
+                            tag = ITA
+                            tag = JAP
+                            tag = USA
+                        }
+                    }
+                }
+                if = {
+                    limit = {
+                        NOT = {	has_country_flag = mdg_flag_refit_to_mac_mtg }
+                    }
+                    set_country_flag = mdg_flag_refit_to_mac_mtg
 
-				if = {
-					limit = {
-						NOT = {
-							OR = {
-								tag = FRA
-								tag = HOL
-								tag = ITA
-								tag = JAP
-								tag = USA
-							}
-						}
-					}
-					create_equipment_variant = {
-						name = "Merchant Aircraft Carrier"
-						type = mdg_ship_hull_mac_1
-						name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
-						parent_version = 0
-						modules = {
-							fixed_ship_deck_slot_1 = ship_escort_deck_space
-							fixed_ship_anti_air_slot = ship_anti_air_1
-							fixed_ship_radar_slot = empty
-							fixed_ship_engine_slot = carrier_ship_engine_1
-							fixed_ship_secondaries_slot = empty
-						}
-						obsolete = yes
-					}
+
+                    create_equipment_variant = {
+                        name = "Merchant Aircraft Carrier"
+                        type = mdg_ship_hull_mac_1
+                        name_group = ENG_MAC_HISTORICAL # Note: Doesn't matter if ROOT is not DEN, the effect will grab the appropriate country-specific name list anyways
+                        parent_version = 0
+                        modules = {
+                            fixed_ship_deck_slot_1 = ship_escort_deck_space
+                            fixed_ship_anti_air_slot = ship_anti_air_1
+                            fixed_ship_radar_slot = empty
+                            fixed_ship_engine_slot = carrier_ship_engine_1
+                            fixed_ship_secondaries_slot = empty
+                        }
+                        obsolete = yes
+                    }
+				}
+                create_ship = {
+					type = mdg_ship_hull_mac_1
+					equipment_variant = "Merchant Aircraft Carrier"
+					creator = ROOT
+					name = "AVG"
 				}
 			}
 			if = {
@@ -575,25 +570,6 @@ mdg_generic_refit_civilian_ships_category = {
 				create_ship = {
 					type = mdg_ship_hull_mac_1
 					equipment_variant = "Seaplane floating base"
-					creator = ROOT
-					name = "AVG"
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						OR = {
-							tag = FRA
-							tag = HOL
-							tag = ITA
-							tag = JAP
-							tag = USA
-						}
-					}
-				}
-				create_ship = {
-					type = mdg_ship_hull_mac_1
-					equipment_variant = "Merchant Aircraft Carrier"
 					creator = ROOT
 					name = "AVG"
 				}

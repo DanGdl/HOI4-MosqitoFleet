@@ -1,0 +1,9 @@
+mdg_startup_nations_effect = {
+	hidden_effect = {
+        # log = "[GetDateText]: Setup mdg_hidden_tech_hulls for [Root.GetName]"
+        set_technology = {
+            mdg_hidden_tech_hulls = 1
+            popup = no
+        }
+	}
+}
