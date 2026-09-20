@@ -11,7 +11,7 @@ mio_cat_eq_all_carrier = { #Includes all CV --- Used due to custom loc capabilit
 	equipment_type = {
 		ship_hull_carrier
 
-        # easiest way to add support of MIO for new equipment
+		# easiest way to add support of MIO for new equipment
 		mdg_mac
 	}
 }
@@ -20,7 +20,7 @@ mio_cat_eq_all_cruiser = {
 	equipment_type = {
 		ship_hull_cruiser
 
-        # easiest way to add support of MIO for new equipment
+		# easiest way to add support of MIO for new equipment
 		mdg_auxiliary
 	}
 }
@@ -43,7 +43,7 @@ mio_cat_eq_all_ships_no_convoys = { #Includes all ships except convoys
 		ship_hull_heavy
 		ship_hull_submarine
 
-        # easiest way to add support of MIO for new equipment
+		# easiest way to add support of MIO for new equipment
 		mdg_mac
 		mdg_auxiliary
 		mdg_ship_hull_frigate

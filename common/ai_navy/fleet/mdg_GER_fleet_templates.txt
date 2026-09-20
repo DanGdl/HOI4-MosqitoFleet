@@ -226,7 +226,7 @@ GER_escort_fleet_1_mixed_1 = {
 
 GER_escort_fleet_1_mixed_2 = {
 	required_taskforces = {
-        GER_ConvoyEscort_1_frigate = 1
+		GER_ConvoyEscort_1_frigate = 1
 	}
 	optional_taskforces = {
 		GER_ConvoyEscort_1_corvette = 1
