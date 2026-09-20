@@ -1,7 +1,7 @@
 technologies = {
 
 	# hidden technology
-    mdg_hidden_tech_hulls = {
+	mdg_hidden_tech_hulls = {
 		enable_equipments = {
 			mdg_ship_hull_mac_1
 			mdg_ship_hull_auxiliary_1
