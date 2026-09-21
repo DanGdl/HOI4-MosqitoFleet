@@ -219,10 +219,6 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-
-		on_add = {
-			log = "[GetDateText]: Got mdg_fac_officer"
-		}
 	}
 
 	mdg_corvette_officer = {
@@ -270,9 +266,6 @@ leader_traits = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-		on_add = {
-			log = "[GetDateText]: Got mdg_corvette_officer"
 		}
 	}
 
@@ -322,9 +315,6 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		on_add = {
-			log = "[GetDateText]: Got mdg_frigate_officer"
-		}
 	}
 
 	mdg_aux_officer = {
@@ -372,9 +362,6 @@ leader_traits = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-		on_add = {
-			log = "[GetDateText]: Got mdg_aux_officer"
 		}
 	}
 
