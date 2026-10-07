@@ -107,7 +107,7 @@ mdg_generic_refit_civilian_ships_category = {
         fire_only_once = no
 
         ai_will_do = {
-            base = 1.5
+            base = 0.25
 
             modifier = {
                 add = 1.25
@@ -204,7 +204,7 @@ mdg_generic_refit_civilian_ships_category = {
         fire_only_once = no
 
         ai_will_do = {
-            base = 1.5
+	    base = 0.25
 
             modifier = {
                 add = 1.25
@@ -299,7 +299,7 @@ mdg_generic_refit_civilian_ships_category = {
         fire_only_once = no
 
         ai_will_do = {
-            base = 1.5
+            base = 0.25
 
             modifier = {
                 add = 1.25
@@ -395,7 +395,7 @@ mdg_generic_refit_civilian_ships_category = {
         fire_only_once = no
 
         ai_will_do = {
-            base = 1.5
+            base = 0.25
 
             modifier = {
                 add = 1.25
@@ -491,7 +491,7 @@ mdg_generic_refit_civilian_ships_category = {
         fire_only_once = no
 
         ai_will_do = {
-            base = 1.5
+            base = 0.25
 
             modifier = {
                 add = 1.25
