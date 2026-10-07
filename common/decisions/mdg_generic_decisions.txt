@@ -6,7 +6,16 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 1.5
+			base = 0.25
+
+			modifier = {
+				add = 1.25
+				num_of_naval_factories < 16
+			}
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 15
+			}
 		}
 
 		visible = {
@@ -28,17 +37,17 @@ mdg_generic_refit_civilian_ships_category = {
 		}
 		cancel_if_not_visible = yes
 
-		custom_cost_text = mdg_decision_cost_30_convoy_30_NavXP
+		custom_cost_text = mdg_decision_cost_40_convoy_40_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 30
+			has_navy_experience > 40
 			has_equipment = {
-				convoy > 30
+				convoy > 40
 			}
 		}
 
 		available = {
 			has_equipment = {
-				convoy > 30
+				convoy > 40
 			}
 			if = {
 				limit = {
@@ -59,10 +68,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 90
 
 		complete_effect = {
-			navy_experience = -30
+			navy_experience = -40
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -30
+				amount = -40
 			}
 		}
 		remove_effect = {
@@ -137,7 +146,16 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 1.5
+			base = 0.25
+
+			modifier = {
+				add = 1.25
+				num_of_naval_factories < 16
+			}
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 15
+			}
 		}
 
 		visible = {
@@ -159,17 +177,17 @@ mdg_generic_refit_civilian_ships_category = {
 		}
 		cancel_if_not_visible = yes
 
-		custom_cost_text = mdg_decision_cost_40_convoy_20_NavXP
+		custom_cost_text = mdg_decision_cost_50_convoy_30_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 20
+			has_navy_experience > 30
 			has_equipment = {
-				convoy > 40
+				convoy > 50
 			}
 		}
 
 		available = {
 			has_equipment = {
-				convoy > 40
+				convoy > 50
 			}
 			if = {
 				limit = {
@@ -189,10 +207,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 60
 
 		complete_effect = {
-			navy_experience = -20
+			navy_experience = -30
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -40
+				amount = -50
 			}
 		}
 		remove_effect = {
@@ -265,7 +283,16 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 1.5
+			base = 0.25
+
+			modifier = {
+				add = 1.25
+				num_of_naval_factories < 16
+			}
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 15
+			}
 		}
 
 		visible = {
@@ -287,17 +314,17 @@ mdg_generic_refit_civilian_ships_category = {
 		}
 		cancel_if_not_visible = yes
 
-		custom_cost_text = mdg_decision_cost_20_convoy_15_NavXP
+		custom_cost_text = mdg_decision_cost_30_convoy_25_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 15
+			has_navy_experience > 25
 			has_equipment = {
-				convoy > 20
+				convoy > 30
 			}
 		}
 
 		available = {
 			has_equipment = {
-				convoy > 20
+				convoy > 30
 			}
 			if = {
 				limit = {
@@ -315,10 +342,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 60
 
 		complete_effect = {
-			navy_experience = -15
+			navy_experience = -25
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -20
+				amount = -30
 			}
 		}
 		remove_effect = {
@@ -391,7 +418,16 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 1.5
+			base = 0.25
+
+			modifier = {
+				add = 1.25
+				num_of_naval_factories < 16
+			}
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 15
+			}
 		}
 
 		visible = {
@@ -413,17 +449,17 @@ mdg_generic_refit_civilian_ships_category = {
 		}
 		cancel_if_not_visible = yes
 
-		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ml
+		custom_cost_text = mdg_decision_cost_30_convoy_20_NavXP_ml
 		custom_cost_trigger = {
-			has_navy_experience > 10
+			has_navy_experience > 20
 			has_equipment = {
-				convoy > 20
+				convoy > 30
 			}
 		}
 
 		available = {
 			has_equipment = {
-				convoy > 20
+				convoy > 30
 			}
 			if = {
 				limit = {
@@ -442,10 +478,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 30
 
 		complete_effect = {
-			navy_experience = -10
+			navy_experience = -20
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -20
+				amount = -30
 			}
 		}
 		remove_effect = {
@@ -518,7 +554,16 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 1.5
+			base = 0.25
+
+			modifier = {
+				add = 1.25
+				num_of_naval_factories < 16
+			}
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 15
+			}
 		}
 
 		visible = {
@@ -540,17 +585,17 @@ mdg_generic_refit_civilian_ships_category = {
 		}
 		cancel_if_not_visible = yes
 
-		custom_cost_text = mdg_decision_cost_20_convoy_10_NavXP_ms
+		custom_cost_text = mdg_decision_cost_30_convoy_20_NavXP_ms
 		custom_cost_trigger = {
-			has_navy_experience > 9
+			has_navy_experience > 20
 			has_equipment = {
-				convoy > 20
+				convoy > 30
 			}
 		}
 
 		available = {
 			has_equipment = {
-				convoy > 20
+				convoy > 30
 			}
 			if = {
 				limit = {
@@ -569,10 +614,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 30
 
 		complete_effect = {
-			navy_experience = -10
+			navy_experience = -20
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -20
+				amount = -30
 			}
 		}
 		remove_effect = {
@@ -645,7 +690,16 @@ mdg_generic_refit_civilian_ships_category = {
 		fire_only_once = no
 
 		ai_will_do = {
-			base = 1.5
+			base = 0.25
+
+			modifier = {
+				add = 1.25
+				num_of_naval_factories < 16
+			}
+			modifier = {
+				factor = 2
+				num_of_naval_factories > 15
+			}
 		}
 
 		visible = {
@@ -660,17 +714,17 @@ mdg_generic_refit_civilian_ships_category = {
 		}
 		cancel_if_not_visible = yes
 
-		custom_cost_text = mdg_decision_cost_80_convoy_45_NavXP
+		custom_cost_text = mdg_decision_cost_100_convoy_60_NavXP
 		custom_cost_trigger = {
-			has_navy_experience > 45
+			has_navy_experience > 60
 			has_equipment = {
-				convoy > 80
+				convoy > 100
 			}
 		}
 
 		available = {
 			has_equipment = {
-				convoy > 80
+				convoy > 100
 			}
 			if = {
 				limit = {
@@ -688,10 +742,10 @@ mdg_generic_refit_civilian_ships_category = {
 		days_remove = 120
 
 		complete_effect = {
-			navy_experience = -45
+			navy_experience = -60
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = -80
+				amount = -100
 			}
 		}
 		remove_effect = {
