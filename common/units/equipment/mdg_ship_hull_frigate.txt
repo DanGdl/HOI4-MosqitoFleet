@@ -17,7 +17,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air ship_ciws }
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
@@ -29,7 +29,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo ship_depth_charge }
+				allowed_module_categories = { ship_torpedo ship_depth_charge ship_light_ASM_battery ship_sam_missile_battery }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -46,6 +46,8 @@ equipments = {
 					ship_anti_air
 					ship_depth_charge
 					ship_seaplane_tender
+                    ship_sam_missile_battery
+                    ship_ciws
 				}
 			}
 			mid_1_custom_slot = {
@@ -58,6 +60,9 @@ equipments = {
 					ship_mine_layer
 					ship_anti_air
 					ship_depth_charge
+                    ship_light_ASM_battery
+                    ship_sam_missile_battery
+                    ship_ciws
 				}
 			}
 		}
@@ -192,15 +197,7 @@ equipments = {
 
 			rear_1_custom_slot = inherit
 			mid_1_custom_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_depth_charge
-					ship_anti_air
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-				}
-			}
+			front_1_custom_slot = mid_1_custom_slot
 		}
 
 		default_modules = {
@@ -309,29 +306,10 @@ equipments = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_mine_warfare
-					ship_mine_layer
-					ship_depth_charge
-					ship_sam_missile_battery
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-				}
-			}
+			rear_1_custom_slot = inherit
 			mid_2_custom_slot = inherit
 			mid_1_custom_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_depth_charge
-					ship_light_ASM_battery
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-					ship_ciws
-				}
-			}
+			front_1_custom_slot = inherit
 		}
 
 		reliability = 1.10
@@ -367,6 +345,7 @@ equipments = {
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
 					ship_sam_missile_battery
+                    ship_light_ASM_battery
 				}
 			}
 			fixed_ship_engine_slot = inherit
@@ -385,16 +364,7 @@ equipments = {
 			}
 			mid_2_custom_slot = inherit
 			mid_1_custom_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_depth_charge
-					ship_anti_air
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-					ship_ciws
-				}
-			}
+			front_1_custom_slot = inherit
 		}
 
 		reliability = 1.15

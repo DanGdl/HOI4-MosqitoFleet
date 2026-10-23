@@ -17,7 +17,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air ship_ciws }
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
@@ -29,7 +29,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo ship_depth_charge }
+				allowed_module_categories = { ship_torpedo ship_depth_charge ship_light_ASM_battery ship_sam_missile_battery }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -46,6 +46,8 @@ equipments = {
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
 					ship_seaplane_tender
+                    ship_sam_missile_battery
+                    ship_ciws
 				}
 			}
 		}
@@ -184,6 +186,9 @@ equipments = {
 					ship_depth_charge
 					mdg_ship_light_cannon
 					mdg_ship_light_cannon_dp
+                    ship_light_ASM_battery
+                    ship_sam_missile_battery
+                    ship_ciws
 				}
 			}
 
@@ -326,16 +331,7 @@ equipments = {
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
-			fixed_ship_torpedo_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_torpedo
-					ship_depth_charge
-					mdg_ship_light_cannon
-					mdg_ship_light_cannon_dp
-					ship_sam_missile_battery
-				}
-			}
+			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit
 
 			rear_1_custom_slot = inherit

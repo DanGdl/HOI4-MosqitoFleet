@@ -49,7 +49,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air }
+				allowed_module_categories = { ship_anti_air ship_ciws }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -61,7 +61,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_dp_secondaries}
+				allowed_module_categories = { ship_secondaries ship_dp_secondaries ship_ciws }
 			}
 			fixed_ship_armor_slot = {
 				required = no
