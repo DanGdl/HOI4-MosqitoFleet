@@ -84,14 +84,6 @@
 	}
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_SPR_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_SPR_1936_naval_legacy"
-	}
-}
-
 1939.1.1 = {
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
@@ -115,7 +107,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "S-1 Class"
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_fac_1
 			parent_version = 0
 			obsolete = no
 			design_team = mio:SPR_euskalduna_organization
@@ -130,7 +122,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "Baglietto (SVAN) 14-tons"
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_fac_1
 			parent_version = 0
 			obsolete = no
 			design_team = mio:SPR_euskalduna_organization
@@ -145,7 +137,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "G-5 Class"
-			type = mdg_ship_hull_boat_1
+			type = mdg_ship_hull_fac_1
 			parent_version = 0
 			obsolete = yes
 			design_team = mio:SPR_euskalduna_organization
@@ -157,9 +149,5 @@ if = {
 				rear_1_custom_slot = mdg_ship_light_guns_1
 			}
 		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_SPR_1939_naval_mtg"
 	}
 }

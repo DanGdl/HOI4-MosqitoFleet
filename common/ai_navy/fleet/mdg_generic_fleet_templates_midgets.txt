@@ -1,0 +1,9 @@
+# Raiding
+mdg_raiding_fleet_midgets = {
+	required_taskforces = {
+		ConvoyRaiding_1_Midgets = 2
+	}
+	optional_taskforces = {
+		ConvoyRaiding_1_Midgets = 2
+	}
+}

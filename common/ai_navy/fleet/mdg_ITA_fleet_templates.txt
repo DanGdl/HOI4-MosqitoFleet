@@ -1,0 +1,397 @@
+ITA_dominance_fleet_1_frigate = {
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_2_frigate = { # Recon: base
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1 = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+
+ITA_dominance_fleet_3_frigate = { # Dominance: base
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_4_frigate = { # StrikeForceCarrier: base
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_5_frigate = { # Strike: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_6_frigate = { # Strike: base, Recon: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1 = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+
+ITA_dominance_fleet_7_frigate = { # Strike: base, Dominance: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_8_frigate = { # Strike: base, StrikeForceCarrier: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+
+ITA_dominance_fleet_1_corvette = { # Recon: corvette, Dominance: corvette (Strike/StrikeForceCarrier have no corvette variant)
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_2_corvette = { # Recon: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1 = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+
+ITA_dominance_fleet_3_corvette = { # Dominance: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+
+# Mixed corvette/frigate combinations (contains at least one _frigate and one _corvette taskforce)
+
+# Strike: frigate, StrikeForceCarrier: frigate
+ITA_dominance_fleet_1_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_2_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_3_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_4_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_5_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1 = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+
+# Strike: frigate, StrikeForceCarrier: base
+ITA_dominance_fleet_6_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_7_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_8_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_9_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_10_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1_frigate = 1
+		ITA_PatrolReconForce_1 = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+
+# Strike: base, StrikeForceCarrier: frigate
+ITA_dominance_fleet_11_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_12_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_13_mixed = { # Recon: corvette, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_14_mixed = { # Recon: corvette, Dominance: base
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+ITA_dominance_fleet_15_mixed = { # Recon: base, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1 = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1_frigate = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1 = 2
+	}
+}
+
+# Strike: base, StrikeForceCarrier: base
+ITA_dominance_fleet_16_mixed = { # Recon: frigate, Dominance: corvette
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_frigate = 4
+		ITA_PatrolDominanceForce_1_corvette = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_corvette = 1
+		ITA_PatrolReconForce_1_frigate = 2
+	}
+}
+
+ITA_dominance_fleet_17_mixed = { # Recon: corvette, Dominance: frigate
+	required_taskforces = {
+		ITA_StrikeForce_1 = 1
+		ITA_PatrolReconForce_1_corvette = 4
+		ITA_PatrolDominanceForce_1_frigate = 1
+	}
+	optional_taskforces = {
+		ITA_StrikeForceCarrier_1 = 1
+		ITA_PatrolDominanceForce_1_frigate = 1
+		ITA_PatrolReconForce_1_corvette = 2
+	}
+}
+
+
+ITA_escort_fleet_3_frigate = {
+	optional_taskforces = {
+		ITA_ConvoyEscort_1_frigate = 4
+	}
+}
+
+ITA_escort_fleet_3_corvette = {
+	optional_taskforces = {
+		ITA_ConvoyEscort_1_corvette = 4
+	}
+}
+
+
+ITA_minelaying_fleet_4_frigate = {
+	optional_taskforces = {
+		ITA_MineLaying_1_frigate = 1
+	}
+}
+
+ITA_minelaying_fleet_4_corvette = {
+	optional_taskforces = {
+		ITA_MineLaying_1_corvette = 1
+	}
+}

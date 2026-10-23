@@ -60,7 +60,7 @@ GER_MIDGET_IMPERIAL = {
 	unique = {}
 }
 
-GER_BOAT_IMPERIAL = {
+GER_FAC_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BOATS
 
 	for_countries = { GER }
@@ -74,7 +74,7 @@ GER_BOAT_IMPERIAL = {
 	}
 	prefix = "SMS "
 	type = ship
-	ship_types = { mdg_ship_hull_boat mdg_boat }
+	ship_types = { mdg_ship_hull_fac mdg_fac }
 
 	prefix = ""
 	fallback_name = "S %s"

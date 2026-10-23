@@ -38,7 +38,7 @@
 
 	create_equipment_variant = {
 		name = "R"
-		type = mdg_ship_hull_boat_2
+		type = mdg_ship_hull_fac_2
 		parent_version = 0
 		obsolete = no
 		design_team = mio:GER_lurssen_organization
@@ -53,7 +53,7 @@
 
 	create_equipment_variant = {
 		name = "S-10"
-		type = mdg_ship_hull_boat_2
+		type = mdg_ship_hull_fac_2
 		parent_version = 0
 		obsolete = no
 		design_team = mio:GER_lurssen_organization
@@ -64,14 +64,6 @@
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			rear_1_custom_slot = mdg_ship_light_guns_1
 		}
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_GER_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_GER_1936_naval_legacy"
 	}
 }
 
@@ -144,10 +136,5 @@ if = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 			}
 		}
-	}
-
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_GER_1939_naval_mtg"
 	}
 }

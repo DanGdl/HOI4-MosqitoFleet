@@ -59,13 +59,13 @@
 
 			ship = { name = "Ural" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Okean Class" } } }
 
-			ship = { name = "TKA-19" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-20" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-21" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-22" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-23" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-24" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-25" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-19" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-20" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-21" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-22" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-23" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-24" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-25" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 
 			ship = { name = "MO-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 			ship = { name = "MO-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
@@ -73,21 +73,21 @@
 			ship = { name = "MO-4" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 			ship = { name = "MO-5" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 
-			ship = { name = "ZK-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-6" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-7" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-8" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-9" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-12" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-13" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-14" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "ZK-15" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-1" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-2" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-3" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-4" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-5" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-6" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-7" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-8" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-9" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-10" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-11" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-12" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-13" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-14" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "ZK-15" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
 
 			ship = { name = "R-31" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-32" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
@@ -129,23 +129,23 @@
 
 			ship = { name = "Ostrovskiy" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Okean Class" } } }
 
-			ship = { name = "TKA-12" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-13" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-14" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-15" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-16" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-17" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-18" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-12" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-13" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-14" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-15" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-16" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-17" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-18" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 
 			ship = { name = "MO-6" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 			ship = { name = "MO-7" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 			ship = { name = "MO-8" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 			ship = { name = "MO-9" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "MO Class" } } }
 
-			ship = { name = "GK-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "GK-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "GK-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
-			ship = { name = "GK-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "GK-1" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "GK-2" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "GK-3" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
+			ship = { name = "GK-4" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "ZK Class" } } }
 
 			ship = { name = "R-16" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-17" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
@@ -194,17 +194,17 @@
 			ship = { name = "Tomsk" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Okean Class" } } }
 			ship = { name = "Voroshilovsk" definition = mdg_frigate equipment = { mdg_ship_hull_frigate_1 = { amount = 1 owner = SOV version_name = "Okean Class" } } }
 
-			ship = { name = "TKA-1" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-2" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-3" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-4" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-5" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-6" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-7" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-8" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-9" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-10" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
-			ship = { name = "TKA-11" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-1" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-2" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-3" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-4" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-5" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-6" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-7" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-8" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-9" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-10" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
+			ship = { name = "TKA-11" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = SOV version_name = "Sh-4 Class" } } }
 
 			ship = { name = "R-1" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }
 			ship = { name = "R-2" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_1 = { amount = 1 owner = SOV version_name = "R Class" } } }

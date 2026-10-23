@@ -18,35 +18,35 @@ spriteTypes = {
 
 ###################################################
 
-	# Boat
+	# FAC
 	spriteType = {
-		name = "GFX_SM_mdg_boat_light_battery_jap"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_fixed_guns.dds"
+		name = "GFX_SM_mdg_fac_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/jap_mdg_fac_fixed_guns.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_light_battery_jap@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_fixed_guns@highlight.dds"
+		name = "GFX_SM_mdg_fac_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/jap_mdg_fac_fixed_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_depth_charge_jap"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_depth_charge.dds"
+		name = "GFX_SM_mdg_fac_depth_charge_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/jap_mdg_fac_depth_charge.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_depth_charge_jap@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_depth_charge@highlight.dds"
+		name = "GFX_SM_mdg_fac_depth_charge_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/jap_mdg_fac_depth_charge@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_torpedo_jap"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_fixed_torpedo.dds"
+		name = "GFX_SM_mdg_fac_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/jap_mdg_fac_fixed_torpedo.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_torpedo_jap@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/jap_mdg_boat_fixed_torpedo@highlight.dds"
+		name = "GFX_SM_mdg_fac_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/jap_mdg_fac_fixed_torpedo@highlight.dds"
 	}
 
 

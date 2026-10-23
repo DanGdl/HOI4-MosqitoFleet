@@ -49,21 +49,21 @@
 			ship = { name = "Beautemps-Beaupre" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = FRA } } }
 			ship = { name = "La Perouse" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = FRA } } }
 
-			ship = { name = "Ch-25" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-51" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-56" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-58" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-74" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-81" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-95" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-98" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-106" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-107" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-25" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-51" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-56" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-58" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-74" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-81" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-95" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-98" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-106" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-107" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FRA } } }
 
-			ship = { name = "Ch-1" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-2" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-3" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = FRA } } }
-			ship = { name = "Ch-4" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-1" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-2" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-3" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = FRA } } }
+			ship = { name = "Ch-4" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = FRA } } }
 
 			ship = { name = "Castor" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = FRA } } }
 			ship = { name = "Pollux" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = FRA } } }

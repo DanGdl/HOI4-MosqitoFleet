@@ -54,31 +54,31 @@
 			ship = { name = "F-9" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = GER } } }
 			ship = { name = "F-10" definition = mdg_frigate equipment = { mdg_frigate_1 = { amount = 1 owner = GER } } }
 
-			ship = { name = "R-1" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-2" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-3" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-4" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-5" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-6" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-7" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-8" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-9" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-10" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-11" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-12" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-13" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-14" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-15" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "R-16" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-1" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-2" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-3" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-4" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-5" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-6" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-7" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-8" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-9" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-10" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-11" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-12" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-13" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-14" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-15" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "R-16" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
 
-			ship = { name = "S-6" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-7" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-8" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-9" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-10" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-11" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-12" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
-			ship = { name = "S-13" definition = mdg_boat equipment = { mdg_boat_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-6" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-7" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-8" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-9" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-10" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-11" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-12" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
+			ship = { name = "S-13" definition = mdg_fac equipment = { mdg_fac_2 = { amount = 1 owner = GER } } }
 		}
 	}
 }

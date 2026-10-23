@@ -29,15 +29,15 @@
 			ship = { name = "Т-1 Rautu" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = FIN } } }
 			ship = { name = "Т-2 Vilppula" definition = mdg_corvette equipment = { mdg_corvette_1 = { amount = 1 owner = FIN } } }
 
-			ship = { name = "MTV-1 Sisu" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
-			ship = { name = "MTV-2 Hurja" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-1 Sisu" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-2 Hurja" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
 
-			ship = { name = "MTV-3 Isku" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-3 Isku" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
 
-			ship = { name = "MTV-4 Syoksy" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
-			ship = { name = "MTV-5 Nudi" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
-			ship = { name = "MTV-6 Vinha" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
-			ship = { name = "MTV-7 Raju" definition = mdg_boat equipment = { mdg_boat_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-4 Syoksy" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-5 Nudi" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-6 Vinha" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "MTV-7 Raju" definition = mdg_fac equipment = { mdg_fac_1 = { amount = 1 owner = FIN } } }
 		}
 	}
 }

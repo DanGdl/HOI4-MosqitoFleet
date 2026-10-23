@@ -1,4 +1,4 @@
-version="1.7.21"
+version="1.7.9"
 picture="thumbnail.png"
 tags={
 	"Technologies"
@@ -6,8 +6,7 @@ tags={
 	"Military"
 }
 dependencies={
-	"UTTNH_2.0"
+	"UTTNH: Foxr Edition"
 }
-name="MosquitoFleetUTTNH2"
-supported_version="1.17.*"
-remote_file_id="3474956619"
+name="MosquitoFleet (compatible with UTTNH: Foxr Edition)"
+supported_version="1.19.*"

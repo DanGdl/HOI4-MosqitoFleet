@@ -59,7 +59,7 @@
 
 	create_equipment_variant = {
 		name = "Ch-25 Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = no
 		design_team = mio:FRA_cmn_organization
@@ -74,7 +74,7 @@
 
 	create_equipment_variant = {
 		name = "Ch-1 Class"
-		type = mdg_ship_hull_boat_2
+		type = mdg_ship_hull_fac_2
 		parent_version = 0
 		obsolete = no
 		design_team = mio:FRA_cmn_organization
@@ -122,14 +122,6 @@
 	set_technology = { mdg_hidden_tech = 0 }
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_FRA_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_FRA_1936_naval_legacy"
-	}
-}
-
 1939.1.1 = {
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
@@ -172,7 +164,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "VTB-8 Class"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			obsolete = no
 			design_team = mio:FRA_cmn_organization
@@ -184,10 +176,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-	}
-
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_FRA_1939_naval_mtg"
 	}
 }

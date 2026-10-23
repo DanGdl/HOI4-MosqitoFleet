@@ -50,14 +50,6 @@
 	}
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_BRA_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_BRA_1936_naval_legacy"
-	}
-}
-
 1939.1.1 = {
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
@@ -77,9 +69,5 @@ if = {
 				rear_1_custom_slot = ship_mine_layer_1
 			}
 		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_BRA_1939_naval_mtg"
 	}
 }

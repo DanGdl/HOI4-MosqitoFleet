@@ -114,7 +114,7 @@
 
 	create_equipment_variant = {
 		name = "Ch-1 Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
 		design_team = mio:generic_small_ship_organization
@@ -161,14 +161,6 @@
 	}
 
 	set_technology = { mdg_hidden_tech = 0 }
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_JAP_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_JAP_1936_naval_legacy"
-	}
 }
 
 1939.1.1 = {
@@ -229,7 +221,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "Ch-51 Class"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			obsolete = yes
 			design_team = mio:generic_small_ship_organization
@@ -241,10 +233,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_2
 			}
 		}
-	}
-
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_JAP_1939_naval_mtg"
 	}
 }

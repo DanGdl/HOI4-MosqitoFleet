@@ -149,10 +149,10 @@
 
 	create_equipment_variant = {
 		name = "Sh-4 Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
-		design_team = mio:SOV_tupolev_design_bureau_organization_boat
+		design_team = mio:SOV_tupolev_design_bureau_organization_fac
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -182,10 +182,10 @@
 
 	create_equipment_variant = {
 		name = "ZK Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		obsolete = yes
-		design_team = mio:SOV_tupolev_design_bureau_organization_boat
+		design_team = mio:SOV_tupolev_design_bureau_organization_fac
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
@@ -232,14 +232,6 @@
 	}
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_SOV_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_SOV_1936_naval_legacy"
-	}
-}
-
 1939.1.1 = {
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
@@ -262,10 +254,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-	}
-
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_SOV_1939_naval_mtg"
 	}
 }

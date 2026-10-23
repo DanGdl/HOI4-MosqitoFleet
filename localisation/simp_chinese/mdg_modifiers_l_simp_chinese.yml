@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
- modifier_experience_gain_mdg_boat_mission_factor: "鱼雷艇执行任务获得的经验"
- modifier_experience_gain_mdg_boat_training_factor: "鱼雷艇训练获得的经验"
- modifier_experience_gain_mdg_boat_combat_factor: "鱼雷艇战斗获得的经验"
+ modifier_experience_gain_mdg_fac_mission_factor: "鱼雷艇执行任务获得的经验"
+ modifier_experience_gain_mdg_fac_training_factor: "鱼雷艇训练获得的经验"
+ modifier_experience_gain_mdg_fac_combat_factor: "鱼雷艇战斗获得的经验"
 
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "水翼艇执行任务获得的经验"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "水翼艇训练获得的经验"
@@ -37,7 +37,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "轻型火炮 III 设计成本"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "轻型火炮 IV 设计成本"
 
- mdg_ship_hull_boat_design_cost_factor: "小型舰艇设计成本"
+ mdg_ship_hull_fac_design_cost_factor: "小型舰艇设计成本"
  mdg_ship_hull_hydrofoil_design_cost_factor: "水翼船设计成本"
  mdg_ship_hull_auxiliary_design_cost_factor: "辅助巡洋舰设计成本"
  mdg_ship_hull_corvette_design_cost_factor: "轻型护卫舰设计成本"

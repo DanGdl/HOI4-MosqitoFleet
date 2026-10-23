@@ -1,7 +1,7 @@
 ﻿l_japanese:
- modifier_experience_gain_mdg_boat_mission_factor: "ボートの任務遂行による経験値獲得"
- modifier_experience_gain_mdg_boat_training_factor: "ボートの訓練による経験値獲得"
- modifier_experience_gain_mdg_boat_combat_factor: "ボートの戦闘による経験値獲得"
+ modifier_experience_gain_mdg_fac_mission_factor: "ボートの任務遂行による経験値獲得"
+ modifier_experience_gain_mdg_fac_training_factor: "ボートの訓練による経験値獲得"
+ modifier_experience_gain_mdg_fac_combat_factor: "ボートの戦闘による経験値獲得"
 
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "水中翼船の任務遂行による経験値獲得"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "水中翼船の訓練による経験値獲得"
@@ -37,7 +37,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "軽砲 III 設計コスト"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "軽砲 IV 設計コスト"
 
- mdg_ship_hull_boat_design_cost_factor: "小型艇設計コスト"
+ mdg_ship_hull_fac_design_cost_factor: "小型艇設計コスト"
  mdg_ship_hull_hydrofoil_design_cost_factor: "水中翼船設計コスト"
  mdg_ship_hull_auxiliary_design_cost_factor: "補助巡洋艦設計コスト"
  mdg_ship_hull_corvette_design_cost_factor: "コルベット設計コスト"

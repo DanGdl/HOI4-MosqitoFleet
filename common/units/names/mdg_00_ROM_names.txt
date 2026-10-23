@@ -7,9 +7,9 @@
 		unique = {}
 	}
 
-	mdg_boat = {
+	mdg_fac = {
 		prefix = "NMS"
-		generic = { "Boat" }
+		generic = { "FAC" }
 		unique = {
 			"Viforul" "Vijelia" "Viscolu"  "Vedenia" "Vantul" "Vijetia" "Viforul" "Vartejul" "Vulcanu"
 		}
@@ -59,7 +59,7 @@
 		unique = {}
 	}
 
-	mdg_ship_hull_boat = {
+	mdg_ship_hull_fac = {
 		prefix = "NMS"
 		generic = { "N" }
 		unique = {

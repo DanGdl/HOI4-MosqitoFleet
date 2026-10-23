@@ -103,10 +103,10 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 2.5
 		surface_visibility = 10
-		naval_speed = 18
+		naval_speed = 30
 		reliability = 0.80
 
-		naval_range = 2100
+		naval_range = 2300
 
 		max_strength = 25
 
@@ -116,7 +116,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
- 		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
+		# This value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. This is base value is required for MIO stat modifiers
 		# MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
 		naval_weather_penalty_factor = 1.1
@@ -140,8 +140,8 @@ equipments = {
 		year = 1936
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2100
 		parent = mdg_ship_hull_frigate_1
+		priority = 2100
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -161,12 +161,12 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 		sub_detection = 3
-		naval_speed = 19
+		naval_speed = 30
 		reliability = 0.85
-		naval_range = 2300
+		naval_range = 2500
 		max_strength = 35
 		build_cost_ic = 167
-		manpower = 300
+		manpower = 250
 		naval_dominance_factor = 27
 
 		resources = {
@@ -179,8 +179,8 @@ equipments = {
 		year = 1940
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2100
 		parent = mdg_ship_hull_frigate_2
+		priority = 2100
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -210,12 +210,12 @@ equipments = {
 		}
 
 		sub_detection = 3.5
-		naval_speed = 19
+		naval_speed = 30
 		reliability = 0.85
-		naval_range = 2500
+		naval_range = 3300
 		max_strength = 45
 		build_cost_ic = 184
-		manpower = 350
+		manpower = 300
 		naval_dominance_factor = 33
 
 		resources = {
@@ -228,8 +228,8 @@ equipments = {
 		year = 1944
 
 		archetype = mdg_ship_hull_frigate
-		priority = 2100
 		parent = mdg_ship_hull_frigate_3
+		priority = 2000
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -246,16 +246,16 @@ equipments = {
 		}
 
 		sub_detection = 4
-		naval_speed = 20
+		naval_speed = 30
 		reliability = 0.9
-		naval_range = 3000
-		max_strength = 50
+		naval_range = 3700
+		max_strength = 55
 		build_cost_ic = 200
-		manpower = 400
-		naval_dominance_factor = 47
+		manpower = 350
+		naval_dominance_factor = 40
 
 		resources = {
-			steel = 3
+			steel = 2
 		}
 	}
 

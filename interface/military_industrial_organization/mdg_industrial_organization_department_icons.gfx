@@ -12,17 +12,17 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_mio_cat_eq_all_mdg_boat"
-		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+		name = "GFX_mio_cat_eq_all_mdg_fac"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_fac_ship.dds"
 	}
 
 	spriteType = {
-		name = "GFX_military_industrial_organization_mdg_boat"
-		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+		name = "GFX_military_industrial_organization_mdg_fac"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_fac_ship.dds"
 	}
 	spriteType = {
-		name = "GFX_military_industrial_organization_mdg_ship_hull_boat"
-		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_destroyer_ship.dds"
+		name = "GFX_military_industrial_organization_mdg_ship_hull_fac"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_fac_ship.dds"
 	}
 
 
@@ -58,11 +58,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_military_industrial_organization_mdg_auxiliary"
-		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_light_cruiser_ship.dds"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_auxilary_ship.dds"
 	}
 	spriteType = {
 		name = "GFX_military_industrial_organization_mdg_ship_hull_auxiliary"
-		texturefile = "gfx/interface/military_industrial_organization/department_icons/generic_mio_department_icon_ship_light_cruiser_ship.dds"
+		texturefile = "gfx/interface/military_industrial_organization/department_icons/mdg_mio_department_icon_ship_auxilary_ship.dds"
 	}
 
 

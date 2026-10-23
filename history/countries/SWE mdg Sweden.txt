@@ -35,7 +35,7 @@
 
 	create_equipment_variant = {
 		name = "V-27 Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:SWE_gotaverken_organization
 		modules = {
@@ -65,7 +65,7 @@
 
 	create_equipment_variant = {
 		name = "MTB Thornycroft Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:SWE_gotaverken_organization
 		modules = {
@@ -75,14 +75,6 @@
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			rear_1_custom_slot = mdg_ship_light_guns_1
 		}
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_SWE_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_SWE_1936_naval_legacy"
 	}
 }
 
@@ -107,7 +99,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "MAS Class"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			design_team = mio:SWE_gotaverken_organization
 			modules = {
@@ -118,9 +110,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_SWE_1939_naval_mtg"
 	}
 }

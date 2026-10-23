@@ -31,8 +31,8 @@ ENG_MAC_HISTORICAL = {
 
 	unique = {
 		"Audacity" "Attacker" "Ruler" "Escort" "Empire MacAlpine" "Empire MacKendrick" "Empire MacAndrew" "Empire MacDermott"
-			"Empire MacRae" "Empire MacCallun" "Ancylus" "Avacus" "Amastra" "Alexia" "Rapana" "Miralda" "Adula" "Macoma" "Gadila"
-			"Empire МасКау" "Empire МасСоll" "Empire MacMahon" "Empire MacCabe"
+		"Empire MacRae" "Empire MacCallun" "Ancylus" "Avacus" "Amastra" "Alexia" "Rapana" "Miralda" "Adula" "Macoma" "Gadila"
+		"Empire МасКау" "Empire МасСоll" "Empire MacMahon" "Empire MacCabe"
 	}
 }
 

@@ -19,7 +19,7 @@
 
 	create_equipment_variant = {
 		name = "Thornycroft Class"
-		type = mdg_ship_hull_boat_1
+		type = mdg_ship_hull_fac_1
 		parent_version = 0
 		design_team = mio:generic_small_ship_organization
 		modules = {
@@ -32,21 +32,13 @@
 	}
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	load_oob = "mdg_YUG_1936_naval_mtg"
-	else = {
-		load_oob = "mdg_YUG_1936_naval_legacy"
-	}
-}
-
 1939.1.1 = {
 	IF = {
 		limit = { has_dlc = "Man the Guns" }
 
 		create_equipment_variant = {
 			name = "S-2 Class"
-			type = mdg_ship_hull_boat_2
+			type = mdg_ship_hull_fac_2
 			parent_version = 0
 			obsolete = no
 			design_team = mio:generic_small_ship_organization
@@ -58,9 +50,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		load_oob = "mdg_YUG_1939_naval_mtg"
 	}
 }

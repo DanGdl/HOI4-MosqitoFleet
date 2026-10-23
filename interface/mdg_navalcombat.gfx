@@ -7,8 +7,8 @@ spriteTypes = {
 	}
 
 	spriteType = { # "boats"
-		name = "GFX_navalcombat_ship_icon_mdg_boat"
-		texturefile = "gfx/interface/navalcombat/ships/mdg_boat.dds"
+		name = "GFX_navalcombat_ship_icon_mdg_fac"
+		texturefile = "gfx/interface/navalcombat/ships/mdg_fac.dds"
 		noOfFrames = 2
 	}
 

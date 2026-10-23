@@ -18,85 +18,85 @@ spriteTypes = {
 
 ###################################################
 
-	# Boat
+	# FAC
 	spriteType = {
-		name = "GFX_SM_mdg_boat_light_battery"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_fixed_guns.dds"
+		name = "GFX_SM_mdg_fac_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_fixed_guns.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_light_battery@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_fixed_guns@highlight.dds"
+		name = "GFX_SM_mdg_fac_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_fixed_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_rear_light_battery"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_rear_guns.dds"
+		name = "GFX_SM_mdg_fac_rear_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_rear_guns.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_rear_light_battery@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_rear_guns@highlight.dds"
+		name = "GFX_SM_mdg_fac_rear_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_rear_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mid_light_battery"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_mid_guns.dds"
+		name = "GFX_SM_mdg_fac_mid_light_battery"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_mid_guns.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mid_light_battery@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_mid_guns@highlight.dds"
+		name = "GFX_SM_mdg_fac_mid_light_battery@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_mid_guns@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mid_depth_charge"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_mid_depth_charge.dds"
+		name = "GFX_SM_mdg_fac_mid_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_mid_depth_charge.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mid_depth_charge@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_mid_depth_charge@highlight.dds"
+		name = "GFX_SM_mdg_fac_mid_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_mid_depth_charge@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_rear_depth_charge"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_rear_depth_charge.dds"
+		name = "GFX_SM_mdg_fac_rear_depth_charge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_rear_depth_charge.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_rear_depth_charge@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_rear_depth_charge@highlight.dds"
+		name = "GFX_SM_mdg_fac_rear_depth_charge@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_rear_depth_charge@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mine_layer"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_mine_rails.dds"
+		name = "GFX_SM_mdg_fac_mine_layer"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_mine_rails.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mine_layer@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_mine_rails@highlight.dds"
+		name = "GFX_SM_mdg_fac_mine_layer@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_mine_rails@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_fixed_torpedos.dds"
+		name = "GFX_SM_mdg_fac_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_fixed_torpedos.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_fixed_torpedos@highlight.dds"
+		name = "GFX_SM_mdg_fac_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_fixed_torpedos@highlight.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mid_torpedo"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_torpedos.dds"
+		name = "GFX_SM_mdg_fac_mid_torpedo"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_torpedos.dds"
 	}
 
 	spriteType = {
-		name = "GFX_SM_mdg_boat_mid_torpedo@highlight"
-		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/boat/usa_mdg_boat_torpedos@highlight.dds"
+		name = "GFX_SM_mdg_fac_mid_torpedo@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/fac/usa_mdg_fac_torpedos@highlight.dds"
 	}
 
 

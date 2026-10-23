@@ -7,10 +7,10 @@
 			location = 2110
 
 			# 1939
-			ship = { name = "ARV CS-1 Antonio Diaz" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
-			ship = { name = "ARV CS-2 Brion" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
-			ship = { name = "ARV CS-3 Bricendo Mendez" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
-			ship = { name = "ARV CS-4 Arismendi" definition = mdg_boat equipment = { mdg_ship_hull_boat_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-1 Antonio Diaz" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-2 Brion" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-3 Bricendo Mendez" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
+			ship = { name = "ARV CS-4 Arismendi" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = VEN version_name = "83-feet Class" } } }
 		}
 	}
 }

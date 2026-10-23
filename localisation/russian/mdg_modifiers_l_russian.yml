@@ -1,7 +1,7 @@
 ﻿l_russian:
- modifier_experience_gain_mdg_boat_mission_factor: "Получаемый опыт от выполнения заданий катером"
- modifier_experience_gain_mdg_boat_training_factor: "Получаемый опыт за подготовку катера"
- modifier_experience_gain_mdg_boat_combat_factor: "Получаемый боевой опыт катера"
+ modifier_experience_gain_mdg_fac_mission_factor: "Получаемый опыт от выполнения заданий катером"
+ modifier_experience_gain_mdg_fac_training_factor: "Получаемый опыт за подготовку катера"
+ modifier_experience_gain_mdg_fac_combat_factor: "Получаемый боевой опыт катера"
 
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "Получаемый опыт от выполнения заданий катером на подводных крыльях"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Получаемый опыт за подготовку катера на подводных крыльях"
@@ -39,7 +39,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Стоимость проекта малокалиберного орудия III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Стоимость проекта малокалиберного орудия IV"
 
- mdg_ship_hull_boat_design_cost_factor: "Стоимость проекта катера"
+ mdg_ship_hull_fac_design_cost_factor: "Стоимость проекта катера"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Стоимость проекта катера на подводных крыльях"
  mdg_ship_hull_auxiliary_design_cost_factor: "Стоимость проекта вспомогательного крейсера"
  mdg_ship_hull_corvette_design_cost_factor: "Стоимость проекта корвета"

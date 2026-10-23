@@ -1,0 +1,204 @@
+JAP_StrikeForce_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	keep_updated = yes
+	mission = { naval_strike }
+	min_composition = {
+		carrier = {
+			amount = 1
+		}
+		battleship = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 6
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 2
+		}
+		battleship = {
+			amount = 2
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		mdg_frigate = {
+			amount = 26
+
+		}
+	}
+}
+
+JAP_KidoButai_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	keep_updated = yes
+	mission = { naval_strike }
+	
+	min_composition = {
+		carrier = {
+			amount = 1
+		}
+	}
+	
+	optimal_composition = {
+		carrier = {
+			amount = 4
+		}
+		battle_cruiser = {
+			amount = 3
+		}
+		battleship = {
+			amount = 3
+		}
+		light_cruiser = {
+			amount = 4
+		}
+		mdg_frigate = {
+			amount = 20
+		}
+	}
+}
+
+JAP_PatrolReconForce_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 10
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		light_cruiser = {
+			amount = 1
+		}
+	}
+	optimal_composition = {
+		light_cruiser = {
+			amount = 3
+		}
+		mdg_frigate = {
+			amount = 1
+		}
+	}
+}
+
+JAP_PatrolDominanceForce_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 10
+	}
+	mission = { naval_patrol }
+	min_composition = {
+		heavy_cruiser = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 2
+		}
+	}
+
+	optimal_composition = {
+		heavy_cruiser = {
+			amount = 2
+		}
+		light_cruiser = {
+			amount = 1
+		}
+		mdg_frigate = {
+			amount = 8
+		}
+	}
+}
+
+JAP_NavalInvasionSupport_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { naval_invasion_support }
+	min_composition = {
+		battleship = {
+			amount = 1
+		}
+	}
+
+	optimal_composition = {
+		battleship = {
+			amount = 1
+		}
+		heavy_cruiser = {
+			amount = 2
+		}
+		mdg_frigate = {
+			amount = 8
+		}
+	}
+}
+
+JAP_ConvoyEscort_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 5
+	}
+	mission = { convoy_escort }
+	min_composition = {
+		mdg_frigate = {
+			amount = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_frigate = {
+			amount = 8
+		}
+	}
+}
+
+JAP_MineLaying_1_frigate = {
+	allowed = {
+		original_tag = JAP
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	mission = { mines_planting }
+	min_composition = {
+		mdg_frigate = {
+			amount = 1
+			role = 4
+		}
+	}
+	
+	optimal_composition = {
+		mdg_frigate = {
+			amount = 4
+			role = 4
+		}
+		
+		light_cruiser = {
+			amount = 1
+			role = 4
+		}
+	}
+}

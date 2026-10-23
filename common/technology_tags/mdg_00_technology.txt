@@ -14,6 +14,6 @@ technology_categories = {
 
 	mio_cat_tech_all_mdg_frigate_and_modules
 	mio_cat_tech_all_mdg_corvette_and_modules
-	mio_cat_tech_all_mdg_boat_and_modules
+	mio_cat_tech_all_mdg_fac_and_modules
 	mio_cat_tech_all_mdg_ssm_and_modules # midget submarine included in mio_cat_tech_all_submarine_and_modules
 }

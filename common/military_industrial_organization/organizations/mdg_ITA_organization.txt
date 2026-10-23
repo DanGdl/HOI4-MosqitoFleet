@@ -20,17 +20,17 @@ ITA_baglietto_organization = {
 		}
 
 		# IF = {
-		# 	custom_trigger_tooltip = {
-		# 		tooltip = has_invited_mio_tt
-		# 		FROM = {
-		# 			has_country_flag = has_invited_crda_mio_flag
-		# 		}
-		# 	}
+		#	custom_trigger_tooltip = {
+		#		tooltip = has_invited_mio_tt
+		#		FROM = {
+		#			has_country_flag = has_invited_crda_mio_flag
+		#		}
+		#	}
 		# }
 	}
 	add_trait = {
-		token = generic_mio_trait_fast_boats
-		name = generic_mio_trait_fast_boats
+		token = generic_mio_trait_fast_facs
+		name = generic_mio_trait_fast_facs
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 		special_trait_background = yes
 

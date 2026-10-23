@@ -1,7 +1,7 @@
 ﻿l_korean:
- modifier_experience_gain_mdg_boat_mission_factor: "임무 수행 시 획득하는 보트 경험치"
- modifier_experience_gain_mdg_boat_training_factor: "훈련 시 획득하는 보트 경험치"
- modifier_experience_gain_mdg_boat_combat_factor: "전투 시 획득하는 보트 경험치"
+ modifier_experience_gain_mdg_fac_mission_factor: "임무 수행 시 획득하는 보트 경험치"
+ modifier_experience_gain_mdg_fac_training_factor: "훈련 시 획득하는 보트 경험치"
+ modifier_experience_gain_mdg_fac_combat_factor: "전투 시 획득하는 보트 경험치"
 
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "임무 수행 시 획득하는 수중익정 경험치"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "훈련 시 획득하는 수중익정 경험치"
@@ -39,7 +39,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "소구경 포 III 설계 비용"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "소구경 포 IV 설계 비용"
 
- mdg_ship_hull_boat_design_cost_factor: "보트 선체 설계 비용"
+ mdg_ship_hull_fac_design_cost_factor: "보트 선체 설계 비용"
  mdg_ship_hull_hydrofoil_design_cost_factor: "수중익정 선체 설계 비용"
  mdg_ship_hull_auxiliary_design_cost_factor: "보조 순양함 선체 설계 비용"
  mdg_ship_hull_corvette_design_cost_factor: "코르벳 선체 설계 비용"

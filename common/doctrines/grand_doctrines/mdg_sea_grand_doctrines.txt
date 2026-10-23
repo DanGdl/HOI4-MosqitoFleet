@@ -33,7 +33,7 @@ small_fleet = {
 	mdg_corvette = {
 		max_organisation = 10
 	}
-	mdg_boat = {
+	mdg_fac = {
 		max_organisation = 10
 	}
 	mdg_hydrofoil = {
@@ -47,7 +47,7 @@ small_fleet = {
 	naval_mines_damage_factor = 0.1
 	mines_planting_by_fleets_factor = 0.1
 	mines_sweeping_by_fleets_factor = 0.1
-	
+
 	milestones = {
 		{
 			# Capital Ships
@@ -110,7 +110,9 @@ small_fleet = {
 		}
 		{
 			# Submarines
-			submarine_attack = 0.10
+			submarine = {
+				torpedo_attack = 0.1
+			}
 			naval_torpedo_reveal_chance_factor = -0.10
 			convoy_raiding_efficiency_factor = 0.1
 

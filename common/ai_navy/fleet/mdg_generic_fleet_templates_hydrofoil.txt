@@ -1,0 +1,26 @@
+# Raiding
+mdg_raiding_fleet_hydrofoil = {
+	required_taskforces = {
+		ConvoySurfaceRaiding_1_Hydrofoils = 2
+	}
+	optional_taskforces = {
+		ConvoySurfaceRaiding_1_Hydrofoils = 2
+	}
+}
+
+# Patrol
+mdg_generic_patrol_fleet_hydrofoil = {
+	required_taskforces = {
+		PatrolReconForce_1_Hydrofoil = 2
+	}
+	optional_taskforces = {
+		PatrolReconForce_1_Hydrofoil = 1
+	}
+}
+
+# Minelaying
+mdg_generic_minelaying_fleet_4_hydrofoil = {
+	optional_taskforces = {
+		MineLaying_1_Hydrofoil = 1
+	}
+}

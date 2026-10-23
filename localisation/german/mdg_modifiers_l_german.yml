@@ -1,7 +1,7 @@
 ﻿l_german:
- modifier_experience_gain_mdg_boat_mission_factor: "Erlangte Erfahrung für Boots durch Einsätze"
- modifier_experience_gain_mdg_boat_training_factor: "Erlangte Erfahrung für Boot durch Übung"
- modifier_experience_gain_mdg_boat_combat_factor: "Erlangte Erfahrung für Boot durch Gefechte"
+ modifier_experience_gain_mdg_fac_mission_factor: "Erlangte Erfahrung für Boots durch Einsätze"
+ modifier_experience_gain_mdg_fac_training_factor: "Erlangte Erfahrung für Boot durch Übung"
+ modifier_experience_gain_mdg_fac_combat_factor: "Erlangte Erfahrung für Boot durch Gefechte"
 
  modifier_experience_gain_mdg_hydrofoil_mission_factor: "Erlangte Erfahrung für Tragflügelboot durch Einsätze"
  modifier_experience_gain_mdg_hydrofoil_training_factor: "Erlangte Erfahrung für Tragflügelboot durch Übung"
@@ -37,7 +37,7 @@
  modifier_module_mdg_ship_light_cannon_3_design_cost_factor: "Konstruktionskosten für leichte Kanone III"
  modifier_module_mdg_ship_light_cannon_4_design_cost_factor: "Konstruktionskosten für leichte Kanone IV"
 
- mdg_ship_hull_boat_design_cost_factor: "Konstruktionskosten für Bootsrumpf"
+ mdg_ship_hull_fac_design_cost_factor: "Konstruktionskosten für Bootsrumpf"
  mdg_ship_hull_hydrofoil_design_cost_factor: "Konstruktionskosten für Tragflügelboot-Rumpf"
  mdg_ship_hull_auxiliary_design_cost_factor: "Konstruktionskosten für Hilfskreuzer"
  mdg_ship_hull_corvette_design_cost_factor: "Konstruktionskosten für Korvettenrumpf"
