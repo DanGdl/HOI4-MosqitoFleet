@@ -69,7 +69,7 @@ mdg_generic_refit_civilian_ships_category = {
         remove_effect = {
             if = {
                 limit = {
-                    NOT = {    has_country_flag = mdg_flag_refit_to_cruiser_mtg } #FIN gets flag along with Ship variants via the focus that unlocks these decisions
+                    NOT = { has_country_flag = mdg_flag_refit_to_cruiser_mtg } #FIN gets flag along with Ship variants via the focus that unlocks these decisions
                 }
                 set_country_flag = mdg_flag_refit_to_cruiser_mtg
 
@@ -169,7 +169,7 @@ mdg_generic_refit_civilian_ships_category = {
         remove_effect = {
             if = {
                 limit = {
-                    NOT = {    has_country_flag = mdg_flag_refit_to_escort_mtg }
+                    NOT = { has_country_flag = mdg_flag_refit_to_escort_mtg }
                 }
                 set_country_flag = mdg_flag_refit_to_escort_mtg
 
@@ -264,7 +264,7 @@ mdg_generic_refit_civilian_ships_category = {
         remove_effect = {
             if = {
                 limit = {
-                    NOT = {    has_country_flag = mdg_flag_refit_to_patrol_mtg }
+                    NOT = { has_country_flag = mdg_flag_refit_to_patrol_mtg }
                 }
                 set_country_flag = mdg_flag_refit_to_patrol_mtg
 
@@ -360,7 +360,7 @@ mdg_generic_refit_civilian_ships_category = {
         remove_effect = {
             if = {
                 limit = {
-                    NOT = {    has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
+                    NOT = { has_country_flag = mdg_flag_refit_to_mine_layer_mtg }
                 }
                 set_country_flag = mdg_flag_refit_to_mine_layer_mtg
 
@@ -456,7 +456,7 @@ mdg_generic_refit_civilian_ships_category = {
         remove_effect = {
             if = {
                 limit = {
-                    NOT = {    has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
+                    NOT = { has_country_flag = mdg_flag_refit_to_mine_sweeper_mtg }
                 }
                 set_country_flag = mdg_flag_refit_to_mine_sweeper_mtg
 
@@ -556,7 +556,7 @@ mdg_generic_refit_civilian_ships_category = {
                 }
                 if = {
                     limit = {
-                        NOT = {    has_country_flag = mdg_flag_refit_to_mac_mtg }
+                        NOT = { has_country_flag = mdg_flag_refit_to_mac_mtg }
                     }
                     set_country_flag = mdg_flag_refit_to_mac_mtg
 
