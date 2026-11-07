@@ -37,7 +37,7 @@
 		name = "Thornycroft Class"
 		type = mdg_ship_hull_fac_1
 		parent_version = 0
-		design_team = mio:generic_small_ship_organization
+		design_team = mio:SIA_bangkok_dock_organization
 		modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_radar_slot = empty
