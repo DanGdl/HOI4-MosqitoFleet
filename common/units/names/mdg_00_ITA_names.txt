@@ -5,7 +5,7 @@
 		prefix = "RI"
 		generic = { "IA" }
 		unique = {
-			"Ramb I" "Ramb II" "Ramb III"
+			"Ramb I" "Ramb II" "Ramb III" "Río" "Lago"
 		}
 	}
 
@@ -53,7 +53,7 @@
 		prefix = "RI"
 		generic = { "IA" }
 		unique = {
-			"Ramb I" "Ramb II" "Ramb III"
+			"Ramb I" "Ramb II" "Ramb III" "Río" "Lago"
 		}
 	}
 

@@ -34,14 +34,14 @@
 	mdg_auxiliary = {
 		prefix = "ARE"
 		generic = { "AUX" }
-		unique = {}
+		unique = { "Río" "Lago" "Mar Cantábrico" "Mar Negro" "Ciudad de Valencia" "Ciudad de Alicante" }
 	}
 
 
 	mdg_ship_hull_auxiliary = {
 		prefix = "ARE"
 		generic = { "AUX" }
-		unique = {}
+		unique = { "Río" "Lago" "Mar Cantábrico" "Mar Negro" "Ciudad de Valencia" "Ciudad de Alicante" }
 	}
 
 	mdg_ship_hull_midget_submarine = {
