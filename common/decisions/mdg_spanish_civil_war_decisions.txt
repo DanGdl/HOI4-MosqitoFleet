@@ -8,7 +8,7 @@ naval_support_for_spain_cat = {
 
 		priority = 17
 		ai_will_do = {
-			base = 1000
+			base = 5
 			modifier = {
 				add = 10
 				is_historical_focus_on = yes

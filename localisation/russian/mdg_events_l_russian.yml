@@ -1,6 +1,5 @@
 ﻿l_russian:
  ITA_provides_auxilary_ships: "Поддержали наши ВМС"
- ITA_provides_auxiliary_ships_tt: "([ROOT.GetEscortShipsSender]): передает §Y2 вспомогательных крейсера§! государству [ROOT.GetEscortShipsReceiver]."
  ITA_auxiliary_ships_approved_tt: "В течении 60 дней [ROOT.GetEscortShipsSender] передаст §Y2 вспомогательных крейсера§! государству [ROOT.GetEscortShipsReceiver]."
  
  mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] предлагает нам вспомогательные крейсера"
@@ -14,3 +13,14 @@
 
  mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] отказывается от вспомогательных крейсеров"
  mdg_naval_support_to_spain.03.desc: "[FROM.GetAdjective]ое государство отказалось от наших вспомогательных крейсеров. Знать, силен их флот, раз они отклоняют такое предложение!"
+
+ modifier_sent_facs_to_spain: "Подарили нам торпедные катера"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] предлагает нам торпедные катера"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetAdjective]ое государство предлагает отправить нам торпедные катера. Это весьма щедрый жест."
+
+ mdg_naval_support_to_spain.05.t: "Отправляйте катера в Испанию"
+ mdg_naval_support_to_spain.05.desc: "[FROM.GetAdjective]ий флот готовиться получить наши катера. Будем надеяться, они сослужат там добрую службу."
+ mdg_naval_support_to_spain.05.a: "Ариведерчи!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] отказывается от наших катеров"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetAdjective]ое государство отказалось от наших катеров. Знать, силен их флот, раз они отклоняют такое предложение!"

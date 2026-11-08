@@ -15,4 +15,10 @@ opinion_modifiers = {
 		months = 18
 		decay = 1
 	}
+
+	sent_facs_to_spain = {
+		value = 35
+		months = 18
+		decay = 1
+	}
 }	

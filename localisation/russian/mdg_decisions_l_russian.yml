@@ -38,6 +38,7 @@
  naval_support_for_spain_cat_desc: "Поддержка ВМФ Испании"
 
  ITA_mdg_spanish_navy_support: "Оснастить и передать Испании вспомогательные крейсера"
+ ITA_provides_auxiliary_ships_tt: "([ROOT.GetEscortShipsSender]): передает §Y2 вспомогательных крейсера§! государству [ROOT.GetEscortShipsReceiver]."
  mdg_decision_spanish_navy_support_ita_1: "£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
  mdg_decision_spanish_navy_support_ita_1_blocked: "£GFX_topbar_convoys §R90§! £navy_experience §R20§!"
  mdg_decision_spanish_navy_support_ita_1_tooltip: "Стоимость принятия решения: £GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
