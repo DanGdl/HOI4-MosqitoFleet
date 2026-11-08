@@ -29,8 +29,8 @@ country_event = {
 
 		hidden_effect = {
 			FROM = {
-				set_country_flag = ITA_aux_navy_support_flag 
 				country_event = { id = mdg_naval_support_to_spain.02 hours = 1 }
+				set_country_flag = ITA_aux_navy_support_flag
 			}
 		}
 	}
@@ -43,7 +43,10 @@ country_event = {
 		}
 
 		hidden_effect = {
-			FROM = { country_event = { id = mdg_naval_support_to_spain.03 hours = 1 } }
+			FROM = {
+				country_event = { id = mdg_naval_support_to_spain.03 hours = 1 }
+				set_country_flag = ITA_aux_navy_support_flag
+			}
 		}
 	}
 }
@@ -92,5 +95,179 @@ country_event = {
 				amount = 90
 			}
 		}
+	}
+}
+
+# ITA/GER/SOV offers FACs - Event for Spanish tag
+country_event = {
+	id = mdg_naval_support_to_spain.04
+	title = mdg_naval_support_to_spain.04.t
+	desc = mdg_naval_support_to_spain.04.desc
+	picture = GFX_report_event_destroyers # TODO: add another pictures
+	
+	is_triggered_only = yes
+
+	# Accept
+	option = { 
+		name = mdg_naval_support_to_spain.01.a
+		ai_chance = {
+			base = 10
+		}
+
+		effect_tooltip = {
+			custom_effect_tooltip = mdg_send_fac_to_spain_tt
+			FROM = {
+				add_political_power = 50
+			}
+		}
+
+		hidden_effect = {
+			FROM = {
+				country_event = { id = mdg_naval_support_to_spain.05 hours = 1 }
+				set_country_flag = mdg_send_fac_to_spain_flag
+			}
+		}
+	}
+
+	# Refuse
+	option = {
+		name = mdg_naval_support_to_spain.01.b
+		ai_chance = {
+			base = 0 # AI always says 'yes'
+		}
+
+		hidden_effect = {
+			FROM = {
+				country_event = { id = mdg_naval_support_to_spain.06 hours = 1 }
+				set_country_flag = mdg_send_fac_to_spain_flag
+			}
+		}
+	}
+}
+
+# Country accepts the FACs - Event for ITA/GER/SOV
+country_event = {
+	id = mdg_naval_support_to_spain.05
+	title = mdg_naval_support_to_spain.05.t
+	desc = mdg_naval_support_to_spain.05.desc
+	picture = GFX_report_event_destroyers
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = mdg_naval_support_to_spain.05.a
+
+		add_political_power = 50
+		custom_effect_tooltip = mdg_send_fac_to_spain_tt
+		FROM = {
+			add_opinion_modifier = {
+				modifier = ITA_provides_auxilary_ships
+				target = ROOT
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					original_tag = ITA
+				}
+
+				transfer_ship = {
+					prefer_name = "RCT MAS-100"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "RCT MAS-223"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "RCT MAS-435"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "RCT MAS-437"
+					type = mdg_fac
+					target = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = SOV
+				}
+
+				transfer_ship = {
+					prefer_name = "TKA-12"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "TKA-13"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "TKA-14"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "TKA-15"
+					type = mdg_fac
+					target = FROM
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = GER
+				}
+
+				transfer_ship = {
+					prefer_name = "S-1"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "S-2"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "S-3"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "S-4"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "S-5"
+					type = mdg_fac
+					target = FROM
+				}
+				transfer_ship = {
+					prefer_name = "S-6"
+					type = mdg_fac
+					target = FROM
+				}
+			}
+		}
+	}
+}
+
+# Country rejects the FACs - Event for ITA/GER/SOV
+country_event = {
+	id = mdg_naval_support_to_spain.06
+	title = mdg_naval_support_to_spain.06.t
+	desc = mdg_naval_support_to_spain.06.desc
+	picture = GFX_report_event_destroyers
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = BBA_italy_naval_cooperation_programs.03.a
 	}
 }

@@ -1,0 +1,44 @@
+
+defined_text = {
+	name = mdg_decision_send_facs_to_spain
+	text = {
+		trigger = {
+			OR = {
+				original_tag = ITA
+				original_tag = SOV
+			}
+		}
+		localization_key = mdg_send_facs_to_spain_4
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = mdg_send_facs_to_spain_ger
+	}
+	text = {
+		localization_key = mdg_send_facs_to_spain_fallback_tt
+	}
+}
+
+defined_text = {
+	name = mdg_decision_send_facs_to_spain_tt
+	text = {
+		trigger = {
+			OR = {
+				original_tag = ITA
+				original_tag = SOV
+			}
+		}
+		localization_key = mdg_send_facs_to_spain_4_tt
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = mdg_send_facs_to_spain_ger_tt
+	}
+	text = {
+		localization_key = mdg_send_facs_to_spain_fallback_tt
+	}
+}

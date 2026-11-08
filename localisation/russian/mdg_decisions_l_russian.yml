@@ -44,3 +44,13 @@
  mdg_decision_spanish_navy_support_ita_1_tooltip: "Стоимость принятия решения: £GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
 
  mdg_await_italian_auxiliary_cruisers: "Италия готовит вспомогательные крейсера к передаче"
+
+ mdg_send_facs_to_spain: "Передать Испании торпедные катера"
+ mdg_send_facs_to_spain_4: "§Y4§! торпедных катера"
+ mdg_send_facs_to_spain_ger: "§Y6§! торпедных катеров"
+ mdg_send_facs_to_spain_4_tt: "Для принятия решения требуется $mdg_send_facs_to_spain_4$"
+ mdg_send_facs_to_spain_ger_tt: "Для принятия решения требуется $mdg_send_facs_to_spain_ger$"
+ mdg_send_facs_to_spain_fallback_tt: "Fallback text"
+ mdg_send_facs_to_spain_cost: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_blocked: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_tooltip: "[mdg_decision_send_facs_to_spain_tt]"

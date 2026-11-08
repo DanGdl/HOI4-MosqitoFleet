@@ -72,6 +72,11 @@
 			ship = { name = "R-15" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "R" } } }
 			ship = { name = "R-16" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "R" } } }
 
+			ship = { name = "S-1" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-2" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-3" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-4" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
+			ship = { name = "S-5" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
 			ship = { name = "S-6" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
 			ship = { name = "S-7" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }
 			ship = { name = "S-8" definition = mdg_fac equipment = { mdg_ship_hull_fac_2 = { amount = 1 owner = GER version_name = "S-10" } } }

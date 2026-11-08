@@ -15,6 +15,7 @@
  mdg_naval_support_to_spain.03.desc: "[FROM.GetAdjective]ое государство отказалось от наших вспомогательных крейсеров. Знать, силен их флот, раз они отклоняют такое предложение!"
 
  modifier_sent_facs_to_spain: "Подарили нам торпедные катера"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] передает нам торпедные катера"
  mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] предлагает нам торпедные катера"
  mdg_naval_support_to_spain.04.desc: "[FROM.GetAdjective]ое государство предлагает отправить нам торпедные катера. Это весьма щедрый жест."
 

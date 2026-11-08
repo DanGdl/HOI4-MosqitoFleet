@@ -1,4 +1,4 @@
-Is_compatible_spanish_tag = { # THIS is Spanish tag, ROOT is ITA
+Is_compatible_spanish_tag = { # THIS is Spanish tag, ROOT is ITA/GER/SOV
 	OR = {
 		AND = {
 			# Nationalist Spain
@@ -9,14 +9,14 @@ Is_compatible_spanish_tag = { # THIS is Spanish tag, ROOT is ITA
 			tag = SPB
 			ROOT = { has_government = neutrality }
 		}
-		AND = {
+		AND = { # Republic
 			tag = SPD
 			OR = {
 				ROOT = { has_government = democratic }
 				ROOT = { has_government = communism }
 			}
 		}
-		AND = {
+		AND = { # Anarchy
 			tag = SPC
 			OR = {
 				ROOT = { has_government = communism }

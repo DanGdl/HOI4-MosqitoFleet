@@ -12,6 +12,7 @@
 			ship = { name = "RCT MAS-210" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
 			ship = { name = "RCT MAS-213" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
 			ship = { name = "RCT MAS-216" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
+			ship = { name = "RCT MAS-223" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 12-tons" } } }
 
 			ship = { name = "RCT Eritrea" definition = mdg_corvette equipment = { mdg_ship_hull_corvette_2 = { amount = 1 owner = ITA version_name = "Eritrea Class" } } }
 		}
@@ -62,6 +63,7 @@
 			name = "Squadra di Mar Adriatico"
 			location = 5812 # near Ancona
 
+			ship = { name = "RCT МАS-100" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
 			ship = { name = "RCT МАS-423" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
 			ship = { name = "RCT MAS-426" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
 			ship = { name = "RCT MAS-430" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 13-tons" } } }
@@ -70,6 +72,7 @@
 			ship = { name = "RCT МАS-432" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
 			ship = { name = "RCT MAS-433" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
 			ship = { name = "RCT MAS-434" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
+			ship = { name = "RCT MAS-435" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
 			ship = { name = "RCT MAS-437" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto (SVAN) 14-tons" } } }
 
 			ship = { name = "RCT MAS-438" definition = mdg_fac equipment = { mdg_ship_hull_fac_1 = { amount = 1 owner = ITA version_name = "Baglietto AWS" } } }
