@@ -31,3 +31,25 @@
  mdg_decision_cost_100_convoy_60_NavXP: "£GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
  mdg_decision_cost_100_convoy_60_NavXP_blocked: "£GFX_topbar_convoys §R80§! £navy_experience §R45§!"
  mdg_decision_cost_100_convoy_60_NavXP_tooltip: "决策花费: £GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
+
+ # Spanish civil war
+ naval_support_for_spain_cat: "海军援助西班牙"
+ naval_support_for_spain_cat_desc: "海军援助西班牙"
+
+ ITA_mdg_spanish_navy_support: "改装并向西班牙移交辅助巡洋舰"
+ ITA_provides_auxiliary_ships_tt: "（[ROOT.GetEscortShipsSender]）：向[ROOT.GetEscortShipsReceiver]移交§Y2艘辅助巡洋舰§!。"
+ mdg_decision_spanish_navy_support_ita_1: "£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+ mdg_decision_spanish_navy_support_ita_1_blocked: "£GFX_topbar_convoys §R90§! £navy_experience §R20§!"
+ mdg_decision_spanish_navy_support_ita_1_tooltip: "决策花费：£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+
+ mdg_await_italian_auxiliary_cruisers: "意大利正在准备移交辅助巡洋舰"
+
+ mdg_send_facs_to_spain: "向西班牙移交鱼雷艇"
+ mdg_send_facs_to_spain_4: "§Y4§!艘鱼雷艇"
+ mdg_send_facs_to_spain_ger: "§Y6§!艘鱼雷艇"
+ mdg_send_facs_to_spain_4_tt: "该决议需要$mdg_send_facs_to_spain_4$"
+ mdg_send_facs_to_spain_ger_tt: "该决议需要$mdg_send_facs_to_spain_ger$"
+ mdg_send_facs_to_spain_fallback_tt: "Fallback text"
+ mdg_send_facs_to_spain_cost: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_blocked: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_tooltip: "[mdg_decision_send_facs_to_spain_tt]"

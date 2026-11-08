@@ -1,0 +1,27 @@
+﻿l_korean:
+ ITA_provides_auxilary_ships: "우리 해군을 지원함"
+ ITA_auxiliary_ships_approved_tt: "60일 이내에 [ROOT.GetEscortShipsSender]이(가) [ROOT.GetEscortShipsReceiver]에 §Y보조 순양함 2척§!을 인도합니다."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap], 보조 순양함 제공 제안"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap]이(가) 지원의 의미로 보조 순양함 2척을 보내겠다고 제안했습니다. 매우 관대한 제스처입니다."
+ mdg_naval_support_to_spain.01.a: "관대한 제안에 감사드립니다!"
+ mdg_naval_support_to_spain.01.b: "감사하지만, 우리 힘으로 해내겠습니다"
+
+ mdg_naval_support_to_spain.02.t: "보조 순양함을 스페인으로 보낼 준비를 하라"
+ mdg_naval_support_to_spain.02.desc: "[FROM.GetNameDef] 해군이 우리의 보조 순양함을 인수할 준비를 하고 있습니다. 그곳에서 큰 활약을 해주길 바랍시다."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap], 보조 순양함 거절"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap]이(가) 우리의 보조 순양함을 거절했습니다. 이런 제안을 거절하다니, 그들의 함대가 꽤나 강한 모양입니다!"
+
+ modifier_sent_facs_to_spain: "어뢰정을 선물함"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap]이(가) 우리에게 어뢰정을 인도합니다"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap], 어뢰정 제공 제안"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap]이(가) 어뢰정을 보내겠다고 제안했습니다. 매우 관대한 제스처입니다."
+
+ mdg_naval_support_to_spain.05.t: "어뢰정을 스페인으로 보내라"
+ mdg_naval_support_to_spain.05.desc: "[FROM.GetNameDef] 해군이 우리의 어뢰정을 인수할 준비를 하고 있습니다. 그곳에서 큰 활약을 해주길 바랍시다."
+ mdg_naval_support_to_spain.05.a: "행운을 빕니다!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap], 우리의 어뢰정 거절"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap]이(가) 우리의 어뢰정을 거절했습니다. 이런 제안을 거절하다니, 그들의 함대가 꽤나 강한 모양입니다!"

@@ -8,7 +8,7 @@
  mdg_naval_support_to_spain.01.b: "Спасибо, мы справимся своими силами"
  
  mdg_naval_support_to_spain.02.t: "Готовьте наши вспомогательные крейсера к отправке в Испанию"
- mdg_naval_support_to_spain.02.desc: "[FROM.GetAdjective]ий флот готовиться получить наши вспомогательные крейсера. Будем надеяться, они сослужат там добрую службу."
+ mdg_naval_support_to_spain.02.desc: "[FROM.GetAdjective]ий флот готовится получить наши вспомогательные крейсера. Будем надеяться, они сослужат там добрую службу."
  mdg_naval_support_to_spain.02.a: "Ариведерчи!"
 
  mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] отказывается от вспомогательных крейсеров"
@@ -20,8 +20,8 @@
  mdg_naval_support_to_spain.04.desc: "[FROM.GetAdjective]ое государство предлагает отправить нам торпедные катера. Это весьма щедрый жест."
 
  mdg_naval_support_to_spain.05.t: "Отправляйте катера в Испанию"
- mdg_naval_support_to_spain.05.desc: "[FROM.GetAdjective]ий флот готовиться получить наши катера. Будем надеяться, они сослужат там добрую службу."
- mdg_naval_support_to_spain.05.a: "Ариведерчи!"
+ mdg_naval_support_to_spain.05.desc: "[FROM.GetAdjective]ий флот готовится получить наши катера. Будем надеяться, они сослужат там добрую службу."
+ mdg_naval_support_to_spain.05.a: "Удачи!"
 
  mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] отказывается от наших катеров"
  mdg_naval_support_to_spain.06.desc: "[FROM.GetAdjective]ое государство отказалось от наших катеров. Знать, силен их флот, раз они отклоняют такое предложение!"

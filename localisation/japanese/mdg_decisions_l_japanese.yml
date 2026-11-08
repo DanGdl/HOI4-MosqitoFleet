@@ -31,3 +31,25 @@
  mdg_decision_cost_100_convoy_60_NavXP: "£GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
  mdg_decision_cost_100_convoy_60_NavXP_blocked: "£GFX_topbar_convoys §R80§! £navy_experience §R45§!"
  mdg_decision_cost_100_convoy_60_NavXP_tooltip: "決定のコスト: £GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
+
+ # Spanish civil war
+ naval_support_for_spain_cat: "スペイン海軍への支援"
+ naval_support_for_spain_cat_desc: "スペイン海軍への支援"
+
+ ITA_mdg_spanish_navy_support: "補助巡洋艦を艤装しスペインへ引き渡す"
+ ITA_provides_auxiliary_ships_tt: "([ROOT.GetEscortShipsSender]): [ROOT.GetEscortShipsReceiver]に§Y補助巡洋艦2隻§!を引き渡す。"
+ mdg_decision_spanish_navy_support_ita_1: "£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+ mdg_decision_spanish_navy_support_ita_1_blocked: "£GFX_topbar_convoys §R90§! £navy_experience §R20§!"
+ mdg_decision_spanish_navy_support_ita_1_tooltip: "決定コスト: £GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+
+ mdg_await_italian_auxiliary_cruisers: "イタリアが補助巡洋艦の引き渡しを準備中"
+
+ mdg_send_facs_to_spain: "スペインに魚雷艇を引き渡す"
+ mdg_send_facs_to_spain_4: "魚雷艇§Y4§!隻"
+ mdg_send_facs_to_spain_ger: "魚雷艇§Y6§!隻"
+ mdg_send_facs_to_spain_4_tt: "この決定には$mdg_send_facs_to_spain_4$が必要"
+ mdg_send_facs_to_spain_ger_tt: "この決定には$mdg_send_facs_to_spain_ger$が必要"
+ mdg_send_facs_to_spain_fallback_tt: "Fallback text"
+ mdg_send_facs_to_spain_cost: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_blocked: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_tooltip: "[mdg_decision_send_facs_to_spain_tt]"

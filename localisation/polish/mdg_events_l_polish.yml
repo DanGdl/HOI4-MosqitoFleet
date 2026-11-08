@@ -1,0 +1,27 @@
+﻿l_polish:
+ ITA_provides_auxilary_ships: "Wsparli naszą marynarkę"
+ ITA_auxiliary_ships_approved_tt: "W ciągu 60 dni [ROOT.GetEscortShipsSender] przekaże §Y2 krążowniki pomocnicze§! państwu [ROOT.GetEscortShipsReceiver]."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] oferuje nam krążowniki pomocnicze"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap] proponuje wysłać nam na pomoc dwa krążowniki pomocnicze. To niezwykle hojny gest."
+ mdg_naval_support_to_spain.01.a: "Dziękujemy za hojny gest!"
+ mdg_naval_support_to_spain.01.b: "Dziękujemy, poradzimy sobie sami"
+
+ mdg_naval_support_to_spain.02.t: "Przygotujcie nasze krążowniki pomocnicze do wysłania do Hiszpanii"
+ mdg_naval_support_to_spain.02.desc: "Marynarka [FROM.GetNameDef] przygotowuje się do przyjęcia naszych krążowników pomocniczych. Miejmy nadzieję, że dobrze się tam spiszą."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] odrzuca krążowniki pomocnicze"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap] odrzuca nasze krążowniki pomocnicze. Ich flota musi być naprawdę silna, skoro odrzucają taką ofertę!"
+
+ modifier_sent_facs_to_spain: "Podarowali nam kutry torpedowe"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] przekazuje nam kutry torpedowe"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] oferuje nam kutry torpedowe"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap] proponuje wysłać nam kutry torpedowe. To niezwykle hojny gest."
+
+ mdg_naval_support_to_spain.05.t: "Wyślijcie kutry do Hiszpanii"
+ mdg_naval_support_to_spain.05.desc: "Marynarka [FROM.GetNameDef] przygotowuje się do przyjęcia naszych kutrów. Miejmy nadzieję, że dobrze się tam spiszą."
+ mdg_naval_support_to_spain.05.a: "Powodzenia!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] odrzuca nasze kutry"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap] odrzuca nasze kutry. Ich flota musi być naprawdę silna, skoro odrzucają taką ofertę!"

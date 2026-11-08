@@ -1,0 +1,27 @@
+﻿l_simp_chinese:
+ ITA_provides_auxilary_ships: "支援了我国海军"
+ ITA_auxiliary_ships_approved_tt: "[ROOT.GetEscortShipsSender]将在60天内向[ROOT.GetEscortShipsReceiver]移交§Y2艘辅助巡洋舰§!。"
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap]向我们提供辅助巡洋舰"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap]提出派遣两艘辅助巡洋舰援助我们。这真是十分慷慨的举动。"
+ mdg_naval_support_to_spain.01.a: "感谢慷慨相助！"
+ mdg_naval_support_to_spain.01.b: "谢谢，我们能自己应付"
+
+ mdg_naval_support_to_spain.02.t: "准备将我们的辅助巡洋舰派往西班牙"
+ mdg_naval_support_to_spain.02.desc: "[FROM.GetNameDef]海军正准备接收我们的辅助巡洋舰。希望它们能在那里发挥作用。"
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap]拒绝了辅助巡洋舰"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap]拒绝了我们的辅助巡洋舰。能回绝这样的提议，看来他们的舰队相当强大！"
+
+ modifier_sent_facs_to_spain: "赠予我们鱼雷艇"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap]向我们移交鱼雷艇"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap]向我们提供鱼雷艇"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap]提出向我们派遣鱼雷艇。这真是十分慷慨的举动。"
+
+ mdg_naval_support_to_spain.05.t: "将鱼雷艇派往西班牙"
+ mdg_naval_support_to_spain.05.desc: "[FROM.GetNameDef]海军正准备接收我们的鱼雷艇。希望它们能在那里发挥作用。"
+ mdg_naval_support_to_spain.05.a: "祝好运！"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap]拒绝了我们的鱼雷艇"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap]拒绝了我们的鱼雷艇。能回绝这样的提议，看来他们的舰队相当强大！"

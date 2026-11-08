@@ -20,7 +20,7 @@
  mdg_refit_to_escort: "Refit the vessel into an escort ship"
  mdg_decision_cost_50_convoy_30_NavXP: "£GFX_topbar_convoys §Y50§! £navy_experience §Y30§!"
  mdg_decision_cost_50_convoy_30_NavXP_blocked: "£GFX_topbar_convoys §R50§! £navy_experience §R30§!"
- mdg_decision_cost_20_convoy_20_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y50§! £navy_experience §Y30§! to take the decision"
+ mdg_decision_cost_50_convoy_30_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y50§! £navy_experience §Y30§! to take the decision"
 
  mdg_refit_to_cruiser: "Refit ship to auxiliary cruiser"
  mdg_decision_cost_40_convoy_40_NavXP: "£GFX_topbar_convoys §Y40§! £navy_experience §Y40§!"
@@ -31,3 +31,25 @@
  mdg_decision_cost_100_convoy_60_NavXP: "£GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
  mdg_decision_cost_100_convoy_60_NavXP_blocked: "£GFX_topbar_convoys §R80§! £navy_experience §R45§!"
  mdg_decision_cost_100_convoy_60_NavXP_tooltip: "It costs £GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
+
+ # Spanish civil war
+ naval_support_for_spain_cat: "Naval Support for Spain"
+ naval_support_for_spain_cat_desc: "Naval Support for Spain"
+
+ ITA_mdg_spanish_navy_support: "Refit and transfer auxiliary cruisers to Spain"
+ ITA_provides_auxiliary_ships_tt: "([ROOT.GetEscortShipsSender]): transfers §Y2 auxiliary cruisers§! to [ROOT.GetEscortShipsReceiver]."
+ mdg_decision_spanish_navy_support_ita_1: "£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+ mdg_decision_spanish_navy_support_ita_1_blocked: "£GFX_topbar_convoys §R90§! £navy_experience §R20§!"
+ mdg_decision_spanish_navy_support_ita_1_tooltip: "It costs £GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+
+ mdg_await_italian_auxiliary_cruisers: "Italy is preparing auxiliary cruisers for transfer"
+
+ mdg_send_facs_to_spain: "Transfer torpedo boats to Spain"
+ mdg_send_facs_to_spain_4: "§Y4§! torpedo boats"
+ mdg_send_facs_to_spain_ger: "§Y6§! torpedo boats"
+ mdg_send_facs_to_spain_4_tt: "The decision requires $mdg_send_facs_to_spain_4$"
+ mdg_send_facs_to_spain_ger_tt: "The decision requires $mdg_send_facs_to_spain_ger$"
+ mdg_send_facs_to_spain_fallback_tt: "Fallback text"
+ mdg_send_facs_to_spain_cost: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_blocked: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_tooltip: "[mdg_decision_send_facs_to_spain_tt]"

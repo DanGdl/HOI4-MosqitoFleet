@@ -1,0 +1,27 @@
+﻿l_spanish:
+ ITA_provides_auxilary_ships: "Apoyó a nuestra armada"
+ ITA_auxiliary_ships_approved_tt: "En un plazo de 60 días, [ROOT.GetEscortShipsSender] entregará §Y2 cruceros auxiliares§! a [ROOT.GetEscortShipsReceiver]."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] nos ofrece cruceros auxiliares"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap] se ofrece a enviarnos dos cruceros auxiliares como ayuda. Es un gesto muy generoso."
+ mdg_naval_support_to_spain.01.a: "¡Gracias por el generoso gesto!"
+ mdg_naval_support_to_spain.01.b: "Gracias, nos las arreglaremos por nuestra cuenta"
+
+ mdg_naval_support_to_spain.02.t: "Preparad nuestros cruceros auxiliares para su envío a España"
+ mdg_naval_support_to_spain.02.desc: "La armada de [FROM.GetNameDef] se prepara para recibir nuestros cruceros auxiliares. Esperemos que presten un buen servicio allí."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] rechaza los cruceros auxiliares"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap] ha rechazado nuestros cruceros auxiliares. ¡Su flota debe de ser fuerte si rechazan semejante oferta!"
+
+ modifier_sent_facs_to_spain: "Nos regaló lanchas torpederas"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] nos entrega lanchas torpederas"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] nos ofrece lanchas torpederas"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap] se ofrece a enviarnos lanchas torpederas. Es un gesto muy generoso."
+
+ mdg_naval_support_to_spain.05.t: "Enviad las lanchas a España"
+ mdg_naval_support_to_spain.05.desc: "La armada de [FROM.GetNameDef] se prepara para recibir nuestras lanchas. Esperemos que presten un buen servicio allí."
+ mdg_naval_support_to_spain.05.a: "¡Buena suerte!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] rechaza nuestras lanchas"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap] ha rechazado nuestras lanchas. ¡Su flota debe de ser fuerte si rechazan semejante oferta!"

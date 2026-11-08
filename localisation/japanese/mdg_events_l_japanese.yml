@@ -1,0 +1,27 @@
+﻿l_japanese:
+ ITA_provides_auxilary_ships: "我が海軍を支援した"
+ ITA_auxiliary_ships_approved_tt: "60日以内に[ROOT.GetEscortShipsSender]が[ROOT.GetEscortShipsReceiver]に§Y補助巡洋艦2隻§!を引き渡す。"
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap]が補助巡洋艦の提供を申し出る"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap]は支援として補助巡洋艦2隻を送ると申し出ている。実に寛大な申し出だ。"
+ mdg_naval_support_to_spain.01.a: "寛大な申し出に感謝する！"
+ mdg_naval_support_to_spain.01.b: "感謝するが、自力で何とかする"
+
+ mdg_naval_support_to_spain.02.t: "補助巡洋艦をスペインへ送る準備をせよ"
+ mdg_naval_support_to_spain.02.desc: "[FROM.GetNameDef]海軍は我々の補助巡洋艦を受け入れる準備を進めている。彼の地で存分に働いてくれることを願おう。"
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap]が補助巡洋艦を辞退"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap]は我々の補助巡洋艦を辞退した。このような申し出を断るとは、よほど強力な艦隊を持っているのだろう！"
+
+ modifier_sent_facs_to_spain: "魚雷艇を贈ってくれた"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap]が我々に魚雷艇を引き渡す"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap]が魚雷艇の提供を申し出る"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap]は魚雷艇を送ると申し出ている。実に寛大な申し出だ。"
+
+ mdg_naval_support_to_spain.05.t: "魚雷艇をスペインへ送れ"
+ mdg_naval_support_to_spain.05.desc: "[FROM.GetNameDef]海軍は我々の魚雷艇を受け入れる準備を進めている。彼の地で存分に働いてくれることを願おう。"
+ mdg_naval_support_to_spain.05.a: "幸運を祈る！"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap]が我々の魚雷艇を辞退"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap]は我々の魚雷艇を辞退した。このような申し出を断るとは、よほど強力な艦隊を持っているのだろう！"
