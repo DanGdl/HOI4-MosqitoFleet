@@ -1,0 +1,96 @@
+###########################
+# Spanish Civil war events
+###########################
+
+add_namespace = mdg_naval_support_to_spain
+
+# Italy offers Auxiliary cruisers - Event for Spanish tag
+country_event = {
+	id = mdg_naval_support_to_spain.01
+	title = mdg_naval_support_to_spain.01.t
+	desc = mdg_naval_support_to_spain.01.desc
+	picture = GFX_report_event_destroyers # TODO: add another pictures
+	
+	is_triggered_only = yes
+
+	# Accept
+	option = { 
+		name = mdg_naval_support_to_spain.01.a
+		ai_chance = {
+			base = 10
+		}
+
+		effect_tooltip = {
+			custom_effect_tooltip = ITA_auxiliary_ships_approved_tt
+			FROM = {
+				add_political_power = 50
+			}
+		}
+
+		hidden_effect = {
+			FROM = {
+				set_country_flag = ITA_aux_navy_support_flag 
+				country_event = { id = mdg_naval_support_to_spain.02 hours = 1 }
+			}
+		}
+	}
+
+	# Refuse
+	option = {
+		name = mdg_naval_support_to_spain.01.b
+		ai_chance = {
+			base = 0 # AI always says 'yes'
+		}
+
+		hidden_effect = {
+			FROM = { country_event = { id = mdg_naval_support_to_spain.03 hours = 1 } }
+		}
+	}
+}
+
+# Country accepts the Auxiliary cruisers - Event for ITA
+country_event = {
+	id = mdg_naval_support_to_spain.02
+	title = mdg_naval_support_to_spain.02.t
+	desc = mdg_naval_support_to_spain.02.desc
+	picture = GFX_report_event_destroyers
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = mdg_naval_support_to_spain.02.a
+
+		add_political_power = 50
+		custom_effect_tooltip = ITA_provides_auxiliary_ships_tt
+		FROM = {
+			add_opinion_modifier = {
+				modifier = ITA_provides_auxilary_ships
+				target = ROOT
+			}
+			set_country_flag = mdg_waits_for_italian_auxiliary_cruisers
+			activate_mission = mdg_await_italian_auxiliary_cruisers
+		}
+	}
+}
+
+# Country rejects the Auxiliary cruisers - Event for ITA
+country_event = {
+	id = mdg_naval_support_to_spain.03
+	title = mdg_naval_support_to_spain.03.t
+	desc = mdg_naval_support_to_spain.03.desc
+	picture = GFX_report_event_destroyers
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = BBA_italy_naval_cooperation_programs.03.a
+
+		hidden_effect = {
+			navy_experience = 20
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 90
+			}
+		}
+	}
+}

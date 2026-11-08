@@ -2,7 +2,7 @@ mdg_generic_refit_civilian_ships_category = {
 	icon = GFX_decision_category_MTG_naval_treaties
 	picture = GFX_decision_cat_picture_generic_shipbuilding
 
-    # Add tags here with first an OR then an AND
+	# Add tags here with first an OR then an AND
 	allowed = {
 	}
 	priority = {
