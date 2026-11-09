@@ -46,7 +46,7 @@
 
  mdg_send_facs_to_spain: "スペインに魚雷艇を引き渡す"
  mdg_send_facs_to_spain_4: "魚雷艇§Y4§!隻"
- mdg_send_facs_to_spain_ger: "魚雷艇§Y6§!隻"
+ mdg_send_facs_to_spain_ger: "魚雷艇§Y5§!隻"
  mdg_send_facs_to_spain_4_tt: "この決定には$mdg_send_facs_to_spain_4$が必要"
  mdg_send_facs_to_spain_ger_tt: "この決定には$mdg_send_facs_to_spain_ger$が必要"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"

@@ -46,7 +46,7 @@
 
  mdg_send_facs_to_spain: "Céder des vedettes lance-torpilles à l'Espagne"
  mdg_send_facs_to_spain_4: "§Y4§! vedettes lance-torpilles"
- mdg_send_facs_to_spain_ger: "§Y6§! vedettes lance-torpilles"
+ mdg_send_facs_to_spain_ger: "§Y5§! vedettes lance-torpilles"
  mdg_send_facs_to_spain_4_tt: "La décision nécessite $mdg_send_facs_to_spain_4$"
  mdg_send_facs_to_spain_ger_tt: "La décision nécessite $mdg_send_facs_to_spain_ger$"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"

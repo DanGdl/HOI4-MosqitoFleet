@@ -46,7 +46,7 @@
 
  mdg_send_facs_to_spain: "Schnellboote an Spanien übergeben"
  mdg_send_facs_to_spain_4: "§Y4§! Schnellboote"
- mdg_send_facs_to_spain_ger: "§Y6§! Schnellboote"
+ mdg_send_facs_to_spain_ger: "§Y5§! Schnellboote"
  mdg_send_facs_to_spain_4_tt: "Für diese Entscheidung werden $mdg_send_facs_to_spain_4$ benötigt"
  mdg_send_facs_to_spain_ger_tt: "Für diese Entscheidung werden $mdg_send_facs_to_spain_ger$ benötigt"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"

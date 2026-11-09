@@ -248,11 +248,6 @@ country_event = {
 					type = mdg_fac
 					target = FROM
 				}
-				transfer_ship = {
-					prefer_name = "S-6"
-					type = mdg_fac
-					target = FROM
-				}
 			}
 		}
 	}

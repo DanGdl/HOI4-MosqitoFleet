@@ -47,7 +47,7 @@
 
  mdg_send_facs_to_spain: "Передать Испании торпедные катера"
  mdg_send_facs_to_spain_4: "§Y4§! торпедных катера"
- mdg_send_facs_to_spain_ger: "§Y6§! торпедных катеров"
+ mdg_send_facs_to_spain_ger: "§Y5§! торпедных катеров"
  mdg_send_facs_to_spain_4_tt: "Для принятия решения требуется $mdg_send_facs_to_spain_4$"
  mdg_send_facs_to_spain_ger_tt: "Для принятия решения требуется $mdg_send_facs_to_spain_ger$"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"

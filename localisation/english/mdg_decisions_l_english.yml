@@ -46,7 +46,7 @@
 
  mdg_send_facs_to_spain: "Transfer torpedo boats to Spain"
  mdg_send_facs_to_spain_4: "§Y4§! torpedo boats"
- mdg_send_facs_to_spain_ger: "§Y6§! torpedo boats"
+ mdg_send_facs_to_spain_ger: "§Y5§! torpedo boats"
  mdg_send_facs_to_spain_4_tt: "The decision requires $mdg_send_facs_to_spain_4$"
  mdg_send_facs_to_spain_ger_tt: "The decision requires $mdg_send_facs_to_spain_ger$"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"

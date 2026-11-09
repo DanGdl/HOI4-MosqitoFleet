@@ -46,7 +46,7 @@
 
  mdg_send_facs_to_spain: "스페인에 어뢰정 인도"
  mdg_send_facs_to_spain_4: "어뢰정 §Y4§!척"
- mdg_send_facs_to_spain_ger: "어뢰정 §Y6§!척"
+ mdg_send_facs_to_spain_ger: "어뢰정 §Y5§!척"
  mdg_send_facs_to_spain_4_tt: "이 결정에는 $mdg_send_facs_to_spain_4$이 필요합니다"
  mdg_send_facs_to_spain_ger_tt: "이 결정에는 $mdg_send_facs_to_spain_ger$이 필요합니다"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"

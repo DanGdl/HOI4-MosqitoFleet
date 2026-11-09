@@ -46,7 +46,7 @@
 
  mdg_send_facs_to_spain: "向西班牙移交鱼雷艇"
  mdg_send_facs_to_spain_4: "§Y4§!艘鱼雷艇"
- mdg_send_facs_to_spain_ger: "§Y6§!艘鱼雷艇"
+ mdg_send_facs_to_spain_ger: "§Y5§!艘鱼雷艇"
  mdg_send_facs_to_spain_4_tt: "该决议需要$mdg_send_facs_to_spain_4$"
  mdg_send_facs_to_spain_ger_tt: "该决议需要$mdg_send_facs_to_spain_ger$"
  mdg_send_facs_to_spain_fallback_tt: "Fallback text"
