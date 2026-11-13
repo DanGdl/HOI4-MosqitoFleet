@@ -323,7 +323,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
+			
 			modifier = {
 				factor = 4
 				OR = {
@@ -335,9 +335,9 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-						category = cl_tech
+    					category = dd_tech
 				}
-			}
+			}			
 			modifier = {
 				not = {
 					any_controlled_state = {
@@ -345,9 +345,9 @@ technologies = {
 					}
 				}
 				factor = 0.2
-			}
+			}			
 		}
-
+		
 		categories = {
 			naval_equipment
 			cl_tech
@@ -396,7 +396,7 @@ technologies = {
 			modifier = {
 				factor = 4
 				has_tech_bonus = {
-						category = cl_tech
+					category = cl_tech
 				}
 			}
 			modifier = {
@@ -1399,6 +1399,16 @@ technologies = {
 
 		on_research_complete = {
 			if = {
+				limit = {
+					is_ai = no
+					has_dlc = "No Compromise, No Surrender"
+					has_dlc = "Gotterdammerung"
+					original_tag = PHI
+				}
+				set_country_flag = PHI_did_carrier_tech
+				mark_focus_tree_layout_dirty = yes
+			}
+			if = { 
 				limit = { has_dlc = "Gotterdammerung"}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
