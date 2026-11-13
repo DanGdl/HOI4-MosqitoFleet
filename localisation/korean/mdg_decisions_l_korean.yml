@@ -31,3 +31,25 @@
  mdg_decision_cost_100_convoy_60_NavXP: "£GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
  mdg_decision_cost_100_convoy_60_NavXP_blocked: "£GFX_topbar_convoys §R80§! £navy_experience §R45§!"
  mdg_decision_cost_100_convoy_60_NavXP_tooltip: "결정 비용: £GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
+
+ # Spanish civil war
+ naval_support_for_spain_cat: "스페인 해군 지원"
+ naval_support_for_spain_cat_desc: "스페인 해군 지원"
+
+ ITA_mdg_spanish_navy_support: "보조 순양함을 의장하여 스페인에 인도"
+ ITA_provides_auxiliary_ships_tt: "([ROOT.GetEscortShipsSender]): [ROOT.GetEscortShipsReceiver]에 §Y보조 순양함 2척§!을 인도합니다."
+ mdg_decision_spanish_navy_support_ita_1: "£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+ mdg_decision_spanish_navy_support_ita_1_blocked: "£GFX_topbar_convoys §R90§! £navy_experience §R20§!"
+ mdg_decision_spanish_navy_support_ita_1_tooltip: "결정 비용: £GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+
+ mdg_await_italian_auxiliary_cruisers: "이탈리아가 보조 순양함 인도를 준비 중"
+
+ mdg_send_facs_to_spain: "스페인에 어뢰정 인도"
+ mdg_send_facs_to_spain_4: "어뢰정 §Y4§!척"
+ mdg_send_facs_to_spain_ger: "어뢰정 §Y5§!척"
+ mdg_send_facs_to_spain_4_tt: "이 결정에는 $mdg_send_facs_to_spain_4$이 필요합니다"
+ mdg_send_facs_to_spain_ger_tt: "이 결정에는 $mdg_send_facs_to_spain_ger$이 필요합니다"
+ mdg_send_facs_to_spain_fallback_tt: "Fallback text"
+ mdg_send_facs_to_spain_cost: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_blocked: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_tooltip: "[mdg_decision_send_facs_to_spain_tt]"

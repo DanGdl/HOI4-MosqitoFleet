@@ -1083,15 +1083,15 @@ guiTypes = {
 			}
 
 			instantTextboxType = {
- 				name = "home_base_name"
- 				position = { x = 60 y = 0 }
- 				font = "hoi_18b"
- 				borderSize = { x = 0 y = 0 }
- 				text = "Home base"
- 				maxWidth = 90
- 				maxHeight = 25
- 				fixedsize = yes
- 				alwaystransparent = yes
+				name = "home_base_name"
+				position = { x = 60 y = 0 }
+				font = "hoi_18b"
+				borderSize = { x = 0 y = 0 }
+				text = "Home base"
+				maxWidth = 90
+				maxHeight = 25
+				fixedsize = yes
+				alwaystransparent = yes
 			}
 		}
 

@@ -1,0 +1,27 @@
+﻿l_russian:
+ ITA_provides_auxilary_ships: "Поддержали наши ВМС"
+ ITA_auxiliary_ships_approved_tt: "В течении 60 дней [ROOT.GetEscortShipsSender] передаст §Y2 вспомогательных крейсера§! государству [ROOT.GetEscortShipsReceiver]."
+ 
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] предлагает нам вспомогательные крейсера"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetAdjective]ое государство предлагает отправить нам в помощь два вспомогательных крейсера. Это весьма щедрый жест."
+ mdg_naval_support_to_spain.01.a: "Спасибо за щедрый жест!"
+ mdg_naval_support_to_spain.01.b: "Спасибо, мы справимся своими силами"
+ 
+ mdg_naval_support_to_spain.02.t: "Готовьте наши вспомогательные крейсера к отправке в Испанию"
+ mdg_naval_support_to_spain.02.desc: "[FROM.GetAdjective]ий флот готовится получить наши вспомогательные крейсера. Будем надеяться, они сослужат там добрую службу."
+ mdg_naval_support_to_spain.02.a: "Ариведерчи!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] отказывается от вспомогательных крейсеров"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetAdjective]ое государство отказалось от наших вспомогательных крейсеров. Знать, силен их флот, раз они отклоняют такое предложение!"
+
+ modifier_sent_facs_to_spain: "Подарили нам торпедные катера"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] передает нам торпедные катера"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] предлагает нам торпедные катера"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetAdjective]ое государство предлагает отправить нам торпедные катера. Это весьма щедрый жест."
+
+ mdg_naval_support_to_spain.05.t: "Отправляйте катера в Испанию"
+ mdg_naval_support_to_spain.05.desc: "[FROM.GetAdjective]ий флот готовится получить наши катера. Будем надеяться, они сослужат там добрую службу."
+ mdg_naval_support_to_spain.05.a: "Удачи!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] отказывается от наших катеров"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetAdjective]ое государство отказалось от наших катеров. Знать, силен их флот, раз они отклоняют такое предложение!"

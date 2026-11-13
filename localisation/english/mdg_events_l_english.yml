@@ -1,0 +1,27 @@
+﻿l_english:
+ ITA_provides_auxilary_ships: "Supported our navy"
+ ITA_auxiliary_ships_approved_tt: "Within 60 days [ROOT.GetEscortShipsSender] will transfer §Y2 auxiliary cruisers§! to [ROOT.GetEscortShipsReceiver]."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] Offers Us Auxiliary Cruisers"
+ mdg_naval_support_to_spain.01.desc: "The [FROM.GetAdjective] government offers to send us two auxiliary cruisers as aid. This is a most generous gesture."
+ mdg_naval_support_to_spain.01.a: "Thank you for the generous gesture!"
+ mdg_naval_support_to_spain.01.b: "Thank you, we will manage on our own"
+
+ mdg_naval_support_to_spain.02.t: "Prepare Our Auxiliary Cruisers for Dispatch to Spain"
+ mdg_naval_support_to_spain.02.desc: "The [FROM.GetAdjective] navy is preparing to receive our auxiliary cruisers. Let us hope they serve well there."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] Declines the Auxiliary Cruisers"
+ mdg_naval_support_to_spain.03.desc: "The [FROM.GetAdjective] government has declined our auxiliary cruisers. Their navy must be strong indeed if they turn down such an offer!"
+
+ modifier_sent_facs_to_spain: "Gifted us torpedo boats"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] transfers torpedo boats to us"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] Offers Us Torpedo Boats"
+ mdg_naval_support_to_spain.04.desc: "The [FROM.GetAdjective] government offers to send us torpedo boats. This is a most generous gesture."
+
+ mdg_naval_support_to_spain.05.t: "Send the Boats to Spain"
+ mdg_naval_support_to_spain.05.desc: "The [FROM.GetAdjective] navy is preparing to receive our boats. Let us hope they serve well there."
+ mdg_naval_support_to_spain.05.a: "Good luck!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] Declines Our Boats"
+ mdg_naval_support_to_spain.06.desc: "The [FROM.GetAdjective] government has declined our boats. Their navy must be strong indeed if they turn down such an offer!"

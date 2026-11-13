@@ -29,9 +29,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/traits/personal/trait_cruiser_officer.dds"
 	}
 
-	#TODO: fix
-	spriteType = {
-		name = "GFX_trait_mdg_mac_officer"
-		texturefile = "gfx/interface/traits/personal/trait_carrier_officer.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_trait_mdg_mac_officer"
+	#	texturefile = "gfx/interface/traits/personal/trait_carrier_officer.dds"
+	#}
 }

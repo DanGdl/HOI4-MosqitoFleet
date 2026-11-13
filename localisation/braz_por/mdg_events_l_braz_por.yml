@@ -1,0 +1,27 @@
+﻿l_braz_por:
+ ITA_provides_auxilary_ships: "Apoiou nossa marinha"
+ ITA_auxiliary_ships_approved_tt: "Em até 60 dias, [ROOT.GetEscortShipsSender] entregará §Y2 cruzadores auxiliares§! a [ROOT.GetEscortShipsReceiver]."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] nos oferece cruzadores auxiliares"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap] se oferece para nos enviar dois cruzadores auxiliares como ajuda. É um gesto muito generoso."
+ mdg_naval_support_to_spain.01.a: "Obrigado pelo gesto generoso!"
+ mdg_naval_support_to_spain.01.b: "Obrigado, daremos conta sozinhos"
+
+ mdg_naval_support_to_spain.02.t: "Preparem nossos cruzadores auxiliares para o envio à Espanha"
+ mdg_naval_support_to_spain.02.desc: "A marinha de [FROM.GetNameDef] se prepara para receber nossos cruzadores auxiliares. Esperemos que prestem bons serviços por lá."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] recusa os cruzadores auxiliares"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap] recusou nossos cruzadores auxiliares. A frota deles deve ser forte para rejeitar uma oferta dessas!"
+
+ modifier_sent_facs_to_spain: "Presenteou-nos com lanchas torpedeiras"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] nos entrega lanchas torpedeiras"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] nos oferece lanchas torpedeiras"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap] se oferece para nos enviar lanchas torpedeiras. É um gesto muito generoso."
+
+ mdg_naval_support_to_spain.05.t: "Enviem as lanchas para a Espanha"
+ mdg_naval_support_to_spain.05.desc: "A marinha de [FROM.GetNameDef] se prepara para receber nossas lanchas. Esperemos que prestem bons serviços por lá."
+ mdg_naval_support_to_spain.05.a: "Boa sorte!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] recusa nossas lanchas"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap] recusou nossas lanchas. A frota deles deve ser forte para rejeitar uma oferta dessas!"

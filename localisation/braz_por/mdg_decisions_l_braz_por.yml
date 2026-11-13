@@ -31,3 +31,25 @@
  mdg_decision_cost_100_convoy_60_NavXP: "£GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
  mdg_decision_cost_100_convoy_60_NavXP_blocked: "£GFX_topbar_convoys §R80§! £navy_experience §R45§!"
  mdg_decision_cost_100_convoy_60_NavXP_tooltip: "Custo da decisão: £GFX_topbar_convoys §Y100§! £navy_experience §Y60§!"
+
+ # Spanish civil war
+ naval_support_for_spain_cat: "Apoio naval à Espanha"
+ naval_support_for_spain_cat_desc: "Apoio naval à Espanha"
+
+ ITA_mdg_spanish_navy_support: "Equipar e entregar cruzadores auxiliares à Espanha"
+ ITA_provides_auxiliary_ships_tt: "([ROOT.GetEscortShipsSender]): entrega §Y2 cruzadores auxiliares§! a [ROOT.GetEscortShipsReceiver]."
+ mdg_decision_spanish_navy_support_ita_1: "£GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+ mdg_decision_spanish_navy_support_ita_1_blocked: "£GFX_topbar_convoys §R90§! £navy_experience §R20§!"
+ mdg_decision_spanish_navy_support_ita_1_tooltip: "Custo da decisão: £GFX_topbar_convoys §Y90§! £navy_experience §Y20§!"
+
+ mdg_await_italian_auxiliary_cruisers: "A Itália está preparando cruzadores auxiliares para entrega"
+
+ mdg_send_facs_to_spain: "Entregar lanchas torpedeiras à Espanha"
+ mdg_send_facs_to_spain_4: "§Y4§! lanchas torpedeiras"
+ mdg_send_facs_to_spain_ger: "§Y5§! lanchas torpedeiras"
+ mdg_send_facs_to_spain_4_tt: "A decisão requer $mdg_send_facs_to_spain_4$"
+ mdg_send_facs_to_spain_ger_tt: "A decisão requer $mdg_send_facs_to_spain_ger$"
+ mdg_send_facs_to_spain_fallback_tt: "Fallback text"
+ mdg_send_facs_to_spain_cost: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_blocked: "[mdg_decision_send_facs_to_spain]"
+ mdg_send_facs_to_spain_cost_tooltip: "[mdg_decision_send_facs_to_spain_tt]"

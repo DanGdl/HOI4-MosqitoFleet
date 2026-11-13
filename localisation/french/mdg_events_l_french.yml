@@ -1,0 +1,27 @@
+﻿l_french:
+ ITA_provides_auxilary_ships: "A soutenu notre marine"
+ ITA_auxiliary_ships_approved_tt: "Sous 60 jours, [ROOT.GetEscortShipsSender] cédera §Y2 croiseurs auxiliaires§! à [ROOT.GetEscortShipsReceiver]."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] nous propose des croiseurs auxiliaires"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap] propose de nous envoyer deux croiseurs auxiliaires en renfort. C'est un geste fort généreux."
+ mdg_naval_support_to_spain.01.a: "Merci pour ce geste généreux !"
+ mdg_naval_support_to_spain.01.b: "Merci, nous nous débrouillerons seuls"
+
+ mdg_naval_support_to_spain.02.t: "Préparez nos croiseurs auxiliaires pour l'Espagne"
+ mdg_naval_support_to_spain.02.desc: "La marine de [FROM.GetNameDef] se prépare à recevoir nos croiseurs auxiliaires. Espérons qu'ils y rendront de bons services."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] refuse les croiseurs auxiliaires"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap] a refusé nos croiseurs auxiliaires. Leur flotte doit être bien puissante pour décliner une telle offre !"
+
+ modifier_sent_facs_to_spain: "Nous a offert des vedettes lance-torpilles"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] nous cède des vedettes lance-torpilles"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] nous propose des vedettes lance-torpilles"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap] propose de nous envoyer des vedettes lance-torpilles. C'est un geste fort généreux."
+
+ mdg_naval_support_to_spain.05.t: "Envoyez les vedettes en Espagne"
+ mdg_naval_support_to_spain.05.desc: "La marine de [FROM.GetNameDef] se prépare à recevoir nos vedettes. Espérons qu'elles y rendront de bons services."
+ mdg_naval_support_to_spain.05.a: "Bonne chance !"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] refuse nos vedettes"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap] a refusé nos vedettes. Leur flotte doit être bien puissante pour décliner une telle offre !"

@@ -1,0 +1,27 @@
+﻿l_german:
+ ITA_provides_auxilary_ships: "Hat unsere Marine unterstützt"
+ ITA_auxiliary_ships_approved_tt: "Innerhalb von 60 Tagen übergibt [ROOT.GetEscortShipsSender] §Y2 Hilfskreuzer§! an [ROOT.GetEscortShipsReceiver]."
+
+ mdg_naval_support_to_spain.01.t: "[ITA.GetNameDefCap] bietet uns Hilfskreuzer an"
+ mdg_naval_support_to_spain.01.desc: "[FROM.GetNameDefCap] bietet an, uns zwei Hilfskreuzer zur Unterstützung zu schicken. Eine äußerst großzügige Geste."
+ mdg_naval_support_to_spain.01.a: "Danke für die großzügige Geste!"
+ mdg_naval_support_to_spain.01.b: "Danke, wir schaffen das aus eigener Kraft"
+
+ mdg_naval_support_to_spain.02.t: "Bereitet unsere Hilfskreuzer für die Fahrt nach Spanien vor"
+ mdg_naval_support_to_spain.02.desc: "Die Marine von [FROM.GetNameDef] bereitet sich darauf vor, unsere Hilfskreuzer zu übernehmen. Hoffen wir, dass sie dort gute Dienste leisten."
+ mdg_naval_support_to_spain.02.a: "Arrivederci!"
+
+ mdg_naval_support_to_spain.03.t: "[FROM.GetNameDefCap] lehnt die Hilfskreuzer ab"
+ mdg_naval_support_to_spain.03.desc: "[FROM.GetNameDefCap] hat unsere Hilfskreuzer abgelehnt. Ihre Flotte muss wahrlich stark sein, wenn sie ein solches Angebot ausschlagen!"
+
+ modifier_sent_facs_to_spain: "Hat uns Schnellboote geschenkt"
+ mdg_send_fac_to_spain_tt: "[FROM.GetNameDefCap] übergibt uns Schnellboote"
+ mdg_naval_support_to_spain.04.t: "[FROM.GetNameDefCap] bietet uns Schnellboote an"
+ mdg_naval_support_to_spain.04.desc: "[FROM.GetNameDefCap] bietet an, uns Schnellboote zu schicken. Eine äußerst großzügige Geste."
+
+ mdg_naval_support_to_spain.05.t: "Schickt die Boote nach Spanien"
+ mdg_naval_support_to_spain.05.desc: "Die Marine von [FROM.GetNameDef] bereitet sich darauf vor, unsere Boote zu übernehmen. Hoffen wir, dass sie dort gute Dienste leisten."
+ mdg_naval_support_to_spain.05.a: "Viel Glück!"
+
+ mdg_naval_support_to_spain.06.t: "[FROM.GetNameDefCap] lehnt unsere Boote ab"
+ mdg_naval_support_to_spain.06.desc: "[FROM.GetNameDefCap] hat unsere Boote abgelehnt. Ihre Flotte muss wahrlich stark sein, wenn sie ein solches Angebot ausschlagen!"

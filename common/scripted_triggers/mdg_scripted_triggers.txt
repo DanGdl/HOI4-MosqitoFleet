@@ -1,0 +1,53 @@
+Is_compatible_spanish_tag = { # THIS is Spanish tag, ROOT is ITA/GER/SOV
+	OR = {
+		AND = {
+			# Nationalist Spain
+			tag = SPA
+			ROOT = { has_government = fascism }
+		}
+		AND = { # Carlists
+			tag = SPB
+			ROOT = { has_government = neutrality }
+		}
+		AND = { # Republic
+			tag = SPD
+			OR = {
+				ROOT = { has_government = democratic }
+				ROOT = { has_government = communism }
+			}
+		}
+		AND = { # Anarchy
+			tag = SPC
+			OR = {
+				ROOT = { has_government = communism }
+			}
+		}
+	}
+}
+
+# See tag_aliases.txt:
+#SPA = {
+#	original_tag = SPR
+#	OR = {
+#		has_country_flag = SPR_nationalist_spain_flag
+#		has_country_flag = scw_no_lar_nationalists
+#	}
+#}
+
+#SPB = {
+#	original_tag = SPR
+#	has_country_flag = SPR_carlist_spain_flag
+#}
+
+#SPC = {
+#	original_tag = SPR
+#	has_country_flag = SPR_anarchist_spain_flag
+#}
+
+#SPD = {
+#	original_tag = SPR
+#	OR = {
+#		has_country_flag = SPR_republican_spain_flag
+#		has_country_flag = scw_no_lar_republicans
+#	}
+#}

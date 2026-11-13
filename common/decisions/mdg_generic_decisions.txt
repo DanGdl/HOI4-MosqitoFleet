@@ -35,7 +35,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		cancel_if_not_visible = yes
+		# cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_40_convoy_40_NavXP
 		custom_cost_trigger = {
@@ -54,7 +54,7 @@ mdg_generic_refit_civilian_ships_category = {
 					has_dlc = "Man the Guns"
 				}
 				AND = {
-					has_tech = electronic_mechanical_engineering
+					#has_tech = electronic_mechanical_engineering
 					has_tech = early_ship_hull_cruiser
 					has_tech = basic_naval_mines
 					has_tech = basic_battery
@@ -175,7 +175,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		cancel_if_not_visible = yes
+		# cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_50_convoy_30_NavXP
 		custom_cost_trigger = {
@@ -312,7 +312,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		cancel_if_not_visible = yes
+		# cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_30_convoy_25_NavXP
 		custom_cost_trigger = {
@@ -447,7 +447,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		cancel_if_not_visible = yes
+		# cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_30_convoy_20_NavXP_ml
 		custom_cost_trigger = {
@@ -583,7 +583,7 @@ mdg_generic_refit_civilian_ships_category = {
 			}
 			# always = yes
 		}
-		cancel_if_not_visible = yes
+		# cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_30_convoy_20_NavXP_ms
 		custom_cost_trigger = {
@@ -712,7 +712,7 @@ mdg_generic_refit_civilian_ships_category = {
 		allowed = {
 			always = yes
 		}
-		cancel_if_not_visible = yes
+		# cancel_if_not_visible = yes
 
 		custom_cost_text = mdg_decision_cost_100_convoy_60_NavXP
 		custom_cost_trigger = {
